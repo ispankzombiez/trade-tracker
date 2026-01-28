@@ -1,0 +1,28 @@
+# Dependencies
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Don't ignore data directories (we want to track the generated data)
+# But you can add specific files to ignore if needed
+# !data/
+# !Trade Overview/
