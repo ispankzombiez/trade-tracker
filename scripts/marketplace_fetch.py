@@ -44,36 +44,52 @@ def get_username_from_raw_data(farm_id: str) -> Optional[str]:
         print(f"❌ Error reading raw data for farm {farm_id}: {e}")
         return None
 
-def get_marketplace_data(farm_id: str) -> Optional[Dict[str, Any]]:
-    """Get marketplace data for a farm ID."""
-    try:
-        headers = {
-            'Authorization': BEARER_TOKEN,
-            'Content-Type': 'application/json;charset=UTF-8',
-            'Accept': '*/*',
-            'Accept-Language': 'en-US,en;q=0.9',
-            'Origin': 'https://sunflower-land.com',
-            'Referer': 'https://sunflower-land.com/',
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
-        }
-        
-        response = requests.get(f"{MARKETPLACE_API_URL}{farm_id}", headers=headers, timeout=30)
-        response.raise_for_status()
-        
-        if not response.content:
-            print(f"ℹ️  Empty response for farm {farm_id}")
+def get_marketplace_data(farm_id: str, max_retries: int = 3, retry_delay: float = 10.0) -> Optional[Dict[str, Any]]:
+    """Get marketplace data for a farm ID with retry logic."""
+    headers = {
+        'Authorization': BEARER_TOKEN,
+        'Content-Type': 'application/json;charset=UTF-8',
+        'Accept': '*/*',
+        'Accept-Language': 'en-US,en;q=0.9',
+        'Origin': 'https://sunflower-land.com',
+        'Referer': 'https://sunflower-land.com/',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+    }
+    
+    for attempt in range(max_retries):
+        try:
+            response = requests.get(f"{MARKETPLACE_API_URL}{farm_id}", headers=headers, timeout=30)
+            response.raise_for_status()
+            
+            if not response.content:
+                print(f"ℹ️  Empty response for farm {farm_id} (attempt {attempt + 1}/{max_retries})")
+                if attempt < max_retries - 1:
+                    print(f"⏳ Waiting {retry_delay}s before retry...")
+                    time.sleep(retry_delay)
+                    continue
+                return None
+            
+            data = response.json()
+            if isinstance(data, dict):
+                trades = data.get('trades', [])
+                print(f"✅ Found {len(trades)} trades for farm {farm_id}")
+                return data
+            
+            print(f"⚠️  Invalid data format for farm {farm_id} (attempt {attempt + 1}/{max_retries})")
+            if attempt < max_retries - 1:
+                print(f"⏳ Waiting {retry_delay}s before retry...")
+                time.sleep(retry_delay)
+                continue
             return None
-        
-        data = response.json()
-        if isinstance(data, dict):
-            trades = data.get('trades', [])
-            print(f"✅ Found {len(trades)} trades for farm {farm_id}")
-            return data
-        return None
-        
-    except Exception as e:
-        print(f"❌ Error fetching marketplace data for farm {farm_id}: {e}")
-        return None
+            
+        except Exception as e:
+            print(f"❌ Error fetching marketplace data for farm {farm_id} (attempt {attempt + 1}/{max_retries}): {e}")
+            if attempt < max_retries - 1:
+                print(f"⏳ Waiting {retry_delay}s before retry...")
+                time.sleep(retry_delay)
+            else:
+                print(f"❌ Failed after {max_retries} attempts, skipping farm {farm_id}")
+                return None
 
 def create_folders():
     """Create necessary folders."""

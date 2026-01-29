@@ -73,46 +73,68 @@ def update_wait_time(new_wait_time: float, file_path: str = "farm_ids.txt"):
         print(f"❌ Error updating wait time: {e}")
 
 
-def fetch_api_data(url: str, api_key: str, timeout: int = 10) -> Optional[str]:
+def fetch_api_data(url: str, api_key: str, timeout: int = 10, max_retries: int = 3, retry_delay: float = 10.0) -> Optional[str]:
     """
-    Fetch data from API with x-api-key authentication.
+    Fetch data from API with x-api-key authentication and retry logic.
     
     Args:
         url: The API endpoint URL
         api_key: The API key for authentication
         timeout: Request timeout in seconds (default: 10)
+        max_retries: Maximum number of retry attempts (default: 3)
+        retry_delay: Delay between retries in seconds (default: 10.0)
         
     Returns:
-        Response data as string, or None if failed
+        Response data as string, or None if failed after all retries
     """
-    try:
-        headers = {
-            'x-api-key': api_key,
-            'Accept': 'application/json',
-            'User-Agent': 'Python-API-Fetcher/1.0'
-        }
-        
-        response = requests.get(
-            url, 
-            headers=headers, 
-            timeout=timeout
-        )
-        
-        if response.status_code == 200:
-            return response.text
-        else:
-            print(f"❌ API response code: {response.status_code} for {url}")
-            return None
+    headers = {
+        'x-api-key': api_key,
+        'Accept': 'application/json',
+        'User-Agent': 'Python-API-Fetcher/1.0'
+    }
+    
+    for attempt in range(max_retries):
+        try:
+            response = requests.get(
+                url, 
+                headers=headers, 
+                timeout=timeout
+            )
             
-    except requests.exceptions.Timeout:
-        print(f"❌ Request timed out for {url}")
-        return None
-    except requests.exceptions.ConnectionError:
-        print(f"❌ Connection error for {url}")
-        return None
-    except requests.exceptions.RequestException as e:
-        print(f"❌ API fetch error for {url}: {e}")
-        return None
+            if response.status_code == 200:
+                return response.text
+            else:
+                print(f"❌ API response code: {response.status_code} for {url} (attempt {attempt + 1}/{max_retries})")
+                if attempt < max_retries - 1:
+                    print(f"⏳ Waiting {retry_delay}s before retry...")
+                    time.sleep(retry_delay)
+                    continue
+                return None
+                
+        except requests.exceptions.Timeout:
+            print(f"❌ Request timed out for {url} (attempt {attempt + 1}/{max_retries})")
+            if attempt < max_retries - 1:
+                print(f"⏳ Waiting {retry_delay}s before retry...")
+                time.sleep(retry_delay)
+            else:
+                print(f"❌ Failed after {max_retries} timeout attempts")
+                return None
+        except requests.exceptions.ConnectionError:
+            print(f"❌ Connection error for {url} (attempt {attempt + 1}/{max_retries})")
+            if attempt < max_retries - 1:
+                print(f"⏳ Waiting {retry_delay}s before retry...")
+                time.sleep(retry_delay)
+            else:
+                print(f"❌ Failed after {max_retries} connection attempts")
+                return None
+        except requests.exceptions.RequestException as e:
+            print(f"❌ API fetch error for {url} (attempt {attempt + 1}/{max_retries}): {e}")
+            if attempt < max_retries - 1:
+                print(f"⏳ Waiting {retry_delay}s before retry...")
+                time.sleep(retry_delay)
+            else:
+                print(f"❌ Failed after {max_retries} request attempts")
+                return None
 
 
 def create_raw_pull_folder() -> str:

@@ -6,6 +6,11 @@ on:
     - cron: '*/15 * * * *'
   workflow_dispatch: # Allow manual trigger
   
+permissions:
+  contents: write  # Allow writing to repository
+  pages: write     # Allow GitHub Pages deployment
+  id-token: write  # Allow OIDC token
+
 jobs:
   update-trading-data:
     runs-on: self-hosted
