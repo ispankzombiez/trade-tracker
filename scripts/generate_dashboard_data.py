@@ -35,6 +35,62 @@ def parse_trade_line(line: str) -> Dict[str, Any]:
         return None
 
 
+def load_inventory_data(username: str) -> Dict[str, Dict[str, float]]:
+    """Load and categorize inventory data from raw pull files."""
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    parent_dir = os.path.dirname(script_dir)
+    raw_file = os.path.join(parent_dir, "raw pull", f"{username.lower()}.json")
+    
+    inventory_categories = {
+        'crops': {},
+        'fruits': {},
+        'resources': {}
+    }
+    
+    # Define item categories
+    crops = {
+        'Sunflower', 'Potato', 'Pumpkin', 'Carrot', 'Cabbage', 'Beetroot', 'Cauliflower', 
+        'Parsnip', 'Radish', 'Wheat', 'Kale', 'Eggplant', 'Corn', 'Soybean', 'Rice', 
+        'Barley', 'Rhubarb', 'Zucchini', 'Yam', 'Broccoli', 'Pepper', 'Onion', 'Turnip', 
+        'Artichoke', 'Olive'
+    }
+    
+    fruits = {
+        'Apple', 'Blueberry', 'Orange', 'Banana', 'Grape', 'Lemon', 'Tomato', 
+        'Duskberry', 'Lunara', 'Celestine'
+    }
+    
+    resources = {
+        'Axe', 'Pickaxe', 'Shovel', 'Petting Hand', 'Brush', 'Gold Egg', 'Stone', 
+        'Iron', 'Gold', 'Diamond', 'Wood', 'Crimstone'
+    }
+    
+    if os.path.exists(raw_file):
+        try:
+            with open(raw_file, 'r', encoding='utf-8') as f:
+                raw_data = json.load(f)
+            
+            inventory = raw_data.get('farm', {}).get('inventory', {})
+            
+            for item_name, quantity_str in inventory.items():
+                try:
+                    quantity = float(quantity_str)
+                    if quantity > 0:  # Only include items with positive quantities
+                        if item_name in crops:
+                            inventory_categories['crops'][item_name] = quantity
+                        elif item_name in fruits:
+                            inventory_categories['fruits'][item_name] = quantity
+                        elif item_name in resources:
+                            inventory_categories['resources'][item_name] = quantity
+                except (ValueError, TypeError):
+                    continue
+                    
+        except Exception as e:
+            print(f"❌ Error loading inventory data for {username}: {e}")
+    
+    return inventory_categories
+
+
 def load_active_listings_and_offers(username: str) -> Dict[str, List[Dict[str, Any]]]:
     """Load active listings and offers for a user from raw marketplace data."""
     script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -323,6 +379,10 @@ def generate_dashboard_data():
         marketplace_data = load_active_listings_and_offers(username)
         data['active_listings'] = marketplace_data['listings']
         data['active_offers'] = marketplace_data['offers']
+        
+        # Add inventory data
+        inventory_data = load_inventory_data(username)
+        data['inventory'] = inventory_data
         
         user_file = os.path.join(data_dir, f"{username}.json")
         with open(user_file, 'w', encoding='utf-8') as f:

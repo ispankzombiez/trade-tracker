@@ -824,10 +824,10 @@
   "stats": {
     "total_buys": 45,
     "total_sells": 22,
-    "buy_volume": 116.07929999999998,
+    "buy_volume": 116.0793,
     "sell_volume": 97.21509999999999,
-    "gross_profit": -18.864199999999983,
-    "avg_buy_price": 2.5795399999999993,
+    "gross_profit": -18.86420000000001,
+    "avg_buy_price": 2.57954,
     "avg_sell_price": 4.418868181818182,
     "most_traded_items": {},
     "recent_activity": [
@@ -997,7 +997,7 @@
         "time": "01:51 AM"
       }
     ],
-    "profit_margin": -16.25113176940246,
+    "profit_margin": -16.251131769402477,
     "most_bought_items": {
       "Yam": 6204,
       "Broccoli": 2560,
@@ -1060,5 +1060,59 @@
       "trade_type": "instant"
     }
   ],
-  "active_offers": []
+  "active_offers": [],
+  "inventory": {
+    "crops": {
+      "Sunflower": 169324.41650000116,
+      "Potato": 92930.3259999986,
+      "Pumpkin": 11090.302100000208,
+      "Carrot": 9493.0159,
+      "Cabbage": 23077.5582,
+      "Beetroot": 8697.5165,
+      "Cauliflower": 11250.9358,
+      "Parsnip": 1279.4929,
+      "Radish": 3772.2598,
+      "Wheat": 144.2397,
+      "Kale": 283.7111,
+      "Eggplant": 4049.8729,
+      "Corn": 770.7596,
+      "Soybean": 27679.0958,
+      "Rice": 52.05,
+      "Olive": 10.652,
+      "Barley": 101.99839999999998,
+      "Rhubarb": 283.55,
+      "Zucchini": 1225.6,
+      "Yam": 2382.35,
+      "Broccoli": 689.1998,
+      "Pepper": 197.75,
+      "Onion": 206.4989,
+      "Turnip": 141.2483,
+      "Artichoke": 798.8083
+    },
+    "fruits": {
+      "Apple": 1260.25,
+      "Blueberry": 212.10000000000005,
+      "Orange": 346.90000000000003,
+      "Banana": 117.8,
+      "Grape": 68.15,
+      "Tomato": 60.000000000001066,
+      "Lemon": 1831.7500000000007,
+      "Celestine": 1.8,
+      "Duskberry": 7.8,
+      "Lunara": 2.8
+    },
+    "resources": {
+      "Pickaxe": 2843.0,
+      "Shovel": 1.0,
+      "Petting Hand": 1.0,
+      "Brush": 1.0,
+      "Gold Egg": 1.0,
+      "Wood": 82.16,
+      "Stone": 826.45,
+      "Iron": 459.6,
+      "Gold": 12.1,
+      "Crimstone": 37.2,
+      "Axe": 219.0
+    }
+  }
 }
