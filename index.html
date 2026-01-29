@@ -814,11 +814,23 @@
             const newTestElement = document.createElement('div');
             newTestElement.id = 'newTestElement';
             
-            // Calculate some stats for display
+            // Calculate new stats for display
             const stats = userData.overview;
-            const earnedSfl = stats.earned_sfl || 0;
-            const profitClass = earnedSfl >= 0 ? 'profit-positive' : 'profit-negative';
-            const profitSign = earnedSfl >= 0 ? '+' : '';
+            
+            // Calculate total earned from sells
+            const totalEarnedFromSells = (userData.sells || []).reduce((sum, sell) => sum + (sell.price * sell.quantity), 0);
+            
+            // Calculate total spent on buys
+            const totalSpentOnBuys = (userData.buys || []).reduce((sum, buy) => sum + (buy.price * buy.quantity), 0);
+            
+            // Calculate total profit (sells - buys)
+            const totalProfit = totalEarnedFromSells - totalSpentOnBuys;
+            const profitClass = totalProfit >= 0 ? 'profit-positive' : 'profit-negative';
+            const profitSign = totalProfit >= 0 ? '+' : '';
+            
+            // Get other stats
+            const activeListings = stats.active_listings || 0;
+            const currentBalance = stats.balance || 0;
             
             // Get recent trades
             const allTrades = [...(userData.buys || []), ...(userData.sells || [])];
@@ -850,29 +862,25 @@
                     <div class="card">
                         <h3>📈 ${userData.username} Statistics</h3>
                         <div class="stats-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; margin-bottom: 20px;">
+                            <div class="stat-item">
+                                <span class="stat-value">${totalEarnedFromSells.toFixed(2)}</span>
+                                <span class="stat-label">Total Earned from Sells</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-value">${totalSpentOnBuys.toFixed(2)}</span>
+                                <span class="stat-label">Total Spent on Buys</span>
+                            </div>
                             <div class="stat-item ${profitClass}">
-                                <span class="stat-value">${profitSign}${earnedSfl.toFixed(2)}</span>
-                                <span class="stat-label">Earned SFL</span>
+                                <span class="stat-value">${profitSign}${totalProfit.toFixed(2)}</span>
+                                <span class="stat-label">Total Profit</span>
                             </div>
                             <div class="stat-item">
-                                <span class="stat-value">${(stats.balance || 0).toFixed(2)}</span>
-                                <span class="stat-label">Current Balance</span>
-                            </div>
-                            <div class="stat-item">
-                                <span class="stat-value">${(stats.coins || 0).toFixed(0)}</span>
-                                <span class="stat-label">Total Coins</span>
-                            </div>
-                            <div class="stat-item">
-                                <span class="stat-value">${(stats.items_sold || 0).toFixed(0)}</span>
-                                <span class="stat-label">Items Sold</span>
-                            </div>
-                            <div class="stat-item">
-                                <span class="stat-value">${(stats.trade_points || 0).toFixed(2)}</span>
-                                <span class="stat-label">Trade Points</span>
-                            </div>
-                            <div class="stat-item">
-                                <span class="stat-value">${stats.active_listings || 0}</span>
+                                <span class="stat-value">${activeListings}</span>
                                 <span class="stat-label">Active Listings</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-value">${currentBalance.toFixed(2)}</span>
+                                <span class="stat-label">Current SFL Balance</span>
                             </div>
                         </div>
                     </div>
@@ -918,6 +926,26 @@
                                     <div class="profit-amount">${quantity} sold</div>
                                 </div>
                             `).join('')}
+                        </div>
+                    </div>
+                    
+                    <!-- Active Listings -->
+                    <div class="card">
+                        <h3>🏪 Active Listings (${activeListings})</h3>
+                        <div class="recent-activity">
+                            ${(userData.active_listings || []).length > 0 ? 
+                                userData.active_listings.map(listing => `
+                                    <div class="activity-item">
+                                        <div>
+                                            <strong>${listing.item}</strong> x${listing.quantity}
+                                            <br>
+                                            <small>Listed ${listing.date || 'Unknown date'}</small>
+                                        </div>
+                                        <div class="profit-amount">${listing.price ? listing.price.toFixed(2) : 'N/A'} SFL</div>
+                                    </div>
+                                `).join('') 
+                                : '<div style="padding: 20px; text-align: center; color: var(--text-muted);">No active listings</div>'
+                            }
                         </div>
                     </div>
                     
