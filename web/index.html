@@ -597,21 +597,31 @@
             currentTab = tabName;
             
             // Update tab button states
+            debugLog('Updating tab button states...');
             document.querySelectorAll('.tab-btn').forEach(btn => {
                 btn.classList.toggle('active', btn.getAttribute('data-tab') === tabName);
             });
+            debugLog('Tab button states updated');
             
             if (tabName === 'overview') {
-                console.log('Showing overview tab');
+                debugLog('Showing overview tab');
                 // Show general stats, hide user details
                 document.getElementById('generalStats').classList.remove('hidden');
                 document.getElementById('userDetails').style.display = 'none';
                 document.getElementById('detailedTrades').style.display = 'none';
                 currentUser = null;
+                debugLog('Overview tab setup complete');
             } else {
-                console.log('Showing user tab for:', tabName);
+                debugLog('Showing user tab for: ' + tabName);
                 // Hide general stats, show user details for the selected trader
-                document.getElementById('generalStats').classList.add('hidden');
+                const generalStats = document.getElementById('generalStats');
+                if (generalStats) {
+                    generalStats.classList.add('hidden');
+                    debugLog('General stats hidden');
+                } else {
+                    debugLog('ERROR: generalStats element not found');
+                }
+                debugLog('About to call selectUser for: ' + tabName);
                 selectUser(tabName);
             }
         }
