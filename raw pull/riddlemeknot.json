@@ -89,7 +89,7 @@
       "Eggplant": "303.2445",
       "Radish": "390.1824",
       "Orange": "65.6000000000000433",
-      "Love Charm": "5101",
+      "Love Charm": "5102",
       "Clownfish": "20",
       "Yam": "1007.4791",
       "Broccoli": "1190",
@@ -6320,16 +6320,16 @@
     "floatingIsland": {
       "schedule": [
         {
-          "startAt": 1769689200000,
-          "endAt": 1769691000000
-        },
-        {
           "startAt": 1769719200000,
           "endAt": 1769721000000
         },
         {
           "startAt": 1769749200000,
           "endAt": 1769751000000
+        },
+        {
+          "startAt": 1769779200000,
+          "endAt": 1769781000000
         }
       ],
       "shop": {
@@ -8094,7 +8094,7 @@
           "petXP": 0,
           "score": 0,
           "collectivePet": {
-            "totalXP": 4832003,
+            "totalXP": 4880082,
             "goalXP": 2404688,
             "goalReached": true,
             "streak": 3,
@@ -9528,7 +9528,7 @@
       "Sunshower": 1769459422702
     },
     "socialFarming": {
-      "points": 11232,
+      "points": 11237,
       "clutter": {
         "spawnedAt": 1769644800525,
         "locations": {
@@ -9565,27 +9565,27 @@
           "winnerId": 6732621494008337
         },
         "Woodcutter's Monument": {
-          "cheers": 802,
+          "cheers": 803,
           "winnerId": 2299
         },
         "Big Banana": {
-          "cheers": 173,
+          "cheers": 174,
           "winnerId": 170570
         },
         "Miner's Monument": {
-          "cheers": 139,
+          "cheers": 140,
           "winnerId": 2299
         },
         "Big Apple": {
-          "cheers": 39,
-          "winnerId": 53865
+          "cheers": 40,
+          "winnerId": 2299
         },
         "Cornucopia": {
-          "cheers": 36,
+          "cheers": 37,
           "winnerId": 170570
         },
         "Big Orange": {
-          "cheers": 24,
+          "cheers": 25,
           "winnerId": 6829176592395803
         }
       },
@@ -9609,7 +9609,7 @@
       },
       "weeklyPoints": {
         "week": "2026-01-26",
-        "points": 282
+        "points": 287
       },
       "helpIncrease": {
         "boughtAt": [
@@ -9628,7 +9628,7 @@
       "common": {
         "Waddles": {
           "name": "Waddles",
-          "experience": 24990,
+          "experience": 24995,
           "energy": 1485,
           "requests": {
             "food": [
@@ -9644,7 +9644,7 @@
           },
           "pettedAt": 1769671519488,
           "dailySocialXP": {
-            "2026-01-29": 10
+            "2026-01-29": 15
           },
           "fetches": {
             "Acorn": 111,
@@ -9655,7 +9655,7 @@
         },
         "Nibbles": {
           "name": "Nibbles",
-          "experience": 7240,
+          "experience": 7245,
           "energy": 3060,
           "requests": {
             "food": [
@@ -9671,7 +9671,7 @@
           },
           "pettedAt": 1769671517833,
           "dailySocialXP": {
-            "2026-01-29": 10
+            "2026-01-29": 15
           },
           "fetches": {
             "Chewed Bone": 5,
@@ -9684,7 +9684,7 @@
         "406": {
           "name": "Pet #406",
           "id": 406,
-          "experience": 26580,
+          "experience": 26585,
           "energy": 26745,
           "requests": {
             "food": [
@@ -9715,7 +9715,7 @@
           },
           "location": "farm",
           "dailySocialXP": {
-            "2026-01-29": 10
+            "2026-01-29": 15
           },
           "walking": true
         }
