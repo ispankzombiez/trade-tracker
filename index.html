@@ -459,7 +459,10 @@
             <h1>🌻 Trade Tracker</h1>
             <a href="https://sunflower-land.com/play/#/visit/1128976301583508" class="farm-link" target="_blank">Visit iSPANK's Farm</a>
             <div class="last-updated" id="lastUpdated">Loading...</div>
-            <div id="debugTest" style="background: red; color: white; padding: 10px; margin: 10px;">DEBUG: JavaScript not running</div>
+            <div id="debugPanel" style="background: #333; color: white; padding: 15px; margin: 10px; border-radius: 8px; font-family: monospace; font-size: 12px;">
+                <strong>🔧 DEBUG PANEL</strong><br>
+                <div id="debugLog">Starting debug session...</div>
+            </div>
             <button class="refresh-btn" onclick="refreshData()">🔄 Refresh</button>
         </div>
 
@@ -580,9 +583,17 @@
         let currentUser = null;
         let currentTab = 'overview';
 
+        function debugLog(message) {
+            const debugElement = document.getElementById('debugLog');
+            if (debugElement) {
+                debugElement.innerHTML += '<br>' + new Date().toLocaleTimeString() + ': ' + message;
+                debugElement.scrollTop = debugElement.scrollHeight;
+            }
+            console.log('DEBUG:', message);
+        }
+
         function switchTab(tabName) {
-            alert('switchTab called with: ' + tabName); // Temporary debug
-            console.log('switchTab called with:', tabName);
+            debugLog('switchTab called with: ' + tabName);
             currentTab = tabName;
             
             // Update tab button states
@@ -606,35 +617,42 @@
         }
 
         async function loadData() {
+            debugLog('loadData called');
             try {
                 const response = await fetch('./data/summary.json');
                 if (!response.ok) {
                     throw new Error('Failed to load data');
                 }
                 dashboardData = await response.json();
+                debugLog('Dashboard data loaded successfully');
                 updateUI();
             } catch (error) {
+                debugLog('ERROR loading data: ' + error.message);
                 console.error('Error loading data:', error);
                 showError();
             }
         }
 
         function showError() {
+            debugLog('showError called');
             document.getElementById('loading').style.display = 'none';
             document.getElementById('error').style.display = 'block';
             document.getElementById('dashboard').style.display = 'none';
         }
 
         function updateUI() {
+            debugLog('updateUI called');
             document.getElementById('loading').style.display = 'none';
             document.getElementById('error').style.display = 'none';
             document.getElementById('dashboard').style.display = 'block';
 
+            debugLog('Updating UI components...');
             updateLastUpdated();
             updateTopTraders();
             updateMarketSummary();
             updateRecentActivity();
             updateUserButtons();
+            debugLog('UI update completed');
         }
 
         function updateLastUpdated() {
@@ -721,50 +739,49 @@
         }
 
         async function selectUser(username) {
+            debugLog('selectUser called for: ' + username);
             currentUser = username;
-            
-            console.log('Selecting user:', username);
 
             try {
+                debugLog('Fetching data for: ' + username);
                 const response = await fetch(`./data/${username}.json`);
                 if (!response.ok) {
-                    throw new Error('Failed to load user data');
+                    throw new Error('HTTP ' + response.status);
                 }
                 const userData = await response.json();
-                console.log('User data loaded:', userData);
+                debugLog('User data loaded successfully');
                 updateUserDetails(userData);
             } catch (error) {
+                debugLog('ERROR loading user data: ' + error.message);
                 console.error('Error loading user data:', error);
                 alert(`Error loading user data for ${username}: ${error.message}`);
             }
         }
 
         function updateUserDetails(userData) {
-            console.log('updateUserDetails called with:', userData);
+            debugLog('updateUserDetails called for: ' + userData.username);
             
             if (!userData || !userData.username) {
-                console.error('Invalid user data:', userData);
+                debugLog('ERROR: Invalid user data');
                 return;
             }
-            
-            console.log('Updating user details for:', userData.username);
             
             // Set the title
             const titleElement = document.getElementById('userDetailsTitle');
             if (titleElement) {
                 titleElement.textContent = `📈 ${userData.username} Statistics`;
-                console.log('Updated title to:', titleElement.textContent);
+                debugLog('Updated title successfully');
             } else {
-                console.error('userDetailsTitle element not found!');
+                debugLog('ERROR: userDetailsTitle element not found');
             }
             
             // Show the user details section
             const userDetailsElement = document.getElementById('userDetails');
             if (userDetailsElement) {
                 userDetailsElement.style.display = 'block';
-                console.log('userDetails display set to block');
+                debugLog('userDetails display set to block');
             } else {
-                console.error('userDetails element not found!');
+                debugLog('ERROR: userDetails element not found');
             }
             
             // Make sure we show the user details and hide general stats when on a user tab
@@ -1032,8 +1049,8 @@
 
         // Load data on page load
         window.onload = () => {
-            document.getElementById('debugTest').textContent = 'DEBUG: JavaScript IS running!';
-            document.getElementById('debugTest').style.background = 'green';
+            debugLog('Page loaded, JavaScript is running!');
+            debugLog('Starting data load...');
             loadData();
         };
 
