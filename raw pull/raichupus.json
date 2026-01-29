@@ -9,9 +9,9 @@
       "Pumpkin": "146590.52199999981416",
       "Carrot": "82024.485199999977579",
       "Cabbage": "60298.505400000004226",
-      "Beetroot": "28940.411599999995679",
+      "Beetroot": "28880.411599999995679",
       "Cauliflower": "17028.91020000000035",
-      "Parsnip": "13650.702599999999725",
+      "Parsnip": "13620.702599999999725",
       "Radish": "18338.657699999998795",
       "Wheat": "20025.766600000002286",
       "Kale": "17702.422400000007545",
@@ -204,7 +204,7 @@
       "Kale Stew": "99",
       "Mushroom Jacket Potatoes": "3",
       "Mushroom Soup": "63",
-      "Orange Cake": "30",
+      "Orange Cake": "31",
       "Sunflower Crunch": "100",
       "Reindeer Carrot": "499",
       "Apple Juice": "95",
@@ -248,16 +248,16 @@
       "Tofu Scramble": "80",
       "Antipasto": "91",
       "Cheese": "254",
-      "Pizza Margherita": "72",
+      "Pizza Margherita": "73",
       "Blue Cheese": "41",
       "Honey Cheddar": "33",
       "Caprese Salad": "55",
       "Sour Shake": "100",
-      "Spaghetti al Limone": "10",
+      "Spaghetti al Limone": "11",
       "Lemon Cheesecake": "17",
-      "Wood": "12092.14",
+      "Wood": "12221.14",
       "Stone": "1835.05",
-      "Iron": "2993.91",
+      "Iron": "2992.91",
       "Gold": "664.88",
       "Egg": "2890.05",
       "Speed Chicken": "2",
@@ -284,9 +284,9 @@
       "Oil": "42499.638755555556291",
       "Oil Reserve": "4",
       "Leather": "988.8",
-      "Wool": "4892.4",
+      "Wool": "4889.4",
       "Merino Wool": "6517.65",
-      "Feather": "10801.45",
+      "Feather": "10798.45",
       "Milk": "996.3",
       "Hay": "44.85",
       "Kernel Blend": "1.925",
@@ -568,7 +568,7 @@
       "Fish Bowl": "4",
       "Giant Gold Bone": "1",
       "Magma Stone": "1",
-      "Love Charm": "326887",
+      "Love Charm": "326888",
       "Starfish": "554",
       "Trade Point": "29776.672025",
       "Sea Cucumber": "685",
@@ -597,8 +597,8 @@
       "Grape Seed": "44",
       "Bracelet": "68",
       "Trash": "228",
-      "Weed": "1227",
-      "Dung": "1155",
+      "Weed": "1231",
+      "Dung": "1161",
       "Anthill": "20",
       "Rat": "20",
       "Snail": "20",
@@ -636,7 +636,7 @@
       "Adrift Ark": "1",
       "Wheat Seed": "162",
       "Acorn": "31",
-      "Cheer": "228",
+      "Cheer": "227",
       "Bloom Doll": "1",
       "Tempered Iron Rock": "1",
       "Sacred Tree": "1",
@@ -5060,7 +5060,7 @@
       "ff934c38": {
         "createdAt": 1762866687034,
         "wood": {
-          "choppedAt": 1769698631617
+          "choppedAt": 1769701180364
         },
         "x": 9,
         "y": 15,
@@ -5071,7 +5071,7 @@
       "c1b363e6": {
         "createdAt": 1763390731959,
         "wood": {
-          "choppedAt": 1769698633960
+          "choppedAt": 1769701178052
         },
         "x": 13,
         "y": 15,
@@ -5082,7 +5082,7 @@
       "0f0f2dff": {
         "createdAt": 1768096240290,
         "wood": {
-          "choppedAt": 1769698631401
+          "choppedAt": 1769701177212
         },
         "x": 11,
         "y": 15,
@@ -5830,16 +5830,6 @@
               "skills": {
                 "Double Nom": false
               },
-              "readyAt": 1769705150410
-            },
-            {
-              "name": "Pizza Margherita",
-              "boost": {
-                "Oil": 0
-              },
-              "skills": {
-                "Double Nom": false
-              },
               "readyAt": 1769727020410
             }
           ],
@@ -5920,14 +5910,34 @@
           "readyAt": 1750577123644,
           "crafting": [
             {
-              "name": "Spaghetti al Limone",
+              "name": "Bumpkin Salad",
               "boost": {
                 "Oil": 0
               },
               "skills": {
                 "Double Nom": false
               },
-              "readyAt": 1769704524224
+              "readyAt": 1769709764563
+            },
+            {
+              "name": "Bumpkin Salad",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": false
+              },
+              "readyAt": 1769713591813
+            },
+            {
+              "name": "Bumpkin Salad",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": false
+              },
+              "readyAt": 1769717419063
             }
           ],
           "oil": 0
@@ -6025,16 +6035,6 @@
           },
           "readyAt": 1750588494712,
           "crafting": [
-            {
-              "name": "Orange Cake",
-              "boost": {
-                "Oil": 0
-              },
-              "skills": {
-                "Double Nom": false
-              },
-              "readyAt": 1769704251544
-            },
             {
               "name": "Beetroot Cake",
               "boost": {
@@ -11368,8 +11368,8 @@
       "Pirate Chest Opened": 64,
       "Airdrop Reward Claimed": 124,
       "Shipment Restocked": 62,
-      "Farm Helped": 2573,
-      "Farm Cheered": 1384,
+      "Farm Helped": 2575,
+      "Farm Cheered": 1385,
       "Marketplace Listing Created": 1685,
       "Marketplace Offer Made": 211,
       "Marketplace Offer Cancelled": 187,
@@ -11382,7 +11382,7 @@
       "Minigame Prize Claimed": 132,
       "Trades Cleared": 3,
       "Faction Prize Claimed": 9,
-      "Tree Chopped": 105372,
+      "Tree Chopped": 105400,
       "Coins Earned": 3953472.82,
       "Sunflower Harvested": 306585,
       "Sunflower Sold": 1515,
@@ -11448,12 +11448,12 @@
       "Compost Bin Collected": 1004,
       "Rod Casted": 8182,
       "Cheese Cooked": 6850,
-      "Spaghetti al Limone Cooked": 321,
+      "Spaghetti al Limone Cooked": 322,
       "Spaghetti al Limone Fed": 299,
       "Halibut Fed": 3,
       "Cheese Fed": 1,
       "Sea Horse Fed": 1,
-      "Pizza Margherita Cooked": 599,
+      "Pizza Margherita Cooked": 600,
       "Pizza Margherita Fed": 1163,
       "Scary Mike Crafted": 1,
       "Porgy Fed": 1,
@@ -11711,7 +11711,7 @@
       "Rainbow Well Bought": 1,
       "Blue Slime Balloon Bought": 1,
       "Gladiolus Seed Planted": 106,
-      "Orange Cake Cooked": 435,
+      "Orange Cake Cooked": 436,
       "Slime Aura Bought": 1,
       "Super Totem Bought": 11,
       "Orange Cake Fed": 202,
@@ -11862,7 +11862,7 @@
       "Fused Stone Rock Mined": 380,
       "Reinforced Stone Rock Mined": 380,
       "Stone Rock Mined": 379,
-      "Ancient Tree Chopped": 4486,
+      "Ancient Tree Chopped": 4489,
       "Refined Iron Rock Mined": 646,
       "Pure Gold Rock Mined": 246,
       "Super Star Caught": 2,
@@ -11923,7 +11923,7 @@
       "Tempered Iron Rock Upgrade": 1,
       "Tempered Iron Rock Mined": 78,
       "Sacred Tree Upgrade": 1,
-      "Sacred Tree Chopped": 357,
+      "Sacred Tree Chopped": 358,
       "White Lavender Bountied": 1,
       "Old Bottle Sold": 230,
       "Sea Cucumber Sold": 290,
@@ -13251,7 +13251,7 @@
           "petXP": 28940,
           "score": 9309,
           "collectivePet": {
-            "totalXP": 5013438,
+            "totalXP": 5016563,
             "goalXP": 2404688,
             "goalReached": true,
             "streak": 3,
@@ -14290,8 +14290,8 @@
           "createdAt": 1750343944581,
           "awakeAt": 1769735126117,
           "asleepAt": 1769691386117,
-          "experience": 2888640,
-          "lovedAt": 1769685064336,
+          "experience": 2888690,
+          "lovedAt": 1769706450297,
           "item": "Music Box",
           "multiplier": 1,
           "healthCheckedAt": 1769629228998
@@ -14303,8 +14303,8 @@
           "createdAt": 1750343947751,
           "awakeAt": 1769735119477,
           "asleepAt": 1769691379477,
-          "experience": 2880480,
-          "lovedAt": 1769685049255,
+          "experience": 2880530,
+          "lovedAt": 1769706458275,
           "item": "Music Box",
           "multiplier": 1,
           "healthCheckedAt": 1769629228998
@@ -14316,9 +14316,9 @@
           "createdAt": 1750343946078,
           "awakeAt": 1769735123782,
           "asleepAt": 1769691383782,
-          "experience": 2888640,
-          "lovedAt": 1769685064642,
-          "item": "Petting Hand",
+          "experience": 2888665,
+          "lovedAt": 1769706450578,
+          "item": "Music Box",
           "multiplier": 1,
           "healthCheckedAt": 1769629228998
         },
@@ -14329,8 +14329,8 @@
           "createdAt": 1750343950273,
           "awakeAt": 1769735123385,
           "asleepAt": 1769691383385,
-          "experience": 2888640,
-          "lovedAt": 1769685064965,
+          "experience": 2888690,
+          "lovedAt": 1769706453031,
           "item": "Music Box",
           "multiplier": 1,
           "healthCheckedAt": 1769629228998
@@ -14342,9 +14342,9 @@
           "createdAt": 1750343948300,
           "awakeAt": 1769735119856,
           "asleepAt": 1769691379856,
-          "experience": 2888640,
-          "lovedAt": 1769685049516,
-          "item": "Brush",
+          "experience": 2888680,
+          "lovedAt": 1769706453291,
+          "item": "Music Box",
           "multiplier": 1,
           "healthCheckedAt": 1769629228998
         },
@@ -14355,8 +14355,8 @@
           "createdAt": 1750343945462,
           "awakeAt": 1769735116636,
           "asleepAt": 1769691376636,
-          "experience": 2880480,
-          "lovedAt": 1769685048975,
+          "experience": 2880530,
+          "lovedAt": 1769706458556,
           "item": "Music Box",
           "multiplier": 1,
           "healthCheckedAt": 1769629228998
@@ -14368,8 +14368,8 @@
           "createdAt": 1756604874511,
           "awakeAt": 1769735126549,
           "asleepAt": 1769691386549,
-          "experience": 2015520,
-          "lovedAt": 1769685064063,
+          "experience": 2015570,
+          "lovedAt": 1769706450054,
           "item": "Music Box",
           "healthCheckedAt": 1769629228998
         },
@@ -14380,8 +14380,8 @@
           "createdAt": 1763253314986,
           "awakeAt": 1769735124168,
           "asleepAt": 1769691384168,
-          "experience": 1085280,
-          "lovedAt": 1769685063741,
+          "experience": 1085330,
+          "lovedAt": 1769706450864,
           "item": "Music Box",
           "healthCheckedAt": 1769629228998
         },
@@ -14392,8 +14392,8 @@
           "createdAt": 1767571958397,
           "awakeAt": 1769735117105,
           "asleepAt": 1769691377105,
-          "experience": 318240,
-          "lovedAt": 1769685063436,
+          "experience": 318290,
+          "lovedAt": 1769706452788,
           "item": "Music Box",
           "healthCheckedAt": 1769637715856
         },
@@ -14404,8 +14404,8 @@
           "createdAt": 1767571957311,
           "awakeAt": 1769735120260,
           "asleepAt": 1769691380260,
-          "experience": 318240,
-          "lovedAt": 1769685049801,
+          "experience": 318290,
+          "lovedAt": 1769706453582,
           "item": "Music Box",
           "healthCheckedAt": 1769637715856
         },
@@ -14416,9 +14416,9 @@
           "createdAt": 1767571952303,
           "awakeAt": 1769735119060,
           "asleepAt": 1769691379060,
-          "experience": 318240,
-          "lovedAt": 1769685050086,
-          "item": "Music Box",
+          "experience": 318290,
+          "lovedAt": 1769706458028,
+          "item": "Brush",
           "healthCheckedAt": 1769637715856
         },
         "da452682": {
@@ -14428,9 +14428,9 @@
           "createdAt": 1767571951698,
           "awakeAt": 1769735123059,
           "asleepAt": 1769691383059,
-          "experience": 318240,
-          "lovedAt": 1769685050369,
-          "item": "Music Box",
+          "experience": 318290,
+          "lovedAt": 1769706458829,
+          "item": "Brush",
           "healthCheckedAt": 1769637715856
         },
         "f57b794a": {
@@ -14440,8 +14440,8 @@
           "createdAt": 1767571956907,
           "awakeAt": 1769735127018,
           "asleepAt": 1769691387018,
-          "experience": 318240,
-          "lovedAt": 1769685061753,
+          "experience": 318290,
+          "lovedAt": 1769706449809,
           "item": "Music Box",
           "healthCheckedAt": 1769637715856
         },
@@ -14452,9 +14452,9 @@
           "createdAt": 1768183012947,
           "awakeAt": 1769735124613,
           "asleepAt": 1769691384613,
-          "experience": 195840,
-          "lovedAt": 1769685062004,
-          "item": "Petting Hand",
+          "experience": 195865,
+          "lovedAt": 1769706451155,
+          "item": "Brush",
           "healthCheckedAt": 1769637715856
         },
         "6fccfd8d": {
@@ -14464,8 +14464,8 @@
           "createdAt": 1768783493231,
           "awakeAt": 1769735122635,
           "asleepAt": 1769691382635,
-          "experience": 73440,
-          "lovedAt": 1769685062280,
+          "experience": 73490,
+          "lovedAt": 1769706452528,
           "item": "Music Box",
           "healthCheckedAt": 1769698385032
         },
@@ -14476,9 +14476,9 @@
           "createdAt": 1768783493624,
           "awakeAt": 1769735120793,
           "asleepAt": 1769691380793,
-          "experience": 73440,
-          "lovedAt": 1769685051233,
-          "item": "Brush",
+          "experience": 73480,
+          "lovedAt": 1769706453856,
+          "item": "Petting Hand",
           "healthCheckedAt": 1769698385032
         },
         "aac56984": {
@@ -14488,8 +14488,8 @@
           "createdAt": 1768783493037,
           "awakeAt": 1769735117498,
           "asleepAt": 1769691377498,
-          "experience": 73440,
-          "lovedAt": 1769685050953,
+          "experience": 73490,
+          "lovedAt": 1769706457781,
           "item": "Music Box",
           "healthCheckedAt": 1769698385032
         },
@@ -14500,9 +14500,9 @@
           "createdAt": 1768783494010,
           "awakeAt": 1769735118655,
           "asleepAt": 1769691378655,
-          "experience": 73440,
-          "lovedAt": 1769685050659,
-          "item": "Music Box",
+          "experience": 73490,
+          "lovedAt": 1769706459122,
+          "item": "Petting Hand",
           "healthCheckedAt": 1769698385032
         },
         "21768af4": {
@@ -14548,8 +14548,8 @@
           "createdAt": 1769386131609,
           "awakeAt": 1769735122377,
           "asleepAt": 1769691382377,
-          "experience": 3645,
-          "lovedAt": 1769685060805,
+          "experience": 3670,
+          "lovedAt": 1769706449567,
           "item": "Petting Hand",
           "healthCheckedAt": 1769698385032
         },
@@ -14560,9 +14560,9 @@
           "createdAt": 1769386131295,
           "awakeAt": 1769735127491,
           "asleepAt": 1769691387491,
-          "experience": 3615,
-          "lovedAt": 1769685061390,
-          "item": "Brush",
+          "experience": 3655,
+          "lovedAt": 1769706452280,
+          "item": "Petting Hand",
           "healthCheckedAt": 1769698385032
         },
         "9fa89869": {
@@ -14572,9 +14572,9 @@
           "createdAt": 1769386130856,
           "awakeAt": 1769735125042,
           "asleepAt": 1769691385042,
-          "experience": 3600,
-          "lovedAt": 1769685061118,
-          "item": "Petting Hand",
+          "experience": 3625,
+          "lovedAt": 1769706454144,
+          "item": "Music Box",
           "healthCheckedAt": 1769698385032
         },
         "e3a064fd": {
@@ -14596,9 +14596,9 @@
           "createdAt": 1769386178115,
           "awakeAt": 1769735121273,
           "asleepAt": 1769691381273,
-          "experience": 3625,
-          "lovedAt": 1769685053629,
-          "item": "Music Box",
+          "experience": 3675,
+          "lovedAt": 1769706451438,
+          "item": "Petting Hand",
           "healthCheckedAt": 1769698385032
         },
         "b1371ced": {
@@ -14620,8 +14620,8 @@
           "createdAt": 1769566992098,
           "awakeAt": 1769735118307,
           "asleepAt": 1769691378307,
-          "experience": 1105,
-          "lovedAt": 1769685053383,
+          "experience": 1130,
+          "lovedAt": 1769706457533,
           "item": "Petting Hand",
           "healthCheckedAt": 1769647301784
         },
@@ -14632,9 +14632,9 @@
           "createdAt": 1769566992715,
           "awakeAt": 1769735117904,
           "asleepAt": 1769691377904,
-          "experience": 1105,
-          "lovedAt": 1769685053057,
-          "item": "Brush",
+          "experience": 1145,
+          "lovedAt": 1769706459389,
+          "item": "Petting Hand",
           "healthCheckedAt": 1769647301784
         },
         "22ce071e": {
@@ -14668,9 +14668,9 @@
           "createdAt": 1769612999440,
           "awakeAt": 1769735127978,
           "asleepAt": 1769691387978,
-          "experience": 720,
-          "lovedAt": 1769685059497,
-          "item": "Brush",
+          "experience": 760,
+          "lovedAt": 1769706449317,
+          "item": "Petting Hand",
           "healthCheckedAt": 1769691389778
         },
         "94dba380": {
@@ -15812,17 +15812,17 @@
       "Oil Can": 1769684741770,
       "Oil Overalls": 1769684741770,
       "Oil Extraction": 1769684741770,
-      "Foreman Beaver": 1769703403960,
+      "Foreman Beaver": 1769705950364,
       "Squirrel Monkey": 1769339209646,
       "Generous Orchard": 1769684711416,
       "Bud #1118": 1769432718982,
-      "Lumberjack's Extra": 1769703403960,
-      "Squirrel": 1769703403960,
-      "Tiki Totem": 1769703403960,
-      "Tough Tree": 1769703403960,
-      "Tree Charge": 1769703403960,
-      "Tree Turnaround": 1769703401159,
-      "Wood Nymph Wendy": 1769703403960,
+      "Lumberjack's Extra": 1769705950364,
+      "Squirrel": 1769705950364,
+      "Tiki Totem": 1769705950364,
+      "Tough Tree": 1769705947212,
+      "Tree Charge": 1769705950364,
+      "Tree Turnaround": 1769705946860,
+      "Wood Nymph Wendy": 1769705950364,
       "Bud #1821": 1769699728718,
       "Glass Room": 1769684813689,
       "Hoot": 1769699728117,
@@ -15837,9 +15837,9 @@
       "Seeded Bounty": 1764549546716,
       "Slick Saver": 1769684817766,
       "Turbo Sprout": 1769684817766,
-      "Desert Gnome": 1769700276999,
-      "Fast Feasts": 1769684843251,
-      "Luna's Hat": 1769700276999,
+      "Desert Gnome": 1769705938368,
+      "Fast Feasts": 1769705938368,
+      "Luna's Hat": 1769705938368,
       "Acre Farm": 1769699721141,
       "Bud #1109": 1769691604336,
       "Cabbage Boy": 1769600043010,
@@ -16034,7 +16034,7 @@
       "Frozen Cow": 1768141631290,
       "Frozen Sheep": 1768172604525,
       "Skill Shrimpy": 1769431460226,
-      "Nightshade Medallion": 1769700276999,
+      "Nightshade Medallion": 1769705938368,
       "Winter Guardian": 1768164730738,
       "Mysterious Parsnip": 1768004127930,
       "Parsnip": 1768016179006,
@@ -16047,11 +16047,11 @@
       "Midas Rush": 1769684744466,
       "Midas Sprint": 1769684744466,
       "Pickaxe Shark": 1769684744466,
-      "Bud #917": 1769703403960,
+      "Bud #917": 1769705950364,
       "Lava Swimwear": 1769626660447,
       "Fireside Alchemist": 1769684740548,
       "Giant Onion": 1768179309710,
-      "Nightshade Shield": 1769703403960,
+      "Nightshade Shield": 1769705950364,
       "Architect Ruler": 1769544371486,
       "Reelmaster's Chair": 1769642084265,
       "Super Totem": 1761616881085,
@@ -16079,7 +16079,7 @@
       "Sparrow Shrine": 1769699728718,
       "Bantam Shrine": 1769694263675,
       "Harvest Hourglass": 1765065552886,
-      "Badger Shrine": 1769703403960,
+      "Badger Shrine": 1769705950364,
       "Super Star": 1765412676694,
       "Toucan Shrine": 1769684732941,
       "Magma Stone": 1769626660447,
@@ -16101,7 +16101,7 @@
       "Power hour": 1769560484868
     },
     "socialFarming": {
-      "points": 148584,
+      "points": 148602,
       "villageProjects": {
         "Miner's Monument": {
           "cheers": 10000,
@@ -16120,31 +16120,31 @@
           "winnerId": 6826774918530594
         },
         "Cornucopia": {
-          "cheers": 71,
+          "cheers": 72,
           "winnerId": 167282
         },
         "Advanced Cooking Pot": {
-          "cheers": 57,
+          "cheers": 58,
           "winnerId": 4162770768041520
         },
         "Big Banana": {
-          "cheers": 39,
+          "cheers": 40,
           "winnerId": 8092374573366023
         },
         "Big Apple": {
-          "cheers": 12,
+          "cheers": 13,
           "winnerId": 68705
         },
         "Big Orange": {
-          "cheers": 12,
+          "cheers": 13,
           "winnerId": 4011290094086491
         },
         "Expert Cooking Pot": {
-          "cheers": 12,
+          "cheers": 13,
           "winnerId": 5396046202048100
         },
         "Basic Cooking Pot": {
-          "cheers": 2,
+          "cheers": 3,
           "winnerId": 4011290094086491
         }
       },
@@ -16162,7 +16162,8 @@
           174229,
           4275065523435590,
           177120,
-          6237238044535795
+          6237238044535795,
+          151471
         ]
       },
       "clutter": {
@@ -16202,36 +16203,11 @@
       },
       "weeklyPoints": {
         "week": "2026-01-26",
-        "points": 2210
+        "points": 2228
       },
       "helpIncrease": {
         "boughtAt": [
-          1769636885722,
-          1769636916220,
-          1769636951835,
-          1769636976247,
-          1769637012485,
-          1769637045102,
-          1769637072400,
-          1769637105944,
-          1769637127022,
-          1769637151459,
-          1769637179143,
-          1769637205799,
-          1769637258712,
-          1769637304833,
-          1769637330421,
-          1769637362587,
-          1769637399327,
-          1769637431980,
-          1769637499958,
-          1769637539827,
-          1769637582088,
-          1769637619011,
-          1769637716360,
-          1769637760070,
-          1769637794200,
-          1769637950925
+          1769706404849
         ]
       },
       "helpedForCompetition": 3673

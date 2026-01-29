@@ -1,18 +1,30 @@
 {
   "username": "deltaomega",
   "overview": {
-    "balance": 27.01,
-    "coins": 5257.0,
+    "balance": 35.57,
+    "coins": 4777.0,
     "gems": 0.0,
     "earned_sfl": 20919.85,
-    "earned_coins": 5257.0,
+    "earned_coins": 4777.0,
     "spent_sfl": 14782.16,
     "items_sold": 3465.0,
     "trade_points": 13902.85,
-    "last_updated": "2026-01-29 04:48 PM",
+    "last_updated": "2026-01-29 05:15 PM",
     "active_listings": 0
   },
   "buys": [
+    {
+      "date": "2026-01-29",
+      "time": "04:54 PM",
+      "type": "BUY",
+      "item": "Wool",
+      "quantity": 11,
+      "price_text": "0.641 SFL",
+      "price": 0.641,
+      "counterparty": "Zonik",
+      "farm_id": "-",
+      "trade_id": "ef606d4d"
+    },
     {
       "date": "2026-01-28",
       "time": "10:34 PM",
@@ -364,6 +376,66 @@
   ],
   "sells": [
     {
+      "date": "2026-01-29",
+      "time": "04:50 PM",
+      "type": "SELL",
+      "item": "Barley",
+      "quantity": 300,
+      "price_text": "6.7 SFL",
+      "price": 6.7,
+      "counterparty": "Boldfranco",
+      "farm_id": "-",
+      "trade_id": "6b7c5ee9"
+    },
+    {
+      "date": "2026-01-29",
+      "time": "04:49 PM",
+      "type": "SELL",
+      "item": "Barley",
+      "quantity": 50,
+      "price_text": "1.14 SFL",
+      "price": 1.14,
+      "counterparty": "denveer",
+      "farm_id": "-",
+      "trade_id": "3ff7e1a4"
+    },
+    {
+      "date": "2026-01-29",
+      "time": "04:49 PM",
+      "type": "SELL",
+      "item": "Barley",
+      "quantity": 10,
+      "price_text": "0.2368 SFL",
+      "price": 0.2368,
+      "counterparty": "Erigt",
+      "farm_id": "-",
+      "trade_id": "dc15e9b7"
+    },
+    {
+      "date": "2026-01-29",
+      "time": "04:48 PM",
+      "type": "SELL",
+      "item": "Iron",
+      "quantity": 10,
+      "price_text": "0.6231 SFL",
+      "price": 0.6231,
+      "counterparty": "KAJJ",
+      "farm_id": "-",
+      "trade_id": "44ff643a"
+    },
+    {
+      "date": "2026-01-29",
+      "time": "04:48 PM",
+      "type": "SELL",
+      "item": "Iron",
+      "quantity": 20,
+      "price_text": "1.25 SFL",
+      "price": 1.25,
+      "counterparty": "Tsukino",
+      "farm_id": "-",
+      "trade_id": "a846d3a6"
+    },
+    {
       "date": "2026-01-28",
       "time": "08:05 PM",
       "type": "SELL",
@@ -618,15 +690,24 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 29,
-    "total_sells": 21,
-    "buy_volume": 30.529500000000002,
-    "sell_volume": 42.9857,
-    "gross_profit": 12.456199999999999,
-    "avg_buy_price": 1.0527413793103448,
-    "avg_sell_price": 2.046938095238095,
+    "total_buys": 30,
+    "total_sells": 26,
+    "buy_volume": 31.1705,
+    "sell_volume": 52.9356,
+    "gross_profit": 21.7651,
+    "avg_buy_price": 1.0390166666666667,
+    "avg_sell_price": 2.0359846153846153,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Wool",
+        "quantity": 11,
+        "price": 0.641,
+        "date": "2026-01-29",
+        "time": "04:54 PM",
+        "username": "deltaomega"
+      },
       {
         "type": "BUY",
         "item": "Tomato",
@@ -669,8 +750,7 @@
         "quantity": 1,
         "price": 0.798,
         "date": "2026-01-28",
-        "time": "09:57 AM",
-        "username": "deltaomega"
+        "time": "09:57 AM"
       },
       {
         "type": "BUY",
@@ -783,17 +863,9 @@
         "price": 1.5,
         "date": "2026-01-27",
         "time": "03:23 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Duskberry",
-        "quantity": 1,
-        "price": 0.796,
-        "date": "2026-01-27",
-        "time": "12:57 PM"
       }
     ],
-    "profit_margin": 40.80053718534531,
+    "profit_margin": 69.82595723520636,
     "most_bought_items": {
       "Feather": 234,
       "Yam": 223,
@@ -801,14 +873,14 @@
       "Soybean": 200,
       "Stone": 170,
       "Artichoke": 60,
+      "Wool": 53,
       "Blueberry": 50,
       "Egg": 50,
-      "Wheat": 49,
-      "Leather": 44
+      "Wheat": 49
     },
     "most_sold_items": {
-      "Barley": 1400,
-      "Iron": 25,
+      "Barley": 1760,
+      "Iron": 55,
       "Gold": 16,
       "Ribbon": 4,
       "Chewed Bone": 4,
