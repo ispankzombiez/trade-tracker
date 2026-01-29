@@ -1,15 +1,15 @@
 {
   "username": "ispank",
   "overview": {
-    "balance": 169.15,
+    "balance": 171.98,
     "coins": 23061.0,
     "gems": 0.0,
     "earned_sfl": 782.44,
     "earned_coins": 23061.0,
     "spent_sfl": 21.71,
-    "items_sold": 4526.0,
+    "items_sold": 4527.0,
     "trade_points": 26995.44,
-    "last_updated": "2026-01-29 06:33 AM",
+    "last_updated": "2026-01-29 06:43 AM",
     "active_listings": 5
   },
   "buys": [
@@ -148,6 +148,18 @@
   ],
   "sells": [
     {
+      "date": "2026-01-29",
+      "time": "06:36 AM",
+      "type": "SELL",
+      "item": "Milk",
+      "quantity": 25,
+      "price_text": "2.9723 SFL",
+      "price": 2.9723,
+      "counterparty": "wxwiiwxw",
+      "farm_id": "-",
+      "trade_id": "82d711c5"
+    },
+    {
       "date": "2026-01-28",
       "time": "02:52 AM",
       "type": "SELL",
@@ -211,16 +223,16 @@
   "last_updated": null,
   "stats": {
     "total_buys": 11,
-    "total_sells": 5,
+    "total_sells": 6,
     "buy_volume": 20.651899999999998,
-    "sell_volume": 15.699100000000001,
-    "gross_profit": -4.952799999999996,
+    "sell_volume": 18.671400000000002,
+    "gross_profit": -1.9804999999999957,
     "avg_buy_price": 1.8774454545454544,
-    "avg_sell_price": 3.1398200000000003,
+    "avg_sell_price": 3.1119000000000003,
     "most_traded_items": {
       "Wheat": 554,
       "Barley": 546,
-      "Milk": 88,
+      "Milk": 113,
       "Leather": 36
     },
     "recent_activity": [
@@ -319,6 +331,14 @@
       },
       {
         "type": "SELL",
+        "item": "Milk",
+        "quantity": 25,
+        "price": 2.9723,
+        "date": "2026-01-29",
+        "time": "06:36 AM"
+      },
+      {
+        "type": "SELL",
         "item": "Leather",
         "quantity": 25,
         "price": 3.1105,
@@ -358,6 +378,6 @@
         "time": "02:31 AM"
       }
     ],
-    "profit_margin": -23.982297028360573
+    "profit_margin": -9.589916666263134
   }
 }
