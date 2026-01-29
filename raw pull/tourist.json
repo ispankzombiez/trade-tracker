@@ -35,7 +35,7 @@
       "Cauliflower": "28916.471599999999535",
       "Parsnip": "5.925399999999665",
       "Radish": "99147.304",
-      "Wheat": "18437.567599999997657",
+      "Wheat": "18397.567599999997657",
       "Kale": "26.61999999999808",
       "Apple": "404.5000000000000464",
       "Blueberry": "46.3900000000011466",
@@ -80,8 +80,8 @@
       "Grape": "299.300000000001401",
       "Rice": "826.4088",
       "Olive": "1671.5208",
-      "Tomato": "1493.1800000000078804",
-      "Lemon": "609.5800000000046292",
+      "Tomato": "1433.1800000000078804",
+      "Lemon": "569.5800000000046292",
       "Barley": "7012.812099999998264",
       "Rhubarb": "44739.30749999960842",
       "Zucchini": "297620.3145999998891",
@@ -273,7 +273,7 @@
       "The Lot": "316",
       "Tofu Scramble": "300",
       "Paella": "1",
-      "Cheese": "387",
+      "Cheese": "377",
       "Wood": "256510.53",
       "Stone": "12371.35",
       "Iron": "5733.2",
@@ -303,7 +303,7 @@
       "Flower Bed": "3",
       "Crimstone Rock": "5",
       "Crimstone": "740.875000000000001",
-      "Oil": "5464.1037536018384729",
+      "Oil": "5463.2704202685051399",
       "Oil Reserve": "4",
       "Leather": "832.7",
       "Wool": "498.6",
@@ -948,11 +948,11 @@
       "Wild Grass": "10",
       "Spaghetti al Limone": "17",
       "Chewed Bone": "10",
-      "Sour Shake": "169",
+      "Sour Shake": "171",
       "Fermented Fish": "4",
       "Big Orange": "1",
       "Lobster": "18",
-      "Pizza Margherita": "6",
+      "Pizza Margherita": "8",
       "Blue Cheese": "13",
       "Big Apple": "1",
       "Barley Seed": "2"
@@ -9408,16 +9408,6 @@
               "skills": {
                 "Double Nom": true
               },
-              "readyAt": 1769687452689.25
-            },
-            {
-              "name": "Pizza Margherita",
-              "boost": {
-                "Oil": 0.8333333333333334
-              },
-              "skills": {
-                "Double Nom": true
-              },
               "readyAt": 1769698606389.25
             },
             {
@@ -9439,6 +9429,16 @@
                 "Double Nom": true
               },
               "readyAt": 1769720913789.25
+            },
+            {
+              "name": "Pizza Margherita",
+              "boost": {
+                "Oil": 0.8333333333333334
+              },
+              "skills": {
+                "Double Nom": true
+              },
+              "readyAt": 1769732067489.25
             }
           ]
         }
@@ -9752,18 +9752,8 @@
             "y": -1
           },
           "readyAt": 1738220541829,
-          "oil": 38.99999999999999,
+          "oil": 38.66666666666666,
           "crafting": [
-            {
-              "name": "Sour Shake",
-              "boost": {
-                "Oil": 0.3333333333333333
-              },
-              "skills": {
-                "Double Nom": true
-              },
-              "readyAt": 1769687225567
-            },
             {
               "name": "Sour Shake",
               "boost": {
@@ -9793,6 +9783,16 @@
                 "Double Nom": true
               },
               "readyAt": 1769689394342
+            },
+            {
+              "name": "Sour Shake",
+              "boost": {
+                "Oil": 0.3333333333333333
+              },
+              "skills": {
+                "Double Nom": true
+              },
+              "readyAt": 1769690117267
             }
           ]
         }
@@ -15474,10 +15474,10 @@
       "NutriBarley Mixed": 5007,
       "Treasure Key Bought": 6,
       "Mixed Grain Mixed": 5141,
-      "Sour Shake Cooked": 6488,
+      "Sour Shake Cooked": 6489,
       "Cheese Cooked": 18877,
       "Honey Cheddar Cooked": 239,
-      "Pizza Margherita Cooked": 1674,
+      "Pizza Margherita Cooked": 1675,
       "Caprese Salad Cooked": 642,
       "Cowboy Hat Bought": 1,
       "Blue Cheese Cooked": 1060,
@@ -18269,7 +18269,7 @@
           "petXP": 12150,
           "score": 3443,
           "collectivePet": {
-            "totalXP": 4063290,
+            "totalXP": 4087505,
             "goalXP": 10263180,
             "goalReached": false,
             "streak": 10,
@@ -20724,9 +20724,9 @@
       }
     },
     "boostsUsedAt": {
-      "Luna's Hat": 1769686711671,
-      "Goblin Medallion": 1769686711671,
-      "Desert Gnome": 1769686711671,
+      "Luna's Hat": 1769687524678,
+      "Goblin Medallion": 1769687524678,
+      "Desert Gnome": 1769687524678,
       "Bud #2197": 1769669803967,
       "Camel Onesie": 1769666257136,
       "Cannonball": 1768728746790,
@@ -20748,7 +20748,7 @@
       "Flower Fox": 1769649629427,
       "Frosted Cakes": 1769684207743,
       "Kuebiko": 1769677739083,
-      "Fast Feasts": 1769684674969,
+      "Fast Feasts": 1769687524678,
       "Bud #1707": 1769686710076,
       "Goblin Shield": 1769686710076,
       "Lumberjack's Extra": 1769686710076,
@@ -20994,7 +20994,7 @@
       "Tortoise Shrine": 1769685034447,
       "Mole Shrine": 1769681429831,
       "Training Whistle": 1769666235594,
-      "Master Chef's Cleaver": 1769686711671,
+      "Master Chef's Cleaver": 1769687524678,
       "Toucan Shrine": 1769666257136,
       "Sparrow Shrine": 1769677739083,
       "Fox Shrine": 1769686271307,
