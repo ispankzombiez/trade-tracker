@@ -793,11 +793,24 @@
                 userDetailsElement.style.border = '5px solid yellow'; // Make it very visible
                 userDetailsElement.style.padding = '20px';
                 userDetailsElement.style.margin = '20px 0';
-                userDetailsElement.style.minHeight = '200px';
+                userDetailsElement.style.minHeight = '500px'; // Force minimum height
+                userDetailsElement.style.height = 'auto'; // Allow content to determine height
+                userDetailsElement.style.overflow = 'visible'; // Make sure content isn't hidden
                 debugLog('userDetails display set to block with visible styling');
                 debugLog('userDetails computed style: ' + window.getComputedStyle(userDetailsElement).display);
                 debugLog('userDetails visibility: ' + window.getComputedStyle(userDetailsElement).visibility);
                 debugLog('userDetails height: ' + userDetailsElement.offsetHeight + 'px');
+                
+                // Also check if the grid inside has content
+                const gridElement = userDetailsElement.querySelector('.dashboard-grid');
+                if (gridElement) {
+                    gridElement.style.backgroundColor = 'orange';
+                    gridElement.style.border = '2px solid purple';
+                    gridElement.style.minHeight = '400px';
+                    debugLog('Found dashboard-grid inside userDetails, height: ' + gridElement.offsetHeight + 'px');
+                } else {
+                    debugLog('ERROR: No dashboard-grid found inside userDetails');
+                }
             } else {
                 debugLog('ERROR: userDetails element not found');
             }
