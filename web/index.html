@@ -748,6 +748,31 @@
             // This function is kept for compatibility but does nothing
         }
 
+        function switchTab(tabName) {
+            debugLog('switchTab called for: ' + tabName);
+            
+            // Update active tab button
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            document.querySelector(`[data-tab="${tabName}"]`).classList.add('active');
+            
+            if (tabName === 'overview') {
+                // Show overview content, hide user details
+                document.getElementById('generalStats').style.display = 'block';
+                const userElement = document.getElementById('newTestElement');
+                if (userElement) {
+                    userElement.style.display = 'none';
+                }
+                debugLog('Switched to overview tab');
+            } else {
+                // Hide overview content, load user data
+                document.getElementById('generalStats').style.display = 'none';
+                selectUser(tabName);
+                debugLog('Switched to user tab: ' + tabName);
+            }
+        }
+
         async function selectUser(username) {
             debugLog('selectUser called for: ' + username);
             currentUser = username;
@@ -901,13 +926,14 @@
                 margin: 30px 0 !important;
                 position: relative !important;
                 z-index: 100 !important;
+                display: block !important;
             `;
             
-            // Add it to the page before the main dashboard content
-            const dashboardElement = document.getElementById('dashboard');
-            if (dashboardElement) {
-                dashboardElement.parentNode.insertBefore(newTestElement, dashboardElement);
-                debugLog('New test element added before dashboard');
+            // Add it to the page after the generalStats div (below tabs)
+            const generalStats = document.getElementById('generalStats');
+            if (generalStats) {
+                generalStats.parentNode.insertBefore(newTestElement, generalStats.nextSibling);
+                debugLog('New test element added after generalStats');
             } else {
                 document.body.appendChild(newTestElement);
                 debugLog('New test element added to body');
