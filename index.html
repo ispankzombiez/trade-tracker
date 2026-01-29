@@ -807,91 +807,75 @@
 
             // Check if overview data exists
             if (!userData.overview) {
-                debugLog('ERROR: No overview data found in user data');
+                console.error('No overview data found in user data:', userData);
                 return;
             }
 
-            try {
-                // Update user stats
-                const stats = userData.overview;
-                debugLog('Stats object retrieved: ' + Object.keys(stats).join(', '));
-                
-                const profitClass = stats.earned_sfl >= 0 ? 'profit-positive' : 'profit-negative';
-                const profitSign = stats.earned_sfl >= 0 ? '+' : '';
+            // Update user stats
+            const stats = userData.overview; // Changed from userData.stats to userData.overview
+            const profitClass = stats.earned_sfl >= 0 ? 'profit-positive' : 'profit-negative';
+            const profitSign = stats.earned_sfl >= 0 ? '+' : '';
 
-                const userStatsElement = document.getElementById('userStats');
-                if (userStatsElement) {
-                    debugLog('About to update stats HTML...');
-                    userStatsElement.innerHTML = `
-                    <div class="stat-item ${profitClass}">
-                        <span class="stat-value">${profitSign}${stats.earned_sfl.toFixed(2)}</span>
-                        <span class="stat-label">Earned SFL</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-value">${stats.balance.toFixed(2)}</span>
-                        <span class="stat-label">Current Balance (SFL)</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-value">${stats.coins.toFixed(0)}</span>
-                        <span class="stat-label">Total Coins</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-value">${stats.items_sold.toFixed(0)}</span>
-                        <span class="stat-label">Items Sold</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-value">${stats.trade_points.toFixed(2)}</span>
-                        <span class="stat-label">Trade Points</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-value">${stats.active_listings}</span>
-                        <span class="stat-label">Active Listings</span>
-                    </div>
+            console.log('User stats:', stats);
+            const userStatsElement = document.getElementById('userStats');
+            if (userStatsElement) {
+                userStatsElement.innerHTML = `
+                <div class="stat-item ${profitClass}">
+                    <span class="stat-value">${profitSign}${stats.earned_sfl.toFixed(2)}</span>
+                    <span class="stat-label">Earned SFL</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value">${stats.balance.toFixed(2)}</span>
+                    <span class="stat-label">Current Balance (SFL)</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value">${stats.coins.toFixed(0)}</span>
+                    <span class="stat-label">Total Coins</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value">${stats.items_sold.toFixed(0)}</span>
+                    <span class="stat-label">Items Sold</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value">${stats.trade_points.toFixed(2)}</span>
+                    <span class="stat-label">Trade Points</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value">${stats.active_listings}</span>
+                    <span class="stat-label">Active Listings</span>
+                </div>
                 `;
-                    debugLog('User stats HTML updated successfully');
-                } else {
-                    debugLog('ERROR: userStats element not found!');
-                }
-            } catch (error) {
-                debugLog('ERROR in stats generation: ' + error.message);
-            try {
-                // Update recent activity (combine buys and sells, sort by date)
-                debugLog('Starting recent activity update...');
-                const recentContainer = document.getElementById('userRecentActivity');
-                if (!recentContainer) {
-                    debugLog('ERROR: userRecentActivity element not found');
-                    return;
-                }
-                recentContainer.innerHTML = '';
-                
-                const allTrades = [...(userData.buys || []), ...(userData.sells || [])];
-                debugLog('Found ' + allTrades.length + ' total trades');
-                const recentTrades = allTrades
-                    .sort((a, b) => new Date(b.date + ' ' + b.time) - new Date(a.date + ' ' + a.time))
-                    .slice(0, 20);
-                
-                debugLog('Processing ' + recentTrades.length + ' recent trades');
-                recentTrades.forEach(activity => {
-                    const activityElement = document.createElement('div');
-                    activityElement.className = 'activity-item';
-                    
-                    const tradeTypeClass = activity.type === 'BUY' ? 'trade-buy' : 'trade-sell';
-                    
-                    activityElement.innerHTML = `
-                        <div>
-                            <span class="trade-type ${tradeTypeClass}">${activity.type}</span>
-                            <strong>${activity.item}</strong> x${activity.quantity}
-                            <br>
-                            <small>${activity.date} ${activity.time}</small>
-                        </div>
-                        <div class="profit-amount">${activity.price.toFixed(2)} SFL</div>
-                    `;
-                    recentContainer.appendChild(activityElement);
-                });
-                debugLog('Recent activity updated successfully');
-            } catch (error) {
-                debugLog('ERROR in recent activity: ' + error.message);
+                console.log('User stats HTML updated successfully');
+            } else {
+                console.error('userStats element not found!');
             }
+
+            // Update recent activity (combine buys and sells, sort by date)
+            const recentContainer = document.getElementById('userRecentActivity');
+            recentContainer.innerHTML = '';
+            
+            const allTrades = [...(userData.buys || []), ...(userData.sells || [])];
+            const recentTrades = allTrades
+                .sort((a, b) => new Date(b.date + ' ' + b.time) - new Date(a.date + ' ' + a.time))
+                .slice(0, 20);
+            
+            recentTrades.forEach(activity => {
+                const activityElement = document.createElement('div');
+                activityElement.className = 'activity-item';
+                
+                const tradeTypeClass = activity.type === 'BUY' ? 'trade-buy' : 'trade-sell';
+                
+                activityElement.innerHTML = `
+                    <div>
+                        <span class="trade-type ${tradeTypeClass}">${activity.type}</span>
+                        <strong>${activity.item}</strong> x${activity.quantity}
+                        <br>
+                        <small>${activity.date} ${activity.time}</small>
+                    </div>
+                    <div class="profit-amount">${activity.price.toFixed(2)} SFL</div>
+                `;
+                recentContainer.appendChild(activityElement);
+            });
 
             // Update most bought items
             const boughtContainer = document.getElementById('userMostBought');
