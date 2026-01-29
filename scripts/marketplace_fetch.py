@@ -28,20 +28,23 @@ def load_item_mapping(parent_dir: str) -> Dict[int, str]:
         return item_mapping
     
     try:
+        import re
         with open(mapping_file, 'r', encoding='utf-8') as f:
-            for line in f:
-                line = line.strip()
-                if '|' in line:
-                    try:
-                        parts = line.split('|')
-                        item_id = int(parts[0].strip())
-                        item_name = parts[1].strip()
-                        item_mapping[item_id] = item_name
-                    except (ValueError, IndexError):
-                        continue
+            content = f.read()
+        
+        # Parse TypeScript format: 123: "Item Name",
+        pattern = r'(\d+):\s*"([^"]*)"'
+        matches = re.findall(pattern, content)
+        
+        for item_id_str, item_name in matches:
+            try:
+                item_id = int(item_id_str)
+                item_mapping[item_id] = item_name
+            except ValueError:
+                continue
             
-            print(f"📋 Loaded {len(item_mapping)} item mappings")
-            
+        print(f"📋 Loaded {len(item_mapping)} item mappings")
+        
     except Exception as e:
         print(f"❌ Error reading item_mapping.txt: {e}")
         print("⚠️  Will use item IDs instead")

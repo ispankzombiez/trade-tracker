@@ -78,10 +78,13 @@ def get_item_name(item_id: str, collection: str, item_mapping: Dict[int, str]) -
         elif collection.lower() == "collectibles":
             return f"Collectible #{item_id}"
         else:
-            return f"{collection.title()} #{item_id}"
+            return f"{collection.title()} #{item_id}" if collection != "Unknown" else f"Item #{item_id}"
             
     except (ValueError, TypeError):
-        return f"Item {item_id}"
+        # If item_id is not a number, return a descriptive fallback
+        if collection != "Unknown":
+            return f"{collection.title()} {item_id}"
+        return f"Item {item_id}" if item_id != "Unknown" else "Unknown Item"
 
 
 def load_raw_data(raw_pull_folder: str) -> Dict[str, Dict]:
