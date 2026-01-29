@@ -1,19 +1,19 @@
 {
   "farm": {
     "coins": 281123.97000000003,
-    "balance": "3313.773369733290711",
+    "balance": "3348.137119733290711",
     "previousBalance": "0",
     "inventory": {
-      "Sunflower": "948225.41339999623772",
-      "Potato": "456386.00289999466875",
+      "Sunflower": "947725.41339999623772",
+      "Potato": "455886.00289999466875",
       "Pumpkin": "146590.52199999981416",
       "Carrot": "82024.485199999977579",
       "Cabbage": "60298.505400000004226",
-      "Beetroot": "29140.411599999995679",
+      "Beetroot": "28940.411599999995679",
       "Cauliflower": "17028.91020000000035",
       "Parsnip": "13650.702599999999725",
       "Radish": "18338.657699999998795",
-      "Wheat": "20045.766600000002286",
+      "Wheat": "20025.766600000002286",
       "Kale": "17702.422400000007545",
       "Apple": "159.3500000000004458",
       "Blueberry": "271.9800000000008511",
@@ -176,7 +176,7 @@
       "Grape Granny": "1",
       "Knight Chicken": "1",
       "Pumpkin Soup": "500",
-      "Sauerkraut": "39",
+      "Sauerkraut": "40",
       "Sunflower Cake": "79",
       "Potato Cake": "34",
       "Pumpkin Cake": "38",
@@ -221,7 +221,7 @@
       "Fancy Fries": "38",
       "Bumpkin ganoush": "100",
       "Cornbread": "36",
-      "Eggplant Cake": "29",
+      "Eggplant Cake": "30",
       "Popcorn": "500",
       "Chowder": "100",
       "Gumbo": "116",
@@ -257,9 +257,9 @@
       "Lemon Cheesecake": "17",
       "Wood": "11987.94",
       "Stone": "1776.61",
-      "Iron": "2934.77",
+      "Iron": "2993.91",
       "Gold": "664.88",
-      "Egg": "2950.05",
+      "Egg": "2890.05",
       "Speed Chicken": "2",
       "Fat Chicken": "2",
       "Rich Chicken": "1",
@@ -597,8 +597,8 @@
       "Grape Seed": "44",
       "Bracelet": "68",
       "Trash": "228",
-      "Weed": "1211",
-      "Dung": "1131",
+      "Weed": "1227",
+      "Dung": "1155",
       "Anthill": "20",
       "Rat": "20",
       "Snail": "20",
@@ -636,7 +636,7 @@
       "Adrift Ark": "1",
       "Wheat Seed": "162",
       "Acorn": "31",
-      "Cheer": "235",
+      "Cheer": "228",
       "Bloom Doll": "1",
       "Tempered Iron Rock": "1",
       "Sacred Tree": "1",
@@ -654,7 +654,7 @@
       "Pippin": "1",
       "Dewberry": "25",
       "Purple Cauliflower": "1",
-      "Stone Pickaxe": "34",
+      "Stone Pickaxe": "18",
       "Sand Shovel": "31",
       "Squeaky Chicken": "1",
       "Moth Shrine": "1",
@@ -1499,7 +1499,7 @@
       }
     },
     "bank": {
-      "taxFreeSFL": 630062.282509731,
+      "taxFreeSFL": 630096.6462597309,
       "withdrawnAmount": 0
     },
     "bumpkin": {
@@ -5130,7 +5130,7 @@
       "6ee62f99": {
         "createdAt": 1768083911162,
         "stone": {
-          "minedAt": 1769671064808,
+          "minedAt": 1769686532407,
           "boostedTime": 13680000.000000002
         },
         "x": -5,
@@ -5772,78 +5772,6 @@
           "sfl": 0.9,
           "tax": 0.0675,
           "tradeType": "instant"
-        },
-        "28db3316": {
-          "collection": "collectibles",
-          "createdAt": 1769694348109,
-          "items": {
-            "Iron": 100
-          },
-          "sfl": 6.4,
-          "tax": 0.48,
-          "tradeType": "instant",
-          "fulfilledAt": 1769694778479,
-          "fulfilledById": 5941179295115226
-        },
-        "32693e08": {
-          "collection": "collectibles",
-          "createdAt": 1769694356369,
-          "items": {
-            "Iron": 100
-          },
-          "sfl": 6.4,
-          "tax": 0.48,
-          "tradeType": "instant",
-          "fulfilledAt": 1769696052033,
-          "fulfilledById": 1813345983424098
-        },
-        "0fdc4932": {
-          "collection": "collectibles",
-          "createdAt": 1769694367944,
-          "items": {
-            "Wood": 500
-          },
-          "sfl": 4.49,
-          "tax": 0.33675,
-          "tradeType": "instant",
-          "fulfilledAt": 1769694509494,
-          "fulfilledById": 4383363735214290
-        },
-        "40ac5cff": {
-          "collection": "collectibles",
-          "createdAt": 1769694383888,
-          "items": {
-            "Stone": 200
-          },
-          "sfl": 3.17,
-          "tax": 0.23775,
-          "tradeType": "instant",
-          "fulfilledAt": 1769694565742,
-          "fulfilledById": 8233680583627250
-        },
-        "1ec455ef": {
-          "collection": "collectibles",
-          "createdAt": 1769694410000,
-          "items": {
-            "Gold": 25
-          },
-          "sfl": 6.06,
-          "tax": 0.4545,
-          "tradeType": "instant",
-          "fulfilledAt": 1769695935589,
-          "fulfilledById": 2791164672544774
-        },
-        "d0c6b041": {
-          "collection": "collectibles",
-          "createdAt": 1769694428121,
-          "items": {
-            "Crimstone": 20
-          },
-          "sfl": 10.63,
-          "tax": 0.79725,
-          "tradeType": "instant",
-          "fulfilledAt": 1769694472876,
-          "fulfilledById": 6533415425954306
         }
       },
       "soldCount": 2791,
@@ -6054,16 +5982,6 @@
           "readyAt": 1750587747824,
           "crafting": [
             {
-              "name": "Sauerkraut",
-              "boost": {
-                "Oil": 0
-              },
-              "skills": {
-                "Double Nom": false
-              },
-              "readyAt": 1769699585636
-            },
-            {
               "name": "Fermented Carrots",
               "boost": {
                 "Oil": 0
@@ -6082,6 +6000,16 @@
                 "Double Nom": false
               },
               "readyAt": 1769757905636
+            },
+            {
+              "name": "Fancy Fries",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": false
+              },
+              "readyAt": 1769787065636
             }
           ],
           "oil": 0
@@ -6097,16 +6025,6 @@
           },
           "readyAt": 1750588494712,
           "crafting": [
-            {
-              "name": "Eggplant Cake",
-              "boost": {
-                "Oil": 0
-              },
-              "skills": {
-                "Double Nom": false
-              },
-              "readyAt": 1769699877544
-            },
             {
               "name": "Orange Cake",
               "boost": {
@@ -6126,6 +6044,26 @@
                 "Double Nom": false
               },
               "readyAt": 1769728308544
+            },
+            {
+              "name": "Beetroot Cake",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": false
+              },
+              "readyAt": 1769752365544
+            },
+            {
+              "name": "Beetroot Cake",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": false
+              },
+              "readyAt": 1769776422544
             }
           ],
           "oil": 0
@@ -11430,8 +11368,8 @@
       "Pirate Chest Opened": 64,
       "Airdrop Reward Claimed": 124,
       "Shipment Restocked": 62,
-      "Farm Helped": 2565,
-      "Farm Cheered": 1377,
+      "Farm Helped": 2573,
+      "Farm Cheered": 1384,
       "Marketplace Listing Created": 1685,
       "Marketplace Offer Made": 211,
       "Marketplace Offer Cancelled": 187,
@@ -11489,7 +11427,7 @@
       "Soybean Sold": 2,
       "Cabbage Sold": 7,
       "Carrot Sold": 5,
-      "Iron Mined": 13790,
+      "Iron Mined": 13806,
       "Stone Pickaxe Crafted": 13564,
       "Rod Crafted": 1670,
       "Gold Mined": 3413,
@@ -11747,7 +11685,7 @@
       "Love Charm Shirt Bought": 1,
       "Bumpkin Salad Cooked": 239,
       "Kale Stew Cooked": 325,
-      "Eggplant Cake Cooked": 80,
+      "Eggplant Cake Cooked": 81,
       "Bloomwarden Suit Bought": 1,
       "Heart Air Balloon Bought": 1,
       "Rare Key Bought": 6,
@@ -11809,7 +11747,7 @@
       "Mushroom Soup Cooked": 89,
       "Cauliflower Cake Cooked": 51,
       "Beetroot Cake Cooked": 67,
-      "Sauerkraut Cooked": 107,
+      "Sauerkraut Cooked": 108,
       "Radish Cake Cooked": 78,
       "Parsnip Cake Cooked": 84,
       "Rapid Roast Cooked": 141,
@@ -11983,7 +11921,7 @@
       "Hieroglyph Sold": 20,
       "Auction Reward Claimed": 1,
       "Tempered Iron Rock Upgrade": 1,
-      "Tempered Iron Rock Mined": 77,
+      "Tempered Iron Rock Mined": 78,
       "Sacred Tree Upgrade": 1,
       "Sacred Tree Chopped": 356,
       "White Lavender Bountied": 1,
@@ -13313,7 +13251,7 @@
           "petXP": 28940,
           "score": 9309,
           "collectivePet": {
-            "totalXP": 4997364,
+            "totalXP": 5000679,
             "goalXP": 2404688,
             "goalReached": true,
             "streak": 3,
@@ -15827,7 +15765,7 @@
         },
         "-1": {
           "0": 1768049450886,
-          "1": 1769684744808,
+          "1": 1769700212407,
           "-1": 1769694218455
         }
       },
@@ -15899,9 +15837,9 @@
       "Seeded Bounty": 1764549546716,
       "Slick Saver": 1769684817766,
       "Turbo Sprout": 1769684817766,
-      "Desert Gnome": 1769684869212,
+      "Desert Gnome": 1769700276999,
       "Fast Feasts": 1769684843251,
-      "Luna's Hat": 1769684869212,
+      "Luna's Hat": 1769700276999,
       "Acre Farm": 1769699721141,
       "Bud #1109": 1769691604336,
       "Cabbage Boy": 1769600043010,
@@ -15926,7 +15864,7 @@
       "Efficient Bin": 1769684701868,
       "Soil Krabby": 1769684706977,
       "Swift Decomposer": 1769684706977,
-      "Bud #840": 1769694218455,
+      "Bud #840": 1769700212407,
       "Ferrous Favor": 1761748871322,
       "Obsidian Necklace": 1769626660447,
       "Obsidian Turtle": 1769626658502,
@@ -15963,11 +15901,11 @@
       "Crimson Carp": 1769684740548,
       "Crimstone Amulet": 1769684740548,
       "Crimstone Armor": 1769684740548,
-      "Iron Beetle": 1769684744808,
-      "Iron Bumpkin": 1769684744808,
-      "Iron Hustle": 1769684744808,
-      "Iron Idol": 1769684744808,
-      "Rocky the Mole": 1769684744808,
+      "Iron Beetle": 1769700212407,
+      "Iron Bumpkin": 1769700212407,
+      "Iron Hustle": 1769700212407,
+      "Iron Idol": 1769700212407,
+      "Rocky the Mole": 1769700212407,
       "Alien Chicken": 1769694262866,
       "Ayam Cemani": 1769694263675,
       "Chicken Coop": 1769694263675,
@@ -15996,7 +15934,7 @@
       "Heart of Davy Jones": 1769692224896,
       "Pharaoh Chicken": 1769692224896,
       "Camel": 1769692143512,
-      "Emerald Turtle": 1769694218455,
+      "Emerald Turtle": 1769700212407,
       "Gold Beetle": 1769684744466,
       "Golden Touch": 1769684744466,
       "Nugget": 1769684744466,
@@ -16010,7 +15948,7 @@
       "Flower Fox": 1769687927701,
       "Butterfly": 1769687773765,
       "Soybliss": 1769699721141,
-      "Frosted Cakes": 1769684869212,
+      "Frosted Cakes": 1769700227772,
       "Chef Apron": 1769562835062,
       "Blossom Ward": 1768742666199,
       "Tofu Mask": 1753835903947,
@@ -16096,7 +16034,7 @@
       "Frozen Cow": 1768141631290,
       "Frozen Sheep": 1768172604525,
       "Skill Shrimpy": 1769431460226,
-      "Nightshade Medallion": 1769684869212,
+      "Nightshade Medallion": 1769700276999,
       "Winter Guardian": 1768164730738,
       "Mysterious Parsnip": 1768004127930,
       "Parsnip": 1768016179006,
@@ -16113,7 +16051,7 @@
       "Lava Swimwear": 1769626660447,
       "Fireside Alchemist": 1769684740548,
       "Giant Onion": 1768179309710,
-      "Nightshade Shield": 1769698410730,
+      "Nightshade Shield": 1769700212407,
       "Architect Ruler": 1769544371486,
       "Reelmaster's Chair": 1769642084265,
       "Super Totem": 1761616881085,
@@ -16136,7 +16074,7 @@
       "Treasure Map": 1769525516696,
       "Nightshade Crown": 1769692391905,
       "Tortoise Shrine": 1769691356167,
-      "Mole Shrine": 1769684744808,
+      "Mole Shrine": 1769700212407,
       "Training Whistle": 1769691387978,
       "Sparrow Shrine": 1769699728718,
       "Bantam Shrine": 1769694263675,
@@ -16163,7 +16101,7 @@
       "Power hour": 1769560484868
     },
     "socialFarming": {
-      "points": 148508,
+      "points": 148569,
       "villageProjects": {
         "Miner's Monument": {
           "cheers": 10000,
@@ -16215,29 +16153,16 @@
         "freeCheersClaimedAt": 1766016066155
       },
       "cheersGiven": {
-        "date": "2026-01-28",
+        "date": "2026-01-29",
         "projects": {},
         "farms": [
-          4275065523435590,
-          23614,
-          6237238044535795,
-          151471,
-          8406259486677961,
-          150539,
-          1026369204954748,
-          1915463731455723,
-          41414,
-          5592,
-          174229,
-          162548,
-          141758,
-          9239,
-          1213141032242343,
-          2299,
-          1079131416538037,
-          167282,
+          47728,
           885,
-          90898
+          175706,
+          174229,
+          4275065523435590,
+          177120,
+          6237238044535795
         ]
       },
       "clutter": {
@@ -16277,7 +16202,7 @@
       },
       "weeklyPoints": {
         "week": "2026-01-26",
-        "points": 2134
+        "points": 2195
       },
       "helpIncrease": {
         "boughtAt": [
