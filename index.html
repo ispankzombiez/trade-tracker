@@ -789,7 +789,15 @@
             const userDetailsElement = document.getElementById('userDetails');
             if (userDetailsElement) {
                 userDetailsElement.style.display = 'block';
-                debugLog('userDetails display set to block');
+                userDetailsElement.style.backgroundColor = 'red'; // Make it very visible
+                userDetailsElement.style.border = '5px solid yellow'; // Make it very visible
+                userDetailsElement.style.padding = '20px';
+                userDetailsElement.style.margin = '20px 0';
+                userDetailsElement.style.minHeight = '200px';
+                debugLog('userDetails display set to block with visible styling');
+                debugLog('userDetails computed style: ' + window.getComputedStyle(userDetailsElement).display);
+                debugLog('userDetails visibility: ' + window.getComputedStyle(userDetailsElement).visibility);
+                debugLog('userDetails height: ' + userDetailsElement.offsetHeight + 'px');
             } else {
                 debugLog('ERROR: userDetails element not found');
             }
@@ -823,6 +831,10 @@
             const userStatsElement = document.getElementById('userStats');
             if (userStatsElement) {
                 debugLog('userStats element found, setting HTML...');
+                userStatsElement.style.backgroundColor = 'blue'; // Make it very visible
+                userStatsElement.style.color = 'white'; // Make text visible
+                userStatsElement.style.border = '3px solid green';
+                userStatsElement.style.padding = '10px';
                 try {
                     userStatsElement.innerHTML = `
                     <div class="stat-item ${profitClass}">
