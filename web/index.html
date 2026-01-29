@@ -920,6 +920,26 @@
                             `).join('')}
                         </div>
                     </div>
+                    
+                    <!-- Complete Trade History -->
+                    <div class="card" style="grid-column: 1 / -1;">
+                        <h3>📊 Complete Trade History</h3>
+                        <div class="recent-activity" style="max-height: 500px; overflow-y: auto;">
+                            ${allTrades.map(trade => `
+                                <div class="activity-item">
+                                    <div>
+                                        <span class="trade-type trade-${trade.type.toLowerCase()}">${trade.type}</span>
+                                        <strong>${trade.item}</strong> x${trade.quantity}
+                                        <br>
+                                        <small>Counterparty: ${trade.counterparty}</small>
+                                        <br>
+                                        <small>${trade.date} ${trade.time}</small>
+                                    </div>
+                                    <div class="profit-amount">${trade.price.toFixed(2)} SFL</div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
                 </div>
             `;
             newTestElement.style.cssText = `
