@@ -817,11 +817,11 @@
             // Calculate new stats for display
             const stats = userData.overview;
             
-            // Calculate total earned from sells
-            const totalEarnedFromSells = (userData.sells || []).reduce((sum, sell) => sum + (sell.price * sell.quantity), 0);
+            // Calculate total earned from sells (price is already total per transaction)
+            const totalEarnedFromSells = (userData.sells || []).reduce((sum, sell) => sum + sell.price, 0);
             
-            // Calculate total spent on buys
-            const totalSpentOnBuys = (userData.buys || []).reduce((sum, buy) => sum + (buy.price * buy.quantity), 0);
+            // Calculate total spent on buys (price is already total per transaction)
+            const totalSpentOnBuys = (userData.buys || []).reduce((sum, buy) => sum + buy.price, 0);
             
             // Calculate total profit (sells - buys)
             const totalProfit = totalEarnedFromSells - totalSpentOnBuys;
