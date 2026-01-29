@@ -61,8 +61,8 @@ def load_inventory_data(username: str) -> Dict[str, Dict[str, float]]:
     }
     
     resources = {
-        'Axe', 'Pickaxe', 'Shovel', 'Petting Hand', 'Brush', 'Gold Egg', 'Stone', 
-        'Iron', 'Gold', 'Diamond', 'Wood', 'Crimstone'
+        'Axe', 'Pickaxe', 'Stone', 'Iron', 'Gold', 'Diamond', 'Wood', 'Crimstone', 'Obsidian'
+        # Excluded: 'Shovel', 'Petting Hand', 'Brush', 'Gold Egg' - not for chart display
     }
     
     if os.path.exists(raw_file):
