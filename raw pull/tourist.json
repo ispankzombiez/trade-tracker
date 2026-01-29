@@ -81,7 +81,7 @@
       "Rice": "826.4088",
       "Olive": "1671.5208",
       "Tomato": "1433.1800000000078804",
-      "Lemon": "569.5800000000046292",
+      "Lemon": "529.5800000000046292",
       "Barley": "7012.812099999998264",
       "Rhubarb": "44739.30749999960842",
       "Zucchini": "297620.3145999998891",
@@ -948,7 +948,7 @@
       "Wild Grass": "10",
       "Spaghetti al Limone": "17",
       "Chewed Bone": "10",
-      "Sour Shake": "171",
+      "Sour Shake": "173",
       "Fermented Fish": "4",
       "Big Orange": "1",
       "Lobster": "18",
@@ -9752,18 +9752,8 @@
             "y": -1
           },
           "readyAt": 1738220541829,
-          "oil": 38.66666666666666,
+          "oil": 38.33333333333332,
           "crafting": [
-            {
-              "name": "Sour Shake",
-              "boost": {
-                "Oil": 0.3333333333333333
-              },
-              "skills": {
-                "Double Nom": true
-              },
-              "readyAt": 1769687948492
-            },
             {
               "name": "Sour Shake",
               "boost": {
@@ -9793,6 +9783,16 @@
                 "Double Nom": true
               },
               "readyAt": 1769690117267
+            },
+            {
+              "name": "Sour Shake",
+              "boost": {
+                "Oil": 0.3333333333333333
+              },
+              "skills": {
+                "Double Nom": true
+              },
+              "readyAt": 1769690840192
             }
           ]
         }
@@ -15474,7 +15474,7 @@
       "NutriBarley Mixed": 5007,
       "Treasure Key Bought": 6,
       "Mixed Grain Mixed": 5141,
-      "Sour Shake Cooked": 6489,
+      "Sour Shake Cooked": 6490,
       "Cheese Cooked": 18877,
       "Honey Cheddar Cooked": 239,
       "Pizza Margherita Cooked": 1675,
@@ -18269,7 +18269,7 @@
           "petXP": 12150,
           "score": 3443,
           "collectivePet": {
-            "totalXP": 4087505,
+            "totalXP": 4095685,
             "goalXP": 10263180,
             "goalReached": false,
             "streak": 10,
@@ -20724,9 +20724,9 @@
       }
     },
     "boostsUsedAt": {
-      "Luna's Hat": 1769687524678,
-      "Goblin Medallion": 1769687524678,
-      "Desert Gnome": 1769687524678,
+      "Luna's Hat": 1769687963507,
+      "Goblin Medallion": 1769687963507,
+      "Desert Gnome": 1769687963507,
       "Bud #2197": 1769669803967,
       "Camel Onesie": 1769666257136,
       "Cannonball": 1768728746790,
@@ -20994,7 +20994,7 @@
       "Tortoise Shrine": 1769685034447,
       "Mole Shrine": 1769681429831,
       "Training Whistle": 1769666235594,
-      "Master Chef's Cleaver": 1769687524678,
+      "Master Chef's Cleaver": 1769687963507,
       "Toucan Shrine": 1769666257136,
       "Sparrow Shrine": 1769677739083,
       "Fox Shrine": 1769686271307,
@@ -21240,7 +21240,7 @@
         },
         "Twizzle": {
           "name": "Twizzle",
-          "experience": 126422,
+          "experience": 126432,
           "energy": 530,
           "requests": {
             "food": [
@@ -21255,7 +21255,7 @@
               "Spaghetti al Limone"
             ]
           },
-          "pettedAt": 1769680797762,
+          "pettedAt": 1769688044727,
           "fetches": {
             "Acorn": 106,
             "Heart leaf": 121
@@ -21289,7 +21289,7 @@
         },
         "Nibbles": {
           "name": "Nibbles",
-          "experience": 126042,
+          "experience": 126052,
           "energy": 545,
           "requests": {
             "food": [
@@ -21304,7 +21304,7 @@
               "Cauliflower Cake"
             ]
           },
-          "pettedAt": 1769680798144,
+          "pettedAt": 1769688045169,
           "dailySocialXP": {
             "2026-01-29": 25
           },
@@ -21316,7 +21316,7 @@
         },
         "Biscuit": {
           "name": "Biscuit",
-          "experience": 39705,
+          "experience": 39715,
           "energy": 21450,
           "requests": {
             "food": [
@@ -21331,7 +21331,7 @@
               "Blue Cheese"
             ]
           },
-          "pettedAt": 1769680798458,
+          "pettedAt": 1769688045510,
           "dailySocialXP": {
             "2026-01-29": 25
           }
@@ -21366,7 +21366,7 @@
         "65": {
           "id": 65,
           "name": "Pet #65",
-          "experience": 183967,
+          "experience": 183977,
           "energy": 276355,
           "requests": {
             "food": [
@@ -21387,7 +21387,7 @@
               "2026-01-29": 2
             }
           },
-          "pettedAt": 1769680803607,
+          "pettedAt": 1769688047249,
           "traits": {
             "type": "Phoenix",
             "fur": "Ghost-Teal",
@@ -21408,7 +21408,7 @@
         "141": {
           "id": 141,
           "name": "Pet #141",
-          "experience": 128800,
+          "experience": 128810,
           "energy": 55655,
           "requests": {
             "food": [
@@ -21426,7 +21426,7 @@
               "Spaghetti al Limone"
             ]
           },
-          "pettedAt": 1769680800681,
+          "pettedAt": 1769688047573,
           "traits": {
             "type": "Ram",
             "fur": "Cream",
@@ -21451,7 +21451,7 @@
         "475": {
           "id": 475,
           "name": "Pet #475",
-          "experience": 128152,
+          "experience": 128162,
           "energy": 34860,
           "requests": {
             "food": [
@@ -21469,7 +21469,7 @@
               "Beetroot Cake"
             ]
           },
-          "pettedAt": 1769680799940,
+          "pettedAt": 1769688046846,
           "traits": {
             "type": "Griffin",
             "fur": "Dark-Green",
@@ -21493,7 +21493,7 @@
         "628": {
           "name": "Pet #628",
           "id": 628,
-          "experience": 126962,
+          "experience": 126972,
           "energy": 1315,
           "requests": {
             "food": [
@@ -21511,7 +21511,7 @@
               "Goblin Brunch"
             ]
           },
-          "pettedAt": 1769680799468,
+          "pettedAt": 1769688046209,
           "traits": {
             "type": "Bear",
             "fur": "Brown",
@@ -21538,7 +21538,7 @@
         "682": {
           "name": "Pet #682",
           "id": 682,
-          "experience": 128457,
+          "experience": 128467,
           "energy": 26075,
           "requests": {
             "food": [
@@ -21556,7 +21556,7 @@
               "Steamed Red Rice"
             ]
           },
-          "pettedAt": 1769680800218,
+          "pettedAt": 1769688047809,
           "traits": {
             "type": "Warthog",
             "fur": "Grey",
@@ -21604,7 +21604,7 @@
         "826": {
           "name": "Pet #826",
           "id": 826,
-          "experience": 156217,
+          "experience": 156227,
           "energy": 156815,
           "requests": {
             "food": [
@@ -21625,7 +21625,7 @@
               "2026-01-29": 1
             }
           },
-          "pettedAt": 1769680802145,
+          "pettedAt": 1769688048212,
           "traits": {
             "type": "Wolf",
             "fur": "Dark-Green",
@@ -21645,7 +21645,7 @@
         "866": {
           "name": "Pet #866",
           "id": 866,
-          "experience": 131070,
+          "experience": 131080,
           "energy": 18815,
           "requests": {
             "food": [
@@ -21663,7 +21663,7 @@
               "Wheat Cake"
             ]
           },
-          "pettedAt": 1769680799681,
+          "pettedAt": 1769688046522,
           "traits": {
             "type": "Dragon",
             "fur": "Dark-Green",
