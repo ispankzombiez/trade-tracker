@@ -1,7 +1,7 @@
 {
   "farm": {
     "coins": 684.6375712501547,
-    "balance": "35.98858685462368216",
+    "balance": "38.08858685462368216",
     "previousBalance": "6195.1070892861099809",
     "inventory": {
       "Sunflower Seed": "2399",
@@ -130,7 +130,7 @@
       "Beetroot Cake": "1",
       "Radish Cake": "4",
       "Wheat Cake": "1",
-      "Bumpkin Salad": "9",
+      "Bumpkin Salad": "6",
       "Goblin's Treat": "15",
       "Cauliflower Burger": "10",
       "Club Sandwich": "14",
@@ -187,7 +187,7 @@
       "Sour Shake": "10",
       "Wood": "231.88",
       "Stone": "83.9",
-      "Iron": "46.35",
+      "Iron": "45.35",
       "Egg": "10.3",
       "Speed Chicken": "1",
       "Fat Chicken": "1",
@@ -204,7 +204,7 @@
       "Earthworm": "3241",
       "Grub": "1326",
       "Red Wiggler": "825",
-      "Fruitful Blend": "223",
+      "Fruitful Blend": "222",
       "Beehive": "3",
       "Flower Bed": "3",
       "Crimstone Rock": "4",
@@ -212,9 +212,9 @@
       "Sunstone": "34",
       "Oil": "300.2841435185185357",
       "Oil Reserve": "4",
-      "Wool": "6.5",
+      "Wool": "3.5",
       "Merino Wool": "4.2",
-      "Feather": "148.1",
+      "Feather": "85.1",
       "Milk": "0.3",
       "Hay": "4.6265000000002978",
       "Kernel Blend": "112.55018750000022161",
@@ -361,7 +361,7 @@
       "Zebra Turkeyfish": "77",
       "Ray": "13",
       "Hammerhead shark": "9",
-      "Mahi Mahi": "100",
+      "Mahi Mahi": "99",
       "Blue Marlin": "100",
       "Oarfish": "68",
       "Football fish": "27",
@@ -454,8 +454,8 @@
       "Gladiolus Seed": "8",
       "Love Charm": "487.3",
       "Trash": "1",
-      "Dung": "537",
-      "Weed": "520",
+      "Dung": "510",
+      "Weed": "502",
       "Bracelet": "36",
       "Halloween Ticket 2025": "5",
       "Mansion": "1",
@@ -539,7 +539,6 @@
       "Sand Drill": "2",
       "Cornucopia": "1",
       "Lemon Cheesecake": "1",
-      "Cheer": "1",
       "Frost Pebble": "3",
       "Ribbon": "3",
       "Potato Cake": "1",
@@ -562,7 +561,8 @@
       "Iron Pickaxe": "10",
       "Pickaxe": "22",
       "Stone Pickaxe": "13",
-      "Parsnip Cake": "1"
+      "Parsnip Cake": "1",
+      "Cheer": "5"
     },
     "previousInventory": {
       "Sunflower Seed": "1200",
@@ -4747,6 +4747,10 @@
           "plantedAt": 1769643618226,
           "harvestedAt": 1769705125478,
           "harvestsLeft": 4
+        },
+        "fertiliser": {
+          "name": "Fruitful Blend",
+          "fertilisedAt": 1769717458603
         }
       },
       "2acc66de": {
@@ -5191,7 +5195,10 @@
               "Red Wiggler": 0
             },
             "startedAt": 1769708176203,
-            "readyAt": 1769747056203
+            "readyAt": 1769732656203
+          },
+          "boost": {
+            "Egg": 60
           }
         }
       ],
@@ -6028,8 +6035,8 @@
       "Gift Giver Reward Opened": 14,
       "Digging Reward Collected": 64,
       "Pirate Chest Opened": 64,
-      "Farm Cheered": 583,
-      "Farm Helped": 574,
+      "Farm Cheered": 584,
+      "Farm Helped": 575,
       "Greenhouse Oiled": 77,
       "Shipment Restocked": 58,
       "General Store Restocked": 64,
@@ -6161,7 +6168,7 @@
       "Mermaid Scale Sold": 1559,
       "Rapid Roast Cooked": 109,
       "Carrot Sold": 6036.8776,
-      "SFL Earned": 20919.84561845625,
+      "SFL Earned": 20921.94561845625,
       "Orange Cake Fed": 102,
       "Kernaldo Crafted": 1,
       "Boiled Eggs Cooked": 934,
@@ -6695,8 +6702,8 @@
       "Rhubarb Tart Fed": 11,
       "Trash Burned": 140,
       "Luxury Key Crafted": 6,
-      "Dung Burned": 5520,
-      "Weed Burned": 2950,
+      "Dung Burned": 5550,
+      "Weed Burned": 2970,
       "Red Snapper Fed": 232,
       "Basic Cooking Pot Completed": 118,
       "Expert Cooking Pot Completed": 18,
@@ -6723,7 +6730,7 @@
       "Farms Cheered": 7,
       "Farms Helped": 7,
       "Coins Order Delivered": 70,
-      "FLOWER Order Delivered": 230,
+      "FLOWER Order Delivered": 232,
       "Obsidian Collected": 42,
       "Mole Shrine Crafted": 2,
       "Ticket Order Delivered": 656,
@@ -7025,7 +7032,8 @@
           "readyAt": 1769644800473,
           "reward": {
             "sfl": 0.95
-          }
+          },
+          "completedAt": 1769717396850
         },
         {
           "createdAt": 1769644800473,
@@ -7037,7 +7045,8 @@
           "readyAt": 1769644800473,
           "reward": {
             "sfl": 1.15
-          }
+          },
+          "completedAt": 1769717382389
         },
         {
           "createdAt": 1769644800168,
@@ -7166,7 +7175,7 @@
           "reward": {}
         }
       ],
-      "fulfilledCount": 12698,
+      "fulfilledCount": 12700,
       "milestone": {
         "claimedAt": 1707955631354,
         "total": 2770,
@@ -7376,9 +7385,9 @@
         }
       },
       "gordo": {
-        "deliveryCount": 266,
+        "deliveryCount": 267,
         "skippedCount": 30,
-        "deliveryCompletedAt": 1769558739687,
+        "deliveryCompletedAt": 1769717396850,
         "streaks": {
           "streak": 1,
           "lastClaimedAt": 1746324329877
@@ -7559,9 +7568,9 @@
         }
       },
       "guria": {
-        "deliveryCount": 236,
+        "deliveryCount": 237,
         "skippedCount": 56,
-        "deliveryCompletedAt": 1769558728674,
+        "deliveryCompletedAt": 1769717382389,
         "friendship": {
           "points": 24,
           "updatedAt": 1767292316830
@@ -8095,7 +8104,7 @@
           "petXP": 0,
           "score": 0,
           "collectivePet": {
-            "totalXP": 4386835,
+            "totalXP": 4387260,
             "goalXP": 10263180,
             "goalReached": false,
             "streak": 10,
@@ -9821,7 +9830,7 @@
       "Sunshower": 1769465546026
     },
     "socialFarming": {
-      "points": 36002,
+      "points": 36010,
       "villageProjects": {
         "Farmer's Monument": {
           "cheers": 100,
@@ -9873,7 +9882,8 @@
           1213141032242343,
           1915463731455723,
           3669920097425700,
-          103715
+          103715,
+          1079131416538037
         ]
       },
       "clutter": {
@@ -9915,12 +9925,13 @@
         "boughtAt": [
           1769705595420,
           1769705657112,
-          1769711507350
+          1769711507350,
+          1769717319241
         ]
       },
       "weeklyPoints": {
         "week": "2026-01-26",
-        "points": 816
+        "points": 824
       },
       "helpedForCompetition": 737,
       "waves": {
