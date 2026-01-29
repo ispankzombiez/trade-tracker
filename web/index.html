@@ -776,129 +776,53 @@
                 return;
             }
             
-            // Set the title
-            const titleElement = document.getElementById('userDetailsTitle');
-            if (titleElement) {
-                titleElement.textContent = `📈 ${userData.username} Statistics`;
-                debugLog('Updated title successfully');
+            // CREATE A COMPLETELY NEW TEST ELEMENT TO BYPASS ANY ISSUES
+            debugLog('Creating brand new test element...');
+            
+            // Remove any existing test element
+            const existingTest = document.getElementById('newTestElement');
+            if (existingTest) {
+                existingTest.remove();
+            }
+            
+            // Create a brand new element and add it to the page
+            const newTestElement = document.createElement('div');
+            newTestElement.id = 'newTestElement';
+            newTestElement.innerHTML = `
+                <h1 style="color: white; background: red; padding: 20px;">🎉 SUCCESS! This is working!</h1>
+                <h2 style="color: black; background: yellow; padding: 15px;">User: ${userData.username}</h2>
+                <div style="background: green; color: white; padding: 15px; margin: 10px 0;">
+                    <h3>Stats:</h3>
+                    <p>Balance: ${userData.overview.balance} SFL</p>
+                    <p>Earned: ${userData.overview.earned_sfl} SFL</p>
+                    <p>Coins: ${userData.overview.coins}</p>
+                    <p>Items Sold: ${userData.overview.items_sold}</p>
+                </div>
+            `;
+            newTestElement.style.cssText = `
+                background: blue !important;
+                border: 10px solid red !important;
+                padding: 30px !important;
+                margin: 30px !important;
+                min-height: 400px !important;
+                position: relative !important;
+                z-index: 9999 !important;
+                font-size: 16px !important;
+                width: 90% !important;
+            `;
+            
+            // Add it to the page after the debug panel
+            const debugPanel = document.getElementById('debugPanel');
+            if (debugPanel) {
+                debugPanel.parentNode.insertBefore(newTestElement, debugPanel.nextSibling);
+                debugLog('New test element added after debug panel');
             } else {
-                debugLog('ERROR: userDetailsTitle element not found');
+                document.body.appendChild(newTestElement);
+                debugLog('New test element added to body');
             }
             
-            // Show the user details section
-            const userDetailsElement = document.getElementById('userDetails');
-            if (userDetailsElement) {
-                userDetailsElement.style.cssText = `
-                    display: block !important;
-                    background-color: red !important;
-                    border: 5px solid yellow !important;
-                    padding: 20px !important;
-                    margin: 20px 0 !important;
-                    min-height: 500px !important;
-                    height: auto !important;
-                    overflow: visible !important;
-                    position: relative !important;
-                `;
-                
-                // Add some test text directly to the element
-                const testDiv = document.createElement('div');
-                testDiv.innerHTML = '<h2>TEST CONTENT - If you see this, the element is working!</h2>';
-                testDiv.style.cssText = 'background: white; color: black; padding: 20px; font-size: 20px; border: 3px solid black;';
-                userDetailsElement.appendChild(testDiv);
-                
-                debugLog('userDetails forced styling applied with !important');
-                debugLog('userDetails computed style: ' + window.getComputedStyle(userDetailsElement).display);
-                debugLog('userDetails visibility: ' + window.getComputedStyle(userDetailsElement).visibility);
-                debugLog('userDetails height: ' + userDetailsElement.offsetHeight + 'px');
-                
-                // Also check if the grid inside has content
-                const gridElement = userDetailsElement.querySelector('.dashboard-grid');
-                if (gridElement) {
-                    gridElement.style.cssText = `
-                        background-color: orange !important;
-                        border: 2px solid purple !important;
-                        min-height: 400px !important;
-                        display: grid !important;
-                        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
-                        gap: 20px !important;
-                    `;
-                    debugLog('Found dashboard-grid inside userDetails, height: ' + gridElement.offsetHeight + 'px');
-                } else {
-                    debugLog('ERROR: No dashboard-grid found inside userDetails');
-                }
-            } else {
-                debugLog('ERROR: userDetails element not found');
-            }
-            
-            // Make sure we show the user details and hide general stats when on a user tab
-            if (currentTab !== 'overview') {
-                const generalStatsElement = document.getElementById('generalStats');
-                if (generalStatsElement) {
-                    generalStatsElement.classList.add('hidden');
-                    debugLog('General stats hidden');
-                } else {
-                    debugLog('ERROR: generalStats element not found');
-                }
-            }
-
-            // Check if overview data exists
-            if (!userData.overview) {
-                debugLog('ERROR: No overview data found in user data');
-                return;
-            }
-
-            debugLog('About to generate stats HTML...');
-            
-            // Update user stats
-            const stats = userData.overview;
-            const earnedSfl = stats.earned_sfl || 0;
-            const profitClass = earnedSfl >= 0 ? 'profit-positive' : 'profit-negative';
-            const profitSign = earnedSfl >= 0 ? '+' : '';
-
-            debugLog('Stats values calculated successfully');
-            const userStatsElement = document.getElementById('userStats');
-            if (userStatsElement) {
-                debugLog('userStats element found, setting HTML...');
-                userStatsElement.style.backgroundColor = 'blue'; // Make it very visible
-                userStatsElement.style.color = 'white'; // Make text visible
-                userStatsElement.style.border = '3px solid green';
-                userStatsElement.style.padding = '10px';
-                try {
-                    userStatsElement.innerHTML = `
-                    <div class="stat-item ${profitClass}">
-                        <span class="stat-value">${profitSign}${earnedSfl.toFixed(2)}</span>
-                        <span class="stat-label">Earned SFL</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-value">${(stats.balance || 0).toFixed(2)}</span>
-                        <span class="stat-label">Current Balance (SFL)</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-value">${(stats.coins || 0).toFixed(0)}</span>
-                        <span class="stat-label">Total Coins</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-value">${(stats.items_sold || 0).toFixed(0)}</span>
-                        <span class="stat-label">Items Sold</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-value">${(stats.trade_points || 0).toFixed(2)}</span>
-                        <span class="stat-label">Trade Points</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-value">${stats.active_listings || 0}</span>
-                        <span class="stat-label">Active Listings</span>
-                    </div>
-                `;
-                    debugLog('Stats HTML set successfully!');
-                } catch (error) {
-                    debugLog('ERROR setting stats HTML: ' + error.message);
-                }
-            } else {
-                debugLog('ERROR: userStats element not found');
-            }
-            
-            debugLog('updateUserDetails completed successfully - stats should be visible now');
+            debugLog('New element height: ' + newTestElement.offsetHeight + 'px');
+            debugLog('updateUserDetails completed - check for new test element!');
         }
 
         let currentTimeframe = 'day';
