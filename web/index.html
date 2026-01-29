@@ -41,30 +41,41 @@
         .header {
             text-align: center;
             background: var(--card-bg);
-            padding: 30px;
+            padding: 20px;
             border-radius: 15px;
             margin-bottom: 30px;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
             border: 1px solid var(--border-color);
+            display: grid;
+            grid-template-areas: 
+                "title title title"
+                "farm-link controls refresh";
+            grid-template-columns: 1fr auto 1fr;
+            gap: 15px;
+            align-items: center;
         }
 
         .header h1 {
+            grid-area: title;
             color: var(--primary-color);
             font-size: 2.5rem;
-            margin-bottom: 15px;
+            margin: 0 0 15px 0;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            justify-self: center;
         }
 
         .farm-link {
+            grid-area: farm-link;
+            justify-self: start;
             display: inline-block;
             color: var(--primary-color);
             text-decoration: none;
-            font-size: 1.1rem;
-            margin-bottom: 20px;
+            font-size: 1rem;
             padding: 10px 20px;
             border: 2px solid var(--primary-color);
             border-radius: 25px;
             transition: all 0.3s ease;
+            white-space: nowrap;
         }
 
         .farm-link:hover {
@@ -73,13 +84,114 @@
             transform: scale(1.05);
         }
 
+        .header-controls {
+            grid-area: controls;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+            justify-self: center;
+        }
+
         .last-updated {
             background: var(--primary-color);
             color: var(--text-light);
-            padding: 8px 16px;
-            border-radius: 20px;
-            display: inline-block;
+            padding: 6px 12px;
+            border-radius: 15px;
             font-weight: bold;
+            font-size: 0.85rem;
+            margin: 0;
+            white-space: nowrap;
+        }
+
+        .debug-toggle {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            color: var(--text-light);
+            font-size: 0.8rem;
+            cursor: pointer;
+            opacity: 0.8;
+            margin: 0;
+        }
+
+        .debug-toggle input[type="checkbox"] {
+            accent-color: var(--primary-color);
+            scale: 0.9;
+        }
+
+        .refresh-btn {
+            grid-area: refresh;
+            justify-self: end;
+            background: var(--primary-color);
+            color: var(--text-light);
+            border: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            font-size: 1rem;
+            white-space: nowrap;
+        }
+
+        .refresh-btn:hover {
+            background: var(--primary-dark);
+            transform: scale(1.05);
+        }
+
+        /* Mobile responsive design */
+        @media (max-width: 768px) {
+            .header {
+                grid-template-areas: 
+                    "title"
+                    "farm-link"
+                    "controls"
+                    "refresh";
+                grid-template-columns: 1fr;
+                gap: 15px;
+                padding: 20px 15px;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+                margin-bottom: 10px;
+            }
+            
+            .farm-link,
+            .refresh-btn {
+                justify-self: center;
+                width: fit-content;
+            }
+            
+            .header-controls {
+                justify-self: center;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header {
+                padding: 15px;
+            }
+            
+            .header h1 {
+                font-size: 1.8rem;
+            }
+            
+            .farm-link,
+            .refresh-btn {
+                padding: 8px 16px;
+                font-size: 0.9rem;
+            }
+            
+            .last-updated {
+                font-size: 0.8rem;
+                padding: 5px 10px;
+            }
+            
+            .debug-toggle {
+                font-size: 0.75rem;
+            }
         }
 
         .dashboard-grid {
@@ -450,26 +562,6 @@
 
         .general-stats.hidden {
             display: none;
-        }
-
-        .header-controls {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-            margin: 10px 0;
-        }
-
-        .debug-toggle {
-            display: flex;
-            align-items: center;
-            gap: 5px;
-            color: var(--text-light);
-            font-size: 0.9rem;
-            cursor: pointer;
-        }
-
-        .debug-toggle input[type="checkbox"] {
-            accent-color: var(--primary-color);
         }
 
         .debug-panel {
