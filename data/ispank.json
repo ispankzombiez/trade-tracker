@@ -1,18 +1,30 @@
 {
   "username": "ispank",
   "overview": {
-    "balance": 171.98,
-    "coins": 23061.0,
+    "balance": 157.11,
+    "coins": 20277.0,
     "gems": 0.0,
     "earned_sfl": 782.44,
-    "earned_coins": 23061.0,
+    "earned_coins": 20277.0,
     "spent_sfl": 21.71,
     "items_sold": 4527.0,
     "trade_points": 26995.44,
-    "last_updated": "2026-01-29 05:15 PM",
+    "last_updated": "2026-01-29 05:32 PM",
     "active_listings": 5
   },
   "buys": [
+    {
+      "date": "2026-01-29",
+      "time": "05:23 PM",
+      "type": "BUY",
+      "item": "Corn",
+      "quantity": 800,
+      "price_text": "14.864 SFL",
+      "price": 14.864,
+      "counterparty": "Heruzen",
+      "farm_id": "-",
+      "trade_id": "fdf64bea"
+    },
     {
       "date": "2026-01-28",
       "time": "01:51 AM",
@@ -618,15 +630,24 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 28,
+    "total_buys": 29,
     "total_sells": 22,
-    "buy_volume": 74.95279999999998,
+    "buy_volume": 89.81679999999997,
     "sell_volume": 97.21509999999999,
-    "gross_profit": 22.26230000000001,
-    "avg_buy_price": 2.6768857142857136,
+    "gross_profit": 7.39830000000002,
+    "avg_buy_price": 3.0971310344827576,
     "avg_sell_price": 4.418868181818182,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Corn",
+        "quantity": 800,
+        "price": 14.864,
+        "date": "2026-01-29",
+        "time": "05:23 PM",
+        "username": "ispank"
+      },
       {
         "type": "BUY",
         "item": "Wheat",
@@ -669,8 +690,7 @@
         "quantity": 264,
         "price": 3.7535,
         "date": "2026-01-28",
-        "time": "01:51 AM",
-        "username": "ispank"
+        "time": "01:51 AM"
       },
       {
         "type": "BUY",
@@ -783,21 +803,13 @@
         "price": 2.128,
         "date": "2026-01-27",
         "time": "09:58 AM"
-      },
-      {
-        "type": "BUY",
-        "item": "Apple",
-        "quantity": 111,
-        "price": 2.4336,
-        "date": "2026-01-27",
-        "time": "09:58 AM"
       }
     ],
-    "profit_margin": 29.701758973647436,
+    "profit_margin": 8.237100408832227,
     "most_bought_items": {
+      "Corn": 1369,
       "Apple": 1088,
       "Wheat": 754,
-      "Corn": 569,
       "Barley": 546,
       "Honey": 273
     },
