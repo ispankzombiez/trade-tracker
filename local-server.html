@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trade-tracker - Local Development</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        h1 { color: #27ae60; }
+        .button {
+            display: inline-block;
+            background: #27ae60;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px 0;
+            font-weight: bold;
+        }
+        .button:hover {
+            background: #219a52;
+        }
+        .code {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 4px solid #27ae60;
+            margin: 15px 0;
+            font-family: 'Courier New', monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌻 trade-tracker</h1>
+        <h2>Local Development Server</h2>
+        
+        <p>This is a simple local server for testing your dashboard before pushing to GitHub.</p>
+        
+        <a href="index.html" class="button">🚀 Open Dashboard</a>
+        
+        <h3>📁 Project Structure</h3>
+        <div class="code">
+web/
+├── index.html          # Main dashboard
+├── local-server.html   # This file
+└── data/               # Generated JSON data
+    ├── summary.json
+    ├── ispank.json
+    ├── raichupus.json
+    └── ... (other traders)
+        </div>
+        
+        <h3>🔄 Refresh Data</h3>
+        <p>To update the dashboard with latest data, run:</p>
+        <div class="code">python master.py</div>
+        
+        <h3>🚀 Deploy to GitHub</h3>
+        <p>When ready to deploy:</p>
+        <div class="code">
+git add .<br>
+git commit -m "Deploy Sunflower Land Trading Intelligence"<br>
+git push origin main
+        </div>
+        
+        <h3>📊 Current Data Summary</h3>
+        <div id="summary">Loading...</div>
+    </div>
+
+    <script>
+        // Load and display current summary
+        fetch('./data/summary.json')
+            .then(response => response.json())
+            .then(data => {
+                const summaryDiv = document.getElementById('summary');
+                const lastUpdated = new Date(data.last_updated);
+                summaryDiv.innerHTML = `
+                    <div class="code">
+                        📅 Last Updated: ${lastUpdated.toLocaleDateString()} ${lastUpdated.toLocaleTimeString()}<br>
+                        👥 Total Traders: ${data.total_users}<br>
+                        🏆 Top Trader: ${data.top_traders[0]?.username || 'None'}<br>
+                        💰 Top Profit: ${data.top_traders[0]?.profit?.toFixed(2) || '0'} SFL<br>
+                        📈 Profit Margin: ${data.top_traders[0]?.profit_margin?.toFixed(1) || '0'}%
+                    </div>
+                `;
+            })
+            .catch(error => {
+                document.getElementById('summary').innerHTML = `
+                    <div style="color: red;">❌ Error loading data: ${error.message}</div>
+                `;
+            });
+    </script>
+</body>
+</html>

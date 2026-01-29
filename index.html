@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trade-tracker</title>
+    <style>
+        :root {
+            --primary-color: #2ecc71;
+            --secondary-color: #27ae60;
+            --accent-color: #f39c12;
+            --danger-color: #e74c3c;
+            --dark-bg: #2c3e50;
+            --light-bg: #ecf0f1;
+            --text-dark: #2c3e50;
+            --text-light: #ffffff;
+            --border-color: #bdc3c7;
+            --success-color: #27ae60;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: var(--text-dark);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .header h1 {
+            color: var(--primary-color);
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .header p {
+            color: var(--text-dark);
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        .last-updated {
+            background: var(--primary-color);
+            color: var(--text-light);
+            padding: 8px 16px;
+            border-radius: 20px;
+            display: inline-block;
+            font-weight: bold;
+        }
+
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        .card h3 {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 5px;
+        }
+
+        .user-selector {
+            margin-bottom: 20px;
+        }
+
+        .user-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .user-btn {
+            background: var(--primary-color);
+            color: var(--text-light);
+            border: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: bold;
+        }
+
+        .user-btn:hover {
+            background: var(--secondary-color);
+            transform: scale(1.05);
+        }
+
+        .user-btn.active {
+            background: var(--accent-color);
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .stat-item {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: var(--text-light);
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 1.5rem;
+            font-weight: bold;
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+
+        .profit-positive {
+            background: linear-gradient(135deg, var(--success-color), #2ecc71) !important;
+        }
+
+        .profit-negative {
+            background: linear-gradient(135deg, var(--danger-color), #c0392b) !important;
+        }
+
+        .recent-activity {
+            max-height: 300px;
+            overflow-y: auto;
+        }
+
+        .activity-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            border-bottom: 1px solid var(--border-color);
+            transition: background 0.3s ease;
+        }
+
+        .activity-item:hover {
+            background: rgba(46, 204, 113, 0.1);
+        }
+
+        .activity-item:last-child {
+            border-bottom: none;
+        }
+
+        .trade-type {
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            color: var(--text-light);
+        }
+
+        .trade-buy {
+            background: var(--danger-color);
+        }
+
+        .trade-sell {
+            background: var(--success-color);
+        }
+
+        .loading {
+            text-align: center;
+            padding: 50px;
+            font-size: 1.2rem;
+            color: var(--primary-color);
+        }
+
+        .error {
+            background: var(--danger-color);
+            color: var(--text-light);
+            padding: 15px;
+            border-radius: 10px;
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .top-traders-list {
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
+        .trader-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px;
+            border-bottom: 1px solid var(--border-color);
+            transition: all 0.3s ease;
+        }
+
+        .trader-item:hover {
+            background: rgba(46, 204, 113, 0.1);
+            transform: translateX(5px);
+        }
+
+        .trader-rank {
+            background: var(--accent-color);
+            color: var(--text-light);
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+
+        .trader-info {
+            flex: 1;
+            margin-left: 15px;
+        }
+
+        .trader-name {
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        .trader-stats {
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        .profit-amount {
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        @media (max-width: 768px) {
+            .dashboard-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .stats-grid {
+                grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .user-buttons {
+                justify-content: center;
+            }
+        }
+
+        .refresh-btn {
+            background: var(--accent-color);
+            color: var(--text-light);
+            border: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+
+        .refresh-btn:hover {
+            background: #e67e22;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🌻 trade-tracker</h1>
+            <p>Real-time marketplace tracking and profit analysis</p>
+            <div class="last-updated" id="lastUpdated">Loading...</div>
+            <button class="refresh-btn" onclick="refreshData()">🔄 Refresh</button>
+        </div>
+
+        <div id="loading" class="loading">
+            <p>🔄 Loading trading data...</p>
+        </div>
+
+        <div id="error" class="error" style="display: none;">
+            <p>❌ Error loading data. Please try again later.</p>
+        </div>
+
+        <div id="dashboard" style="display: none;">
+            <div class="dashboard-grid">
+                <!-- Top Traders Card -->
+                <div class="card">
+                    <h3>🏆 Top Traders by Profit</h3>
+                    <div id="topTraders" class="top-traders-list">
+                        <!-- Will be populated by JavaScript -->
+                    </div>
+                </div>
+
+                <!-- Market Summary Card -->
+                <div class="card">
+                    <h3>📊 Market Summary</h3>
+                    <div id="marketSummary" class="stats-grid">
+                        <!-- Will be populated by JavaScript -->
+                    </div>
+                </div>
+
+                <!-- Recent Activity Card -->
+                <div class="card">
+                    <h3>⚡ Recent Activity</h3>
+                    <div id="recentActivity" class="recent-activity">
+                        <!-- Will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- User Selection -->
+            <div class="user-selector">
+                <div class="card">
+                    <h3>👥 Select Trader for Detailed View</h3>
+                    <div id="userButtons" class="user-buttons">
+                        <!-- Will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- User Details -->
+            <div id="userDetails" style="display: none;">
+                <div class="dashboard-grid">
+                    <!-- User Stats -->
+                    <div class="card">
+                        <h3 id="userDetailsTitle">📈 Trader Statistics</h3>
+                        <div id="userStats" class="stats-grid">
+                            <!-- Will be populated by JavaScript -->
+                        </div>
+                    </div>
+
+                    <!-- User Recent Activity -->
+                    <div class="card">
+                        <h3>📋 Recent Trades</h3>
+                        <div id="userRecentActivity" class="recent-activity">
+                            <!-- Will be populated by JavaScript -->
+                        </div>
+                    </div>
+
+                    <!-- Most Traded Items -->
+                    <div class="card">
+                        <h3>🎯 Most Traded Items</h3>
+                        <div id="userTopItems" class="recent-activity">
+                            <!-- Will be populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let dashboardData = null;
+        let currentUser = null;
+
+        async function loadData() {
+            try {
+                const response = await fetch('./data/summary.json');
+                if (!response.ok) {
+                    throw new Error('Failed to load data');
+                }
+                dashboardData = await response.json();
+                updateUI();
+            } catch (error) {
+                console.error('Error loading data:', error);
+                showError();
+            }
+        }
+
+        function showError() {
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('error').style.display = 'block';
+            document.getElementById('dashboard').style.display = 'none';
+        }
+
+        function updateUI() {
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('error').style.display = 'none';
+            document.getElementById('dashboard').style.display = 'block';
+
+            updateLastUpdated();
+            updateTopTraders();
+            updateMarketSummary();
+            updateRecentActivity();
+            updateUserButtons();
+        }
+
+        function updateLastUpdated() {
+            const date = new Date(dashboardData.last_updated);
+            document.getElementById('lastUpdated').textContent = 
+                `🔄 Last Updated: ${date.toLocaleDateString()} ${date.toLocaleTimeString()}`;
+        }
+
+        function updateTopTraders() {
+            const container = document.getElementById('topTraders');
+            container.innerHTML = '';
+
+            dashboardData.top_traders.slice(0, 10).forEach((trader, index) => {
+                const profitClass = trader.profit >= 0 ? 'profit-positive' : 'profit-negative';
+                const profitSign = trader.profit >= 0 ? '+' : '';
+                
+                const traderElement = document.createElement('div');
+                traderElement.className = 'trader-item';
+                traderElement.innerHTML = `
+                    <div class="trader-rank">${index + 1}</div>
+                    <div class="trader-info">
+                        <div class="trader-name">${trader.username}</div>
+                        <div class="trader-stats">${trader.total_trades} trades • ${trader.total_volume.toFixed(2)} SFL volume</div>
+                    </div>
+                    <div class="profit-amount ${profitClass}">${profitSign}${trader.profit.toFixed(2)} SFL</div>
+                `;
+                traderElement.onclick = () => selectUser(trader.username);
+                container.appendChild(traderElement);
+            });
+        }
+
+        function updateMarketSummary() {
+            const container = document.getElementById('marketSummary');
+            const totalProfit = dashboardData.top_traders.reduce((sum, trader) => sum + trader.profit, 0);
+            const totalVolume = dashboardData.top_traders.reduce((sum, trader) => sum + trader.total_volume, 0);
+            const totalTrades = dashboardData.top_traders.reduce((sum, trader) => sum + trader.total_trades, 0);
+
+            container.innerHTML = `
+                <div class="stat-item">
+                    <span class="stat-value">${dashboardData.total_users}</span>
+                    <span class="stat-label">Active Traders</span>
+                </div>
+                <div class="stat-item ${totalProfit >= 0 ? 'profit-positive' : 'profit-negative'}">
+                    <span class="stat-value">${totalProfit >= 0 ? '+' : ''}${totalProfit.toFixed(2)}</span>
+                    <span class="stat-label">Total Profit (SFL)</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value">${totalVolume.toFixed(2)}</span>
+                    <span class="stat-label">Total Volume (SFL)</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value">${totalTrades}</span>
+                    <span class="stat-label">Total Trades</span>
+                </div>
+            `;
+        }
+
+        function updateRecentActivity() {
+            const container = document.getElementById('recentActivity');
+            container.innerHTML = '';
+
+            dashboardData.recent_activity.slice(0, 20).forEach(activity => {
+                const activityElement = document.createElement('div');
+                activityElement.className = 'activity-item';
+                
+                const tradeTypeClass = activity.type === 'BUY' ? 'trade-buy' : 'trade-sell';
+                
+                activityElement.innerHTML = `
+                    <div>
+                        <span class="trade-type ${tradeTypeClass}">${activity.type}</span>
+                        <strong>${activity.item}</strong> x${activity.quantity}
+                        <br>
+                        <small>${activity.username} • ${activity.date} ${activity.time}</small>
+                    </div>
+                    <div class="profit-amount">${activity.price.toFixed(2)} SFL</div>
+                `;
+                container.appendChild(activityElement);
+            });
+        }
+
+        function updateUserButtons() {
+            const container = document.getElementById('userButtons');
+            container.innerHTML = '';
+
+            dashboardData.top_traders.forEach(trader => {
+                const button = document.createElement('button');
+                button.className = 'user-btn';
+                button.textContent = trader.username;
+                button.onclick = () => selectUser(trader.username);
+                container.appendChild(button);
+            });
+        }
+
+        async function selectUser(username) {
+            currentUser = username;
+            
+            // Update button states
+            document.querySelectorAll('.user-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.textContent === username);
+            });
+
+            try {
+                const response = await fetch(`./data/${username}.json`);
+                if (!response.ok) {
+                    throw new Error('Failed to load user data');
+                }
+                const userData = await response.json();
+                updateUserDetails(userData);
+            } catch (error) {
+                console.error('Error loading user data:', error);
+                alert('Error loading user data');
+            }
+        }
+
+        function updateUserDetails(userData) {
+            document.getElementById('userDetailsTitle').textContent = `📈 ${userData.username} Statistics`;
+            document.getElementById('userDetails').style.display = 'block';
+
+            // Update user stats
+            const stats = userData.stats;
+            const profitClass = stats.gross_profit >= 0 ? 'profit-positive' : 'profit-negative';
+            const profitSign = stats.gross_profit >= 0 ? '+' : '';
+
+            document.getElementById('userStats').innerHTML = `
+                <div class="stat-item ${profitClass}">
+                    <span class="stat-value">${profitSign}${stats.gross_profit.toFixed(2)}</span>
+                    <span class="stat-label">Gross Profit (SFL)</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value">${stats.profit_margin.toFixed(1)}%</span>
+                    <span class="stat-label">Profit Margin</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value">${stats.total_buys}</span>
+                    <span class="stat-label">Total Buys</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value">${stats.total_sells}</span>
+                    <span class="stat-label">Total Sells</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value">${stats.buy_volume.toFixed(2)}</span>
+                    <span class="stat-label">Buy Volume (SFL)</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value">${stats.sell_volume.toFixed(2)}</span>
+                    <span class="stat-label">Sell Volume (SFL)</span>
+                </div>
+            `;
+
+            // Update recent activity
+            const recentContainer = document.getElementById('userRecentActivity');
+            recentContainer.innerHTML = '';
+            stats.recent_activity.forEach(activity => {
+                const activityElement = document.createElement('div');
+                activityElement.className = 'activity-item';
+                
+                const tradeTypeClass = activity.type === 'BUY' ? 'trade-buy' : 'trade-sell';
+                
+                activityElement.innerHTML = `
+                    <div>
+                        <span class="trade-type ${tradeTypeClass}">${activity.type}</span>
+                        <strong>${activity.item}</strong> x${activity.quantity}
+                        <br>
+                        <small>${activity.date} ${activity.time}</small>
+                    </div>
+                    <div class="profit-amount">${activity.price.toFixed(2)} SFL</div>
+                `;
+                recentContainer.appendChild(activityElement);
+            });
+
+            // Update most traded items
+            const itemsContainer = document.getElementById('userTopItems');
+            itemsContainer.innerHTML = '';
+            Object.entries(stats.most_traded_items).slice(0, 10).forEach(([item, quantity]) => {
+                const itemElement = document.createElement('div');
+                itemElement.className = 'activity-item';
+                itemElement.innerHTML = `
+                    <div><strong>${item}</strong></div>
+                    <div class="profit-amount">${quantity} traded</div>
+                `;
+                itemsContainer.appendChild(itemElement);
+            });
+        }
+
+        async function refreshData() {
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('dashboard').style.display = 'none';
+            await loadData();
+        }
+
+        // Load data on page load
+        window.onload = () => {
+            loadData();
+        };
+
+        // Auto-refresh every 5 minutes
+        setInterval(refreshData, 5 * 60 * 1000);
+    </script>
+</body>
+</html>
