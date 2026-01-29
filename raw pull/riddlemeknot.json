@@ -94,7 +94,7 @@
       "Yam": "977.4791",
       "Broccoli": "1180",
       "Nightshade Faction Banner": "1",
-      "Tomato": "4.5000000000002035",
+      "Tomato": "7.3000000000002037",
       "Artichoke": "659.0506",
       "Apple Seed": "30",
       "Hen House": "1",
@@ -148,7 +148,7 @@
       "Pipi": "26",
       "Chef Bear": "1",
       "Barn": "1",
-      "Merino Wool": "402.3",
+      "Merino Wool": "394.3",
       "Sea Horse": "13",
       "Bale": "1",
       "Balloon Rug": "1",
@@ -325,7 +325,7 @@
       "Napoleanfish": "1",
       "Fishing Lure": "20",
       "Orange Cake": "3",
-      "Doll": "6",
+      "Doll": "5",
       "Trout": "1",
       "White Lotus": "2",
       "Miner's Monument": "1",
@@ -3826,8 +3826,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769670845674,
-          "harvestedAt": 1769718750392,
-          "harvestsLeft": 4
+          "harvestedAt": 1769726263253,
+          "harvestsLeft": 3
         }
       },
       "dca5a15d": {
@@ -3871,8 +3871,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769670845235,
-          "harvestedAt": 1769718752370,
-          "harvestsLeft": 3
+          "harvestedAt": 1769726262481,
+          "harvestsLeft": 2
         }
       },
       "3673ca41": {
@@ -6953,7 +6953,7 @@
       "Ticket Order Delivered": 348,
       "Time Warp Totem Bought": 9,
       "Tofu Scramble Cooked": 148,
-      "Tomato Harvested": 3260,
+      "Tomato Harvested": 3262,
       "Tomato Seed Bought": 753,
       "Tomato Seed Planted": 657,
       "Tornado Pinwheel Crafted": 37,
@@ -8111,7 +8111,7 @@
           "petXP": 0,
           "score": 0,
           "collectivePet": {
-            "totalXP": 5197017,
+            "totalXP": 5199901,
             "goalXP": 2404688,
             "goalReached": true,
             "streak": 3,
@@ -9212,10 +9212,13 @@
       "bonusClaimedAt": 0
     },
     "craftingBox": {
-      "status": "idle",
-      "startedAt": 1769719651783,
-      "readyAt": 1769725051783,
-      "recipes": {}
+      "status": "crafting",
+      "startedAt": 1769727015111,
+      "readyAt": 1769748615111,
+      "recipes": {},
+      "item": {
+        "collectible": "Wooly Doll"
+      }
     },
     "season": {
       "startedAt": 1769385600000,
@@ -9472,7 +9475,7 @@
       "Strong Roots": 1769671653610,
       "Apprentice Beaver": 1769725330922,
       "Lumberjack's Extra": 1769725330922,
-      "Macaw": 1769719475001,
+      "Macaw": 1769726983253,
       "Squirrel": 1769725330922,
       "Tiki Totem": 1769725330922,
       "Tough Tree": 1769725330330,
@@ -9520,7 +9523,7 @@
       "Petalled Perk": 1769177605058,
       "Fine Fibers": 1769720806121,
       "Efficient Feeding": 1769720804370,
-      "Architect Ruler": 1769719651783,
+      "Architect Ruler": 1769727015111,
       "Angler Waders": 1769651242508,
       "Sunflower Rod": 1769651201608,
       "Iron Bumpkin": 1769703327575,
@@ -9532,9 +9535,9 @@
       "Reelmaster's Chair": 1769651242508,
       "Bucket O' Worms": 1769722719705,
       "Boar Shrine": 1766037640814,
-      "Catchup": 1769719488428,
-      "Fruitful Fumble": 1769719475001,
-      "Loyal Macaw": 1769719475001,
+      "Catchup": 1769726983253,
+      "Fruitful Fumble": 1769726983253,
+      "Loyal Macaw": 1769726983253,
       "Blooming Boost": 1769650033696,
       "Trident": 1769651167262,
       "Power hour": 1768279406680,
@@ -9642,7 +9645,7 @@
       "common": {
         "Waddles": {
           "name": "Waddles",
-          "experience": 25025,
+          "experience": 25035,
           "energy": 1485,
           "requests": {
             "food": [
@@ -9656,7 +9659,7 @@
               "Apple Pie"
             ]
           },
-          "pettedAt": 1769719558142,
+          "pettedAt": 1769726986793,
           "dailySocialXP": {
             "2026-01-29": 25
           },
@@ -9669,7 +9672,7 @@
         },
         "Nibbles": {
           "name": "Nibbles",
-          "experience": 7275,
+          "experience": 7285,
           "energy": 3060,
           "requests": {
             "food": [
@@ -9683,7 +9686,7 @@
               "Sunflower Cake"
             ]
           },
-          "pettedAt": 1769719560157,
+          "pettedAt": 1769726985009,
           "dailySocialXP": {
             "2026-01-29": 25
           },
@@ -9698,7 +9701,7 @@
         "406": {
           "name": "Pet #406",
           "id": 406,
-          "experience": 26615,
+          "experience": 26625,
           "energy": 26745,
           "requests": {
             "food": [
@@ -9715,7 +9718,7 @@
               "Cabbage Cake"
             ]
           },
-          "pettedAt": 1769719559147,
+          "pettedAt": 1769726985443,
           "traits": {
             "type": "Phoenix",
             "fur": "Ghost-Teal",
