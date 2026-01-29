@@ -933,18 +933,43 @@
                     <div class="card">
                         <h3>🏪 Active Listings (${activeListings})</h3>
                         <div class="recent-activity">
-                            ${(userData.active_listings || []).length > 0 ? 
+                            ${(userData.active_listings && userData.active_listings.length > 0) ? 
                                 userData.active_listings.map(listing => `
                                     <div class="activity-item">
                                         <div>
                                             <strong>${listing.item}</strong> x${listing.quantity}
                                             <br>
-                                            <small>Listed ${listing.date || 'Unknown date'}</small>
+                                            <small>${listing.collection || 'Unknown'} • ${listing.trade_type || 'Unknown'}</small>
                                         </div>
                                         <div class="profit-amount">${listing.price ? listing.price.toFixed(2) : 'N/A'} SFL</div>
                                     </div>
                                 `).join('') 
-                                : '<div style="padding: 20px; text-align: center; color: var(--text-muted);">No active listings</div>'
+                                : `<div style="padding: 20px; text-align: center; color: var(--text-muted);">
+                                    ${activeListings > 0 ? 
+                                        `${activeListings} active listings found<br><small>Loading listing details...</small>` : 
+                                        'No active listings'
+                                    }
+                                   </div>`
+                            }
+                        </div>
+                    </div>
+                    
+                    <!-- Active Offers -->
+                    <div class="card">
+                        <h3>🤝 Active Offers (${(userData.active_offers || []).length})</h3>
+                        <div class="recent-activity">
+                            ${(userData.active_offers && userData.active_offers.length > 0) ? 
+                                userData.active_offers.map(offer => `
+                                    <div class="activity-item">
+                                        <div>
+                                            <strong>${offer.item}</strong> x${offer.quantity}
+                                            <br>
+                                            <small>${offer.collection || 'Unknown'} • ${offer.trade_type || 'Unknown'}</small>
+                                        </div>
+                                        <div class="profit-amount">${offer.price ? offer.price.toFixed(2) : 'N/A'} SFL</div>
+                                    </div>
+                                `).join('') 
+                                : '<div style="padding: 20px; text-align: center; color: var(--text-muted);">No active offers</div>'
                             }
                         </div>
                     </div>

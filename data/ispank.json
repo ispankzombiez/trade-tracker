@@ -824,10 +824,10 @@
   "stats": {
     "total_buys": 45,
     "total_sells": 22,
-    "buy_volume": 116.07929999999998,
+    "buy_volume": 116.0793,
     "sell_volume": 97.21509999999999,
-    "gross_profit": -18.864199999999983,
-    "avg_buy_price": 2.5795399999999993,
+    "gross_profit": -18.86420000000001,
+    "avg_buy_price": 2.57954,
     "avg_sell_price": 4.418868181818182,
     "most_traded_items": {},
     "recent_activity": [
@@ -997,7 +997,7 @@
         "time": "01:51 AM"
       }
     ],
-    "profit_margin": -16.25113176940246,
+    "profit_margin": -16.251131769402477,
     "most_bought_items": {
       "Yam": 6204,
       "Broccoli": 2560,
@@ -1012,5 +1012,53 @@
       "Leather": 311,
       "Egg": 100
     }
-  }
+  },
+  "active_listings": [
+    {
+      "id": "cc1ddd82",
+      "item": "Pet #2949",
+      "quantity": 1,
+      "price": 100000,
+      "created_at": 1765663481054,
+      "collection": "pets",
+      "trade_type": "onchain"
+    },
+    {
+      "id": "69233a51",
+      "item": "Pet #252",
+      "quantity": 1,
+      "price": 100000,
+      "created_at": 1765663493720,
+      "collection": "pets",
+      "trade_type": "onchain"
+    },
+    {
+      "id": "f6fbf84c",
+      "item": "Pet #591",
+      "quantity": 1,
+      "price": 1000000,
+      "created_at": 1765663508188,
+      "collection": "pets",
+      "trade_type": "onchain"
+    },
+    {
+      "id": "58551d18",
+      "item": "Leather",
+      "quantity": 50,
+      "price": 6.221,
+      "created_at": 1769596158257,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "f0c864ae",
+      "item": "Leather",
+      "quantity": 50,
+      "price": 6.221,
+      "created_at": 1769596163633,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    }
+  ],
+  "active_offers": []
 }
