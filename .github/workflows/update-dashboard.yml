@@ -1,7 +1,12 @@
 name: Update Dashboard
 
 on:
-  workflow_dispatch: # Allow manual trigger only
+  workflow_dispatch: # Allow manual trigger
+  push:
+    branches: [ main ]
+    paths:
+      - 'web/**'
+      - 'scripts/generate_dashboard_data.py'
   
 permissions:
   contents: write  # Allow writing to repository
