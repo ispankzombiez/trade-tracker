@@ -24,27 +24,27 @@ def run_script(script_path: str, script_name: str) -> bool:
     Returns:
         True if script ran successfully, False otherwise
     """
-    print(f"\n{'='*60}")
-    print(f"🚀 Running: {script_name}")
-    print(f"📁 Script: {script_path}")
-    print(f"⏰ Started: {datetime.now().strftime('%Y-%m-%d %I:%M:%S %p')}")
-    print(f"{'='*60}")
+    print(f"\n{'='*60}", flush=True)
+    print(f"🚀 Running: {script_name}", flush=True)
+    print(f"📁 Script: {script_path}", flush=True)
+    print(f"⏰ Started: {datetime.now().strftime('%Y-%m-%d %I:%M:%S %p')}", flush=True)
+    print(f"{'='*60}", flush=True)
     
     try:
-        # Run the script
-        result = subprocess.run([sys.executable, script_path], 
+        # Run the script with unbuffered output for live logging
+        result = subprocess.run([sys.executable, "-u", script_path], 
                               capture_output=False, 
                               text=True, 
                               check=True)
         
-        print(f"\n✅ {script_name} completed successfully!")
+        print(f"\n✅ {script_name} completed successfully!", flush=True)
         return True
         
     except subprocess.CalledProcessError as e:
-        print(f"\n❌ {script_name} failed with exit code: {e.returncode}")
+        print(f"\n❌ {script_name} failed with exit code: {e.returncode}", flush=True)
         return False
     except Exception as e:
-        print(f"\n❌ Error running {script_name}: {e}")
+        print(f"\n❌ Error running {script_name}: {e}", flush=True)
         return False
 
 
@@ -52,9 +52,9 @@ def main():
     """
     Main function to run the complete data pipeline.
     """
-    print("🌻 Sunflower Land Data Pipeline")
-    print("=" * 60)
-    print(f"⏰ Pipeline started: {datetime.now().strftime('%Y-%m-%d %I:%M:%S %p')}")
+    print("🌻 Sunflower Land Data Pipeline", flush=True)
+    print("=" * 60, flush=True)
+    print(f"⏰ Pipeline started: {datetime.now().strftime('%Y-%m-%d %I:%M:%S %p')}", flush=True)
     
     # Define the scripts to run in order
     scripts = [
@@ -71,7 +71,7 @@ def main():
     for script_path, script_name in scripts:
         # Check if script exists
         if not os.path.exists(script_path):
-            print(f"❌ Script not found: {script_path}")
+            print(f"❌ Script not found: {script_path}", flush=True)
             failed += 1
             continue
             
@@ -80,20 +80,20 @@ def main():
             successful += 1
         else:
             failed += 1
-            print(f"⚠️  Continuing with next script despite {script_name} failure...")
+            print(f"⚠️  Continuing with next script despite {script_name} failure...", flush=True)
     
     # Final summary
-    print(f"\n{'='*60}")
-    print("📊 PIPELINE SUMMARY")
-    print(f"{'='*60}")
-    print(f"✅ Successful scripts: {successful}")
-    print(f"❌ Failed scripts: {failed}")
-    print(f"⏰ Pipeline completed: {datetime.now().strftime('%Y-%m-%d %I:%M:%S %p')}")
+    print(f"\n{'='*60}", flush=True)
+    print("📊 PIPELINE SUMMARY", flush=True)
+    print(f"{'='*60}", flush=True)
+    print(f"✅ Successful scripts: {successful}", flush=True)
+    print(f"❌ Failed scripts: {failed}", flush=True)
+    print(f"⏰ Pipeline completed: {datetime.now().strftime('%Y-%m-%d %I:%M:%S %p')}", flush=True)
     
     if failed == 0:
-        print("🎉 All scripts completed successfully!")
+        print("🎉 All scripts completed successfully!", flush=True)
     else:
-        print("⚠️  Some scripts failed - check output above for details")
+        print("⚠️  Some scripts failed - check output above for details", flush=True)
     
     return failed == 0
 

@@ -39,8 +39,8 @@ def load_farm_ids(file_path: str = "farm_ids.txt") -> tuple[List[str], float]:
             wait_time = 31.0  # Default fallback
             farm_ids = lines
         
-        print(f"📋 Loaded {len(farm_ids)} farm IDs from {file_path}")
-        print(f"⏰ Current adaptive wait time: {wait_time}s")
+        print(f"📋 Loaded {len(farm_ids)} farm IDs from {file_path}", flush=True)
+        print(f"⏰ Current adaptive wait time: {wait_time}s", flush=True)
         return farm_ids, wait_time
     except FileNotFoundError:
         print(f"❌ Farm IDs file not found: {file_path}")
@@ -198,9 +198,9 @@ def save_farm_data(data: str, farm_id: str, folder_path: str) -> bool:
             json.dump(json_data, f, indent=2, ensure_ascii=False)
         
         if raw_username:
-            print(f"✅ Saved {raw_username} -> {filename}")
+            print(f"✅ Saved {raw_username} -> {filename}", flush=True)
         else:
-            print(f"✅ Saved farm_{farm_id} -> {filename}")
+            print(f"✅ Saved farm_{farm_id} -> {filename}", flush=True)
         return True
         
     except json.JSONDecodeError as e:
@@ -289,7 +289,7 @@ def process_batch_adaptive(farm_ids: List[str], api_key: str, initial_wait_time:
     print(f"⏱️ Initial adaptive delay: {current_wait_time}s between requests")
     
     for i, farm_id in enumerate(farm_ids, 1):
-        print(f"\n📊 Processing {i}/{len(farm_ids)}: Farm {farm_id}")
+        print(f"\n📊 Processing {i}/{len(farm_ids)}: Farm {farm_id}", flush=True)
         
         # Record start time for adaptive timing
         request_start_time = time.time()
@@ -336,7 +336,7 @@ def process_batch_adaptive(farm_ids: List[str], api_key: str, initial_wait_time:
             
             total_wait_times.append(actual_request_time)
             
-            print(f"⏸️ Waiting {current_wait_time:.1f}s before next request (last request: {actual_request_time:.1f}s)...")
+            print(f"⏸️ Waiting {current_wait_time:.1f}s before next request (last request: {actual_request_time:.1f}s)...", flush=True)
             time.sleep(current_wait_time)
         else:
             total_wait_times.append(actual_request_time)

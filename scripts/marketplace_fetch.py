@@ -108,7 +108,7 @@ def get_username_from_raw_data(farm_id: str) -> Optional[str]:
                         if str(file_farm_id) == str(farm_id):
                             username = data.get('farm', {}).get('username', '').lower()
                             if username:
-                                print(f"✅ Found username: {username} for farm {farm_id}")
+                                print(f"✅ Found username: {username} for farm {farm_id}", flush=True)
                                 return username
                     except:
                         continue
@@ -378,7 +378,7 @@ def main():
     successful_updates = 0
     
     for i, farm_id in enumerate(farm_ids, 1):
-        print(f"\n🔄 Processing farm {i}/{len(farm_ids)}: {farm_id}")
+        print(f"\n🔄 Processing farm {i}/{len(farm_ids)}: {farm_id}", flush=True)
         
         username = get_username_from_raw_data(farm_id)
         if not username:
