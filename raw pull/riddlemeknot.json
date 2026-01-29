@@ -1,7 +1,7 @@
 {
   "farm": {
-    "coins": 52600.74275000004,
-    "balance": "77.53527752483429946",
+    "coins": 52336.74275000004,
+    "balance": "75.14327752483429946",
     "previousBalance": "0",
     "inventory": {
       "Scarecrow": "1",
@@ -173,7 +173,7 @@
       "Oil Reserve": "3",
       "Yellow Gladiolus": "7",
       "Hay": "39.05625",
-      "Oil": "238",
+      "Oil": "248",
       "Pest Net": "10",
       "Sea Cucumber": "25",
       "NutriBarley": "14.30625",
@@ -222,7 +222,7 @@
       "Red Clover": "2",
       "Wheelbarrow": "1",
       "White Edelweiss": "1",
-      "Iron": "40.1",
+      "Iron": "17.1",
       "Reelmaster's Chair": "1",
       "Rapid Root": "471",
       "Blue Edelweiss": "1",
@@ -264,7 +264,7 @@
       "Eggplant Seed": "135",
       "Radish Seed": "156",
       "Cobia": "1",
-      "Wood": "409.3",
+      "Wood": "366.3",
       "White Daffodil": "1",
       "Red Snapper": "7",
       "Red Wiggler": "41",
@@ -376,7 +376,7 @@
       "Cornucopia": "1",
       "Sand Drill": "3",
       "Carrot Cake": "1",
-      "Yellow Cosmos": "1",
+      "Yellow Cosmos": "3",
       "Rhubarb Tart": "1",
       "Radish Cake": "1",
       "Tofu Scramble": "1",
@@ -407,7 +407,7 @@
       "Barley Seed": "60",
       "Wheat Seed": "19",
       "Axe": "78",
-      "Iron Pickaxe": "3",
+      "Iron Pickaxe": "4",
       "Gold Pickaxe": "1",
       "Big Orange": "1",
       "Boiled Eggs": "1",
@@ -417,7 +417,9 @@
       "Pickaxe": "11",
       "Stone Pickaxe": "5",
       "Gold": "1",
-      "Barn Delight": "6"
+      "Barn Delight": "6",
+      "Honey Cheddar": "1",
+      "Oil Drill": "1"
     },
     "previousInventory": {
       "Scarecrow": "1",
@@ -2054,7 +2056,7 @@
       "Potato Seed": "400",
       "Rusty Shovel": "75",
       "Pest Net": "15",
-      "Oil Drill": "4",
+      "Oil Drill": "2",
       "Gold Pickaxe": "7",
       "Apple Seed": "20",
       "Edelweiss Seed": "4",
@@ -2077,7 +2079,7 @@
       "Cauliflower Seed": "160",
       "Corn Seed": "100",
       "Gladiolus Seed": "4",
-      "Iron Pickaxe": "6",
+      "Iron Pickaxe": "5",
       "Kale Seed": "60",
       "Lemon Seed": "20",
       "Pepper Seed": "160",
@@ -3685,9 +3687,9 @@
     "oilReserves": {
       "7b37b40d": {
         "createdAt": 1754688296826,
-        "drilled": 49,
+        "drilled": 50,
         "oil": {
-          "drilledAt": 1769631251837
+          "drilledAt": 1769727405684
         },
         "x": 13,
         "y": 13
@@ -3960,17 +3962,7 @@
           "createdAt": 1746919295370,
           "removedAt": 1754688149202,
           "x": -14,
-          "y": 7,
-          "flower": {
-            "plantedAt": 1769641393696,
-            "name": "Yellow Cosmos",
-            "criticalHit": {
-              "Butterfly": 0,
-              "Desert Rose": 1,
-              "Chicory": 0,
-              "Petalled Perk": 0
-            }
-          }
+          "y": 7
         },
         "1": {
           "createdAt": 1750339509514,
@@ -4009,8 +4001,8 @@
         "height": 1,
         "width": 1,
         "honey": {
-          "produced": 17887853.5,
-          "updatedAt": 1769719566056
+          "produced": 26945438.3,
+          "updatedAt": 1769727800224
         },
         "flowers": [
           {
@@ -4027,8 +4019,8 @@
       },
       "1": {
         "honey": {
-          "produced": 17888497,
-          "updatedAt": 1769719566056
+          "produced": 26946081.8,
+          "updatedAt": 1769727800224
         },
         "flowers": [
           {
@@ -4045,17 +4037,10 @@
       },
       "2": {
         "honey": {
-          "produced": 0,
-          "updatedAt": 1769719566056
+          "produced": 9050404,
+          "updatedAt": 1769727800224
         },
-        "flowers": [
-          {
-            "attachedAt": 1769719566056,
-            "attachedUntil": 1769727793696,
-            "id": "0",
-            "rate": 1.1
-          }
-        ],
+        "flowers": [],
         "swarm": false,
         "removedAt": 1754688149202,
         "x": -15,
@@ -6405,7 +6390,7 @@
       "Purple Cosmos Harvested": 101,
       "FLOWER Exchanged": 1.22,
       "Blue Pansy Harvested": 24,
-      "Yellow Cosmos Harvested": 48,
+      "Yellow Cosmos Harvested": 49,
       "Blue Cosmos Harvested": 142,
       "Moray Eel Caught": 135,
       "Clownfish Caught": 25,
@@ -6703,7 +6688,7 @@
       "Club Sandwich Fed": 15,
       "Coins Earned": 3093590.11405,
       "Coins Order Delivered": 388,
-      "Coins Spent": 3512410.95,
+      "Coins Spent": 3512674.95,
       "Collectible Placed": 419,
       "Collectible Removed": 259,
       "Community Coin Sold": 3,
@@ -6777,7 +6762,7 @@
       "Immortal Pear Crafted": 3,
       "Iron Beetle Crafted": 3,
       "Iron Mined": 5882,
-      "Iron Pickaxe Crafted": 1345,
+      "Iron Pickaxe Crafted": 1346,
       "Jack O'Sweets Bought": 3,
       "Kale & Mushroom Pie Fed": 3,
       "Kale Harvested": 2982,
@@ -6821,8 +6806,8 @@
       "Mushroom Soup Fed": 3,
       "NutriBarley Mixed": 14035,
       "Ocean's Olive Cooked": 25,
-      "Oil Drill Crafted": 182,
-      "Oil Drilled": 188,
+      "Oil Drill Crafted": 184,
+      "Oil Drilled": 189,
       "Old Bottle Sold": 12,
       "Olive Flounder Fed": 6,
       "Onion Harvested": 2306,
@@ -7011,7 +6996,7 @@
       "Streamer Hat Reward Claimed": 33,
       "White Clover Harvested": 2,
       "Bumpkin Roast Cooked": 2,
-      "Airdrop Reward Claimed": 28,
+      "Airdrop Reward Claimed": 29,
       "Rice Bun Cooked": 3,
       "Blue Carnation Bountied": 3,
       "Clownfish Bountied": 3,
@@ -9515,7 +9500,7 @@
       "Turd Topper": 1769722719705,
       "White Sheep Onesie": 1769719665630,
       "Grain Grinder": 1766292716755,
-      "Desert Rose": 1769351200539,
+      "Desert Rose": 1769727800224,
       "Butterfly": 1769619848505,
       "Iron Beetle": 1769703327575,
       "Fast Feasts": 1769721026426,
