@@ -26,8 +26,8 @@
       "Gladiolus Seed": "13",
       "Lavender Seed": "13",
       "Clover Seed": "13",
-      "Sunflower": "283164.53259998723684",
-      "Potato": "214927.83509999670075",
+      "Sunflower": "282164.53259998723684",
+      "Potato": "213927.83509999670075",
       "Pumpkin": "174785.33609999771474",
       "Carrot": "168980.52450000054211",
       "Cabbage": "114696.53899999728243",
@@ -35,7 +35,7 @@
       "Cauliflower": "28916.471599999999535",
       "Parsnip": "5.925399999999665",
       "Radish": "99147.304",
-      "Wheat": "18217.567599999997657",
+      "Wheat": "18177.567599999997657",
       "Kale": "26.61999999999808",
       "Apple": "473.2400000000000476",
       "Blueberry": "46.3900000000011466",
@@ -80,8 +80,8 @@
       "Grape": "299.300000000001401",
       "Rice": "826.4088",
       "Olive": "1758.7208",
-      "Tomato": "1402.0700000000078852",
-      "Lemon": "2689.5800000000046292",
+      "Tomato": "1359.4200000000078861",
+      "Lemon": "2609.5800000000046292",
       "Barley": "6997.812099999998264",
       "Rhubarb": "44739.30749999960842",
       "Zucchini": "297620.3145999998891",
@@ -273,7 +273,7 @@
       "The Lot": "316",
       "Tofu Scramble": "300",
       "Paella": "1",
-      "Cheese": "307",
+      "Cheese": "297",
       "Wood": "257296.68",
       "Stone": "12608.35",
       "Iron": "5837",
@@ -303,10 +303,10 @@
       "Flower Bed": "3",
       "Crimstone Rock": "5",
       "Crimstone": "747.125000000000001",
-      "Oil": "5458.5787536018384234",
+      "Oil": "5445.7454202685050904",
       "Oil Reserve": "4",
-      "Leather": "938.1",
-      "Wool": "528.9",
+      "Leather": "934.1",
+      "Wool": "523.9",
       "Merino Wool": "2037.45",
       "Feather": "9733.45",
       "Milk": "186.75",
@@ -518,7 +518,7 @@
       "Starfish": "1637",
       "Seaweed": "315",
       "Sea Cucumber": "1971",
-      "Crab": "4286",
+      "Crab": "4285",
       "Warty Goblin Pumpkin": "29",
       "White Carrot": "40",
       "Anchovy": "4323",
@@ -878,7 +878,7 @@
       "Gourmet Hourglass": "2",
       "Fish Market": "1",
       "Fish Flake": "106",
-      "Fish Stick": "72",
+      "Fish Stick": "73",
       "Crab Pot": "51",
       "Mariner Pot": "31",
       "Adirondack Potato": "3",
@@ -911,7 +911,7 @@
       "Angelfish": "291",
       "Honey Cheddar": "10",
       "Isopod": "92",
-      "Doll": "244",
+      "Doll": "245",
       "Moonfur": "1",
       "Stone Pickaxe": "87",
       "Octopus": "6",
@@ -943,22 +943,22 @@
       "Heart leaf": "10",
       "Ruffroot": "10",
       "Crab Stick": "6",
-      "Barnacle": "12",
+      "Barnacle": "10",
       "Soybean Seed": "457",
       "Wild Grass": "10",
       "Spaghetti al Limone": "28",
       "Chewed Bone": "10",
-      "Sour Shake": "231",
+      "Sour Shake": "235",
       "Fermented Fish": "4",
       "Big Orange": "1",
-      "Lobster": "12",
-      "Pizza Margherita": "13",
+      "Lobster": "10",
+      "Pizza Margherita": "16",
       "Blue Cheese": "13",
       "Big Apple": "1",
       "Barley Seed": "2",
-      "Fancy Fries": "6",
+      "Fancy Fries": "8",
       "Lemon Cheesecake": "4",
-      "Shrimp": "18"
+      "Shrimp": "16"
     },
     "previousInventory": {
       "Carrot Seed": "507",
@@ -6249,8 +6249,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769707531313,
-          "harvestedAt": 1769712866297,
-          "harvestsLeft": 2
+          "harvestedAt": 1769714659497,
+          "harvestsLeft": 1
         }
       },
       "2": {
@@ -6279,8 +6279,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769709357463,
-          "harvestedAt": 1769712864910,
-          "harvestsLeft": 3
+          "harvestedAt": 1769714660519,
+          "harvestsLeft": 2
         }
       },
       "9207026f": {
@@ -6309,8 +6309,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769712865670,
-          "harvestedAt": 0,
-          "harvestsLeft": 7
+          "harvestedAt": 1769714660091,
+          "harvestsLeft": 6
         }
       },
       "a2f18fe9": {
@@ -6441,8 +6441,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769712867137,
-          "harvestedAt": 0,
-          "harvestsLeft": 5
+          "harvestedAt": 1769714658982,
+          "harvestsLeft": 4
         }
       },
       "51a65554": {
@@ -6471,8 +6471,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769707531760,
-          "harvestedAt": 1769712865103,
-          "harvestsLeft": 2
+          "harvestedAt": 1769714659988,
+          "harvestsLeft": 1
         }
       }
     },
@@ -9204,16 +9204,6 @@
               "skills": {
                 "Double Nom": true
               },
-              "readyAt": 1769720913789.25
-            },
-            {
-              "name": "Pizza Margherita",
-              "boost": {
-                "Oil": 0.8333333333333334
-              },
-              "skills": {
-                "Double Nom": true
-              },
               "readyAt": 1769732067489.25
             },
             {
@@ -9235,6 +9225,16 @@
                 "Double Nom": true
               },
               "readyAt": 1769754374889.25
+            },
+            {
+              "name": "Pizza Margherita",
+              "boost": {
+                "Oil": 0.8333333333333334
+              },
+              "skills": {
+                "Double Nom": true
+              },
+              "readyAt": 1769765528589.25
             }
           ]
         }
@@ -9548,28 +9548,8 @@
             "y": -1
           },
           "readyAt": 1738220541829,
-          "oil": 36.66666666666664,
+          "oil": 35.99999999999997,
           "crafting": [
-            {
-              "name": "Sour Shake",
-              "boost": {
-                "Oil": 0.3333333333333333
-              },
-              "skills": {
-                "Double Nom": true
-              },
-              "readyAt": 1769720007281
-            },
-            {
-              "name": "Sour Shake",
-              "boost": {
-                "Oil": 0.3333333333333333
-              },
-              "skills": {
-                "Double Nom": true
-              },
-              "readyAt": 1769720730206
-            },
             {
               "name": "Sour Shake",
               "boost": {
@@ -9589,6 +9569,26 @@
                 "Double Nom": true
               },
               "readyAt": 1769722176056
+            },
+            {
+              "name": "Sour Shake",
+              "boost": {
+                "Oil": 0.3333333333333333
+              },
+              "skills": {
+                "Double Nom": true
+              },
+              "readyAt": 1769722898981
+            },
+            {
+              "name": "Sour Shake",
+              "boost": {
+                "Oil": 0.3333333333333333
+              },
+              "skills": {
+                "Double Nom": true
+              },
+              "readyAt": 1769723621906
             }
           ]
         }
@@ -9604,16 +9604,6 @@
           "readyAt": 1738226488148,
           "oil": 60,
           "crafting": [
-            {
-              "name": "Fancy Fries",
-              "boost": {
-                "Oil": 12
-              },
-              "skills": {
-                "Double Nom": true
-              },
-              "readyAt": 1769720560533
-            },
             {
               "name": "Fancy Fries",
               "boost": {
@@ -9643,6 +9633,16 @@
                 "Double Nom": true
               },
               "readyAt": 1769750303733
+            },
+            {
+              "name": "Fancy Fries",
+              "boost": {
+                "Oil": 12
+              },
+              "skills": {
+                "Double Nom": true
+              },
+              "readyAt": 1769760218133
             }
           ]
         }
@@ -9753,16 +9753,6 @@
           "readyAt": 1767585023969,
           "processing": [
             {
-              "name": "Fish Stick",
-              "readyAt": 1769720404262,
-              "startedAt": 1769713204262,
-              "requirements": {
-                "Moray Eel": "2",
-                "Napoleanfish": "2",
-                "Red Snapper": "6"
-              }
-            },
-            {
               "name": "Crab Stick",
               "readyAt": 1769734804262,
               "startedAt": 1769720404262,
@@ -9788,6 +9778,17 @@
               "name": "Crab Stick",
               "readyAt": 1769763604262,
               "startedAt": 1769749204262,
+              "requirements": {
+                "Barnacle": "2",
+                "Crab": "1",
+                "Lobster": "2",
+                "Shrimp": "2"
+              }
+            },
+            {
+              "name": "Crab Stick",
+              "readyAt": 1769778004262,
+              "startedAt": 1769763604262,
               "requirements": {
                 "Barnacle": "2",
                 "Crab": "1",
@@ -14410,16 +14411,16 @@
     "floatingIsland": {
       "schedule": [
         {
-          "startAt": 1769719200000,
-          "endAt": 1769721000000
-        },
-        {
           "startAt": 1769749200000,
           "endAt": 1769751000000
         },
         {
           "startAt": 1769779200000,
           "endAt": 1769781000000
+        },
+        {
+          "startAt": 1769809200000,
+          "endAt": 1769811000000
         }
       ],
       "shop": {
@@ -14699,7 +14700,7 @@
       "Weakfish Bountied": 4,
       "Yellow Lavender Bountied": 4,
       "Timber Crafted": 253,
-      "Doll Crafted": 974,
+      "Doll Crafted": 975,
       "Gilded Doll Crafted": 73,
       "Gilded Doll Bountied": 12,
       "Crude Doll Crafted": 47,
@@ -14924,7 +14925,7 @@
       "Corn Planted": 17406,
       "Aurora Lantern Crafted": 10,
       "Honey Cake Fed": 570,
-      "Fancy Fries Cooked": 693,
+      "Fancy Fries Cooked": 694,
       "Cobalt Bought": 1,
       "Kale Seed Bought": 9065,
       "Rod Crafted": 4133,
@@ -15188,7 +15189,7 @@
       "Lemon Seed Bought": 5082,
       "Lemon Seed Planted": 5076,
       "Tomato Seed Planted": 7570,
-      "Tomato Harvested": 43446,
+      "Tomato Harvested": 43451,
       "Lemon Harvested": 29159,
       "Goblin Pants Bought": 1,
       "Pancakes Fed": 946,
@@ -15272,10 +15273,10 @@
       "NutriBarley Mixed": 5007,
       "Treasure Key Bought": 6,
       "Mixed Grain Mixed": 5141,
-      "Sour Shake Cooked": 6516,
+      "Sour Shake Cooked": 6518,
       "Cheese Cooked": 18877,
       "Honey Cheddar Cooked": 239,
-      "Pizza Margherita Cooked": 1677,
+      "Pizza Margherita Cooked": 1678,
       "Caprese Salad Cooked": 642,
       "Cowboy Hat Bought": 1,
       "Blue Cheese Cooked": 1060,
@@ -15573,7 +15574,7 @@
       "Fish Flake Processed": 106,
       "Auction Bid Refunded": 15,
       "Fish Oil Processed": 21,
-      "Fish Stick Processed": 76,
+      "Fish Stick Processed": 77,
       "Starlight Tuna Map Piece Found": 14,
       "Crab Pot Crafted": 92,
       "Mariner Pot Crafted": 60,
@@ -20158,8 +20159,8 @@
     },
     "craftingBox": {
       "status": "crafting",
-      "startedAt": 1769718617189,
-      "readyAt": 1769720642189,
+      "startedAt": 1769720921241,
+      "readyAt": 1769722946241,
       "recipes": {},
       "item": {
         "collectible": "Doll"
@@ -20518,22 +20519,22 @@
       }
     },
     "boostsUsedAt": {
-      "Luna's Hat": 1769719690403,
-      "Goblin Medallion": 1769719690403,
-      "Desert Gnome": 1769719690403,
-      "Bud #2197": 1769718608297,
-      "Camel Onesie": 1769718608297,
-      "Cannonball": 1769718609137,
-      "Catchup": 1769718609137,
+      "Luna's Hat": 1769720931830,
+      "Goblin Medallion": 1769720931830,
+      "Desert Gnome": 1769720931830,
+      "Bud #2197": 1769720402519,
+      "Camel Onesie": 1769720402519,
+      "Cannonball": 1769720402519,
+      "Catchup": 1769720402519,
       "Foreman Beaver": 1769719658665,
-      "Fruitful Fumble": 1769718608297,
-      "Generous Orchard": 1769718606450,
-      "Goblin Quiver": 1769719662217,
-      "Loyal Macaw": 1769718608297,
-      "Macaw": 1769718608297,
+      "Fruitful Fumble": 1769720402519,
+      "Generous Orchard": 1769720401497,
+      "Goblin Quiver": 1769720402519,
+      "Loyal Macaw": 1769720402519,
+      "Macaw": 1769720402519,
       "Spring Guardian": 1768780374432,
-      "Tomato Bombard": 1769718608297,
-      "Tomato Clown": 1769718609137,
+      "Tomato Bombard": 1769720402519,
+      "Tomato Clown": 1769720402519,
       "Butterfly": 1769303514292,
       "Humming Bird": 1769711206638,
       "Petalled Perk": 1769619574865,
@@ -20542,7 +20543,7 @@
       "Flower Fox": 1769711413465,
       "Frosted Cakes": 1769719683178,
       "Kuebiko": 1769719885297,
-      "Fast Feasts": 1769719690403,
+      "Fast Feasts": 1769720931830,
       "Bud #1707": 1769719658665,
       "Goblin Shield": 1769719877004,
       "Lumberjack's Extra": 1769719658665,
@@ -20634,7 +20635,7 @@
       "Oil Be Back": 1769711201837,
       "Oil Can": 1769711201837,
       "Oil Overalls": 1769711201837,
-      "Sol & Luna": 1769718617189,
+      "Sol & Luna": 1769720921241,
       "Cowbell Necklace": 1769711238070,
       "Longhorn Cowfish": 1769711238070,
       "Mammoth": 1769711238070,
@@ -20723,7 +20724,7 @@
       "Purple Trail": 1769382983878,
       "Alba": 1769558554059,
       "Fishy Chance": 1769474562246,
-      "Fruit Tune Box": 1769718609137,
+      "Fruit Tune Box": 1769720402519,
       "Lab Grown Radish": 1769375295156,
       "Radical Radish": 1769375292839,
       "Desert Rose": 1769303514292,
@@ -20778,7 +20779,7 @@
       "Giant Artichoke": 1769711361253,
       "Reelmaster's Chair": 1769646132413,
       "Black Bearry": 1768846432139,
-      "Architect Ruler": 1769718617189,
+      "Architect Ruler": 1769720921241,
       "Bucket O' Worms": 1769711187064,
       "Wormy Treat": 1769711187064,
       "Luminous Anglerfish Topper": 1769627101035,
@@ -20788,10 +20789,10 @@
       "Tortoise Shrine": 1769719668769,
       "Mole Shrine": 1769712049992,
       "Training Whistle": 1769711238070,
-      "Master Chef's Cleaver": 1769719690403,
-      "Toucan Shrine": 1769718609137,
+      "Master Chef's Cleaver": 1769720931830,
+      "Toucan Shrine": 1769720402519,
       "Sparrow Shrine": 1769711361431,
-      "Fox Shrine": 1769718617189,
+      "Fox Shrine": 1769720921241,
       "Harvest Hourglass": 1768729159098,
       "Time Warp Totem": 1768099937709,
       "Super Star": 1768091859802,

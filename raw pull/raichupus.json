@@ -15,7 +15,7 @@
       "Radish": "18333.657699999998795",
       "Wheat": "20927.206600000002406",
       "Kale": "17602.422400000007545",
-      "Apple": "181.9500000000004483",
+      "Apple": "177.9500000000004483",
       "Blueberry": "271.9800000000008511",
       "Orange": "605.8200000000010831",
       "Eggplant": "27.766500000000762",
@@ -58,12 +58,12 @@
       "Grape": "500.97000000000002",
       "Rice": "479",
       "Olive": "486.15",
-      "Tomato": "3206.0500000000026656",
+      "Tomato": "3201.0500000000026656",
       "Lemon": "1752.1200000000003281",
       "Barley": "26514.183200000001768",
       "Rhubarb": "428034.9381999962684",
       "Zucchini": "212970.33079999907426",
-      "Yam": "76126.171799999991686",
+      "Yam": "76111.171799999991686",
       "Broccoli": "61975.733299999949492",
       "Pepper": "26915.032000000011247",
       "Onion": "13895.950800000000575",
@@ -207,7 +207,7 @@
       "Orange Cake": "31",
       "Sunflower Crunch": "100",
       "Reindeer Carrot": "499",
-      "Apple Juice": "96",
+      "Apple Juice": "97",
       "Orange Juice": "100",
       "Purple Smoothie": "100",
       "Power Smoothie": "100",
@@ -255,9 +255,9 @@
       "Sour Shake": "100",
       "Spaghetti al Limone": "11",
       "Lemon Cheesecake": "17",
-      "Wood": "12402.34",
+      "Wood": "12498.54",
       "Stone": "1893.49",
-      "Iron": "3050.05",
+      "Iron": "3046.05",
       "Gold": "664.88",
       "Egg": "2890.05",
       "Speed Chicken": "2",
@@ -271,12 +271,12 @@
       "Crop Plot": "68",
       "Fruit Patch": "16",
       "Basic Land": "30",
-      "Earthworm": "1006",
+      "Earthworm": "1009",
       "Grub": "1020",
-      "Red Wiggler": "458",
-      "Sprout Mix": "11927",
+      "Red Wiggler": "460",
+      "Sprout Mix": "11943",
       "Fruitful Blend": "5334",
-      "Rapid Root": "1289",
+      "Rapid Root": "1310",
       "Beehive": "4",
       "Flower Bed": "4",
       "Crimstone Rock": "6",
@@ -284,9 +284,9 @@
       "Oil": "42641.026822055556289",
       "Oil Reserve": "4",
       "Leather": "988.8",
-      "Wool": "4883.4",
-      "Merino Wool": "6517.65",
-      "Feather": "10792.45",
+      "Wool": "4933.4",
+      "Merino Wool": "6562.15",
+      "Feather": "10780.45",
       "Milk": "996.3",
       "Hay": "44.85",
       "Kernel Blend": "1.925",
@@ -568,7 +568,7 @@
       "Fish Bowl": "4",
       "Giant Gold Bone": "1",
       "Magma Stone": "1",
-      "Love Charm": "326908",
+      "Love Charm": "326912",
       "Starfish": "554",
       "Trade Point": "29776.672025",
       "Sea Cucumber": "685",
@@ -597,8 +597,8 @@
       "Grape Seed": "44",
       "Bracelet": "68",
       "Trash": "228",
-      "Weed": "1235",
-      "Dung": "1167",
+      "Weed": "1243",
+      "Dung": "1179",
       "Anthill": "20",
       "Rat": "20",
       "Snail": "20",
@@ -636,7 +636,7 @@
       "Adrift Ark": "1",
       "Wheat Seed": "84",
       "Acorn": "31",
-      "Cheer": "226",
+      "Cheer": "224",
       "Bloom Doll": "1",
       "Tempered Iron Rock": "1",
       "Sacred Tree": "1",
@@ -5061,7 +5061,7 @@
       "ff934c38": {
         "createdAt": 1762866687034,
         "wood": {
-          "choppedAt": 1769712879539
+          "choppedAt": 1769716006110
         },
         "x": 9,
         "y": 15,
@@ -5072,7 +5072,7 @@
       "c1b363e6": {
         "createdAt": 1763390731959,
         "wood": {
-          "choppedAt": 1769713448661
+          "choppedAt": 1769716008790
         },
         "x": 13,
         "y": 15,
@@ -5083,7 +5083,7 @@
       "0f0f2dff": {
         "createdAt": 1768096240290,
         "wood": {
-          "choppedAt": 1769712879299
+          "choppedAt": 1769716005820
         },
         "x": 11,
         "y": 15,
@@ -5893,10 +5893,10 @@
           "producing": {
             "items": {
               "Sprout Mix": 16,
-              "Earthworm": 3
+              "Earthworm": 4
             },
-            "startedAt": 1769703392383,
-            "readyAt": 1769720888383
+            "startedAt": 1769720931025,
+            "readyAt": 1769738427025
           }
         }
       ],
@@ -5946,10 +5946,10 @@
           "producing": {
             "items": {
               "Rapid Root": 21,
-              "Red Wiggler": 2
+              "Red Wiggler": 3
             },
-            "startedAt": 1769684704517,
-            "readyAt": 1769719696517
+            "startedAt": 1769720938343,
+            "readyAt": 1769755930343
           }
         }
       ],
@@ -6092,16 +6092,6 @@
           },
           "readyAt": 1750642704159,
           "crafting": [
-            {
-              "name": "Apple Juice",
-              "boost": {
-                "Oil": 0
-              },
-              "skills": {
-                "Double Nom": false
-              },
-              "readyAt": 1769720067359
-            },
             {
               "name": "Apple Juice",
               "boost": {
@@ -11023,16 +11013,16 @@
     "floatingIsland": {
       "schedule": [
         {
-          "startAt": 1769719200000,
-          "endAt": 1769721000000
-        },
-        {
           "startAt": 1769749200000,
           "endAt": 1769751000000
         },
         {
           "startAt": 1769779200000,
           "endAt": 1769781000000
+        },
+        {
+          "startAt": 1769809200000,
+          "endAt": 1769811000000
         }
       ],
       "shop": {
@@ -11365,8 +11355,8 @@
       "Pirate Chest Opened": 64,
       "Airdrop Reward Claimed": 125,
       "Shipment Restocked": 62,
-      "Farm Helped": 2577,
-      "Farm Cheered": 1386,
+      "Farm Helped": 2581,
+      "Farm Cheered": 1388,
       "Marketplace Listing Created": 1685,
       "Marketplace Offer Made": 211,
       "Marketplace Offer Cancelled": 187,
@@ -11379,7 +11369,7 @@
       "Minigame Prize Claimed": 132,
       "Trades Cleared": 3,
       "Faction Prize Claimed": 9,
-      "Tree Chopped": 105456,
+      "Tree Chopped": 105484,
       "Coins Earned": 3953472.82,
       "Sunflower Harvested": 306685,
       "Sunflower Sold": 1515,
@@ -11442,7 +11432,7 @@
       "Bumpkin ganoush Cooked": 301,
       "Bumpkin ganoush Fed": 60,
       "Club Sandwich Fed": 11,
-      "Compost Bin Collected": 1004,
+      "Compost Bin Collected": 1005,
       "Rod Casted": 8182,
       "Cheese Cooked": 6850,
       "Spaghetti al Limone Cooked": 322,
@@ -11514,13 +11504,13 @@
       "Apple Pie Fed": 341,
       "Sour Shake Fed": 22,
       "The Lot Fed": 224,
-      "Apple Juice Cooked": 431,
+      "Apple Juice Cooked": 432,
       "Apple Juice Fed": 31,
       "Bumpkin Detox Cooked": 298,
       "Collectible Removed": 314,
       "Sheep Bought": 201,
-      "Sheep Fed": 6133,
-      "Wool Collected": 6127,
+      "Sheep Fed": 6143,
+      "Wool Collected": 6137,
       "Cow Fed": 9025,
       "Hay Mixed": 1126,
       "Milk Collected": 8512,
@@ -11544,7 +11534,7 @@
       "Artichoke Harvested": 3472,
       "Beetroot Planted": 12034,
       "Beetroot Seed Bought": 11009,
-      "Merino Wool Collected": 5939,
+      "Merino Wool Collected": 5949,
       "Blueberry Seed Bought": 496,
       "Beetroot Harvested": 12034,
       "Boiled Eggs Cooked": 1091,
@@ -11564,7 +11554,7 @@
       "Edelweiss Seed Bought": 154,
       "Edelweiss Seed Planted": 141,
       "Parsnip Harvested": 3587,
-      "Premium Composter Collected": 545,
+      "Premium Composter Collected": 546,
       "Music Box Crafted": 1,
       "Blueberry Seed Planted": 448,
       "Radish Cake Fed": 1,
@@ -11859,7 +11849,7 @@
       "Fused Stone Rock Mined": 381,
       "Reinforced Stone Rock Mined": 381,
       "Stone Rock Mined": 380,
-      "Ancient Tree Chopped": 4495,
+      "Ancient Tree Chopped": 4498,
       "Refined Iron Rock Mined": 646,
       "Pure Gold Rock Mined": 246,
       "Super Star Caught": 2,
@@ -11920,7 +11910,7 @@
       "Tempered Iron Rock Upgrade": 1,
       "Tempered Iron Rock Mined": 79,
       "Sacred Tree Upgrade": 1,
-      "Sacred Tree Chopped": 360,
+      "Sacred Tree Chopped": 361,
       "White Lavender Bountied": 1,
       "Old Bottle Sold": 230,
       "Sea Cucumber Sold": 290,
@@ -13248,7 +13238,7 @@
           "petXP": 28940,
           "score": 9309,
           "collectivePet": {
-            "totalXP": 5153110,
+            "totalXP": 5158110,
             "goalXP": 2404688,
             "goalReached": true,
             "streak": 3,
@@ -14273,9 +14263,9 @@
           "state": "idle",
           "type": "Sheep",
           "createdAt": 1768817986219,
-          "awakeAt": 1769720053668,
-          "asleepAt": 1769685061668,
-          "experience": 54500,
+          "awakeAt": 1769755961880,
+          "asleepAt": 1769720969880,
+          "experience": 59840,
           "lovedAt": 1769718210428,
           "item": "Music Box",
           "healthCheckedAt": 1769698385032
@@ -14507,9 +14497,9 @@
           "state": "idle",
           "type": "Sheep",
           "createdAt": 1768817985999,
-          "awakeAt": 1769720050574,
-          "asleepAt": 1769685058574,
-          "experience": 54490,
+          "awakeAt": 1769755963869,
+          "asleepAt": 1769720971869,
+          "experience": 59840,
           "lovedAt": 1769718210620,
           "item": "Music Box",
           "healthCheckedAt": 1769698385032
@@ -14519,9 +14509,9 @@
           "state": "idle",
           "type": "Sheep",
           "createdAt": 1768817985503,
-          "awakeAt": 1769720047767,
-          "asleepAt": 1769685055767,
-          "experience": 54500,
+          "awakeAt": 1769755962226,
+          "asleepAt": 1769720970226,
+          "experience": 59840,
           "lovedAt": 1769718211884,
           "item": "Music Box",
           "healthCheckedAt": 1769698385032
@@ -14531,9 +14521,9 @@
           "state": "idle",
           "type": "Sheep",
           "createdAt": 1768817986465,
-          "awakeAt": 1769720048171,
-          "asleepAt": 1769685056171,
-          "experience": 54490,
+          "awakeAt": 1769755965426,
+          "asleepAt": 1769720973426,
+          "experience": 59840,
           "lovedAt": 1769718212384,
           "item": "Music Box",
           "healthCheckedAt": 1769698385032
@@ -14579,9 +14569,9 @@
           "state": "idle",
           "type": "Sheep",
           "createdAt": 1769386133023,
-          "awakeAt": 1769720052600,
-          "asleepAt": 1769685060600,
-          "experience": 2940,
+          "awakeAt": 1769755961108,
+          "asleepAt": 1769720969108,
+          "experience": 3420,
           "lovedAt": 1769718210008,
           "item": "Petting Hand",
           "healthCheckedAt": 1769698385032
@@ -14603,9 +14593,9 @@
           "state": "idle",
           "type": "Sheep",
           "createdAt": 1769386175708,
-          "awakeAt": 1769720048765,
-          "asleepAt": 1769685056765,
-          "experience": 2970,
+          "awakeAt": 1769755966313,
+          "asleepAt": 1769720974313,
+          "experience": 3370,
           "lovedAt": 1769718212567,
           "item": "Petting Hand",
           "healthCheckedAt": 1769698385032
@@ -14639,9 +14629,9 @@
           "state": "idle",
           "type": "Sheep",
           "createdAt": 1769596618143,
-          "awakeAt": 1769720052203,
-          "asleepAt": 1769685060203,
-          "experience": 775,
+          "awakeAt": 1769755961226,
+          "asleepAt": 1769720969226,
+          "experience": 1015,
           "lovedAt": 1769718210240,
           "item": "Petting Hand",
           "healthCheckedAt": 1769647301784
@@ -14651,9 +14641,9 @@
           "state": "idle",
           "type": "Sheep",
           "createdAt": 1769596617494,
-          "awakeAt": 1769720050048,
-          "asleepAt": 1769685058048,
-          "experience": 775,
+          "awakeAt": 1769755962785,
+          "asleepAt": 1769720970785,
+          "experience": 1015,
           "lovedAt": 1769718210907,
           "item": "Brush",
           "healthCheckedAt": 1769647301784
@@ -14675,9 +14665,9 @@
           "state": "idle",
           "type": "Sheep",
           "createdAt": 1769632761150,
-          "awakeAt": 1769720049649,
-          "asleepAt": 1769685057649,
-          "experience": 535,
+          "awakeAt": 1769755963230,
+          "asleepAt": 1769720971230,
+          "experience": 775,
           "lovedAt": 1769718211663,
           "item": "Petting Hand",
           "healthCheckedAt": 1769685063333
@@ -14687,9 +14677,9 @@
           "state": "idle",
           "type": "Sheep",
           "createdAt": 1769685046849,
-          "awakeAt": 1769720049210,
-          "asleepAt": 1769685057210,
-          "experience": 170,
+          "awakeAt": 1769755965174,
+          "asleepAt": 1769720973174,
+          "experience": 290,
           "lovedAt": 1769718212159,
           "item": "Petting Hand"
         }
@@ -15809,17 +15799,17 @@
       "Oil Can": 1769717586217,
       "Oil Overalls": 1769717586217,
       "Oil Extraction": 1769717586217,
-      "Foreman Beaver": 1769718218661,
+      "Foreman Beaver": 1769720778790,
       "Squirrel Monkey": 1769339209646,
       "Generous Orchard": 1769708078543,
       "Bud #1118": 1769432718982,
-      "Lumberjack's Extra": 1769718218661,
-      "Squirrel": 1769718218661,
-      "Tiki Totem": 1769718218661,
-      "Tough Tree": 1769705947212,
-      "Tree Charge": 1769718218661,
-      "Tree Turnaround": 1769717649045,
-      "Wood Nymph Wendy": 1769718218661,
+      "Lumberjack's Extra": 1769720778790,
+      "Squirrel": 1769720778790,
+      "Tiki Totem": 1769720778790,
+      "Tough Tree": 1769720775533,
+      "Tree Charge": 1769720778790,
+      "Tree Turnaround": 1769720775533,
+      "Wood Nymph Wendy": 1769720778790,
       "Bud #1821": 1769717607649,
       "Glass Room": 1769717603051,
       "Hoot": 1769711140020,
@@ -15858,9 +15848,9 @@
       "Laurie the Chuckle Crow": 1769711140020,
       "Laurie's Gains": 1769711140020,
       "Old Farmer": 1769711140020,
-      "Efficient Bin": 1769703392383,
-      "Soil Krabby": 1769717616119,
-      "Swift Decomposer": 1769717616119,
+      "Efficient Bin": 1769720931025,
+      "Soil Krabby": 1769720938343,
+      "Swift Decomposer": 1769720938343,
       "Bud #840": 1769717583190,
       "Ferrous Favor": 1761748871322,
       "Obsidian Necklace": 1769626660447,
@@ -15876,22 +15866,22 @@
       "Bee Suit": 1769684780622,
       "Honeycomb Shield": 1769684780622,
       "King of Bears": 1769684780622,
-      "Premium Worms": 1769684704517,
+      "Premium Worms": 1769720938343,
       "Sweet Bonus": 1769684780622,
       "Turbo Charged": 1769717616119,
-      "Abundant Harvest": 1769694263675,
-      "Bale": 1769694263675,
-      "Bale Economy": 1769691387978,
-      "Black Sheep Onesie": 1769685061668,
-      "Cattlegrim": 1769694263675,
-      "Double Bale": 1769694263675,
-      "Dream Scarf": 1769685061668,
-      "Farm Dog": 1769685061668,
-      "Fine Fibers": 1769694262866,
-      "Merino Jumper": 1769685061668,
-      "Restless Animals": 1769694263675,
-      "Toxic Tuft": 1769685061668,
-      "White Sheep Onesie": 1769685061668,
+      "Abundant Harvest": 1769720974313,
+      "Bale": 1769720974313,
+      "Bale Economy": 1769720974313,
+      "Black Sheep Onesie": 1769720974313,
+      "Cattlegrim": 1769720974313,
+      "Double Bale": 1769720974313,
+      "Dream Scarf": 1769720974313,
+      "Farm Dog": 1769720974313,
+      "Fine Fibers": 1769720974313,
+      "Merino Jumper": 1769720974313,
+      "Restless Animals": 1769720974313,
+      "Toxic Tuft": 1769720974313,
+      "White Sheep Onesie": 1769720974313,
       "Black Bearry": 1768215116317,
       "Lady Bug": 1769708078809,
       "Crim Peckster": 1769684740548,
@@ -15964,7 +15954,7 @@
       "Angler Waders": 1769642084265,
       "Fisherman's 10 Fold": 1769642084265,
       "Fisherman's 5 Fold": 1769642084265,
-      "More With Less": 1769717616119,
+      "More With Less": 1769720938343,
       "Pink Dolphin": 1768557570215,
       "Walrus": 1769642078635,
       "Trident": 1769641561658,
@@ -16003,14 +15993,14 @@
       "Eggplant Onesie": 1769282518993,
       "Maximus": 1769282518993,
       "Purple Trail": 1769282518993,
-      "Turd Topper": 1769717616119,
+      "Turd Topper": 1769720938343,
       "Giant Yam": 1769694189471,
       "Lemon Frog": 1769385461339,
       "Lemon Tea Bath": 1769385461339,
       "Lemon Shark": 1769385461339,
       "Lemon Shield": 1763343585048,
       "Reveling Lemon": 1769385461339,
-      "Bud #1156": 1769694263675,
+      "Bud #1156": 1769720974313,
       "Summer Guardian": 1769126433221,
       "Bud #1031": 1769215233242,
       "Gnome": 1769711140020,
@@ -16044,11 +16034,11 @@
       "Midas Rush": 1769684744466,
       "Midas Sprint": 1769684744466,
       "Pickaxe Shark": 1769684744466,
-      "Bud #917": 1769718218661,
+      "Bud #917": 1769720778790,
       "Lava Swimwear": 1769626660447,
       "Fireside Alchemist": 1769684740548,
       "Giant Onion": 1768179309710,
-      "Nightshade Shield": 1769718218661,
+      "Nightshade Shield": 1769720778790,
       "Architect Ruler": 1769544371486,
       "Reelmaster's Chair": 1769642084265,
       "Super Totem": 1761616881085,
@@ -16060,14 +16050,14 @@
       "Nom Nom": 1769692391905,
       "Giant Artichoke": 1769684751944,
       "Poseidon": 1769642078635,
-      "Wormy Treat": 1769717616119,
-      "Saw Fish": 1769717616119,
+      "Wormy Treat": 1769720938343,
+      "Saw Fish": 1769720938343,
       "Giant Gold Bone": 1769646944087,
       "Victoria's Secretary": 1769692354296,
       "Betty's Friend": 1769691515918,
       "Fruity Profit": 1769691654155,
       "Munching Mastery": 1769431490595,
-      "Collie Shrine": 1769691387978,
+      "Collie Shrine": 1769720974313,
       "Treasure Map": 1769525516696,
       "Nightshade Crown": 1769692391905,
       "Tortoise Shrine": 1769717607649,
@@ -16076,7 +16066,7 @@
       "Sparrow Shrine": 1769711140687,
       "Bantam Shrine": 1769694263675,
       "Harvest Hourglass": 1765065552886,
-      "Badger Shrine": 1769718218661,
+      "Badger Shrine": 1769720778790,
       "Super Star": 1765412676694,
       "Toucan Shrine": 1769708101792,
       "Magma Stone": 1769626660447,
@@ -16098,7 +16088,7 @@
       "Power hour": 1769560484868
     },
     "socialFarming": {
-      "points": 148667,
+      "points": 148701,
       "villageProjects": {
         "Miner's Monument": {
           "cheers": 10000,
@@ -16117,32 +16107,32 @@
           "winnerId": 6826774918530594
         },
         "Cornucopia": {
-          "cheers": 80,
+          "cheers": 81,
           "winnerId": 175706
         },
         "Advanced Cooking Pot": {
-          "cheers": 66,
+          "cheers": 67,
           "winnerId": 4162770768041520
         },
         "Big Banana": {
-          "cheers": 48,
+          "cheers": 49,
           "winnerId": 8092374573366023
         },
         "Big Apple": {
-          "cheers": 21,
+          "cheers": 22,
           "winnerId": 68705
         },
         "Big Orange": {
-          "cheers": 21,
+          "cheers": 22,
           "winnerId": 4011290094086491
         },
         "Expert Cooking Pot": {
-          "cheers": 21,
+          "cheers": 22,
           "winnerId": 5396046202048100
         },
         "Basic Cooking Pot": {
-          "cheers": 1,
-          "winnerId": 5463167771500224
+          "cheers": 2,
+          "winnerId": 47728
         }
       },
       "cheers": {
@@ -16161,7 +16151,9 @@
           177120,
           6237238044535795,
           151471,
-          1026369204954748
+          1026369204954748,
+          150539,
+          41414
         ]
       },
       "clutter": {
@@ -16201,13 +16193,17 @@
       },
       "weeklyPoints": {
         "week": "2026-01-26",
-        "points": 2293
+        "points": 2327
       },
       "helpIncrease": {
         "boughtAt": [
           1769706404849,
           1769719470737,
-          1769719503469
+          1769719503469,
+          1769720796869,
+          1769720844996,
+          1769720872576,
+          1769720905929
         ]
       },
       "helpedForCompetition": 3673
