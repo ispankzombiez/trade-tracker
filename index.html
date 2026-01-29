@@ -403,13 +403,61 @@
             background: var(--secondary-color);
             transform: scale(1.05);
         }
+
+        .tab-container {
+            background: var(--card-bg);
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            border: 1px solid var(--border-color);
+            padding: 20px;
+        }
+
+        .tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .tab-btn {
+            background: var(--darker-bg);
+            color: var(--text-light);
+            border: 1px solid var(--border-color);
+            padding: 12px 24px;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: bold;
+            font-size: 1rem;
+        }
+
+        .tab-btn:hover {
+            background: var(--primary-color);
+            color: var(--darker-bg);
+            transform: scale(1.05);
+        }
+
+        .tab-btn.active {
+            background: var(--primary-color);
+            color: var(--darker-bg);
+        }
+
+        .general-stats {
+            display: block;
+        }
+
+        .general-stats.hidden {
+            display: none;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="header">
             <h1>🌻 Trade Tracker</h1>
-            <a href="https://sunflower-land.com/play/#/visit/1128976301583508" class="farm-link" target="_blank">Visit My Farm In Game</a>
+            <a href="https://sunflower-land.com/play/#/visit/1128976301583508" class="farm-link" target="_blank">Visit iSPANK's Farm</a>
             <div class="last-updated" id="lastUpdated">Loading...</div>
             <button class="refresh-btn" onclick="refreshData()">🔄 Refresh</button>
         </div>
@@ -423,7 +471,23 @@
         </div>
 
         <div id="dashboard" style="display: none;">
-            <div class="dashboard-grid">
+            <!-- Tab Navigation -->
+            <div class="tab-container">
+                <div class="tabs">
+                    <button class="tab-btn active" onclick="switchTab('overview')" data-tab="overview">📊 Overview</button>
+                    <button class="tab-btn" onclick="switchTab('aeon')" data-tab="aeon">👤 aeon</button>
+                    <button class="tab-btn" onclick="switchTab('dcol')" data-tab="dcol">👤 dcol</button>
+                    <button class="tab-btn" onclick="switchTab('deltaomega')" data-tab="deltaomega">👤 deltaomega</button>
+                    <button class="tab-btn" onclick="switchTab('ispank')" data-tab="ispank">👤 ispank</button>
+                    <button class="tab-btn" onclick="switchTab('raichupus')" data-tab="raichupus">👤 raichupus</button>
+                    <button class="tab-btn" onclick="switchTab('riddlemeknot')" data-tab="riddlemeknot">👤 riddlemeknot</button>
+                    <button class="tab-btn" onclick="switchTab('tourist')" data-tab="tourist">👤 tourist</button>
+                </div>
+            </div>
+
+            <!-- General Stats (shown only on overview tab) -->
+            <div id="generalStats" class="general-stats">
+                <div class="dashboard-grid">
                 <!-- Top Traders Card -->
                 <div class="card">
                     <h3>🏆 Top Traders by Profit</h3>
@@ -450,16 +514,6 @@
                 <div class="card">
                     <h3>⚡ Recent Activity</h3>
                     <div id="recentActivity" class="recent-activity">
-                        <!-- Will be populated by JavaScript -->
-                    </div>
-                </div>
-            </div>
-
-            <!-- User Selection -->
-            <div class="user-selector">
-                <div class="card">
-                    <h3>👥 Select Trader for Detailed View</h3>
-                    <div id="userButtons" class="user-buttons">
                         <!-- Will be populated by JavaScript -->
                     </div>
                 </div>
@@ -523,6 +577,28 @@
     <script>
         let dashboardData = null;
         let currentUser = null;
+        let currentTab = 'overview';
+
+        function switchTab(tabName) {
+            currentTab = tabName;
+            
+            // Update tab button states
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.getAttribute('data-tab') === tabName);
+            });
+            
+            if (tabName === 'overview') {
+                // Show general stats, hide user details
+                document.getElementById('generalStats').classList.remove('hidden');
+                document.getElementById('userDetails').style.display = 'none';
+                document.getElementById('detailedTrades').style.display = 'none';
+                currentUser = null;
+            } else {
+                // Hide general stats, show user details for the selected trader
+                document.getElementById('generalStats').classList.add('hidden');
+                selectUser(tabName);
+            }
+        }
 
         async function loadData() {
             try {
@@ -635,16 +711,8 @@
         }
 
         function updateUserButtons() {
-            const container = document.getElementById('userButtons');
-            container.innerHTML = '';
-
-            dashboardData.top_traders.forEach(trader => {
-                const button = document.createElement('button');
-                button.className = 'user-btn';
-                button.textContent = trader.username;
-                button.onclick = () => selectUser(trader.username);
-                container.appendChild(button);
-            });
+            // User buttons are now handled by the tab system
+            // This function is kept for compatibility but does nothing
         }
 
         async function selectUser(username) {
