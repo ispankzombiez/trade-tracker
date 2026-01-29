@@ -1,18 +1,30 @@
 {
   "username": "deltaomega",
   "overview": {
-    "balance": 35.32,
-    "coins": 2457.0,
+    "balance": 34.12,
+    "coins": 1817.0,
     "gems": 0.0,
     "earned_sfl": 20919.85,
-    "earned_coins": 2457.0,
+    "earned_coins": 1817.0,
     "spent_sfl": 14782.16,
     "items_sold": 3465.0,
     "trade_points": 13902.85,
-    "last_updated": "2026-01-29 07:31 PM",
+    "last_updated": "2026-01-29 07:46 PM",
     "active_listings": 0
   },
   "buys": [
+    {
+      "date": "2026-01-29",
+      "time": "07:42 PM",
+      "type": "BUY",
+      "item": "Cauliflower",
+      "quantity": 100,
+      "price_text": "1.199 SFL",
+      "price": 1.199,
+      "counterparty": "FarmerJosh",
+      "farm_id": "-",
+      "trade_id": "0f166982"
+    },
     {
       "date": "2026-01-29",
       "time": "05:36 PM",
@@ -702,15 +714,24 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 31,
+    "total_buys": 32,
     "total_sells": 26,
-    "buy_volume": 31.4215,
+    "buy_volume": 32.6205,
     "sell_volume": 52.9356,
-    "gross_profit": 21.5141,
-    "avg_buy_price": 1.0135967741935485,
+    "gross_profit": 20.3151,
+    "avg_buy_price": 1.019390625,
     "avg_sell_price": 2.0359846153846153,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Cauliflower",
+        "quantity": 100,
+        "price": 1.199,
+        "date": "2026-01-29",
+        "time": "07:42 PM",
+        "username": "deltaomega"
+      },
       {
         "type": "BUY",
         "item": "Feather",
@@ -753,8 +774,7 @@
         "quantity": 1,
         "price": 0.8092,
         "date": "2026-01-28",
-        "time": "01:10 PM",
-        "username": "deltaomega"
+        "time": "01:10 PM"
       },
       {
         "type": "BUY",
@@ -867,28 +887,20 @@
         "price": 0.159,
         "date": "2026-01-27",
         "time": "03:25 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Stone",
-        "quantity": 10,
-        "price": 0.159,
-        "date": "2026-01-27",
-        "time": "03:25 PM"
       }
     ],
-    "profit_margin": 68.46936015148863,
+    "profit_margin": 62.27709569135973,
     "most_bought_items": {
       "Feather": 279,
       "Yam": 223,
       "Corn": 200,
       "Soybean": 200,
       "Stone": 170,
+      "Cauliflower": 100,
       "Artichoke": 60,
       "Wool": 53,
       "Blueberry": 50,
-      "Egg": 50,
-      "Wheat": 49
+      "Egg": 50
     },
     "most_sold_items": {
       "Barley": 1760,
