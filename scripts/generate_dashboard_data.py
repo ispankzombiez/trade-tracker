@@ -179,13 +179,21 @@ def calculate_user_stats(user_data: Dict) -> Dict[str, Any]:
     if stats['buy_volume'] > 0:
         stats['profit_margin'] = (stats['gross_profit'] / stats['buy_volume']) * 100
     
-    # Find most traded items
-    item_counts = {}
-    for trade in buys + sells:
+    # Find most bought items
+    buy_item_counts = {}
+    for trade in buys:
         item = trade['item']
-        item_counts[item] = item_counts.get(item, 0) + trade['quantity']
+        buy_item_counts[item] = buy_item_counts.get(item, 0) + trade['quantity']
     
-    stats['most_traded_items'] = dict(sorted(item_counts.items(), key=lambda x: x[1], reverse=True)[:10])
+    stats['most_bought_items'] = dict(sorted(buy_item_counts.items(), key=lambda x: x[1], reverse=True)[:10])
+    
+    # Find most sold items
+    sell_item_counts = {}
+    for trade in sells:
+        item = trade['item']
+        sell_item_counts[item] = sell_item_counts.get(item, 0) + trade['quantity']
+    
+    stats['most_sold_items'] = dict(sorted(sell_item_counts.items(), key=lambda x: x[1], reverse=True)[:10])
     
     # Get recent activity (last 24 hours)
     now = datetime.now()
