@@ -1,6 +1,6 @@
 {
   "id": 7125230236674634,
-  "totalTrades": 17734,
+  "totalTrades": 17738,
   "level": 190,
   "weeklyFlowerSpent": 418.0782,
   "weeklyFlowerEarned": 0,
@@ -116,6 +116,54 @@
       "sfl": 0.9,
       "tax": 0.0675,
       "tradeType": "instant"
+    },
+    "79d1562b": {
+      "collection": "collectibles",
+      "createdAt": 1769652469021,
+      "items": {
+        "Milk": 100
+      },
+      "sfl": 13.21,
+      "tax": 0.99075,
+      "tradeType": "instant",
+      "fulfilledAt": 1769652720996,
+      "fulfilledById": 4025057875703234
+    },
+    "4141c77d": {
+      "collection": "collectibles",
+      "createdAt": 1769652481332,
+      "items": {
+        "Milk": 100
+      },
+      "sfl": 13.21,
+      "tax": 0.99075,
+      "tradeType": "instant",
+      "fulfilledAt": 1769652724526,
+      "fulfilledById": 4025057875703234
+    },
+    "1aa79775": {
+      "collection": "collectibles",
+      "createdAt": 1769652503552,
+      "items": {
+        "Leather": 100
+      },
+      "sfl": 11.9,
+      "tax": 0.8925,
+      "tradeType": "instant",
+      "fulfilledAt": 1769652573325,
+      "fulfilledById": 166084
+    },
+    "94d7c063": {
+      "collection": "collectibles",
+      "createdAt": 1769652523857,
+      "items": {
+        "Wood": 500
+      },
+      "sfl": 4.39,
+      "tax": 0.32925,
+      "tradeType": "instant",
+      "fulfilledAt": 1769652649917,
+      "fulfilledById": 138270985682894
     }
   },
   "offers": {},
@@ -152,6 +200,82 @@
     }
   ],
   "trades": [
+    {
+      "id": "4141c77d",
+      "sfl": 13.21,
+      "quantity": 100,
+      "itemId": 645,
+      "collection": "collectibles",
+      "source": "listing",
+      "fulfilledAt": 1769652724526,
+      "initiatedBy": {
+        "id": 7125230236674634,
+        "bumpkinUri": "0_v1_32_90_51_0_0_22_162_505_30_433_16_483_276_440_481",
+        "username": "Raichupus"
+      },
+      "fulfilledBy": {
+        "id": 4025057875703234,
+        "bumpkinUri": "0_v1_32_2_51_13_19_22_45_253",
+        "username": "Aurealis"
+      }
+    },
+    {
+      "id": "79d1562b",
+      "sfl": 13.21,
+      "quantity": 100,
+      "itemId": 645,
+      "collection": "collectibles",
+      "source": "listing",
+      "fulfilledAt": 1769652720996,
+      "initiatedBy": {
+        "id": 7125230236674634,
+        "bumpkinUri": "0_v1_32_90_51_0_0_22_162_505_30_433_16_483_276_440_481",
+        "username": "Raichupus"
+      },
+      "fulfilledBy": {
+        "id": 4025057875703234,
+        "bumpkinUri": "0_v1_32_2_51_13_19_22_45_253",
+        "username": "Aurealis"
+      }
+    },
+    {
+      "id": "94d7c063",
+      "sfl": 4.39,
+      "quantity": 500,
+      "itemId": 601,
+      "collection": "collectibles",
+      "source": "listing",
+      "fulfilledAt": 1769652649917,
+      "initiatedBy": {
+        "id": 7125230236674634,
+        "bumpkinUri": "0_v1_32_90_51_0_0_22_162_505_30_433_16_483_276_440_481",
+        "username": "Raichupus"
+      },
+      "fulfilledBy": {
+        "id": 138270985682894,
+        "bumpkinUri": "0_v1_32_3_5_13_234_34_226_476_0_0_0_251",
+        "username": "MrQuan"
+      }
+    },
+    {
+      "id": "1aa79775",
+      "sfl": 11.9,
+      "quantity": 100,
+      "itemId": 641,
+      "collection": "collectibles",
+      "source": "listing",
+      "fulfilledAt": 1769652573325,
+      "initiatedBy": {
+        "id": 7125230236674634,
+        "bumpkinUri": "0_v1_32_90_51_0_0_22_162_505_30_433_16_483_276_440_481",
+        "username": "Raichupus"
+      },
+      "fulfilledBy": {
+        "id": 166084,
+        "bumpkinUri": "0_v1_47_4_51_320_322_323_324_377_389_381_0_0_0_385",
+        "username": "bach"
+      }
+    },
     {
       "id": "1ee8a7b9",
       "sfl": 20.16,
@@ -1024,82 +1148,6 @@
         "id": 885,
         "bumpkinUri": "0_v1_78_4_74_88_234_237_224_319_30_228",
         "username": "Farmer"
-      }
-    },
-    {
-      "id": "f541711c",
-      "sfl": 12.42,
-      "quantity": 100,
-      "itemId": 641,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769385717617,
-      "initiatedBy": {
-        "id": 7125230236674634,
-        "bumpkinUri": "0_v1_32_90_51_0_0_22_162_505_30_433_16_483_276_440_481",
-        "username": "Raichupus"
-      },
-      "fulfilledBy": {
-        "id": 128954,
-        "bumpkinUri": "0_v1_83_127_52_282_234_99_324_278_389_238_86_483_276_496",
-        "username": "rocy"
-      }
-    },
-    {
-      "id": "a70bd2ea",
-      "sfl": 12.42,
-      "quantity": 100,
-      "itemId": 641,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769385632797,
-      "initiatedBy": {
-        "id": 7125230236674634,
-        "bumpkinUri": "0_v1_32_90_51_0_0_22_162_505_30_433_16_483_276_440_481",
-        "username": "Raichupus"
-      },
-      "fulfilledBy": {
-        "id": 6787160326029422,
-        "bumpkinUri": "0_v1_32_1_202_0_0_41_414_343_0_371_0_0_0_374_344",
-        "username": "ThiefRa"
-      }
-    },
-    {
-      "id": "15dd8f0c",
-      "sfl": 13,
-      "quantity": 1000,
-      "itemId": 215,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769385430175,
-      "initiatedBy": {
-        "id": 3249,
-        "bumpkinUri": "0_v1_460_3_75_330_333_334_332_454_388_380_0_0_0_461_0_0_516",
-        "username": "Rudolph"
-      },
-      "fulfilledBy": {
-        "id": 7125230236674634,
-        "bumpkinUri": "0_v1_32_90_51_0_0_22_162_505_30_433_16_483_276_440_481",
-        "username": "Raichupus"
-      }
-    },
-    {
-      "id": "b1dc60ab",
-      "sfl": 13,
-      "quantity": 1000,
-      "itemId": 215,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769385430175,
-      "initiatedBy": {
-        "id": 3249,
-        "bumpkinUri": "0_v1_460_3_75_330_333_334_332_454_388_380_0_0_0_461_0_0_516",
-        "username": "Rudolph"
-      },
-      "fulfilledBy": {
-        "id": 7125230236674634,
-        "bumpkinUri": "0_v1_32_90_51_0_0_22_162_505_30_433_16_483_276_440_481",
-        "username": "Raichupus"
       }
     }
   ]
