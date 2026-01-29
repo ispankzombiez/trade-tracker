@@ -206,7 +206,7 @@
       "Rooster": "1",
       "Honey": "373.67373037540582678",
       "Wild Mushroom": "860.9",
-      "Magic Mushroom": "283",
+      "Magic Mushroom": "284",
       "Iron Rock": "12",
       "Gold Rock": "8",
       "Crop Plot": "70",
@@ -230,7 +230,7 @@
       "Wool": "173.5",
       "Merino Wool": "80.35",
       "Feather": "29451.95",
-      "Milk": "11.6",
+      "Milk": "5.6",
       "Hay": "18.8375",
       "Kernel Blend": "42.5",
       "NutriBarley": "10.73125",
@@ -666,7 +666,8 @@
       "Rice Seed": "12",
       "Stone Pickaxe": "4",
       "Wheat Seed": "46",
-      "Yam Seed": "5"
+      "Yam Seed": "5",
+      "Cheese": "2"
     },
     "previousInventory": {
       "Sunflower Seed": "360",
@@ -5851,26 +5852,6 @@
               "skills": {
                 "Double Nom": false
               },
-              "readyAt": 1769670295718
-            },
-            {
-              "name": "Cheese",
-              "boost": {
-                "Oil": 0
-              },
-              "skills": {
-                "Double Nom": false
-              },
-              "readyAt": 1769671375718
-            },
-            {
-              "name": "Cheese",
-              "boost": {
-                "Oil": 0
-              },
-              "skills": {
-                "Double Nom": false
-              },
               "readyAt": 1769672455718
             },
             {
@@ -5882,6 +5863,26 @@
                 "Double Nom": false
               },
               "readyAt": 1769673535718
+            },
+            {
+              "name": "Cheese",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": false
+              },
+              "readyAt": 1769674615718
+            },
+            {
+              "name": "Cheese",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": false
+              },
+              "readyAt": 1769675695718
             }
           ],
           "oil": 0
@@ -6935,7 +6936,7 @@
       "Grape Juice Cooked": 6,
       "Barley Harvested": 3667,
       "NutriBarley Mixed": 12708,
-      "Cheese Cooked": 1610,
+      "Cheese Cooked": 1612,
       "Spaghetti al Limone Cooked": 17,
       "Honey Cheddar Cooked": 28,
       "Anchovy Fed": 10,
@@ -7223,12 +7224,6 @@
           "amount": 1.2,
           "x": 3,
           "y": 11
-        },
-        "a75942dd": {
-          "name": "Magic Mushroom",
-          "amount": 1,
-          "x": 1,
-          "y": 7
         }
       },
       "magicSpawnedAt": 1769637600000,
@@ -8358,7 +8353,7 @@
           "petXP": 0,
           "score": 0,
           "collectivePet": {
-            "totalXP": 3992115,
+            "totalXP": 3992455,
             "goalXP": 10263180,
             "goalReached": false,
             "streak": 10,
@@ -8926,7 +8921,7 @@
           "experience": 4345,
           "lovedAt": 1767590394838,
           "item": "Brush",
-          "healthCheckedAt": 1769585241426
+          "healthCheckedAt": 1769672251259
         },
         "9a9c9275": {
           "id": "9a9c9275",
@@ -8962,7 +8957,7 @@
           "experience": 3600,
           "lovedAt": 0,
           "item": "Petting Hand",
-          "healthCheckedAt": 1769585241426
+          "healthCheckedAt": 1769672251259
         },
         "113fcc01": {
           "id": "113fcc01",
@@ -8974,7 +8969,7 @@
           "experience": 3060,
           "lovedAt": 0,
           "item": "Petting Hand",
-          "healthCheckedAt": 1769585241426
+          "healthCheckedAt": 1769672251259
         },
         "f60d36e7": {
           "id": "f60d36e7",
@@ -9010,7 +9005,7 @@
           "experience": 2520,
           "lovedAt": 0,
           "item": "Petting Hand",
-          "healthCheckedAt": 1769585241426
+          "healthCheckedAt": 1769672251259
         },
         "0afdd457": {
           "id": "0afdd457",
@@ -9653,7 +9648,7 @@
       "Rocky Favor": 1769669399783,
       "Stone Beetle": 1769669399783,
       "Tunnel Mole": 1769669399783,
-      "Desert Gnome": 1769669412706,
+      "Desert Gnome": 1769672247452,
       "Strong Roots": 1769652163121,
       "Healthy Livestock": 1754179284431,
       "Crim Peckster": 1769603848830,
