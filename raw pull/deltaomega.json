@@ -1,7 +1,7 @@
 {
   "farm": {
     "coins": 11.887571250154693,
-    "balance": "32.33628685462368216",
+    "balance": "29.94978685462368216",
     "previousBalance": "6195.1070892861099809",
     "inventory": {
       "Sunflower Seed": "2399",
@@ -42,9 +42,9 @@
       "Pumpkin": "339.2328",
       "Carrot": "701.1803",
       "Cabbage": "115.4629",
-      "Beetroot": "60.1847",
+      "Beetroot": "120.1847",
       "Cauliflower": "56.6781",
-      "Parsnip": "20.2369",
+      "Parsnip": "100.2369",
       "Radish": "30.7",
       "Wheat": "35.7008",
       "Kale": "0.62",
@@ -187,7 +187,7 @@
       "Sour Shake": "10",
       "Wood": "214.48",
       "Stone": "83.9",
-      "Iron": "9.35",
+      "Iron": "8.35",
       "Egg": "10.3",
       "Speed Chicken": "1",
       "Fat Chicken": "1",
@@ -212,9 +212,9 @@
       "Sunstone": "34",
       "Oil": "308.2841435185185357",
       "Oil Reserve": "4",
-      "Wool": "3.5",
+      "Wool": "0.5",
       "Merino Wool": "4.2",
-      "Feather": "85.1",
+      "Feather": "82.1",
       "Milk": "0.3",
       "Hay": "4.6265000000002978",
       "Kernel Blend": "112.55018750000022161",
@@ -454,8 +454,8 @@
       "Gladiolus Seed": "8",
       "Love Charm": "487.3",
       "Trash": "1",
-      "Dung": "510",
-      "Weed": "502",
+      "Dung": "513",
+      "Weed": "504",
       "Bracelet": "36",
       "Halloween Ticket 2025": "5",
       "Mansion": "1",
@@ -562,7 +562,7 @@
       "Pickaxe": "22",
       "Stone Pickaxe": "13",
       "Parsnip Cake": "1",
-      "Cheer": "5",
+      "Cheer": "4",
       "Rice": "8"
     },
     "previousInventory": {
@@ -5216,7 +5216,28 @@
           "createdAt": 1715884659437,
           "id": "deadcbc0",
           "oil": 0,
-          "crafting": [],
+          "crafting": [
+            {
+              "name": "Bumpkin Salad",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": false
+              },
+              "readyAt": 1769733063461
+            },
+            {
+              "name": "Bumpkin Salad",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": false
+              },
+              "readyAt": 1769743269461
+            }
+          ],
           "coordinates": {
             "x": 0,
             "y": 15
@@ -6024,8 +6045,8 @@
       "Gift Giver Reward Opened": 14,
       "Digging Reward Collected": 64,
       "Pirate Chest Opened": 64,
-      "Farm Cheered": 584,
-      "Farm Helped": 575,
+      "Farm Cheered": 585,
+      "Farm Helped": 576,
       "Greenhouse Oiled": 78,
       "Shipment Restocked": 58,
       "General Store Restocked": 64,
@@ -9773,8 +9794,8 @@
       "El Pollo Veloz": 1769627301239,
       "Speed Chicken": 1769627301239,
       "Fat Chicken": 1769627294409,
-      "Desert Gnome": 1769715808607,
-      "Fast Feasts": 1769564237783,
+      "Desert Gnome": 1769722858652,
+      "Fast Feasts": 1769722858652,
       "Time Warp Totem": 1769665302946,
       "Fruit Picker Apron": 1769705126770,
       "Poseidon": 1764830129249,
@@ -9819,7 +9840,7 @@
       "Sunshower": 1769465546026
     },
     "socialFarming": {
-      "points": 36013,
+      "points": 36021,
       "villageProjects": {
         "Farmer's Monument": {
           "cheers": 100,
@@ -9872,7 +9893,8 @@
           1915463731455723,
           3669920097425700,
           103715,
-          1079131416538037
+          1079131416538037,
+          8794384265240002
         ]
       },
       "clutter": {
@@ -9915,12 +9937,13 @@
           1769705595420,
           1769705657112,
           1769711507350,
-          1769717319241
+          1769717319241,
+          1769722698339
         ]
       },
       "weeklyPoints": {
         "week": "2026-01-26",
-        "points": 827
+        "points": 835
       },
       "helpedForCompetition": 737,
       "waves": {
