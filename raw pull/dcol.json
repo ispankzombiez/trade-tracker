@@ -21,7 +21,7 @@
       "Cauliflower": "12779.883100000006443",
       "Parsnip": "2717.086300000001202",
       "Radish": "380.8474999999995399",
-      "Wheat": "6925.473100000000335",
+      "Wheat": "6890.473100000000335",
       "Kale": "48753.415699999999509",
       "Apple": "574.5900000000001275",
       "Blueberry": "81.8300000000001858",
@@ -156,7 +156,7 @@
       "Potato Cake": "3",
       "Pumpkin Cake": "3",
       "Beetroot Cake": "3",
-      "Parsnip Cake": "2",
+      "Parsnip Cake": "3",
       "Boiled Eggs": "58",
       "Bumpkin Broth": "25",
       "Bumpkin Salad": "11",
@@ -172,14 +172,14 @@
       "Mushroom Jacket Potatoes": "1",
       "Orange Cake": "5",
       "Sunflower Crunch": "7",
-      "Reindeer Carrot": "21",
+      "Reindeer Carrot": "20",
       "Apple Juice": "5",
       "Bumpkin Detox": "1",
       "Pirate Cake": "1",
       "Fruit Salad": "10",
       "Kale Omelette": "2",
       "Cabbers n Mash": "2",
-      "Fancy Fries": "4",
+      "Fancy Fries": "3",
       "Bumpkin ganoush": "2",
       "Cornbread": "2",
       "Eggplant Cake": "3",
@@ -187,9 +187,9 @@
       "Chowder": "2",
       "Gumbo": "6",
       "Banana Blast": "3",
-      "Carrot Juice": "4",
+      "Carrot Juice": "3",
       "Fried Tofu": "3",
-      "Grape Juice": "3",
+      "Grape Juice": "2",
       "Quick Juice": "5",
       "Rice Bun": "3",
       "The Lot": "2",
@@ -198,7 +198,7 @@
       "Stone": "4232.1",
       "Iron": "1815.85",
       "Gold": "114.95",
-      "Egg": "24232.42",
+      "Egg": "24202.42",
       "Chicken": "30",
       "Speed Chicken": "6",
       "Fat Chicken": "3",
@@ -582,7 +582,7 @@
       "Radish Cake": "3",
       "Moon Crystal": "36",
       "Clam Shell": "17",
-      "Wheat Cake": "2",
+      "Wheat Cake": "1",
       "Muskellunge": "33",
       "Pharaoh Chicken": "1",
       "Fish n Chips": "1",
@@ -645,7 +645,7 @@
       "Fermented Fish": "3",
       "Blue Cheese": "3",
       "Cobia": "30",
-      "Power Smoothie": "4",
+      "Power Smoothie": "3",
       "Tilapia": "10",
       "Tornado Pinwheel": "1",
       "Cockle Shell": "6",
@@ -1322,7 +1322,8 @@
             }
           },
           "initialProgress": 71007,
-          "startedAt": 1769387101276
+          "startedAt": 1769387101276,
+          "completedAt": 1769681633994
         },
         "grimbly": {
           "name": "Cook Pancakes 15 times",
@@ -5890,16 +5891,6 @@
           "readyAt": 1748238424943,
           "crafting": [
             {
-              "name": "Parsnip Cake",
-              "boost": {
-                "Oil": 0
-              },
-              "skills": {
-                "Double Nom": false
-              },
-              "readyAt": 1769673730906
-            },
-            {
               "name": "Wheat Cake",
               "boost": {
                 "Oil": 0
@@ -5928,6 +5919,16 @@
                 "Double Nom": false
               },
               "readyAt": 1769900530906
+            },
+            {
+              "name": "Wheat Cake",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": false
+              },
+              "readyAt": 1769978290906
             }
           ],
           "oil": 0
@@ -6761,7 +6762,7 @@
       "Cabbers n Mash Cooked": 45,
       "Sunflower Planted": 12491,
       "Blue Monarch Shirt Bought": 2,
-      "Parsnip Cake Cooked": 83,
+      "Parsnip Cake Cooked": 84,
       "Corn Harvested": 9211,
       "Sand Drill Crafted": 84,
       "Bumpkin ganoush Cooked": 63,
@@ -7096,9 +7097,9 @@
       "Raffle Entries": 4320,
       "Raffle Lost": 3,
       "Purple Gladiolus Bountied": 1,
-      "Pet Cookie Collected": 128,
+      "Pet Cookie Collected": 134,
       "Rock Blackfish Caught": 13,
-      "Paw Prints Points Earned": 73
+      "Paw Prints Points Earned": 79
     },
     "milestones": {
       "Fish Encyclopedia": 1,
@@ -7633,13 +7634,13 @@
       "betty": {
         "deliveryCount": 685,
         "friendship": {
-          "updatedAt": 1769568534561,
-          "points": 1600,
+          "updatedAt": 1769681633994,
+          "points": 1601,
           "giftClaimedAtPoints": 1510,
           "giftedAt": 1714867454839
         },
         "deliveryCompletedAt": 1769568534561,
-        "choreCount": 25,
+        "choreCount": 26,
         "skippedCount": 3,
         "streaks": {
           "streak": 1,
@@ -9642,7 +9643,7 @@
       "Rocky Favor": 1769669399783,
       "Stone Beetle": 1769669399783,
       "Tunnel Mole": 1769669399783,
-      "Desert Gnome": 1769681571893,
+      "Desert Gnome": 1769681617882,
       "Strong Roots": 1769652163121,
       "Healthy Livestock": 1754179284431,
       "Crim Peckster": 1769681560633,
@@ -9935,8 +9936,8 @@
         "404": {
           "name": "Pet #404",
           "id": 404,
-          "experience": 19015,
-          "energy": 855,
+          "experience": 19475,
+          "energy": 1305,
           "requests": {
             "food": [
               "Carrot Juice",
@@ -9945,9 +9946,14 @@
               "Grape Juice",
               "Cauliflower Cake"
             ],
-            "fedAt": 1769594682911
+            "fedAt": 1769681600457,
+            "foodFed": [
+              "Carrot Juice",
+              "Power Smoothie",
+              "Grape Juice"
+            ]
           },
-          "pettedAt": 1769632878272,
+          "pettedAt": 1769681592729,
           "traits": {
             "type": "Griffin",
             "fur": "Dark",
@@ -9970,8 +9976,8 @@
         "2963": {
           "id": 2963,
           "name": "Pet #2963",
-          "experience": 18285,
-          "energy": 765,
+          "experience": 18750,
+          "energy": 1215,
           "requests": {
             "food": [
               "Reindeer Carrot",
@@ -9980,7 +9986,12 @@
               "Wheat Cake",
               "Honey Cake"
             ],
-            "fedAt": 1769594677955
+            "fedAt": 1769681605502,
+            "foodFed": [
+              "Reindeer Carrot",
+              "Fancy Fries",
+              "Wheat Cake"
+            ]
           },
           "pettedAt": 1769681592507,
           "traits": {
