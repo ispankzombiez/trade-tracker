@@ -921,6 +921,26 @@
                         </div>
                     </div>
                     
+                    <!-- Active Listings -->
+                    <div class="card">
+                        <h3>🏪 Active Listings (${stats.active_listings || 0})</h3>
+                        <div class="recent-activity">
+                            ${(userData.active_listings || []).length > 0 ? 
+                                userData.active_listings.map(listing => `
+                                    <div class="activity-item">
+                                        <div>
+                                            <strong>${listing.item}</strong> x${listing.quantity}
+                                            <br>
+                                            <small>Listed ${listing.date || 'Unknown date'}</small>
+                                        </div>
+                                        <div class="profit-amount">${listing.price ? listing.price.toFixed(2) : 'N/A'} SFL</div>
+                                    </div>
+                                `).join('') 
+                                : '<div style="padding: 20px; text-align: center; color: var(--text-muted);">No active listings</div>'
+                            }
+                        </div>
+                    </div>
+                    
                     <!-- Complete Trade History -->
                     <div class="card" style="grid-column: 1 / -1;">
                         <h3>📊 Complete Trade History</h3>
