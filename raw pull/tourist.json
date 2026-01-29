@@ -79,13 +79,13 @@
       "Soybean": "56761.58629999999678",
       "Grape": "299.300000000001401",
       "Rice": "826.4088",
-      "Olive": "1671.5208",
-      "Tomato": "1444.3900000000078807",
-      "Lemon": "219.5800000000046292",
+      "Olive": "1716.5608",
+      "Tomato": "1454.6000000000078813",
+      "Lemon": "59.5800000000046292",
       "Barley": "7012.812099999998264",
       "Rhubarb": "44739.30749999960842",
       "Zucchini": "297620.3145999998891",
-      "Yam": "4483.957699999976079",
+      "Yam": "4468.957699999976079",
       "Broccoli": "24532.06199999993191",
       "Pepper": "6410.088499999999817",
       "Onion": "5827.649899999999282",
@@ -284,7 +284,7 @@
       "Fat Chicken": "4",
       "Rich Chicken": "2",
       "Rooster": "1",
-      "Honey": "342.78240551701540955",
+      "Honey": "350.13240563611263275",
       "Wild Mushroom": "1101.9",
       "Magic Mushroom": "28.4",
       "Tree": "3",
@@ -292,10 +292,10 @@
       "Crop Plot": "65",
       "Fruit Patch": "15",
       "Basic Land": "30",
-      "Earthworm": "971",
+      "Earthworm": "975",
       "Grub": "490",
       "Red Wiggler": "1221",
-      "Sprout Mix": "2593",
+      "Sprout Mix": "2609",
       "Fruitful Blend": "10456",
       "Rapid Root": "2999",
       "Fishing Lure": "247",
@@ -303,12 +303,12 @@
       "Flower Bed": "3",
       "Crimstone Rock": "5",
       "Crimstone": "740.875000000000001",
-      "Oil": "5460.1454202685051399",
+      "Oil": "5436.1454202685051399",
       "Oil Reserve": "4",
-      "Leather": "820.7",
-      "Wool": "558.9",
+      "Leather": "816.7",
+      "Wool": "553.9",
       "Merino Wool": "2037.45",
-      "Feather": "9913.45",
+      "Feather": "9893.45",
       "Milk": "5.75",
       "Hay": "80.65000000000000005",
       "Kernel Blend": "212.95",
@@ -911,7 +911,7 @@
       "Angelfish": "291",
       "Honey Cheddar": "10",
       "Isopod": "92",
-      "Doll": "238",
+      "Doll": "239",
       "Moonfur": "1",
       "Stone Pickaxe": "113",
       "Octopus": "6",
@@ -948,7 +948,7 @@
       "Wild Grass": "10",
       "Spaghetti al Limone": "19",
       "Chewed Bone": "10",
-      "Sour Shake": "188",
+      "Sour Shake": "196",
       "Fermented Fish": "4",
       "Big Orange": "1",
       "Lobster": "18",
@@ -4950,41 +4950,25 @@
         "1": {
           "plant": {
             "name": "Olive",
-            "plantedAt": 1769536274538.2,
-            "criticalHit": {
-              "Green Amulet": 0,
-              "Greenhouse Gamble": 0
-            }
+            "plantedAt": 1769561248503.2
           }
         },
         "2": {
           "plant": {
             "name": "Olive",
-            "plantedAt": 1769536274359.2,
-            "criticalHit": {
-              "Green Amulet": 1,
-              "Greenhouse Gamble": 0
-            }
+            "plantedAt": 1769561248810.2
           }
         },
         "3": {
           "plant": {
             "name": "Olive",
-            "plantedAt": 1769536274938.2,
-            "criticalHit": {
-              "Green Amulet": 0,
-              "Greenhouse Gamble": 0
-            }
+            "plantedAt": 1769561249175.2
           }
         },
         "4": {
           "plant": {
             "name": "Olive",
-            "plantedAt": 1769536275169.2,
-            "criticalHit": {
-              "Green Amulet": 0,
-              "Greenhouse Gamble": 0
-            }
+            "plantedAt": 1769561249517.2
           }
         }
       }
@@ -5142,7 +5126,7 @@
       "Tomato Seed": "31",
       "Crab Pot": "23",
       "Mariner Pot": "15",
-      "Olive Seed": "8"
+      "Olive Seed": "4"
     },
     "crops": {
       "1": {
@@ -5159,6 +5143,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "2": {
@@ -5175,6 +5163,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "3": {
@@ -5191,6 +5183,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "4": {
@@ -5207,6 +5203,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "5": {
@@ -5223,6 +5223,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "6": {
@@ -5239,6 +5243,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "7": {
@@ -5255,6 +5263,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "8": {
@@ -5271,6 +5283,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "9": {
@@ -5287,6 +5303,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "10": {
@@ -5303,6 +5323,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "11": {
@@ -5319,6 +5343,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "12": {
@@ -5335,6 +5363,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "13": {
@@ -5351,6 +5383,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "14": {
@@ -5367,6 +5403,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "15": {
@@ -5383,6 +5423,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "16": {
@@ -5399,6 +5443,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "17": {
@@ -5415,6 +5463,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "18": {
@@ -5431,6 +5483,10 @@
           "criticalHit": {
             "Green Amulet": 1
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "55728747": {
@@ -5447,6 +5503,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "0d94eb58": {
@@ -5463,6 +5523,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "1871dea7": {
@@ -5479,6 +5543,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "1be7a8ad": {
@@ -5495,6 +5563,10 @@
           "criticalHit": {
             "Green Amulet": 1
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "3580b504": {
@@ -5511,6 +5583,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "3ba0ba8d": {
@@ -5527,6 +5603,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "4b25ecbf": {
@@ -5543,6 +5623,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "4c94daf0": {
@@ -5559,6 +5643,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "55924cce": {
@@ -5575,6 +5663,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "6f1f4a38": {
@@ -5591,6 +5683,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "6f9167f1": {
@@ -5607,6 +5703,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "a295f366": {
@@ -5623,6 +5723,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "a7c097e1": {
@@ -5639,6 +5743,10 @@
           "criticalHit": {
             "Green Amulet": 1
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "ba6f0db5": {
@@ -5655,6 +5763,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "cdd3ed9d": {
@@ -5671,6 +5783,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "dca3a4b5": {
@@ -5687,6 +5803,10 @@
           "criticalHit": {
             "Green Amulet": 1
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "f10693df": {
@@ -5703,6 +5823,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "0d1b896f": {
@@ -5719,6 +5843,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "430d73bc": {
@@ -5735,6 +5863,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "7760db3d": {
@@ -5751,6 +5883,10 @@
           "criticalHit": {
             "Green Amulet": 1
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "bac1131d": {
@@ -5767,6 +5903,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "c44a290d": {
@@ -5783,6 +5923,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "dfa9158b": {
@@ -5799,6 +5943,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "2a0e7a37": {
@@ -5815,6 +5963,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "a69e218d": {
@@ -5831,6 +5983,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "afca210e": {
@@ -5847,6 +6003,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "b1ff304e": {
@@ -5863,6 +6023,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "f4f6cc83": {
@@ -5879,6 +6043,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "14be9f50": {
@@ -5895,6 +6063,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "16cd40bc": {
@@ -5911,6 +6083,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "224384c4": {
@@ -5927,6 +6103,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "5be7a88e": {
@@ -5943,6 +6123,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "611cfde4": {
@@ -5959,6 +6143,10 @@
           "criticalHit": {
             "Green Amulet": 1
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "74db76a8": {
@@ -5975,6 +6163,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "e19f5b12": {
@@ -5991,6 +6183,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "34b85d89": {
@@ -6007,6 +6203,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "51437be4": {
@@ -6023,6 +6223,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "81ee3fee": {
@@ -6039,6 +6243,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "27114ec0": {
@@ -6055,6 +6263,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "4ab538a1": {
@@ -6071,6 +6283,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "07bf5021": {
@@ -6087,6 +6303,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "a3bc239d": {
@@ -6103,6 +6323,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "f6593b9c": {
@@ -6119,6 +6343,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "3131682c": {
@@ -6135,6 +6363,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "53feca10": {
@@ -6151,6 +6383,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "449a1af1": {
@@ -6167,6 +6403,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       },
       "5be8ef1c": {
@@ -6183,6 +6423,10 @@
           "criticalHit": {
             "Green Amulet": 0
           }
+        },
+        "beeSwarm": {
+          "count": 1,
+          "swarmActivatedAt": 1769695915857
         }
       }
     },
@@ -6493,8 +6737,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769684196792,
-          "harvestedAt": 1769687952770,
-          "harvestsLeft": 4
+          "harvestedAt": 1769690168697,
+          "harvestsLeft": 3
         }
       },
       "9207026f": {
@@ -6523,8 +6767,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769684197313,
-          "harvestedAt": 1769687953072,
-          "harvestsLeft": 6
+          "harvestedAt": 1769690169011,
+          "harvestsLeft": 5
         }
       },
       "a2f18fe9": {
@@ -6655,8 +6899,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769684196298,
-          "harvestedAt": 1769687952413,
-          "harvestsLeft": 6
+          "harvestedAt": 1769690168196,
+          "harvestsLeft": 5
         }
       },
       "51a65554": {
@@ -6761,13 +7005,13 @@
         "height": 1,
         "width": 1,
         "honey": {
-          "updatedAt": 1769657620310,
+          "updatedAt": 1769695917697,
           "produced": 0
         },
         "flowers": [
           {
-            "attachedAt": 1769657620310,
-            "attachedUntil": 1769695185528,
+            "attachedAt": 1769695917697,
+            "attachedUntil": 1769705613686,
             "id": "460f8d66",
             "rate": 2.3000000000000003
           }
@@ -6780,32 +7024,32 @@
         "height": 1,
         "width": 1,
         "honey": {
-          "updatedAt": 1769657620310,
-          "produced": 5646.5
+          "updatedAt": 1769695917697,
+          "produced": 6313.500000000002
         },
         "flowers": [
           {
-            "attachedAt": 1769657617855,
-            "attachedUntil": 1769695183073,
+            "attachedAt": 1769695914952,
+            "attachedUntil": 1769705616627,
             "id": "d906b518",
             "rate": 2.3000000000000003
           }
         ]
       },
       "b531680d": {
-        "swarm": true,
+        "swarm": false,
         "x": 16,
         "y": 6,
         "height": 1,
         "width": 1,
         "honey": {
-          "updatedAt": 1769657620310,
-          "produced": 3056.7000000000003
+          "updatedAt": 1769695917697,
+          "produced": 4232.000000000001
         },
         "flowers": [
           {
-            "attachedAt": 1769657618981,
-            "attachedUntil": 1769695184199,
+            "attachedAt": 1769695915857,
+            "attachedUntil": 1769705610341,
             "id": "f761c4c0",
             "rate": 2.3000000000000003
           }
@@ -9434,8 +9678,8 @@
               "Sprout Mix": 16,
               "Earthworm": 4
             },
-            "startedAt": 1769684166719,
-            "readyAt": 1769694462719
+            "startedAt": 1769694775132,
+            "readyAt": 1769705071132
           },
           "boost": {
             "Egg": 20
@@ -9696,7 +9940,7 @@
             "y": -1
           },
           "readyAt": 1738220541829,
-          "oil": 35.99999999999997,
+          "oil": 34.66666666666663,
           "crafting": [
             {
               "name": "Sour Shake",
@@ -9706,7 +9950,7 @@
               "skills": {
                 "Double Nom": true
               },
-              "readyAt": 1769693731892
+              "readyAt": 1769696623592
             },
             {
               "name": "Sour Shake",
@@ -9716,7 +9960,7 @@
               "skills": {
                 "Double Nom": true
               },
-              "readyAt": 1769694454817
+              "readyAt": 1769697346517
             },
             {
               "name": "Sour Shake",
@@ -9726,7 +9970,7 @@
               "skills": {
                 "Double Nom": true
               },
-              "readyAt": 1769695177742
+              "readyAt": 1769698069442
             },
             {
               "name": "Sour Shake",
@@ -9736,7 +9980,7 @@
               "skills": {
                 "Double Nom": true
               },
-              "readyAt": 1769695900667
+              "readyAt": 1769698792367
             }
           ]
         }
@@ -14844,7 +15088,7 @@
       "Weakfish Bountied": 4,
       "Yellow Lavender Bountied": 4,
       "Timber Crafted": 253,
-      "Doll Crafted": 968,
+      "Doll Crafted": 969,
       "Gilded Doll Crafted": 73,
       "Gilded Doll Bountied": 12,
       "Crude Doll Crafted": 47,
@@ -14932,7 +15176,7 @@
       "Farm Helped": 738,
       "Gift Giver Reward Opened": 21,
       "Airdrop Reward Claimed": 92,
-      "Greenhouse Oiled": 272,
+      "Greenhouse Oiled": 273,
       "Marketplace Listing Created": 734,
       "General Store Restocked": 61,
       "Bulk Resources Purchased": 313609,
@@ -14979,13 +15223,13 @@
       "Bush Bought": 16,
       "Luminous Lantern Crafted": 10,
       "Rice Harvested": 3404,
-      "Compost Bin Collected": 3698,
+      "Compost Bin Collected": 3699,
       "Crimstone Pants Bought": 1,
       "Pirate Cake Dug": 24,
       "Club Sandwich Dug": 58,
       "Carrot Juice Cooked": 5153,
       "Bale Crafted": 1,
-      "Olive Seed Bought": 2127,
+      "Olive Seed Bought": 2131,
       "Bumpkin Salad Cooked": 891,
       "Banana Blast Cooked": 2091,
       "Orange Harvested": 23600,
@@ -15034,7 +15278,7 @@
       "Grubnash's Tombstone Bought": 1,
       "Rod Casted": 26323,
       "Cabbage Seed Bought": 136267,
-      "Olive Harvested": 2063,
+      "Olive Harvested": 2067,
       "Soybean Planted": 76039,
       "Grape Planted": 1510,
       "Iron Mined": 32820,
@@ -15142,7 +15386,7 @@
       "Egg Collected": 30884,
       "Banana Plant Bought": 102,
       "Green Field Rug Bought": 1,
-      "Honey Harvested": 9474.782405517177,
+      "Honey Harvested": 9482.132405636274,
       "Pearl Dug": 8,
       "Sunflower Crunch Dug": 78,
       "Sea Cucumber Dug": 163,
@@ -15245,7 +15489,7 @@
       "Olive Royalty Shirt Bought": 1,
       "Beetroot Cake Fed": 70,
       "Fermented Carrots Cooked": 748,
-      "Olive Planted": 2067,
+      "Olive Planted": 2071,
       "Chicken Bought": 789,
       "Beetroot Cake Cooked": 256,
       "Coral Sold": 38,
@@ -15333,7 +15577,7 @@
       "Lemon Seed Bought": 5082,
       "Lemon Seed Planted": 5076,
       "Tomato Seed Planted": 7565,
-      "Tomato Harvested": 43422,
+      "Tomato Harvested": 43425,
       "Lemon Harvested": 29159,
       "Goblin Pants Bought": 1,
       "Pancakes Fed": 946,
@@ -15417,7 +15661,7 @@
       "NutriBarley Mixed": 5007,
       "Treasure Key Bought": 6,
       "Mixed Grain Mixed": 5141,
-      "Sour Shake Cooked": 6497,
+      "Sour Shake Cooked": 6501,
       "Cheese Cooked": 18877,
       "Honey Cheddar Cooked": 239,
       "Pizza Margherita Cooked": 1675,
@@ -18212,7 +18456,7 @@
           "petXP": 12150,
           "score": 3443,
           "collectivePet": {
-            "totalXP": 4155455,
+            "totalXP": 4161675,
             "goalXP": 10263180,
             "goalReached": false,
             "streak": 10,
@@ -20307,8 +20551,8 @@
     },
     "craftingBox": {
       "status": "crafting",
-      "startedAt": 1769693704740,
-      "readyAt": 1769695729740,
+      "startedAt": 1769695928249,
+      "readyAt": 1769697953249,
       "recipes": {},
       "item": {
         "collectible": "Doll"
@@ -20667,22 +20911,22 @@
       }
     },
     "boostsUsedAt": {
-      "Luna's Hat": 1769693710721,
-      "Goblin Medallion": 1769693710721,
-      "Desert Gnome": 1769693710721,
-      "Bud #2197": 1769693695072,
-      "Camel Onesie": 1769693695072,
-      "Cannonball": 1769693695072,
-      "Catchup": 1769693695072,
+      "Luna's Hat": 1769695931368,
+      "Goblin Medallion": 1769695931368,
+      "Desert Gnome": 1769695931368,
+      "Bud #2197": 1769695911011,
+      "Camel Onesie": 1769695911011,
+      "Cannonball": 1769695911011,
+      "Catchup": 1769695911011,
       "Foreman Beaver": 1769693699663,
-      "Fruitful Fumble": 1769693695072,
-      "Generous Orchard": 1769693695072,
-      "Goblin Quiver": 1769693695072,
-      "Loyal Macaw": 1769693695072,
-      "Macaw": 1769693695072,
+      "Fruitful Fumble": 1769695911011,
+      "Generous Orchard": 1769695911011,
+      "Goblin Quiver": 1769695911011,
+      "Loyal Macaw": 1769695911011,
+      "Macaw": 1769695911011,
       "Spring Guardian": 1768780374432,
-      "Tomato Bombard": 1769693695072,
-      "Tomato Clown": 1769693695072,
+      "Tomato Bombard": 1769695911011,
+      "Tomato Clown": 1769695911011,
       "Butterfly": 1769303514292,
       "Humming Bird": 1769649616318,
       "Petalled Perk": 1769619574865,
@@ -20690,7 +20934,7 @@
       "Flower Crown": 1769649629427,
       "Flower Fox": 1769649629427,
       "Frosted Cakes": 1769684207743,
-      "Kuebiko": 1769689943473,
+      "Kuebiko": 1769694797359,
       "Fast Feasts": 1769693710721,
       "Bud #1707": 1769693699663,
       "Goblin Shield": 1769693699663,
@@ -20709,13 +20953,13 @@
       "Stone Beetle": 1769693693482,
       "Tin Turtle": 1769693693482,
       "Tunnel Mole": 1769693693482,
-      "Efficient Bin": 1769684166719,
-      "Soil Krabby": 1769684166719,
-      "Swift Decomposer": 1769684166719,
-      "Bee Suit": 1769657620310,
-      "Honeycomb Shield": 1769657620310,
-      "King of Bears": 1769657620310,
-      "Sweet Bonus": 1769657620310,
+      "Efficient Bin": 1769694775132,
+      "Soil Krabby": 1769694775132,
+      "Swift Decomposer": 1769694775132,
+      "Bee Suit": 1769695917697,
+      "Honeycomb Shield": 1769695917697,
+      "King of Bears": 1769695917697,
+      "Sweet Bonus": 1769695917697,
       "Iron Beetle": 1769681429831,
       "Iron Bumpkin": 1769681429831,
       "Iron Hustle": 1769681429831,
@@ -20727,30 +20971,30 @@
       "Turbo Charged": 1769684163002,
       "Medic Apron": 1753828893028,
       "Blossom Ward": 1768780374432,
-      "Bud #1854": 1769677738921,
-      "Bud #801": 1769677739083,
-      "Coder": 1769677738921,
+      "Bud #1854": 1769694779129,
+      "Bud #801": 1769694784202,
+      "Coder": 1769694779129,
       "Corn Onesie": 1768780374432,
       "Green Amulet": 1769677738653,
       "Green Thumb": 1769677739083,
-      "Infernal Pitchfork": 1769677738921,
+      "Infernal Pitchfork": 1769694779129,
       "Laurie the Chuckle Crow": 1769677606198,
       "Laurie's Gains": 1769677606198,
-      "Lunar Calendar": 1769677739083,
+      "Lunar Calendar": 1769694784202,
       "Old Farmer": 1769677606198,
       "Pollen Power Up": 1769579466096,
       "Poppy": 1768780374432,
       "Queen Cornelia": 1768780347460,
-      "Seed Specialist": 1769677739083,
+      "Seed Specialist": 1769694784202,
       "Sir Goldensnout": 1769677586679,
       "Gnome": 1769677601217,
-      "Glass Room": 1769669803967,
+      "Glass Room": 1769694779129,
       "Hoot": 1769677606198,
-      "Olive Express": 1769669809854,
-      "Pharaoh Gnome": 1769669803967,
+      "Olive Express": 1769694784202,
+      "Pharaoh Gnome": 1769694779129,
       "Rice Panda": 1769330255755,
-      "Rice and Shine": 1769669809854,
-      "Turbo Sprout": 1769669809854,
+      "Rice and Shine": 1769694784202,
+      "Turbo Sprout": 1769694784202,
       "Abundant Harvest": 1769693723311,
       "Bale": 1769693723311,
       "Bale Economy": 1769693723311,
@@ -20783,7 +21027,7 @@
       "Oil Be Back": 1769677639302,
       "Oil Can": 1769677639302,
       "Oil Overalls": 1769677639302,
-      "Sol & Luna": 1769693704740,
+      "Sol & Luna": 1769695928249,
       "Cowbell Necklace": 1769666235594,
       "Longhorn Cowfish": 1769666235594,
       "Mammoth": 1769666235594,
@@ -20804,8 +21048,8 @@
       "Rich Chicken": 1769684197364,
       "Speed Chicken": 1769684197364,
       "Undead Rooster": 1769684197364,
-      "Olive Royalty Shirt": 1769572738550,
-      "Olive Shield": 1769572738550,
+      "Olive Royalty Shirt": 1769694779129,
+      "Olive Shield": 1769694779129,
       "Vine Velocity": 1769657484943,
       "Obsidian Turtle": 1769644660484,
       "Obsidian Necklace": 1769644662605,
@@ -20847,7 +21091,7 @@
       "Angler Waders": 1769646132413,
       "Fisherman's 10 Fold": 1769646132413,
       "Fisherman's 5 Fold": 1769646132413,
-      "More With Less": 1769684166719,
+      "More With Less": 1769694775132,
       "Pink Dolphin": 1768706586792,
       "Walrus": 1769646132413,
       "Bud #410": 1769644953248,
@@ -20858,7 +21102,7 @@
       "Paw Shield": 1769386204892,
       "Giant Kale": 1768594862803,
       "Solflare Aegis": 1769385116821,
-      "Turd Topper": 1769684166719,
+      "Turd Topper": 1769694775132,
       "Giant Zucchini": 1769231666437,
       "Summer Chicken": 1769372100096,
       "Peeled Potato": 1769669765911,
@@ -20872,7 +21116,7 @@
       "Purple Trail": 1769382983878,
       "Alba": 1769558554059,
       "Fishy Chance": 1769474562246,
-      "Fruit Tune Box": 1769693695072,
+      "Fruit Tune Box": 1769695911011,
       "Lab Grown Radish": 1769375295156,
       "Radical Radish": 1769375292839,
       "Desert Rose": 1769303514292,
@@ -20927,20 +21171,20 @@
       "Giant Artichoke": 1769675602622,
       "Reelmaster's Chair": 1769646132413,
       "Black Bearry": 1768846432139,
-      "Architect Ruler": 1769693704740,
-      "Bucket O' Worms": 1769684166719,
-      "Wormy Treat": 1769684166719,
+      "Architect Ruler": 1769695928249,
+      "Bucket O' Worms": 1769694775132,
+      "Wormy Treat": 1769694775132,
       "Luminous Anglerfish Topper": 1769627101035,
       "Gilded Swordfish": 1769659331758,
-      "Saw Fish": 1769684166719,
+      "Saw Fish": 1769694775132,
       "Collie Shrine": 1769693723311,
-      "Tortoise Shrine": 1769685034447,
+      "Tortoise Shrine": 1769694784202,
       "Mole Shrine": 1769681429831,
       "Training Whistle": 1769666235594,
-      "Master Chef's Cleaver": 1769693710721,
-      "Toucan Shrine": 1769693695072,
+      "Master Chef's Cleaver": 1769695931368,
+      "Toucan Shrine": 1769695911011,
       "Sparrow Shrine": 1769677739083,
-      "Fox Shrine": 1769693704740,
+      "Fox Shrine": 1769695928249,
       "Harvest Hourglass": 1768729159098,
       "Time Warp Totem": 1768099937709,
       "Super Star": 1768091859802,
@@ -20948,7 +21192,7 @@
       "Sleepy Chicken": 1769632248556,
       "Tree Turnaround": 1769686706212,
       "Experienced Farmer": 1769677738921,
-      "Greenhouse Gamble": 1769644569790,
+      "Greenhouse Gamble": 1769694778717,
       "Young Farmer": 1769669781894,
       "Squirrel Onesie": 1769627257030,
       "Fire Kissed": 1769578601219,
@@ -21184,7 +21428,7 @@
         },
         "Twizzle": {
           "name": "Twizzle",
-          "experience": 126437,
+          "experience": 126447,
           "energy": 530,
           "requests": {
             "food": [
@@ -21199,7 +21443,7 @@
               "Spaghetti al Limone"
             ]
           },
-          "pettedAt": 1769688044727,
+          "pettedAt": 1769695912034,
           "fetches": {
             "Acorn": 106,
             "Heart leaf": 121
@@ -21233,7 +21477,7 @@
         },
         "Nibbles": {
           "name": "Nibbles",
-          "experience": 126057,
+          "experience": 126067,
           "energy": 545,
           "requests": {
             "food": [
@@ -21248,7 +21492,7 @@
               "Cauliflower Cake"
             ]
           },
-          "pettedAt": 1769688045169,
+          "pettedAt": 1769695913169,
           "dailySocialXP": {
             "2026-01-29": 30
           },
@@ -21260,7 +21504,7 @@
         },
         "Biscuit": {
           "name": "Biscuit",
-          "experience": 39720,
+          "experience": 39730,
           "energy": 21450,
           "requests": {
             "food": [
@@ -21275,7 +21519,7 @@
               "Blue Cheese"
             ]
           },
-          "pettedAt": 1769688045510,
+          "pettedAt": 1769695913473,
           "dailySocialXP": {
             "2026-01-29": 30
           }
@@ -21310,7 +21554,7 @@
         "65": {
           "id": 65,
           "name": "Pet #65",
-          "experience": 183982,
+          "experience": 183992,
           "energy": 276355,
           "requests": {
             "food": [
@@ -21331,7 +21575,7 @@
               "2026-01-29": 2
             }
           },
-          "pettedAt": 1769688047249,
+          "pettedAt": 1769695919514,
           "traits": {
             "type": "Phoenix",
             "fur": "Ghost-Teal",
@@ -21352,7 +21596,7 @@
         "141": {
           "id": 141,
           "name": "Pet #141",
-          "experience": 128815,
+          "experience": 128825,
           "energy": 55655,
           "requests": {
             "food": [
@@ -21370,7 +21614,7 @@
               "Spaghetti al Limone"
             ]
           },
-          "pettedAt": 1769688047573,
+          "pettedAt": 1769695922926,
           "traits": {
             "type": "Ram",
             "fur": "Cream",
@@ -21395,7 +21639,7 @@
         "475": {
           "id": 475,
           "name": "Pet #475",
-          "experience": 128167,
+          "experience": 128177,
           "energy": 34860,
           "requests": {
             "food": [
@@ -21413,7 +21657,7 @@
               "Beetroot Cake"
             ]
           },
-          "pettedAt": 1769688046846,
+          "pettedAt": 1769695922629,
           "traits": {
             "type": "Griffin",
             "fur": "Dark-Green",
@@ -21437,7 +21681,7 @@
         "628": {
           "name": "Pet #628",
           "id": 628,
-          "experience": 126977,
+          "experience": 126987,
           "energy": 1315,
           "requests": {
             "food": [
@@ -21455,7 +21699,7 @@
               "Goblin Brunch"
             ]
           },
-          "pettedAt": 1769688046209,
+          "pettedAt": 1769695921476,
           "traits": {
             "type": "Bear",
             "fur": "Brown",
@@ -21482,7 +21726,7 @@
         "682": {
           "name": "Pet #682",
           "id": 682,
-          "experience": 128472,
+          "experience": 128482,
           "energy": 26075,
           "requests": {
             "food": [
@@ -21500,7 +21744,7 @@
               "Steamed Red Rice"
             ]
           },
-          "pettedAt": 1769688047809,
+          "pettedAt": 1769695922343,
           "traits": {
             "type": "Warthog",
             "fur": "Grey",
@@ -21548,7 +21792,7 @@
         "826": {
           "name": "Pet #826",
           "id": 826,
-          "experience": 156232,
+          "experience": 156242,
           "energy": 156815,
           "requests": {
             "food": [
@@ -21569,7 +21813,7 @@
               "2026-01-29": 1
             }
           },
-          "pettedAt": 1769688048212,
+          "pettedAt": 1769695923503,
           "traits": {
             "type": "Wolf",
             "fur": "Dark-Green",
@@ -21589,7 +21833,7 @@
         "866": {
           "name": "Pet #866",
           "id": 866,
-          "experience": 131085,
+          "experience": 131095,
           "energy": 18815,
           "requests": {
             "food": [
@@ -21607,7 +21851,7 @@
               "Wheat Cake"
             ]
           },
-          "pettedAt": 1769688046522,
+          "pettedAt": 1769695919789,
           "traits": {
             "type": "Dragon",
             "fur": "Dark-Green",

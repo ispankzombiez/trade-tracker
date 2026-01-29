@@ -7,9 +7,9 @@
     "earned_sfl": 1120.18,
     "earned_coins": 281123.0,
     "spent_sfl": 0.0,
-    "items_sold": 2787.0,
+    "items_sold": 2791.0,
     "trade_points": 252976.67,
-    "last_updated": "2026-01-29 01:52 PM",
+    "last_updated": "2026-01-29 02:17 PM",
     "active_listings": 17
   },
   "buys": [
@@ -195,6 +195,42 @@
     }
   ],
   "sells": [
+    {
+      "date": "2026-01-29",
+      "time": "02:14 PM",
+      "type": "SELL",
+      "item": "Iron",
+      "quantity": 100,
+      "price_text": "6.4 SFL",
+      "price": 6.4,
+      "counterparty": "Cristaline",
+      "farm_id": "-",
+      "trade_id": "32693e08"
+    },
+    {
+      "date": "2026-01-29",
+      "time": "02:12 PM",
+      "type": "SELL",
+      "item": "Gold",
+      "quantity": 25,
+      "price_text": "6.06 SFL",
+      "price": 6.06,
+      "counterparty": "FriendlyNic",
+      "farm_id": "-",
+      "trade_id": "1ec455ef"
+    },
+    {
+      "date": "2026-01-29",
+      "time": "01:52 PM",
+      "type": "SELL",
+      "item": "Iron",
+      "quantity": 100,
+      "price_text": "6.4 SFL",
+      "price": 6.4,
+      "counterparty": "Pace25",
+      "farm_id": "-",
+      "trade_id": "28db3316"
+    },
     {
       "date": "2026-01-29",
       "time": "01:49 PM",
@@ -691,12 +727,12 @@
   "last_updated": null,
   "stats": {
     "total_buys": 15,
-    "total_sells": 41,
+    "total_sells": 44,
     "buy_volume": 183.57920000000001,
-    "sell_volume": 317.43000000000006,
-    "gross_profit": 133.85080000000005,
+    "sell_volume": 336.2900000000001,
+    "gross_profit": 152.71080000000006,
     "avg_buy_price": 12.238613333333335,
-    "avg_sell_price": 7.742195121951221,
+    "avg_sell_price": 7.642954545454547,
     "most_traded_items": {},
     "recent_activity": [
       {
@@ -826,6 +862,30 @@
       },
       {
         "type": "SELL",
+        "item": "Iron",
+        "quantity": 100,
+        "price": 6.4,
+        "date": "2026-01-29",
+        "time": "02:14 PM"
+      },
+      {
+        "type": "SELL",
+        "item": "Gold",
+        "quantity": 25,
+        "price": 6.06,
+        "date": "2026-01-29",
+        "time": "02:12 PM"
+      },
+      {
+        "type": "SELL",
+        "item": "Iron",
+        "quantity": 100,
+        "price": 6.4,
+        "date": "2026-01-29",
+        "time": "01:52 PM"
+      },
+      {
+        "type": "SELL",
         "item": "Stone",
         "quantity": 200,
         "price": 3.17,
@@ -839,33 +899,9 @@
         "price": 4.49,
         "date": "2026-01-29",
         "time": "01:48 PM"
-      },
-      {
-        "type": "SELL",
-        "item": "Crimstone",
-        "quantity": 20,
-        "price": 10.63,
-        "date": "2026-01-29",
-        "time": "01:47 PM"
-      },
-      {
-        "type": "SELL",
-        "item": "Leather",
-        "quantity": 100,
-        "price": 11.97,
-        "date": "2026-01-29",
-        "time": "01:46 PM"
-      },
-      {
-        "type": "SELL",
-        "item": "Milk",
-        "quantity": 100,
-        "price": 12.49,
-        "date": "2026-01-29",
-        "time": "01:46 PM"
       }
     ],
-    "profit_margin": 72.91174599301013,
+    "profit_margin": 83.18524102948484,
     "most_bought_items": {
       "Blueberry": 300,
       "Obsidian": 9,
@@ -882,8 +918,8 @@
       "Carrot": 2000,
       "Leather": 1000,
       "Milk": 900,
-      "Stone": 200,
-      "Olive": 50
+      "Iron": 200,
+      "Stone": 200
     }
   }
 }
