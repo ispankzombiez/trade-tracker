@@ -580,6 +580,7 @@
         let currentTab = 'overview';
 
         function switchTab(tabName) {
+            console.log('switchTab called with:', tabName);
             currentTab = tabName;
             
             // Update tab button states
@@ -588,12 +589,14 @@
             });
             
             if (tabName === 'overview') {
+                console.log('Showing overview tab');
                 // Show general stats, hide user details
                 document.getElementById('generalStats').classList.remove('hidden');
                 document.getElementById('userDetails').style.display = 'none';
                 document.getElementById('detailedTrades').style.display = 'none';
                 currentUser = null;
             } else {
+                console.log('Showing user tab for:', tabName);
                 // Hide general stats, show user details for the selected trader
                 document.getElementById('generalStats').classList.add('hidden');
                 selectUser(tabName);
@@ -735,13 +738,48 @@
         }
 
         function updateUserDetails(userData) {
+            console.log('updateUserDetails called with:', userData);
+            
+            if (!userData || !userData.username) {
+                console.error('Invalid user data:', userData);
+                return;
+            }
+            
             console.log('Updating user details for:', userData.username);
-            document.getElementById('userDetailsTitle').textContent = `📈 ${userData.username} Statistics`;
-            document.getElementById('userDetails').style.display = 'block';
+            
+            // Set the title
+            const titleElement = document.getElementById('userDetailsTitle');
+            if (titleElement) {
+                titleElement.textContent = `📈 ${userData.username} Statistics`;
+                console.log('Updated title to:', titleElement.textContent);
+            } else {
+                console.error('userDetailsTitle element not found!');
+            }
+            
+            // Show the user details section
+            const userDetailsElement = document.getElementById('userDetails');
+            if (userDetailsElement) {
+                userDetailsElement.style.display = 'block';
+                console.log('userDetails display set to block');
+            } else {
+                console.error('userDetails element not found!');
+            }
             
             // Make sure we show the user details and hide general stats when on a user tab
             if (currentTab !== 'overview') {
-                document.getElementById('generalStats').classList.add('hidden');
+                const generalStatsElement = document.getElementById('generalStats');
+                if (generalStatsElement) {
+                    generalStatsElement.classList.add('hidden');
+                    console.log('Hidden general stats');
+                } else {
+                    console.error('generalStats element not found!');
+                }
+            }
+
+            // Check if overview data exists
+            if (!userData.overview) {
+                console.error('No overview data found in user data:', userData);
+                return;
             }
 
             // Update user stats
@@ -750,7 +788,9 @@
             const profitSign = stats.earned_sfl >= 0 ? '+' : '';
 
             console.log('User stats:', stats);
-            document.getElementById('userStats').innerHTML = `
+            const userStatsElement = document.getElementById('userStats');
+            if (userStatsElement) {
+                userStatsElement.innerHTML = `
                 <div class="stat-item ${profitClass}">
                     <span class="stat-value">${profitSign}${stats.earned_sfl.toFixed(2)}</span>
                     <span class="stat-label">Earned SFL</span>
@@ -775,7 +815,11 @@
                     <span class="stat-value">${stats.active_listings}</span>
                     <span class="stat-label">Active Listings</span>
                 </div>
-            `;
+                `;
+                console.log('User stats HTML updated successfully');
+            } else {
+                console.error('userStats element not found!');
+            }
 
             // Update recent activity (combine buys and sells, sort by date)
             const recentContainer = document.getElementById('userRecentActivity');
@@ -846,6 +890,8 @@
             
             // Update detailed buy/sell columns
             updateDetailedTrades();
+            
+            console.log('updateUserDetails completed successfully');
         }
 
         let currentTimeframe = 'day';
