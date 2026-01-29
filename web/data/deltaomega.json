@@ -1,18 +1,30 @@
 {
   "username": "deltaomega",
   "overview": {
-    "balance": 34.12,
-    "coins": 1817.0,
+    "balance": 35.99,
+    "coins": 281.0,
     "gems": 0.0,
     "earned_sfl": 20919.85,
-    "earned_coins": 1817.0,
+    "earned_coins": 281.0,
     "spent_sfl": 14782.16,
     "items_sold": 3465.0,
     "trade_points": 13902.85,
-    "last_updated": "2026-01-29 07:46 PM",
+    "last_updated": "2026-01-29 07:58 PM",
     "active_listings": 0
   },
   "buys": [
+    {
+      "date": "2026-01-29",
+      "time": "07:49 PM",
+      "type": "BUY",
+      "item": "Feather",
+      "quantity": 100,
+      "price_text": "0.5396 SFL",
+      "price": 0.5396,
+      "counterparty": "MrRibeiro",
+      "farm_id": "-",
+      "trade_id": "9f26d530"
+    },
     {
       "date": "2026-01-29",
       "time": "07:42 PM",
@@ -401,6 +413,18 @@
   "sells": [
     {
       "date": "2026-01-29",
+      "time": "07:49 PM",
+      "type": "SELL",
+      "item": "Crimstone",
+      "quantity": 5,
+      "price_text": "2.6001 SFL",
+      "price": 2.6001,
+      "counterparty": "Rayon1",
+      "farm_id": "-",
+      "trade_id": "6eaaf6cb"
+    },
+    {
+      "date": "2026-01-29",
       "time": "04:50 PM",
       "type": "SELL",
       "item": "Barley",
@@ -714,15 +738,24 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 32,
-    "total_sells": 26,
-    "buy_volume": 32.6205,
-    "sell_volume": 52.9356,
-    "gross_profit": 20.3151,
-    "avg_buy_price": 1.019390625,
-    "avg_sell_price": 2.0359846153846153,
+    "total_buys": 33,
+    "total_sells": 27,
+    "buy_volume": 33.1601,
+    "sell_volume": 55.5357,
+    "gross_profit": 22.3756,
+    "avg_buy_price": 1.0048515151515152,
+    "avg_sell_price": 2.056877777777778,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Feather",
+        "quantity": 100,
+        "price": 0.5396,
+        "date": "2026-01-29",
+        "time": "07:49 PM",
+        "username": "deltaomega"
+      },
       {
         "type": "BUY",
         "item": "Cauliflower",
@@ -765,8 +798,7 @@
         "quantity": 134,
         "price": 0.7637,
         "date": "2026-01-28",
-        "time": "03:44 PM",
-        "username": "deltaomega"
+        "time": "03:44 PM"
       },
       {
         "type": "BUY",
@@ -879,19 +911,11 @@
         "price": 2.3878,
         "date": "2026-01-27",
         "time": "03:25 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Stone",
-        "quantity": 10,
-        "price": 0.159,
-        "date": "2026-01-27",
-        "time": "03:25 PM"
       }
     ],
-    "profit_margin": 62.27709569135973,
+    "profit_margin": 67.4774804659817,
     "most_bought_items": {
-      "Feather": 279,
+      "Feather": 379,
       "Yam": 223,
       "Corn": 200,
       "Soybean": 200,
@@ -906,6 +930,7 @@
       "Barley": 1760,
       "Iron": 55,
       "Gold": 16,
+      "Crimstone": 5,
       "Ribbon": 4,
       "Chewed Bone": 4,
       "Dewberry": 3,

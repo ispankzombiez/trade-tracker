@@ -518,7 +518,7 @@
       "Starfish": "1637",
       "Seaweed": "315",
       "Sea Cucumber": "1971",
-      "Crab": "4289",
+      "Crab": "4286",
       "Warty Goblin Pumpkin": "29",
       "White Carrot": "40",
       "Anchovy": "4323",
@@ -529,9 +529,9 @@
       "Sea Horse": "598",
       "Horse Mackerel": "64",
       "Squid": "85",
-      "Red Snapper": "3143",
-      "Moray Eel": "2354",
-      "Napoleanfish": "529",
+      "Red Snapper": "3161",
+      "Moray Eel": "2360",
+      "Napoleanfish": "535",
       "Surgeonfish": "309",
       "Zebra Turkeyfish": "256",
       "Ray": "31",
@@ -943,7 +943,7 @@
       "Heart leaf": "10",
       "Ruffroot": "10",
       "Crab Stick": "6",
-      "Barnacle": "18",
+      "Barnacle": "12",
       "Soybean Seed": "457",
       "Wild Grass": "10",
       "Spaghetti al Limone": "25",
@@ -951,14 +951,14 @@
       "Sour Shake": "218",
       "Fermented Fish": "4",
       "Big Orange": "1",
-      "Lobster": "18",
+      "Lobster": "12",
       "Pizza Margherita": "13",
       "Blue Cheese": "13",
       "Big Apple": "1",
       "Barley Seed": "2",
       "Fancy Fries": "6",
       "Lemon Cheesecake": "2",
-      "Shrimp": "24"
+      "Shrimp": "18"
     },
     "previousInventory": {
       "Carrot Seed": "507",
@@ -9764,33 +9764,36 @@
               }
             },
             {
-              "name": "Fish Stick",
-              "readyAt": 1769727604262,
+              "name": "Crab Stick",
+              "readyAt": 1769734804262,
               "startedAt": 1769720404262,
               "requirements": {
-                "Moray Eel": "2",
-                "Napoleanfish": "2",
-                "Red Snapper": "6"
+                "Barnacle": "2",
+                "Crab": "1",
+                "Lobster": "2",
+                "Shrimp": "2"
               }
             },
             {
-              "name": "Fish Stick",
-              "readyAt": 1769734804262,
-              "startedAt": 1769727604262,
-              "requirements": {
-                "Moray Eel": "2",
-                "Napoleanfish": "2",
-                "Red Snapper": "6"
-              }
-            },
-            {
-              "name": "Fish Stick",
-              "readyAt": 1769742004262,
+              "name": "Crab Stick",
+              "readyAt": 1769749204262,
               "startedAt": 1769734804262,
               "requirements": {
-                "Moray Eel": "2",
-                "Napoleanfish": "2",
-                "Red Snapper": "6"
+                "Barnacle": "2",
+                "Crab": "1",
+                "Lobster": "2",
+                "Shrimp": "2"
+              }
+            },
+            {
+              "name": "Crab Stick",
+              "readyAt": 1769763604262,
+              "startedAt": 1769749204262,
+              "requirements": {
+                "Barnacle": "2",
+                "Crab": "1",
+                "Lobster": "2",
+                "Shrimp": "2"
               }
             }
           ]
