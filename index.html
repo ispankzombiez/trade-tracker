@@ -788,15 +788,25 @@
             // Show the user details section
             const userDetailsElement = document.getElementById('userDetails');
             if (userDetailsElement) {
-                userDetailsElement.style.display = 'block';
-                userDetailsElement.style.backgroundColor = 'red'; // Make it very visible
-                userDetailsElement.style.border = '5px solid yellow'; // Make it very visible
-                userDetailsElement.style.padding = '20px';
-                userDetailsElement.style.margin = '20px 0';
-                userDetailsElement.style.minHeight = '500px'; // Force minimum height
-                userDetailsElement.style.height = 'auto'; // Allow content to determine height
-                userDetailsElement.style.overflow = 'visible'; // Make sure content isn't hidden
-                debugLog('userDetails display set to block with visible styling');
+                userDetailsElement.style.cssText = `
+                    display: block !important;
+                    background-color: red !important;
+                    border: 5px solid yellow !important;
+                    padding: 20px !important;
+                    margin: 20px 0 !important;
+                    min-height: 500px !important;
+                    height: auto !important;
+                    overflow: visible !important;
+                    position: relative !important;
+                `;
+                
+                // Add some test text directly to the element
+                const testDiv = document.createElement('div');
+                testDiv.innerHTML = '<h2>TEST CONTENT - If you see this, the element is working!</h2>';
+                testDiv.style.cssText = 'background: white; color: black; padding: 20px; font-size: 20px; border: 3px solid black;';
+                userDetailsElement.appendChild(testDiv);
+                
+                debugLog('userDetails forced styling applied with !important');
                 debugLog('userDetails computed style: ' + window.getComputedStyle(userDetailsElement).display);
                 debugLog('userDetails visibility: ' + window.getComputedStyle(userDetailsElement).visibility);
                 debugLog('userDetails height: ' + userDetailsElement.offsetHeight + 'px');
@@ -804,9 +814,14 @@
                 // Also check if the grid inside has content
                 const gridElement = userDetailsElement.querySelector('.dashboard-grid');
                 if (gridElement) {
-                    gridElement.style.backgroundColor = 'orange';
-                    gridElement.style.border = '2px solid purple';
-                    gridElement.style.minHeight = '400px';
+                    gridElement.style.cssText = `
+                        background-color: orange !important;
+                        border: 2px solid purple !important;
+                        min-height: 400px !important;
+                        display: grid !important;
+                        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
+                        gap: 20px !important;
+                    `;
                     debugLog('Found dashboard-grid inside userDetails, height: ' + gridElement.offsetHeight + 'px');
                 } else {
                     debugLog('ERROR: No dashboard-grid found inside userDetails');
