@@ -718,10 +718,7 @@
         async function selectUser(username) {
             currentUser = username;
             
-            // Update button states
-            document.querySelectorAll('.user-btn').forEach(btn => {
-                btn.classList.toggle('active', btn.textContent === username);
-            });
+            console.log('Selecting user:', username);
 
             try {
                 const response = await fetch(`./data/${username}.json`);
@@ -729,53 +726,67 @@
                     throw new Error('Failed to load user data');
                 }
                 const userData = await response.json();
+                console.log('User data loaded:', userData);
                 updateUserDetails(userData);
             } catch (error) {
                 console.error('Error loading user data:', error);
-                alert('Error loading user data');
+                alert(`Error loading user data for ${username}: ${error.message}`);
             }
         }
 
         function updateUserDetails(userData) {
+            console.log('Updating user details for:', userData.username);
             document.getElementById('userDetailsTitle').textContent = `📈 ${userData.username} Statistics`;
             document.getElementById('userDetails').style.display = 'block';
+            
+            // Make sure we show the user details and hide general stats when on a user tab
+            if (currentTab !== 'overview') {
+                document.getElementById('generalStats').classList.add('hidden');
+            }
 
             // Update user stats
-            const stats = userData.stats;
-            const profitClass = stats.gross_profit >= 0 ? 'profit-positive' : 'profit-negative';
-            const profitSign = stats.gross_profit >= 0 ? '+' : '';
+            const stats = userData.overview; // Changed from userData.stats to userData.overview
+            const profitClass = stats.earned_sfl >= 0 ? 'profit-positive' : 'profit-negative';
+            const profitSign = stats.earned_sfl >= 0 ? '+' : '';
 
+            console.log('User stats:', stats);
             document.getElementById('userStats').innerHTML = `
                 <div class="stat-item ${profitClass}">
-                    <span class="stat-value">${profitSign}${stats.gross_profit.toFixed(2)}</span>
-                    <span class="stat-label">Gross Profit (SFL)</span>
+                    <span class="stat-value">${profitSign}${stats.earned_sfl.toFixed(2)}</span>
+                    <span class="stat-label">Earned SFL</span>
                 </div>
                 <div class="stat-item">
-                    <span class="stat-value">${stats.profit_margin.toFixed(1)}%</span>
-                    <span class="stat-label">Profit Margin</span>
+                    <span class="stat-value">${stats.balance.toFixed(2)}</span>
+                    <span class="stat-label">Current Balance (SFL)</span>
                 </div>
                 <div class="stat-item">
-                    <span class="stat-value">${stats.total_buys}</span>
-                    <span class="stat-label">Total Buys</span>
+                    <span class="stat-value">${stats.coins.toFixed(0)}</span>
+                    <span class="stat-label">Total Coins</span>
                 </div>
                 <div class="stat-item">
-                    <span class="stat-value">${stats.total_sells}</span>
-                    <span class="stat-label">Total Sells</span>
+                    <span class="stat-value">${stats.items_sold.toFixed(0)}</span>
+                    <span class="stat-label">Items Sold</span>
                 </div>
                 <div class="stat-item">
-                    <span class="stat-value">${stats.buy_volume.toFixed(2)}</span>
-                    <span class="stat-label">Buy Volume (SFL)</span>
+                    <span class="stat-value">${stats.trade_points.toFixed(2)}</span>
+                    <span class="stat-label">Trade Points</span>
                 </div>
                 <div class="stat-item">
-                    <span class="stat-value">${stats.sell_volume.toFixed(2)}</span>
-                    <span class="stat-label">Sell Volume (SFL)</span>
+                    <span class="stat-value">${stats.active_listings}</span>
+                    <span class="stat-label">Active Listings</span>
                 </div>
             `;
 
-            // Update recent activity
+            // Update recent activity (combine buys and sells, sort by date)
             const recentContainer = document.getElementById('userRecentActivity');
             recentContainer.innerHTML = '';
-            stats.recent_activity.forEach(activity => {
+            
+            const allTrades = [...(userData.buys || []), ...(userData.sells || [])];
+            const recentTrades = allTrades
+                .sort((a, b) => new Date(b.date + ' ' + b.time) - new Date(a.date + ' ' + a.time))
+                .slice(0, 20);
+            
+            recentTrades.forEach(activity => {
                 const activityElement = document.createElement('div');
                 activityElement.className = 'activity-item';
                 
@@ -796,20 +807,34 @@
             // Update most bought items
             const boughtContainer = document.getElementById('userMostBought');
             boughtContainer.innerHTML = '';
-            Object.entries(stats.most_bought_items || {}).slice(0, 10).forEach(([item, quantity]) => {
-                const itemElement = document.createElement('div');
-                itemElement.className = 'activity-item';
-                itemElement.innerHTML = `
-                    <div><strong>${item}</strong></div>
-                    <div class="profit-amount">${quantity} bought</div>
-                `;
-                boughtContainer.appendChild(itemElement);
+            const boughtItems = {};
+            (userData.buys || []).forEach(buy => {
+                boughtItems[buy.item] = (boughtItems[buy.item] || 0) + buy.quantity;
             });
+            Object.entries(boughtItems)
+                .sort(([,a], [,b]) => b - a)
+                .slice(0, 10)
+                .forEach(([item, quantity]) => {
+                    const itemElement = document.createElement('div');
+                    itemElement.className = 'activity-item';
+                    itemElement.innerHTML = `
+                        <div><strong>${item}</strong></div>
+                        <div class="profit-amount">${quantity} bought</div>
+                    `;
+                    boughtContainer.appendChild(itemElement);
+                });
             
             // Update most sold items
             const soldContainer = document.getElementById('userMostSold');
             soldContainer.innerHTML = '';
-            Object.entries(stats.most_sold_items || {}).slice(0, 10).forEach(([item, quantity]) => {
+            const soldItems = {};
+            (userData.sells || []).forEach(sell => {
+                soldItems[sell.item] = (soldItems[sell.item] || 0) + sell.quantity;
+            });
+            Object.entries(soldItems)
+                .sort(([,a], [,b]) => b - a)
+                .slice(0, 10)
+                .forEach(([item, quantity]) => {
                 const itemElement = document.createElement('div');
                 itemElement.className = 'activity-item';
                 itemElement.innerHTML = `
