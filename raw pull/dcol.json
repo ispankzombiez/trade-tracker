@@ -198,7 +198,7 @@
       "Stone": "4402.6",
       "Iron": "1834.3",
       "Gold": "114.95",
-      "Egg": "24202.42",
+      "Egg": "24162.42",
       "Chicken": "30",
       "Speed Chicken": "6",
       "Fat Chicken": "3",
@@ -206,7 +206,7 @@
       "Rooster": "1",
       "Honey": "382.37373051637805028",
       "Wild Mushroom": "862.1",
-      "Magic Mushroom": "284",
+      "Magic Mushroom": "285",
       "Iron Rock": "12",
       "Gold Rock": "8",
       "Crop Plot": "70",
@@ -666,7 +666,7 @@
       "Rice Seed": "12",
       "Wheat Seed": "46",
       "Yam Seed": "5",
-      "Cheese": "8"
+      "Cheese": "10"
     },
     "previousInventory": {
       "Sunflower Seed": "360",
@@ -5647,7 +5647,48 @@
           },
           "createdAt": 0,
           "id": "1123",
-          "crafting": [],
+          "crafting": [
+            {
+              "name": "Boiled Eggs",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": false
+              },
+              "readyAt": 1769725857132
+            },
+            {
+              "name": "Boiled Eggs",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": false
+              },
+              "readyAt": 1769728773132
+            },
+            {
+              "name": "Boiled Eggs",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": false
+              },
+              "readyAt": 1769731689132
+            },
+            {
+              "name": "Boiled Eggs",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": false
+              },
+              "readyAt": 1769734605132
+            }
+          ],
           "oil": 0
         }
       ],
@@ -5800,26 +5841,6 @@
           },
           "readyAt": 1747608141532,
           "crafting": [
-            {
-              "name": "Cheese",
-              "boost": {
-                "Oil": 0
-              },
-              "skills": {
-                "Double Nom": false
-              },
-              "readyAt": 1769684733093
-            },
-            {
-              "name": "Cheese",
-              "boost": {
-                "Oil": 0
-              },
-              "skills": {
-                "Double Nom": false
-              },
-              "readyAt": 1769685813093
-            },
             {
               "name": "Fermented Fish",
               "boost": {
@@ -6892,7 +6913,7 @@
       "Grape Juice Cooked": 6,
       "Barley Harvested": 3667,
       "NutriBarley Mixed": 12708,
-      "Cheese Cooked": 1618,
+      "Cheese Cooked": 1620,
       "Spaghetti al Limone Cooked": 17,
       "Honey Cheddar Cooked": 28,
       "Anchovy Fed": 10,
@@ -7179,12 +7200,6 @@
           "name": "Wild Mushroom",
           "amount": 1.2,
           "x": 3,
-          "y": 11
-        },
-        "6c4fbf32": {
-          "name": "Magic Mushroom",
-          "amount": 1,
-          "x": -10,
           "y": 11
         }
       },
@@ -9613,7 +9628,7 @@
       "Rocky Favor": 1769714864568,
       "Stone Beetle": 1769714864568,
       "Tunnel Mole": 1769714864568,
-      "Desert Gnome": 1769683907275,
+      "Desert Gnome": 1769722941935,
       "Strong Roots": 1769652163121,
       "Healthy Livestock": 1754179284431,
       "Crim Peckster": 1769681560633,
@@ -9663,7 +9678,7 @@
       "Rocky the Mole": 1769699450968,
       "Angler Waders": 1769665969079,
       "Trident": 1769665959370,
-      "Fast Feasts": 1769681571893,
+      "Fast Feasts": 1769722941935,
       "Forge-Ward Profits": 1769568525938,
       "Betty's Friend": 1769568534561,
       "Fruity Profit": 1769568723510,
@@ -9906,7 +9921,7 @@
         "404": {
           "name": "Pet #404",
           "id": 404,
-          "experience": 19475,
+          "experience": 19485,
           "energy": 1305,
           "requests": {
             "food": [
@@ -9923,7 +9938,7 @@
               "Grape Juice"
             ]
           },
-          "pettedAt": 1769681592729,
+          "pettedAt": 1769722938220,
           "traits": {
             "type": "Griffin",
             "fur": "Dark",
@@ -9946,7 +9961,7 @@
         "2963": {
           "id": 2963,
           "name": "Pet #2963",
-          "experience": 18750,
+          "experience": 18760,
           "energy": 1215,
           "requests": {
             "food": [
@@ -9963,7 +9978,7 @@
               "Wheat Cake"
             ]
           },
-          "pettedAt": 1769681592507,
+          "pettedAt": 1769722937856,
           "traits": {
             "type": "Bear",
             "fur": "Green",

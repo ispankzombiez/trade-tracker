@@ -1,7 +1,7 @@
 {
   "farm": {
     "coins": 11.887571250154693,
-    "balance": "29.94978685462368216",
+    "balance": "33.90702935462368216",
     "previousBalance": "6195.1070892861099809",
     "inventory": {
       "Sunflower Seed": "2399",
@@ -42,9 +42,9 @@
       "Pumpkin": "339.2328",
       "Carrot": "701.1803",
       "Cabbage": "115.4629",
-      "Beetroot": "120.1847",
+      "Beetroot": "80.1847",
       "Cauliflower": "56.6781",
-      "Parsnip": "100.2369",
+      "Parsnip": "80.2369",
       "Radish": "30.7",
       "Wheat": "35.7008",
       "Kale": "0.62",
@@ -539,15 +539,12 @@
       "Sand Drill": "2",
       "Cornucopia": "1",
       "Lemon Cheesecake": "1",
-      "Frost Pebble": "3",
-      "Ribbon": "3",
       "Potato Cake": "1",
       "Giant Banana": "1",
       "Big Banana": "1",
       "Juicy Doll": "1",
       "Cluck Doll": "1",
       "Axe": "31",
-      "Chewed Bone": "3",
       "Dewberry": "2",
       "Hieroglyph": "2",
       "Rice Seed": "12",
@@ -1416,7 +1413,7 @@
       }
     },
     "bank": {
-      "taxFreeSFL": 45444.04545756843,
+      "taxFreeSFL": 45448.00270006843,
       "withdrawnAmount": 1485.3229
     },
     "bumpkin": {
@@ -5236,6 +5233,26 @@
                 "Double Nom": false
               },
               "readyAt": 1769743269461
+            },
+            {
+              "name": "Bumpkin Salad",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": false
+              },
+              "readyAt": 1769753475461
+            },
+            {
+              "name": "Bumpkin Salad",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": false
+              },
+              "readyAt": 1769763681461
             }
           ],
           "coordinates": {
@@ -9794,8 +9811,8 @@
       "El Pollo Veloz": 1769627301239,
       "Speed Chicken": 1769627301239,
       "Fat Chicken": 1769627294409,
-      "Desert Gnome": 1769722858652,
-      "Fast Feasts": 1769722858652,
+      "Desert Gnome": 1769722956315,
+      "Fast Feasts": 1769722956315,
       "Time Warp Totem": 1769665302946,
       "Fruit Picker Apron": 1769705126770,
       "Poseidon": 1764830129249,
@@ -9958,7 +9975,7 @@
         "1007": {
           "name": "Pet #1007",
           "id": 1007,
-          "experience": 10015,
+          "experience": 10025,
           "energy": 20,
           "requests": {
             "food": [
@@ -9975,7 +9992,7 @@
               "Honey Cheddar"
             ]
           },
-          "pettedAt": 1769715699672,
+          "pettedAt": 1769722952089,
           "traits": {
             "type": "Ram",
             "fur": "Brown",
@@ -10001,7 +10018,7 @@
         "2948": {
           "id": 2948,
           "name": "Pet #2948",
-          "experience": 94332,
+          "experience": 94342,
           "energy": 90,
           "requests": {
             "food": [
@@ -10019,7 +10036,7 @@
               "Rice Bun"
             ]
           },
-          "pettedAt": 1769715697752,
+          "pettedAt": 1769722950539,
           "traits": {
             "type": "Phoenix",
             "fur": "Grey",
@@ -10046,7 +10063,7 @@
       "common": {
         "Pippin": {
           "name": "Pippin",
-          "experience": 102394,
+          "experience": 102404,
           "energy": 80,
           "requests": {
             "food": [
@@ -10061,7 +10078,7 @@
               "Cauliflower Cake"
             ]
           },
-          "pettedAt": 1769715695955,
+          "pettedAt": 1769722949121,
           "dailySocialXP": {
             "2026-01-29": 50
           },
@@ -10072,7 +10089,7 @@
         },
         "Skipper": {
           "name": "Skipper",
-          "experience": 41450,
+          "experience": 41460,
           "energy": 30,
           "requests": {
             "food": [
@@ -10087,7 +10104,7 @@
               "Radish Cake"
             ]
           },
-          "pettedAt": 1769715697005,
+          "pettedAt": 1769722949658,
           "dailySocialXP": {
             "2026-01-29": 50
           },
@@ -10098,7 +10115,7 @@
         },
         "Smokey": {
           "name": "Smokey",
-          "experience": 4235,
+          "experience": 4245,
           "energy": 40,
           "requests": {
             "food": [
@@ -10112,7 +10129,7 @@
               "Carrot Cake"
             ]
           },
-          "pettedAt": 1769715699022,
+          "pettedAt": 1769722951541,
           "fetches": {
             "Acorn": 203,
             "Ribbon": 14
