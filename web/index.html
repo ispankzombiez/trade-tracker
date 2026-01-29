@@ -459,6 +459,7 @@
             <h1>🌻 Trade Tracker</h1>
             <a href="https://sunflower-land.com/play/#/visit/1128976301583508" class="farm-link" target="_blank">Visit iSPANK's Farm</a>
             <div class="last-updated" id="lastUpdated">Loading...</div>
+            <div id="debugTest" style="background: red; color: white; padding: 10px; margin: 10px;">DEBUG: JavaScript not running</div>
             <button class="refresh-btn" onclick="refreshData()">🔄 Refresh</button>
         </div>
 
@@ -580,6 +581,7 @@
         let currentTab = 'overview';
 
         function switchTab(tabName) {
+            alert('switchTab called with: ' + tabName); // Temporary debug
             console.log('switchTab called with:', tabName);
             currentTab = tabName;
             
@@ -1030,6 +1032,8 @@
 
         // Load data on page load
         window.onload = () => {
+            document.getElementById('debugTest').textContent = 'DEBUG: JavaScript IS running!';
+            document.getElementById('debugTest').style.background = 'green';
             loadData();
         };
 
