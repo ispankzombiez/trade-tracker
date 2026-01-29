@@ -1,7 +1,7 @@
 {
   "username": "deltaomega",
   "overview": {
-    "balance": 32.34,
+    "balance": 29.95,
     "coins": 11.0,
     "gems": 0.0,
     "earned_sfl": 20921.95,
@@ -9,10 +9,34 @@
     "spent_sfl": 14782.16,
     "items_sold": 3465.0,
     "trade_points": 13902.85,
-    "last_updated": "2026-01-29 09:39 PM",
+    "last_updated": "2026-01-29 09:43 PM",
     "active_listings": 0
   },
   "buys": [
+    {
+      "date": "2026-01-29",
+      "time": "09:41 PM",
+      "type": "BUY",
+      "item": "Beetroot",
+      "quantity": 100,
+      "price_text": "0.6265 SFL",
+      "price": 0.6265,
+      "counterparty": "JaySuper",
+      "farm_id": "-",
+      "trade_id": "a8592b01"
+    },
+    {
+      "date": "2026-01-29",
+      "time": "09:41 PM",
+      "type": "BUY",
+      "item": "Parsnip",
+      "quantity": 100,
+      "price_text": "1.76 SFL",
+      "price": 1.76,
+      "counterparty": "Tiploka",
+      "farm_id": "-",
+      "trade_id": "694f98ea"
+    },
     {
       "date": "2026-01-29",
       "time": "09:12 PM",
@@ -449,6 +473,54 @@
   "sells": [
     {
       "date": "2026-01-29",
+      "time": "09:41 PM",
+      "type": "SELL",
+      "item": "Ribbon",
+      "quantity": 2,
+      "price_text": "0.96 SFL",
+      "price": 0.96,
+      "counterparty": "Oswaldo",
+      "farm_id": "-",
+      "trade_id": "a5d96422"
+    },
+    {
+      "date": "2026-01-29",
+      "time": "09:41 PM",
+      "type": "SELL",
+      "item": "Ribbon",
+      "quantity": 1,
+      "price_text": "0.48 SFL",
+      "price": 0.48,
+      "counterparty": "Oswaldo",
+      "farm_id": "-",
+      "trade_id": "fc8fed55"
+    },
+    {
+      "date": "2026-01-29",
+      "time": "09:41 PM",
+      "type": "SELL",
+      "item": "Frost Pebble",
+      "quantity": 3,
+      "price_text": "1.428 SFL",
+      "price": 1.428,
+      "counterparty": "Vincent142",
+      "farm_id": "-",
+      "trade_id": "fc7166d7"
+    },
+    {
+      "date": "2026-01-29",
+      "time": "09:41 PM",
+      "type": "SELL",
+      "item": "Chewed Bone",
+      "quantity": 3,
+      "price_text": "1.4101 SFL",
+      "price": 1.4101,
+      "counterparty": "Edu",
+      "farm_id": "-",
+      "trade_id": "bf7d938e"
+    },
+    {
+      "date": "2026-01-29",
       "time": "07:49 PM",
       "type": "SELL",
       "item": "Crimstone",
@@ -774,15 +846,33 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 36,
-    "total_sells": 27,
-    "buy_volume": 38.912400000000005,
-    "sell_volume": 55.5357,
-    "gross_profit": 16.623299999999993,
-    "avg_buy_price": 1.0809000000000002,
-    "avg_sell_price": 2.056877777777778,
+    "total_buys": 38,
+    "total_sells": 31,
+    "buy_volume": 41.2989,
+    "sell_volume": 59.81380000000001,
+    "gross_profit": 18.514900000000004,
+    "avg_buy_price": 1.0868131578947369,
+    "avg_sell_price": 1.929477419354839,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Beetroot",
+        "quantity": 100,
+        "price": 0.6265,
+        "date": "2026-01-29",
+        "time": "09:41 PM",
+        "username": "deltaomega"
+      },
+      {
+        "type": "BUY",
+        "item": "Parsnip",
+        "quantity": 100,
+        "price": 1.76,
+        "date": "2026-01-29",
+        "time": "09:41 PM",
+        "username": "deltaomega"
+      },
       {
         "type": "BUY",
         "item": "Leather",
@@ -816,8 +906,7 @@
         "quantity": 100,
         "price": 0.5396,
         "date": "2026-01-29",
-        "time": "07:49 PM",
-        "username": "deltaomega"
+        "time": "07:49 PM"
       },
       {
         "type": "BUY",
@@ -825,8 +914,7 @@
         "quantity": 100,
         "price": 1.199,
         "date": "2026-01-29",
-        "time": "07:42 PM",
-        "username": "deltaomega"
+        "time": "07:42 PM"
       },
       {
         "type": "BUY",
@@ -931,46 +1019,30 @@
         "price": 0.6595,
         "date": "2026-01-27",
         "time": "05:35 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Egg",
-        "quantity": 50,
-        "price": 1.2757,
-        "date": "2026-01-27",
-        "time": "05:35 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Artichoke",
-        "quantity": 60,
-        "price": 0.708,
-        "date": "2026-01-27",
-        "time": "05:33 PM"
       }
     ],
-    "profit_margin": 42.71980140006782,
+    "profit_margin": 44.83146040209304,
     "most_bought_items": {
       "Feather": 379,
       "Yam": 223,
       "Corn": 200,
       "Soybean": 200,
       "Stone": 170,
+      "Beetroot": 100,
+      "Parsnip": 100,
       "Cauliflower": 100,
       "Leather": 92,
-      "Artichoke": 60,
-      "Wool": 53,
-      "Blueberry": 50
+      "Artichoke": 60
     },
     "most_sold_items": {
       "Barley": 1760,
       "Iron": 55,
       "Gold": 16,
+      "Ribbon": 7,
+      "Chewed Bone": 7,
+      "Frost Pebble": 6,
       "Crimstone": 5,
-      "Ribbon": 4,
-      "Chewed Bone": 4,
-      "Dewberry": 3,
-      "Frost Pebble": 3
+      "Dewberry": 3
     }
   }
 }
