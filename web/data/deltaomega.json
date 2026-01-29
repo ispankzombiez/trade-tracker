@@ -1,18 +1,30 @@
 {
   "username": "deltaomega",
   "overview": {
-    "balance": 20.8,
-    "coins": 152.0,
+    "balance": 20.03,
+    "coins": 2897.0,
     "gems": 0.0,
     "earned_sfl": 20919.0,
-    "earned_coins": 152.0,
+    "earned_coins": 2897.0,
     "spent_sfl": 14782.16,
     "items_sold": 3462.0,
     "trade_points": 13902.85,
-    "last_updated": "2026-01-28 02:50 PM",
+    "last_updated": "2026-01-29 12:13 AM",
     "active_listings": 0
   },
   "buys": [
+    {
+      "date": "2026-01-28",
+      "time": "11:44 PM",
+      "type": "BUY",
+      "item": "Feather",
+      "quantity": 134,
+      "price_text": "0.7637 SFL",
+      "price": 0.7637,
+      "counterparty": "Yoelito",
+      "farm_id": "-",
+      "trade_id": "e5ccd485"
+    },
     {
       "date": "2026-01-28",
       "time": "01:10 PM",
@@ -702,26 +714,35 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 32,
+    "total_buys": 33,
     "total_sells": 25,
-    "buy_volume": 33.6198,
+    "buy_volume": 34.383500000000005,
     "sell_volume": 45.0573,
-    "gross_profit": 11.4375,
-    "avg_buy_price": 1.05061875,
+    "gross_profit": 10.673799999999993,
+    "avg_buy_price": 1.0419242424242425,
     "avg_sell_price": 1.802292,
     "most_traded_items": {
       "Barley": 1100,
       "Yam": 923,
       "Broccoli": 657,
+      "Feather": 234,
       "Corn": 200,
       "Soybean": 200,
       "Stone": 170,
-      "Feather": 100,
       "Artichoke": 60,
       "Blueberry": 50,
       "Egg": 50
     },
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Feather",
+        "quantity": 134,
+        "price": 0.7637,
+        "date": "2026-01-28",
+        "time": "11:44 PM",
+        "username": "deltaomega"
+      },
       {
         "type": "BUY",
         "item": "Duskberry",
@@ -764,8 +785,7 @@
         "quantity": 23,
         "price": 1.3779,
         "date": "2026-01-28",
-        "time": "09:02 AM",
-        "username": "deltaomega"
+        "time": "09:02 AM"
       },
       {
         "type": "BUY",
@@ -878,16 +898,8 @@
         "price": 2.44,
         "date": "2026-01-27",
         "time": "12:56 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Leather",
-        "quantity": 12,
-        "price": 1.4493,
-        "date": "2026-01-27",
-        "time": "12:56 PM"
       }
     ],
-    "profit_margin": 34.020130994235544
+    "profit_margin": 31.04337836462254
   }
 }
