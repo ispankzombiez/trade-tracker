@@ -35,6 +35,56 @@ def parse_trade_line(line: str) -> Dict[str, Any]:
         return None
 
 
+def load_active_listings_and_offers(username: str) -> Dict[str, List[Dict[str, Any]]]:
+    """Load active listings and offers for a user from raw marketplace data."""
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    parent_dir = os.path.dirname(script_dir)
+    marketplace_file = os.path.join(parent_dir, "raw marketplace", f"{username.lower()}.json")
+    
+    listings = []
+    offers = []
+    
+    if os.path.exists(marketplace_file):
+        try:
+            with open(marketplace_file, 'r', encoding='utf-8') as f:
+                marketplace_data = json.load(f)
+            
+            # Load listings
+            raw_listings = marketplace_data.get('listings', {})
+            for listing_id, listing_data in raw_listings.items():
+                items = listing_data.get('items', {})
+                for item_name, quantity in items.items():
+                    listings.append({
+                        'id': listing_id,
+                        'item': item_name,
+                        'quantity': quantity,
+                        'price': listing_data.get('sfl', 0),
+                        'created_at': listing_data.get('createdAt'),
+                        'collection': listing_data.get('collection', 'unknown'),
+                        'trade_type': listing_data.get('tradeType', 'unknown')
+                    })
+            
+            # Load offers
+            raw_offers = marketplace_data.get('offers', {})
+            for offer_id, offer_data in raw_offers.items():
+                items = offer_data.get('items', {})
+                for item_name, quantity in items.items():
+                    offers.append({
+                        'id': offer_id,
+                        'item': item_name,
+                        'quantity': quantity,
+                        'price': offer_data.get('sfl', 0),
+                        'created_at': offer_data.get('createdAt'),
+                        'collection': offer_data.get('collection', 'unknown'),
+                        'trade_type': offer_data.get('tradeType', 'unknown')
+                    })
+                    
+        except Exception as e:
+            print(f"❌ Error loading marketplace data for {username}: {e}")
+    
+    return {'listings': listings, 'offers': offers}
+
+
 def load_user_data() -> Dict[str, Dict]:
     """Load all user data from Trade Overview folders."""
     script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -269,6 +319,11 @@ def generate_dashboard_data():
     
     # Save individual user data
     for username, data in users_data.items():
+        # Add active listings and offers data
+        marketplace_data = load_active_listings_and_offers(username)
+        data['active_listings'] = marketplace_data['listings']
+        data['active_offers'] = marketplace_data['offers']
+        
         user_file = os.path.join(data_dir, f"{username}.json")
         with open(user_file, 'w', encoding='utf-8') as f:
             json.dump(data, f, indent=2, ensure_ascii=False)

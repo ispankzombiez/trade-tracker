@@ -620,11 +620,11 @@
   "stats": {
     "total_buys": 31,
     "total_sells": 19,
-    "buy_volume": 60.066199999999995,
-    "sell_volume": 40.05429999999999,
+    "buy_volume": 60.0662,
+    "sell_volume": 40.0543,
     "gross_profit": -20.011900000000004,
-    "avg_buy_price": 1.9376193548387095,
-    "avg_sell_price": 2.1081210526315783,
+    "avg_buy_price": 1.9376193548387097,
+    "avg_sell_price": 2.108121052631579,
     "most_traded_items": {},
     "recent_activity": [
       {
@@ -793,7 +793,7 @@
         "time": "04:13 PM"
       }
     ],
-    "profit_margin": -33.31640756365478,
+    "profit_margin": -33.31640756365477,
     "most_bought_items": {
       "Pepper": 3850,
       "Kale": 1227,
@@ -811,5 +811,17 @@
       "Leather": 80,
       "Olive": 30
     }
-  }
+  },
+  "active_listings": [
+    {
+      "id": "e83ccb1e",
+      "item": "Pickaxe Shark",
+      "quantity": 1,
+      "price": 799,
+      "created_at": 1768270513681,
+      "collection": "wearables",
+      "trade_type": "onchain"
+    }
+  ],
+  "active_offers": []
 }

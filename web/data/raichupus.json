@@ -728,11 +728,11 @@
   "stats": {
     "total_buys": 15,
     "total_sells": 44,
-    "buy_volume": 183.57920000000001,
-    "sell_volume": 336.2900000000001,
-    "gross_profit": 152.71080000000006,
-    "avg_buy_price": 12.238613333333335,
-    "avg_sell_price": 7.642954545454547,
+    "buy_volume": 183.5792,
+    "sell_volume": 336.29,
+    "gross_profit": 152.71080000000003,
+    "avg_buy_price": 12.238613333333332,
+    "avg_sell_price": 7.642954545454546,
     "most_traded_items": {},
     "recent_activity": [
       {
@@ -921,5 +921,107 @@
       "Iron": 200,
       "Stone": 200
     }
-  }
+  },
+  "active_listings": [
+    {
+      "id": "90c9d979",
+      "item": "Frost Pebble",
+      "quantity": 1,
+      "price": 0.977,
+      "created_at": 1764442291853,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "9f844d1a",
+      "item": "Ribbon",
+      "quantity": 2,
+      "price": 2.068,
+      "created_at": 1764442322062,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "5a227c61",
+      "item": "Potato",
+      "quantity": 3000,
+      "price": 1.74,
+      "created_at": 1765920890224,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "e094849e",
+      "item": "Chewed Bone",
+      "quantity": 1,
+      "price": 0.799,
+      "created_at": 1767047277460,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "6b5c511b",
+      "item": "Cabbage",
+      "quantity": 2000,
+      "price": 5.88,
+      "created_at": 1767652326361,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "08ef164e",
+      "item": "Bud #1109",
+      "quantity": 1,
+      "price": 7500,
+      "created_at": 1768868640452,
+      "collection": "buds",
+      "trade_type": "onchain"
+    },
+    {
+      "id": "5567de27",
+      "item": "Rhubarb",
+      "quantity": 2000,
+      "price": 1.18,
+      "created_at": 1769369687977,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "513862b6",
+      "item": "Rhubarb",
+      "quantity": 2000,
+      "price": 1.18,
+      "created_at": 1769369697366,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "25422cff",
+      "item": "Leather",
+      "quantity": 100,
+      "price": 12.3,
+      "created_at": 1769606721916,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "d363e78f",
+      "item": "Rhubarb",
+      "quantity": 2000,
+      "price": 0.909,
+      "created_at": 1769613139031,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "91f06375",
+      "item": "Rhubarb",
+      "quantity": 2000,
+      "price": 0.9,
+      "created_at": 1769613316265,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    }
+  ],
+  "active_offers": []
 }
