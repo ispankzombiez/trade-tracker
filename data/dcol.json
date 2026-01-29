@@ -620,11 +620,11 @@
   "stats": {
     "total_buys": 31,
     "total_sells": 19,
-    "buy_volume": 60.066199999999995,
-    "sell_volume": 40.05429999999999,
+    "buy_volume": 60.0662,
+    "sell_volume": 40.0543,
     "gross_profit": -20.011900000000004,
-    "avg_buy_price": 1.9376193548387095,
-    "avg_sell_price": 2.1081210526315783,
+    "avg_buy_price": 1.9376193548387097,
+    "avg_sell_price": 2.108121052631579,
     "most_traded_items": {},
     "recent_activity": [
       {
@@ -793,7 +793,7 @@
         "time": "04:13 PM"
       }
     ],
-    "profit_margin": -33.31640756365478,
+    "profit_margin": -33.31640756365477,
     "most_bought_items": {
       "Pepper": 3850,
       "Kale": 1227,
@@ -823,5 +823,59 @@
       "trade_type": "onchain"
     }
   ],
-  "active_offers": []
+  "active_offers": [],
+  "inventory": {
+    "crops": {
+      "Sunflower": 281428.97539999837,
+      "Potato": 150305.26009999975,
+      "Pumpkin": 133457.19020000033,
+      "Carrot": 47729.86590000005,
+      "Cabbage": 47686.72889999981,
+      "Beetroot": 13634.6999,
+      "Cauliflower": 12779.883100000006,
+      "Parsnip": 2717.0863000000013,
+      "Radish": 380.8474999999995,
+      "Wheat": 6890.4731,
+      "Kale": 48753.4157,
+      "Eggplant": 4409.3152,
+      "Corn": 2595.014299999999,
+      "Soybean": 40990.025799999996,
+      "Rice": 244.452,
+      "Olive": 203.7819,
+      "Barley": 4681.9442,
+      "Rhubarb": 16532.454899999488,
+      "Zucchini": 27742.58419999969,
+      "Yam": 2106.256499999828,
+      "Broccoli": 6108.158199999858,
+      "Pepper": 61.39670000000032,
+      "Onion": 36.0869000000011,
+      "Turnip": 1143.9775000000004,
+      "Artichoke": 2555.7800000000007
+    },
+    "fruits": {
+      "Apple": 595.3400000000001,
+      "Blueberry": 81.83000000000018,
+      "Orange": 1255.2000000000005,
+      "Banana": 442.2800000000002,
+      "Grape": 140.3,
+      "Tomato": 397.0000000000005,
+      "Lemon": 160.25000000000045,
+      "Duskberry": 1.500000000000002,
+      "Lunara": 3.5,
+      "Celestine": 3.5
+    },
+    "resources": {
+      "Axe": 200.0,
+      "Pickaxe": 306.0,
+      "Shovel": 1.0,
+      "Petting Hand": 1.0,
+      "Brush": 1.0,
+      "Gold Egg": 1.0,
+      "Wood": 16663.5,
+      "Stone": 4402.6,
+      "Iron": 1834.3,
+      "Gold": 114.95,
+      "Crimstone": 99.5
+    }
+  }
 }

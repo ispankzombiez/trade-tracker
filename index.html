@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trade Tracker</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
     <style>
         :root {
             --primary-color: #00cc66;
@@ -585,6 +586,186 @@
         .debug-panel.visible {
             display: block;
         }
+
+        /* Inventory Chart Styles */
+        .inventory-chart-container {
+            position: relative;
+        }
+        
+        .inventory-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        
+        .inventory-controls {
+            display: flex;
+            gap: 10px;
+        }
+        
+        .toggle-btn, .fullscreen-btn {
+            background: var(--primary-color);
+            color: var(--dark-bg);
+            border: none;
+            padding: 8px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            transition: all 0.3s ease;
+        }
+        
+        .toggle-btn:hover, .fullscreen-btn:hover {
+            background: var(--accent-color);
+            transform: scale(1.05);
+        }
+        
+        .category-filters {
+            margin: 15px 0;
+            padding: 15px;
+            background: var(--dark-bg);
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+        
+        .filter-header {
+            display: flex;
+            gap: 5px;
+            margin-bottom: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 100%;
+        }
+        
+        .filter-action-btn, .filter-category-btn {
+            background: var(--secondary-color);
+            color: var(--text-light);
+            border: none;
+            padding: 3px 8px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.7rem;
+            transition: all 0.3s ease;
+            white-space: nowrap;
+        }
+        
+        .filter-action-btn:hover, .filter-category-btn:hover {
+            background: var(--primary-color);
+            transform: scale(1.02);
+        }
+        
+        .filter-items {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 8px;
+            min-height: 150px;
+            max-height: 400px;
+            overflow-y: auto;
+            padding: 10px;
+            width: 100%;
+            border: 2px solid var(--primary-color);
+            border-radius: 4px;
+            background: var(--darker-bg);
+            box-sizing: border-box;
+        }
+        
+        .filter-items label {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            cursor: pointer;
+            font-size: 0.8rem;
+            padding: 6px 8px;
+            border-radius: 3px;
+            transition: background 0.3s ease;
+            line-height: 1.2;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            min-height: 24px;
+            border: 1px solid var(--border-color);
+            background: var(--card-bg);
+            color: var(--text-light);
+        }
+        
+        .filter-items label:hover {
+            background: var(--primary-color);
+            color: var(--darker-bg);
+            border-color: var(--primary-color);
+        }
+        
+        .filter-items input[type="checkbox"] {
+            accent-color: var(--primary-color);
+            margin: 0;
+            flex-shrink: 0;
+        }
+        
+        .item-crops { color: #2ecc71; }
+        .item-fruits { color: #e74c3c; }
+        .item-resources { color: #95a5a6; }
+        
+        .category-filters input[type="checkbox"] {
+            accent-color: var(--primary-color);
+        }
+        
+        .chart-container {
+            position: relative;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .fullscreen-chart {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: var(--dark-bg);
+            z-index: 1000;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        
+        .fullscreen-chart .chart-container {
+            height: calc(100vh - 150px);
+        }
+        
+        .fullscreen-chart .inventory-header h3 {
+            font-size: 2rem;
+        }
+        
+        @media (max-width: 768px) {
+            .inventory-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 10px;
+            }
+            
+            .filter-header {
+                justify-content: flex-start;
+                gap: 3px;
+            }
+            
+            .filter-action-btn, .filter-category-btn {
+                font-size: 0.65rem;
+                padding: 2px 6px;
+            }
+            
+            .filter-items {
+                grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+                gap: 4px;
+            }
+            
+            .filter-items label {
+                font-size: 0.75rem;
+                padding: 2px 4px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -999,6 +1180,32 @@
             
             newTestElement.innerHTML = `
                 <div class="dashboard-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0;">
+                    <!-- Inventory Chart -->
+                    <div class="card inventory-chart-container" id="inventoryChartContainer">
+                        <div class="inventory-header">
+                            <h3>📊 Inventory Distribution</h3>
+                            <div class="inventory-controls">
+                                <button onclick="toggleInventoryCategories()" class="toggle-btn">⚙️ Categories</button>
+                                <button onclick="toggleFullscreen('inventoryChartContainer')" class="fullscreen-btn" id="fullscreenBtn">🔍 Expand</button>
+                            </div>
+                        </div>
+                        <div class="category-filters" id="categoryFilters" style="display: none;">
+                            <div class="filter-header">
+                                <button onclick="selectAllItems()" class="filter-action-btn">✅ Select All</button>
+                                <button onclick="deselectAllItems()" class="filter-action-btn">❌ Deselect All</button>
+                                <button onclick="selectByCategory('crops')" class="filter-category-btn">🌾 Crops Only</button>
+                                <button onclick="selectByCategory('fruits')" class="filter-category-btn">🍎 Fruits Only</button>
+                                <button onclick="selectByCategory('resources')" class="filter-category-btn">🔨 Resources Only</button>
+                            </div>
+                            <div class="filter-items" id="filterItems">
+                                <!-- Individual item checkboxes will be generated here -->
+                            </div>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="inventoryChart" width="400" height="400"></canvas>
+                        </div>
+                    </div>
+                    
                     <!-- User Stats -->
                     <div class="card">
                         <h3>📈 ${userData.username} Statistics</h3>
@@ -1155,6 +1362,11 @@
             
             debugLog('New element height: ' + newTestElement.offsetHeight + 'px');
             debugLog('updateUserDetails completed - check for new test element!');
+            
+            // Create the inventory chart after the element is added to the page
+            setTimeout(() => {
+                createInventoryChart(userData);
+            }, 100);
         }
 
         let currentTimeframe = 'day';
@@ -1301,6 +1513,327 @@
             document.getElementById('loading').style.display = 'block';
             document.getElementById('dashboard').style.display = 'none';
             await loadData();
+        }
+
+        // Inventory Chart Functions
+        let inventoryChart = null;
+        let inventoryData = null;
+
+        const categoryColors = {
+            'crops': [
+                '#2ecc71', '#27ae60', '#16a085', '#1abc9c', '#3498db',
+                '#2980b9', '#9b59b6', '#8e44ad', '#34495e', '#2c3e50',
+                '#e67e22', '#d35400', '#f39c12', '#e74c3c', '#c0392b'
+            ],
+            'fruits': [
+                '#e74c3c', '#c0392b', '#e67e22', '#d35400', '#f39c12',
+                '#f1c40f', '#ff6b6b', '#ff7675', '#fd79a8', '#fdcb6e'
+            ],
+            'resources': [
+                '#95a5a6', '#7f8c8d', '#bdc3c7', '#ecf0f1', '#34495e',
+                '#2c3e50', '#8b7355', '#a0826d', '#b8860b', '#daa520'
+            ]
+        };
+
+        function createInventoryChart(userData) {
+            debugLog('=== CREATING INVENTORY CHART ===');
+            debugLog('Creating inventory chart for: ' + userData.username);
+            
+            if (!userData.inventory) {
+                debugLog('No inventory data found');
+                const canvas = document.getElementById('inventoryChart');
+                if (canvas) {
+                    const ctx = canvas.getContext('2d');
+                    ctx.clearRect(0, 0, canvas.width, canvas.height);
+                    ctx.fillStyle = '#ffffff';
+                    ctx.font = '16px Arial';
+                    ctx.textAlign = 'center';
+                    ctx.fillText('No inventory data available', canvas.width/2, canvas.height/2);
+                }
+                return;
+            }
+            debugLog('Inventory data found: ' + Object.keys(userData.inventory).join(', '));
+
+            inventoryData = userData.inventory;
+            debugLog('Inventory data set globally');
+            
+            // ALWAYS generate filter items first, regardless of Chart.js status
+            debugLog('Generating filter items...');
+            generateFilterItems();
+            
+            // Check if Chart.js is loaded
+            if (typeof Chart === 'undefined') {
+                debugLog('ERROR: Chart.js not loaded!');
+                const canvas = document.getElementById('inventoryChart');
+                if (canvas) {
+                    const ctx = canvas.getContext('2d');
+                    ctx.clearRect(0, 0, canvas.width, canvas.height);
+                    ctx.fillStyle = '#ffffff';
+                    ctx.font = '16px Arial';
+                    ctx.textAlign = 'center';
+                    ctx.fillText('Chart.js failed to load', canvas.width/2, canvas.height/2 - 10);
+                    ctx.fillText('Filter options should still work above', canvas.width/2, canvas.height/2 + 10);
+                }
+                return;
+            }
+            debugLog('Chart.js is loaded: ' + Chart.version);
+            
+            // Wait a moment for the DOM to update
+            setTimeout(() => {
+                debugLog('=== PREPARING CHART DATA ===');
+                // Prepare chart data
+                const chartData = prepareChartData();
+                debugLog('Chart data prepared with ' + chartData.labels.length + ' items');
+                
+                const canvas = document.getElementById('inventoryChart');
+                if (!canvas) {
+                    debugLog('ERROR: Canvas not found!');
+                    return;
+                }
+                debugLog('Canvas found: ' + canvas.width + 'x' + canvas.height);
+
+                const ctx = canvas.getContext('2d');
+                debugLog('Canvas context obtained');
+                
+                // Destroy existing chart if it exists
+                if (inventoryChart) {
+                    debugLog('Destroying existing chart');
+                    inventoryChart.destroy();
+                    inventoryChart = null;
+                }
+                
+                if (chartData.labels.length === 0) {
+                    debugLog('No chart data to display - showing message');
+                    ctx.clearRect(0, 0, canvas.width, canvas.height);
+                    ctx.fillStyle = '#ffffff';
+                    ctx.font = '16px Arial';
+                    ctx.textAlign = 'center';
+                    ctx.fillText('Select items to display', canvas.width/2, canvas.height/2);
+                    return;
+                }
+                
+                debugLog('=== CREATING CHART.JS INSTANCE ===');
+                try {
+                    inventoryChart = new Chart(ctx, {
+                        type: 'pie',
+                        data: chartData,
+                        options: {
+                            responsive: true,
+                            maintainAspectRatio: false,
+                            animation: {
+                                duration: 1000
+                            },
+                            plugins: {
+                                legend: {
+                                    position: 'bottom',
+                                    labels: {
+                                        color: '#ffffff',
+                                        font: {
+                                            size: 10
+                                        },
+                                        padding: 8,
+                                        usePointStyle: true,
+                                        boxWidth: 12
+                                    }
+                                },
+                                tooltip: {
+                                    backgroundColor: 'rgba(33, 38, 45, 0.9)',
+                                    titleColor: '#ffffff',
+                                    bodyColor: '#ffffff',
+                                    borderColor: '#00cc66',
+                                    borderWidth: 1,
+                                    callbacks: {
+                                        label: function(context) {
+                                            const label = context.label || '';
+                                            const value = parseFloat(context.raw).toFixed(1);
+                                            const total = context.dataset.data.reduce((a, b) => a + b, 0);
+                                            const percentage = ((context.raw / total) * 100).toFixed(1);
+                                            return `${label}: ${value} (${percentage}%)`;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    });
+                    
+                    debugLog('SUCCESS: Chart created with ' + chartData.labels.length + ' segments');
+                    debugLog('Chart instance: ' + (inventoryChart ? 'exists' : 'null'));
+                } catch (error) {
+                    debugLog('ERROR creating chart: ' + error.message);
+                    console.error('Chart creation error:', error);
+                }
+            }, 200); // Increased timeout
+        }
+
+        function prepareChartData() {
+            const labels = [];
+            const data = [];
+            const colors = [];
+            let colorIndex = { crops: 0, fruits: 0, resources: 0 };
+            
+            // Get checked items
+            const checkedItems = [];
+            document.querySelectorAll('#filterItems input[type="checkbox"]:checked').forEach(checkbox => {
+                checkedItems.push({
+                    item: checkbox.getAttribute('data-item'),
+                    category: checkbox.getAttribute('data-category')
+                });
+            });
+            
+            debugLog('Preparing chart data for ' + checkedItems.length + ' checked items');
+            
+            // Add data for each checked item
+            checkedItems.forEach(({ item, category }) => {
+                if (inventoryData[category] && inventoryData[category][item]) {
+                    const quantity = inventoryData[category][item];
+                    if (quantity > 0) {
+                        labels.push(item);
+                        data.push(quantity);
+                        colors.push(categoryColors[category][colorIndex[category] % categoryColors[category].length]);
+                        colorIndex[category]++;
+                    }
+                }
+            });
+            
+            debugLog('Chart data prepared: ' + labels.length + ' items');
+            
+            return {
+                labels: labels,
+                datasets: [{
+                    data: data,
+                    backgroundColor: colors,
+                    borderColor: '#1a1a1a',
+                    borderWidth: 2
+                }]
+            };
+        }
+
+        function updateInventoryChart() {
+            debugLog('Updating inventory chart');
+            if (inventoryChart && inventoryData) {
+                inventoryChart.data = prepareChartData();
+                inventoryChart.update();
+            }
+        }
+
+        function toggleInventoryCategories() {
+            const filters = document.getElementById('categoryFilters');
+            if (filters.style.display === 'none') {
+                filters.style.display = 'flex';
+            } else {
+                filters.style.display = 'none';
+            }
+        }
+
+        function generateFilterItems() {
+            const filterContainer = document.getElementById('filterItems');
+            if (!filterContainer) {
+                debugLog('ERROR: Filter container not found');
+                return;
+            }
+            
+            debugLog('=== GENERATING FILTER ITEMS ===');
+            debugLog('Current inventoryData keys: ' + Object.keys(inventoryData).join(', '));
+            
+            // Clear and add loading message
+            filterContainer.innerHTML = '<div style="padding: 20px; text-align: center; color: var(--text-light);">Loading items...</div>';
+            
+            let totalItems = 0;
+            
+            // Create checkboxes for all items
+            Object.entries(inventoryData).forEach(([category, items]) => {
+                debugLog('Processing category: ' + category + ' with ' + Object.keys(items).length + ' items');
+                
+                Object.entries(items).forEach(([item, quantity]) => {
+                    if (quantity > 0) {
+                        const label = document.createElement('label');
+                        label.className = `item-${category}`;
+                        
+                        const checkbox = document.createElement('input');
+                        checkbox.type = 'checkbox';
+                        checkbox.checked = true; // Start with all items selected
+                        checkbox.setAttribute('data-item', item);
+                        checkbox.setAttribute('data-category', category);
+                        checkbox.onchange = updateInventoryChart;
+                        
+                        const categoryIcon = category === 'crops' ? '🌾' : category === 'fruits' ? '🍎' : '🔨';
+                        
+                        label.appendChild(checkbox);
+                        label.appendChild(document.createTextNode(` ${categoryIcon} ${item} (${quantity.toFixed(1)})`));
+                        
+                        // Remove loading message on first item
+                        if (totalItems === 0) {
+                            filterContainer.innerHTML = '';
+                        }
+                        
+                        filterContainer.appendChild(label);
+                        totalItems++;
+                        
+                        // Debug first few items
+                        if (totalItems <= 3) {
+                            debugLog('Added item: ' + item + ' (' + quantity + ')');
+                        }
+                    }
+                });
+            });
+            
+            debugLog('Filter items generated: ' + totalItems + ' total items');
+            debugLog('Filter container children: ' + filterContainer.children.length);
+            
+            // Add fallback message if no items
+            if (totalItems === 0) {
+                filterContainer.innerHTML = '<div style="padding: 20px; text-align: center; color: var(--text-light);">No inventory items found</div>';
+            }
+            
+            debugLog('Filter container forced reflow completed');
+        }
+        
+        function selectAllItems() {
+            document.querySelectorAll('#filterItems input[type="checkbox"]').forEach(checkbox => {
+                checkbox.checked = true;
+            });
+            updateInventoryChart();
+        }
+        
+        function deselectAllItems() {
+            document.querySelectorAll('#filterItems input[type="checkbox"]').forEach(checkbox => {
+                checkbox.checked = false;
+            });
+            updateInventoryChart();
+        }
+        
+        function selectByCategory(category) {
+            document.querySelectorAll('#filterItems input[type="checkbox"]').forEach(checkbox => {
+                checkbox.checked = checkbox.getAttribute('data-category') === category;
+            });
+            updateInventoryChart();
+        }
+        
+        function toggleFullscreen(containerId) {
+            const container = document.getElementById(containerId);
+            const btn = document.getElementById('fullscreenBtn');
+            
+            if (container.classList.contains('fullscreen-chart')) {
+                // Exit fullscreen
+                container.classList.remove('fullscreen-chart');
+                btn.textContent = '🔍 Expand';
+                
+                // Resize chart
+                if (inventoryChart) {
+                    inventoryChart.resize();
+                }
+            } else {
+                // Enter fullscreen
+                container.classList.add('fullscreen-chart');
+                btn.textContent = '❌ Minimize';
+                
+                // Resize chart after a brief delay to ensure CSS is applied
+                setTimeout(() => {
+                    if (inventoryChart) {
+                        inventoryChart.resize();
+                    }
+                }, 100);
+            }
         }
 
         // Load data on page load
