@@ -1,7 +1,7 @@
 {
   "username": "deltaomega",
   "overview": {
-    "balance": 35.57,
+    "balance": 35.32,
     "coins": 4777.0,
     "gems": 0.0,
     "earned_sfl": 20919.85,
@@ -9,10 +9,22 @@
     "spent_sfl": 14782.16,
     "items_sold": 3465.0,
     "trade_points": 13902.85,
-    "last_updated": "2026-01-29 05:32 PM",
+    "last_updated": "2026-01-29 05:51 PM",
     "active_listings": 0
   },
   "buys": [
+    {
+      "date": "2026-01-29",
+      "time": "05:36 PM",
+      "type": "BUY",
+      "item": "Feather",
+      "quantity": 45,
+      "price_text": "0.251 SFL",
+      "price": 0.251,
+      "counterparty": "Ultimate",
+      "farm_id": "-",
+      "trade_id": "33dbe60b"
+    },
     {
       "date": "2026-01-29",
       "time": "04:54 PM",
@@ -690,15 +702,24 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 30,
+    "total_buys": 31,
     "total_sells": 26,
-    "buy_volume": 31.1705,
+    "buy_volume": 31.4215,
     "sell_volume": 52.9356,
-    "gross_profit": 21.7651,
-    "avg_buy_price": 1.0390166666666667,
+    "gross_profit": 21.5141,
+    "avg_buy_price": 1.0135967741935485,
     "avg_sell_price": 2.0359846153846153,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Feather",
+        "quantity": 45,
+        "price": 0.251,
+        "date": "2026-01-29",
+        "time": "05:36 PM",
+        "username": "deltaomega"
+      },
       {
         "type": "BUY",
         "item": "Wool",
@@ -741,8 +762,7 @@
         "quantity": 49,
         "price": 0.7341,
         "date": "2026-01-28",
-        "time": "11:08 AM",
-        "username": "deltaomega"
+        "time": "11:08 AM"
       },
       {
         "type": "BUY",
@@ -855,19 +875,11 @@
         "price": 0.159,
         "date": "2026-01-27",
         "time": "03:25 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Duskberry",
-        "quantity": 2,
-        "price": 1.5,
-        "date": "2026-01-27",
-        "time": "03:23 PM"
       }
     ],
-    "profit_margin": 69.82595723520636,
+    "profit_margin": 68.46936015148863,
     "most_bought_items": {
-      "Feather": 234,
+      "Feather": 279,
       "Yam": 223,
       "Corn": 200,
       "Soybean": 200,
