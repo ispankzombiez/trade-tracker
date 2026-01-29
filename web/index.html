@@ -451,6 +451,48 @@
         .general-stats.hidden {
             display: none;
         }
+
+        .header-controls {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin: 10px 0;
+        }
+
+        .debug-toggle {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            color: var(--text-light);
+            font-size: 0.9rem;
+            cursor: pointer;
+        }
+
+        .debug-toggle input[type="checkbox"] {
+            accent-color: var(--primary-color);
+        }
+
+        .debug-panel {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            width: 300px;
+            max-height: 400px;
+            background: #333;
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            font-family: monospace;
+            font-size: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            z-index: 1000;
+            overflow-y: auto;
+            display: none;
+        }
+
+        .debug-panel.visible {
+            display: block;
+        }
     </style>
 </head>
 <body>
@@ -458,10 +500,11 @@
         <div class="header">
             <h1>🌻 Trade Tracker</h1>
             <a href="https://sunflower-land.com/play/#/visit/1128976301583508" class="farm-link" target="_blank">Visit iSPANK's Farm</a>
-            <div class="last-updated" id="lastUpdated">Loading...</div>
-            <div id="debugPanel" style="background: #333; color: white; padding: 15px; margin: 10px; border-radius: 8px; font-family: monospace; font-size: 12px;">
-                <strong>🔧 DEBUG PANEL</strong><br>
-                <div id="debugLog">Starting debug session...</div>
+            <div class="header-controls">
+                <div class="last-updated" id="lastUpdated">Loading...</div>
+                <label class="debug-toggle">
+                    <input type="checkbox" id="debugToggle" onchange="toggleDebug()"> Debug
+                </label>
             </div>
             <button class="refresh-btn" onclick="refreshData()">🔄 Refresh</button>
         </div>
@@ -576,6 +619,12 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <!-- Debug Panel (Side Panel) -->
+    <div id="debugPanel" class="debug-panel">
+        <strong>🔧 DEBUG PANEL</strong><br>
+        <div id="debugLog">Starting debug session...</div>
     </div>
 
     <script>
@@ -1017,6 +1066,18 @@
         }
 
         let currentTimeframe = 'day';
+
+        function toggleDebug() {
+            const debugPanel = document.getElementById('debugPanel');
+            const debugToggle = document.getElementById('debugToggle');
+            
+            if (debugToggle.checked) {
+                debugPanel.classList.add('visible');
+                debugLog('Debug panel enabled');
+            } else {
+                debugPanel.classList.remove('visible');
+            }
+        }
 
         function changeTimeframe(timeframe) {
             currentTimeframe = timeframe;
