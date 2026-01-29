@@ -10,6 +10,76 @@ import requests
 from datetime import datetime
 from typing import Dict, List, Any, Optional
 
+def load_item_mapping(parent_dir: str) -> Dict[int, str]:
+    """
+    Load item ID to name mapping from the item_mapping.txt file.
+    
+    Args:
+        parent_dir: Parent directory containing the item_mapping.txt file
+        
+    Returns:
+        Dictionary mapping item ID (int) to item name (str)
+    """
+    mapping_file = os.path.join(parent_dir, "item_mapping.txt")
+    item_mapping = {}
+    
+    if not os.path.exists(mapping_file):
+        print("⚠️  item_mapping.txt not found - will use item IDs")
+        return item_mapping
+    
+    try:
+        with open(mapping_file, 'r', encoding='utf-8') as f:
+            for line in f:
+                line = line.strip()
+                if '|' in line:
+                    try:
+                        parts = line.split('|')
+                        item_id = int(parts[0].strip())
+                        item_name = parts[1].strip()
+                        item_mapping[item_id] = item_name
+                    except (ValueError, IndexError):
+                        continue
+            
+            print(f"📋 Loaded {len(item_mapping)} item mappings")
+            
+    except Exception as e:
+        print(f"❌ Error reading item_mapping.txt: {e}")
+        print("⚠️  Will use item IDs instead")
+    
+    return item_mapping
+
+def get_item_name(item_id: str, collection: str, item_mapping: Dict[int, str]) -> str:
+    """
+    Get the item name from ID and collection using the mapping, with smart fallbacks.
+    
+    Args:
+        item_id: The item ID as string
+        collection: The collection type (pets, collectibles, wearables)
+        item_mapping: Dictionary mapping item ID to name
+        
+    Returns:
+        Item name with appropriate formatting
+    """
+    try:
+        item_id_int = int(item_id)
+        
+        # First try to get from mapping
+        if item_id_int in item_mapping:
+            return item_mapping[item_id_int]
+        
+        # If not in mapping, use collection-specific formatting
+        if collection.lower() == "pets":
+            return f"Pet #{item_id}"
+        elif collection.lower() == "wearables":
+            return f"Wearable #{item_id}"
+        elif collection.lower() == "collectibles":
+            return f"Collectible #{item_id}"
+        else:
+            return f"Item #{item_id}"
+            
+    except (ValueError, TypeError):
+        return f"Item {item_id}"
+
 # Configuration
 X_API_KEY = "sfl.MTEyODk3NjMwMTU4MzUwOA.YKi8l48T3jH_mPYvpxgCrkeS_IUt3uWQFgTUQg40JCE"
 BEARER_TOKEN = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZGRyZXNzIjoiMHg5MTZBMTUxMTQ2MzRjNGUzNTFGMGY4MjY2MjM2M2FhNTUwOUVFOTk5IiwiZmFybUlkIjoxMTI4OTc2MzAxNTgzNTA4LCJ1c2VyQWNjZXNzIjp7InN5bmMiOnRydWUsIndpdGhkcmF3Ijp0cnVlLCJtaW50Q29sbGVjdGlibGUiOnRydWUsImNyZWF0ZUZhcm0iOnRydWUsInZlcmlmaWVkIjp0cnVlfSwiaWF0IjoxNzY5NTMyODQ4LCJleHAiOjE3NzIxMjQ4NDh9.fDlyqb5Gi6kOBc7QHSB-KZJ7xqA3h48WkbFXl99CFkI"
@@ -116,7 +186,7 @@ def save_raw_marketplace_data(data: dict, username: str, raw_folder: str):
     except Exception as e:
         print(f"❌ Error saving raw marketplace data for {username}: {e}")
 
-def format_trade_entry(trade: Dict[str, Any]) -> str:
+def format_trade_entry(trade: Dict[str, Any], item_mapping: Dict[int, str]) -> str:
     """Format a single trade with correct field names."""
     trade_id = trade.get('id', 'Unknown')
     fulfilled_at = trade.get('fulfilledAt', 0)
@@ -125,6 +195,12 @@ def format_trade_entry(trade: Dict[str, Any]) -> str:
     item_id = trade.get('itemId', 'Unknown')
     collection = trade.get('collection', 'Unknown')
     source = trade.get('source', 'Unknown')
+    
+    # Convert item ID to name
+    if item_id != 'Unknown':
+        item_name = get_item_name(str(item_id), collection, item_mapping)
+    else:
+        item_name = 'Unknown Item'
     
     initiated_by = trade.get('initiatedBy', {})
     fulfilled_by = trade.get('fulfilledBy', {})
@@ -147,7 +223,7 @@ def format_trade_entry(trade: Dict[str, Any]) -> str:
     entry = f"""{"=" * 60}
 🔄 TRADE #{trade_id} - {date_str}
 {"=" * 60}
-📦 Item ID: {item_id} | Collection: {collection}
+📦 Item: {item_name} (ID: {item_id}) | Collection: {collection}
 📊 Quantity: {quantity}
 💰 Amount: {sfl_amount} SFL
 🔄 Source: {source}
@@ -157,7 +233,7 @@ def format_trade_entry(trade: Dict[str, Any]) -> str:
 """
     return entry
 
-def update_marketplace_history(username: str, trades: List[Dict[str, Any]], history_folder: str):
+def update_marketplace_history(username: str, trades: List[Dict[str, Any]], history_folder: str, item_mapping: Dict[int, str]):
     """Update marketplace history file (cumulative)."""
     filename = f"{username}_marketplace_history.txt"
     file_path = os.path.join(history_folder, filename)
@@ -230,7 +306,7 @@ def update_marketplace_history(username: str, trades: List[Dict[str, Any]], hist
             f.write("=" * 60 + "\n\n")
             
             for trade in new_trades:
-                f.write(format_trade_entry(trade))
+                f.write(format_trade_entry(trade, item_mapping))
             
             if existing_content:
                 f.write(existing_content)
@@ -265,10 +341,9 @@ def load_farm_ids() -> tuple[List[str], float]:
         print(f"📄 Loaded {len(farm_ids)} farm IDs")
         print(f"⏰ Using adaptive wait time: {wait_time}s")
         return farm_ids, wait_time
-        return farm_ids
     except Exception as e:
         print(f"❌ Error reading farm_ids.txt: {e}")
-        return []
+        return [], 31.0
 
 def main():
     """Main function."""
@@ -281,6 +356,11 @@ def main():
     history_folder, raw_folder = create_folders()
     print(f"📁 Marketplace history folder: {history_folder}")
     print(f"📁 Raw marketplace folder: {raw_folder}")
+    
+    # Load item mapping
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    parent_dir = os.path.dirname(script_dir)
+    item_mapping = load_item_mapping(parent_dir)
     
     successful_updates = 0
     
@@ -302,7 +382,7 @@ def main():
         
         # Extract trades and update history (cumulative)
         trades = full_response.get('trades', [])
-        update_marketplace_history(username, trades, history_folder)
+        update_marketplace_history(username, trades, history_folder, item_mapping)
         successful_updates += 1
         
         # Add delay
