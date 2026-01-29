@@ -1,18 +1,30 @@
 {
   "username": "deltaomega",
   "overview": {
-    "balance": 20.03,
-    "coins": 2897.0,
+    "balance": 27.01,
+    "coins": 8089.0,
     "gems": 0.0,
-    "earned_sfl": 20919.0,
-    "earned_coins": 2897.0,
+    "earned_sfl": 20919.85,
+    "earned_coins": 8089.0,
     "spent_sfl": 14782.16,
-    "items_sold": 3462.0,
+    "items_sold": 3465.0,
     "trade_points": 13902.85,
-    "last_updated": "2026-01-29 12:13 AM",
+    "last_updated": "2026-01-29 06:43 AM",
     "active_listings": 0
   },
   "buys": [
+    {
+      "date": "2026-01-29",
+      "time": "06:34 AM",
+      "type": "BUY",
+      "item": "Tomato",
+      "quantity": 30,
+      "price_text": "0.1509 SFL",
+      "price": 0.1509,
+      "counterparty": "Jonnyw",
+      "farm_id": "-",
+      "trade_id": "432efa3f"
+    },
     {
       "date": "2026-01-28",
       "time": "11:44 PM",
@@ -412,6 +424,42 @@
   ],
   "sells": [
     {
+      "date": "2026-01-29",
+      "time": "04:05 AM",
+      "type": "SELL",
+      "item": "Barley",
+      "quantity": 100,
+      "price_text": "2.262 SFL",
+      "price": 2.262,
+      "counterparty": "JFK97jinxer",
+      "farm_id": "-",
+      "trade_id": "07a34e11"
+    },
+    {
+      "date": "2026-01-29",
+      "time": "04:00 AM",
+      "type": "SELL",
+      "item": "Barley",
+      "quantity": 100,
+      "price_text": "2.262 SFL",
+      "price": 2.262,
+      "counterparty": "EstebanKamui",
+      "farm_id": "-",
+      "trade_id": "a24f81fe"
+    },
+    {
+      "date": "2026-01-29",
+      "time": "03:56 AM",
+      "type": "SELL",
+      "item": "Barley",
+      "quantity": 100,
+      "price_text": "2.262 SFL",
+      "price": 2.262,
+      "counterparty": "JamurKrispi",
+      "farm_id": "-",
+      "trade_id": "a30d3bb8"
+    },
+    {
       "date": "2026-01-28",
       "time": "02:26 PM",
       "type": "SELL",
@@ -714,15 +762,15 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 33,
-    "total_sells": 25,
-    "buy_volume": 34.383500000000005,
-    "sell_volume": 45.0573,
-    "gross_profit": 10.673799999999993,
-    "avg_buy_price": 1.0419242424242425,
-    "avg_sell_price": 1.802292,
+    "total_buys": 34,
+    "total_sells": 28,
+    "buy_volume": 34.534400000000005,
+    "sell_volume": 51.843300000000006,
+    "gross_profit": 17.3089,
+    "avg_buy_price": 1.0157176470588236,
+    "avg_sell_price": 1.8515464285714287,
     "most_traded_items": {
-      "Barley": 1100,
+      "Barley": 1400,
       "Yam": 923,
       "Broccoli": 657,
       "Feather": 234,
@@ -734,6 +782,15 @@
       "Egg": 50
     },
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Tomato",
+        "quantity": 30,
+        "price": 0.1509,
+        "date": "2026-01-29",
+        "time": "06:34 AM",
+        "username": "deltaomega"
+      },
       {
         "type": "BUY",
         "item": "Feather",
@@ -776,8 +833,7 @@
         "quantity": 200,
         "price": 3.6,
         "date": "2026-01-28",
-        "time": "09:04 AM",
-        "username": "deltaomega"
+        "time": "09:04 AM"
       },
       {
         "type": "BUY",
@@ -890,16 +946,8 @@
         "price": 0.796,
         "date": "2026-01-27",
         "time": "12:57 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Leather",
-        "quantity": 20,
-        "price": 2.44,
-        "date": "2026-01-27",
-        "time": "12:56 PM"
       }
     ],
-    "profit_margin": 31.04337836462254
+    "profit_margin": 50.12074916604892
   }
 }

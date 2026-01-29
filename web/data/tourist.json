@@ -1,18 +1,30 @@
 {
   "username": "tourist",
   "overview": {
-    "balance": 160.58,
-    "coins": 25788.0,
+    "balance": 178.91,
+    "coins": 21708.0,
     "gems": 0.0,
     "earned_sfl": 13353.49,
-    "earned_coins": 25788.0,
+    "earned_coins": 21708.0,
     "spent_sfl": 5477.44,
-    "items_sold": 12589.0,
+    "items_sold": 12590.0,
     "trade_points": 10449.12,
-    "last_updated": "2026-01-29 12:13 AM",
+    "last_updated": "2026-01-29 06:43 AM",
     "active_listings": 244
   },
   "buys": [
+    {
+      "date": "2026-01-29",
+      "time": "03:39 AM",
+      "type": "BUY",
+      "item": "Iron",
+      "quantity": 50,
+      "price_text": "2.727 SFL",
+      "price": 2.727,
+      "counterparty": "Ruby2025",
+      "farm_id": "-",
+      "trade_id": "747fc6e7"
+    },
     {
       "date": "2026-01-29",
       "time": "12:01 AM",
@@ -1060,6 +1072,54 @@
   ],
   "sells": [
     {
+      "date": "2026-01-29",
+      "time": "05:03 AM",
+      "type": "SELL",
+      "item": "Corn",
+      "quantity": 1000,
+      "price_text": "18.8 SFL",
+      "price": 18.8,
+      "counterparty": "N3on",
+      "farm_id": "-",
+      "trade_id": "a7894fed"
+    },
+    {
+      "date": "2026-01-29",
+      "time": "03:42 AM",
+      "type": "SELL",
+      "item": "Beetroot",
+      "quantity": 50,
+      "price_text": "0.3115 SFL",
+      "price": 0.3115,
+      "counterparty": "TANIU",
+      "farm_id": "-",
+      "trade_id": "4593816e"
+    },
+    {
+      "date": "2026-01-29",
+      "time": "03:42 AM",
+      "type": "SELL",
+      "item": "Beetroot",
+      "quantity": 100,
+      "price_text": "0.6231 SFL",
+      "price": 0.6231,
+      "counterparty": "EngenIrons",
+      "farm_id": "-",
+      "trade_id": "122afddf"
+    },
+    {
+      "date": "2026-01-29",
+      "time": "03:40 AM",
+      "type": "SELL",
+      "item": "Iron",
+      "quantity": 50,
+      "price_text": "3.03 SFL",
+      "price": 3.03,
+      "counterparty": "LongDIF",
+      "farm_id": "-",
+      "trade_id": "b9258e0f"
+    },
+    {
       "date": "2026-01-27",
       "time": "07:20 PM",
       "type": "SELL",
@@ -1074,21 +1134,32 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 87,
-    "total_sells": 1,
-    "buy_volume": 109.11380000000005,
-    "sell_volume": 1.79,
-    "gross_profit": -107.32380000000005,
-    "avg_buy_price": 1.254181609195403,
-    "avg_sell_price": 1.79,
+    "total_buys": 88,
+    "total_sells": 5,
+    "buy_volume": 111.84080000000003,
+    "sell_volume": 24.5546,
+    "gross_profit": -87.28620000000004,
+    "avg_buy_price": 1.270918181818182,
+    "avg_sell_price": 4.91092,
     "most_traded_items": {
       "Feather": 6413,
       "Lemon": 6297,
+      "Corn": 1000,
       "Kale": 427,
       "Blueberry": 200,
-      "Iron": 27
+      "Beetroot": 150,
+      "Iron": 127
     },
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Iron",
+        "quantity": 50,
+        "price": 2.727,
+        "date": "2026-01-29",
+        "time": "03:39 AM",
+        "username": "tourist"
+      },
       {
         "type": "BUY",
         "item": "Blueberry",
@@ -1131,8 +1202,7 @@
         "quantity": 122,
         "price": 1.1709,
         "date": "2026-01-28",
-        "time": "10:51 PM",
-        "username": "tourist"
+        "time": "10:51 PM"
       },
       {
         "type": "BUY",
@@ -1245,16 +1315,8 @@
         "price": 0.9792,
         "date": "2026-01-28",
         "time": "10:51 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Lemon",
-        "quantity": 50,
-        "price": 0.4798,
-        "date": "2026-01-28",
-        "time": "10:51 PM"
       }
     ],
-    "profit_margin": -98.35951089596365
+    "profit_margin": -78.04504259626184
   }
 }

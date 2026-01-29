@@ -1,16 +1,16 @@
 {
   "username": "raichupus",
   "overview": {
-    "balance": 3195.51,
-    "coins": 277498.0,
+    "balance": 3281.34,
+    "coins": 273818.0,
     "gems": 0.0,
     "earned_sfl": 1114.53,
-    "earned_coins": 277498.0,
+    "earned_coins": 273818.0,
     "spent_sfl": 0.0,
-    "items_sold": 2777.0,
+    "items_sold": 2782.0,
     "trade_points": 252976.67,
-    "last_updated": "2026-01-29 12:13 AM",
-    "active_listings": 16
+    "last_updated": "2026-01-29 06:43 AM",
+    "active_listings": 11
   },
   "buys": [
     {
@@ -27,6 +27,66 @@
     }
   ],
   "sells": [
+    {
+      "date": "2026-01-29",
+      "time": "02:12 AM",
+      "type": "SELL",
+      "item": "Milk",
+      "quantity": 100,
+      "price_text": "13.21 SFL",
+      "price": 13.21,
+      "counterparty": "Aurealis",
+      "farm_id": "-",
+      "trade_id": "4141c77d"
+    },
+    {
+      "date": "2026-01-29",
+      "time": "02:12 AM",
+      "type": "SELL",
+      "item": "Milk",
+      "quantity": 100,
+      "price_text": "13.21 SFL",
+      "price": 13.21,
+      "counterparty": "Aurealis",
+      "farm_id": "-",
+      "trade_id": "79d1562b"
+    },
+    {
+      "date": "2026-01-29",
+      "time": "02:10 AM",
+      "type": "SELL",
+      "item": "Wood",
+      "quantity": 500,
+      "price_text": "4.39 SFL",
+      "price": 4.39,
+      "counterparty": "MrQuan",
+      "farm_id": "-",
+      "trade_id": "94d7c063"
+    },
+    {
+      "date": "2026-01-29",
+      "time": "02:09 AM",
+      "type": "SELL",
+      "item": "Leather",
+      "quantity": 100,
+      "price_text": "11.9 SFL",
+      "price": 11.9,
+      "counterparty": "bach",
+      "farm_id": "-",
+      "trade_id": "1aa79775"
+    },
+    {
+      "date": "2026-01-29",
+      "time": "12:29 AM",
+      "type": "SELL",
+      "item": "Olive",
+      "quantity": 50,
+      "price_text": "20.16 SFL",
+      "price": 20.16,
+      "counterparty": "Kevin",
+      "farm_id": "-",
+      "trade_id": "1ee8a7b9"
+    },
     {
       "date": "2026-01-29",
       "time": "12:09 AM",
@@ -259,22 +319,23 @@
   "last_updated": null,
   "stats": {
     "total_buys": 1,
-    "total_sells": 19,
+    "total_sells": 24,
     "buy_volume": 5.2298,
-    "sell_volume": 104.017,
-    "gross_profit": 98.7872,
+    "sell_volume": 166.88699999999997,
+    "gross_profit": 161.65719999999996,
     "avg_buy_price": 5.2298,
-    "avg_sell_price": 5.474578947368421,
+    "avg_sell_price": 6.953624999999999,
     "most_traded_items": {
       "Sunflower": 12000,
       "Pumpkin": 6000,
       "Potato": 3000,
+      "Wood": 2100,
       "Zucchini": 2000,
       "Carrot": 2000,
-      "Wood": 1600,
-      "Milk": 400,
+      "Milk": 600,
       "Blueberry": 300,
-      "Leather": 200
+      "Leather": 300,
+      "Olive": 50
     },
     "recent_activity": [
       {
@@ -288,12 +349,55 @@
       },
       {
         "type": "SELL",
+        "item": "Milk",
+        "quantity": 100,
+        "price": 13.21,
+        "date": "2026-01-29",
+        "time": "02:12 AM",
+        "username": "raichupus"
+      },
+      {
+        "type": "SELL",
+        "item": "Milk",
+        "quantity": 100,
+        "price": 13.21,
+        "date": "2026-01-29",
+        "time": "02:12 AM",
+        "username": "raichupus"
+      },
+      {
+        "type": "SELL",
+        "item": "Wood",
+        "quantity": 500,
+        "price": 4.39,
+        "date": "2026-01-29",
+        "time": "02:10 AM",
+        "username": "raichupus"
+      },
+      {
+        "type": "SELL",
+        "item": "Leather",
+        "quantity": 100,
+        "price": 11.9,
+        "date": "2026-01-29",
+        "time": "02:09 AM",
+        "username": "raichupus"
+      },
+      {
+        "type": "SELL",
+        "item": "Olive",
+        "quantity": 50,
+        "price": 20.16,
+        "date": "2026-01-29",
+        "time": "12:29 AM"
+      },
+      {
+        "type": "SELL",
         "item": "Wood",
         "quantity": 500,
         "price": 4.37,
         "date": "2026-01-29",
-        "time": "12:09 AM",
-        "username": "raichupus"
+        "time": "12:09 AM"
       },
       {
         "type": "SELL",
@@ -301,8 +405,7 @@
         "quantity": 100,
         "price": 12.79,
         "date": "2026-01-28",
-        "time": "11:59 PM",
-        "username": "raichupus"
+        "time": "11:59 PM"
       },
       {
         "type": "SELL",
@@ -310,8 +413,7 @@
         "quantity": 100,
         "price": 11.89,
         "date": "2026-01-28",
-        "time": "11:54 PM",
-        "username": "raichupus"
+        "time": "11:54 PM"
       },
       {
         "type": "SELL",
@@ -319,8 +421,7 @@
         "quantity": 100,
         "price": 0.87,
         "date": "2026-01-28",
-        "time": "11:52 PM",
-        "username": "raichupus"
+        "time": "11:52 PM"
       },
       {
         "type": "SELL",
@@ -401,48 +502,8 @@
         "price": 4.429,
         "date": "2026-01-28",
         "time": "05:30 AM"
-      },
-      {
-        "type": "SELL",
-        "item": "Milk",
-        "quantity": 100,
-        "price": 12.41,
-        "date": "2026-01-28",
-        "time": "05:30 AM"
-      },
-      {
-        "type": "SELL",
-        "item": "Leather",
-        "quantity": 100,
-        "price": 12.49,
-        "date": "2026-01-27",
-        "time": "06:59 PM"
-      },
-      {
-        "type": "SELL",
-        "item": "Wood",
-        "quantity": 500,
-        "price": 4.749,
-        "date": "2026-01-27",
-        "time": "06:40 PM"
-      },
-      {
-        "type": "SELL",
-        "item": "Milk",
-        "quantity": 100,
-        "price": 13.26,
-        "date": "2026-01-27",
-        "time": "06:39 PM"
-      },
-      {
-        "type": "SELL",
-        "item": "Milk",
-        "quantity": 100,
-        "price": 13.26,
-        "date": "2026-01-27",
-        "time": "06:39 PM"
       }
     ],
-    "profit_margin": 1888.928830930437
+    "profit_margin": 3091.0780526979993
   }
 }
