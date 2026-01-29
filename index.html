@@ -800,6 +800,24 @@
             const recentTrades = allTrades
                 .sort((a, b) => new Date(b.date + ' ' + b.time) - new Date(a.date + ' ' + a.time))
                 .slice(0, 8);
+                
+            // Calculate most bought items
+            const boughtItems = {};
+            (userData.buys || []).forEach(buy => {
+                boughtItems[buy.item] = (boughtItems[buy.item] || 0) + buy.quantity;
+            });
+            const topBought = Object.entries(boughtItems)
+                .sort(([,a], [,b]) => b - a)
+                .slice(0, 10);
+                
+            // Calculate most sold items  
+            const soldItems = {};
+            (userData.sells || []).forEach(sell => {
+                soldItems[sell.item] = (soldItems[sell.item] || 0) + sell.quantity;
+            });
+            const topSold = Object.entries(soldItems)
+                .sort(([,a], [,b]) => b - a)
+                .slice(0, 10);
             
             newTestElement.innerHTML = `
                 <div class="dashboard-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0;">
@@ -851,6 +869,32 @@
                             `).join('')}
                         </div>
                     </div>
+                    
+                    <!-- Most Bought Items -->
+                    <div class="card">
+                        <h3>🛒 Most Bought Items</h3>
+                        <div class="recent-activity">
+                            ${topBought.map(([item, quantity]) => `
+                                <div class="activity-item">
+                                    <div><strong>${item}</strong></div>
+                                    <div class="profit-amount">${quantity} bought</div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                    
+                    <!-- Most Sold Items -->
+                    <div class="card">
+                        <h3>💰 Most Sold Items</h3>
+                        <div class="recent-activity">
+                            ${topSold.map(([item, quantity]) => `
+                                <div class="activity-item">
+                                    <div><strong>${item}</strong></div>
+                                    <div class="profit-amount">${quantity} sold</div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
                 </div>
             `;
             newTestElement.style.cssText = `
@@ -859,11 +903,11 @@
                 z-index: 100 !important;
             `;
             
-            // Add it to the page after the debug panel
-            const debugPanel = document.getElementById('debugPanel');
-            if (debugPanel) {
-                debugPanel.parentNode.insertBefore(newTestElement, debugPanel.nextSibling);
-                debugLog('New test element added after debug panel');
+            // Add it to the page before the main dashboard content
+            const dashboardElement = document.getElementById('dashboard');
+            if (dashboardElement) {
+                dashboardElement.parentNode.insertBefore(newTestElement, dashboardElement);
+                debugLog('New test element added before dashboard');
             } else {
                 document.body.appendChild(newTestElement);
                 debugLog('New test element added to body');
