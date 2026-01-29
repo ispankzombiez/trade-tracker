@@ -1,16 +1,16 @@
 {
   "username": "raichupus",
   "overview": {
-    "balance": 3195.51,
-    "coins": 277498.0,
+    "balance": 3241.84,
+    "coins": 273818.0,
     "gems": 0.0,
     "earned_sfl": 1114.53,
-    "earned_coins": 277498.0,
+    "earned_coins": 273818.0,
     "spent_sfl": 0.0,
-    "items_sold": 2777.0,
+    "items_sold": 2778.0,
     "trade_points": 252976.67,
-    "last_updated": "2026-01-29 12:13 AM",
-    "active_listings": 16
+    "last_updated": "2026-01-29 12:55 AM",
+    "active_listings": 11
   },
   "buys": [
     {
@@ -27,6 +27,18 @@
     }
   ],
   "sells": [
+    {
+      "date": "2026-01-29",
+      "time": "12:29 AM",
+      "type": "SELL",
+      "item": "Olive",
+      "quantity": 50,
+      "price_text": "20.16 SFL",
+      "price": 20.16,
+      "counterparty": "Kevin",
+      "farm_id": "-",
+      "trade_id": "1ee8a7b9"
+    },
     {
       "date": "2026-01-29",
       "time": "12:09 AM",
@@ -259,12 +271,12 @@
   "last_updated": null,
   "stats": {
     "total_buys": 1,
-    "total_sells": 19,
+    "total_sells": 20,
     "buy_volume": 5.2298,
-    "sell_volume": 104.017,
-    "gross_profit": 98.7872,
+    "sell_volume": 124.17699999999998,
+    "gross_profit": 118.94719999999998,
     "avg_buy_price": 5.2298,
-    "avg_sell_price": 5.474578947368421,
+    "avg_sell_price": 6.208849999999999,
     "most_traded_items": {
       "Sunflower": 12000,
       "Pumpkin": 6000,
@@ -274,7 +286,8 @@
       "Wood": 1600,
       "Milk": 400,
       "Blueberry": 300,
-      "Leather": 200
+      "Leather": 200,
+      "Olive": 50
     },
     "recent_activity": [
       {
@@ -284,6 +297,15 @@
         "price": 5.2298,
         "date": "2026-01-28",
         "time": "05:32 AM",
+        "username": "raichupus"
+      },
+      {
+        "type": "SELL",
+        "item": "Olive",
+        "quantity": 50,
+        "price": 20.16,
+        "date": "2026-01-29",
+        "time": "12:29 AM",
         "username": "raichupus"
       },
       {
@@ -319,8 +341,7 @@
         "quantity": 100,
         "price": 0.87,
         "date": "2026-01-28",
-        "time": "11:52 PM",
-        "username": "raichupus"
+        "time": "11:52 PM"
       },
       {
         "type": "SELL",
@@ -433,16 +454,8 @@
         "price": 13.26,
         "date": "2026-01-27",
         "time": "06:39 PM"
-      },
-      {
-        "type": "SELL",
-        "item": "Milk",
-        "quantity": 100,
-        "price": 13.26,
-        "date": "2026-01-27",
-        "time": "06:39 PM"
       }
     ],
-    "profit_margin": 1888.928830930437
+    "profit_margin": 2274.4120234043367
   }
 }

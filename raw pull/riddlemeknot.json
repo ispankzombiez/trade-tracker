@@ -1,6 +1,6 @@
 {
   "farm": {
-    "coins": 50923.14275000004,
+    "coins": 55923.14275000004,
     "balance": "76.05967752483429946",
     "previousBalance": "0",
     "inventory": {
@@ -116,7 +116,7 @@
       "Bakery": "1",
       "Mini Floating Island": "1",
       "Brilliant Bear": "1",
-      "Earthworm": "568",
+      "Earthworm": "574",
       "Sunpetal Seed": "40",
       "Scary Mike": "1",
       "Immortal Pear": "1",
@@ -124,7 +124,7 @@
       "Blue Marlin": "7",
       "Surgeonfish": "34",
       "Celestine": "38.0000000000000053",
-      "Grub": "377",
+      "Grub": "381",
       "Lunara": "39.0000000000000049",
       "Lemon": "1.2000000000002181",
       "Duskberry": "43.1000000000000051",
@@ -370,7 +370,7 @@
       "Blue Cosmos": "2",
       "Potato Seed": "2",
       "Olive": "2",
-      "Rod": "54",
+      "Rod": "64",
       "Big Apple": "1",
       "Dewberry": "5",
       "Chewed Bone": "5",
@@ -409,8 +409,9 @@
       "Gold": "2",
       "Stone Pickaxe": "10",
       "Axe": "56",
-      "Pickaxe": "21",
-      "Oil Drill": "2"
+      "Pickaxe": "31",
+      "Oil Drill": "2",
+      "Cheer": "3"
     },
     "previousInventory": {
       "Scarecrow": "1",
@@ -1899,7 +1900,8 @@
     "calendar": {
       "fishFrenzy": {
         "startedAt": 1769644800000,
-        "triggeredAt": 1769644805402
+        "triggeredAt": 1769644805402,
+        "acknowledgedAt": 1769646404854
       },
       "dates": [
         {
@@ -6071,10 +6073,10 @@
       }
     },
     "dailyRewards": {
-      "streaks": 45,
+      "streaks": 46,
       "chest": {
-        "collectedAt": 1769559404590,
-        "code": 87
+        "collectedAt": 1769646407146,
+        "code": 88
       }
     },
     "buffs": {
@@ -6324,7 +6326,7 @@
       "Pirate Chest Opened": 63,
       "Digging Reward Collected": 61,
       "Recipe Queue Cancelled": 65,
-      "Daily Reward Collected": 62,
+      "Daily Reward Collected": 63,
       "Farm Cheered": 263,
       "Farm Helped": 370,
       "General Store Restocked": 10,
@@ -6761,7 +6763,7 @@
       "Streamer Hat Reward Claimed": 33,
       "White Clover Harvested": 2,
       "Bumpkin Roast Cooked": 2,
-      "Airdrop Reward Claimed": 26,
+      "Airdrop Reward Claimed": 28,
       "Rice Bun Cooked": 3,
       "Blue Carnation Bountied": 3,
       "Clownfish Bountied": 3,
@@ -6829,11 +6831,12 @@
       "Fossil Shell Fetched": 2,
       "Chewed Bone Fetched": 5,
       "Dewberry Fetched": 4,
-      "Pet Cookie Collected": 70,
+      "Pet Cookie Collected": 71,
       "Cornucopia Bought": 1,
       "Potion Mixed": 9,
       "Paw Prints Points Earned": 76,
-      "Raffle Entries": 500
+      "Raffle Entries": 500,
+      "Raffle Lost": 1
     },
     "milestones": {
       "Novice Angler": 1,
@@ -7865,7 +7868,7 @@
           "petXP": 0,
           "score": 0,
           "collectivePet": {
-            "totalXP": 4158038,
+            "totalXP": 4211974,
             "goalXP": 2404688,
             "goalReached": true,
             "streak": 3,
@@ -8260,7 +8263,7 @@
         },
         "5d8c8321": {
           "id": "5d8c8321",
-          "state": "idle",
+          "state": "sick",
           "type": "Cow",
           "createdAt": 1769265264869,
           "awakeAt": 1769708701156,
@@ -8268,7 +8271,7 @@
           "experience": 1475,
           "lovedAt": 1769619939385,
           "item": "Brush",
-          "healthCheckedAt": 1769559395930
+          "healthCheckedAt": 1769646402543
         },
         "9c3f7d51": {
           "id": "9c3f7d51",
@@ -8280,7 +8283,7 @@
           "experience": 970,
           "lovedAt": 1769583823660,
           "item": "Music Box",
-          "healthCheckedAt": 1769559395930
+          "healthCheckedAt": 1769646402543
         },
         "3689a3e3": {
           "id": "3689a3e3",
@@ -9038,7 +9041,7 @@
       "Stone Beetle": 1769636363253,
       "Tin Turtle": 1769636363253,
       "Tunnel Mole": 1769636363253,
-      "Healthy Livestock": 1769627724467,
+      "Healthy Livestock": 1769646402543,
       "Bale Economy": 1769630946743,
       "Blossombeard": 1768371907725,
       "Munching Mastery": 1768371907725,

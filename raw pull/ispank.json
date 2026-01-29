@@ -14,7 +14,7 @@
       "Eggplant Seed": "171",
       "Sunpetal Seed": "38",
       "Bloom Seed": "21",
-      "Lily Seed": "13",
+      "Lily Seed": "9",
       "Soybean Seed": "542",
       "Rice Seed": "7",
       "Olive Seed": "56",
@@ -26,7 +26,7 @@
       "Artichoke Seed": "105",
       "Gladiolus Seed": "13",
       "Clover Seed": "13",
-      "Sunflower": "169374.416500001147",
+      "Sunflower": "169324.416500001147",
       "Potato": "92930.32599999861014",
       "Pumpkin": "11090.3021000002079",
       "Carrot": "9216.036000000000026",
@@ -60,7 +60,7 @@
       "Red Carnation": "9",
       "Yellow Carnation": "5",
       "White Carnation": "10",
-      "Celestial Frostbloom": "2",
+      "Celestial Frostbloom": "11",
       "Red Daffodil": "15",
       "Yellow Daffodil": "5",
       "Purple Daffodil": "39",
@@ -101,7 +101,7 @@
       "White Clover": "5",
       "Blue Clover": "8",
       "Pickaxe": "2818",
-      "Rod": "366",
+      "Rod": "386",
       "Shovel": "1",
       "Gold Pickaxe": "60",
       "Oil Drill": "42",
@@ -206,7 +206,7 @@
       "Rich Chicken": "1",
       "Rooster": "1",
       "Honey": "294.77770081331034426",
-      "Wild Mushroom": "648.6",
+      "Wild Mushroom": "650",
       "Magic Mushroom": "346",
       "Tree": "19",
       "Stone Rock": "16",
@@ -215,8 +215,8 @@
       "Crop Plot": "65",
       "Fruit Patch": "15",
       "Basic Land": "27",
-      "Earthworm": "2906",
-      "Grub": "1676",
+      "Earthworm": "2918",
+      "Grub": "1684",
       "Red Wiggler": "844",
       "Sprout Mix": "11643",
       "Fruitful Blend": "2086",
@@ -511,13 +511,13 @@
       "Corn Seed": "304",
       "Rhubarb Seed": "1200",
       "Lavender Seed": "9",
-      "Love Charm": "13664",
+      "Love Charm": "13669",
       "Kale Seed": "17",
       "Sand": "246",
       "Broken Pillar": "1",
       "Bracelet": "95",
       "Coprolite": "1",
-      "Cheer": "123",
+      "Cheer": "126",
       "Ancient Tree": "1",
       "Fused Stone Rock": "1",
       "Fisher's Hourglass": "2",
@@ -545,7 +545,6 @@
       "Duskberry": "7.8",
       "Apple Pie": "10",
       "Astronaut Cow": "2",
-      "Purple Balloon Flower": "3",
       "Spring Guardian": "1",
       "Caprese Salad": "5",
       "Orange Juice": "7",
@@ -616,7 +615,7 @@
       "Stone Pickaxe": "27",
       "Tomato Seed": "8",
       "Cheese": "6",
-      "Axe": "226",
+      "Axe": "276",
       "Nana": "1",
       "Banana Chicken": "1",
       "Sea Urchin": "12",
@@ -3531,6 +3530,11 @@
       }
     },
     "calendar": {
+      "fishFrenzy": {
+        "startedAt": 1769644800000,
+        "triggeredAt": 1769647038451,
+        "acknowledgedAt": 1769647040341
+      },
       "dates": [
         {
           "name": "sunshower",
@@ -5456,8 +5460,8 @@
           "x": 7,
           "y": -10,
           "flower": {
-            "plantedAt": 1769472110511,
-            "name": "Celestial Frostbloom",
+            "plantedAt": 1769495056439,
+            "name": "Yellow Carnation",
             "criticalHit": {
               "Humming Bird": 1,
               "Butterfly": 0,
@@ -5474,8 +5478,8 @@
           "x": 7,
           "y": -9,
           "flower": {
-            "plantedAt": 1769472114247,
-            "name": "Celestial Frostbloom",
+            "plantedAt": 1769495030230,
+            "name": "Primula Enigma",
             "criticalHit": {
               "Humming Bird": 0,
               "Butterfly": 0,
@@ -5492,14 +5496,14 @@
           "x": 7,
           "y": -8,
           "flower": {
-            "plantedAt": 1769472106670,
-            "name": "Celestial Frostbloom",
+            "plantedAt": 1769495024978,
+            "name": "Primula Enigma",
             "criticalHit": {
               "Humming Bird": 0,
               "Butterfly": 0,
-              "Desert Rose": 1,
-              "Chicory": 1,
-              "Petalled Perk": 1
+              "Desert Rose": 0,
+              "Chicory": 0,
+              "Petalled Perk": 0
             }
           }
         },
@@ -5510,11 +5514,11 @@
           "x": 7,
           "y": -7,
           "flower": {
-            "plantedAt": 1769472100695,
-            "name": "Celestial Frostbloom",
+            "plantedAt": 1769495020444,
+            "name": "Primula Enigma",
             "criticalHit": {
-              "Humming Bird": 0,
-              "Butterfly": 1,
+              "Humming Bird": 1,
+              "Butterfly": 0,
               "Desert Rose": 0,
               "Chicory": 0,
               "Petalled Perk": 0
@@ -5530,13 +5534,13 @@
         "height": 1,
         "width": 1,
         "honey": {
-          "updatedAt": 1769595972406,
-          "produced": 0
+          "updatedAt": 1769647120439,
+          "produced": 63653569.20000001
         },
         "flowers": [
           {
-            "attachedAt": 1769595972406,
-            "attachedUntil": 1769644900695,
+            "attachedAt": 1769647084444,
+            "attachedUntil": 1769664617694,
             "id": "a07f528b",
             "rate": 1.3
           }
@@ -5550,13 +5554,13 @@
         "height": 1,
         "width": 1,
         "honey": {
-          "updatedAt": 1769595972406,
-          "produced": 903.5
+          "updatedAt": 1769647120439,
+          "produced": 63656346.00000001
         },
         "flowers": [
           {
-            "attachedAt": 1769595971711,
-            "attachedUntil": 1769644906670,
+            "attachedAt": 1769647088978,
+            "attachedUntil": 1769664615558,
             "id": "b8daab40",
             "rate": 1.3
           }
@@ -5570,13 +5574,13 @@
         "height": 1,
         "width": 1,
         "honey": {
-          "updatedAt": 1769595972406,
-          "produced": 1970.8
+          "updatedAt": 1769647120439,
+          "produced": 63660435.800000004
         },
         "flowers": [
           {
-            "attachedAt": 1769595970890,
-            "attachedUntil": 1769644914247,
+            "attachedAt": 1769647094230,
+            "attachedUntil": 1769664612412,
             "id": "210f8d7d",
             "rate": 1.3
           }
@@ -5590,13 +5594,13 @@
         "height": 1,
         "width": 1,
         "honey": {
-          "updatedAt": 1769595972406,
-          "produced": 5047.9
+          "updatedAt": 1769647120439,
+          "produced": 63624584.4
         },
         "flowers": [
           {
-            "attachedAt": 1769595968523,
-            "attachedUntil": 1769644910511,
+            "attachedAt": 1769647120439,
+            "attachedUntil": 1769664639990,
             "id": "4bbe3a59",
             "rate": 1.3
           }
@@ -10139,10 +10143,10 @@
       }
     },
     "dailyRewards": {
-      "streaks": 668,
+      "streaks": 669,
       "chest": {
-        "collectedAt": 1769558454308,
-        "code": 60
+        "collectedAt": 1769647043598,
+        "code": 61
       }
     },
     "buffs": {
@@ -10321,7 +10325,7 @@
       "White Balloon Flower Bountied": 6,
       "Lava Pit Bought": 1,
       "Royal Ornament Crafted": 39,
-      "Celestial Frostbloom Harvested": 33,
+      "Celestial Frostbloom Harvested": 37,
       "Walleye Caught": 219,
       "Flower Bed Bought": 1,
       "Gold Rock Bought": 1,
@@ -10490,8 +10494,8 @@
       "Sunfish Bountied": 1,
       "Faction Pet Fed": 48,
       "Recipe Queue Cancelled": 121,
-      "Daily Reward Collected": 52,
-      "Airdrop Reward Claimed": 49,
+      "Daily Reward Collected": 53,
+      "Airdrop Reward Claimed": 50,
       "Betty Shop Restocked": 8,
       "Greenhouse Oiled": 95,
       "Marketplace Listing Created": 945,
@@ -10551,7 +10555,7 @@
       "Popcorn Cooked": 263,
       "Stone Pickaxe Crafted": 12653,
       "Soybean Harvested": 15013,
-      "Lily Seed Planted": 166,
+      "Lily Seed Planted": 170,
       "Carrot Juice Cooked": 126,
       "Bale Crafted": 1,
       "Kale Stew Cooked": 198,
@@ -11127,7 +11131,7 @@
       "Raffle Entries": 240,
       "Raffle Lost": 3,
       "Lobster Caught": 12,
-      "Pet Cookie Collected": 327,
+      "Pet Cookie Collected": 328,
       "Magic Bean Harvested": 1,
       "Cornucopia Bought": 1,
       "Paw Prints free Milestone Claimed": 1,
@@ -11249,7 +11253,7 @@
     },
     "mushrooms": {
       "mushrooms": {},
-      "spawnedAt": 1769587200000,
+      "spawnedAt": 1769644800000,
       "magicSpawnedAt": 1769616000000
     },
     "delivery": {
@@ -11549,8 +11553,8 @@
         "goal": 10
       },
       "dailySFL": {
-        "day": 28,
-        "amount": 4.278114966569667
+        "day": 29,
+        "amount": 4.280622530990529
       }
     },
     "potionHouse": {
@@ -12468,7 +12472,7 @@
           "petXP": 5480,
           "score": 1811.4,
           "collectivePet": {
-            "totalXP": 4158038,
+            "totalXP": 4211974,
             "goalXP": 2404688,
             "goalReached": true,
             "streak": 3,
@@ -12652,11 +12656,11 @@
           "experience": 2260,
           "lovedAt": 0,
           "item": "Petting Hand",
-          "healthCheckedAt": 1769557305609
+          "healthCheckedAt": 1769647038350
         },
         "2af35337": {
           "id": "2af35337",
-          "state": "idle",
+          "state": "sick",
           "type": "Chicken",
           "createdAt": 1768961298782,
           "awakeAt": 1769678136298,
@@ -12664,7 +12668,7 @@
           "experience": 2260,
           "lovedAt": 0,
           "item": "Petting Hand",
-          "healthCheckedAt": 1769557305609
+          "healthCheckedAt": 1769647038350
         },
         "3360cc60": {
           "id": "3360cc60",
@@ -12676,7 +12680,7 @@
           "experience": 2260,
           "lovedAt": 0,
           "item": "Petting Hand",
-          "healthCheckedAt": 1769557305609
+          "healthCheckedAt": 1769647038350
         },
         "458f4394": {
           "id": "458f4394",
@@ -12688,7 +12692,7 @@
           "experience": 2260,
           "lovedAt": 0,
           "item": "Petting Hand",
-          "healthCheckedAt": 1769557305609
+          "healthCheckedAt": 1769647038350
         },
         "5df00f0f": {
           "id": "5df00f0f",
@@ -12700,11 +12704,11 @@
           "experience": 2260,
           "lovedAt": 0,
           "item": "Petting Hand",
-          "healthCheckedAt": 1769557305609
+          "healthCheckedAt": 1769647038350
         },
         "6b69d2a0": {
           "id": "6b69d2a0",
-          "state": "idle",
+          "state": "sick",
           "type": "Chicken",
           "createdAt": 1768961299243,
           "awakeAt": 1769678142234,
@@ -12712,7 +12716,7 @@
           "experience": 2260,
           "lovedAt": 0,
           "item": "Petting Hand",
-          "healthCheckedAt": 1769557305609
+          "healthCheckedAt": 1769647038350
         },
         "c53b6c37": {
           "id": "c53b6c37",
@@ -12724,7 +12728,7 @@
           "experience": 2260,
           "lovedAt": 0,
           "item": "Petting Hand",
-          "healthCheckedAt": 1769557305609
+          "healthCheckedAt": 1769647038350
         },
         "d5117e62": {
           "id": "d5117e62",
@@ -12736,7 +12740,7 @@
           "experience": 2260,
           "lovedAt": 0,
           "item": "Petting Hand",
-          "healthCheckedAt": 1769557305609
+          "healthCheckedAt": 1769647038350
         },
         "e5ab0add": {
           "id": "e5ab0add",
@@ -12748,7 +12752,7 @@
           "experience": 2260,
           "lovedAt": 0,
           "item": "Petting Hand",
-          "healthCheckedAt": 1769557305609
+          "healthCheckedAt": 1769647038350
         },
         "f0e91553": {
           "id": "f0e91553",
@@ -12760,7 +12764,7 @@
           "experience": 2260,
           "lovedAt": 0,
           "item": "Petting Hand",
-          "healthCheckedAt": 1769557305609
+          "healthCheckedAt": 1769647038350
         },
         "0a8a2e0c": {
           "id": "0a8a2e0c",
@@ -14300,7 +14304,7 @@
       "Green Amulet": 1769624985974,
       "Green Thumb": 1769624986611,
       "Hectare Farm": 1769624986482,
-      "Humming Bird": 1769532858327,
+      "Humming Bird": 1769647066364,
       "Laurie the Chuckle Crow": 1769617164548,
       "Laurie's Gains": 1769617164548,
       "Lunar Calendar": 1769624986611,
@@ -14346,8 +14350,8 @@
       "Maneki Neko": 1769568962421,
       "Bee Suit": 1769595972406,
       "King of Bears": 1769595972406,
-      "Blooming Boost": 1769532939847,
-      "Flower Fox": 1769532939847,
+      "Blooming Boost": 1769647120439,
+      "Flower Fox": 1769647120439,
       "Alien Chicken": 1769617206225,
       "Ayam Cemani": 1769617206225,
       "Chicken Coop": 1769617206225,
@@ -14368,7 +14372,7 @@
       "Desert Gnome": 1769626313164,
       "Frosted Cakes": 1769596059486,
       "Heart of Davy Jones": 1769238599183,
-      "Desert Rose": 1769357125516,
+      "Desert Rose": 1769647064997,
       "Cabbage Girl": 1768718132648,
       "Barn Blueprint": 1769535703632,
       "Cabbage Boy": 1768718132648,
@@ -14394,8 +14398,8 @@
       "Young Farmer": 1769109317551,
       "Olive Royalty Shirt": 1769568920260,
       "Tofu Mask": 1769583808517,
-      "Chicory": 1769532858327,
-      "Butterfly": 1769472203856,
+      "Chicory": 1769647064997,
+      "Butterfly": 1769647064544,
       "Basic Scarecrow": 1769107285974,
       "Lemon Frog": 1769456385295,
       "Paw Shield": 1769536640015,
@@ -14446,7 +14450,7 @@
       "Drive-Through Deli": 1768503159098,
       "Fire Kissed": 1769268785542,
       "Midas Sprint": 1769556516070,
-      "Petalled Perk": 1769292963256,
+      "Petalled Perk": 1769647064997,
       "Fisherman's 5 Fold": 1769527813151,
       "Chef Apron": 1760626259595,
       "Reelmaster's Chair": 1769527813151,
@@ -14464,7 +14468,7 @@
       "Mole Shrine": 1766516923851,
       "Tortoise Shrine": 1769619510893,
       "Saw Fish": 1769625003851,
-      "Flower Power": 1769532939847,
+      "Flower Power": 1769647120439,
       "Kernaldo": 1768613069744,
       "Bionic Drill": 1769238599183,
       "Magma Stone": 1769490837812,
@@ -14472,14 +14476,14 @@
       "Broccoli Hat": 1769619544931
     },
     "socialFarming": {
-      "points": 15039,
+      "points": 15052,
       "villageProjects": {
         "Woodcutter's Monument": {
           "cheers": 1000,
           "winnerId": 4280
         },
         "Miner's Monument": {
-          "cheers": 1182,
+          "cheers": 1184,
           "winnerId": 1164010181301338
         },
         "Farmer's Monument": {
@@ -14487,23 +14491,23 @@
           "winnerId": 1213141032242343
         },
         "Big Banana": {
-          "cheers": 78,
+          "cheers": 80,
           "winnerId": 4076039234874805
         },
         "Expert Cooking Pot": {
-          "cheers": 36,
+          "cheers": 38,
           "winnerId": 8552262805676887
         },
         "Big Apple": {
-          "cheers": 27,
-          "winnerId": 1164010181301338
+          "cheers": 29,
+          "winnerId": 4076039234874805
         },
         "Cornucopia": {
-          "cheers": 24,
+          "cheers": 26,
           "winnerId": 175706
         },
         "Big Orange": {
-          "cheers": 3,
+          "cheers": 5,
           "winnerId": 4076039234874805
         }
       },
@@ -14521,32 +14525,32 @@
       },
       "dailyCollections": {},
       "clutter": {
-        "spawnedAt": 1769558425321,
+        "spawnedAt": 1769645984607,
         "locations": {
-          "038171fe": {
-            "type": "Dung",
-            "x": -3,
-            "y": -3
-          },
-          "1201efdc": {
-            "type": "Dung",
-            "x": 1,
-            "y": -1
-          },
-          "5cf58ae1": {
+          "003d580b": {
             "type": "Weed",
-            "x": 2,
+            "x": -1,
             "y": -2
           },
-          "cb9e6f63": {
+          "6a76f906": {
             "type": "Dung",
-            "x": -4,
+            "x": 1,
+            "y": -2
+          },
+          "76666a52": {
+            "type": "Dung",
+            "x": 1,
             "y": -3
           },
-          "e7c67263": {
+          "ae17b59c": {
+            "type": "Dung",
+            "x": -5,
+            "y": -2
+          },
+          "f1f4a1e9": {
             "type": "Weed",
-            "x": 0,
-            "y": -1
+            "x": -5,
+            "y": -2
           }
         }
       },
@@ -14562,7 +14566,7 @@
       },
       "weeklyPoints": {
         "week": "2026-01-26",
-        "points": 142
+        "points": 155
       },
       "helpedForCompetition": 143,
       "waves": {
@@ -14580,9 +14584,9 @@
           "energy": 25,
           "requests": {
             "food": [
-              "Carrot Juice",
-              "Potato Cake",
-              "Rice Bun"
+              "Mashed Potato",
+              "Kale Stew",
+              "Antipasto"
             ],
             "fedAt": 1761542148033
           },
@@ -14597,24 +14601,24 @@
         },
         "Barkley": {
           "name": "Barkley",
-          "experience": 35544,
+          "experience": 35564,
           "energy": 210,
           "requests": {
             "food": [
-              "Quick Juice",
-              "Cauliflower Burger",
-              "Wheat Cake"
+              "Cheese",
+              "Apple Pie",
+              "Pizza Margherita"
             ],
             "fedAt": 1769533178125
           },
-          "pettedAt": 1769624473206,
+          "pettedAt": 1769647055200,
           "fetches": {
             "Acorn": 1,
             "Chewed Bone": 24,
             "Ribbon": 1
           },
           "dailySocialXP": {
-            "2026-01-28": 25
+            "2026-01-29": 10
           }
         },
         "Twizzle": {
@@ -14623,8 +14627,8 @@
           "energy": 180,
           "requests": {
             "food": [
-              "Sunflower Crunch",
-              "Cauliflower Burger",
+              "Cheese",
+              "Bumpkin ganoush",
               "Slow Juice"
             ],
             "fedAt": 1761542136791
@@ -14641,39 +14645,39 @@
         },
         "Pip": {
           "name": "Pip",
-          "experience": 35327,
+          "experience": 35347,
           "energy": 2690,
           "requests": {
             "food": [
-              "Mashed Potato",
-              "Power Smoothie",
-              "Spaghetti al Limone"
+              "Cheese",
+              "Cabbers n Mash",
+              "Radish Cake"
             ],
             "fedAt": 1769533162733
           },
-          "pettedAt": 1769624474217,
+          "pettedAt": 1769647054234,
           "fetches": {
             "Frost Pebble": 12
           },
           "dailySocialXP": {
-            "2026-01-28": 25
+            "2026-01-29": 10
           }
         },
         "Mudhorn": {
           "name": "Mudhorn",
-          "experience": 7250,
+          "experience": 7270,
           "energy": 1825,
           "requests": {
             "food": [
-              "Roast Veggies",
-              "Bumpkin ganoush",
-              "Beetroot Cake"
+              "Mashed Potato",
+              "Fermented Carrots",
+              "Parsnip Cake"
             ],
             "fedAt": 1769533167843
           },
-          "pettedAt": 1769624473960,
+          "pettedAt": 1769647054443,
           "dailySocialXP": {
-            "2026-01-28": 25
+            "2026-01-29": 10
           },
           "fetches": {
             "Frost Pebble": 53,
@@ -14681,24 +14685,24 @@
           }
         }
       },
-      "requestsGeneratedAt": 1769558425321,
+      "requestsGeneratedAt": 1769647038350,
       "nfts": {
         "252": {
           "id": 252,
           "name": "Pet #252",
-          "experience": 24620,
+          "experience": 24640,
           "energy": 1140,
           "requests": {
             "food": [
-              "Club Sandwich",
-              "Potato Cake",
+              "Carrot Juice",
+              "Tofu Scramble",
               "Orange Juice",
-              "Bumpkin Roast",
-              "Eggplant Cake"
+              "Honey Cheddar",
+              "Steamed Red Rice"
             ],
             "fedAt": 1769533175452
           },
-          "pettedAt": 1769624473390,
+          "pettedAt": 1769647054964,
           "traits": {
             "type": "Phoenix",
             "fur": "Pink",
@@ -14707,7 +14711,7 @@
             "aura": "No Aura"
           },
           "dailySocialXP": {
-            "2026-01-28": 25
+            "2026-01-29": 10
           },
           "walking": false,
           "fetches": {
@@ -14723,19 +14727,19 @@
         "591": {
           "name": "Pet #591",
           "id": 591,
-          "experience": 27185,
+          "experience": 27205,
           "energy": 185,
           "requests": {
             "food": [
-              "Quick Juice",
-              "Pancakes",
-              "Fancy Fries",
-              "Eggplant Cake",
-              "Grape Juice"
+              "Club Sandwich",
+              "Sunflower Cake",
+              "Power Smoothie",
+              "Banana Blast",
+              "Caprese Salad"
             ],
             "fedAt": 1769533165340
           },
-          "pettedAt": 1769624472961,
+          "pettedAt": 1769647054054,
           "traits": {
             "type": "Bear",
             "fur": "Pink",
@@ -14744,7 +14748,7 @@
             "aura": "No Aura"
           },
           "dailySocialXP": {
-            "2026-01-28": 25
+            "2026-01-29": 10
           },
           "walking": false,
           "fetches": {
@@ -14759,19 +14763,19 @@
         "2949": {
           "id": 2949,
           "name": "Pet #2949",
-          "experience": 23625,
+          "experience": 23645,
           "energy": 105,
           "requests": {
             "food": [
-              "Cheese",
-              "Pancakes",
-              "Fancy Fries",
-              "Wheat Cake",
-              "Pizza Margherita"
+              "Mashed Potato",
+              "Cabbers n Mash",
+              "Blueberry Jam",
+              "Eggplant Cake",
+              "Cabbage Cake"
             ],
             "fedAt": 1769533170777
           },
-          "pettedAt": 1769624473611,
+          "pettedAt": 1769647054643,
           "traits": {
             "type": "Warthog",
             "fur": "Purple",
@@ -14780,7 +14784,7 @@
             "aura": "No Aura"
           },
           "dailySocialXP": {
-            "2026-01-28": 25
+            "2026-01-29": 10
           },
           "walking": false,
           "fetches": {
