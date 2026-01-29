@@ -1,7 +1,7 @@
 {
   "username": "riddlemeknot",
   "overview": {
-    "balance": 78.81,
+    "balance": 77.54,
     "coins": 52600.0,
     "gems": 0.0,
     "earned_sfl": 2068.8,
@@ -9,10 +9,34 @@
     "spent_sfl": 0.0,
     "items_sold": 99.0,
     "trade_points": 449.39,
-    "last_updated": "2026-01-29 08:58 PM",
+    "last_updated": "2026-01-29 09:14 PM",
     "active_listings": 1
   },
   "buys": [
+    {
+      "date": "2026-01-29",
+      "time": "09:06 PM",
+      "type": "BUY",
+      "item": "Honey",
+      "quantity": 13,
+      "price_text": "0.7798 SFL",
+      "price": 0.7798,
+      "counterparty": "Suzaku",
+      "farm_id": "-",
+      "trade_id": "6e3ca922"
+    },
+    {
+      "date": "2026-01-29",
+      "time": "09:05 PM",
+      "type": "BUY",
+      "item": "Lemon",
+      "quantity": 50,
+      "price_text": "0.4946 SFL",
+      "price": 0.4946,
+      "counterparty": "Dirk41",
+      "farm_id": "-",
+      "trade_id": "50dde475"
+    },
     {
       "date": "2026-01-28",
       "time": "12:13 PM",
@@ -618,22 +642,31 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 42,
+    "total_buys": 44,
     "total_sells": 8,
-    "buy_volume": 357.5535,
+    "buy_volume": 358.8279,
     "sell_volume": 0.8649,
-    "gross_profit": -356.6886,
-    "avg_buy_price": 8.513178571428572,
+    "gross_profit": -357.963,
+    "avg_buy_price": 8.155179545454546,
     "avg_sell_price": 0.1081125,
     "most_traded_items": {},
     "recent_activity": [
       {
         "type": "BUY",
-        "item": "Iron",
-        "quantity": 10,
-        "price": 0.6439,
-        "date": "2026-01-28",
-        "time": "12:13 PM",
+        "item": "Honey",
+        "quantity": 13,
+        "price": 0.7798,
+        "date": "2026-01-29",
+        "time": "09:06 PM",
+        "username": "riddlemeknot"
+      },
+      {
+        "type": "BUY",
+        "item": "Lemon",
+        "quantity": 50,
+        "price": 0.4946,
+        "date": "2026-01-29",
+        "time": "09:05 PM",
         "username": "riddlemeknot"
       },
       {
@@ -669,8 +702,15 @@
         "quantity": 10,
         "price": 0.6439,
         "date": "2026-01-28",
-        "time": "12:13 PM",
-        "username": "riddlemeknot"
+        "time": "12:13 PM"
+      },
+      {
+        "type": "BUY",
+        "item": "Iron",
+        "quantity": 10,
+        "price": 0.6439,
+        "date": "2026-01-28",
+        "time": "12:13 PM"
       },
       {
         "type": "BUY",
@@ -775,25 +815,9 @@
         "price": 0.3286,
         "date": "2026-01-21",
         "time": "09:13 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Barley",
-        "quantity": 100,
-        "price": 2.7387,
-        "date": "2026-01-21",
-        "time": "09:13 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Olive",
-        "quantity": 6,
-        "price": 2.526,
-        "date": "2026-01-21",
-        "time": "09:11 PM"
       }
     ],
-    "profit_margin": -99.75810612957223,
+    "profit_margin": -99.75896523096449,
     "most_bought_items": {
       "Sunflower": 3000,
       "Potato": 3000,
