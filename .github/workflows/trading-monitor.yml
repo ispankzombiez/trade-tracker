@@ -44,6 +44,7 @@ jobs:
         git config --local user.name "Trading Monitor Bot"
         git add -A
         git diff --staged --quiet || git commit -m "Update trading data - $(date '+%Y-%m-%d %H:%M:%S')"
+        git pull --rebase origin main
         git push
         
     - name: Generate dashboard data
