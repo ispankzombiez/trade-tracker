@@ -285,7 +285,17 @@ def update_marketplace_history(username: str, trades: List[Dict[str, Any]], hist
         return
     
     # Sort new trades by timestamp (newest first)
-    new_trades.sort(key=lambda x: x.get('fulfilledAt', 0), reverse=True)
+    # Handle both string and int types for fulfilledAt
+    def get_sort_key(trade):
+        fulfilled_at = trade.get('fulfilledAt', 0)
+        if isinstance(fulfilled_at, str):
+            try:
+                return int(fulfilled_at)
+            except (ValueError, TypeError):
+                return 0
+        return fulfilled_at if isinstance(fulfilled_at, (int, float)) else 0
+    
+    new_trades.sort(key=get_sort_key, reverse=True)
     
     try:
         # Read existing content
