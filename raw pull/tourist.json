@@ -21,7 +21,7 @@
       "Olive Seed": "60",
       "Onion Seed": "302",
       "Turnip Seed": "203",
-      "Artichoke Seed": "139",
+      "Artichoke Seed": "74",
       "Edelweiss Seed": "13",
       "Gladiolus Seed": "13",
       "Lavender Seed": "13",
@@ -35,11 +35,11 @@
       "Cauliflower": "28916.471599999999535",
       "Parsnip": "5.925399999999665",
       "Radish": "99147.304",
-      "Wheat": "18457.567599999997657",
+      "Wheat": "18417.567599999997657",
       "Kale": "26.61999999999808",
       "Apple": "408.5000000000000464",
-      "Blueberry": "26.3900000000011466",
-      "Orange": "1382.490000000001301",
+      "Blueberry": "6.3900000000011466",
+      "Orange": "1372.490000000001301",
       "Eggplant": "31425.129799999999799",
       "Corn": "1484.572399999998689",
       "Banana": "5.5600000000003673",
@@ -76,13 +76,13 @@
       "Purple Lotus": "20",
       "White Lotus": "29",
       "Blue Lotus": "16",
-      "Soybean": "56683.52629999999678",
+      "Soybean": "56761.58629999999678",
       "Grape": "299.300000000001401",
       "Rice": "826.4088",
       "Olive": "1671.5208",
       "Tomato": "1498.1800000000078804",
-      "Lemon": "1389.5800000000046292",
-      "Barley": "6227.082099999998264",
+      "Lemon": "1239.5800000000046292",
+      "Barley": "7012.812099999998264",
       "Rhubarb": "44739.30749999960842",
       "Zucchini": "297620.3145999998891",
       "Yam": "4498.957699999976079",
@@ -221,7 +221,7 @@
       "Pumpkin Soup": "1195",
       "Sauerkraut": "200",
       "Sunflower Cake": "198",
-      "Potato Cake": "198",
+      "Potato Cake": "200",
       "Pumpkin Cake": "201",
       "Carrot Cake": "192",
       "Cabbage Cake": "194",
@@ -273,12 +273,12 @@
       "The Lot": "316",
       "Tofu Scramble": "300",
       "Paella": "1",
-      "Cheese": "435",
+      "Cheese": "425",
       "Wood": "256154.03",
       "Stone": "12308.35",
       "Iron": "5678.3",
       "Gold": "2757.0812499999999999",
-      "Egg": "5266.95",
+      "Egg": "5206.95",
       "Chicken": "30",
       "Speed Chicken": "2",
       "Fat Chicken": "4",
@@ -303,10 +303,10 @@
       "Flower Bed": "3",
       "Crimstone Rock": "5",
       "Crimstone": "740.875000000000001",
-      "Oil": "5407.02042026850518",
+      "Oil": "5569.49542026850518",
       "Oil Reserve": "4",
-      "Leather": "852.7",
-      "Wool": "523.6",
+      "Leather": "848.7",
+      "Wool": "518.6",
       "Merino Wool": "1978.1",
       "Feather": "9883.7",
       "Milk": "5.75",
@@ -529,9 +529,9 @@
       "Sea Horse": "598",
       "Horse Mackerel": "64",
       "Squid": "85",
-      "Red Snapper": "3173",
-      "Moray Eel": "2364",
-      "Napoleanfish": "539",
+      "Red Snapper": "3167",
+      "Moray Eel": "2362",
+      "Napoleanfish": "537",
       "Surgeonfish": "309",
       "Zebra Turkeyfish": "256",
       "Ray": "31",
@@ -911,7 +911,7 @@
       "Angelfish": "291",
       "Honey Cheddar": "10",
       "Isopod": "92",
-      "Doll": "230",
+      "Doll": "231",
       "Moonfur": "1",
       "Stone Pickaxe": "126",
       "Octopus": "6",
@@ -942,19 +942,20 @@
       "Zucchini Seed": "120",
       "Heart leaf": "10",
       "Ruffroot": "10",
-      "Crab Stick": "4",
+      "Crab Stick": "5",
       "Barnacle": "18",
       "Soybean Seed": "457",
       "Wild Grass": "10",
-      "Spaghetti al Limone": "13",
+      "Spaghetti al Limone": "15",
       "Chewed Bone": "10",
-      "Sour Shake": "137",
+      "Sour Shake": "143",
       "Fermented Fish": "4",
       "Big Orange": "1",
       "Lobster": "18",
       "Pizza Margherita": "6",
-      "Blue Cheese": "7",
-      "Big Apple": "1"
+      "Blue Cheese": "9",
+      "Big Apple": "1",
+      "Barley Seed": "2"
     },
     "previousInventory": {
       "Carrot Seed": "507",
@@ -5150,17 +5151,10 @@
         "y": 13,
         "height": 1,
         "crop": {
-          "id": "5aa13904",
-          "plantedAt": 1769504677920.3,
-          "boostedTime": 165161098.70004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "2edc2ecd",
+          "plantedAt": 1769570885126.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "2": {
@@ -5170,17 +5164,10 @@
         "y": 12,
         "height": 1,
         "crop": {
-          "id": "15117fd3",
-          "plantedAt": 1769504675255.3,
-          "boostedTime": 165158433.70004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "764d894a",
+          "plantedAt": 1769570872248.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "3": {
@@ -5190,17 +5177,10 @@
         "y": 13,
         "height": 1,
         "crop": {
-          "id": "9dfaaefc",
-          "plantedAt": 1769504675178.8,
-          "boostedTime": 165158357.20004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "9213c430",
+          "plantedAt": 1769570871780.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "4": {
@@ -5210,17 +5190,10 @@
         "y": 12,
         "height": 1,
         "crop": {
-          "id": "aedf87be",
-          "plantedAt": 1769504678415.8,
-          "boostedTime": 165161594.20004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "1ebef996",
+          "plantedAt": 1769570885581.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "5": {
@@ -5230,17 +5203,10 @@
         "y": 8,
         "height": 1,
         "crop": {
-          "id": "74949618",
-          "plantedAt": 1769504671515.3,
-          "boostedTime": 165154693.70004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 1
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "c051eb4b",
+          "plantedAt": 1769570862189.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "6": {
@@ -5250,17 +5216,10 @@
         "y": 15,
         "height": 1,
         "crop": {
-          "id": "770eff85",
-          "plantedAt": 1769504674244.8,
-          "boostedTime": 165157423.20004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "4f5f5d8a",
+          "plantedAt": 1769570871285.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "7": {
@@ -5270,17 +5229,10 @@
         "y": 14,
         "height": 1,
         "crop": {
-          "id": "b75c8f17",
-          "plantedAt": 1769504656888.8,
-          "boostedTime": 165140067.20004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "1c3e6be3",
+          "plantedAt": 1769570888781.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "8": {
@@ -5290,17 +5242,10 @@
         "y": 14,
         "height": 1,
         "crop": {
-          "id": "03ec9ffd",
-          "plantedAt": 1769504677714.8,
-          "boostedTime": 165160893.20004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "b10c0203",
+          "plantedAt": 1769570884305.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "9": {
@@ -5310,17 +5255,10 @@
         "y": 13,
         "height": 1,
         "crop": {
-          "id": "3bda0947",
-          "plantedAt": 1769504658914.8,
-          "boostedTime": 165142093.20004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 1
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "afa3670e",
+          "plantedAt": 1769570889682.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "10": {
@@ -5330,17 +5268,10 @@
         "y": 14,
         "height": 1,
         "crop": {
-          "id": "db8cd857",
-          "plantedAt": 1769504674812.8,
-          "boostedTime": 165157991.20004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "627c87e4",
+          "plantedAt": 1769570870360.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "11": {
@@ -5350,17 +5281,10 @@
         "y": 10,
         "height": 1,
         "crop": {
-          "id": "0668a03f",
-          "plantedAt": 1769504657689.8,
-          "boostedTime": 165140868.20004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "036adbd4",
+          "plantedAt": 1769570886983.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "12": {
@@ -5370,17 +5294,10 @@
         "y": 10,
         "height": 1,
         "crop": {
-          "id": "c48db967",
-          "plantedAt": 1769504673451.8,
-          "boostedTime": 165156630.20004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "a9758e70",
+          "plantedAt": 1769570873752.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "13": {
@@ -5390,13 +5307,10 @@
         "y": 8,
         "height": 1,
         "crop": {
-          "id": "7de9c8e6",
-          "plantedAt": 1769666921501,
-          "boostedTime": 8680797,
-          "name": "Soybean",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "a1683400",
+          "plantedAt": 1769571025102.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "14": {
@@ -5406,17 +5320,10 @@
         "y": 10,
         "height": 1,
         "crop": {
-          "id": "61f6f39f",
-          "plantedAt": 1769504679436.8,
-          "boostedTime": 165162615.20004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "a042833c",
+          "plantedAt": 1769570882835.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "15": {
@@ -5426,17 +5333,10 @@
         "y": 14,
         "height": 1,
         "crop": {
-          "id": "58a66088",
-          "plantedAt": 1769504674712.8,
-          "boostedTime": 165157891.20004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "380b05eb",
+          "plantedAt": 1769570867123.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "16": {
@@ -5446,17 +5346,10 @@
         "y": 11,
         "height": 1,
         "crop": {
-          "id": "a3586b55",
-          "plantedAt": 1769504678727.8,
-          "boostedTime": 165161906.20004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "c32f45f5",
+          "plantedAt": 1769570881569.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "17": {
@@ -5466,17 +5359,10 @@
         "y": 11,
         "height": 1,
         "crop": {
-          "id": "05b82958",
-          "plantedAt": 1769504673741.3,
-          "boostedTime": 165156919.70004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "854e0b37",
+          "plantedAt": 1769570869297.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "18": {
@@ -5486,13 +5372,10 @@
         "y": 9,
         "height": 1,
         "crop": {
-          "id": "67e861c0",
-          "plantedAt": 1769666919568,
-          "boostedTime": 8680797,
-          "name": "Soybean",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "35f6bc01",
+          "plantedAt": 1769571026105.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "55728747": {
@@ -5502,13 +5385,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "558aeb29",
-          "plantedAt": 1769666919102,
-          "boostedTime": 8680797,
-          "name": "Soybean",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "3dd5dfda",
+          "plantedAt": 1769571026475.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "0d94eb58": {
@@ -5518,17 +5398,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "54f59190",
-          "plantedAt": 1769504657395.8,
-          "boostedTime": 165140574.20004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "d777d91f",
+          "plantedAt": 1769570887881.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "1871dea7": {
@@ -5538,17 +5411,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "112d6e0a",
-          "plantedAt": 1769504658592.8,
-          "boostedTime": 165141771.20004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "e76d7677",
+          "plantedAt": 1769570890621.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "1be7a8ad": {
@@ -5558,13 +5424,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "a464ef3c",
-          "plantedAt": 1769666921100,
-          "boostedTime": 8680797,
-          "name": "Soybean",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "35317b3c",
+          "plantedAt": 1769571024675.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "3580b504": {
@@ -5574,17 +5437,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "09b92f87",
-          "plantedAt": 1769504675094.3,
-          "boostedTime": 165158272.70004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "306cfa9a",
+          "plantedAt": 1769570870831.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "3ba0ba8d": {
@@ -5594,17 +5450,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "c9e2c8ff",
-          "plantedAt": 1769504678019.3,
-          "boostedTime": 165161197.70004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "ed32a072",
+          "plantedAt": 1769570879117.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "4b25ecbf": {
@@ -5614,17 +5463,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "38d90ad9",
-          "plantedAt": 1769504658149.8,
-          "boostedTime": 165141328.20004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "36df1a75",
+          "plantedAt": 1769570893741.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "4c94daf0": {
@@ -5634,17 +5476,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "2930134c",
-          "plantedAt": 1769504674897.3,
-          "boostedTime": 165158075.70004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "113c702a",
+          "plantedAt": 1769570869916.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "55924cce": {
@@ -5654,17 +5489,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "5caa18fd",
-          "plantedAt": 1769504678213.8,
-          "boostedTime": 165161392.20004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "3a1a4a9c",
+          "plantedAt": 1769570881115.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "6f1f4a38": {
@@ -5674,17 +5502,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "7ff2f0cf",
-          "plantedAt": 1769504676666.8,
-          "boostedTime": 165159845.20004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "da4d42ce",
+          "plantedAt": 1769570876016.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "6f9167f1": {
@@ -5694,17 +5515,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "630db5d6",
-          "plantedAt": 1769504676150.3,
-          "boostedTime": 165159328.70004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "1e69ab4b",
+          "plantedAt": 1769570878037.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "a295f366": {
@@ -5714,17 +5528,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "a72be640",
-          "plantedAt": 1769504678640.8,
-          "boostedTime": 165161819.20004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "8167bc99",
+          "plantedAt": 1769570883303.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "a7c097e1": {
@@ -5734,17 +5541,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "2c4684c8",
-          "plantedAt": 1769504678120.8,
-          "boostedTime": 165161299.20004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "65158319",
+          "plantedAt": 1769570880725.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "ba6f0db5": {
@@ -5754,17 +5554,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "d9880980",
-          "plantedAt": 1769504679495.3,
-          "boostedTime": 165162673.70004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "f86a3250",
+          "plantedAt": 1769570886515.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "cdd3ed9d": {
@@ -5774,17 +5567,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "49d2f700",
-          "plantedAt": 1769504673604.8,
-          "boostedTime": 165156783.20004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "d9d50e62",
+          "plantedAt": 1769570872712.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "dca3a4b5": {
@@ -5794,17 +5580,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "b49fa2ea",
-          "plantedAt": 1769504673081.8,
-          "boostedTime": 165156260.20004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "e8cbe32b",
+          "plantedAt": 1769570868563.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "f10693df": {
@@ -5814,17 +5593,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "04d229c6",
-          "plantedAt": 1769504657539.3,
-          "boostedTime": 165140717.70004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "65690df5",
+          "plantedAt": 1769570887407.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "0d1b896f": {
@@ -5834,17 +5606,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "8433cd18",
-          "plantedAt": 1769504676773.3,
-          "boostedTime": 165159951.70004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "58a9e9e6",
+          "plantedAt": 1769570875583.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "430d73bc": {
@@ -5854,13 +5619,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "dda045ce",
-          "plantedAt": 1769666919987,
-          "boostedTime": 8680797,
-          "name": "Soybean",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "d0943367",
+          "plantedAt": 1769571025576.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "7760db3d": {
@@ -5870,17 +5632,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "c87f09c6",
-          "plantedAt": 1769504673376.8,
-          "boostedTime": 165156555.20004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "82f77631",
+          "plantedAt": 1769570873194.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "bac1131d": {
@@ -5890,17 +5645,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "2ffeef3b",
-          "plantedAt": 1769504678533.8,
-          "boostedTime": 165161712.20004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "c8d92080",
+          "plantedAt": 1769570886046.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "c44a290d": {
@@ -5910,17 +5658,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "433a0efd",
-          "plantedAt": 1769504657920.8,
-          "boostedTime": 165141099.20004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "1097dacf",
+          "plantedAt": 1769570892341.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "dfa9158b": {
@@ -5930,17 +5671,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "c1b307a1",
-          "plantedAt": 1769504672141.3,
-          "boostedTime": 165155319.70004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "ca3e4675",
+          "plantedAt": 1769570864497.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "2a0e7a37": {
@@ -5950,17 +5684,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "64712131",
-          "plantedAt": 1769504658434.3,
-          "boostedTime": 165141612.70004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "785d848d",
+          "plantedAt": 1769570891076.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "a69e218d": {
@@ -5970,17 +5697,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "4216ff29",
-          "plantedAt": 1769504671762.8,
-          "boostedTime": 165154941.20004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "0b1a51d8",
+          "plantedAt": 1769570863144.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "afca210e": {
@@ -5990,17 +5710,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "13bfc6e7",
-          "plantedAt": 1769504673235.3,
-          "boostedTime": 165156413.70004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 1
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "65ac4403",
+          "plantedAt": 1769570874248.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "b1ff304e": {
@@ -6010,17 +5723,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "6076b133",
-          "plantedAt": 1769504677615.3,
-          "boostedTime": 165160793.70004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "138e3b4e",
+          "plantedAt": 1769570880299.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "f4f6cc83": {
@@ -6030,17 +5736,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "2dd34149",
-          "plantedAt": 1769504672071.8,
-          "boostedTime": 165155250.20004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "8d2c4556",
+          "plantedAt": 1769570864052.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "14be9f50": {
@@ -6050,17 +5749,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "d5b8b0a7",
-          "plantedAt": 1769504678315.8,
-          "boostedTime": 165161494.20004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "f0e54284",
+          "plantedAt": 1769570879637.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "16cd40bc": {
@@ -6070,17 +5762,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "9fa4d40a",
-          "plantedAt": 1769504675000.3,
-          "boostedTime": 165158178.70004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "65d14086",
+          "plantedAt": 1769570869454.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "224384c4": {
@@ -6090,17 +5775,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "e0bcf072",
-          "plantedAt": 1769504673917.3,
-          "boostedTime": 165157095.70004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "a59ad34a",
+          "plantedAt": 1769570866530.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "5be7a88e": {
@@ -6110,17 +5788,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "d663c896",
-          "plantedAt": 1769504676560.8,
-          "boostedTime": 165159739.20004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "cfdabf4c",
+          "plantedAt": 1769570876486.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "611cfde4": {
@@ -6130,17 +5801,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "608d391f",
-          "plantedAt": 1769504657235.8,
-          "boostedTime": 165140414.20004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "1825ec67",
+          "plantedAt": 1769570888324.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "74db76a8": {
@@ -6150,17 +5814,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "72780d68",
-          "plantedAt": 1769504676244.8,
-          "boostedTime": 165159423.20004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "74d492b1",
+          "plantedAt": 1769570877423.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "e19f5b12": {
@@ -6170,17 +5827,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "8f40db76",
-          "plantedAt": 1769504658754.3,
-          "boostedTime": 165141932.70004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "ac7c9a14",
+          "plantedAt": 1769570890156.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "34b85d89": {
@@ -6190,13 +5840,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "9480756c",
-          "plantedAt": 1769666921977,
-          "boostedTime": 8680797,
-          "name": "Soybean",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "35e65046",
+          "plantedAt": 1769571024194.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "51437be4": {
@@ -6206,17 +5853,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "53ddb3e1",
-          "plantedAt": 1769504676461.8,
-          "boostedTime": 165159640.20004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "0cae1844",
+          "plantedAt": 1769570876951.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "81ee3fee": {
@@ -6226,17 +5866,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "d4ebe997",
-          "plantedAt": 1769504671962.8,
-          "boostedTime": 165155141.20004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "c9862817",
+          "plantedAt": 1769570863595.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "27114ec0": {
@@ -6246,17 +5879,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "526391ea",
-          "plantedAt": 1769504658001.8,
-          "boostedTime": 165141180.20004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 1
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "7f12fdda",
+          "plantedAt": 1769570893316.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "4ab538a1": {
@@ -6266,17 +5892,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "acf756d3",
-          "plantedAt": 1769504672307.3,
-          "boostedTime": 165155485.70004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "31d5e009",
+          "plantedAt": 1769570864936.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "07bf5021": {
@@ -6286,17 +5905,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "3961d2ea",
-          "plantedAt": 1769504658287.3,
-          "boostedTime": 165141465.70004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "9e705dc6",
+          "plantedAt": 1769570891503.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "a3bc239d": {
@@ -6306,17 +5918,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "3646fbc0",
-          "plantedAt": 1769504677815.3,
-          "boostedTime": 165160993.70004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "7d8c267b",
+          "plantedAt": 1769570884683.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "f6593b9c": {
@@ -6326,17 +5931,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "de583431",
-          "plantedAt": 1769504676851.3,
-          "boostedTime": 165160029.70004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 1
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "2e41d0b5",
+          "plantedAt": 1769570875128.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "3131682c": {
@@ -6346,17 +5944,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "f0279d41",
-          "plantedAt": 1769504672997.3,
-          "boostedTime": 165156175.70004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 1
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "4ed4154a",
+          "plantedAt": 1769570868006.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "53feca10": {
@@ -6366,17 +5957,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "e447b24b",
-          "plantedAt": 1769504659073.8,
-          "boostedTime": 165142252.20004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "ef4c52dd",
+          "plantedAt": 1769570889220.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "449a1af1": {
@@ -6386,17 +5970,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "d97d1ffe",
-          "plantedAt": 1769504679353.3,
-          "boostedTime": 165162531.70004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "e8786fa3",
+          "plantedAt": 1769570882300.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       },
       "5be8ef1c": {
@@ -6406,17 +5983,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "c4354937",
-          "plantedAt": 1769504671672.3,
-          "boostedTime": 165154850.70004883,
-          "name": "Barley",
-          "criticalHit": {
-            "Green Amulet": 1
-          }
-        },
-        "fertiliser": {
-          "name": "Rapid Root",
-          "fertilisedAt": 1769669858560
+          "id": "34439c61",
+          "plantedAt": 1769570862674.4,
+          "boostedTime": 106712607.60000001,
+          "name": "Artichoke"
         }
       }
     },
@@ -6640,9 +6210,9 @@
         "height": 2,
         "oil": {
           "amount": 22.15,
-          "drilledAt": 1769605542714
+          "drilledAt": 1769634438613
         },
-        "drilled": 968,
+        "drilled": 969,
         "createdAt": 0
       },
       "67622be4": {
@@ -6653,9 +6223,9 @@
         "height": 2,
         "oil": {
           "amount": 22.15,
-          "drilledAt": 1769605543303
+          "drilledAt": 1769634439302
         },
-        "drilled": 968
+        "drilled": 969
       },
       "159fbe6a": {
         "createdAt": 1738192293685,
@@ -6665,9 +6235,9 @@
         "height": 2,
         "oil": {
           "amount": 42.15,
-          "drilledAt": 1769605543036
+          "drilledAt": 1769634439021
         },
-        "drilled": 967
+        "drilled": 968
       },
       "ec07dedc": {
         "height": 2,
@@ -6675,10 +6245,10 @@
         "x": -15,
         "y": 0,
         "createdAt": 1739057251187,
-        "drilled": 941,
+        "drilled": 942,
         "oil": {
           "amount": 22.15,
-          "drilledAt": 1769605542521
+          "drilledAt": 1769634438255
         }
       }
     },
@@ -9818,16 +9388,6 @@
               "skills": {
                 "Double Nom": true
               },
-              "readyAt": 1769677625119
-            },
-            {
-              "name": "Spaghetti al Limone",
-              "boost": {
-                "Oil": 3.125
-              },
-              "skills": {
-                "Double Nom": true
-              },
               "readyAt": 1769684596181.5
             },
             {
@@ -9849,6 +9409,16 @@
                 "Double Nom": true
               },
               "readyAt": 1769698538306.5
+            },
+            {
+              "name": "Spaghetti al Limone",
+              "boost": {
+                "Oil": 3.125
+              },
+              "skills": {
+                "Double Nom": true
+              },
+              "readyAt": 1769705509369
             }
           ]
         }
@@ -9987,7 +9557,7 @@
             "y": -1
           },
           "readyAt": 1738220541829,
-          "oil": 38.33333333333332,
+          "oil": 37.333333333333314,
           "crafting": [
             {
               "name": "Sour Shake",
@@ -9997,37 +9567,37 @@
               "skills": {
                 "Double Nom": true
               },
-              "readyAt": 1769677104617
-            },
-            {
-              "name": "Sour Shake",
-              "boost": {
-                "Oil": 0.3333333333333333
-              },
-              "skills": {
-                "Double Nom": true
-              },
-              "readyAt": 1769677827542
-            },
-            {
-              "name": "Sour Shake",
-              "boost": {
-                "Oil": 0.3333333333333333
-              },
-              "skills": {
-                "Double Nom": true
-              },
-              "readyAt": 1769678550467
-            },
-            {
-              "name": "Sour Shake",
-              "boost": {
-                "Oil": 0.3333333333333333
-              },
-              "skills": {
-                "Double Nom": true
-              },
               "readyAt": 1769679273392
+            },
+            {
+              "name": "Sour Shake",
+              "boost": {
+                "Oil": 0.3333333333333333
+              },
+              "skills": {
+                "Double Nom": true
+              },
+              "readyAt": 1769679996317
+            },
+            {
+              "name": "Sour Shake",
+              "boost": {
+                "Oil": 0.3333333333333333
+              },
+              "skills": {
+                "Double Nom": true
+              },
+              "readyAt": 1769680719242
+            },
+            {
+              "name": "Sour Shake",
+              "boost": {
+                "Oil": 0.3333333333333333
+              },
+              "skills": {
+                "Double Nom": true
+              },
+              "readyAt": 1769681442167
             }
           ]
         }
@@ -10041,18 +9611,8 @@
             "y": -1
           },
           "readyAt": 1738226488148,
-          "oil": 58.5,
+          "oil": 60,
           "crafting": [
-            {
-              "name": "Blue Cheese",
-              "boost": {
-                "Oil": 1.5
-              },
-              "skills": {
-                "Double Nom": true
-              },
-              "readyAt": 1769678424333
-            },
             {
               "name": "Blue Cheese",
               "boost": {
@@ -10082,6 +9642,16 @@
                 "Double Nom": true
               },
               "readyAt": 1769682142233
+            },
+            {
+              "name": "Blue Cheese",
+              "boost": {
+                "Oil": 1.5
+              },
+              "skills": {
+                "Double Nom": true
+              },
+              "readyAt": 1769683381533
             }
           ]
         }
@@ -10095,18 +9665,8 @@
             "y": -1
           },
           "readyAt": 1738272414900,
-          "oil": 50,
+          "oil": 48.333333333333336,
           "crafting": [
-            {
-              "name": "Potato Cake",
-              "boost": {
-                "Oil": 4.375
-              },
-              "skills": {
-                "Double Nom": true
-              },
-              "readyAt": 1769677099139.875
-            },
             {
               "name": "Apple Pie",
               "boost": {
@@ -10136,6 +9696,16 @@
                 "Double Nom": true
               },
               "readyAt": 1769684886074.875
+            },
+            {
+              "name": "Orange Cake",
+              "boost": {
+                "Oil": 1.6666666666666665
+              },
+              "skills": {
+                "Double Nom": true
+              },
+              "readyAt": 1769687302709.875
             }
           ]
         }
@@ -10193,17 +9763,6 @@
           "processing": [
             {
               "name": "Crab Stick",
-              "readyAt": 1769677204262,
-              "startedAt": 1769662804262,
-              "requirements": {
-                "Barnacle": "2",
-                "Crab": "1",
-                "Lobster": "2",
-                "Shrimp": "2"
-              }
-            },
-            {
-              "name": "Crab Stick",
               "readyAt": 1769691604262,
               "startedAt": 1769677204262,
               "requirements": {
@@ -10227,6 +9786,16 @@
               "name": "Fish Stick",
               "readyAt": 1769706004262,
               "startedAt": 1769698804262,
+              "requirements": {
+                "Moray Eel": "2",
+                "Napoleanfish": "2",
+                "Red Snapper": "6"
+              }
+            },
+            {
+              "name": "Fish Stick",
+              "readyAt": 1769713204262,
+              "startedAt": 1769706004262,
               "requirements": {
                 "Moray Eel": "2",
                 "Napoleanfish": "2",
@@ -15137,7 +14706,7 @@
       "Weakfish Bountied": 4,
       "Yellow Lavender Bountied": 4,
       "Timber Crafted": 253,
-      "Doll Crafted": 960,
+      "Doll Crafted": 961,
       "Gilded Doll Crafted": 73,
       "Gilded Doll Bountied": 12,
       "Crude Doll Crafted": 47,
@@ -15463,7 +15032,7 @@
       "Whale Bear Dug": 4,
       "Cauliflower Cake Dug": 55,
       "Stone Pickaxe Crafted": 31880,
-      "Soybean Harvested": 76033,
+      "Soybean Harvested": 76039,
       "Grape Harvested": 1510,
       "Lily Seed Planted": 410,
       "Kale Stew Cooked": 2104,
@@ -15514,7 +15083,7 @@
       "Grape Seed Bought": 1538,
       "Orange Monarch Dress Bought": 3,
       "Corn Sold": 7607.8118,
-      "Potato Cake Cooked": 281,
+      "Potato Cake Cooked": 282,
       "Apple Juice Fed": 996,
       "Kale Harvested": 10205,
       "Bumpkin Salad Dug": 73,
@@ -15693,7 +15262,7 @@
       "Sheep Bought": 368,
       "Sheep Fed": 14025,
       "Cow Bought": 380,
-      "Barley Harvested": 11999,
+      "Barley Harvested": 12058,
       "Adrift Ark Crafted": 1,
       "Castellan Crafted": 2,
       "Feather Collected": 18865,
@@ -15710,13 +15279,13 @@
       "NutriBarley Mixed": 5007,
       "Treasure Key Bought": 6,
       "Mixed Grain Mixed": 5141,
-      "Sour Shake Cooked": 6474,
+      "Sour Shake Cooked": 6477,
       "Cheese Cooked": 18877,
       "Honey Cheddar Cooked": 239,
       "Pizza Margherita Cooked": 1674,
       "Caprese Salad Cooked": 642,
       "Cowboy Hat Bought": 1,
-      "Blue Cheese Cooked": 1057,
+      "Blue Cheese Cooked": 1058,
       "Lemon Cheesecake Cooked": 572,
       "Omnifeed Mixed": 3593,
       "Sheep Cured": 169,
@@ -15727,7 +15296,7 @@
       "Meteorite Bought": 2,
       "Sleepy Rug Bought": 1,
       "Sand Sold": 1,
-      "Spaghetti al Limone Cooked": 1354,
+      "Spaghetti al Limone Cooked": 1355,
       "Paella Bought": 1,
       "Sushi Roll Cooked": 926,
       "Dream Scarf Bought": 1,
@@ -15761,7 +15330,7 @@
       "Clover Seed Bought": 146,
       "Yam Planted": 26877,
       "Yam Harvested": 29297,
-      "Artichoke Planted": 6511,
+      "Artichoke Planted": 6576,
       "Shroom Syrup Fed": 348,
       "Sushi Roll Fed": 1798,
       "Honey Cheddar Fed": 401,
@@ -15786,7 +15355,7 @@
       "Edelweiss Seed Planted": 151,
       "Beetroot Blaze Fed": 15,
       "Kite Bought": 1,
-      "Oil Drilled": 3776,
+      "Oil Drilled": 3780,
       "Lavender Seed Bought": 172,
       "Rhubarb Planted": 50719,
       "Rhubarb Harvested": 57709,
@@ -16042,7 +15611,7 @@
       "Barnacle Caught": 30,
       "Raffle Won": 1,
       "Pet Cookie Collected": 1419,
-      "Crab Stick Processed": 6,
+      "Crab Stick Processed": 7,
       "Octopus Caught": 6,
       "Sea Urchin Caught": 6,
       "Horseshoe Crab Caught": 6,
@@ -20600,8 +20169,8 @@
     },
     "craftingBox": {
       "status": "crafting",
-      "startedAt": 1769676685034,
-      "readyAt": 1769678710034,
+      "startedAt": 1769678718102,
+      "readyAt": 1769680743102,
       "recipes": {},
       "item": {
         "collectible": "Doll"
@@ -20696,7 +20265,7 @@
     "aoe": {
       "Gnome": {
         "0": {
-          "1": 1769669714012
+          "1": 1769677601217
         }
       },
       "Scary Mike": {
@@ -20706,8 +20275,8 @@
           "-3": 1769667569446,
           "-4": 1769667566116,
           "-5": 1769667564097,
-          "-6": 1769667562172,
-          "-7": 1769667560016
+          "-6": 1769677738921,
+          "-7": 1769677736646
         },
         "1": {
           "-1": 1769667575061,
@@ -20715,8 +20284,8 @@
           "-3": 1769667569786,
           "-4": 1769667565758,
           "-5": 1769667564606,
-          "-6": 1769667561654,
-          "-7": 1769667560319
+          "-6": 1769677738653,
+          "-7": 1769677737131
         },
         "2": {
           "-1": 1769667575385,
@@ -20724,8 +20293,8 @@
           "-3": 1769667570279,
           "-4": 1769667565409,
           "-5": 1769667564938,
-          "-6": 1769667560931,
-          "-7": 1769667560635
+          "-6": 1769677738023,
+          "-7": 1769677737558
         },
         "3": {
           "-1": 1769669714012,
@@ -20764,24 +20333,24 @@
       },
       "Sir Goldensnout": {
         "0": {
-          "1": 1769669745289,
-          "-2": 1769669764853
+          "1": 1769677578982,
+          "-2": 1769677580457
         },
         "1": {
-          "1": 1769669766868,
-          "-2": 1769669765100
+          "1": 1769677581475,
+          "-2": 1769677581005
         },
         "2": {
-          "0": 1769669766150,
-          "1": 1769669766318,
-          "-1": 1769669765911,
-          "-2": 1769669765351
+          "0": 1769677586186,
+          "1": 1769677585153,
+          "-1": 1769677585625,
+          "-2": 1769677586679
         },
         "-1": {
-          "0": 1769669736975,
-          "1": 1769669736602,
-          "-1": 1769669781894,
-          "-2": 1769669781494
+          "0": 1769677575590,
+          "1": 1769677576042,
+          "-1": 1769677575140,
+          "-2": 1769677574634
         }
       },
       "Tin Turtle": {
@@ -20804,65 +20373,65 @@
         "0": {
           "-7": 1769675601621,
           "-6": 1769675600180,
-          "-5": 1769666399479,
-          "-4": 1769666399830,
-          "-3": 1769666399987,
-          "-2": 1769666400329,
-          "-1": 1769666400498
+          "-5": 1769677595265,
+          "-4": 1769677595745,
+          "-3": 1769677592085,
+          "-2": 1769677591555,
+          "-1": 1769677596843
         },
         "1": {
           "-7": 1769675602068,
           "-6": 1769675600613,
-          "-5": 1769666402007,
-          "-4": 1769666401932,
-          "-3": 1769666401478,
-          "-2": 1769666401218,
-          "-1": 1769666400837
+          "-5": 1769677598948,
+          "-4": 1769677598491,
+          "-3": 1769677598021,
+          "-2": 1769677597561,
+          "-1": 1769677597102
         },
         "2": {
-          "-7": 1769666402688,
-          "-6": 1769666403005,
-          "-5": 1769666403354,
-          "-4": 1769666403696,
-          "-3": 1769666404033,
-          "-2": 1769666404211,
-          "-1": 1769666404385
+          "-7": 1769677605765,
+          "-6": 1769677604766,
+          "-5": 1769677599420,
+          "-4": 1769677599849,
+          "-3": 1769677600321,
+          "-2": 1769677600779,
+          "-1": 1769677601217
         },
         "3": {
-          "-7": 1769666406842,
-          "-6": 1769666406540,
-          "-5": 1769666406041,
-          "-4": 1769666406957,
-          "-3": 1769666405562,
-          "-2": 1769666405243,
-          "-1": 1769666404891
+          "-7": 1769677606198,
+          "-6": 1769677603953,
+          "-5": 1769677603523,
+          "-4": 1769677603067,
+          "-3": 1769677602573,
+          "-2": 1769677602109,
+          "-1": 1769677601641
         },
         "-3": {
-          "-7": 1769666395333,
-          "-6": 1769666395152,
-          "-5": 1769666394802,
-          "-4": 1769666394633,
-          "-3": 1769666394266,
-          "-2": 1769666394015,
-          "-1": 1769666393487
+          "-7": 1769677586679,
+          "-6": 1769677585625,
+          "-5": 1769677586186,
+          "-4": 1769677585153,
+          "-3": 1769677584682,
+          "-2": 1769677584217,
+          "-1": 1769677583285
         },
         "-2": {
-          "-7": 1769666395524,
-          "-6": 1769666395701,
-          "-5": 1769666394978,
-          "-4": 1769666396131,
-          "-3": 1769666396477,
-          "-2": 1769666396643,
-          "-1": 1769666396983
+          "-7": 1769677587567,
+          "-6": 1769677588015,
+          "-5": 1769677588465,
+          "-4": 1769677588931,
+          "-3": 1769677589403,
+          "-2": 1769677589856,
+          "-1": 1769677590466
         },
         "-1": {
           "-7": 1769675602622,
           "-6": 1769675599764,
-          "-5": 1769666398387,
-          "-4": 1769666398208,
-          "-3": 1769666397859,
-          "-2": 1769666397514,
-          "-1": 1769666397350
+          "-5": 1769677594435,
+          "-4": 1769677594001,
+          "-3": 1769677593548,
+          "-2": 1769677593275,
+          "-1": 1769677592678
         }
       },
       "Emerald Turtle": {
@@ -20960,9 +20529,9 @@
       }
     },
     "boostsUsedAt": {
-      "Luna's Hat": 1769677409633,
-      "Goblin Medallion": 1769677409633,
-      "Desert Gnome": 1769677409633,
+      "Luna's Hat": 1769678720698,
+      "Goblin Medallion": 1769678720698,
+      "Desert Gnome": 1769678720698,
       "Bud #2197": 1769669803967,
       "Camel Onesie": 1769666257136,
       "Cannonball": 1768728746790,
@@ -20970,7 +20539,7 @@
       "Foreman Beaver": 1769676567323,
       "Fruitful Fumble": 1769666257136,
       "Generous Orchard": 1769666256519,
-      "Goblin Quiver": 1769675602622,
+      "Goblin Quiver": 1769677738921,
       "Loyal Macaw": 1769666257136,
       "Macaw": 1769666257136,
       "Spring Guardian": 1768780374432,
@@ -20982,9 +20551,9 @@
       "Blooming Boost": 1769649629427,
       "Flower Crown": 1769649629427,
       "Flower Fox": 1769649629427,
-      "Frosted Cakes": 1769671217663,
-      "Kuebiko": 1769675602774,
-      "Fast Feasts": 1769676444030,
+      "Frosted Cakes": 1769677467782,
+      "Kuebiko": 1769677739083,
+      "Fast Feasts": 1769677649986,
       "Bud #1707": 1769676567323,
       "Goblin Shield": 1769676567323,
       "Lumberjack's Extra": 1769676567323,
@@ -21020,25 +20589,25 @@
       "Turbo Charged": 1769670367986,
       "Medic Apron": 1753828893028,
       "Blossom Ward": 1768780374432,
-      "Bud #1854": 1769675602622,
-      "Bud #801": 1769675602774,
-      "Coder": 1769675602622,
+      "Bud #1854": 1769677738921,
+      "Bud #801": 1769677739083,
+      "Coder": 1769677738921,
       "Corn Onesie": 1768780374432,
-      "Green Amulet": 1769675599764,
-      "Green Thumb": 1769675602774,
-      "Infernal Pitchfork": 1769675602622,
-      "Laurie the Chuckle Crow": 1769675602622,
-      "Laurie's Gains": 1769675602622,
-      "Lunar Calendar": 1769675602774,
-      "Old Farmer": 1769675602622,
+      "Green Amulet": 1769677738653,
+      "Green Thumb": 1769677739083,
+      "Infernal Pitchfork": 1769677738921,
+      "Laurie the Chuckle Crow": 1769677606198,
+      "Laurie's Gains": 1769677606198,
+      "Lunar Calendar": 1769677739083,
+      "Old Farmer": 1769677606198,
       "Pollen Power Up": 1769579466096,
       "Poppy": 1768780374432,
       "Queen Cornelia": 1768780347460,
-      "Seed Specialist": 1769675602774,
-      "Sir Goldensnout": 1769669781894,
-      "Gnome": 1769669714012,
+      "Seed Specialist": 1769677739083,
+      "Sir Goldensnout": 1769677586679,
+      "Gnome": 1769677601217,
       "Glass Room": 1769669803967,
-      "Hoot": 1769675602622,
+      "Hoot": 1769677606198,
       "Olive Express": 1769669809854,
       "Pharaoh Gnome": 1769669803967,
       "Rice Panda": 1769330255755,
@@ -21064,19 +20633,19 @@
       "Crimstone Armor": 1769667380430,
       "Crimstone Hammer": 1769578601219,
       "Fireside Alchemist": 1769667380430,
-      "Horror Mike": 1769669714012,
-      "Scary Mike": 1769669714012,
-      "Soybliss": 1769587175718,
-      "Strong Roots": 1769669850884,
-      "Tofu Mask": 1769587175718,
-      "Battle Fish": 1769648743303,
-      "Dev Wrench": 1769648743303,
-      "Infernal Drill": 1769648743303,
-      "Knight Chicken": 1769648743303,
-      "Oil Be Back": 1769648743303,
-      "Oil Can": 1769648743303,
-      "Oil Overalls": 1769648743303,
-      "Sol & Luna": 1769676685034,
+      "Horror Mike": 1769677738921,
+      "Scary Mike": 1769677738921,
+      "Soybliss": 1769677738921,
+      "Strong Roots": 1769677739083,
+      "Tofu Mask": 1769677738921,
+      "Battle Fish": 1769677639302,
+      "Dev Wrench": 1769677639302,
+      "Infernal Drill": 1769677639302,
+      "Knight Chicken": 1769677639302,
+      "Oil Be Back": 1769677639302,
+      "Oil Can": 1769677639302,
+      "Oil Overalls": 1769677639302,
+      "Sol & Luna": 1769678718102,
       "Cowbell Necklace": 1769666235594,
       "Longhorn Cowfish": 1769666235594,
       "Mammoth": 1769666235594,
@@ -21133,7 +20702,7 @@
       "Barn Blueprint": 1769386852675,
       "Oracle Syringe": 1769661786879,
       "Chicory": 1769649616318,
-      "Sheaf of Plenty": 1769666406957,
+      "Sheaf of Plenty": 1769677606198,
       "Fruitful Bounty": 1769666257136,
       "Bud #962": 1769646132413,
       "Ancient Rod": 1769646132413,
@@ -21183,7 +20752,7 @@
       "Bud #2233": 1769299442338,
       "Deep Sea Helm": 1764816051449,
       "Janitor Chicken": 1769622445459,
-      "Autumn's Embrace": 1769675602774,
+      "Autumn's Embrace": 1769677739083,
       "Blossombeard": 1769627448991,
       "Golden Spatula": 1769627448991,
       "Juicy Boost": 1769626750856,
@@ -21211,7 +20780,7 @@
       "Golden Cauliflower": 1769387352825,
       "Groovy Gramophone": 1769670478792,
       "Lava Swimwear": 1769644662605,
-      "Oil Gallon": 1769648743303,
+      "Oil Gallon": 1769677639302,
       "Chef Apron": 1769644939509,
       "Treasure Map": 1768537510545,
       "Giant Onion": 1768166736473,
@@ -21220,7 +20789,7 @@
       "Giant Artichoke": 1769675602622,
       "Reelmaster's Chair": 1769646132413,
       "Black Bearry": 1768846432139,
-      "Architect Ruler": 1769676685034,
+      "Architect Ruler": 1769678718102,
       "Bucket O' Worms": 1769671902623,
       "Wormy Treat": 1769671902623,
       "Luminous Anglerfish Topper": 1769627101035,
@@ -21230,17 +20799,17 @@
       "Tortoise Shrine": 1769670478792,
       "Mole Shrine": 1769667380430,
       "Training Whistle": 1769666235594,
-      "Master Chef's Cleaver": 1769677409633,
+      "Master Chef's Cleaver": 1769678720698,
       "Toucan Shrine": 1769666257136,
-      "Sparrow Shrine": 1769675602774,
-      "Fox Shrine": 1769676685034,
+      "Sparrow Shrine": 1769677739083,
+      "Fox Shrine": 1769678718102,
       "Harvest Hourglass": 1768729159098,
       "Time Warp Totem": 1768099937709,
       "Super Star": 1768091859802,
       "Beetroot Amulet": 1769387342743,
       "Sleepy Chicken": 1769632248556,
       "Tree Turnaround": 1769676558879,
-      "Experienced Farmer": 1769669714345,
+      "Experienced Farmer": 1769677738921,
       "Greenhouse Gamble": 1769644569790,
       "Young Farmer": 1769669781894,
       "Squirrel Onesie": 1769627257030,
