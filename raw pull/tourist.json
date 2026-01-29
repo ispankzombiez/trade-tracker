@@ -81,11 +81,11 @@
       "Rice": "826.4088",
       "Olive": "1758.7208",
       "Tomato": "1359.4200000000078861",
-      "Lemon": "2609.5800000000046292",
+      "Lemon": "2569.5800000000046292",
       "Barley": "6997.812099999998264",
       "Rhubarb": "44739.30749999960842",
       "Zucchini": "297620.3145999998891",
-      "Yam": "4453.957699999976079",
+      "Yam": "4438.957699999976079",
       "Broccoli": "24512.06199999993191",
       "Pepper": "6410.088499999999817",
       "Onion": "5827.649899999999282",
@@ -292,10 +292,10 @@
       "Crop Plot": "65",
       "Fruit Patch": "15",
       "Basic Land": "30",
-      "Earthworm": "979",
+      "Earthworm": "983",
       "Grub": "498",
       "Red Wiggler": "1224",
-      "Sprout Mix": "2625",
+      "Sprout Mix": "2641",
       "Fruitful Blend": "10474",
       "Rapid Root": "3020",
       "Fishing Lure": "247",
@@ -308,7 +308,7 @@
       "Leather": "934.1",
       "Wool": "523.9",
       "Merino Wool": "2037.45",
-      "Feather": "9733.45",
+      "Feather": "9713.45",
       "Milk": "186.75",
       "Hay": "80.65000000000000005",
       "Kernel Blend": "212.95",
@@ -948,7 +948,7 @@
       "Wild Grass": "10",
       "Spaghetti al Limone": "28",
       "Chewed Bone": "10",
-      "Sour Shake": "235",
+      "Sour Shake": "237",
       "Fermented Fish": "4",
       "Big Orange": "1",
       "Lobster": "10",
@@ -9284,10 +9284,10 @@
           "producing": {
             "items": {
               "Sprout Mix": 16,
-              "Earthworm": 4
+              "Earthworm": 5
             },
-            "startedAt": 1769711187064,
-            "readyAt": 1769721483064
+            "startedAt": 1769721608878,
+            "readyAt": 1769731904878
           },
           "boost": {
             "Egg": 20
@@ -9548,18 +9548,8 @@
             "y": -1
           },
           "readyAt": 1738220541829,
-          "oil": 35.99999999999997,
+          "oil": 35.666666666666636,
           "crafting": [
-            {
-              "name": "Sour Shake",
-              "boost": {
-                "Oil": 0.3333333333333333
-              },
-              "skills": {
-                "Double Nom": true
-              },
-              "readyAt": 1769721453131
-            },
             {
               "name": "Sour Shake",
               "boost": {
@@ -9589,6 +9579,16 @@
                 "Double Nom": true
               },
               "readyAt": 1769723621906
+            },
+            {
+              "name": "Sour Shake",
+              "boost": {
+                "Oil": 0.3333333333333333
+              },
+              "skills": {
+                "Double Nom": true
+              },
+              "readyAt": 1769724344831
             }
           ]
         }
@@ -14835,7 +14835,7 @@
       "Bush Bought": 16,
       "Luminous Lantern Crafted": 10,
       "Rice Harvested": 3404,
-      "Compost Bin Collected": 3700,
+      "Compost Bin Collected": 3701,
       "Crimstone Pants Bought": 1,
       "Pirate Cake Dug": 24,
       "Club Sandwich Dug": 58,
@@ -15273,7 +15273,7 @@
       "NutriBarley Mixed": 5007,
       "Treasure Key Bought": 6,
       "Mixed Grain Mixed": 5141,
-      "Sour Shake Cooked": 6518,
+      "Sour Shake Cooked": 6519,
       "Cheese Cooked": 18877,
       "Honey Cheddar Cooked": 239,
       "Pizza Margherita Cooked": 1678,
@@ -18064,7 +18064,7 @@
           "petXP": 12150,
           "score": 3443,
           "collectivePet": {
-            "totalXP": 4391980,
+            "totalXP": 4417930,
             "goalXP": 10263180,
             "goalReached": false,
             "streak": 10,
@@ -20519,9 +20519,9 @@
       }
     },
     "boostsUsedAt": {
-      "Luna's Hat": 1769720931830,
-      "Goblin Medallion": 1769720931830,
-      "Desert Gnome": 1769720931830,
+      "Luna's Hat": 1769721606036,
+      "Goblin Medallion": 1769721606036,
+      "Desert Gnome": 1769721606036,
       "Bud #2197": 1769720402519,
       "Camel Onesie": 1769720402519,
       "Cannonball": 1769720402519,
@@ -20561,9 +20561,9 @@
       "Stone Beetle": 1769719877004,
       "Tin Turtle": 1769719877004,
       "Tunnel Mole": 1769719877004,
-      "Efficient Bin": 1769711187064,
-      "Soil Krabby": 1769711187064,
-      "Swift Decomposer": 1769711187064,
+      "Efficient Bin": 1769721608878,
+      "Soil Krabby": 1769721608878,
+      "Swift Decomposer": 1769721608878,
       "Bee Suit": 1769695917697,
       "Honeycomb Shield": 1769695917697,
       "King of Bears": 1769695917697,
@@ -20699,7 +20699,7 @@
       "Angler Waders": 1769646132413,
       "Fisherman's 10 Fold": 1769646132413,
       "Fisherman's 5 Fold": 1769646132413,
-      "More With Less": 1769711187064,
+      "More With Less": 1769721608878,
       "Pink Dolphin": 1768706586792,
       "Walrus": 1769646132413,
       "Bud #410": 1769644953248,
@@ -20710,7 +20710,7 @@
       "Paw Shield": 1769386204892,
       "Giant Kale": 1768594862803,
       "Solflare Aegis": 1769385116821,
-      "Turd Topper": 1769711187064,
+      "Turd Topper": 1769721608878,
       "Giant Zucchini": 1769231666437,
       "Summer Chicken": 1769372100096,
       "Peeled Potato": 1769669765911,
@@ -20780,16 +20780,16 @@
       "Reelmaster's Chair": 1769646132413,
       "Black Bearry": 1768846432139,
       "Architect Ruler": 1769720921241,
-      "Bucket O' Worms": 1769711187064,
-      "Wormy Treat": 1769711187064,
+      "Bucket O' Worms": 1769721608878,
+      "Wormy Treat": 1769721608878,
       "Luminous Anglerfish Topper": 1769627101035,
       "Gilded Swordfish": 1769711175461,
-      "Saw Fish": 1769711187064,
+      "Saw Fish": 1769721608878,
       "Collie Shrine": 1769711238070,
       "Tortoise Shrine": 1769719668769,
       "Mole Shrine": 1769712049992,
       "Training Whistle": 1769711238070,
-      "Master Chef's Cleaver": 1769720931830,
+      "Master Chef's Cleaver": 1769721606036,
       "Toucan Shrine": 1769720402519,
       "Sparrow Shrine": 1769711361431,
       "Fox Shrine": 1769720921241,
