@@ -459,6 +459,10 @@
             <h1>🌻 Trade Tracker</h1>
             <a href="https://sunflower-land.com/play/#/visit/1128976301583508" class="farm-link" target="_blank">Visit iSPANK's Farm</a>
             <div class="last-updated" id="lastUpdated">Loading...</div>
+            <div id="debugPanel" style="background: #333; color: white; padding: 15px; margin: 10px; border-radius: 8px; font-family: monospace; font-size: 12px;">
+                <strong>🔧 DEBUG PANEL</strong><br>
+                <div id="debugLog">Starting debug session...</div>
+            </div>
             <button class="refresh-btn" onclick="refreshData()">🔄 Refresh</button>
         </div>
 
@@ -579,7 +583,17 @@
         let currentUser = null;
         let currentTab = 'overview';
 
+        function debugLog(message) {
+            const debugElement = document.getElementById('debugLog');
+            if (debugElement) {
+                debugElement.innerHTML += '<br>' + new Date().toLocaleTimeString() + ': ' + message;
+                debugElement.scrollTop = debugElement.scrollHeight;
+            }
+            console.log('DEBUG:', message);
+        }
+
         function switchTab(tabName) {
+            debugLog('switchTab called with: ' + tabName);
             currentTab = tabName;
             
             // Update tab button states
@@ -762,131 +776,53 @@
                 return;
             }
             
-            // Remove any existing user details
-            const existingUserDetails = document.getElementById('newUserDetails');
-            if (existingUserDetails) {
-                existingUserDetails.remove();
+            // CREATE A COMPLETELY NEW TEST ELEMENT TO BYPASS ANY ISSUES
+            debugLog('Creating brand new test element...');
+            
+            // Remove any existing test element
+            const existingTest = document.getElementById('newTestElement');
+            if (existingTest) {
+                existingTest.remove();
             }
             
-            // Create proper user details display
-            const userDetailsElement = document.createElement('div');
-            userDetailsElement.id = 'newUserDetails';
-            
-            const stats = userData.overview;
-            const earnedSfl = stats.earned_sfl || 0;
-            const profitClass = earnedSfl >= 0 ? 'profit-positive' : 'profit-negative';
-            const profitSign = earnedSfl >= 0 ? '+' : '';
-            
-            // Create recent trades
-            const allTrades = [...(userData.buys || []), ...(userData.sells || [])];
-            const recentTrades = allTrades
-                .sort((a, b) => new Date(b.date + ' ' + b.time) - new Date(a.date + ' ' + a.time))
-                .slice(0, 10);
-            
-            // Create most bought items
-            const boughtItems = {};
-            (userData.buys || []).forEach(buy => {
-                boughtItems[buy.item] = (boughtItems[buy.item] || 0) + buy.quantity;
-            });
-            const topBought = Object.entries(boughtItems)
-                .sort(([,a], [,b]) => b - a)
-                .slice(0, 5);
-                
-            // Create most sold items
-            const soldItems = {};
-            (userData.sells || []).forEach(sell => {
-                soldItems[sell.item] = (soldItems[sell.item] || 0) + sell.quantity;
-            });
-            const topSold = Object.entries(soldItems)
-                .sort(([,a], [,b]) => b - a)
-                .slice(0, 5);
-            
-            userDetailsElement.innerHTML = `
-                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0;">
-                    <!-- User Stats -->
-                    <div class="card">
-                        <h3>📈 ${userData.username} Statistics</h3>
-                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px;">
-                            <div class="stat-item ${profitClass}">
-                                <span class="stat-value">${profitSign}${earnedSfl.toFixed(2)}</span>
-                                <span class="stat-label">Earned SFL</span>
-                            </div>
-                            <div class="stat-item">
-                                <span class="stat-value">${(stats.balance || 0).toFixed(2)}</span>
-                                <span class="stat-label">Current Balance</span>
-                            </div>
-                            <div class="stat-item">
-                                <span class="stat-value">${(stats.coins || 0).toFixed(0)}</span>
-                                <span class="stat-label">Total Coins</span>
-                            </div>
-                            <div class="stat-item">
-                                <span class="stat-value">${(stats.items_sold || 0).toFixed(0)}</span>
-                                <span class="stat-label">Items Sold</span>
-                            </div>
-                            <div class="stat-item">
-                                <span class="stat-value">${(stats.trade_points || 0).toFixed(2)}</span>
-                                <span class="stat-label">Trade Points</span>
-                            </div>
-                            <div class="stat-item">
-                                <span class="stat-value">${stats.active_listings || 0}</span>
-                                <span class="stat-label">Active Listings</span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- Recent Activity -->
-                    <div class="card">
-                        <h3>📋 Recent Trades</h3>
-                        <div style="max-height: 300px; overflow-y: auto;">
-                            ${recentTrades.map(trade => `
-                                <div class="activity-item">
-                                    <div>
-                                        <span class="trade-type trade-${trade.type.toLowerCase()}">${trade.type}</span>
-                                        <strong>${trade.item}</strong> x${trade.quantity}
-                                        <br>
-                                        <small>${trade.date} ${trade.time}</small>
-                                    </div>
-                                    <div class="profit-amount">${trade.price.toFixed(2)} SFL</div>
-                                </div>
-                            `).join('')}
-                        </div>
-                    </div>
-                    
-                    <!-- Most Bought -->
-                    <div class="card">
-                        <h3>🛒 Most Bought Items</h3>
-                        <div>
-                            ${topBought.map(([item, quantity]) => `
-                                <div class="activity-item">
-                                    <div><strong>${item}</strong></div>
-                                    <div class="profit-amount">${quantity} bought</div>
-                                </div>
-                            `).join('')}
-                        </div>
-                    </div>
-                    
-                    <!-- Most Sold -->
-                    <div class="card">
-                        <h3>💰 Most Sold Items</h3>
-                        <div>
-                            ${topSold.map(([item, quantity]) => `
-                                <div class="activity-item">
-                                    <div><strong>${item}</strong></div>
-                                    <div class="profit-amount">${quantity} sold</div>
-                                </div>
-                            `).join('')}
-                        </div>
-                    </div>
+            // Create a brand new element and add it to the page
+            const newTestElement = document.createElement('div');
+            newTestElement.id = 'newTestElement';
+            newTestElement.innerHTML = `
+                <h1 style="color: white; background: red; padding: 20px;">🎉 SUCCESS! This is working!</h1>
+                <h2 style="color: black; background: yellow; padding: 15px;">User: ${userData.username}</h2>
+                <div style="background: green; color: white; padding: 15px; margin: 10px 0;">
+                    <h3>Stats:</h3>
+                    <p>Balance: ${userData.overview.balance} SFL</p>
+                    <p>Earned: ${userData.overview.earned_sfl} SFL</p>
+                    <p>Coins: ${userData.overview.coins}</p>
+                    <p>Items Sold: ${userData.overview.items_sold}</p>
                 </div>
             `;
+            newTestElement.style.cssText = `
+                background: blue !important;
+                border: 10px solid red !important;
+                padding: 30px !important;
+                margin: 30px !important;
+                min-height: 400px !important;
+                position: relative !important;
+                z-index: 9999 !important;
+                font-size: 16px !important;
+                width: 90% !important;
+            `;
             
-            // Add to page after general stats
-            const generalStats = document.getElementById('generalStats');
-            if (generalStats) {
-                generalStats.parentNode.insertBefore(userDetailsElement, generalStats.nextSibling);
+            // Add it to the page after the debug panel
+            const debugPanel = document.getElementById('debugPanel');
+            if (debugPanel) {
+                debugPanel.parentNode.insertBefore(newTestElement, debugPanel.nextSibling);
+                debugLog('New test element added after debug panel');
             } else {
-                document.body.appendChild(userDetailsElement);
+                document.body.appendChild(newTestElement);
+                debugLog('New test element added to body');
             }
+            
+            debugLog('New element height: ' + newTestElement.offsetHeight + 'px');
+            debugLog('updateUserDetails completed - check for new test element!');
         }
 
         let currentTimeframe = 'day';
