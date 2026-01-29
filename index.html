@@ -773,20 +773,41 @@
         }
 
         function updateDetailedTrades() {
-            if (!currentUser) return;
+            console.log('updateDetailedTrades called for user:', currentUser);
+            
+            if (!currentUser) {
+                console.log('No current user selected');
+                return;
+            }
 
             const userFile = currentUser.toLowerCase();
+            console.log('Fetching data for:', `./data/${userFile}.json`);
+            
             fetch(`./data/${userFile}.json`)
-                .then(response => response.json())
+                .then(response => {
+                    console.log('Response status:', response.status);
+                    if (!response.ok) {
+                        throw new Error(`HTTP ${response.status}`);
+                    }
+                    return response.json();
+                })
                 .then(userData => {
+                    console.log('User data loaded:', userData);
+                    
                     // Extract buys and sells from the user data structure
                     const buys = userData.buys || [];
                     const sells = userData.sells || [];
+                    
+                    console.log('Buys found:', buys.length);
+                    console.log('Sells found:', sells.length);
 
                     updateTradesList('buysList', buys);
                     updateTradesList('sellsList', sells);
                     
-                    document.getElementById('detailedTrades').style.display = 'grid';
+                    // Show the detailed trades section
+                    const detailedTradesElement = document.getElementById('detailedTrades');
+                    detailedTradesElement.style.display = 'grid';
+                    console.log('Detailed trades section shown');
                 })
                 .catch(error => {
                     console.error('Error loading user trades:', error);
@@ -796,10 +817,22 @@
         }
 
         function updateTradesList(containerId, trades) {
+            console.log(`updateTradesList called for ${containerId} with ${trades.length} trades`);
+            
             const container = document.getElementById(containerId);
+            if (!container) {
+                console.error(`Container ${containerId} not found!`);
+                return;
+            }
+            
             container.innerHTML = '';
 
-            trades.forEach(trade => {
+            if (trades.length === 0) {
+                container.innerHTML = '<div style="padding: 20px; text-align: center; color: var(--text-muted);">No trades found</div>';
+                return;
+            }
+
+            trades.forEach((trade, index) => {
                 const tradeElement = document.createElement('div');
                 tradeElement.className = `trade-item ${trade.type.toLowerCase()}`;
                 
@@ -820,7 +853,13 @@
                     ${profitText}
                 `;
                 container.appendChild(tradeElement);
+                
+                if (index < 5) { // Log first few for debugging
+                    console.log(`Added trade ${index + 1}:`, trade.item, trade.price);
+                }
             });
+            
+            console.log(`Successfully populated ${containerId} with ${trades.length} trades`);
         }
 
         async function refreshData() {
