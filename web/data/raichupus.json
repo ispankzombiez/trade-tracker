@@ -7,10 +7,10 @@
     "earned_sfl": 1114.53,
     "earned_coins": 277498.0,
     "spent_sfl": 0.0,
-    "items_sold": 2773.0,
+    "items_sold": 2777.0,
     "trade_points": 252976.67,
-    "last_updated": "2026-01-28 02:50 PM",
-    "active_listings": 11
+    "last_updated": "2026-01-29 12:13 AM",
+    "active_listings": 16
   },
   "buys": [
     {
@@ -27,6 +27,54 @@
     }
   ],
   "sells": [
+    {
+      "date": "2026-01-29",
+      "time": "12:09 AM",
+      "type": "SELL",
+      "item": "Wood",
+      "quantity": 500,
+      "price_text": "4.37 SFL",
+      "price": 4.37,
+      "counterparty": "Brsuperbr",
+      "farm_id": "-",
+      "trade_id": "b3ba1dff"
+    },
+    {
+      "date": "2026-01-28",
+      "time": "11:59 PM",
+      "type": "SELL",
+      "item": "Milk",
+      "quantity": 100,
+      "price_text": "12.79 SFL",
+      "price": 12.79,
+      "counterparty": "Mastro",
+      "farm_id": "-",
+      "trade_id": "a7cf3235"
+    },
+    {
+      "date": "2026-01-28",
+      "time": "11:54 PM",
+      "type": "SELL",
+      "item": "Leather",
+      "quantity": 100,
+      "price_text": "11.89 SFL",
+      "price": 11.89,
+      "counterparty": "Keyber",
+      "farm_id": "-",
+      "trade_id": "677dda08"
+    },
+    {
+      "date": "2026-01-28",
+      "time": "11:52 PM",
+      "type": "SELL",
+      "item": "Wood",
+      "quantity": 100,
+      "price_text": "0.87 SFL",
+      "price": 0.87,
+      "counterparty": "elena77",
+      "farm_id": "-",
+      "trade_id": "b356e6ff"
+    },
     {
       "date": "2026-01-28",
       "time": "09:52 AM",
@@ -211,22 +259,22 @@
   "last_updated": null,
   "stats": {
     "total_buys": 1,
-    "total_sells": 15,
+    "total_sells": 19,
     "buy_volume": 5.2298,
-    "sell_volume": 74.097,
-    "gross_profit": 68.8672,
+    "sell_volume": 104.017,
+    "gross_profit": 98.7872,
     "avg_buy_price": 5.2298,
-    "avg_sell_price": 4.9398,
+    "avg_sell_price": 5.474578947368421,
     "most_traded_items": {
       "Sunflower": 12000,
       "Pumpkin": 6000,
       "Potato": 3000,
       "Zucchini": 2000,
       "Carrot": 2000,
-      "Wood": 1000,
+      "Wood": 1600,
+      "Milk": 400,
       "Blueberry": 300,
-      "Milk": 300,
-      "Leather": 100
+      "Leather": 200
     },
     "recent_activity": [
       {
@@ -240,12 +288,47 @@
       },
       {
         "type": "SELL",
+        "item": "Wood",
+        "quantity": 500,
+        "price": 4.37,
+        "date": "2026-01-29",
+        "time": "12:09 AM",
+        "username": "raichupus"
+      },
+      {
+        "type": "SELL",
+        "item": "Milk",
+        "quantity": 100,
+        "price": 12.79,
+        "date": "2026-01-28",
+        "time": "11:59 PM",
+        "username": "raichupus"
+      },
+      {
+        "type": "SELL",
+        "item": "Leather",
+        "quantity": 100,
+        "price": 11.89,
+        "date": "2026-01-28",
+        "time": "11:54 PM",
+        "username": "raichupus"
+      },
+      {
+        "type": "SELL",
+        "item": "Wood",
+        "quantity": 100,
+        "price": 0.87,
+        "date": "2026-01-28",
+        "time": "11:52 PM",
+        "username": "raichupus"
+      },
+      {
+        "type": "SELL",
         "item": "Zucchini",
         "quantity": 2000,
         "price": 0.89,
         "date": "2026-01-28",
-        "time": "09:52 AM",
-        "username": "raichupus"
+        "time": "09:52 AM"
       },
       {
         "type": "SELL",
@@ -253,8 +336,7 @@
         "quantity": 4000,
         "price": 1.059,
         "date": "2026-01-28",
-        "time": "07:36 AM",
-        "username": "raichupus"
+        "time": "07:36 AM"
       },
       {
         "type": "SELL",
@@ -262,8 +344,7 @@
         "quantity": 4000,
         "price": 1.05,
         "date": "2026-01-28",
-        "time": "07:35 AM",
-        "username": "raichupus"
+        "time": "07:35 AM"
       },
       {
         "type": "SELL",
@@ -271,8 +352,7 @@
         "quantity": 2000,
         "price": 1.72,
         "date": "2026-01-28",
-        "time": "07:25 AM",
-        "username": "raichupus"
+        "time": "07:25 AM"
       },
       {
         "type": "SELL",
@@ -363,6 +443,6 @@
         "time": "06:39 PM"
       }
     ],
-    "profit_margin": 1316.8228230525067
+    "profit_margin": 1888.928830930437
   }
 }

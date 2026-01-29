@@ -3528,9 +3528,9 @@
           "weather": true
         },
         {
+          "name": "fishFrenzy",
           "date": "2026-01-29",
-          "weather": true,
-          "name": "unknown"
+          "weather": true
         },
         {
           "name": "doubleDelivery",
@@ -5993,20 +5993,20 @@
         }
       ],
       "shop": {
-        "Grumpy Cat": {
-          "type": "wearable",
+        "Flower Coin": {
+          "type": "collectible",
           "cost": {
             "items": {
-              "Love Charm": 1300
+              "Love Charm": 1500
             }
           },
-          "name": "Grumpy Cat"
+          "name": "Flower Coin"
         },
         "Gourmet Hourglass": {
           "type": "collectible",
           "cost": {
             "items": {
-              "Love Charm": 250
+              "Love Charm": 325
             }
           },
           "name": "Gourmet Hourglass"
@@ -7852,52 +7852,52 @@
         "mine-whack": {
           "coins": 0,
           "items": {
-            "Mark": 50
+            "Mark": 60
           },
           "wearables": {},
-          "score": 3000,
-          "startAt": 1769558400000,
-          "endAt": 1769644800000
+          "score": 3500,
+          "startAt": 1769644800000,
+          "endAt": 1769731200000
         },
         "chicken-rescue": {
           "coins": 0,
           "items": {
-            "Mark": 15
+            "Mark": 50
           },
           "wearables": {},
-          "score": 20,
-          "startAt": 1769558400000,
-          "endAt": 1769644800000
+          "score": 45,
+          "startAt": 1769644800000,
+          "endAt": 1769731200000
         },
         "crops-and-chickens": {
           "coins": 0,
           "items": {
-            "Mark": 60
+            "Mark": 20
           },
           "wearables": {},
-          "score": 4000,
-          "startAt": 1769558400000,
-          "endAt": 1769644800000
+          "score": 500,
+          "startAt": 1769644800000,
+          "endAt": 1769731200000
         },
         "fruit-dash": {
           "coins": 0,
           "items": {
-            "Mark": 60
+            "Mark": 55
           },
           "wearables": {},
-          "score": 3000,
-          "startAt": 1769558400000,
-          "endAt": 1769644800000
+          "score": 2750,
+          "startAt": 1769644800000,
+          "endAt": 1769731200000
         },
         "memory": {
           "coins": 0,
           "items": {
-            "Mark": 40
+            "Mark": 20
           },
           "wearables": {},
-          "score": 450,
-          "startAt": 1769558400000,
-          "endAt": 1769644800000
+          "score": 150,
+          "startAt": 1769644800000,
+          "endAt": 1769731200000
         }
       }
     },
@@ -8066,7 +8066,7 @@
           "petXP": 0,
           "score": 0,
           "collectivePet": {
-            "totalXP": 3522485,
+            "totalXP": 3628945,
             "goalXP": 10263180,
             "goalReached": false,
             "streak": 10,
@@ -8132,13 +8132,14 @@
         },
         "completedPatterns": [],
         "patterns": [
-          "ARTEFACT_SIXTEEN",
-          "ARTEFACT_TWENTY_ONE",
-          "ARTEFACT_NINETEEN",
+          "ARTEFACT_SEVENTEEN",
+          "ARTEFACT_TWENTY_TWO",
+          "ARTEFACT_TWENTY_THREE",
           "HIEROGLYPH",
-          "SEAWEED",
-          "SEAWEED",
-          "CLAM_SHELLS"
+          "HIEROGLYPH",
+          "SEA_CUCUMBERS",
+          "OLD_BOTTLE",
+          "WOODEN_COMPASS"
         ]
       }
     },

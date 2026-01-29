@@ -511,7 +511,7 @@
       "Corn Seed": "304",
       "Rhubarb Seed": "1200",
       "Lavender Seed": "9",
-      "Love Charm": "13660",
+      "Love Charm": "13664",
       "Kale Seed": "17",
       "Sand": "246",
       "Broken Pillar": "1",
@@ -3538,9 +3538,9 @@
           "weather": true
         },
         {
+          "name": "fishFrenzy",
           "date": "2026-01-29",
-          "weather": true,
-          "name": "unknown"
+          "weather": true
         },
         {
           "name": "doubleDelivery",
@@ -10167,20 +10167,20 @@
         }
       ],
       "shop": {
-        "Grumpy Cat": {
-          "type": "wearable",
+        "Flower Coin": {
+          "type": "collectible",
           "cost": {
             "items": {
-              "Love Charm": 1300
+              "Love Charm": 1500
             }
           },
-          "name": "Grumpy Cat"
+          "name": "Flower Coin"
         },
         "Gourmet Hourglass": {
           "type": "collectible",
           "cost": {
             "items": {
-              "Love Charm": 250
+              "Love Charm": 325
             }
           },
           "name": "Gourmet Hourglass"
@@ -12287,52 +12287,52 @@
         "mine-whack": {
           "coins": 0,
           "items": {
-            "Mark": 50
+            "Mark": 60
           },
           "wearables": {},
-          "score": 3000,
-          "startAt": 1769558400000,
-          "endAt": 1769644800000
+          "score": 3500,
+          "startAt": 1769644800000,
+          "endAt": 1769731200000
         },
         "chicken-rescue": {
           "coins": 0,
           "items": {
-            "Mark": 15
+            "Mark": 50
           },
           "wearables": {},
-          "score": 20,
-          "startAt": 1769558400000,
-          "endAt": 1769644800000
+          "score": 45,
+          "startAt": 1769644800000,
+          "endAt": 1769731200000
         },
         "crops-and-chickens": {
           "coins": 0,
           "items": {
-            "Mark": 60
+            "Mark": 20
           },
           "wearables": {},
-          "score": 4000,
-          "startAt": 1769558400000,
-          "endAt": 1769644800000
+          "score": 500,
+          "startAt": 1769644800000,
+          "endAt": 1769731200000
         },
         "fruit-dash": {
           "coins": 0,
           "items": {
-            "Mark": 60
+            "Mark": 55
           },
           "wearables": {},
-          "score": 3000,
-          "startAt": 1769558400000,
-          "endAt": 1769644800000
+          "score": 2750,
+          "startAt": 1769644800000,
+          "endAt": 1769731200000
         },
         "memory": {
           "coins": 0,
           "items": {
-            "Mark": 40
+            "Mark": 20
           },
           "wearables": {},
-          "score": 450,
-          "startAt": 1769558400000,
-          "endAt": 1769644800000
+          "score": 150,
+          "startAt": 1769644800000,
+          "endAt": 1769731200000
         }
       }
     },
@@ -12468,7 +12468,7 @@
           "petXP": 5480,
           "score": 1811.4,
           "collectivePet": {
-            "totalXP": 4038420,
+            "totalXP": 4158038,
             "goalXP": 2404688,
             "goalReached": true,
             "streak": 3,
@@ -12546,13 +12546,14 @@
         },
         "completedPatterns": [],
         "patterns": [
-          "ARTEFACT_SIXTEEN",
-          "ARTEFACT_TWENTY_ONE",
-          "ARTEFACT_NINETEEN",
+          "ARTEFACT_SEVENTEEN",
+          "ARTEFACT_TWENTY_TWO",
+          "ARTEFACT_TWENTY_THREE",
           "HIEROGLYPH",
-          "SEAWEED",
-          "SEAWEED",
-          "CLAM_SHELLS"
+          "HIEROGLYPH",
+          "SEA_CUCUMBERS",
+          "OLD_BOTTLE",
+          "WOODEN_COMPASS"
         ]
       }
     },
@@ -14471,14 +14472,14 @@
       "Broccoli Hat": 1769619544931
     },
     "socialFarming": {
-      "points": 15031,
+      "points": 15039,
       "villageProjects": {
         "Woodcutter's Monument": {
           "cheers": 1000,
           "winnerId": 4280
         },
         "Miner's Monument": {
-          "cheers": 1181,
+          "cheers": 1182,
           "winnerId": 1164010181301338
         },
         "Farmer's Monument": {
@@ -14486,23 +14487,23 @@
           "winnerId": 1213141032242343
         },
         "Big Banana": {
-          "cheers": 77,
+          "cheers": 78,
           "winnerId": 4076039234874805
         },
         "Expert Cooking Pot": {
-          "cheers": 35,
+          "cheers": 36,
           "winnerId": 8552262805676887
         },
         "Big Apple": {
-          "cheers": 26,
+          "cheers": 27,
           "winnerId": 1164010181301338
         },
         "Cornucopia": {
-          "cheers": 23,
+          "cheers": 24,
           "winnerId": 175706
         },
         "Big Orange": {
-          "cheers": 2,
+          "cheers": 3,
           "winnerId": 4076039234874805
         }
       },
@@ -14561,7 +14562,7 @@
       },
       "weeklyPoints": {
         "week": "2026-01-26",
-        "points": 134
+        "points": 142
       },
       "helpedForCompetition": 143,
       "waves": {
@@ -14596,7 +14597,7 @@
         },
         "Barkley": {
           "name": "Barkley",
-          "experience": 35539,
+          "experience": 35544,
           "energy": 210,
           "requests": {
             "food": [
@@ -14613,7 +14614,7 @@
             "Ribbon": 1
           },
           "dailySocialXP": {
-            "2026-01-28": 20
+            "2026-01-28": 25
           }
         },
         "Twizzle": {
@@ -14640,7 +14641,7 @@
         },
         "Pip": {
           "name": "Pip",
-          "experience": 35322,
+          "experience": 35327,
           "energy": 2690,
           "requests": {
             "food": [
@@ -14655,12 +14656,12 @@
             "Frost Pebble": 12
           },
           "dailySocialXP": {
-            "2026-01-28": 20
+            "2026-01-28": 25
           }
         },
         "Mudhorn": {
           "name": "Mudhorn",
-          "experience": 7245,
+          "experience": 7250,
           "energy": 1825,
           "requests": {
             "food": [
@@ -14672,7 +14673,7 @@
           },
           "pettedAt": 1769624473960,
           "dailySocialXP": {
-            "2026-01-28": 20
+            "2026-01-28": 25
           },
           "fetches": {
             "Frost Pebble": 53,
@@ -14685,7 +14686,7 @@
         "252": {
           "id": 252,
           "name": "Pet #252",
-          "experience": 24615,
+          "experience": 24620,
           "energy": 1140,
           "requests": {
             "food": [
@@ -14706,7 +14707,7 @@
             "aura": "No Aura"
           },
           "dailySocialXP": {
-            "2026-01-28": 20
+            "2026-01-28": 25
           },
           "walking": false,
           "fetches": {
@@ -14722,7 +14723,7 @@
         "591": {
           "name": "Pet #591",
           "id": 591,
-          "experience": 27180,
+          "experience": 27185,
           "energy": 185,
           "requests": {
             "food": [
@@ -14743,7 +14744,7 @@
             "aura": "No Aura"
           },
           "dailySocialXP": {
-            "2026-01-28": 20
+            "2026-01-28": 25
           },
           "walking": false,
           "fetches": {
@@ -14758,7 +14759,7 @@
         "2949": {
           "id": 2949,
           "name": "Pet #2949",
-          "experience": 23620,
+          "experience": 23625,
           "energy": 105,
           "requests": {
             "food": [
@@ -14779,7 +14780,7 @@
             "aura": "No Aura"
           },
           "dailySocialXP": {
-            "2026-01-28": 20
+            "2026-01-28": 25
           },
           "walking": false,
           "fetches": {
