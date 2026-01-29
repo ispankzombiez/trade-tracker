@@ -7,9 +7,9 @@
     "earned_sfl": 13353.49,
     "earned_coins": 23208.0,
     "spent_sfl": 5477.44,
-    "items_sold": 12589.0,
+    "items_sold": 12590.0,
     "trade_points": 10449.12,
-    "last_updated": "2026-01-29 04:59 AM",
+    "last_updated": "2026-01-29 05:23 AM",
     "active_listings": 245
   },
   "buys": [
@@ -1073,6 +1073,18 @@
   "sells": [
     {
       "date": "2026-01-29",
+      "time": "05:03 AM",
+      "type": "SELL",
+      "item": "Corn",
+      "quantity": 1000,
+      "price_text": "18.8 SFL",
+      "price": 18.8,
+      "counterparty": "N3on",
+      "farm_id": "-",
+      "trade_id": "a7894fed"
+    },
+    {
+      "date": "2026-01-29",
       "time": "03:42 AM",
       "type": "SELL",
       "item": "Beetroot",
@@ -1123,15 +1135,16 @@
   "last_updated": null,
   "stats": {
     "total_buys": 88,
-    "total_sells": 4,
+    "total_sells": 5,
     "buy_volume": 111.84080000000003,
-    "sell_volume": 5.7546,
-    "gross_profit": -106.08620000000003,
+    "sell_volume": 24.5546,
+    "gross_profit": -87.28620000000004,
     "avg_buy_price": 1.270918181818182,
-    "avg_sell_price": 1.43865,
+    "avg_sell_price": 4.91092,
     "most_traded_items": {
       "Feather": 6413,
       "Lemon": 6297,
+      "Corn": 1000,
       "Kale": 427,
       "Blueberry": 200,
       "Beetroot": 150,
@@ -1304,6 +1317,6 @@
         "time": "10:51 PM"
       }
     ],
-    "profit_margin": -94.85465053898041
+    "profit_margin": -78.04504259626184
   }
 }
