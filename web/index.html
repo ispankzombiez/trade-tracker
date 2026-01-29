@@ -6,8 +6,8 @@
     <title>Trade Tracker</title>
     <style>
         :root {
-            --primary-color: #00ff88;
-            --secondary-color: #00cc6a;
+            --primary-color: #00cc66;
+            --secondary-color: #00aa55;
             --accent-color: #ffa500;
             --danger-color: #ff6b6b;
             --dark-bg: #1a1a1a;
@@ -16,7 +16,7 @@
             --text-light: #ffffff;
             --text-muted: #8b949e;
             --border-color: #30363d;
-            --success-color: #00ff88;
+            --success-color: #00aa55;
         }
 
         * {
@@ -151,9 +151,9 @@
         }
 
         .user-btn {
-            background: var(--primary-color);
+            background: var(--card-bg);
             color: var(--text-light);
-            border: none;
+            border: 1px solid var(--border-color);
             padding: 10px 20px;
             border-radius: 25px;
             cursor: pointer;
@@ -162,12 +162,14 @@
         }
 
         .user-btn:hover {
-            background: var(--secondary-color);
+            background: var(--primary-color);
+            color: var(--darker-bg);
             transform: scale(1.05);
         }
 
         .user-btn.active {
-            background: var(--accent-color);
+            background: var(--primary-color);
+            color: var(--darker-bg);
         }
 
         .stats-grid {
@@ -219,7 +221,7 @@
         }
 
         .activity-item:hover {
-            background: rgba(46, 204, 113, 0.1);
+            background: rgba(0, 204, 102, 0.1);
         }
 
         .activity-item:last-child {
@@ -259,6 +261,7 @@
             margin-bottom: 8px;
             border-radius: 8px;
             border-left: 4px solid var(--primary-color);
+            color: var(--text-light);
         }
 
         .trade-item.buy {
@@ -274,6 +277,7 @@
             justify-content: space-between;
             align-items: center;
             margin-bottom: 5px;
+            color: var(--text-light);
         }
 
         .trade-item-details {
@@ -384,8 +388,8 @@
         }
 
         .refresh-btn {
-            background: var(--accent-color);
-            color: var(--text-light);
+            background: var(--primary-color);
+            color: var(--darker-bg);
             border: none;
             padding: 10px 20px;
             border-radius: 25px;
@@ -396,7 +400,7 @@
         }
 
         .refresh-btn:hover {
-            background: #e67e22;
+            background: var(--secondary-color);
             transform: scale(1.05);
         }
     </style>
@@ -775,8 +779,9 @@
             fetch(`./data/${userFile}.json`)
                 .then(response => response.json())
                 .then(userData => {
-                    const buys = userData.trades.filter(trade => trade.type === 'BUY');
-                    const sells = userData.trades.filter(trade => trade.type === 'SELL');
+                    // Extract buys and sells from the user data structure
+                    const buys = userData.buys || [];
+                    const sells = userData.sells || [];
 
                     updateTradesList('buysList', buys);
                     updateTradesList('sellsList', sells);
@@ -785,6 +790,8 @@
                 })
                 .catch(error => {
                     console.error('Error loading user trades:', error);
+                    // Hide detailed trades if there's an error
+                    document.getElementById('detailedTrades').style.display = 'none';
                 });
         }
 
