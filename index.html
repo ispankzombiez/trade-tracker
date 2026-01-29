@@ -484,10 +484,18 @@
                         </div>
                     </div>
 
-                    <!-- Most Traded Items -->
+                    <!-- Most Bought Items -->
                     <div class="card">
-                        <h3>🎯 Most Traded Items</h3>
-                        <div id="userTopItems" class="recent-activity">
+                        <h3>🛒 Most Bought Items</h3>
+                        <div id="userMostBought" class="recent-activity">
+                            <!-- Will be populated by JavaScript -->
+                        </div>
+                    </div>
+                    
+                    <!-- Most Sold Items -->
+                    <div class="card">
+                        <h3>💰 Most Sold Items</h3>
+                        <div id="userMostSold" class="recent-activity">
                             <!-- Will be populated by JavaScript -->
                         </div>
                     </div>
@@ -717,17 +725,30 @@
                 recentContainer.appendChild(activityElement);
             });
 
-            // Update most traded items
-            const itemsContainer = document.getElementById('userTopItems');
-            itemsContainer.innerHTML = '';
-            Object.entries(stats.most_traded_items).slice(0, 10).forEach(([item, quantity]) => {
+            // Update most bought items
+            const boughtContainer = document.getElementById('userMostBought');
+            boughtContainer.innerHTML = '';
+            Object.entries(stats.most_bought_items || {}).slice(0, 10).forEach(([item, quantity]) => {
                 const itemElement = document.createElement('div');
                 itemElement.className = 'activity-item';
                 itemElement.innerHTML = `
                     <div><strong>${item}</strong></div>
-                    <div class="profit-amount">${quantity} traded</div>
+                    <div class="profit-amount">${quantity} bought</div>
                 `;
-                itemsContainer.appendChild(itemElement);
+                boughtContainer.appendChild(itemElement);
+            });
+            
+            // Update most sold items
+            const soldContainer = document.getElementById('userMostSold');
+            soldContainer.innerHTML = '';
+            Object.entries(stats.most_sold_items || {}).slice(0, 10).forEach(([item, quantity]) => {
+                const itemElement = document.createElement('div');
+                itemElement.className = 'activity-item';
+                itemElement.innerHTML = `
+                    <div><strong>${item}</strong></div>
+                    <div class="profit-amount">${quantity} sold</div>
+                `;
+                soldContainer.appendChild(itemElement);
             });
             
             // Update detailed buy/sell columns
