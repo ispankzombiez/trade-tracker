@@ -334,10 +334,22 @@ def load_marketplace_history(username: str, parent_dir: str) -> tuple[List[str],
                 # Parse each line
                 for line in lines[1:]:
                     line = line.strip()
-                    if line.startswith('📦 Item ID:'):
+                    if line.startswith('📦 Item:') or line.startswith('📦 Item ID:'):
                         parts = line.split(' | ')
                         if len(parts) >= 2:
-                            item_id = parts[0].replace('📦 Item ID: ', '').strip()
+                            if line.startswith('📦 Item:'):
+                                # New format: "📦 Item: Milk (ID: 645) | Collection: collectibles"
+                                item_part = parts[0].replace('📦 Item: ', '').strip()
+                                if ' (ID: ' in item_part:
+                                    item_name = item_part.split(' (ID: ')[0].strip()
+                                    item_id = item_part.split(' (ID: ')[1].replace(')', '').strip()
+                                else:
+                                    item_name = item_part
+                                    item_id = "Unknown"
+                            else:
+                                # Old format: "📦 Item ID: 645 | Collection: collectibles"
+                                item_id = parts[0].replace('📦 Item ID: ', '').strip()
+                                item_name = None  # Will be resolved later
                             collection = parts[1].replace('Collection: ', '').strip()
                     elif line.startswith('📊 Quantity:'):
                         quantity = line.replace('📊 Quantity: ', '').strip()
@@ -361,8 +373,13 @@ def load_marketplace_history(username: str, parent_dir: str) -> tuple[List[str],
                     counterparty = seller
                 
                 # Format item display using mapping and collection
-                item_name = get_item_name(item_id, collection, item_mapping)
-                item_display = item_name[:15] if len(item_name) > 15 else item_name
+                if 'item_name' in locals() and item_name is not None:
+                    # Use the directly parsed name from new format
+                    final_item_name = item_name
+                else:
+                    # Use mapping for old format
+                    final_item_name = get_item_name(item_id, collection, item_mapping)
+                item_display = final_item_name[:15] if len(final_item_name) > 15 else final_item_name
                     
                 # Format counterparty display
                 counterparty_display = counterparty[:15] if len(counterparty) > 15 else counterparty
@@ -515,114 +532,6 @@ def merge_trade_histories(new_buys: List[str], new_sells: List[str],
     all_sells.sort(key=get_datetime_from_line, reverse=True)
     
     return all_buys, all_sells
-    """
-    Load existing marketplace history for a user and separate into buys and sells.
-    
-    Args:
-        username: Username to load history for
-        parent_dir: Parent directory containing marketplace history
-        
-    Returns:
-        Tuple of (buy_lines, sell_lines) with trade history
-    """
-    # Load item mapping
-    item_mapping = load_item_mapping(parent_dir)
-    
-    marketplace_folder = os.path.join(parent_dir, "marketplace history")
-    history_file = os.path.join(marketplace_folder, f"{username}_marketplace_history.txt")
-    
-    buy_lines = []
-    sell_lines = []
-    
-    if os.path.exists(history_file):
-        try:
-            with open(history_file, 'r', encoding='utf-8') as f:
-                content = f.read()
-                
-            # Parse the marketplace history file
-            trades = content.split('🔄 TRADE #')
-            
-            for trade in trades[1:]:  # Skip the header section
-                lines = trade.strip().split('\n')
-                if len(lines) < 8:
-                    continue
-                    
-                # Extract trade information
-                trade_id = lines[0].split(' - ')[0].strip()
-                date_time = lines[0].split(' - ')[1].strip() if ' - ' in lines[0] else "Unknown"
-                
-                # Parse date and time
-                try:
-                    date_part = date_time.split(' ')[0] if ' ' in date_time else "Unknown"
-                    time_part = ' '.join(date_time.split(' ')[1:]) if ' ' in date_time else "Unknown"
-                except:
-                    date_part = "Unknown"
-                    time_part = "Unknown"
-                
-                item_id = "Unknown"
-                collection = "Unknown"
-                quantity = "Unknown"
-                amount = "Unknown"
-                source = "Unknown"
-                seller = "Unknown"
-                buyer = "Unknown"
-                
-                # Parse each line
-                for line in lines[1:]:
-                    line = line.strip()
-                    if line.startswith('📦 Item ID:'):
-                        parts = line.split(' | ')
-                        if len(parts) >= 2:
-                            item_id = parts[0].replace('📦 Item ID: ', '').strip()
-                            collection = parts[1].replace('Collection: ', '').strip()
-                    elif line.startswith('📊 Quantity:'):
-                        quantity = line.replace('📊 Quantity: ', '').strip()
-                    elif line.startswith('💰 Amount:'):
-                        amount = line.replace('💰 Amount: ', '').strip()
-                    elif line.startswith('🔄 Source:'):
-                        source = line.replace('🔄 Source: ', '').strip()
-                    elif line.startswith('👤 Seller:'):
-                        seller = line.replace('👤 Seller: ', '').strip()
-                        seller = seller.split(' (ID: ')[0] if ' (ID: ' in seller else seller
-                    elif line.startswith('👤 Buyer:'):
-                        buyer = line.replace('👤 Buyer: ', '').strip()  
-                        buyer = buyer.split(' (ID: ')[0] if ' (ID: ' in buyer else buyer
-                
-                # Determine trade type and counterparty
-                if seller.lower() == username.lower():
-                    trade_type = "SELL"
-                    counterparty = buyer
-                else:
-                    trade_type = "BUY"
-                    counterparty = seller
-                
-                # Format item display using mapping and collection
-                item_name = get_item_name(item_id, collection, item_mapping)
-                item_display = item_name[:15] if len(item_name) > 15 else item_name
-                    
-                # Format counterparty display
-                counterparty_display = counterparty[:15] if len(counterparty) > 15 else counterparty
-                
-                # Format price display
-                price_display = amount if len(str(amount)) <= 12 else str(amount)[:12]
-                
-                # Format trade ID
-                trade_id_short = trade_id[:8] if len(trade_id) > 8 else trade_id
-                
-                # Format the trade line with proper alignment
-                trade_line = f"{date_part:<12} | {time_part:<8} | {trade_type:<7} | {item_display:<15} | {quantity:<6} | {price_display:<12} | {counterparty_display:<15} | {'-':<8} | {trade_id_short:<8}"
-                
-                # Add to appropriate list
-                if trade_type == "BUY":
-                    buy_lines.append(trade_line)
-                else:
-                    sell_lines.append(trade_line)
-                
-        except Exception as e:
-            print(f"❌ Error parsing marketplace history for {username}: {e}")
-    
-    return buy_lines, sell_lines
-
 
 
 def create_trade_history_folder() -> str:
