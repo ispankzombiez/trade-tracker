@@ -1,7 +1,7 @@
 {
   "farm": {
-    "coins": 15337.18209999997,
-    "balance": "427.2653928056922106",
+    "coins": 15437.18209999997,
+    "balance": "430.7153928056922106",
     "previousBalance": "624.5447",
     "inventory": {
       "Corn Seed": "183",
@@ -129,7 +129,7 @@
       "Crop Plot": "69",
       "Fruit Patch": "16",
       "Basic Land": "21",
-      "Earthworm": "1387",
+      "Earthworm": "1384",
       "Fruitful Blend": "358",
       "Beehive": "4",
       "Flower Bed": "4",
@@ -214,7 +214,7 @@
       "Starlight Tuna": "1",
       "Angelfish": "21",
       "Halibut": "79",
-      "Parrotfish": "7",
+      "Parrotfish": "3",
       "Porgy": "43",
       "Muskellunge": "7",
       "Trout": "26",
@@ -355,7 +355,7 @@
       "Super Star": "1",
       "Fish Bowl": "1",
       "Eggplant Cake": "3",
-      "Purple Daffodil": "2",
+      "Purple Daffodil": "1",
       "Pumpkin Seed": "23",
       "Coelacanth": "4",
       "Celestial Frostbloom": "18",
@@ -418,12 +418,12 @@
       "Bumpkin Salad": "5",
       "Clownfish": "47",
       "Horse Mackerel": "4",
-      "Sunflower Cake": "6",
+      "Sunflower Cake": "5",
       "Thermal Stone": "1",
       "Yellow Edelweiss": "1",
       "Crab Pot": "46",
       "Mariner Pot": "43",
-      "Love Charm": "4291",
+      "Love Charm": "4296",
       "Club Sandwich": "5",
       "Roast Veggies": "7",
       "Apple Seed": "1",
@@ -432,7 +432,7 @@
       "Apple Juice": "5",
       "Anemone": "42",
       "Oyster": "18",
-      "Parsnip Cake": "4",
+      "Parsnip Cake": "3",
       "Garden Eel": "12",
       "Cheer": "33",
       "Cauliflower Cake": "4",
@@ -490,7 +490,7 @@
       "Purple Smoothie": "5",
       "The Lot": "1",
       "Grub": "25",
-      "Fish Oil": "8",
+      "Fish Oil": "9",
       "Yellow Daffodil": "4",
       "Big Apple": "1",
       "Enchanted Rose": "1",
@@ -948,7 +948,7 @@
       "Moo Doll": "1"
     },
     "shipments": {
-      "restockedAt": 1769654384019
+      "restockedAt": 1769774244320
     },
     "gems": {
       "history": {
@@ -2602,14 +2602,15 @@
       "Banana Plant": "24",
       "Gladiolus Seed": "5",
       "Lemon Seed": "24",
-      "Rod": "65",
-      "Sand Shovel": "7",
+      "Rod": "75",
+      "Sand Shovel": "12",
       "Orange Seed": "24",
       "Eggplant Seed": "120",
       "Wheat Seed": "96",
       "Bloom Seed": "10",
       "Apple Seed": "24",
-      "Gold Pickaxe": "5"
+      "Gold Pickaxe": "5",
+      "Axe": "50"
     },
     "crops": {
       "1": {
@@ -5109,16 +5110,6 @@
           "processing": [
             {
               "name": "Fish Oil",
-              "readyAt": 1769744059140,
-              "startedAt": 1769686459140,
-              "requirements": {
-                "Crab": "2",
-                "Mahi Mahi": "4",
-                "Tuna": "8"
-              }
-            },
-            {
-              "name": "Fish Oil",
               "readyAt": 1769801659140,
               "startedAt": 1769744059140,
               "requirements": {
@@ -5144,9 +5135,9 @@
               "startedAt": 1769816059140,
               "requirements": {
                 "Crab": "1",
-                "Shrimp": "2",
+                "Barnacle": "2",
                 "Lobster": "2",
-                "Barnacle": "2"
+                "Shrimp": "2"
               }
             }
           ],
@@ -7771,12 +7762,12 @@
       "Minigame Score Submitted": 412,
       "Minigame Prize Claimed": 310,
       "Farm Helped": 461,
-      "Shipment Restocked": 57,
+      "Shipment Restocked": 58,
       "Twitter Post Submitted": 9,
       "Gift Giver Reward Opened": 18,
       "Farm Cheered": 357,
       "Bulk Resources Purchased": 61811,
-      "Airdrop Reward Claimed": 110,
+      "Airdrop Reward Claimed": 111,
       "General Store Restocked": 36,
       "Recipe Queue Cancelled": 222,
       "Marketplace Listing Created": 298,
@@ -7855,7 +7846,7 @@
       "Beetroot Blaze Fed": 114,
       "Steamed Red Rice Cooked": 19,
       "Steamed Red Rice Fed": 11,
-      "SFL Earned": 428.8,
+      "SFL Earned": 432.25,
       "Cauliflower Harvested": 2461,
       "Building Placed": 25,
       "Apple Harvested": 2055,
@@ -8283,7 +8274,7 @@
       "Farms Cheered": 1,
       "Farms Helped": 2,
       "Obsidian Collected": 64,
-      "FLOWER Order Delivered": 170,
+      "FLOWER Order Delivered": 175,
       "Coins Order Delivered": 160,
       "Angler Doll Crafted": 1,
       "Rare Key Crafted": 8,
@@ -8326,7 +8317,7 @@
       "Gold Rock Mined": 21,
       "Building Construction Sped Up": 1,
       "Fish Flake Processed": 7,
-      "Fish Oil Processed": 27,
+      "Fish Oil Processed": 28,
       "Fish Stick Processed": 15,
       "Sparrow Shrine Crafted": 1,
       "Starlight Tuna Map Piece Found": 6,
@@ -8574,18 +8565,6 @@
           }
         },
         {
-          "createdAt": 1769722685158,
-          "readyAt": 1769722685158,
-          "from": "gambit",
-          "id": "8812f7",
-          "items": {
-            "Sushi Roll": 1
-          },
-          "reward": {
-            "sfl": 0.85
-          }
-        },
-        {
           "createdAt": 1769731994882,
           "readyAt": 1769731994882,
           "from": "betty",
@@ -8610,7 +8589,8 @@
           },
           "reward": {
             "sfl": 0.4
-          }
+          },
+          "completedAt": 1769774601306
         },
         {
           "createdAt": 1769731995002,
@@ -8622,7 +8602,8 @@
           },
           "reward": {
             "sfl": 0.4
-          }
+          },
+          "completedAt": 1769774605537
         },
         {
           "createdAt": 1769731995002,
@@ -8634,7 +8615,8 @@
           },
           "reward": {
             "sfl": 0.55
-          }
+          },
+          "completedAt": 1769774619060
         },
         {
           "createdAt": 1769731995002,
@@ -8646,19 +8628,21 @@
           },
           "reward": {
             "sfl": 0.95
-          }
+          },
+          "completedAt": 1769774623804
         },
         {
           "createdAt": 1769731995002,
-          "id": "074102",
+          "readyAt": 1769731995002,
           "from": "guria",
+          "id": "074102",
           "items": {
             "Purple Daffodil": 1
           },
-          "readyAt": 1769731995002,
           "reward": {
             "sfl": 1.15
-          }
+          },
+          "completedAt": 1769774616258
         },
         {
           "createdAt": 1769731994882,
@@ -8674,14 +8658,14 @@
         },
         {
           "createdAt": 1769731994882,
-          "readyAt": 1769731994882,
-          "from": "bert",
           "id": "1afa4b",
+          "from": "bert",
           "items": {
             "Honey": 5,
             "Pickaxe": 4,
             "Wood": 45
           },
+          "readyAt": 1769731994882,
           "reward": {},
           "completedAt": 1769737346403
         },
@@ -8801,9 +8785,21 @@
             "coins": 260,
             "items": {}
           }
+        },
+        {
+          "createdAt": 1769774587894,
+          "readyAt": 1769774587894,
+          "from": "gambit",
+          "id": "176da8",
+          "items": {
+            "Beetroot Blaze": 1
+          },
+          "reward": {
+            "sfl": 0.85
+          }
         }
       ],
-      "fulfilledCount": 3272,
+      "fulfilledCount": 3277,
       "milestone": {
         "goal": 10,
         "total": 10
@@ -8986,8 +8982,8 @@
         "choreCount": 16
       },
       "grimbly": {
-        "deliveryCount": 109,
-        "deliveryCompletedAt": 1769657645783,
+        "deliveryCount": 110,
+        "deliveryCompletedAt": 1769774601306,
         "skippedCount": 84,
         "streaks": {
           "streak": 1,
@@ -9016,9 +9012,9 @@
         "choreCount": 4
       },
       "grimtooth": {
-        "deliveryCount": 66,
+        "deliveryCount": 67,
         "skippedCount": 115,
-        "deliveryCompletedAt": 1769657649215,
+        "deliveryCompletedAt": 1769774605537,
         "streaks": {
           "streak": 1,
           "lastClaimedAt": 1746230544627
@@ -9120,8 +9116,8 @@
         "choreCount": 4
       },
       "grubnuk": {
-        "deliveryCount": 70,
-        "deliveryCompletedAt": 1769657671840,
+        "deliveryCount": 71,
+        "deliveryCompletedAt": 1769774619060,
         "skippedCount": 102,
         "streaks": {
           "streak": 1,
@@ -9131,7 +9127,7 @@
       "gambit": {
         "deliveryCount": 43,
         "deliveryCompletedAt": 1769722683746,
-        "skippedCount": 140,
+        "skippedCount": 141,
         "streaks": {
           "streak": 1,
           "lastClaimedAt": 1745625848280
@@ -9166,9 +9162,9 @@
         "choreCount": 21
       },
       "gordo": {
-        "deliveryCount": 56,
+        "deliveryCount": 57,
         "skippedCount": 110,
-        "deliveryCompletedAt": 1769657677147,
+        "deliveryCompletedAt": 1769774623804,
         "choreCount": 16,
         "friendship": {
           "points": 16,
@@ -9211,9 +9207,9 @@
         "deliveryCompletedAt": 1769566965576
       },
       "guria": {
-        "deliveryCount": 89,
+        "deliveryCount": 90,
         "skippedCount": 65,
-        "deliveryCompletedAt": 1769657669101,
+        "deliveryCompletedAt": 1769774616258,
         "streaks": {
           "streak": 1,
           "lastClaimedAt": 1746063337301
@@ -10226,7 +10222,7 @@
           "petXP": 0,
           "score": 1005,
           "collectivePet": {
-            "totalXP": 5930446,
+            "totalXP": 5936696,
             "goalXP": 2404688,
             "goalReached": true,
             "streak": 3,
