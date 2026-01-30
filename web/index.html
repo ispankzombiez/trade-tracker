@@ -966,7 +966,7 @@
             document.getElementById('dashboard').style.display = 'none';
         }
 
-        function updateUI() {
+        async function updateUI() {
             debugLog('updateUI called');
             document.getElementById('loading').style.display = 'none';
             document.getElementById('error').style.display = 'none';
@@ -977,7 +977,7 @@
             updateTopTraders();
             updateMarketSummary();
             updateRecentActivity();
-            updateUserButtons();
+            await updateUserButtons();
             debugLog('UI update completed');
         }
 
@@ -1059,7 +1059,7 @@
             });
         }
 
-        function updateUserButtons() {
+        async function updateUserButtons() {
             debugLog('updateUserButtons called - generating dynamic tabs');
             
             // Get the tabs container
@@ -1070,23 +1070,35 @@
             tabsContainer.innerHTML = '';
             tabsContainer.appendChild(overviewTab);
             
-            // Get list of users from dashboard data
-            const users = dashboardData.top_traders || [];
+            // Get list of all available users by checking for their data files
+            const knownUsers = [
+                'aeon', 'dcol', 'deltaomega', 'ispank', 'raichupus', 'riddlemeknot', 'tourist',
+                'adam', 'andrei', 'blasta', 'broes', 'celinhotv', 'craig', 'droid', 'elias',
+                'haesoo', 'jaysuper', 'labochi', 'thinktronik', 'wtftooma'
+            ];
             
-            debugLog(`Found ${users.length} users to create tabs for`);
+            debugLog(`Checking ${knownUsers.length} known users for data availability`);
             
-            // Create tabs for each user
-            users.forEach(user => {
-                const username = user.username.toLowerCase();
-                const button = document.createElement('button');
-                button.className = 'tab-btn';
-                button.setAttribute('data-tab', username);
-                button.onclick = () => switchTab(username);
-                button.innerHTML = `👤 ${username}`;
-                
-                tabsContainer.appendChild(button);
-                debugLog(`Created tab for user: ${username}`);
-            });
+            // Check which users have data available and create tabs
+            for (const username of knownUsers) {
+                try {
+                    const response = await fetch(`./data/${username}.json`);
+                    if (response.ok) {
+                        const button = document.createElement('button');
+                        button.className = 'tab-btn';
+                        button.setAttribute('data-tab', username);
+                        button.onclick = () => switchTab(username);
+                        button.innerHTML = `👤 ${username}`;
+                        
+                        tabsContainer.appendChild(button);
+                        debugLog(`Created tab for user: ${username}`);
+                    } else {
+                        debugLog(`No data file found for user: ${username}`);
+                    }
+                } catch (error) {
+                    debugLog(`Error checking data for user ${username}: ${error.message}`);
+                }
+            }
         }
 
         function switchTab(tabName) {
