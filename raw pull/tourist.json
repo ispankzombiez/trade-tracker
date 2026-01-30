@@ -80,9 +80,9 @@
       "Grape": "321.180000000001404",
       "Rice": "826.4088",
       "Olive": "1876.5208",
-      "Tomato": "1783.8500000000079443",
-      "Lemon": "3104.5800000000046292",
-      "Barley": "6967.812099999998264",
+      "Tomato": "1832.9000000000079479",
+      "Lemon": "3024.5800000000046292",
+      "Barley": "7894.502099999998264",
       "Rhubarb": "53629.43939999949942",
       "Zucchini": "297620.3145999998891",
       "Yam": "2590.493399999976079",
@@ -274,7 +274,7 @@
       "Tofu Scramble": "299",
       "Paella": "1",
       "Cheese": "198",
-      "Wood": "259281.48",
+      "Wood": "259287.48",
       "Stone": "12755.35",
       "Iron": "5969.6",
       "Gold": "2863.2812499999999999",
@@ -924,7 +924,7 @@
       "Pepper Seed": "2",
       "Magma Stone": "1",
       "Purple Cauliflower": "1",
-      "Tomato Seed": "85",
+      "Tomato Seed": "82",
       "Cauliflower Seed": "10",
       "Olive Flounder": "199",
       "Wheat Seed": "240",
@@ -942,17 +942,17 @@
       "Ruffroot": "10",
       "Crab Stick": "11",
       "Barnacle": "24",
-      "Soybean Seed": "235",
+      "Soybean Seed": "170",
       "Wild Grass": "10",
       "Spaghetti al Limone": "48",
       "Chewed Bone": "10",
-      "Sour Shake": "360",
+      "Sour Shake": "364",
       "Fermented Fish": "10",
       "Big Orange": "1",
       "Pizza Margherita": "33",
       "Blue Cheese": "13",
       "Big Apple": "1",
-      "Barley Seed": "9",
+      "Barley Seed": "13",
       "Fancy Fries": "12",
       "Lemon Cheesecake": "13",
       "Shrimp": "6",
@@ -2180,7 +2180,7 @@
         "necklace": "Beetroot Amulet",
         "aura": "Slime Aura",
         "onesie": "White Sheep Onesie",
-        "hat": "Hornet Mask"
+        "hat": "Tofu Mask"
       },
       "tokenUri": "https://api.sunflower-land.com/bumpkins/metadata/5239_v1_71_1_6_14_19_22_58_80_30_0_86_124_69",
       "sessionId": "0x2f3bd4e4a72dcb36a03e868acb70bacbaed673b4d2fb5591b0f67f26467ae079",
@@ -4953,25 +4953,41 @@
         "1": {
           "plant": {
             "name": "Olive",
-            "plantedAt": 1769659531918.2
+            "plantedAt": 1769659531918.2,
+            "criticalHit": {
+              "Green Amulet": 0,
+              "Greenhouse Gamble": 1
+            }
           }
         },
         "2": {
           "plant": {
             "name": "Olive",
-            "plantedAt": 1769659532243.2
+            "plantedAt": 1769659532243.2,
+            "criticalHit": {
+              "Green Amulet": 0,
+              "Greenhouse Gamble": 0
+            }
           }
         },
         "3": {
           "plant": {
             "name": "Olive",
-            "plantedAt": 1769659532637.2
+            "plantedAt": 1769659532637.2,
+            "criticalHit": {
+              "Green Amulet": 0,
+              "Greenhouse Gamble": 0
+            }
           }
         },
         "4": {
           "plant": {
             "name": "Olive",
-            "plantedAt": 1769659532979.2
+            "plantedAt": 1769659532979.2,
+            "criticalHit": {
+              "Green Amulet": 0,
+              "Greenhouse Gamble": 0
+            }
           }
         }
       }
@@ -5138,21 +5154,13 @@
         "y": 13,
         "height": 1,
         "crop": {
-          "id": "cac90df4",
-          "plantedAt": 1769621049010.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "d73547a5",
+          "plantedAt": 1769786193996,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "2": {
@@ -5162,21 +5170,13 @@
         "y": 12,
         "height": 1,
         "crop": {
-          "id": "5a8e27b6",
-          "plantedAt": 1769621045356.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "d3691862",
+          "plantedAt": 1769786190582,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "3": {
@@ -5186,21 +5186,13 @@
         "y": 13,
         "height": 1,
         "crop": {
-          "id": "811bdba2",
-          "plantedAt": 1769621051420.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "e9e27669",
+          "plantedAt": 1769786195927,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "4": {
@@ -5210,21 +5202,13 @@
         "y": 12,
         "height": 1,
         "crop": {
-          "id": "0582e496",
-          "plantedAt": 1769621046862.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "8436477f",
+          "plantedAt": 1769786192112,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "5": {
@@ -5234,21 +5218,13 @@
         "y": 8,
         "height": 1,
         "crop": {
-          "id": "bd507acb",
-          "plantedAt": 1769621026118.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "2aa90c38",
+          "plantedAt": 1769786173220,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "6": {
@@ -5258,21 +5234,13 @@
         "y": 15,
         "height": 1,
         "crop": {
-          "id": "aecfe37b",
-          "plantedAt": 1769621055080.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "510df912",
+          "plantedAt": 1769786198690,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "7": {
@@ -5282,21 +5250,13 @@
         "y": 14,
         "height": 1,
         "crop": {
-          "id": "931329bd",
-          "plantedAt": 1769621057400.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "a0aac7b1",
+          "plantedAt": 1769786201093,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
-            "Green Amulet": 0
+            "Green Amulet": 1
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "8": {
@@ -5306,21 +5266,13 @@
         "y": 14,
         "height": 1,
         "crop": {
-          "id": "ceb89ca4",
-          "plantedAt": 1769621056635.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "9545ad91",
+          "plantedAt": 1769786200360,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "9": {
@@ -5330,21 +5282,13 @@
         "y": 13,
         "height": 1,
         "crop": {
-          "id": "3deed9bd",
-          "plantedAt": 1769621048209.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "c26acb18",
+          "plantedAt": 1769786193239,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "10": {
@@ -5354,21 +5298,13 @@
         "y": 14,
         "height": 1,
         "crop": {
-          "id": "41e3c37b",
-          "plantedAt": 1769621053726.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "c050e46c",
+          "plantedAt": 1769786198272,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "11": {
@@ -5378,21 +5314,13 @@
         "y": 10,
         "height": 1,
         "crop": {
-          "id": "6de649dd",
-          "plantedAt": 1769621037262.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "aa714f40",
+          "plantedAt": 1769786184234,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "12": {
@@ -5402,21 +5330,13 @@
         "y": 10,
         "height": 1,
         "crop": {
-          "id": "54060024",
-          "plantedAt": 1769621035341.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "cefb3c7a",
+          "plantedAt": 1769786182255,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "13": {
@@ -5426,21 +5346,13 @@
         "y": 8,
         "height": 1,
         "crop": {
-          "id": "de891332",
-          "plantedAt": 1769621030175.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "315dde77",
+          "plantedAt": 1769786177051,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "14": {
@@ -5450,21 +5362,13 @@
         "y": 10,
         "height": 1,
         "crop": {
-          "id": "8282e7f9",
-          "plantedAt": 1769621036471.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "595ba2be",
+          "plantedAt": 1769786183513,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "15": {
@@ -5474,21 +5378,13 @@
         "y": 14,
         "height": 1,
         "crop": {
-          "id": "102c628d",
-          "plantedAt": 1769621053533.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "913fa2fa",
+          "plantedAt": 1769786197438,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "16": {
@@ -5498,21 +5394,13 @@
         "y": 11,
         "height": 1,
         "crop": {
-          "id": "331ee2d4",
-          "plantedAt": 1769621041054.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "f3392d4e",
+          "plantedAt": 1769786186555,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "17": {
@@ -5522,21 +5410,13 @@
         "y": 11,
         "height": 1,
         "crop": {
-          "id": "9a515397",
-          "plantedAt": 1769621042386.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "26365334",
+          "plantedAt": 1769786187746,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "18": {
@@ -5546,21 +5426,13 @@
         "y": 9,
         "height": 1,
         "crop": {
-          "id": "ff6a1b30",
-          "plantedAt": 1769621032365.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "0ca12a33",
+          "plantedAt": 1769786179786,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
-            "Green Amulet": 1
+            "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "55728747": {
@@ -5570,21 +5442,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "2afdefbc",
-          "plantedAt": 1769621032799.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "1f7dc725",
+          "plantedAt": 1769786180160,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
-            "Green Amulet": 1
+            "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "0d94eb58": {
@@ -5594,21 +5458,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "96f770cc",
-          "plantedAt": 1769621047286.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "1ccfe8ca",
+          "plantedAt": 1769786192480,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "1871dea7": {
@@ -5618,21 +5474,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "c32d4335",
-          "plantedAt": 1769621038099.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "2f716075",
+          "plantedAt": 1769786184974,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "1be7a8ad": {
@@ -5642,21 +5490,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "bcd367e4",
-          "plantedAt": 1769621028649.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "cc1c1a98",
+          "plantedAt": 1769786175141,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "3580b504": {
@@ -5666,21 +5506,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "30be7fb7",
-          "plantedAt": 1769621054580.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "7f0d9e6a",
+          "plantedAt": 1769786198967,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
-            "Green Amulet": 0
+            "Green Amulet": 1
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "3ba0ba8d": {
@@ -5690,21 +5522,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "5a3ed031",
-          "plantedAt": 1769621049519.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "a14d28da",
+          "plantedAt": 1769786194390,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
-            "Green Amulet": 1
+            "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "4b25ecbf": {
@@ -5714,21 +5538,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "59576b88",
-          "plantedAt": 1769621031049.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "2497432a",
+          "plantedAt": 1769786178539,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "4c94daf0": {
@@ -5738,21 +5554,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "5567b8cc",
-          "plantedAt": 1769621051856.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "92f5f2cd",
+          "plantedAt": 1769786196340,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "55924cce": {
@@ -5762,21 +5570,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "52f56ecd",
-          "plantedAt": 1769621046109.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "d45fa854",
+          "plantedAt": 1769786191335,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "6f1f4a38": {
@@ -5786,21 +5586,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "b52384d5",
-          "plantedAt": 1769621035721.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "8058d72c",
+          "plantedAt": 1769786182627,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
-            "Green Amulet": 0
+            "Green Amulet": 1
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "6f9167f1": {
@@ -5810,21 +5602,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "da6909ca",
-          "plantedAt": 1769621055777.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "c3bf6fac",
+          "plantedAt": 1769786199407,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
-            "Green Amulet": 0
+            "Green Amulet": 1
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "a295f366": {
@@ -5834,21 +5618,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "b131648d",
-          "plantedAt": 1769621040647.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "206e5c6d",
+          "plantedAt": 1769786186169,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
-            "Green Amulet": 0
+            "Green Amulet": 1
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "a7c097e1": {
@@ -5858,21 +5634,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "8e6b773f",
-          "plantedAt": 1769621050582.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "6ddfd966",
+          "plantedAt": 1769786195028,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "ba6f0db5": {
@@ -5882,21 +5650,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "2f98248e",
-          "plantedAt": 1769621036865.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "b8c42731",
+          "plantedAt": 1769786183855,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "cdd3ed9d": {
@@ -5906,21 +5666,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "adf0b1b9",
-          "plantedAt": 1769621041946.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "39a248ba",
+          "plantedAt": 1769786187339,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "dca3a4b5": {
@@ -5930,21 +5682,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "6dac1f88",
-          "plantedAt": 1769621027026.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "38ea4d7a",
+          "plantedAt": 1769786174075,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "f10693df": {
@@ -5954,21 +5698,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "e20dfb24",
-          "plantedAt": 1769621039745.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "c8eb47fa",
+          "plantedAt": 1769786185387,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "0d1b896f": {
@@ -5978,21 +5714,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "8730162e",
-          "plantedAt": 1769621033191.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "88eb64d1",
+          "plantedAt": 1769786180568,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 1
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "430d73bc": {
@@ -6002,21 +5730,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "1b93cef8",
-          "plantedAt": 1769621029049.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "1c98ac19",
+          "plantedAt": 1769786179411,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "7760db3d": {
@@ -6026,21 +5746,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "0e3cc8d4",
-          "plantedAt": 1769621033668.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "0ab8d160",
+          "plantedAt": 1769786180992,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "bac1131d": {
@@ -6050,21 +5762,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "e17ecd0b",
-          "plantedAt": 1769621040233.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "2a62378a",
+          "plantedAt": 1769786185866,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "c44a290d": {
@@ -6074,21 +5778,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "a639f091",
-          "plantedAt": 1769621031863.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "159ad185",
+          "plantedAt": 1769786179015,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "dfa9158b": {
@@ -6098,21 +5794,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "0b2d90d7",
-          "plantedAt": 1769621052376.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "79bee9ca",
+          "plantedAt": 1769786189187,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "2a0e7a37": {
@@ -6122,21 +5810,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "6b9a9997",
-          "plantedAt": 1769621038849.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "fdd4ca28",
+          "plantedAt": 1769786184553,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "a69e218d": {
@@ -6146,21 +5826,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "f24af53e",
-          "plantedAt": 1769621034654.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "60a18419",
+          "plantedAt": 1769786181765,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "afca210e": {
@@ -6170,21 +5842,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "7f41690b",
-          "plantedAt": 1769621027399.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "600a34f0",
+          "plantedAt": 1769786174435,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "b1ff304e": {
@@ -6194,21 +5858,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "e6946fc9",
-          "plantedAt": 1769621056229.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "b58fcc1c",
+          "plantedAt": 1769786199976,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "f4f6cc83": {
@@ -6218,21 +5874,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "91661151",
-          "plantedAt": 1769621044520.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "1243800a",
+          "plantedAt": 1769786189756,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "14be9f50": {
@@ -6242,21 +5890,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "8bb6ad08",
-          "plantedAt": 1769621046489.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "40601415",
+          "plantedAt": 1769786191733,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "16cd40bc": {
@@ -6266,21 +5906,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "13d82be9",
-          "plantedAt": 1769621044978.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "25a514bb",
+          "plantedAt": 1769786190232,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
-            "Green Amulet": 1
+            "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "224384c4": {
@@ -6290,21 +5922,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "63aa53a0",
-          "plantedAt": 1769621043583.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "a0cc0e7c",
+          "plantedAt": 1769786188177,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "5be7a88e": {
@@ -6314,21 +5938,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "ec63a070",
-          "plantedAt": 1769621041453.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "d7913bac",
+          "plantedAt": 1769786187009,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "611cfde4": {
@@ -6338,21 +5954,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "873c70b0",
-          "plantedAt": 1769621048516.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "5666d536",
+          "plantedAt": 1769786193623,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
-            "Green Amulet": 0
+            "Green Amulet": 1
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "74db76a8": {
@@ -6362,21 +5970,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "513501f9",
-          "plantedAt": 1769621051031.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "9ebcf4e5",
+          "plantedAt": 1769786195574,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "e19f5b12": {
@@ -6386,21 +5986,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "72dd855f",
-          "plantedAt": 1769621047675.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "7e1d6ffe",
+          "plantedAt": 1769786192827,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
-            "Green Amulet": 1
+            "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "34b85d89": {
@@ -6410,21 +6002,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "54b7ad75",
-          "plantedAt": 1769621028233.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "cf97f166",
+          "plantedAt": 1769786176503,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
-            "Green Amulet": 1
+            "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "51437be4": {
@@ -6434,21 +6018,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "33a5bfe8",
-          "plantedAt": 1769621045722.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "6e211661",
+          "plantedAt": 1769786190979,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "81ee3fee": {
@@ -6458,21 +6034,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "bf240642",
-          "plantedAt": 1769621043154.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "9df0a07b",
+          "plantedAt": 1769786188745,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
-            "Green Amulet": 1
+            "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "27114ec0": {
@@ -6482,21 +6050,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "10b545e6",
-          "plantedAt": 1769621030619.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "251bccc3",
+          "plantedAt": 1769786177430,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "4ab538a1": {
@@ -6506,21 +6066,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "99248288",
-          "plantedAt": 1769621052842.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "071cea38",
+          "plantedAt": 1769786196827,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "07bf5021": {
@@ -6530,21 +6082,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "9cdcc69a",
-          "plantedAt": 1769621031455.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "864170d8",
+          "plantedAt": 1769786178172,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "a3bc239d": {
@@ -6554,21 +6098,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "58b2476e",
-          "plantedAt": 1769621057029.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "bfe7a473",
+          "plantedAt": 1769786200890,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "f6593b9c": {
@@ -6578,21 +6114,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "4bdd4c8a",
-          "plantedAt": 1769621027808.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "466b9ced",
+          "plantedAt": 1769786174778,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "3131682c": {
@@ -6602,21 +6130,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "b29f1efe",
-          "plantedAt": 1769621026580.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "3c30b017",
+          "plantedAt": 1769786173686,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "53feca10": {
@@ -6626,21 +6146,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "75c1f507",
-          "plantedAt": 1769621057807.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "92984a45",
+          "plantedAt": 1769786201589,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
-            "Green Amulet": 1
+            "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "449a1af1": {
@@ -6650,21 +6162,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "0fe58c4f",
-          "plantedAt": 1769621036089.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "01cd2c94",
+          "plantedAt": 1769786183084,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       },
       "5be8ef1c": {
@@ -6674,21 +6178,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "14cdc0d8",
-          "plantedAt": 1769621034164.2,
-          "boostedTime": 142283476.8,
-          "name": "Barley",
+          "id": "bfa8a5a8",
+          "plantedAt": 1769786181279,
+          "boostedTime": 8680797,
+          "name": "Soybean",
           "criticalHit": {
             "Green Amulet": 0
           }
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769763357430
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769792955491
         }
       }
     },
@@ -6964,9 +6460,12 @@
         "height": 2,
         "fruit": {
           "name": "Tomato",
-          "plantedAt": 1769756686477,
-          "harvestedAt": 1769787285194,
-          "harvestsLeft": 1
+          "plantedAt": 1769789090664,
+          "harvestedAt": 0,
+          "harvestsLeft": 6,
+          "criticalHit": {
+            "Generous Orchard": 0
+          }
         }
       },
       "2": {
@@ -6978,8 +6477,11 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769787282159,
-          "harvestedAt": 0,
-          "harvestsLeft": 5
+          "harvestedAt": 1769789086707,
+          "harvestsLeft": 4,
+          "criticalHit": {
+            "Generous Orchard": 0
+          }
         }
       },
       "8ae9a489": {
@@ -6991,8 +6493,11 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769758144181,
-          "harvestedAt": 1769787284220,
-          "harvestsLeft": 4
+          "harvestedAt": 1769789088299,
+          "harvestsLeft": 3,
+          "criticalHit": {
+            "Generous Orchard": 0
+          }
         }
       },
       "9207026f": {
@@ -7004,8 +6509,11 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769787287398,
-          "harvestedAt": 0,
-          "harvestsLeft": 5
+          "harvestedAt": 1769789090911,
+          "harvestsLeft": 4,
+          "criticalHit": {
+            "Generous Orchard": 0
+          }
         }
       },
       "93ab272d": {
@@ -7017,8 +6525,11 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769759972319,
-          "harvestedAt": 1769787285795,
-          "harvestsLeft": 3
+          "harvestedAt": 1769789089022,
+          "harvestsLeft": 2,
+          "criticalHit": {
+            "Generous Orchard": 0
+          }
         }
       },
       "a2f18fe9": {
@@ -7029,9 +6540,12 @@
         "height": 2,
         "fruit": {
           "name": "Tomato",
-          "plantedAt": 1769755139551,
-          "harvestedAt": 1769787283302,
-          "harvestsLeft": 1
+          "plantedAt": 1769789090252,
+          "harvestedAt": 0,
+          "harvestsLeft": 5,
+          "criticalHit": {
+            "Generous Orchard": 0
+          }
         }
       },
       "b5c8e870": {
@@ -7043,8 +6557,11 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769787284831,
-          "harvestedAt": 0,
-          "harvestsLeft": 7
+          "harvestedAt": 1769789087769,
+          "harvestsLeft": 6,
+          "criticalHit": {
+            "Generous Orchard": 0
+          }
         }
       },
       "ea774f83": {
@@ -7056,8 +6573,11 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769758141866,
-          "harvestedAt": 1769787281637,
-          "harvestsLeft": 2
+          "harvestedAt": 1769789083037,
+          "harvestsLeft": 1,
+          "criticalHit": {
+            "Generous Orchard": 0
+          }
         }
       },
       "eb262085": {
@@ -7069,8 +6589,11 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769755138439,
-          "harvestedAt": 1769787280845,
-          "harvestsLeft": 2
+          "harvestedAt": 1769789086991,
+          "harvestsLeft": 1,
+          "criticalHit": {
+            "Generous Orchard": 0
+          }
         }
       },
       "f041ccc8": {
@@ -7082,8 +6605,11 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769787282643,
-          "harvestedAt": 0,
-          "harvestsLeft": 7
+          "harvestedAt": 1769789086194,
+          "harvestsLeft": 6,
+          "criticalHit": {
+            "Generous Orchard": 0
+          }
         }
       },
       "66e38b8a": {
@@ -7095,8 +6621,11 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769759968896,
-          "harvestedAt": 1769787280396,
-          "harvestsLeft": 3
+          "harvestedAt": 1769789086472,
+          "harvestsLeft": 2,
+          "criticalHit": {
+            "Generous Orchard": 0
+          }
         }
       },
       "cf1a4feb": {
@@ -7108,8 +6637,11 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769758146573,
-          "harvestedAt": 1769787286059,
-          "harvestsLeft": 2
+          "harvestedAt": 1769789091188,
+          "harvestsLeft": 1,
+          "criticalHit": {
+            "Generous Orchard": 0
+          }
         }
       },
       "2ff783ac": {
@@ -7120,9 +6652,12 @@
         "height": 2,
         "fruit": {
           "name": "Tomato",
-          "plantedAt": 1769756683379,
-          "harvestedAt": 1769787281378,
-          "harvestsLeft": 1
+          "plantedAt": 1769789087444,
+          "harvestedAt": 0,
+          "harvestsLeft": 7,
+          "criticalHit": {
+            "Generous Orchard": 1
+          }
         }
       },
       "51a65554": {
@@ -7134,8 +6669,11 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769787287873,
-          "harvestedAt": 0,
-          "harvestsLeft": 7
+          "harvestedAt": 1769789089750,
+          "harvestsLeft": 6,
+          "criticalHit": {
+            "Generous Orchard": 0
+          }
         }
       },
       "8784f8f4": {
@@ -7147,8 +6685,11 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769761752127,
-          "harvestedAt": 1769787285521,
-          "harvestsLeft": 5
+          "harvestedAt": 1769789089259,
+          "harvestsLeft": 4,
+          "criticalHit": {
+            "Generous Orchard": 1
+          }
         }
       }
     },
@@ -10224,28 +9765,8 @@
             "y": -1
           },
           "readyAt": 1738220541829,
-          "oil": 40,
+          "oil": 39.33333333333333,
           "crafting": [
-            {
-              "name": "Sour Shake",
-              "boost": {
-                "Oil": 0.3333333333333333
-              },
-              "skills": {
-                "Double Nom": true
-              },
-              "readyAt": 1769794054111.5
-            },
-            {
-              "name": "Sour Shake",
-              "boost": {
-                "Oil": 0.3333333333333333
-              },
-              "skills": {
-                "Double Nom": true
-              },
-              "readyAt": 1769794777036.5
-            },
             {
               "name": "Sour Shake",
               "boost": {
@@ -10265,6 +9786,26 @@
                 "Double Nom": true
               },
               "readyAt": 1769796222886.5
+            },
+            {
+              "name": "Sour Shake",
+              "boost": {
+                "Oil": 0.3333333333333333
+              },
+              "skills": {
+                "Double Nom": true
+              },
+              "readyAt": 1769796945811.5
+            },
+            {
+              "name": "Sour Shake",
+              "boost": {
+                "Oil": 0.3333333333333333
+              },
+              "skills": {
+                "Double Nom": true
+              },
+              "readyAt": 1769797668736.5
             }
           ]
         }
@@ -15567,7 +15108,7 @@
       "Rod Casted": 26393,
       "Cabbage Seed Bought": 136503,
       "Olive Harvested": 2083,
-      "Soybean Planted": 76559,
+      "Soybean Planted": 76624,
       "Grape Planted": 1514,
       "Iron Mined": 32898,
       "Cabbage Sold": 48267.0951,
@@ -15864,8 +15405,8 @@
       "Tomato Seed Bought": 7705,
       "Lemon Seed Bought": 5082,
       "Lemon Seed Planted": 5076,
-      "Tomato Seed Planted": 7620,
-      "Tomato Harvested": 43700,
+      "Tomato Seed Planted": 7623,
+      "Tomato Harvested": 43715,
       "Lemon Harvested": 29159,
       "Goblin Pants Bought": 1,
       "Pancakes Fed": 946,
@@ -15932,7 +15473,7 @@
       "Sheep Bought": 368,
       "Sheep Fed": 14058,
       "Cow Bought": 380,
-      "Barley Harvested": 12058,
+      "Barley Harvested": 12123,
       "Adrift Ark Crafted": 1,
       "Castellan Crafted": 2,
       "Feather Collected": 18935,
@@ -15949,7 +15490,7 @@
       "NutriBarley Mixed": 5007,
       "Treasure Key Bought": 6,
       "Mixed Grain Mixed": 5141,
-      "Sour Shake Cooked": 6579,
+      "Sour Shake Cooked": 6581,
       "Cheese Cooked": 18908,
       "Honey Cheddar Cooked": 239,
       "Pizza Margherita Cooked": 1684,
@@ -20924,7 +20465,7 @@
     "aoe": {
       "Gnome": {
         "0": {
-          "1": 1769763340717
+          "1": 1769794881756
         }
       },
       "Scary Mike": {
@@ -20992,24 +20533,24 @@
       },
       "Sir Goldensnout": {
         "0": {
-          "1": 1769763326066,
-          "-2": 1769763309862
+          "1": 1769794868808,
+          "-2": 1769794854327
         },
         "1": {
-          "1": 1769763325651,
-          "-2": 1769763310315
+          "1": 1769794868388,
+          "-2": 1769794854718
         },
         "2": {
-          "0": 1769763318644,
-          "1": 1769763325169,
-          "-1": 1769763316941,
-          "-2": 1769763310711
+          "0": 1769794862905,
+          "1": 1769794867989,
+          "-1": 1769794861728,
+          "-2": 1769794855062
         },
         "-1": {
-          "0": 1769763317960,
-          "1": 1769763326454,
-          "-1": 1769763317455,
-          "-2": 1769763309414
+          "0": 1769794862383,
+          "1": 1769794869364,
+          "-1": 1769794853351,
+          "-2": 1769794853853
         }
       },
       "Tin Turtle": {
@@ -21030,67 +20571,67 @@
       },
       "Laurie the Chuckle Crow": {
         "0": {
-          "-7": 1769734381284,
-          "-6": 1769734388536,
-          "-5": 1769734387889,
-          "-4": 1769734395643,
-          "-3": 1769734399038,
-          "-2": 1769734405557,
-          "-1": 1769734409311
+          "-7": 1769794855785,
+          "-6": 1769794860440,
+          "-5": 1769794864147,
+          "-4": 1769794866800,
+          "-3": 1769794872381,
+          "-2": 1769794875039,
+          "-1": 1769794880983
         },
         "1": {
-          "-7": 1769734381883,
-          "-6": 1769734386447,
-          "-5": 1769734385503,
-          "-4": 1769734396203,
-          "-3": 1769734398595,
-          "-2": 1769734406034,
-          "-1": 1769734408859
+          "-7": 1769794857686,
+          "-6": 1769794860060,
+          "-5": 1769794864497,
+          "-4": 1769794866406,
+          "-3": 1769794872745,
+          "-2": 1769794874639,
+          "-1": 1769794881373
         },
         "2": {
-          "-7": 1769734382318,
-          "-6": 1769734383989,
-          "-5": 1769734384999,
-          "-4": 1769734396706,
-          "-3": 1769734398119,
-          "-2": 1769734406500,
-          "-1": 1769734408392
+          "-7": 1769794858079,
+          "-6": 1769794859640,
+          "-5": 1769794864861,
+          "-4": 1769794866020,
+          "-3": 1769794873106,
+          "-2": 1769794874264,
+          "-1": 1769794881756
         },
         "3": {
-          "-7": 1769734382924,
-          "-6": 1769734384511,
-          "-5": 1769734383553,
-          "-4": 1769734397220,
-          "-3": 1769734397689,
-          "-2": 1769734407556,
-          "-1": 1769734407956
+          "-7": 1769794858468,
+          "-6": 1769794858819,
+          "-5": 1769794865211,
+          "-4": 1769794865601,
+          "-3": 1769794873478,
+          "-2": 1769794873860,
+          "-1": 1769794882206
         },
         "-3": {
-          "-7": 1769734379866,
-          "-6": 1769734389030,
-          "-5": 1769734389464,
-          "-4": 1769734393098,
-          "-3": 1769734400537,
-          "-2": 1769734404157,
-          "-1": 1769734410690
+          "-7": 1769794855062,
+          "-6": 1769794861728,
+          "-5": 1769794862905,
+          "-4": 1769794867989,
+          "-3": 1769794871206,
+          "-2": 1769794876567,
+          "-1": 1769794878526
         },
         "-2": {
-          "-7": 1769734380357,
-          "-6": 1769734390356,
-          "-5": 1769734389893,
-          "-4": 1769734393555,
-          "-3": 1769734400067,
-          "-2": 1769734404581,
-          "-1": 1769734410206
+          "-7": 1769794855421,
+          "-6": 1769794861190,
+          "-5": 1769794863262,
+          "-4": 1769794867592,
+          "-3": 1769794871617,
+          "-2": 1769794876139,
+          "-1": 1769794880047
         },
         "-1": {
-          "-7": 1769734380786,
-          "-6": 1769734386951,
-          "-5": 1769734387430,
-          "-4": 1769734395238,
-          "-3": 1769734399460,
-          "-2": 1769734405076,
-          "-1": 1769734409772
+          "-7": 1769794856562,
+          "-6": 1769794860806,
+          "-5": 1769794863702,
+          "-4": 1769794867193,
+          "-3": 1769794871982,
+          "-2": 1769794875443,
+          "-1": 1769794880599
         }
       },
       "Emerald Turtle": {
@@ -21188,22 +20729,22 @@
       }
     },
     "boostsUsedAt": {
-      "Luna's Hat": 1769793381053,
-      "Goblin Medallion": 1769793381053,
-      "Desert Gnome": 1769793381053,
-      "Bud #2197": 1769793028580,
-      "Camel Onesie": 1769793028580,
-      "Cannonball": 1769793029873,
-      "Catchup": 1769793029873,
-      "Foreman Beaver": 1769793029679,
-      "Fruitful Fumble": 1769793028580,
-      "Generous Orchard": 1769793028580,
-      "Goblin Quiver": 1769793057458,
-      "Loyal Macaw": 1769793028580,
-      "Macaw": 1769793028580,
+      "Luna's Hat": 1769794837067,
+      "Goblin Medallion": 1769794837067,
+      "Desert Gnome": 1769794837067,
+      "Bud #2197": 1769794833188,
+      "Camel Onesie": 1769794833188,
+      "Cannonball": 1769794833188,
+      "Catchup": 1769794833188,
+      "Foreman Beaver": 1769794832522,
+      "Fruitful Fumble": 1769794833188,
+      "Generous Orchard": 1769794833188,
+      "Goblin Quiver": 1769794882206,
+      "Loyal Macaw": 1769794833188,
+      "Macaw": 1769794833188,
       "Spring Guardian": 1768780374432,
-      "Tomato Bombard": 1769793028580,
-      "Tomato Clown": 1769793029873,
+      "Tomato Bombard": 1769794833188,
+      "Tomato Clown": 1769794833188,
       "Butterfly": 1769303514292,
       "Humming Bird": 1769711206638,
       "Petalled Perk": 1769740073628,
@@ -21211,7 +20752,7 @@
       "Flower Crown": 1769740086667,
       "Flower Fox": 1769740086667,
       "Frosted Cakes": 1769793122364,
-      "Kuebiko": 1769793075612,
+      "Kuebiko": 1769794882386,
       "Fast Feasts": 1769793101212,
       "Bud #1707": 1769792947304,
       "Goblin Shield": 1769793010251,
@@ -21248,25 +20789,25 @@
       "Turbo Charged": 1769793015131,
       "Medic Apron": 1753828893028,
       "Blossom Ward": 1768780374432,
-      "Bud #1854": 1769793057458,
-      "Bud #801": 1769793067664,
-      "Coder": 1769793057458,
+      "Bud #1854": 1769794882206,
+      "Bud #801": 1769794882386,
+      "Coder": 1769794882206,
       "Corn Onesie": 1768780374432,
-      "Green Amulet": 1769763340320,
-      "Green Thumb": 1769763341284,
-      "Infernal Pitchfork": 1769793057458,
-      "Laurie the Chuckle Crow": 1769734410690,
-      "Laurie's Gains": 1769734410690,
-      "Lunar Calendar": 1769793067664,
-      "Old Farmer": 1769734412329,
-      "Pollen Power Up": 1769711361253,
+      "Green Amulet": 1769794881373,
+      "Green Thumb": 1769794882386,
+      "Infernal Pitchfork": 1769794882206,
+      "Laurie the Chuckle Crow": 1769794882206,
+      "Laurie's Gains": 1769794882206,
+      "Lunar Calendar": 1769794882386,
+      "Old Farmer": 1769794882206,
+      "Pollen Power Up": 1769794882206,
       "Poppy": 1768780374432,
       "Queen Cornelia": 1768780347460,
-      "Seed Specialist": 1769793067664,
-      "Sir Goldensnout": 1769763326454,
-      "Gnome": 1769763340717,
+      "Seed Specialist": 1769794882386,
+      "Sir Goldensnout": 1769794869364,
+      "Gnome": 1769794881756,
       "Glass Room": 1769793057458,
-      "Hoot": 1769734412329,
+      "Hoot": 1769794882206,
       "Olive Express": 1769793067664,
       "Pharaoh Gnome": 1769793057458,
       "Rice Panda": 1769330255755,
@@ -21333,7 +20874,7 @@
       "Basic Scarecrow": 1769742070992,
       "Carrot Amulet": 1768780375316,
       "Chonky Scarecrow": 1769742070992,
-      "Knowledge Crab": 1769666406957,
+      "Knowledge Crab": 1769794882206,
       "Sickle": 1769635465800,
       "Easter Bunny": 1769740750347,
       "Lab Grown Carrot": 1769740750347,
@@ -21361,7 +20902,7 @@
       "Barn Blueprint": 1769386852675,
       "Oracle Syringe": 1769748436570,
       "Chicory": 1769649616318,
-      "Sheaf of Plenty": 1769677606198,
+      "Sheaf of Plenty": 1769794882206,
       "Fruitful Bounty": 1769793025760,
       "Bud #962": 1769733434865,
       "Ancient Rod": 1769733434865,
@@ -21393,7 +20934,7 @@
       "Purple Trail": 1769382983878,
       "Alba": 1769733434865,
       "Fishy Chance": 1769733408764,
-      "Fruit Tune Box": 1769793029873,
+      "Fruit Tune Box": 1769794833188,
       "Lab Grown Radish": 1769375295156,
       "Radical Radish": 1769375292839,
       "Desert Rose": 1769303514292,
@@ -21411,7 +20952,7 @@
       "Bud #2233": 1769299442338,
       "Deep Sea Helm": 1764816051449,
       "Janitor Chicken": 1769745200417,
-      "Autumn's Embrace": 1769763341284,
+      "Autumn's Embrace": 1769794882386,
       "Blossombeard": 1769627448991,
       "Golden Spatula": 1769627448991,
       "Juicy Boost": 1769626750856,
@@ -21458,9 +20999,9 @@
       "Tortoise Shrine": 1769793067664,
       "Mole Shrine": 1769793010251,
       "Training Whistle": 1769755099696,
-      "Master Chef's Cleaver": 1769793381053,
-      "Toucan Shrine": 1769793029873,
-      "Sparrow Shrine": 1769763341284,
+      "Master Chef's Cleaver": 1769794837067,
+      "Toucan Shrine": 1769794833188,
+      "Sparrow Shrine": 1769794882386,
       "Fox Shrine": 1769793045346,
       "Harvest Hourglass": 1768729159098,
       "Time Warp Totem": 1768099937709,

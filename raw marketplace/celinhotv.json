@@ -1,6 +1,6 @@
 {
   "id": 2253,
-  "totalTrades": 11073,
+  "totalTrades": 11076,
   "level": 123,
   "weeklyFlowerSpent": 0.4339,
   "weeklyFlowerEarned": 84.7234325,
@@ -97,7 +97,9 @@
       },
       "sfl": 1.767,
       "tax": 0.132525,
-      "tradeType": "instant"
+      "tradeType": "instant",
+      "fulfilledAt": 1769794634670,
+      "fulfilledById": 4390504717264433
     },
     "9157795c": {
       "collection": "collectibles",
@@ -107,7 +109,9 @@
       },
       "sfl": 1.767,
       "tax": 0.132525,
-      "tradeType": "instant"
+      "tradeType": "instant",
+      "fulfilledAt": 1769794536262,
+      "fulfilledById": 5618804398255256
     },
     "1df275a8": {
       "collection": "collectibles",
@@ -117,7 +121,9 @@
       },
       "sfl": 1.767,
       "tax": 0.132525,
-      "tradeType": "instant"
+      "tradeType": "instant",
+      "fulfilledAt": 1769794641640,
+      "fulfilledById": 171104
     },
     "2d1d6171": {
       "collection": "collectibles",
@@ -236,6 +242,63 @@
     }
   ],
   "trades": [
+    {
+      "id": "1df275a8",
+      "sfl": 1.767,
+      "quantity": 80,
+      "itemId": 605,
+      "collection": "collectibles",
+      "source": "listing",
+      "fulfilledAt": 1769794643135,
+      "initiatedBy": {
+        "id": 2253,
+        "bumpkinUri": "0_v1_55_1_51_88_404_34_500_173_30_380_312_0_0_0_0_266",
+        "username": "Celinhotv"
+      },
+      "fulfilledBy": {
+        "id": 171104,
+        "bumpkinUri": "0_v1_348_2_184_282_18_22_400_476_501_383_86_0_0_189_0_266",
+        "username": "Snoo"
+      }
+    },
+    {
+      "id": "67d4339e",
+      "sfl": 1.767,
+      "quantity": 80,
+      "itemId": 605,
+      "collection": "collectibles",
+      "source": "listing",
+      "fulfilledAt": 1769794634670,
+      "initiatedBy": {
+        "id": 2253,
+        "bumpkinUri": "0_v1_55_1_51_88_404_34_500_173_30_380_312_0_0_0_0_266",
+        "username": "Celinhotv"
+      },
+      "fulfilledBy": {
+        "id": 4390504717264433,
+        "bumpkinUri": "0_v1_32_90_5_185_234_89_240_505_0_228",
+        "username": "tommii"
+      }
+    },
+    {
+      "id": "9157795c",
+      "sfl": 1.767,
+      "quantity": 80,
+      "itemId": 605,
+      "collection": "collectibles",
+      "source": "listing",
+      "fulfilledAt": 1769794536262,
+      "initiatedBy": {
+        "id": 2253,
+        "bumpkinUri": "0_v1_55_1_51_88_404_34_500_173_30_380_312_0_0_0_0_266",
+        "username": "Celinhotv"
+      },
+      "fulfilledBy": {
+        "id": 5618804398255256,
+        "bumpkinUri": "0_v1_32_90_184_85_504_89_226_91_0_238_0_0_0_0_0_177",
+        "username": "Stapr00"
+      }
+    },
     {
       "id": "b0ede989",
       "sfl": 1.67,
@@ -1127,63 +1190,6 @@
         "id": 5169396810839896,
         "bumpkinUri": "0_v1_32_90_202_85_234_89_240_476_0_228_0_435_450",
         "username": "aaaq1"
-      }
-    },
-    {
-      "id": "e35ec8b5",
-      "sfl": 1.68,
-      "quantity": 25,
-      "itemId": 603,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769647643363,
-      "initiatedBy": {
-        "id": 2253,
-        "bumpkinUri": "0_v1_55_1_51_88_404_34_500_173_30_380_312_0_0_0_0_266",
-        "username": "Celinhotv"
-      },
-      "fulfilledBy": {
-        "id": 7191823012179640,
-        "bumpkinUri": "0_v1_48_3_50_15_20_22_45_253",
-        "username": "Elisabrine"
-      }
-    },
-    {
-      "id": "f68b0486",
-      "sfl": 1.69,
-      "quantity": 25,
-      "itemId": 603,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769475530899,
-      "initiatedBy": {
-        "id": 2253,
-        "bumpkinUri": "0_v1_55_1_51_88_404_34_500_173_30_380_312_0_0_0_0_266",
-        "username": "Celinhotv"
-      },
-      "fulfilledBy": {
-        "id": 4637234538500518,
-        "bumpkinUri": "0_v1_32_1_5_88_18_34_226_395",
-        "username": "Milanz"
-      }
-    },
-    {
-      "id": "655bef7b",
-      "sfl": 1.69,
-      "quantity": 25,
-      "itemId": 603,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769474738810,
-      "initiatedBy": {
-        "id": 2253,
-        "bumpkinUri": "0_v1_55_1_51_88_404_34_500_173_30_380_312_0_0_0_0_266",
-        "username": "Celinhotv"
-      },
-      "fulfilledBy": {
-        "id": 14355,
-        "bumpkinUri": "0_v1_48_90_6_459_234_22_226_505_0_228_86_117_0_189",
-        "username": "mineko"
       }
     }
   ]
