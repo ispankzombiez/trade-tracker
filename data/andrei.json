@@ -1,18 +1,42 @@
 {
   "username": "andrei",
   "overview": {
-    "balance": 5.15,
+    "balance": 3.83,
     "coins": 53301.0,
     "gems": 0.0,
     "earned_sfl": 11638.5,
     "earned_coins": 53301.0,
     "spent_sfl": 15729.07,
-    "items_sold": 10535.0,
-    "trade_points": 13889.32,
-    "last_updated": "2026-01-30 11:34 AM",
-    "active_listings": 6
+    "items_sold": 10536.0,
+    "trade_points": 13889.33,
+    "last_updated": "2026-01-30 11:50 AM",
+    "active_listings": 0
   },
   "buys": [
+    {
+      "date": "2026-01-30",
+      "time": "11:36 AM",
+      "type": "BUY",
+      "item": "Milk",
+      "quantity": 50,
+      "price_text": "5.9475 SFL",
+      "price": 5.9475,
+      "counterparty": "PatoStar",
+      "farm_id": "-",
+      "trade_id": "9d195e52"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "11:35 AM",
+      "type": "BUY",
+      "item": "Orange",
+      "quantity": 140,
+      "price_text": "1.953 SFL",
+      "price": 1.953,
+      "counterparty": "Alyneko",
+      "farm_id": "-",
+      "trade_id": "014504f1"
+    },
     {
       "date": "2026-01-30",
       "time": "11:05 AM",
@@ -449,6 +473,18 @@
   "sells": [
     {
       "date": "2026-01-30",
+      "time": "11:32 AM",
+      "type": "SELL",
+      "item": "Grape",
+      "quantity": 5,
+      "price_text": "1.1784 SFL",
+      "price": 1.1784,
+      "counterparty": "elkapitanpanot",
+      "farm_id": "-",
+      "trade_id": "37a0bf56"
+    },
+    {
+      "date": "2026-01-30",
       "time": "11:23 AM",
       "type": "SELL",
       "item": "Grape",
@@ -798,15 +834,33 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 36,
-    "total_sells": 29,
-    "buy_volume": 52.89609999999999,
-    "sell_volume": 39.4336,
-    "gross_profit": -13.462499999999991,
-    "avg_buy_price": 1.4693361111111107,
-    "avg_sell_price": 1.3597793103448275,
+    "total_buys": 38,
+    "total_sells": 30,
+    "buy_volume": 60.796599999999984,
+    "sell_volume": 40.612,
+    "gross_profit": -20.184599999999982,
+    "avg_buy_price": 1.5999105263157891,
+    "avg_sell_price": 1.3537333333333335,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Milk",
+        "quantity": 50,
+        "price": 5.9475,
+        "date": "2026-01-30",
+        "time": "11:36 AM",
+        "username": "andrei"
+      },
+      {
+        "type": "BUY",
+        "item": "Orange",
+        "quantity": 140,
+        "price": 1.953,
+        "date": "2026-01-30",
+        "time": "11:35 AM",
+        "username": "andrei"
+      },
       {
         "type": "BUY",
         "item": "Rice",
@@ -840,8 +894,7 @@
         "quantity": 100,
         "price": 5.7982,
         "date": "2026-01-30",
-        "time": "10:58 AM",
-        "username": "andrei"
+        "time": "10:58 AM"
       },
       {
         "type": "BUY",
@@ -849,8 +902,7 @@
         "quantity": 20,
         "price": 0.1982,
         "date": "2026-01-30",
-        "time": "10:41 AM",
-        "username": "andrei"
+        "time": "10:41 AM"
       },
       {
         "type": "BUY",
@@ -955,101 +1007,30 @@
         "price": 1.1536,
         "date": "2026-01-29",
         "time": "02:11 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Apple",
-        "quantity": 43,
-        "price": 0.8704,
-        "date": "2026-01-29",
-        "time": "02:11 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Apple",
-        "quantity": 20,
-        "price": 0.4048,
-        "date": "2026-01-29",
-        "time": "02:11 PM"
       }
     ],
-    "profit_margin": -25.45083664013036,
+    "profit_margin": -33.20021185395234,
     "most_bought_items": {
       "Stone": 659,
-      "Milk": 155,
+      "Milk": 205,
+      "Orange": 140,
       "Apple": 140,
       "Blueberry": 125,
       "Cauliflower": 100,
       "Wool": 100,
       "Lemon": 60,
       "Leather": 60,
-      "Rice": 5,
-      "Celestine": 4
+      "Rice": 5
     },
     "most_sold_items": {
       "Beetroot": 1000,
       "Iron": 105,
       "Gold": 35,
-      "Grape": 20,
+      "Grape": 25,
       "Duskberry": 18
     }
   },
-  "active_listings": [
-    {
-      "id": "6ab6dc7f",
-      "item": "Gold",
-      "quantity": 5,
-      "price": 1.19,
-      "created_at": 1769772040676,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "7dce3ada",
-      "item": "Gold",
-      "quantity": 5,
-      "price": 1.19,
-      "created_at": 1769772045763,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "ec0e0a12",
-      "item": "Gold",
-      "quantity": 5,
-      "price": 1.19,
-      "created_at": 1769772053203,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "0a1c95d2",
-      "item": "Grape",
-      "quantity": 5,
-      "price": 1.1784,
-      "created_at": 1769772132750,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "d8226013",
-      "item": "Grape",
-      "quantity": 5,
-      "price": 1.1784,
-      "created_at": 1769772147082,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "37a0bf56",
-      "item": "Grape",
-      "quantity": 5,
-      "price": 1.1784,
-      "created_at": 1769772153149,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    }
-  ],
+  "active_listings": [],
   "active_offers": [
     {
       "id": "32258476",
@@ -1718,15 +1699,6 @@
       "trade_type": "instant"
     },
     {
-      "id": "4a7bcdc1",
-      "item": "Wheat Whiskers",
-      "quantity": 1,
-      "price": 0.0262,
-      "created_at": 1769562767572,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
       "id": "01f8e985",
       "item": "Floor Mirror",
       "quantity": 1,
@@ -1844,15 +1816,6 @@
       "trade_type": "instant"
     },
     {
-      "id": "67d1d77e",
-      "item": "Golden Bear Head",
-      "quantity": 1,
-      "price": 2,
-      "created_at": 1769625567581,
-      "collection": "collectibles",
-      "trade_type": "onchain"
-    },
-    {
       "id": "e98e0f6f",
       "item": "Venus Bumpkin Trap",
       "quantity": 1,
@@ -1929,9 +1892,9 @@
     "fruits": {
       "Apple": 150.1000000000003,
       "Blueberry": 35.55000000000024,
-      "Orange": 3.5000000000000706,
+      "Orange": 143.50000000000006,
       "Banana": 67.25000000000146,
-      "Grape": 22.25000000000063,
+      "Grape": 17.25000000000063,
       "Tomato": 909.0000000000002,
       "Lemon": 32.70000000000148,
       "Lunara": 0.6,
