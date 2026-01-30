@@ -1,6 +1,6 @@
 {
   "id": 151471,
-  "totalTrades": 40022,
+  "totalTrades": 40023,
   "level": 190,
   "weeklyFlowerSpent": 136.2059,
   "weeklyFlowerEarned": 140.520295,
@@ -1375,19 +1375,9 @@
       },
       "sfl": 1.0655,
       "tax": 0.053275,
-      "tradeType": "instant"
-    },
-    "ed891933": {
-      "collection": "collectibles",
-      "createdAt": 1769759670004,
-      "items": {
-        "Beetroot": 250
-      },
-      "sfl": 1.6477,
-      "tax": 0.082385,
       "tradeType": "instant",
-      "fulfilledAt": 1769759768614,
-      "fulfilledById": 103121
+      "fulfilledAt": 1769760182401,
+      "fulfilledById": 6050097447442827
     }
   },
   "offers": {
@@ -1461,6 +1451,25 @@
     }
   ],
   "trades": [
+    {
+      "id": "732c3a14",
+      "sfl": 1.0655,
+      "quantity": 119,
+      "itemId": 601,
+      "collection": "collectibles",
+      "source": "listing",
+      "fulfilledAt": 1769760182401,
+      "initiatedBy": {
+        "id": 151471,
+        "bumpkinUri": "0_v1_306_1_51_330_333_334_332_161_388_380_0_0_0_384_0_177_469",
+        "username": "JaySuper"
+      },
+      "fulfilledBy": {
+        "id": 6050097447442827,
+        "bumpkinUri": "0_v1_48_1_52_13_234_41_240_395_0_0_0_458_451",
+        "username": "Eloperoa"
+      }
+    },
     {
       "id": "ed891933",
       "sfl": 1.6477,
@@ -2390,25 +2399,6 @@
         "id": 3336539392556546,
         "bumpkinUri": "0_v1_48_485_487_88_504_89_226_321_501_492_0_0_495_496",
         "username": "Rexkill"
-      }
-    },
-    {
-      "id": "299d7f27",
-      "sfl": 0.8095,
-      "quantity": 275,
-      "itemId": 260,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769729229061,
-      "initiatedBy": {
-        "id": 151471,
-        "bumpkinUri": "0_v1_306_1_51_330_333_334_332_161_388_380_0_0_0_384_0_177_469",
-        "username": "JaySuper"
-      },
-      "fulfilledBy": {
-        "id": 5025038718671170,
-        "bumpkinUri": "0_v1_47_1_52_185_20_89_45_196_0_0_86",
-        "username": "Lulaaa"
       }
     }
   ]
