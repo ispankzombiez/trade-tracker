@@ -4757,8 +4757,15 @@
     },
     "mushrooms": {
       "magicSpawnedAt": 1769716800000,
-      "mushrooms": {},
-      "spawnedAt": 1769690250994
+      "mushrooms": {
+        "b6b6314e": {
+          "name": "Wild Mushroom",
+          "amount": 1,
+          "x": 14,
+          "y": -5
+        }
+      },
+      "spawnedAt": 1769747850994
     },
     "delivery": {
       "orders": [
@@ -5618,7 +5625,7 @@
           "petXP": 0,
           "score": 0,
           "collectivePet": {
-            "totalXP": 7932380,
+            "totalXP": 7972530,
             "goalXP": 4586794,
             "goalReached": true,
             "streak": 6,

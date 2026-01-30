@@ -1,6 +1,6 @@
 {
   "id": 166616,
-  "totalTrades": 7372,
+  "totalTrades": 7375,
   "level": 134,
   "weeklyFlowerSpent": 7517.9989,
   "weeklyFlowerEarned": 0,
@@ -65,7 +65,9 @@
       },
       "sfl": 3.278,
       "tax": 0.24585,
-      "tradeType": "instant"
+      "tradeType": "instant",
+      "fulfilledAt": 1769751057061,
+      "fulfilledById": 55458
     },
     "4959e939": {
       "collection": "collectibles",
@@ -75,7 +77,9 @@
       },
       "sfl": 3.278,
       "tax": 0.24585,
-      "tradeType": "instant"
+      "tradeType": "instant",
+      "fulfilledAt": 1769751057061,
+      "fulfilledById": 55458
     },
     "6f3fd5a1": {
       "collection": "collectibles",
@@ -85,7 +89,9 @@
       },
       "sfl": 3.278,
       "tax": 0.24585,
-      "tradeType": "instant"
+      "tradeType": "instant",
+      "fulfilledAt": 1769751057061,
+      "fulfilledById": 55458
     },
     "bd1e9480": {
       "collection": "collectibles",
@@ -149,19 +155,76 @@
       "trades": 18
     },
     {
-      "id": 90898,
-      "tokenUri": "0_v1_53_90_202_0_0_99_369_161_30_433_16_0_267_410",
-      "username": "Precioso",
+      "id": 171104,
+      "tokenUri": "0_v1_348_2_184_282_18_22_400_476_501_383_86_0_0_189_0_266",
+      "username": "Snoo",
       "trades": 17
     },
     {
-      "id": 4195894524803088,
-      "tokenUri": "0_v1_48_2_7_15_19_22_45",
-      "username": "EduardoHDM",
+      "id": 1394833854317271,
+      "tokenUri": "0_v1_306_0_5_15_35_41_257_378_457_382_0_366_305_468_0_177",
+      "username": "Rokirok",
       "trades": 17
     }
   ],
   "trades": [
+    {
+      "id": "c1ad959c",
+      "sfl": 3.278,
+      "quantity": 1,
+      "itemId": 2634,
+      "collection": "collectibles",
+      "source": "listing",
+      "fulfilledAt": 1769751057942,
+      "initiatedBy": {
+        "id": 166616,
+        "bumpkinUri": "0_v1_306_2_97_282_504_41_257_505_30_432_86_439_276_189_0_0_444",
+        "username": "ThinkTronik"
+      },
+      "fulfilledBy": {
+        "id": 55458,
+        "bumpkinUri": "0_v1_53_90_202_0_0_89_414_343_30_433_0_0_0_497_296",
+        "username": "FaBuu"
+      }
+    },
+    {
+      "id": "6f3fd5a1",
+      "sfl": 3.278,
+      "quantity": 1,
+      "itemId": 2634,
+      "collection": "collectibles",
+      "source": "listing",
+      "fulfilledAt": 1769751057942,
+      "initiatedBy": {
+        "id": 166616,
+        "bumpkinUri": "0_v1_306_2_97_282_504_41_257_505_30_432_86_439_276_189_0_0_444",
+        "username": "ThinkTronik"
+      },
+      "fulfilledBy": {
+        "id": 55458,
+        "bumpkinUri": "0_v1_53_90_202_0_0_89_414_343_30_433_0_0_0_497_296",
+        "username": "FaBuu"
+      }
+    },
+    {
+      "id": "4959e939",
+      "sfl": 3.278,
+      "quantity": 1,
+      "itemId": 2634,
+      "collection": "collectibles",
+      "source": "listing",
+      "fulfilledAt": 1769751057942,
+      "initiatedBy": {
+        "id": 166616,
+        "bumpkinUri": "0_v1_306_2_97_282_504_41_257_505_30_432_86_439_276_189_0_0_444",
+        "username": "ThinkTronik"
+      },
+      "fulfilledBy": {
+        "id": 55458,
+        "bumpkinUri": "0_v1_53_90_202_0_0_89_414_343_30_433_0_0_0_497_296",
+        "username": "FaBuu"
+      }
+    },
     {
       "id": "3a2d86d5",
       "sfl": 5.2699,
@@ -600,9 +663,9 @@
       }
     },
     {
-      "id": "365d54a5",
-      "sfl": 7.425,
-      "quantity": 60,
+      "id": "906887a5",
+      "sfl": 4.95,
+      "quantity": 40,
       "itemId": 645,
       "collection": "collectibles",
       "source": "listing",
@@ -619,9 +682,9 @@
       }
     },
     {
-      "id": "906887a5",
-      "sfl": 4.95,
-      "quantity": 40,
+      "id": "365d54a5",
+      "sfl": 7.425,
+      "quantity": 60,
       "itemId": 645,
       "collection": "collectibles",
       "source": "listing",
@@ -676,6 +739,25 @@
       }
     },
     {
+      "id": "9a09d07e",
+      "sfl": 3.7125,
+      "quantity": 30,
+      "itemId": 645,
+      "collection": "collectibles",
+      "source": "listing",
+      "fulfilledAt": 1769701184907,
+      "initiatedBy": {
+        "id": 166616,
+        "bumpkinUri": "0_v1_306_2_97_282_504_41_257_505_30_432_86_439_276_189_0_0_444",
+        "username": "ThinkTronik"
+      },
+      "fulfilledBy": {
+        "id": 174777,
+        "bumpkinUri": "0_v1_47_4_7_14_20_89_240_476",
+        "username": "KerryD"
+      }
+    },
+    {
       "id": "a2bf5dcb",
       "sfl": 5.5687,
       "quantity": 45,
@@ -695,47 +777,9 @@
       }
     },
     {
-      "id": "a5fc3ad1",
-      "sfl": 6.8062,
-      "quantity": 55,
-      "itemId": 645,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769701184907,
-      "initiatedBy": {
-        "id": 166616,
-        "bumpkinUri": "0_v1_306_2_97_282_504_41_257_505_30_432_86_439_276_189_0_0_444",
-        "username": "ThinkTronik"
-      },
-      "fulfilledBy": {
-        "id": 174777,
-        "bumpkinUri": "0_v1_47_4_7_14_20_89_240_476",
-        "username": "KerryD"
-      }
-    },
-    {
       "id": "33f0fe68",
       "sfl": 5.5687,
       "quantity": 45,
-      "itemId": 645,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769701184907,
-      "initiatedBy": {
-        "id": 166616,
-        "bumpkinUri": "0_v1_306_2_97_282_504_41_257_505_30_432_86_439_276_189_0_0_444",
-        "username": "ThinkTronik"
-      },
-      "fulfilledBy": {
-        "id": 174777,
-        "bumpkinUri": "0_v1_47_4_7_14_20_89_240_476",
-        "username": "KerryD"
-      }
-    },
-    {
-      "id": "9a09d07e",
-      "sfl": 3.7125,
-      "quantity": 30,
       "itemId": 645,
       "collection": "collectibles",
       "source": "listing",
@@ -774,6 +818,25 @@
       "id": "ea687392",
       "sfl": 2.475,
       "quantity": 20,
+      "itemId": 645,
+      "collection": "collectibles",
+      "source": "listing",
+      "fulfilledAt": 1769701184907,
+      "initiatedBy": {
+        "id": 166616,
+        "bumpkinUri": "0_v1_306_2_97_282_504_41_257_505_30_432_86_439_276_189_0_0_444",
+        "username": "ThinkTronik"
+      },
+      "fulfilledBy": {
+        "id": 174777,
+        "bumpkinUri": "0_v1_47_4_7_14_20_89_240_476",
+        "username": "KerryD"
+      }
+    },
+    {
+      "id": "a5fc3ad1",
+      "sfl": 6.8062,
+      "quantity": 55,
       "itemId": 645,
       "collection": "collectibles",
       "source": "listing",
@@ -1053,63 +1116,6 @@
         "id": 60675,
         "bumpkinUri": "0_v1_306_90_50_317_234_89_308_164_30_238_408_402_403_374_0_266",
         "username": "kingboss"
-      }
-    },
-    {
-      "id": "97fbdce0",
-      "sfl": 1.7949,
-      "quantity": 200,
-      "itemId": 601,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769700084493,
-      "initiatedBy": {
-        "id": 166616,
-        "bumpkinUri": "0_v1_306_2_97_282_504_41_257_505_30_432_86_439_276_189_0_0_444",
-        "username": "ThinkTronik"
-      },
-      "fulfilledBy": {
-        "id": 7277919813369572,
-        "bumpkinUri": "0_v1_47_90_5_88_234_89_23_476_0_0_0_458",
-        "username": "BiBoBipBip"
-      }
-    },
-    {
-      "id": "e54bf4ca",
-      "sfl": 2.41,
-      "quantity": 10,
-      "itemId": 604,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769699992342,
-      "initiatedBy": {
-        "id": 166616,
-        "bumpkinUri": "0_v1_306_2_97_282_504_41_257_505_30_432_86_439_276_189_0_0_444",
-        "username": "ThinkTronik"
-      },
-      "fulfilledBy": {
-        "id": 60675,
-        "bumpkinUri": "0_v1_306_90_50_317_234_89_308_164_30_238_408_402_403_374_0_266",
-        "username": "kingboss"
-      }
-    },
-    {
-      "id": "d527ff89",
-      "sfl": 3.2125,
-      "quantity": 50,
-      "itemId": 603,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769699988719,
-      "initiatedBy": {
-        "id": 166616,
-        "bumpkinUri": "0_v1_306_2_97_282_504_41_257_505_30_432_86_439_276_189_0_0_444",
-        "username": "ThinkTronik"
-      },
-      "fulfilledBy": {
-        "id": 1570556023938841,
-        "bumpkinUri": "0_v1_47_1_52_13_35_34_45",
-        "username": "suyimaxe"
       }
     }
   ]
