@@ -1,10 +1,10 @@
 {
   "farm": {
-    "coins": 13815.96150600083,
+    "coins": 13585.46150600083,
     "balance": "1066.8179349121738698",
     "previousBalance": "251.00915286214257071",
     "inventory": {
-      "Carrot Seed": "542",
+      "Carrot Seed": "553",
       "Beetroot Seed": "477",
       "Cauliflower Seed": "428",
       "Parsnip Seed": "360",
@@ -20,9 +20,9 @@
       "Bloom Seed": "25",
       "Lily Seed": "13",
       "Soybean Seed": "467",
-      "Tomato Seed": "6",
+      "Tomato Seed": "3",
       "Barley Seed": "187",
-      "Yam Seed": "545",
+      "Yam Seed": "479",
       "Broccoli Seed": "546",
       "Pepper Seed": "484",
       "Onion Seed": "300",
@@ -34,7 +34,7 @@
       "Sunflower": "19403.49429999859202",
       "Potato": "21151.51600000076157",
       "Pumpkin": "33555.1347000003247",
-      "Carrot": "13744.81880000001951",
+      "Carrot": "14286.39760000001951",
       "Cabbage": "17391.80139999993468",
       "Beetroot": "9969.5494999999979187",
       "Cauliflower": "1894.8474000000013403",
@@ -47,7 +47,7 @@
       "Orange": "522.500000000000139",
       "Eggplant": "5719.5579000000000614",
       "Corn": "1158.7271000000009022",
-      "Banana": "820.4000000000001104",
+      "Banana": "831.4000000000001126",
       "Red Pansy": "14",
       "Yellow Pansy": "16",
       "Purple Pansy": "13",
@@ -85,7 +85,7 @@
       "Grape": "141",
       "Rice": "279.5636",
       "Olive": "223.7277",
-      "Tomato": "933.8000000000010013",
+      "Tomato": "941.2000000000010018",
       "Lemon": "1222.7000000000020526",
       "Barley": "475.7790999999994222",
       "Rhubarb": "7062.431999998715874",
@@ -287,10 +287,10 @@
       "Sour Shake": "9",
       "Spaghetti al Limone": "3",
       "Lemon Cheesecake": "6",
-      "Wood": "1890.24",
-      "Stone": "793.2",
-      "Iron": "1139.4",
-      "Gold": "428.5",
+      "Wood": "1863.24",
+      "Stone": "743.2",
+      "Iron": "1185.9",
+      "Gold": "431.15",
       "Egg": "9961.96",
       "Speed Chicken": "1",
       "Fat Chicken": "1",
@@ -309,7 +309,7 @@
       "Earthworm": "2686",
       "Grub": "1873",
       "Red Wiggler": "838",
-      "Sprout Mix": "2366",
+      "Sprout Mix": "2300",
       "Fruitful Blend": "2177",
       "Rapid Root": "1123",
       "Fishing Lure": "186",
@@ -764,7 +764,7 @@
       "Trade Point": "7689.735200309062536",
       "Ancient Clock": "1",
       "Gladiolus Seed": "13",
-      "Love Charm": "26257.9",
+      "Love Charm": "26258.9",
       "Broken Pillar": "2",
       "Dung": "1217",
       "Trash": "4",
@@ -853,11 +853,11 @@
       "Nefari Doll": "1",
       "Cheese": "29",
       "Doll": "2",
-      "Iron Pickaxe": "4",
+      "Iron Pickaxe": "3",
       "Oil Drill": "4",
       "Grape Seed": "8",
       "Big Orange": "1",
-      "Stone Pickaxe": "5"
+      "Stone Pickaxe": "1"
     },
     "previousInventory": {
       "Sunflower Seed": "1195",
@@ -4380,7 +4380,6 @@
       "Eggplant Seed": "120",
       "Beetroot Seed": "192",
       "Broccoli Seed": "21",
-      "Carrot Seed": "61",
       "Banana Plant": "24",
       "Cabbage Seed": "216",
       "Lemon Seed": "24",
@@ -4396,7 +4395,7 @@
       "Zucchini Seed": "480",
       "Gold Pickaxe": "10",
       "Oil Drill": "8",
-      "Stone Pickaxe": "40"
+      "Stone Pickaxe": "30"
     },
     "crops": {
       "1": {
@@ -4406,10 +4405,14 @@
         "x": 7,
         "y": 10,
         "crop": {
-          "id": "21504489",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "74849513",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "2": {
@@ -4419,10 +4422,14 @@
         "x": -2,
         "y": 9,
         "crop": {
-          "id": "85637357",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "68130401",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "3": {
@@ -4432,10 +4439,14 @@
         "x": -2,
         "y": 10,
         "crop": {
-          "id": "31323550",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "71685196",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "4": {
@@ -4445,10 +4456,14 @@
         "x": -1,
         "y": 9,
         "crop": {
-          "id": "15467289",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "37286103",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "5": {
@@ -4458,10 +4473,14 @@
         "x": 0,
         "y": 9,
         "crop": {
-          "id": "16659856",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "46268470",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "6": {
@@ -4471,10 +4490,14 @@
         "x": 1,
         "y": 9,
         "crop": {
-          "id": "11394451",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "72298405",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "7": {
@@ -4484,10 +4507,14 @@
         "x": 2,
         "y": 9,
         "crop": {
-          "id": "11948592",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "65323174",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "8": {
@@ -4497,10 +4524,14 @@
         "x": 3,
         "y": 9,
         "crop": {
-          "id": "64389314",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "68664667",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "9": {
@@ -4510,10 +4541,14 @@
         "x": 4,
         "y": 9,
         "crop": {
-          "id": "97290079",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "86474628",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "10": {
@@ -4523,10 +4558,14 @@
         "x": 5,
         "y": 9,
         "crop": {
-          "id": "11499388",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "38297947",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "11": {
@@ -4536,10 +4575,14 @@
         "x": 6,
         "y": 9,
         "crop": {
-          "id": "17303824",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "29877475",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "12": {
@@ -4549,10 +4592,14 @@
         "x": 7,
         "y": 9,
         "crop": {
-          "id": "49658706",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "94358010",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "13": {
@@ -4562,10 +4609,14 @@
         "x": 7,
         "y": 8,
         "crop": {
-          "id": "56356064",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "78052483",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "14": {
@@ -4575,10 +4626,14 @@
         "x": 6,
         "y": 8,
         "crop": {
-          "id": "87943556",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "35293093",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "15": {
@@ -4588,10 +4643,14 @@
         "x": 5,
         "y": 8,
         "crop": {
-          "id": "77694423",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "44464311",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "16": {
@@ -4601,10 +4660,14 @@
         "x": 4,
         "y": 8,
         "crop": {
-          "id": "20699239",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "39627876",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "17": {
@@ -4614,10 +4677,14 @@
         "x": 3,
         "y": 8,
         "crop": {
-          "id": "71709221",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "28684134",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "18": {
@@ -4627,10 +4694,14 @@
         "x": 2,
         "y": 8,
         "crop": {
-          "id": "58857575",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "89933011",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "3d0713cf": {
@@ -4640,10 +4711,14 @@
         "x": 1,
         "y": 8,
         "crop": {
-          "id": "43092898",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "98037874",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "61c0f765": {
@@ -4653,10 +4728,14 @@
         "x": -2,
         "y": 8,
         "crop": {
-          "id": "31283954",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "54303343",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "7fbb9b84": {
@@ -4666,10 +4745,14 @@
         "x": -2,
         "y": 7,
         "crop": {
-          "id": "81373376",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "40834363",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "a73f9ab1": {
@@ -4679,10 +4762,14 @@
         "x": -2,
         "y": 6,
         "crop": {
-          "id": "75174112",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "91317188",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "ca7b98bd": {
@@ -4692,10 +4779,14 @@
         "x": -1,
         "y": 6,
         "crop": {
-          "id": "63151115",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "27323865",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "caac5721": {
@@ -4705,10 +4796,14 @@
         "x": 0,
         "y": 6,
         "crop": {
-          "id": "84206032",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "84652452",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "0a3d6277": {
@@ -4718,10 +4813,14 @@
         "x": 1,
         "y": 6,
         "crop": {
-          "id": "87932315",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "28100107",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "13a2e88f": {
@@ -4731,10 +4830,14 @@
         "x": 1,
         "y": 7,
         "crop": {
-          "id": "66518644",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "30040711",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "2002e5d9": {
@@ -4744,10 +4847,14 @@
         "x": 2,
         "y": 7,
         "crop": {
-          "id": "27271612",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "55606770",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "32fc0f9a": {
@@ -4757,10 +4864,14 @@
         "x": 3,
         "y": 7,
         "crop": {
-          "id": "60823037",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "71364761",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "433499b7": {
@@ -4770,10 +4881,14 @@
         "x": 4,
         "y": 7,
         "crop": {
-          "id": "69163140",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "68549985",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "5c97f0cf": {
@@ -4783,10 +4898,14 @@
         "x": 5,
         "y": 7,
         "crop": {
-          "id": "41919545",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "50916135",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "730af5ed": {
@@ -4796,10 +4915,14 @@
         "x": 6,
         "y": 7,
         "crop": {
-          "id": "60719445",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "74021287",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "7ec386f5": {
@@ -4809,10 +4932,14 @@
         "x": 7,
         "y": 7,
         "crop": {
-          "id": "40430219",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "91168736",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "8142749d": {
@@ -4822,10 +4949,14 @@
         "x": 7,
         "y": 6,
         "crop": {
-          "id": "31326185",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "23033097",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "8df2280c": {
@@ -4835,10 +4966,14 @@
         "x": 6,
         "y": 6,
         "crop": {
-          "id": "53305003",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "70062775",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "97cada67": {
@@ -4848,10 +4983,14 @@
         "x": 5,
         "y": 6,
         "crop": {
-          "id": "22475335",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "58507460",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "e76b4b97": {
@@ -4861,10 +5000,14 @@
         "x": 4,
         "y": 6,
         "crop": {
-          "id": "46904512",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "73896454",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "f07f77c0": {
@@ -4874,10 +5017,14 @@
         "x": 3,
         "y": 6,
         "crop": {
-          "id": "70653874",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "98268610",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "19a9b84d": {
@@ -4887,10 +5034,14 @@
         "x": 2,
         "y": 6,
         "crop": {
-          "id": "32118424",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "39062681",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "749cad5d": {
@@ -4900,10 +5051,14 @@
         "x": -2,
         "y": 5,
         "crop": {
-          "id": "70865306",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "29750435",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "8676849e": {
@@ -4913,10 +5068,14 @@
         "x": -2,
         "y": 4,
         "crop": {
-          "id": "87130309",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "72143298",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "c11267f2": {
@@ -4926,10 +5085,14 @@
         "x": -2,
         "y": 3,
         "crop": {
-          "id": "65240409",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "97598359",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "295e4312": {
@@ -4939,10 +5102,14 @@
         "x": -1,
         "y": 3,
         "crop": {
-          "id": "69755602",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "97534920",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "357f3af6": {
@@ -4952,10 +5119,14 @@
         "x": 0,
         "y": 3,
         "crop": {
-          "id": "48142140",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "38479605",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "3f3eb71d": {
@@ -4965,10 +5136,14 @@
         "x": 0,
         "y": 4,
         "crop": {
-          "id": "23194398",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "36461934",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "5c7474e5": {
@@ -4978,10 +5153,14 @@
         "x": 0,
         "y": 5,
         "crop": {
-          "id": "78008878",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "27736320",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "5db7443d": {
@@ -4991,10 +5170,14 @@
         "x": 1,
         "y": 5,
         "crop": {
-          "id": "78623119",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "29393617",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "8428573e": {
@@ -5004,10 +5187,14 @@
         "x": 2,
         "y": 5,
         "crop": {
-          "id": "62294808",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "33016250",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "898a24ef": {
@@ -5017,10 +5204,14 @@
         "x": 3,
         "y": 5,
         "crop": {
-          "id": "24856616",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "91322406",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "962615df": {
@@ -5030,10 +5221,14 @@
         "x": 4,
         "y": 5,
         "crop": {
-          "id": "64537681",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "27861132",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "b731b483": {
@@ -5043,10 +5238,14 @@
         "x": 5,
         "y": 5,
         "crop": {
-          "id": "16297078",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "92940692",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "c0a89146": {
@@ -5056,10 +5255,14 @@
         "x": 6,
         "y": 5,
         "crop": {
-          "id": "81760012",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "41418778",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "c5f38fa2": {
@@ -5069,10 +5272,14 @@
         "x": 7,
         "y": 5,
         "crop": {
-          "id": "18991391",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "27978411",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "c7874637": {
@@ -5082,10 +5289,14 @@
         "x": 7,
         "y": 4,
         "crop": {
-          "id": "71054022",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "33208490",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "d7f684fc": {
@@ -5095,10 +5306,14 @@
         "x": 7,
         "y": 3,
         "crop": {
-          "id": "33907437",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "44212880",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "ed2a8195": {
@@ -5108,10 +5323,14 @@
         "x": 6,
         "y": 3,
         "crop": {
-          "id": "33653738",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "97473734",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "f9ba603c": {
@@ -5121,10 +5340,14 @@
         "x": 5,
         "y": 3,
         "crop": {
-          "id": "79331215",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "30226593",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "0a2f7dbd": {
@@ -5134,10 +5357,14 @@
         "x": 4,
         "y": 3,
         "crop": {
-          "id": "94811938",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "74122364",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "1af80a6c": {
@@ -5147,10 +5374,14 @@
         "x": 3,
         "y": 3,
         "crop": {
-          "id": "48905679",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "92988485",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "69fb4aaf": {
@@ -5160,10 +5391,14 @@
         "x": 2,
         "y": 3,
         "crop": {
-          "id": "99857176",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "87907087",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "74328f6f": {
@@ -5173,10 +5408,14 @@
         "x": 1,
         "y": 3,
         "crop": {
-          "id": "81569851",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "19817603",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "872faca5": {
@@ -5186,10 +5425,14 @@
         "x": 1,
         "y": 4,
         "crop": {
-          "id": "32820481",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "47123391",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "8821508c": {
@@ -5199,10 +5442,14 @@
         "x": 2,
         "y": 4,
         "crop": {
-          "id": "58259614",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "44442992",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "9e7a765b": {
@@ -5212,10 +5459,14 @@
         "x": 3,
         "y": 4,
         "crop": {
-          "id": "94593670",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "24471543",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "c94b9590": {
@@ -5225,10 +5476,14 @@
         "x": 4,
         "y": 4,
         "crop": {
-          "id": "53937210",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "37230463",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "cc6f83ea": {
@@ -5238,10 +5493,14 @@
         "x": 5,
         "y": 4,
         "crop": {
-          "id": "33377416",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "45131774",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       },
       "d232e08d": {
@@ -5251,10 +5510,14 @@
         "x": 6,
         "y": 4,
         "crop": {
-          "id": "54740574",
-          "plantedAt": 1769744051144,
-          "boostedTime": 2187198.0000000005,
-          "name": "Carrot"
+          "id": "31581634",
+          "plantedAt": 1769747276137.5,
+          "boostedTime": 1833997.5000000005,
+          "name": "Yam"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769749121519
         }
       }
     },
@@ -5402,7 +5665,7 @@
         "createdAt": 1738135448397,
         "height": 1,
         "stone": {
-          "minedAt": 1769717557678,
+          "minedAt": 1769734004560,
           "boostedTime": 13680000.000000002
         },
         "x": 11,
@@ -5413,7 +5676,7 @@
         "width": 1,
         "height": 1,
         "stone": {
-          "minedAt": 1769717556946,
+          "minedAt": 1769734004289,
           "boostedTime": 13680000.000000002
         },
         "x": 12,
@@ -5424,7 +5687,7 @@
         "width": 1,
         "height": 1,
         "stone": {
-          "minedAt": 1769717558451,
+          "minedAt": 1769734004019,
           "boostedTime": 13680000.000000002
         },
         "x": 13,
@@ -5435,7 +5698,7 @@
         "width": 1,
         "height": 1,
         "stone": {
-          "minedAt": 1769717558194,
+          "minedAt": 1769734005360,
           "boostedTime": 13680000.000000002
         },
         "x": 13,
@@ -5446,7 +5709,7 @@
         "width": 1,
         "height": 1,
         "stone": {
-          "minedAt": 1769717567537,
+          "minedAt": 1769734001675,
           "boostedTime": 13680000.000000002
         },
         "x": 13,
@@ -5457,7 +5720,7 @@
         "width": 1,
         "height": 1,
         "stone": {
-          "minedAt": 1769717566008,
+          "minedAt": 1769734002623,
           "boostedTime": 13680000.000000002
         },
         "x": 11,
@@ -5468,7 +5731,7 @@
         "width": 1,
         "height": 1,
         "stone": {
-          "minedAt": 1769717568194,
+          "minedAt": 1769734002891,
           "boostedTime": 13680000.000000002
         },
         "x": 12,
@@ -5479,7 +5742,7 @@
         "width": 1,
         "height": 1,
         "stone": {
-          "minedAt": 1769717559495,
+          "minedAt": 1769734003451,
           "boostedTime": 13680000.000000002
         },
         "x": 12,
@@ -5490,7 +5753,7 @@
         "width": 1,
         "height": 1,
         "stone": {
-          "minedAt": 1769717559793,
+          "minedAt": 1769734003171,
           "boostedTime": 13680000.000000002
         },
         "x": 11,
@@ -5501,7 +5764,7 @@
         "width": 1,
         "height": 1,
         "stone": {
-          "minedAt": 1769717559192,
+          "minedAt": 1769734003745,
           "boostedTime": 13680000.000000002
         },
         "x": 13,
@@ -5512,7 +5775,7 @@
         "width": 1,
         "height": 1,
         "stone": {
-          "minedAt": 1769717566407,
+          "minedAt": 1769734001346,
           "boostedTime": 13680000.000000002
         },
         "x": 11,
@@ -5523,7 +5786,7 @@
         "width": 1,
         "height": 1,
         "stone": {
-          "minedAt": 1769717556209,
+          "minedAt": 1769734004793,
           "boostedTime": 13680000.000000002
         },
         "x": 11,
@@ -5532,7 +5795,7 @@
       "a280fb4c": {
         "createdAt": 1754102644074,
         "stone": {
-          "minedAt": 1769717557926,
+          "minedAt": 1769734005121,
           "boostedTime": 13680000.000000002
         },
         "x": 12,
@@ -5541,7 +5804,7 @@
       "e6f8d990": {
         "createdAt": 1754125907167,
         "stone": {
-          "minedAt": 1769717567920,
+          "minedAt": 1769734002078,
           "boostedTime": 13680000.000000002
         },
         "x": 13,
@@ -5576,7 +5839,7 @@
         "width": 1,
         "height": 1,
         "stone": {
-          "minedAt": 1769654108282,
+          "minedAt": 1769700935144,
           "boostedTime": 46742399.99999999
         },
         "x": 11,
@@ -5776,14 +6039,10 @@
         "x": -11,
         "y": 2,
         "fruit": {
-          "name": "Banana",
-          "plantedAt": 1769564263776,
-          "harvestedAt": 1769704730120,
-          "harvestsLeft": 1
-        },
-        "fertiliser": {
-          "name": "Fruitful Blend",
-          "fertilisedAt": 1769590676868
+          "name": "Tomato",
+          "plantedAt": 1769742205857,
+          "harvestedAt": 0,
+          "harvestsLeft": 5
         }
       },
       "58a088ee": {
@@ -5795,8 +6054,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769684512235,
-          "harvestedAt": 1769725392193,
-          "harvestsLeft": 3
+          "harvestedAt": 1769742202669,
+          "harvestsLeft": 2
         }
       },
       "2955f976": {
@@ -5834,8 +6093,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769684511679,
-          "harvestedAt": 1769725390588,
-          "harvestsLeft": 3
+          "harvestedAt": 1769742201200,
+          "harvestsLeft": 2
         }
       },
       "1fab646a": {
@@ -5871,14 +6130,10 @@
         "x": -9,
         "y": -2,
         "fruit": {
-          "name": "Banana",
-          "plantedAt": 1769564264977,
-          "harvestedAt": 1769704731378,
-          "harvestsLeft": 1
-        },
-        "fertiliser": {
-          "name": "Fruitful Blend",
-          "fertilisedAt": 1769590676917
+          "name": "Tomato",
+          "plantedAt": 1769742206691,
+          "harvestedAt": 0,
+          "harvestsLeft": 5
         }
       },
       "c4fa1619": {
@@ -5890,8 +6145,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769679909133,
-          "harvestedAt": 1769725393933,
-          "harvestsLeft": 4
+          "harvestedAt": 1769742203755,
+          "harvestsLeft": 3
         }
       },
       "d2384755": {
@@ -5916,8 +6171,8 @@
         "fruit": {
           "name": "Banana",
           "plantedAt": 1769564264744,
-          "harvestedAt": 1769704729587,
-          "harvestsLeft": 2
+          "harvestedAt": 1769721540203,
+          "harvestsLeft": 1
         },
         "fertiliser": {
           "name": "Fruitful Blend",
@@ -5931,14 +6186,10 @@
         "x": -7,
         "y": 0,
         "fruit": {
-          "name": "Banana",
-          "plantedAt": 1769564264569,
-          "harvestedAt": 1769704730901,
-          "harvestsLeft": 1
-        },
-        "fertiliser": {
-          "name": "Fruitful Blend",
-          "fertilisedAt": 1769590676939
+          "name": "Tomato",
+          "plantedAt": 1769742206398,
+          "harvestedAt": 0,
+          "harvestsLeft": 7
         }
       },
       "6131bc5e": {
@@ -5963,8 +6214,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769670658381,
-          "harvestedAt": 1769725394150,
-          "harvestsLeft": 3
+          "harvestedAt": 1769742203510,
+          "harvestsLeft": 2
         }
       }
     },
@@ -10353,7 +10604,7 @@
       "Royal Robe Bought": 1,
       "Chowder Fed": 541,
       "Sunflower Crunch Cooked": 366,
-      "Gold Mined": 5820,
+      "Gold Mined": 5821,
       "Rusty Shovel Crafted": 426,
       "Sea Bass Fed": 246,
       "Fishing Lure Crafted": 306,
@@ -10390,7 +10641,7 @@
       "Olive Harvested": 1070,
       "Soybean Planted": 22194,
       "Grape Planted": 1864,
-      "Iron Mined": 21890,
+      "Iron Mined": 21904,
       "Cabbage Sold": 67403.186,
       "Orange Egg Sold": 2,
       "Wheat Sold": 5.549,
@@ -10455,13 +10706,13 @@
       "Fence Bought": 148,
       "Gardening Overalls Bought": 1,
       "Bonnie's Tombstone Bought": 7,
-      "Crop Fertilised": 56879,
+      "Crop Fertilised": 56945,
       "Goblin Brunch Fed": 237,
       "Sunflower Harvested": 278942,
       "Fancy Rug Bought": 1,
       "Kale Stew Fed": 69,
       "Cabbage Cake Cooked": 139,
-      "Carrot Seed Bought": 61190,
+      "Carrot Seed Bought": 61251,
       "Goblin Brunch Cooked": 273,
       "Fried Tofu Cooked": 241,
       "Giant Dawn Mushroom Bought": 1,
@@ -10532,7 +10783,7 @@
       "Whale Bear Dug": 1,
       "Potted Potato Bought": 1,
       "Cauliflower Cake Dug": 35,
-      "Stone Pickaxe Crafted": 21338,
+      "Stone Pickaxe Crafted": 21348,
       "Soybean Harvested": 22194,
       "Grape Harvested": 1864,
       "Lily Seed Planted": 387,
@@ -10556,18 +10807,18 @@
       "Radish Seed Bought": 7275,
       "Crab Sold": 819,
       "Wooden Compass Sold": 45,
-      "Carrot Planted": 24832,
+      "Carrot Planted": 24898,
       "Club Sandwich Fed": 102,
       "Lab Grown Pumpkin Crafted": 1,
       "Seafood Basket Cooked": 11,
       "Golden Garrison Bought": 1,
-      "Coins Spent": 5921831.67,
+      "Coins Spent": 5922062.17,
       "Eggplant Sold": 19603.1083,
       "Kale Sold": 770.3313,
       "Foliant Dug": 3,
       "Beetroot Blaze Cooked": 39,
       "Bloom Seed Bought": 699,
-      "Banana Harvested": 4253,
+      "Banana Harvested": 4257,
       "Emerald Compass Dug": 7,
       "Pirate Cake Fed": 214,
       "T-Rex Skull Dug": 2,
@@ -10599,7 +10850,7 @@
       "Cauliflower Burger Fed": 252,
       "Fancy Fries Fed": 255,
       "Stone Mined": 61671,
-      "Carrot Harvested": 66014,
+      "Carrot Harvested": 66146,
       "Cauliflower Harvested": 30791,
       "Purple Egg Sold": 2,
       "Earthworm Sold": 806,
@@ -10705,8 +10956,8 @@
       "Tomato Seed Bought": 1680,
       "Lemon Seed Bought": 1397,
       "Lemon Seed Planted": 1377,
-      "Tomato Seed Planted": 1674,
-      "Tomato Harvested": 9353,
+      "Tomato Seed Planted": 1677,
+      "Tomato Harvested": 9357,
       "Lemon Harvested": 7867,
       "Sunflorian Pants Bought": 1,
       "The Lot Fed": 103,
@@ -10834,7 +11085,7 @@
       "Yam Seed Bought": 12637,
       "Rhubarb Planted": 5204,
       "Mushroom Jacket Potatoes Fed": 3,
-      "Yam Planted": 5458,
+      "Yam Planted": 5524,
       "Yam Harvested": 12832,
       "Broccoli Planted": 5563,
       "Broccoli Harvested": 12599,
@@ -11018,8 +11269,8 @@
       "Ancient Tree Chopped": 835,
       "Basic Tree Chopped": 405,
       "Sacred Tree Chopped": 402,
-      "Gold Rock Mined": 828,
-      "Iron Rock Mined": 2308,
+      "Gold Rock Mined": 829,
+      "Iron Rock Mined": 2322,
       "Reinforced Stone Rock Mined": 215,
       "Stone Rock Mined": 1503,
       "Marketplace Listing Created": 11,
@@ -12698,7 +12949,7 @@
           "petXP": 0,
           "score": 0,
           "collectivePet": {
-            "totalXP": 7817830,
+            "totalXP": 7932380,
             "goalXP": 4586794,
             "goalReached": true,
             "streak": 6,
@@ -14322,46 +14573,46 @@
     "aoe": {
       "Gnome": {
         "0": {
-          "1": 1769731105071
+          "1": 1769749107852
         }
       },
       "Sir Goldensnout": {
         "0": {
-          "1": 1769746234092,
-          "-2": 1769746234092
+          "1": 1769749107852,
+          "-2": 1769749107852
         },
         "1": {
-          "1": 1769746234092,
-          "-2": 1769746234092
+          "1": 1769749107852,
+          "-2": 1769749107852
         },
         "2": {
-          "0": 1769746234092,
-          "1": 1769746234092,
-          "-2": 1769746234092,
-          "-1": 1769746234092
+          "0": 1769749107852,
+          "1": 1769749107852,
+          "-2": 1769749107852,
+          "-1": 1769749107852
         },
         "-1": {
-          "0": 1769746234092,
-          "1": 1769746234092,
-          "-1": 1769746234092,
-          "-2": 1769746234092
+          "0": 1769749107852,
+          "1": 1769749107852,
+          "-1": 1769749107852,
+          "-2": 1769749107852
         }
       },
       "Scary Mike": {
         "0": {
-          "-2": 1769700815703,
-          "-3": 1769700815703,
-          "-1": 1769700815703
+          "-2": 1769749107852,
+          "-3": 1769749107852,
+          "-1": 1769749107852
         },
         "1": {
-          "-2": 1769700815703,
-          "-3": 1769700815703,
-          "-1": 1769700815703
+          "-2": 1769749107852,
+          "-3": 1769749107852,
+          "-1": 1769749107852
         },
         "-1": {
-          "-1": 1769700815703,
-          "-2": 1769700815703,
-          "-3": 1769700815703
+          "-1": 1769749107852,
+          "-2": 1769749107852,
+          "-3": 1769749107852
         }
       },
       "Tin Turtle": {
@@ -14493,22 +14744,22 @@
         "-1": {
           "0": 1769731251270,
           "1": 1769731250683,
-          "-1": 1769700850682
+          "-1": 1769747677544
         }
       }
     },
     "boostsUsedAt": {
-      "Loyal Macaw": 1769731136150,
-      "Macaw": 1769731136150,
-      "Camel Onesie": 1769731136150,
-      "Fruitful Fumble": 1769731136150,
-      "Bud #2038": 1769746291369,
+      "Loyal Macaw": 1769747945755,
+      "Macaw": 1769747945755,
+      "Camel Onesie": 1769747945755,
+      "Fruitful Fumble": 1769747945755,
+      "Bud #2038": 1769747945755,
       "Spring Guardian": 1768743835982,
-      "Tomato Clown": 1769731136150,
-      "Cannonball": 1769731136150,
-      "Catchup": 1769731141344,
-      "Generous Orchard": 1769731135933,
-      "Foreman Beaver": 1769746291793,
+      "Tomato Clown": 1769747948691,
+      "Cannonball": 1769747948691,
+      "Catchup": 1769747948691,
+      "Generous Orchard": 1769747945755,
+      "Foreman Beaver": 1769747946876,
       "Tree Charge": 1769746291793,
       "Lumberjack's Extra": 1769746291793,
       "Wood Nymph Wendy": 1769746291793,
@@ -14516,9 +14767,9 @@
       "Squirrel": 1769746291793,
       "Bud #1221": 1769746291793,
       "Tree Turnaround": 1769746287386,
-      "Gold Beetle": 1769731251270,
-      "Golden Touch": 1769731251270,
-      "Nugget": 1769731251270,
+      "Gold Beetle": 1769747677544,
+      "Golden Touch": 1769747677544,
+      "Nugget": 1769747677544,
       "Heart of Davy Jones": 1768923492448,
       "Pharaoh Chicken": 1768923492448,
       "Healthy Livestock": 1759794121889,
@@ -14564,15 +14815,15 @@
       "Olive Royalty Shirt": 1769562129768,
       "Olive Shield": 1769562129768,
       "Pharaoh Gnome": 1769731145619,
-      "Scarecrow": 1769746238342,
-      "Bud #522": 1769746238342,
-      "Lunar Calendar": 1769746238342,
+      "Scarecrow": 1769749110135,
+      "Bud #522": 1769749110135,
+      "Lunar Calendar": 1769749110135,
       "Rice and Shine": 1769731151828,
       "Turbo Sprout": 1769731151828,
-      "Ferrous Favor": 1769746291369,
+      "Ferrous Favor": 1769747685360,
       "Rock Golem": 1769746288436,
       "Rock'N'Roll": 1769746291369,
-      "Rocky Favor": 1769746291369,
+      "Rocky Favor": 1769747685360,
       "Speed Miner": 1769746291369,
       "Stone Beetle": 1769746291369,
       "Tin Turtle": 1769746291369,
@@ -14581,12 +14832,12 @@
       "Efficient Bin": 1762522018641,
       "Soil Krabby": 1769731231743,
       "Black Bearry": 1768869388379,
-      "Fruit Picker Apron": 1769731135677,
-      "Iron Beetle": 1769731248194,
-      "Iron Bumpkin": 1769731248194,
-      "Iron Hustle": 1769731248194,
-      "Iron Idol": 1769731248194,
-      "Rocky the Mole": 1769731248194,
+      "Fruit Picker Apron": 1769747945061,
+      "Iron Beetle": 1769747685360,
+      "Iron Bumpkin": 1769747685360,
+      "Iron Hustle": 1769747685360,
+      "Iron Idol": 1769747685360,
+      "Rocky the Mole": 1769747685360,
       "Crim Peckster": 1769731254456,
       "Crimson Carp": 1769731254456,
       "Crimstone Amulet": 1769731254456,
@@ -14600,14 +14851,14 @@
       "Blossom Ward": 1768743835982,
       "Bud #353": 1769731105071,
       "Foliant": 1768617083283,
-      "Gnome": 1769731105071,
-      "Green Amulet": 1769746234092,
-      "Green Thumb": 1769746238342,
+      "Gnome": 1769749107852,
+      "Green Amulet": 1769749107852,
+      "Green Thumb": 1769749110135,
       "Knowledge Crab": 1769562036001,
       "Laurie the Chuckle Crow": 1769731105071,
       "Laurie's Gains": 1769731105071,
       "Old Farmer": 1769731105071,
-      "Sir Goldensnout": 1769746234092,
+      "Sir Goldensnout": 1769749107852,
       "Angler Waders": 1769506992635,
       "Fisherman's 5 Fold": 1769506992635,
       "Pink Dolphin": 1768723066808,
@@ -14615,18 +14866,18 @@
       "Alba": 1769506953031,
       "Bud #2039": 1769506992635,
       "Sunflower Rod": 1769506992635,
-      "Acre Farm": 1769746234092,
-      "Experienced Farmer": 1769700815703,
-      "Scary Mike": 1769700815703,
+      "Acre Farm": 1769749107852,
+      "Experienced Farmer": 1769749107852,
+      "Scary Mike": 1769749107852,
       "Soybliss": 1769671308142,
       "Bee Suit": 1769561659428,
       "Honeycomb Shield": 1769561659428,
       "King of Bears": 1769561659428,
       "Sweet Bonus": 1769561659428,
       "Rice Panda": 1769685631090,
-      "Bud #951": 1769746234092,
-      "Easter Bunny": 1769700815703,
-      "Pablo The Bunny": 1769700815703,
+      "Bud #951": 1769749107852,
+      "Easter Bunny": 1769749107852,
+      "Pablo The Bunny": 1769749107852,
       "Strong Roots": 1769700818172,
       "Knight Chicken": 1769729367226,
       "Oil Be Back": 1769729367226,
@@ -14691,10 +14942,10 @@
       "Cabbage Girl": 1769562011965,
       "Jellyfish": 1769051612815,
       "Deep Sea Helm": 1764856252212,
-      "Banana Onesie": 1769731135218,
-      "Nana": 1769731135218,
-      "Banana Amulet": 1769731135218,
-      "Banana Chicken": 1769731135218,
+      "Banana Onesie": 1769747945061,
+      "Nana": 1769747945061,
+      "Banana Amulet": 1769747945061,
+      "Banana Chicken": 1769747945061,
       "Buzzworthy Treats": 1759795961967,
       "Drive-Through Deli": 1768209407709,
       "Giant Yam": 1769685617239,
@@ -14704,11 +14955,11 @@
       "Crab Hat": 1763863304060,
       "Autumn Guardian": 1769420208733,
       "Non La Hat": 1769685631090,
-      "Hectare Farm": 1769746234092,
+      "Hectare Farm": 1769749107852,
       "Lady Bug": 1769731135677,
-      "Carrot Amulet": 1769746238342,
-      "Lab Grown Carrot": 1769700815703,
-      "Emerald Turtle": 1769731251270,
+      "Carrot Amulet": 1769747663207,
+      "Lab Grown Carrot": 1769749107852,
+      "Emerald Turtle": 1769747677544,
       "Frozen Heart": 1768140130877,
       "Ladybug Suit": 1768140141459,
       "Winter Guardian": 1768175189722,
@@ -14727,18 +14978,18 @@
       "Composting Revamp": 1769731231743,
       "Paw Shield": 1763513060705,
       "Fishy Chance": 1769506953031,
-      "Pickaxe Shark": 1769731251270,
-      "Midas Rush": 1769731251270,
+      "Pickaxe Shark": 1769747677544,
+      "Midas Rush": 1769747677544,
       "Hungry Hare": 1761561537684,
-      "Fruit Tune Box": 1769731141344,
+      "Fruit Tune Box": 1769747948691,
       "Giant Artichoke": 1769731105071,
       "Bucket O' Worms": 1769731231743,
       "Sleepy Chicken": 1769745778117,
       "Reelmaster's Chair": 1769506992635,
-      "Midas Sprint": 1769731251270,
+      "Midas Sprint": 1769747677544,
       "Swift Decomposer": 1769731231743,
       "Turbo Charged": 1769731228612,
-      "Fruitful Bounty": 1769731135421,
+      "Fruitful Bounty": 1769747945061,
       "Carrot Sword": 1763768995688,
       "Juicy Boost": 1768616970460,
       "Merino Whisperer": 1769731307720,
@@ -14747,12 +14998,12 @@
       "Fishy Fortune": 1769220335232,
       "Forge-Ward Profits": 1769344089885,
       "Badger Shrine": 1769746291793,
-      "Toucan Shrine": 1769731141344,
+      "Toucan Shrine": 1769747948691,
       "Fox Shrine": 1769596627919,
-      "Mole Shrine": 1769731254456,
+      "Mole Shrine": 1769747685360,
       "Moth Shrine": 1769731367033,
       "Stag Shrine": 1769729367226,
-      "Sparrow Shrine": 1769746238342,
+      "Sparrow Shrine": 1769749110135,
       "Bantam Shrine": 1769731307720,
       "Collie Shrine": 1769562344869,
       "Tortoise Shrine": 1769731151828,
@@ -14762,7 +15013,7 @@
       "Squirrel Onesie": 1769658979930,
       "Training Whistle": 1769562344869,
       "Magma Stone": 1769688859843,
-      "Lunar Temple": 1769739074563,
+      "Lunar Temple": 1769748985363,
       "Giant Gold Bone": 1769731225632,
       "Kernaldo": 1768664086099,
       "Flower Power": 1769731367033,
@@ -14771,10 +15022,10 @@
       "Broccoli Hat": 1769683848706
     },
     "socialFarming": {
-      "points": 37864,
+      "points": 37869,
       "villageProjects": {
         "Miner's Monument": {
-          "cheers": 3794,
+          "cheers": 3796,
           "winnerId": 62559
         },
         "Farmer's Monument": {
@@ -14789,19 +15040,19 @@
           "winnerId": 3896225341091908
         },
         "Cornucopia": {
-          "cheers": 270,
+          "cheers": 272,
           "winnerId": 5385194043088020
         },
         "Big Banana": {
-          "cheers": 95,
+          "cheers": 96,
           "winnerId": 174801
         },
         "Big Apple": {
-          "cheers": 33,
+          "cheers": 34,
           "winnerId": 618
         },
         "Big Orange": {
-          "cheers": 5,
+          "cheers": 6,
           "winnerId": 174801
         }
       },
@@ -14858,7 +15109,7 @@
       },
       "weeklyPoints": {
         "week": "2026-01-26",
-        "points": 227
+        "points": 232
       },
       "helpedForCompetition": 350,
       "waves": {
@@ -14874,7 +15125,7 @@
         "167": {
           "id": 167,
           "name": "Pet #167",
-          "experience": 67994,
+          "experience": 67999,
           "energy": 0,
           "requests": {
             "food": [
@@ -14896,7 +15147,7 @@
           },
           "walking": false,
           "dailySocialXP": {
-            "2026-01-30": 10
+            "2026-01-30": 15
           },
           "coordinates": {
             "x": 12,
@@ -14913,7 +15164,7 @@
         "183": {
           "id": 183,
           "name": "Pet #183",
-          "experience": 69809,
+          "experience": 69814,
           "energy": 40,
           "requests": {
             "food": [
@@ -14934,7 +15185,7 @@
             "aura": "No Aura"
           },
           "dailySocialXP": {
-            "2026-01-30": 10
+            "2026-01-30": 15
           },
           "walking": false,
           "coordinates": {
@@ -14952,7 +15203,7 @@
         "940": {
           "id": 940,
           "name": "Pet #940",
-          "experience": 67057,
+          "experience": 67062,
           "energy": 675,
           "requests": {
             "food": [
@@ -14980,7 +15231,7 @@
           },
           "walking": false,
           "dailySocialXP": {
-            "2026-01-30": 10
+            "2026-01-30": 15
           },
           "coordinates": {
             "x": 8,
@@ -14997,7 +15248,7 @@
         "1003": {
           "id": 1003,
           "name": "Pet #1003",
-          "experience": 5,
+          "experience": 10,
           "energy": 0,
           "requests": {
             "food": [
@@ -15024,13 +15275,13 @@
           "location": "farm",
           "cheeredAt": 1769738036658,
           "dailySocialXP": {
-            "2026-01-30": 5
+            "2026-01-30": 10
           }
         },
         "2940": {
           "id": 2940,
           "name": "Pet #2940",
-          "experience": 68149,
+          "experience": 68154,
           "energy": 605,
           "requests": {
             "food": [
@@ -15051,7 +15302,7 @@
             "aura": "No Aura"
           },
           "dailySocialXP": {
-            "2026-01-30": 10
+            "2026-01-30": 15
           },
           "walking": false,
           "coordinates": {
@@ -15069,7 +15320,7 @@
         "2964": {
           "id": 2964,
           "name": "Pet #2964",
-          "experience": 74419,
+          "experience": 74424,
           "energy": 60,
           "requests": {
             "food": [
@@ -15090,7 +15341,7 @@
             "aura": "No Aura"
           },
           "dailySocialXP": {
-            "2026-01-30": 10
+            "2026-01-30": 15
           },
           "walking": true,
           "coordinates": {
@@ -15108,7 +15359,7 @@
         "2978": {
           "id": 2978,
           "name": "Pet #2978",
-          "experience": 67472,
+          "experience": 67477,
           "energy": 90,
           "requests": {
             "food": [
@@ -15129,7 +15380,7 @@
             "aura": "No Aura"
           },
           "dailySocialXP": {
-            "2026-01-30": 10
+            "2026-01-30": 15
           },
           "walking": false,
           "coordinates": {
@@ -15216,7 +15467,7 @@
         },
         "Nibbles": {
           "name": "Nibbles",
-          "experience": 69433,
+          "experience": 69438,
           "energy": 30,
           "requests": {
             "food": [
@@ -15228,7 +15479,7 @@
           },
           "pettedAt": 1769738030136,
           "dailySocialXP": {
-            "2026-01-30": 10
+            "2026-01-30": 15
           },
           "fetches": {
             "Dewberry": 7,
@@ -15239,7 +15490,7 @@
         },
         "Meowchi": {
           "name": "Meowchi",
-          "experience": 69705,
+          "experience": 69710,
           "energy": 30,
           "requests": {
             "food": [
@@ -15251,7 +15502,7 @@
           },
           "pettedAt": 1769738031081,
           "dailySocialXP": {
-            "2026-01-30": 10
+            "2026-01-30": 15
           },
           "fetches": {
             "Ribbon": 8,
@@ -15261,7 +15512,7 @@
         },
         "Biscuit": {
           "name": "Biscuit",
-          "experience": 4055,
+          "experience": 4060,
           "energy": 70,
           "requests": {
             "food": [
@@ -15276,7 +15527,7 @@
             "Acorn": 767
           },
           "dailySocialXP": {
-            "2026-01-30": 10
+            "2026-01-30": 15
           }
         }
       }

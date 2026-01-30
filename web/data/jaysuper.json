@@ -1,19 +1,55 @@
 {
   "username": "jaysuper",
   "overview": {
-    "balance": 467.78,
+    "balance": 468.65,
     "coins": 84054.0,
     "gems": 0.0,
     "earned_sfl": 13684.03,
     "earned_coins": 84054.0,
     "spent_sfl": 15466.58,
-    "items_sold": 13447.0,
+    "items_sold": 13448.0,
     "trade_points": 31145.84,
-    "last_updated": "2026-01-30 04:31 AM",
-    "active_listings": 135
+    "last_updated": "2026-01-30 05:07 AM",
+    "active_listings": 137
   },
   "buys": [],
   "sells": [
+    {
+      "date": "2026-01-30",
+      "time": "04:45 AM",
+      "type": "SELL",
+      "item": "Beetroot",
+      "quantity": 125,
+      "price_text": "0.7858 SFL",
+      "price": 0.7858,
+      "counterparty": "PCVeL",
+      "farm_id": "-",
+      "trade_id": "3c8ae43a"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "04:41 AM",
+      "type": "SELL",
+      "item": "Beetroot",
+      "quantity": 60,
+      "price_text": "0.3771 SFL",
+      "price": 0.3771,
+      "counterparty": "backdoorr",
+      "farm_id": "-",
+      "trade_id": "3f5efcd5"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "04:41 AM",
+      "type": "SELL",
+      "item": "Parsnip",
+      "quantity": 30,
+      "price_text": "0.54 SFL",
+      "price": 0.54,
+      "counterparty": "LeLeKintacky",
+      "farm_id": "-",
+      "trade_id": "545e81e6"
+    },
     {
       "date": "2026-01-30",
       "time": "03:52 AM",
@@ -1098,14 +1134,41 @@
   "last_updated": null,
   "stats": {
     "total_buys": 0,
-    "total_sells": 90,
+    "total_sells": 93,
     "buy_volume": 0,
-    "sell_volume": 60.541599999999995,
-    "gross_profit": 60.541599999999995,
+    "sell_volume": 62.244499999999995,
+    "gross_profit": 62.244499999999995,
     "avg_buy_price": 0,
-    "avg_sell_price": 0.6726844444444444,
+    "avg_sell_price": 0.6692956989247312,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "SELL",
+        "item": "Beetroot",
+        "quantity": 125,
+        "price": 0.7858,
+        "date": "2026-01-30",
+        "time": "04:45 AM",
+        "username": "jaysuper"
+      },
+      {
+        "type": "SELL",
+        "item": "Beetroot",
+        "quantity": 60,
+        "price": 0.3771,
+        "date": "2026-01-30",
+        "time": "04:41 AM",
+        "username": "jaysuper"
+      },
+      {
+        "type": "SELL",
+        "item": "Parsnip",
+        "quantity": 30,
+        "price": 0.54,
+        "date": "2026-01-30",
+        "time": "04:41 AM",
+        "username": "jaysuper"
+      },
       {
         "type": "SELL",
         "item": "Beetroot",
@@ -1130,8 +1193,7 @@
         "quantity": 125,
         "price": 1.125,
         "date": "2026-01-30",
-        "time": "03:01 AM",
-        "username": "jaysuper"
+        "time": "03:01 AM"
       },
       {
         "type": "SELL",
@@ -1139,8 +1201,7 @@
         "quantity": 20,
         "price": 0.354,
         "date": "2026-01-30",
-        "time": "02:58 AM",
-        "username": "jaysuper"
+        "time": "02:58 AM"
       },
       {
         "type": "SELL",
@@ -1148,8 +1209,7 @@
         "quantity": 20,
         "price": 0.3542,
         "date": "2026-01-30",
-        "time": "02:58 AM",
-        "username": "jaysuper"
+        "time": "02:58 AM"
       },
       {
         "type": "SELL",
@@ -1246,30 +1306,6 @@
         "price": 0.6268,
         "date": "2026-01-30",
         "time": "02:56 AM"
-      },
-      {
-        "type": "SELL",
-        "item": "Beetroot",
-        "quantity": 50,
-        "price": 0.3134,
-        "date": "2026-01-30",
-        "time": "02:56 AM"
-      },
-      {
-        "type": "SELL",
-        "item": "Beetroot",
-        "quantity": 50,
-        "price": 0.3134,
-        "date": "2026-01-30",
-        "time": "02:56 AM"
-      },
-      {
-        "type": "SELL",
-        "item": "Beetroot",
-        "quantity": 50,
-        "price": 0.3134,
-        "date": "2026-01-30",
-        "time": "02:56 AM"
       }
     ],
     "profit_margin": 0,
@@ -1277,12 +1313,12 @@
     "most_sold_items": {
       "Sunflower": 5600,
       "Yam": 4753,
-      "Beetroot": 2191,
+      "Beetroot": 2376,
       "Broccoli": 2150,
       "Lemon": 1195,
       "Pumpkin": 600,
       "Wood": 475,
-      "Parsnip": 265,
+      "Parsnip": 295,
       "Tomato": 180,
       "Leather": 19
     }
@@ -2502,6 +2538,24 @@
       "created_at": 1769722254313,
       "collection": "collectibles",
       "trade_type": "instant"
+    },
+    {
+      "id": "04353cf1",
+      "item": "Tomato",
+      "quantity": 125,
+      "price": 0.6635,
+      "created_at": 1769748081219,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "3c8ae43a",
+      "item": "Beetroot",
+      "quantity": 125,
+      "price": 0.7858,
+      "created_at": 1769748111157,
+      "collection": "collectibles",
+      "trade_type": "instant"
     }
   ],
   "active_offers": [
@@ -2545,30 +2599,30 @@
   "inventory": {
     "crops": {
       "Sunflower": 601913.2571998293,
-      "Potato": 163666.40380001513,
+      "Potato": 163154.40380001513,
       "Pumpkin": 528514.8300000012,
       "Carrot": 118732.27079999977,
-      "Cabbage": 106292.68659999984,
-      "Beetroot": 41036.36390000002,
+      "Cabbage": 106132.68659999984,
+      "Beetroot": 40851.36390000002,
       "Cauliflower": 987.0169999999995,
-      "Parsnip": 757.8398000000011,
+      "Parsnip": 727.8398000000011,
       "Radish": 21266.068,
       "Wheat": 444.5310000000088,
       "Kale": 1930.6489,
       "Eggplant": 2376.5392999999985,
       "Corn": 376.00560000000075,
-      "Soybean": 7220.394699999981,
+      "Soybean": 7483.944699999981,
       "Rice": 463.844,
       "Olive": 682.236,
       "Barley": 917.3150000000052,
       "Rhubarb": 221319.1645999989,
       "Zucchini": 514270.0394999985,
       "Yam": 41612.64269999967,
-      "Broccoli": 14555.487599999742,
+      "Broccoli": 14545.487599999742,
       "Pepper": 9694.91559999999,
       "Onion": 4832.812700000002,
       "Turnip": 2693.2374000000004,
-      "Artichoke": 1205.7861000000005
+      "Artichoke": 1203.7861000000005
     },
     "fruits": {
       "Apple": 549.5200000000001,
@@ -2576,16 +2630,16 @@
       "Orange": 1607.3800000000003,
       "Banana": 424.87000000000097,
       "Grape": 1403.6900000000003,
-      "Tomato": 25799.510000000002,
+      "Tomato": 25878.710000000003,
       "Lemon": 19190.210000000014,
       "Duskberry": 74.16000000000001,
       "Lunara": 69.16000000000001,
       "Celestine": 333.08000000000004
     },
     "resources": {
-      "Wood": 50119.82,
+      "Wood": 50222.06,
       "Stone": 12510.4,
-      "Iron": 4993.55,
+      "Iron": 4992.55,
       "Gold": 1466.3000001,
       "Crimstone": 366.85,
       "Obsidian": 5.5

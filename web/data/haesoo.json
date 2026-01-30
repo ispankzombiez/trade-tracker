@@ -1,18 +1,54 @@
 {
   "username": "haesoo",
   "overview": {
-    "balance": 5.21,
-    "coins": 3028.0,
+    "balance": 2.17,
+    "coins": 1518.0,
     "gems": 0.0,
     "earned_sfl": 6549.94,
-    "earned_coins": 3028.0,
+    "earned_coins": 1518.0,
     "spent_sfl": 2498.78,
     "items_sold": 2909.0,
     "trade_points": 2767.97,
-    "last_updated": "2026-01-30 04:31 AM",
+    "last_updated": "2026-01-30 05:07 AM",
     "active_listings": 0
   },
   "buys": [
+    {
+      "date": "2026-01-30",
+      "time": "04:35 AM",
+      "type": "BUY",
+      "item": "Carrot",
+      "quantity": 500,
+      "price_text": "0.8716 SFL",
+      "price": 0.8716,
+      "counterparty": "robbie",
+      "farm_id": "-",
+      "trade_id": "e398c8eb"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "04:35 AM",
+      "type": "BUY",
+      "item": "Wood",
+      "quantity": 96,
+      "price_text": "0.8615 SFL",
+      "price": 0.8615,
+      "counterparty": "kenProHD",
+      "farm_id": "-",
+      "trade_id": "3398d18c"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "04:34 AM",
+      "type": "BUY",
+      "item": "Stone",
+      "quantity": 83,
+      "price_text": "1.3105 SFL",
+      "price": 1.3105,
+      "counterparty": "bakehu",
+      "farm_id": "-",
+      "trade_id": "5a330b0d"
+    },
     {
       "date": "2026-01-30",
       "time": "01:32 AM",
@@ -702,15 +738,42 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 40,
+    "total_buys": 43,
     "total_sells": 17,
-    "buy_volume": 53.91190000000002,
+    "buy_volume": 56.955500000000015,
     "sell_volume": 55.25829999999999,
-    "gross_profit": 1.3463999999999743,
-    "avg_buy_price": 1.3477975000000004,
+    "gross_profit": -1.6972000000000236,
+    "avg_buy_price": 1.3245465116279074,
     "avg_sell_price": 3.2504882352941173,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Carrot",
+        "quantity": 500,
+        "price": 0.8716,
+        "date": "2026-01-30",
+        "time": "04:35 AM",
+        "username": "haesoo"
+      },
+      {
+        "type": "BUY",
+        "item": "Wood",
+        "quantity": 96,
+        "price": 0.8615,
+        "date": "2026-01-30",
+        "time": "04:35 AM",
+        "username": "haesoo"
+      },
+      {
+        "type": "BUY",
+        "item": "Stone",
+        "quantity": 83,
+        "price": 1.3105,
+        "date": "2026-01-30",
+        "time": "04:34 AM",
+        "username": "haesoo"
+      },
       {
         "type": "BUY",
         "item": "Yam",
@@ -735,8 +798,7 @@
         "quantity": 5,
         "price": 0.802,
         "date": "2026-01-30",
-        "time": "01:31 AM",
-        "username": "haesoo"
+        "time": "01:31 AM"
       },
       {
         "type": "BUY",
@@ -744,8 +806,7 @@
         "quantity": 1,
         "price": 0.88,
         "date": "2026-01-30",
-        "time": "01:30 AM",
-        "username": "haesoo"
+        "time": "01:30 AM"
       },
       {
         "type": "BUY",
@@ -753,8 +814,7 @@
         "quantity": 50,
         "price": 0.9189,
         "date": "2026-01-30",
-        "time": "01:28 AM",
-        "username": "haesoo"
+        "time": "01:28 AM"
       },
       {
         "type": "BUY",
@@ -851,44 +911,20 @@
         "price": 1.975,
         "date": "2026-01-29",
         "time": "07:18 AM"
-      },
-      {
-        "type": "BUY",
-        "item": "Soybean",
-        "quantity": 200,
-        "price": 0.429,
-        "date": "2026-01-29",
-        "time": "07:10 AM"
-      },
-      {
-        "type": "BUY",
-        "item": "Yam",
-        "quantity": 200,
-        "price": 0.5885,
-        "date": "2026-01-29",
-        "time": "06:15 AM"
-      },
-      {
-        "type": "BUY",
-        "item": "Onion",
-        "quantity": 100,
-        "price": 1.0499,
-        "date": "2026-01-29",
-        "time": "04:26 AM"
       }
     ],
-    "profit_margin": 2.4974078079236195,
+    "profit_margin": -2.979870249580854,
     "most_bought_items": {
-      "Wood": 788,
+      "Wood": 884,
+      "Carrot": 500,
       "Beetroot": 350,
       "Yam": 300,
       "Egg": 200,
       "Soybean": 200,
       "Parsnip": 180,
+      "Stone": 133,
       "Cauliflower": 100,
-      "Onion": 100,
-      "Leather": 85,
-      "Apple": 80
+      "Onion": 100
     },
     "most_sold_items": {
       "Artichoke": 130,
@@ -909,7 +945,7 @@
       "Sunflower": 17849.742000000573,
       "Potato": 8381.9036,
       "Pumpkin": 53.5,
-      "Carrot": 304.871,
+      "Carrot": 404.871,
       "Cabbage": 333.1655,
       "Beetroot": 24.465,
       "Cauliflower": 72.66500000000002,
@@ -932,21 +968,21 @@
       "Rice": 4.0
     },
     "fruits": {
-      "Apple": 50.800000000000004,
+      "Apple": 75.45,
       "Blueberry": 20.60000000000006,
       "Orange": 32.25000000000003,
       "Banana": 50.8,
-      "Tomato": 86.2,
+      "Tomato": 81.2,
       "Lemon": 203.45,
       "Grape": 1.0,
       "Lunara": 1.0,
       "Celestine": 2.0
     },
     "resources": {
-      "Wood": 49.38,
+      "Wood": 87.38,
       "Gold": 8.75,
       "Crimstone": 15.7,
-      "Stone": 7.95,
+      "Stone": 70.95,
       "Iron": 54.85,
       "Obsidian": 3.0
     }
