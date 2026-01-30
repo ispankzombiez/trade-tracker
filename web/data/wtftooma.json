@@ -1,15 +1,15 @@
 {
   "username": "wtftooma",
   "overview": {
-    "balance": 424.05,
-    "coins": 13417.0,
+    "balance": 427.27,
+    "coins": 15337.0,
     "gems": 0.0,
     "earned_sfl": 428.8,
-    "earned_coins": 13417.0,
+    "earned_coins": 15337.0,
     "spent_sfl": 0.0,
     "items_sold": 1429.0,
     "trade_points": 22991.45,
-    "last_updated": "2026-01-30 10:34 AM",
+    "last_updated": "2026-01-30 10:54 AM",
     "active_listings": 1
   },
   "buys": [
@@ -626,16 +626,29 @@
       "trade_id": "93125170"
     }
   ],
-  "sells": [],
+  "sells": [
+    {
+      "date": "2026-01-30",
+      "time": "10:42 AM",
+      "type": "SELL",
+      "item": "Wool",
+      "quantity": 60,
+      "price_text": "3.4789 SFL",
+      "price": 3.4789,
+      "counterparty": "Reka",
+      "farm_id": "-",
+      "trade_id": "1bf75bb8"
+    }
+  ],
   "last_updated": null,
   "stats": {
     "total_buys": 51,
-    "total_sells": 0,
+    "total_sells": 1,
     "buy_volume": 82.5776,
-    "sell_volume": 0,
-    "gross_profit": -82.5776,
+    "sell_volume": 3.4789,
+    "gross_profit": -79.09870000000001,
     "avg_buy_price": 1.6191686274509804,
-    "avg_sell_price": 0,
+    "avg_sell_price": 3.4789,
     "most_traded_items": {},
     "recent_activity": [
       {
@@ -804,7 +817,7 @@
         "time": "08:17 PM"
       }
     ],
-    "profit_margin": -100.0,
+    "profit_margin": -95.78711418108543,
     "most_bought_items": {
       "Yam": 3030,
       "Broccoli": 2200,
@@ -817,7 +830,9 @@
       "Apple": 105,
       "Gold": 48
     },
-    "most_sold_items": {}
+    "most_sold_items": {
+      "Wool": 60
+    }
   },
   "active_listings": [
     {
