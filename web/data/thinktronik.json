@@ -7,13 +7,37 @@
     "earned_sfl": 7919.49,
     "earned_coins": 17662.0,
     "spent_sfl": 7980.17,
-    "items_sold": 4499.0,
+    "items_sold": 4501.0,
     "trade_points": 9373.29,
-    "last_updated": "2026-01-30 06:08 PM",
-    "active_listings": 6
+    "last_updated": "2026-01-30 06:29 PM",
+    "active_listings": 13
   },
   "buys": [],
   "sells": [
+    {
+      "date": "2026-01-30",
+      "time": "06:15 PM",
+      "type": "SELL",
+      "item": "Kale",
+      "quantity": 200,
+      "price_text": "4.55 SFL",
+      "price": 4.55,
+      "counterparty": "Wolfie",
+      "farm_id": "-",
+      "trade_id": "acce3732"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "06:15 PM",
+      "type": "SELL",
+      "item": "Kale",
+      "quantity": 150,
+      "price_text": "3.4125 SFL",
+      "price": 3.4125,
+      "counterparty": "Wolfie",
+      "farm_id": "-",
+      "trade_id": "58cc4e27"
+    },
     {
       "date": "2026-01-30",
       "time": "10:48 AM",
@@ -702,14 +726,32 @@
   "last_updated": null,
   "stats": {
     "total_buys": 0,
-    "total_sells": 57,
+    "total_sells": 59,
     "buy_volume": 0,
-    "sell_volume": 240.05850000000004,
-    "gross_profit": 240.05850000000004,
+    "sell_volume": 248.02100000000002,
+    "gross_profit": 248.02100000000002,
     "avg_buy_price": 0,
-    "avg_sell_price": 4.211552631578948,
+    "avg_sell_price": 4.203745762711865,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "SELL",
+        "item": "Kale",
+        "quantity": 200,
+        "price": 4.55,
+        "date": "2026-01-30",
+        "time": "06:15 PM",
+        "username": "thinktronik"
+      },
+      {
+        "type": "SELL",
+        "item": "Kale",
+        "quantity": 150,
+        "price": 3.4125,
+        "date": "2026-01-30",
+        "time": "06:15 PM",
+        "username": "thinktronik"
+      },
       {
         "type": "SELL",
         "item": "Rice",
@@ -743,8 +785,7 @@
         "quantity": 1,
         "price": 3.278,
         "date": "2026-01-30",
-        "time": "05:30 AM",
-        "username": "thinktronik"
+        "time": "05:30 AM"
       },
       {
         "type": "SELL",
@@ -752,8 +793,7 @@
         "quantity": 1,
         "price": 3.278,
         "date": "2026-01-30",
-        "time": "05:30 AM",
-        "username": "thinktronik"
+        "time": "05:30 AM"
       },
       {
         "type": "SELL",
@@ -858,22 +898,6 @@
         "price": 6.1875,
         "date": "2026-01-29",
         "time": "03:59 PM"
-      },
-      {
-        "type": "SELL",
-        "item": "Artichoke",
-        "quantity": 200,
-        "price": 1.92,
-        "date": "2026-01-29",
-        "time": "03:57 PM"
-      },
-      {
-        "type": "SELL",
-        "item": "Milk",
-        "quantity": 30,
-        "price": 3.7125,
-        "date": "2026-01-29",
-        "time": "03:57 PM"
       }
     ],
     "profit_margin": 0,
@@ -884,11 +908,11 @@
       "Artichoke": 450,
       "Barley": 450,
       "Wood": 400,
+      "Kale": 350,
       "Gold": 340,
       "Iron": 125,
       "Rice": 40,
-      "Olive": 40,
-      "Ruffroot": 10
+      "Olive": 40
     }
   },
   "active_listings": [
@@ -945,6 +969,69 @@
       "created_at": 1769700051244,
       "collection": "collectibles",
       "trade_type": "instant"
+    },
+    {
+      "id": "9456615e",
+      "item": "Kale",
+      "quantity": 100,
+      "price": 2.275,
+      "created_at": 1769796854008,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "58cc4e27",
+      "item": "Kale",
+      "quantity": 150,
+      "price": 3.4125,
+      "created_at": 1769796858378,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "acce3732",
+      "item": "Kale",
+      "quantity": 200,
+      "price": 4.55,
+      "created_at": 1769796862400,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "67dea92a",
+      "item": "Kale",
+      "quantity": 100,
+      "price": 2.275,
+      "created_at": 1769796866938,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "04c94bf7",
+      "item": "Kale",
+      "quantity": 150,
+      "price": 3.4125,
+      "created_at": 1769796871949,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "e5015381",
+      "item": "Kale",
+      "quantity": 200,
+      "price": 4.55,
+      "created_at": 1769796886433,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "723df696",
+      "item": "Lemon",
+      "quantity": 200,
+      "price": 1.9828,
+      "created_at": 1769796914921,
+      "collection": "collectibles",
+      "trade_type": "instant"
     }
   ],
   "active_offers": [],
@@ -960,7 +1047,7 @@
       "Parsnip": 133.38849999999994,
       "Radish": 4759.9201,
       "Wheat": 10266.4535,
-      "Kale": 3395.4852,
+      "Kale": 3045.4852,
       "Eggplant": 2087.0092,
       "Corn": 4074.8443999999995,
       "Soybean": 2101.9547,
@@ -969,7 +1056,7 @@
       "Barley": 3786.6062,
       "Rhubarb": 891.25,
       "Zucchini": 2280.3499,
-      "Yam": 1578.0102,
+      "Yam": 1795.91,
       "Broccoli": 1194.2338,
       "Pepper": 213.52329999999995,
       "Onion": 1827.2243,
@@ -982,7 +1069,7 @@
       "Orange": 3928.3000000000034,
       "Banana": 2198.2500000000014,
       "Grape": 155.50000000000014,
-      "Tomato": 9169.550000000003,
+      "Tomato": 9207.100000000004,
       "Lemon": 1052.6000000000035,
       "Duskberry": 192.2,
       "Lunara": 17.200000000000024,
