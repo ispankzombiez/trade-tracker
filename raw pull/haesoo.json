@@ -1,7 +1,7 @@
 {
   "farm": {
-    "coins": 3300.42930000004,
-    "balance": "2.16781376562500076",
+    "coins": 2300.42930000004,
+    "balance": "1.33781376562500076",
     "previousBalance": "163.8169812656250066",
     "inventory": {
       "Parsnip Seed": "80",
@@ -11,10 +11,10 @@
       "Sunflower": "17849.74200000057412",
       "Potato": "8381.903600000000001",
       "Pumpkin": "53.5",
-      "Carrot": "394.8710000000000072",
+      "Carrot": "384.8710000000000072",
       "Cabbage": "313.1655",
       "Beetroot": "24.4650000000000007",
-      "Cauliflower": "52.6650000000000234",
+      "Cauliflower": "37.6650000000000234",
       "Parsnip": "58.1550000000000679",
       "Radish": "511.0796",
       "Wheat": "309.875000000000236",
@@ -178,7 +178,7 @@
       "Nightshade Emblem": "9000",
       "Pharaoh's Treasure Banner": "1",
       "Amber Fossil": "1",
-      "Gem": "5735",
+      "Gem": "5705",
       "Bull Run Banner": "1",
       "Horseshoe": "1",
       "Winds of Change Banner": "1",
@@ -299,7 +299,7 @@
       "Trout": "99",
       "Walleye": "5",
       "Weakfish": "36",
-      "Rock Blackfish": "76",
+      "Rock Blackfish": "91",
       "Cobia": "98",
       "Tilapia": "6",
       "Rug": "4",
@@ -407,8 +407,8 @@
       "Cow Skull": "1",
       "Pipi": "2",
       "Wooden Compass": "2",
-      "Trade Point": "517.97135",
-      "Love Charm": "321",
+      "Trade Point": "518.38635",
+      "Love Charm": "325",
       "Old Bottle": "39",
       "Ancient Clock": "1",
       "Cockle Shell": "23",
@@ -501,7 +501,6 @@
       "Rice Seed": "4",
       "Club Sandwich": "4",
       "Fish Flake": "1",
-      "Fish Stick": "10",
       "Soybean Seed": "4",
       "Purple Daffodil": "1",
       "Corn Seed": "9",
@@ -560,7 +559,7 @@
       "Honey Cheddar": "1",
       "Lunara": "1",
       "Pancakes": "1",
-      "Steamed Red Rice": "1",
+      "Steamed Red Rice": "2",
       "Sea Grapes": "6",
       "Big Apple": "1",
       "Big Orange": "1",
@@ -578,9 +577,9 @@
       "Orange Cake": "1",
       "Gold Pickaxe": "2",
       "Iron Pickaxe": "3",
-      "Rod": "10",
       "Lunar Doll": "1",
-      "Basic Cooking Pot": "1"
+      "Basic Cooking Pot": "1",
+      "Napoleanfish": "3"
     },
     "previousInventory": {
       "Potato Seed": "500",
@@ -5390,7 +5389,7 @@
         "count": 1,
         "date": 30
       },
-      "tradePoints": 2767.9713499999975,
+      "tradePoints": 2768.386349999997,
       "offers": {},
       "weeklySales": {
         "2026-01-26": {
@@ -5403,7 +5402,8 @@
           "Yellow Daffodil": 1,
           "White Balloon Flower": 3,
           "Yellow Balloon Flower": 1,
-          "White Carrot": 1
+          "White Carrot": 1,
+          "Napoleanfish": 3
         }
       }
     },
@@ -5495,16 +5495,6 @@
           "readyAt": 1739610962015,
           "crafting": [
             {
-              "name": "Steamed Red Rice",
-              "boost": {
-                "Oil": 0
-              },
-              "skills": {
-                "Double Nom": false
-              },
-              "readyAt": 1769764802321
-            },
-            {
               "name": "Roast Veggies",
               "boost": {
                 "Oil": 0
@@ -5533,6 +5523,16 @@
                 "Double Nom": false
               },
               "readyAt": 1769782298321
+            },
+            {
+              "name": "Roast Veggies",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": false
+              },
+              "readyAt": 1769788130321
             }
           ],
           "oil": 0,
@@ -6383,7 +6383,7 @@
       "Potted Sunflower Bought": 1,
       "Bumpkin Salad Dug": 7,
       "White Tulips Bought": 1,
-      "Rod Casted": 5837,
+      "Rod Casted": 5847,
       "Prism Petal Harvested": 26,
       "Cabbage Seed Bought": 16036,
       "Iron Pickaxe Crafted": 2252,
@@ -6728,7 +6728,7 @@
       "Yam Sold": 145.92,
       "Tornado Pinwheel Crafted": 2,
       "Kite Bought": 1,
-      "Steamed Red Rice Cooked": 17,
+      "Steamed Red Rice Cooked": 18,
       "Orange Bunny Lantern Bought": 1,
       "Blue Marlin Fed": 311,
       "Pizza Margherita Cooked": 23,
@@ -6980,7 +6980,7 @@
       "Kelp Fibre Bountied": 1,
       "Merino Cushion Bountied": 5,
       "Sea Cucumber Bountied": 8,
-      "Rock Blackfish Caught": 80,
+      "Rock Blackfish Caught": 95,
       "Blue Clover Bountied": 4,
       "Yellow Daffodil Bountied": 9,
       "Red Carnation Bountied": 4,
@@ -7111,7 +7111,7 @@
       "Fish Puzzle Solved": 39,
       "Tomato Sold": 90,
       "Bulk Resources Purchased": 1910,
-      "Fish Retried": 6,
+      "Fish Retried": 7,
       "Obsidian Collected": 18,
       "Fish Missed": 1,
       "Obsidian Bountied": 6,
@@ -7173,7 +7173,7 @@
       "Horseshoe Crab Caught": 6,
       "Garden Eel Caught": 6,
       "Sea Grapes Caught": 6,
-      "Gilded Swordfish Map Piece Found": 4,
+      "Gilded Swordfish Map Piece Found": 7,
       "Cornucopia Bought": 1
     },
     "milestones": {
@@ -7187,10 +7187,10 @@
     },
     "fishing": {
       "wharf": {
-        "bait": "Grub"
+        "bait": "Fish Stick"
       },
       "dailyAttempts": {
-        "2026-01-30": 50
+        "2026-01-30": 60
       },
       "extraReels": {
         "timesBought": {
@@ -7199,7 +7199,8 @@
           "2026-01-23": 2,
           "2026-01-24": 2,
           "2026-01-25": 2,
-          "2026-01-29": 2
+          "2026-01-29": 2,
+          "2026-01-30": 2
         },
         "count": 0
       }
@@ -8428,7 +8429,7 @@
           "petXP": 0,
           "score": 50,
           "collectivePet": {
-            "totalXP": 5817007,
+            "totalXP": 5823891,
             "goalXP": 2404688,
             "goalReached": true,
             "streak": 3,
@@ -9943,8 +9944,8 @@
       "Rich Chicken": 1769678322985,
       "Speed Chicken": 1769678322985,
       "Undead Rooster": 1769678322985,
-      "Desert Gnome": 1769763584488,
-      "Fast Feasts": 1769763584488,
+      "Desert Gnome": 1769766277615,
+      "Fast Feasts": 1769766277615,
       "Premium Worms": 1769747357146,
       "Gold Beetle": 1769763421434,
       "Golden Touch": 1769763421434,
@@ -9962,7 +9963,7 @@
       "Petalled Perk": 1769226206603,
       "Soybliss": 1766304626225,
       "Tofu Mask": 1768768015506,
-      "Angler Waders": 1769747742591,
+      "Angler Waders": 1769765796442,
       "Fisherman's 5 Fold": 1761379577129,
       "Fishy Gamble": 1769504951532,
       "Carrot Amulet": 1769591328995,
@@ -9976,13 +9977,13 @@
       "Chicory": 1768976680495,
       "Desert Rose": 1769610731366,
       "Fire Kissed": 1769762471345,
-      "Trident": 1769747742591,
+      "Trident": 1769765796442,
       "Blossombeard": 1769680965212,
       "Munching Mastery": 1769680965212,
       "Observatory": 1769680965212,
       "Crab Hat": 1769747742591,
-      "Sunflower Rod": 1769747742591,
-      "Fishy Roll": 1769747463651,
+      "Sunflower Rod": 1769765796442,
+      "Fishy Roll": 1769765796442,
       "Alba": 1769326233742,
       "Efficient Feeding": 1769586169623,
       "Fat Chicken": 1769586169623,
@@ -10010,7 +10011,7 @@
       "Pink Dolphin": 1768731150083,
       "Skill Shrimpy": 1769680951390,
       "Time Warp Totem": 1768759763672,
-      "Reelmaster's Chair": 1769747742591,
+      "Reelmaster's Chair": 1769765796442,
       "Turbo Charged": 1765782300297,
       "Drive-Through Deli": 1769680923872,
       "Grain Grinder": 1769680965212,
@@ -10024,10 +10025,10 @@
       "Experienced Farmer": 1769630126981,
       "Bucket O' Worms": 1769762473607,
       "Wormy Treat": 1769762473607,
-      "Saw Fish": 1769762473607,
+      "Saw Fish": 1769765796442,
       "Giant Artichoke": 1769745550428,
-      "Lunar Temple": 1769758859583,
-      "Fisherman's 10 Fold": 1769747742591,
+      "Lunar Temple": 1769766507359,
+      "Fisherman's 10 Fold": 1769765796442,
       "Deep Sea Helm": 1767419312958,
       "Super Star": 1768124315885,
       "Squirrel Onesie": 1769658006177,
@@ -10038,7 +10039,7 @@
       "Sunshower": 1769458543472
     },
     "socialFarming": {
-      "points": 35084,
+      "points": 35092,
       "villageProjects": {
         "Farmer's Monument": {
           "cheers": 100,
@@ -10049,27 +10050,28 @@
           "winnerId": 132826
         },
         "Miner's Monument": {
-          "cheers": 3723,
+          "cheers": 3725,
           "winnerId": 7543661884884280
         },
         "Big Banana": {
-          "cheers": 155,
+          "cheers": 156,
           "winnerId": 9239
         },
         "Big Apple": {
-          "cheers": 17,
+          "cheers": 18,
           "winnerId": 2909
         },
         "Big Orange": {
-          "cheers": 10,
+          "cheers": 11,
           "winnerId": 36214
         },
         "Cornucopia": {
-          "cheers": 8,
+          "cheers": 10,
           "winnerId": 1621
         },
         "Basic Cooking Pot": {
-          "cheers": 0
+          "cheers": 1,
+          "winnerId": 1948894819034218
         }
       },
       "cheers": {
@@ -10133,7 +10135,7 @@
       },
       "weeklyPoints": {
         "week": "2026-01-26",
-        "points": 1428
+        "points": 1436
       },
       "helpIncrease": {
         "boughtAt": [

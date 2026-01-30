@@ -1,6 +1,6 @@
 {
   "farm": {
-    "coins": 34562.59000000008,
+    "coins": 29742.590000000077,
     "balance": "36.3526340988023117",
     "previousBalance": "1.7315440988023114",
     "inventory": {
@@ -14,10 +14,10 @@
       "Kale Seed": "43",
       "Eggplant Seed": "22",
       "Soybean Seed": "52",
-      "Barley Seed": "11",
+      "Barley Seed": "19",
       "Onion Seed": "62",
       "Turnip Seed": "4",
-      "Artichoke Seed": "33",
+      "Artichoke Seed": "44",
       "Edelweiss Seed": "1",
       "Sunflower": "4670.514999999914711",
       "Potato": "1138.9199999999841214",
@@ -35,7 +35,7 @@
       "Orange": "568.9",
       "Eggplant": "774.9650000000000148",
       "Corn": "910.3550000000000748",
-      "Banana": "283.1000000000000024",
+      "Banana": "296.1000000000000024",
       "Red Pansy": "3",
       "Yellow Pansy": "7",
       "White Pansy": "2",
@@ -56,8 +56,8 @@
       "Soybean": "6.2899999999999902",
       "Grape": "2",
       "Tomato": "165.4000000000000083",
-      "Lemon": "974.8000000000000176",
-      "Barley": "619.4750000000003002",
+      "Lemon": "976.1000000000000176",
+      "Barley": "747.5750000000003002",
       "Rhubarb": "801.5",
       "Zucchini": "275",
       "Yam": "117",
@@ -65,7 +65,7 @@
       "Pepper": "6.6",
       "Onion": "433.650000000000002",
       "Turnip": "383.2",
-      "Artichoke": "387.1000000000000266",
+      "Artichoke": "531.4000000000000266",
       "Yellow Edelweiss": "2",
       "Purple Edelweiss": "2",
       "Blue Edelweiss": "2",
@@ -89,12 +89,12 @@
       "Bale": "1",
       "Scary Mike": "1",
       "Laurie the Chuckle Crow": "1",
-      "Wood": "2028.429",
+      "Wood": "2163.329",
       "Stone": "191.25",
       "Iron": "16.9",
       "Gold": "16.05",
       "Egg": "10.8",
-      "Honey": "147.39227336631953134",
+      "Honey": "150.69227336631953164",
       "Wild Mushroom": "1351",
       "Magic Mushroom": "519",
       "Tree": "24",
@@ -144,7 +144,7 @@
       "Goblin Emblem": "195",
       "Mark": "633.5",
       "Pharaoh's Treasure Banner": "1",
-      "Gem": "15349",
+      "Gem": "15329",
       "Bull Run Banner": "1",
       "Winds of Change Banner": "1",
       "Timeshard": "124",
@@ -292,8 +292,8 @@
       "Corn Seed": "10",
       "Paw Prints Raffle Ticket": "140",
       "Lemon Seed": "3",
-      "Axe": "53",
-      "Banana Plant": "6",
+      "Axe": "245",
+      "Banana Plant": "4",
       "Pickaxe": "6",
       "Stone Pickaxe": "3",
       "Lily Seed": "1"
@@ -607,7 +607,7 @@
       "Treasure Key": "1"
     },
     "shipments": {
-      "restockedAt": 1769645606653
+      "restockedAt": 1769765642966
     },
     "gems": {
       "history": {
@@ -933,8 +933,8 @@
       "id": 5571,
       "updatedAt": 1697048286172,
       "previousPowerUseAt": {
-        "Tree Blitz": 1769489499596,
-        "Instant Growth": 1769334097354,
+        "Tree Blitz": 1769765623852,
+        "Instant Growth": 1769765591805,
         "Petal Blessed": 1753115194062
       },
       "previousSkillsResetAt": 1,
@@ -1786,7 +1786,11 @@
       "Turnip Seed": "80",
       "Kale Seed": "60",
       "Lemon Seed": "20",
-      "Axe": "100"
+      "Banana Plant": "20",
+      "Lily Seed": "4",
+      "Radish Seed": "80",
+      "Wheat Seed": "80",
+      "Axe": "50"
     },
     "crops": {
       "1": {
@@ -1796,14 +1800,10 @@
         "x": 8,
         "y": 7,
         "crop": {
-          "id": "ec82e819",
-          "plantedAt": 1769614472816,
+          "id": "30e830db",
+          "plantedAt": 1769746805226,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "2": {
@@ -1813,14 +1813,10 @@
         "x": 8,
         "y": 6,
         "crop": {
-          "id": "65440f4f",
-          "plantedAt": 1769614473534,
+          "id": "be13bccb",
+          "plantedAt": 1769746805558,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "3": {
@@ -1830,14 +1826,10 @@
         "x": 8,
         "y": 5,
         "crop": {
-          "id": "4ab7f4d1",
-          "plantedAt": 1769614473066,
+          "id": "62105ee0",
+          "plantedAt": 1769746805908,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "4": {
@@ -1847,14 +1839,10 @@
         "x": 8,
         "y": 4,
         "crop": {
-          "id": "de8aac45",
-          "plantedAt": 1769614473851,
+          "id": "48439034",
+          "plantedAt": 1769746806476,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "5": {
@@ -1864,14 +1852,10 @@
         "x": 8,
         "y": 3,
         "crop": {
-          "id": "97380c40",
-          "plantedAt": 1769614474605,
+          "id": "d95aeac3",
+          "plantedAt": 1769746806922,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "6": {
@@ -1881,14 +1865,10 @@
         "x": 8,
         "y": 2,
         "crop": {
-          "id": "6851ec5d",
-          "plantedAt": 1769614474136,
+          "id": "4b0a49ef",
+          "plantedAt": 1769746807274,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "7": {
@@ -1898,14 +1878,10 @@
         "x": 2,
         "y": 4,
         "crop": {
-          "id": "e56ade30",
-          "plantedAt": 1769614483799,
+          "id": "34b017a7",
+          "plantedAt": 1769746822157,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "8": {
@@ -1915,14 +1891,10 @@
         "x": 8,
         "y": 1,
         "crop": {
-          "id": "58519c56",
-          "plantedAt": 1769614474894,
+          "id": "e72ba339",
+          "plantedAt": 1769746807950,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "9": {
@@ -1932,14 +1904,10 @@
         "x": 7,
         "y": 7,
         "crop": {
-          "id": "22179d07",
-          "plantedAt": 1769614476538,
+          "id": "657a286a",
+          "plantedAt": 1769746810329,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "10": {
@@ -1949,14 +1917,10 @@
         "x": 7,
         "y": 6,
         "crop": {
-          "id": "98ba617d",
-          "plantedAt": 1769614477233,
+          "id": "e98df431",
+          "plantedAt": 1769746809959,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "11": {
@@ -1966,14 +1930,10 @@
         "x": 7,
         "y": 5,
         "crop": {
-          "id": "902c18fa",
-          "plantedAt": 1769614476287,
+          "id": "f6dc766b",
+          "plantedAt": 1769746809605,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "12": {
@@ -1983,14 +1943,10 @@
         "x": 7,
         "y": 4,
         "crop": {
-          "id": "666aaa33",
-          "plantedAt": 1769614476061,
+          "id": "db35c70e",
+          "plantedAt": 1769746809289,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "13": {
@@ -2000,14 +1956,10 @@
         "x": 7,
         "y": 3,
         "crop": {
-          "id": "11aaaa6c",
-          "plantedAt": 1769614475795,
+          "id": "dd8d8414",
+          "plantedAt": 1769746808920,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "14": {
@@ -2017,14 +1969,10 @@
         "x": 7,
         "y": 2,
         "crop": {
-          "id": "be41cff4",
-          "plantedAt": 1769614475535,
+          "id": "c70da5fb",
+          "plantedAt": 1769746808588,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "15": {
@@ -2034,14 +1982,10 @@
         "x": 2,
         "y": 3,
         "crop": {
-          "id": "2c5c5eb1",
-          "plantedAt": 1769614483515,
+          "id": "c7983cb7",
+          "plantedAt": 1769746820890,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "16": {
@@ -2051,14 +1995,10 @@
         "x": 7,
         "y": 1,
         "crop": {
-          "id": "bd4e4178",
-          "plantedAt": 1769614475254,
+          "id": "9f3006d1",
+          "plantedAt": 1769746808270,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "17": {
@@ -2068,14 +2008,10 @@
         "x": 6,
         "y": 7,
         "crop": {
-          "id": "eb7202b5",
-          "plantedAt": 1769614477711,
+          "id": "3732f16d",
+          "plantedAt": 1769746811530,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "18": {
@@ -2085,14 +2021,10 @@
         "x": 6,
         "y": 6,
         "crop": {
-          "id": "f65b8608",
-          "plantedAt": 1769614478098,
+          "id": "68db6b2d",
+          "plantedAt": 1769746811879,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "45793825": {
@@ -2102,14 +2034,10 @@
         "x": 6,
         "y": 5,
         "crop": {
-          "id": "92414308",
-          "plantedAt": 1769614478531,
+          "id": "6bfe94e9",
+          "plantedAt": 1769746812237,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "4285409c": {
@@ -2119,14 +2047,10 @@
         "x": 6,
         "y": 4,
         "crop": {
-          "id": "da07cb78",
-          "plantedAt": 1769614478895,
+          "id": "6080f8cf",
+          "plantedAt": 1769746812583,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "a356475c": {
@@ -2136,14 +2060,10 @@
         "x": 6,
         "y": 3,
         "crop": {
-          "id": "76ef4915",
-          "plantedAt": 1769614479311,
+          "id": "86c25350",
+          "plantedAt": 1769746812915,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "53a9ecb1": {
@@ -2153,14 +2073,10 @@
         "x": 6,
         "y": 2,
         "crop": {
-          "id": "05890a52",
-          "plantedAt": 1769614481573,
+          "id": "156a88dd",
+          "plantedAt": 1769746813292,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "efe9d801": {
@@ -2170,14 +2086,10 @@
         "x": 2,
         "y": 5,
         "crop": {
-          "id": "7c2c4f93",
-          "plantedAt": 1769614485836,
+          "id": "ebba7c2f",
+          "plantedAt": 1769746822532,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "e62b7d0e": {
@@ -2187,14 +2099,10 @@
         "x": 6,
         "y": 1,
         "crop": {
-          "id": "3d31da67",
-          "plantedAt": 1769614479856,
+          "id": "f3b9277e",
+          "plantedAt": 1769746813632,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "b1390d63": {
@@ -2204,14 +2112,10 @@
         "x": 5,
         "y": 7,
         "crop": {
-          "id": "324bb250",
-          "plantedAt": 1769614487082,
+          "id": "982d1722",
+          "plantedAt": 1769746816559,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "2f9eb8fc": {
@@ -2221,14 +2125,10 @@
         "x": 5,
         "y": 6,
         "crop": {
-          "id": "cfa04d96",
-          "plantedAt": 1769614486703,
+          "id": "9ce5a041",
+          "plantedAt": 1769746816223,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "30dca2ac": {
@@ -2238,14 +2138,10 @@
         "x": 5,
         "y": 5,
         "crop": {
-          "id": "1d1ec7a8",
-          "plantedAt": 1769614484948,
+          "id": "d80d1c8b",
+          "plantedAt": 1769746814975,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "e81dc3e6": {
@@ -2255,14 +2151,10 @@
         "x": 5,
         "y": 4,
         "crop": {
-          "id": "7101145b",
-          "plantedAt": 1769614484492,
+          "id": "ddb50541",
+          "plantedAt": 1769746814491,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "ee040f1f": {
@@ -2272,14 +2164,10 @@
         "x": 5,
         "y": 3,
         "crop": {
-          "id": "1afd1e6e",
-          "plantedAt": 1769614482211,
+          "id": "69b77ba6",
+          "plantedAt": 1769746815790,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "851080f2": {
@@ -2289,14 +2177,10 @@
         "x": 5,
         "y": 2,
         "crop": {
-          "id": "1b9676ba",
-          "plantedAt": 1769614481276,
+          "id": "35abb432",
+          "plantedAt": 1769746814284,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "8b12cb2a": {
@@ -2306,14 +2190,10 @@
         "x": 2,
         "y": 6,
         "crop": {
-          "id": "38666cf3",
-          "plantedAt": 1769614486119,
+          "id": "755188c1",
+          "plantedAt": 1769746823665,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "0cd6988d": {
@@ -2323,14 +2203,10 @@
         "x": 5,
         "y": 1,
         "crop": {
-          "id": "bef51021",
-          "plantedAt": 1769614481906,
+          "id": "f4ff7ac7",
+          "plantedAt": 1769746813964,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "7d2e48c0": {
@@ -2340,14 +2216,10 @@
         "x": 4,
         "y": 7,
         "crop": {
-          "id": "e10ce155",
-          "plantedAt": 1769614487266,
+          "id": "768293b7",
+          "plantedAt": 1769746817615,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "f569434c": {
@@ -2357,14 +2229,10 @@
         "x": 4,
         "y": 6,
         "crop": {
-          "id": "36338b9f",
-          "plantedAt": 1769614486483,
+          "id": "6aa7e576",
+          "plantedAt": 1769746817953,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "e461c47b": {
@@ -2374,14 +2242,10 @@
         "x": 4,
         "y": 5,
         "crop": {
-          "id": "a82d6f39",
-          "plantedAt": 1769614485149,
+          "id": "a8963536",
+          "plantedAt": 1769746818295,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "43a0317e": {
@@ -2391,14 +2255,10 @@
         "x": 4,
         "y": 4,
         "crop": {
-          "id": "8de97482",
-          "plantedAt": 1769614484251,
+          "id": "0765220b",
+          "plantedAt": 1769746818637,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "6ef0464a": {
@@ -2408,14 +2268,10 @@
         "x": 4,
         "y": 3,
         "crop": {
-          "id": "334cab79",
-          "plantedAt": 1769614482502,
+          "id": "0898f484",
+          "plantedAt": 1769746818995,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "d0302106": {
@@ -2425,14 +2281,10 @@
         "x": 4,
         "y": 2,
         "crop": {
-          "id": "e686d02f",
-          "plantedAt": 1769614480586,
+          "id": "95ed2a76",
+          "plantedAt": 1769746819340,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "131d8cdf": {
@@ -2442,14 +2294,10 @@
         "x": 2,
         "y": 7,
         "crop": {
-          "id": "8cfac825",
-          "plantedAt": 1769614488002,
+          "id": "3b61db7d",
+          "plantedAt": 1769746824020,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "c033a87d": {
@@ -2459,14 +2307,10 @@
         "x": 4,
         "y": 1,
         "crop": {
-          "id": "2da87f67",
-          "plantedAt": 1769614480343,
+          "id": "cec0b00c",
+          "plantedAt": 1769746819714,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "1495c7fa": {
@@ -2476,14 +2320,10 @@
         "x": 3,
         "y": 7,
         "crop": {
-          "id": "f929157a",
-          "plantedAt": 1769614487477,
+          "id": "9bf92d44",
+          "plantedAt": 1769746824386,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "f001b7ed": {
@@ -2493,14 +2333,10 @@
         "x": 3,
         "y": 6,
         "crop": {
-          "id": "df988174",
-          "plantedAt": 1769614486290,
+          "id": "404c477a",
+          "plantedAt": 1769746823281,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "b49b18f9": {
@@ -2510,14 +2346,10 @@
         "x": 3,
         "y": 5,
         "crop": {
-          "id": "2fa1dc42",
-          "plantedAt": 1769614485560,
+          "id": "1ddd66a0",
+          "plantedAt": 1769746822912,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "00aee5c3": {
@@ -2527,14 +2359,10 @@
         "x": 3,
         "y": 4,
         "crop": {
-          "id": "7f435b4c",
-          "plantedAt": 1769614484018,
+          "id": "96a32b52",
+          "plantedAt": 1769746821582,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "12a7706c": {
@@ -2544,14 +2372,10 @@
         "x": 3,
         "y": 3,
         "crop": {
-          "id": "e3d0e7ac",
-          "plantedAt": 1769614482792,
+          "id": "5f1602f9",
+          "plantedAt": 1769746821236,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "d6db2582": {
@@ -2561,14 +2385,10 @@
         "x": 3,
         "y": 2,
         "crop": {
-          "id": "81554f5a",
-          "plantedAt": 1769614483027,
+          "id": "749349dd",
+          "plantedAt": 1769746820124,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "097fe09c": {
@@ -2578,14 +2398,10 @@
         "x": 2,
         "y": 8,
         "crop": {
-          "id": "a89a745d",
-          "plantedAt": 1769614488320,
+          "id": "d6afbaf4",
+          "plantedAt": 1769746825190,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "15aa9c66": {
@@ -2595,14 +2411,10 @@
         "x": 2,
         "y": 2,
         "crop": {
-          "id": "aadf3da3",
-          "plantedAt": 1769614483246,
+          "id": "ebc964cd",
+          "plantedAt": 1769746820518,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "9ecfab0e": {
@@ -2612,14 +2424,10 @@
         "x": 8,
         "y": 8,
         "crop": {
-          "id": "08c635da",
-          "plantedAt": 1769614472502,
+          "id": "17b5d075",
+          "plantedAt": 1769746804909,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "bdaff8f0": {
@@ -2629,14 +2437,10 @@
         "x": 7,
         "y": 8,
         "crop": {
-          "id": "1b0ce023",
-          "plantedAt": 1769614476813,
+          "id": "9611dffc",
+          "plantedAt": 1769746810775,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "1c5e7768": {
@@ -2646,14 +2450,10 @@
         "x": 6,
         "y": 8,
         "crop": {
-          "id": "94257ba6",
-          "plantedAt": 1769614477504,
+          "id": "08c3c563",
+          "plantedAt": 1769746811175,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "a7516dd2": {
@@ -2663,14 +2463,10 @@
         "x": 5,
         "y": 8,
         "crop": {
-          "id": "a66b3ddf",
-          "plantedAt": 1769614489436,
+          "id": "ddc6e51d",
+          "plantedAt": 1769746816935,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "ce73b17b": {
@@ -2680,14 +2476,10 @@
         "x": 4,
         "y": 8,
         "crop": {
-          "id": "4b0001cc",
-          "plantedAt": 1769614488863,
+          "id": "95928a10",
+          "plantedAt": 1769746817279,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       },
       "23d9d008": {
@@ -2697,14 +2489,10 @@
         "x": 3,
         "y": 8,
         "crop": {
-          "id": "fa073f3e",
-          "plantedAt": 1769614488555,
+          "id": "e60e5d19",
+          "plantedAt": 1769746824778,
           "boostedTime": 18792000,
           "name": "Artichoke"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769693363901
         }
       }
     },
@@ -2713,7 +2501,7 @@
         "width": 2,
         "createdAt": 1716324915402,
         "wood": {
-          "choppedAt": 1769731076680
+          "choppedAt": 1769764919700
         },
         "height": 2,
         "x": 9,
@@ -2723,7 +2511,7 @@
         "width": 2,
         "createdAt": 1716324915402,
         "wood": {
-          "choppedAt": 1769731076876
+          "choppedAt": 1769764918654
         },
         "height": 2,
         "x": 9,
@@ -2733,7 +2521,7 @@
         "width": 2,
         "createdAt": 1716324915402,
         "wood": {
-          "choppedAt": 1769731077090
+          "choppedAt": 1769764918429
         },
         "height": 2,
         "x": 9,
@@ -2743,7 +2531,7 @@
         "width": 2,
         "createdAt": 1716328666242,
         "wood": {
-          "choppedAt": 1769731077325
+          "choppedAt": 1769764917421
         },
         "height": 2,
         "x": 9,
@@ -2753,7 +2541,7 @@
         "width": 2,
         "createdAt": 1716328637013,
         "wood": {
-          "choppedAt": 1769731096183
+          "choppedAt": 1769764916272
         },
         "height": 2,
         "x": 9,
@@ -2763,7 +2551,7 @@
         "width": 2,
         "createdAt": 1716372883448,
         "wood": {
-          "choppedAt": 1769731082673
+          "choppedAt": 1769764908554
         },
         "height": 2,
         "x": 9,
@@ -2773,7 +2561,7 @@
         "width": 2,
         "createdAt": 1716328641236,
         "wood": {
-          "choppedAt": 1769731077987
+          "choppedAt": 1769764907516
         },
         "height": 2,
         "x": 9,
@@ -2783,7 +2571,7 @@
         "width": 2,
         "createdAt": 1716328659514,
         "wood": {
-          "choppedAt": 1769731078273
+          "choppedAt": 1769764916822
         },
         "height": 2,
         "x": 9,
@@ -2793,7 +2581,7 @@
         "width": 2,
         "createdAt": 1716364258268,
         "wood": {
-          "choppedAt": 1769731078782
+          "choppedAt": 1769764906863
         },
         "height": 2,
         "x": 13,
@@ -2803,7 +2591,7 @@
         "width": 2,
         "createdAt": 1716364256780,
         "wood": {
-          "choppedAt": 1769731081760
+          "choppedAt": 1769764931435
         },
         "height": 2,
         "x": 11,
@@ -2813,7 +2601,7 @@
         "width": 2,
         "createdAt": 1716328668405,
         "wood": {
-          "choppedAt": 1769731081185
+          "choppedAt": 1769764931251
         },
         "height": 2,
         "x": 11,
@@ -2823,7 +2611,7 @@
         "width": 2,
         "createdAt": 1716328629760,
         "wood": {
-          "choppedAt": 1769731080917
+          "choppedAt": 1769764918245
         },
         "height": 2,
         "x": 11,
@@ -2833,7 +2621,7 @@
         "width": 2,
         "createdAt": 1716328641532,
         "wood": {
-          "choppedAt": 1769731080306
+          "choppedAt": 1769764917621
         },
         "height": 2,
         "x": 11,
@@ -2843,7 +2631,7 @@
         "width": 2,
         "createdAt": 1716328640914,
         "wood": {
-          "choppedAt": 1769731080002
+          "choppedAt": 1769764917100
         },
         "height": 2,
         "x": 11,
@@ -2853,7 +2641,7 @@
         "width": 2,
         "createdAt": 1716328664029,
         "wood": {
-          "choppedAt": 1769731079414
+          "choppedAt": 1769764908346
         },
         "height": 2,
         "x": 11,
@@ -2863,7 +2651,7 @@
         "width": 2,
         "createdAt": 1716328631965,
         "wood": {
-          "choppedAt": 1769731082446
+          "choppedAt": 1769764907702
         },
         "height": 2,
         "x": 11,
@@ -2873,7 +2661,7 @@
         "width": 2,
         "createdAt": 1716328662414,
         "wood": {
-          "choppedAt": 1769731078985
+          "choppedAt": 1769764907892
         },
         "height": 2,
         "x": 13,
@@ -2883,7 +2671,7 @@
         "width": 2,
         "createdAt": 1716328657943,
         "wood": {
-          "choppedAt": 1769731078571
+          "choppedAt": 1769764907122
         },
         "height": 2,
         "x": 11,
@@ -2893,7 +2681,7 @@
         "width": 2,
         "createdAt": 1716328633818,
         "wood": {
-          "choppedAt": 1769731081548
+          "choppedAt": 1769764931642
         },
         "height": 2,
         "x": 13,
@@ -2904,7 +2692,7 @@
         "width": 2,
         "height": 2,
         "wood": {
-          "choppedAt": 1769731081377
+          "choppedAt": 1769764919084
         },
         "x": 13,
         "y": 8
@@ -2914,7 +2702,7 @@
         "width": 2,
         "height": 2,
         "wood": {
-          "choppedAt": 1769731083229
+          "choppedAt": 1769764918060
         },
         "x": 13,
         "y": 6
@@ -2924,7 +2712,7 @@
         "width": 2,
         "height": 2,
         "wood": {
-          "choppedAt": 1769731080512
+          "choppedAt": 1769764917822
         },
         "x": 13,
         "y": 4
@@ -2934,7 +2722,7 @@
         "width": 2,
         "height": 2,
         "wood": {
-          "choppedAt": 1769731079801
+          "choppedAt": 1769764920684
         },
         "x": 13,
         "y": 2
@@ -2942,7 +2730,7 @@
       "054dc9a7": {
         "createdAt": 1751120993018,
         "wood": {
-          "choppedAt": 1769731079605
+          "choppedAt": 1769764915831
         },
         "x": 13,
         "y": 0
@@ -3459,8 +3247,8 @@
         "fruit": {
           "name": "Banana",
           "plantedAt": 1769628915860,
-          "harvestedAt": 1769688789316,
-          "harvestsLeft": 6
+          "harvestedAt": 1769761226357,
+          "harvestsLeft": 5
         }
       },
       "2": {
@@ -3472,8 +3260,8 @@
         "fruit": {
           "name": "Banana",
           "plantedAt": 1769424114161,
-          "harvestedAt": 1769689036059,
-          "harvestsLeft": 2
+          "harvestedAt": 1769761226541,
+          "harvestsLeft": 1
         }
       },
       "6124863b": {
@@ -3485,8 +3273,8 @@
         "fruit": {
           "name": "Banana",
           "plantedAt": 1769534644009,
-          "harvestedAt": 1769689036305,
-          "harvestsLeft": 3
+          "harvestedAt": 1769761226740,
+          "harvestsLeft": 2
         }
       },
       "e455e209": {
@@ -3496,10 +3284,10 @@
         "x": 5,
         "y": -5,
         "fruit": {
-          "name": "Lemon",
-          "plantedAt": 1769332607195,
-          "harvestedAt": 1769730379173,
-          "harvestsLeft": 1
+          "name": "Banana",
+          "plantedAt": 1769761259652,
+          "harvestedAt": 0,
+          "harvestsLeft": 6
         }
       },
       "1de1181d": {
@@ -3511,8 +3299,8 @@
         "fruit": {
           "name": "Banana",
           "plantedAt": 1769534644672,
-          "harvestedAt": 1769689037036,
-          "harvestsLeft": 3
+          "harvestedAt": 1769761256642,
+          "harvestsLeft": 2
         }
       },
       "4c6a3511": {
@@ -3524,8 +3312,8 @@
         "fruit": {
           "name": "Banana",
           "plantedAt": 1769534644312,
-          "harvestedAt": 1769689036571,
-          "harvestsLeft": 3
+          "harvestedAt": 1769761226955,
+          "harvestsLeft": 2
         }
       },
       "d96e425d": {
@@ -3550,8 +3338,8 @@
         "fruit": {
           "name": "Banana",
           "plantedAt": 1769689127726,
-          "harvestedAt": 0,
-          "harvestsLeft": 5
+          "harvestedAt": 1769761227582,
+          "harvestsLeft": 4
         }
       },
       "7bb89923": {
@@ -3562,9 +3350,9 @@
         "y": -5,
         "fruit": {
           "name": "Banana",
-          "plantedAt": 1769477440156,
-          "harvestedAt": 1769689037645,
-          "harvestsLeft": 1
+          "plantedAt": 1769761260020,
+          "harvestedAt": 0,
+          "harvestsLeft": 7
         }
       },
       "867697b4": {
@@ -3576,8 +3364,8 @@
         "fruit": {
           "name": "Banana",
           "plantedAt": 1769424115553,
-          "harvestedAt": 1769689038281,
-          "harvestsLeft": 2
+          "harvestedAt": 1769761228429,
+          "harvestsLeft": 1
         }
       },
       "40a64466": {
@@ -3589,8 +3377,8 @@
         "fruit": {
           "name": "Banana",
           "plantedAt": 1769689128026,
-          "harvestedAt": 0,
-          "harvestsLeft": 5
+          "harvestedAt": 1769761228245,
+          "harvestsLeft": 4
         }
       },
       "ea65143b": {
@@ -3602,8 +3390,8 @@
         "fruit": {
           "name": "Banana",
           "plantedAt": 1769628916672,
-          "harvestedAt": 1769689038699,
-          "harvestsLeft": 4
+          "harvestedAt": 1769761228060,
+          "harvestsLeft": 3
         }
       },
       "ad9b45ed": {
@@ -3671,16 +3459,16 @@
       "46e4c9f2": {
         "flowers": [
           {
-            "attachedAt": 1769693373176,
-            "attachedUntil": 1769747373176,
+            "attachedAt": 1769765625705,
+            "attachedUntil": 1769819625705,
             "id": "bae20895",
             "rate": 1.6
           }
         ],
         "swarm": false,
         "honey": {
-          "produced": 10609.600000000002,
-          "updatedAt": 1769693379807
+          "produced": 1014.4,
+          "updatedAt": 1769765626339
         },
         "width": 1,
         "height": 1,
@@ -3691,16 +3479,16 @@
       "e6a78d06": {
         "flowers": [
           {
-            "attachedAt": 1769693375925,
-            "attachedUntil": 1769747375925,
-            "id": "878c5ede",
+            "attachedAt": 1769765626000,
+            "attachedUntil": 1769819626000,
+            "id": "8dc85eef",
             "rate": 1.6
           }
         ],
         "swarm": false,
         "honey": {
-          "produced": 6211.200000000001,
-          "updatedAt": 1769693379807
+          "produced": 542.4,
+          "updatedAt": 1769765626339
         },
         "width": 1,
         "height": 1,
@@ -3711,16 +3499,16 @@
       "fec901be": {
         "flowers": [
           {
-            "attachedAt": 1769693379807,
-            "attachedUntil": 1769747379807,
-            "id": "8dc85eef",
+            "attachedAt": 1769765626339,
+            "attachedUntil": 1769819626339,
+            "id": "878c5ede",
             "rate": 1.6
           }
         ],
         "swarm": false,
         "honey": {
           "produced": 0,
-          "updatedAt": 1769693379807
+          "updatedAt": 1769765626339
         },
         "width": 1,
         "height": 1,
@@ -4104,7 +3892,7 @@
       "Purple Cosmos Harvested": 52,
       "Mahi Mahi Fed": 8,
       "Treasure Searched": 1,
-      "Banana Plant Planted": 785,
+      "Banana Plant Planted": 787,
       "Bumpkin Detox Fed": 111,
       "Napoleanfish Fed": 19,
       "Blueberry Seed Bought": 304,
@@ -4114,7 +3902,7 @@
       "Eggplant Cake Cooked": 3,
       "Banana Plant Bought": 621,
       "Apple Pie Fed": 7,
-      "Honey Harvested": 1932.431284144096,
+      "Honey Harvested": 1935.731284144096,
       "Reindeer Carrot Cooked": 114,
       "Pearl Dug": 1,
       "Sunflower Crunch Dug": 12,
@@ -4185,7 +3973,7 @@
       "Beetroot Harvested": 6359,
       "Blue Balloon Flower Harvested": 60,
       "Blueberry Sold": 124.4,
-      "Axe Crafted": 78803,
+      "Axe Crafted": 79053,
       "Chore Skipped": 14,
       "Sunpetal Seed Bought": 228,
       "Carrot Cake Dug": 14,
@@ -4210,7 +3998,7 @@
       "Carrot Planted": 4898,
       "Club Sandwich Fed": 32,
       "Fishing Lure Crafted": 53,
-      "Coins Spent": 1698179.81,
+      "Coins Spent": 1703199.81,
       "Eggplant Sold": 219.51,
       "Kale Sold": 32.342,
       "Cabbage Planted": 4205,
@@ -4219,7 +4007,7 @@
       "Parsnip Planted": 2101,
       "Sunflower Cake Cooked": 8,
       "Bloom Seed Bought": 152,
-      "Banana Harvested": 4220,
+      "Banana Harvested": 4230,
       "Parsnip Harvested": 3539,
       "Purple Carnation Harvested": 75,
       "Sunpetal Seed Planted": 228,
@@ -4344,7 +4132,7 @@
       "Sea Cucumber Sold": 66,
       "Eggplant Seed Bought": 2010,
       "Lily Seed Bought": 188,
-      "Tree Chopped": 79171,
+      "Tree Chopped": 79229,
       "Power Smoothie Cooked": 39,
       "Orange Seed Bought": 396,
       "Power Smoothie Fed": 53,
@@ -4422,7 +4210,7 @@
       "Carrot Juice Cooked": 8,
       "Lemon Seed Bought": 560,
       "Lemon Seed Planted": 557,
-      "Lemon Harvested": 3215,
+      "Lemon Harvested": 3216,
       "Tulip Bulb Sold": 198,
       "Tomato Seed Bought": 300,
       "Tomato Seed Planted": 300,
@@ -4442,10 +4230,10 @@
       "Paella Fed": 1,
       "Carrot Juice Fed": 8,
       "Rare Key Bought": 1,
-      "Barley Seed Bought": 3917,
-      "Barley Planted": 4513,
+      "Barley Seed Bought": 3977,
+      "Barley Planted": 4567,
       "Desert Camel Background Bought": 1,
-      "Barley Harvested": 4432,
+      "Barley Harvested": 4486,
       "Petting Hand Crafted": 1,
       "Brush Crafted": 1,
       "Cow Fed": 811,
@@ -4502,10 +4290,10 @@
       "Mangrove Crafted": 2,
       "Tornado Pinwheel Crafted": 5,
       "Thermal Stone Crafted": 4,
-      "Artichoke Seed Bought": 810,
-      "Artichoke Planted": 842,
+      "Artichoke Seed Bought": 870,
+      "Artichoke Planted": 896,
       "Cowgirl Skirt Bought": 2,
-      "Artichoke Harvested": 707,
+      "Artichoke Harvested": 761,
       "Clover Seed Bought": 4,
       "Clover Seed Planted": 4,
       "Onion Seed Bought": 400,
@@ -4622,13 +4410,13 @@
       "Mark Bountied": 3,
       "Purple Carnation Bountied": 1,
       "Sea Cucumber Bountied": 1,
-      "Shipment Restocked": 44,
+      "Shipment Restocked": 45,
       "Farm Helped": 21,
       "Farm Cheered": 20,
-      "Basic Tree Chopped": 4257,
+      "Basic Tree Chopped": 4315,
       "Blacksmith Shop Restocked": 3,
       "Tornado Event Triggered": 4,
-      "General Store Restocked": 6,
+      "General Store Restocked": 7,
       "Marketplace Listing Created": 33,
       "VIP Chest Opened": 2,
       "Gold Rock Mined": 13,
@@ -4750,9 +4538,15 @@
           "amount": 1,
           "x": 9,
           "y": 14
+        },
+        "64176fb7": {
+          "name": "Wild Mushroom",
+          "amount": 1,
+          "x": -4,
+          "y": 5
         }
       },
-      "spawnedAt": 1769692220837
+      "spawnedAt": 1769749820837
     },
     "delivery": {
       "orders": [
@@ -6189,67 +5983,67 @@
     "aoe": {
       "Laurie the Chuckle Crow": {
         "0": {
-          "-6": 1769538983353,
-          "-5": 1769538982979,
-          "-4": 1769538982454,
-          "-3": 1769538982097,
-          "-2": 1769538981738,
-          "-1": 1769538980581,
-          "-7": 1769538983734
+          "-6": 1769765607220,
+          "-5": 1769765606478,
+          "-4": 1769765606821,
+          "-3": 1769765608070,
+          "-2": 1769765608427,
+          "-1": 1769765608779,
+          "-7": 1769765606163
         },
         "1": {
-          "-1": 1769538980990,
-          "-2": 1769538981371,
-          "-3": 1769538979156,
-          "-4": 1769538978773,
-          "-5": 1769538976772,
-          "-6": 1769538976427,
-          "-7": 1769538975283
+          "-1": 1769765603035,
+          "-2": 1769765603392,
+          "-3": 1769765603731,
+          "-4": 1769765604072,
+          "-5": 1769765604433,
+          "-6": 1769765604788,
+          "-7": 1769765605135
         },
         "2": {
-          "-7": 1769538974307,
-          "-6": 1769538975602,
-          "-5": 1769538974629,
-          "-4": 1769538978368,
-          "-3": 1769538979484,
-          "-1": 1769538980206,
-          "-2": 1769538979836
+          "-7": 1769765600460,
+          "-6": 1769765600788,
+          "-5": 1769765601117,
+          "-4": 1769765601460,
+          "-3": 1769765601815,
+          "-1": 1769765602620,
+          "-2": 1769765602170
         },
         "3": {
-          "-1": 1769538970699,
-          "-2": 1769538972004,
-          "-3": 1769538971185,
-          "-4": 1769538971566,
-          "-5": 1769538972373,
-          "-6": 1769538972755,
-          "-7": 1769538973267
+          "-1": 1769765596776,
+          "-2": 1769765597105,
+          "-3": 1769765597413,
+          "-4": 1769765597744,
+          "-5": 1769765598333,
+          "-6": 1769765598796,
+          "-7": 1769765599105
         },
         "-1": {
-          "-1": 1769538988370,
-          "-2": 1769538987980,
-          "-3": 1769538987612,
-          "-5": 1769538986853,
-          "-7": 1769538986027,
-          "-6": 1769538986433,
-          "-4": 1769538987230
+          "-1": 1769765609139,
+          "-2": 1769765609466,
+          "-3": 1769765609797,
+          "-5": 1769765610480,
+          "-7": 1769765611189,
+          "-6": 1769765610839,
+          "-4": 1769765610140
         },
         "-2": {
-          "-7": 1769538991334,
-          "-6": 1769538990952,
-          "-5": 1769538990219,
-          "-4": 1769538989864,
-          "-2": 1769538989109,
-          "-1": 1769538988745,
-          "-3": 1769538989489
+          "-7": 1769765611976,
+          "-6": 1769765613073,
+          "-5": 1769765613432,
+          "-4": 1769765614741,
+          "-2": 1769765616264,
+          "-1": 1769765616641,
+          "-3": 1769765615122
         },
         "-3": {
-          "-7": 1769538991737,
-          "-6": 1769538992115,
-          "-5": 1769538992503,
-          "-4": 1769538992887,
-          "-3": 1769538993280,
-          "-2": 1769538993694,
-          "-1": 1769538994127
+          "-7": 1769765612347,
+          "-6": 1769765612732,
+          "-5": 1769765614009,
+          "-4": 1769765614374,
+          "-3": 1769765615503,
+          "-2": 1769765615878,
+          "-1": 1769765617039
         }
       },
       "Scary Mike": {
@@ -6271,27 +6065,27 @@
       }
     },
     "boostsUsedAt": {
-      "Catchup": 1769731823612,
-      "Fruitful Fumble": 1769731820065,
+      "Catchup": 1769765580020,
+      "Fruitful Fumble": 1769765576642,
       "Generous Orchard": 1769693358699,
-      "Green Thumb": 1769633281436,
-      "Laurie the Chuckle Crow": 1769633165014,
-      "Laurie's Gains": 1769538994127,
-      "Loyal Macaw": 1769731820065,
-      "Macaw": 1769731820065,
-      "No Axe No Worries": 1769731822324,
-      "Old Farmer": 1769633165014,
-      "Pollen Power Up": 1769633165014,
-      "Strong Roots": 1769633281436,
-      "Sweet Bonus": 1769693363901,
-      "Discord Mod": 1769731816183,
+      "Green Thumb": 1769765617190,
+      "Laurie the Chuckle Crow": 1769765617039,
+      "Laurie's Gains": 1769765617039,
+      "Loyal Macaw": 1769765576642,
+      "Macaw": 1769765576642,
+      "No Axe No Worries": 1769765577150,
+      "Old Farmer": 1769765617039,
+      "Pollen Power Up": 1769765545867,
+      "Strong Roots": 1769765617190,
+      "Sweet Bonus": 1769765626339,
+      "Discord Mod": 1769765651642,
       "Flowery Abode": 1769693379807,
-      "Lumberjack's Extra": 1769731816183,
-      "Squirrel": 1769731816183,
-      "Tough Tree": 1769731801377,
-      "Tree Charge": 1769731816183,
-      "Tree Turnaround": 1769731802863,
-      "Money Tree": 1769693110203,
+      "Lumberjack's Extra": 1769765651642,
+      "Squirrel": 1769765651642,
+      "Tough Tree": 1769765651642,
+      "Tree Charge": 1769765651642,
+      "Tree Turnaround": 1769765639484,
+      "Money Tree": 1769765551848,
       "Betty's Friend": 1769334031415,
       "Fruity Profit": 1769334004239,
       "Giant Kale": 1754263833099,
