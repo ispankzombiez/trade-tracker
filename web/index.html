@@ -903,7 +903,14 @@
         function formatLocalDateTime(dateString) {
             if (!dateString) return 'Unknown';
             
-            const date = new Date(dateString);
+            // Ensure the date string is treated as UTC if it doesn't have timezone info
+            let date;
+            if (dateString.includes('T') && !dateString.includes('Z') && !dateString.match(/[+-]\d{2}:\d{2}$/)) {
+                // Add 'Z' to indicate UTC if not present
+                date = new Date(dateString + 'Z');
+            } else {
+                date = new Date(dateString);
+            }
             
             // Check if date is valid
             if (isNaN(date.getTime())) return 'Invalid Date';
@@ -924,6 +931,7 @@
         function formatLocalDate(dateString) {
             if (!dateString) return 'Unknown';
             
+            // Handle date-only strings vs full datetime strings
             const date = new Date(dateString);
             if (isNaN(date.getTime())) return 'Invalid Date';
             
@@ -934,7 +942,13 @@
             if (!timeString) return 'Unknown';
             
             // If we have both date and time, combine them for proper parsing
-            const fullDateTime = dateString ? `${dateString} ${timeString}` : timeString;
+            let fullDateTime;
+            if (dateString) {
+                fullDateTime = `${dateString} ${timeString}`;
+            } else {
+                fullDateTime = timeString;
+            }
+            
             const date = new Date(fullDateTime);
             
             if (isNaN(date.getTime())) return timeString; // Return original if parsing fails
