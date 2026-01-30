@@ -1,18 +1,30 @@
 {
   "username": "deltaomega",
   "overview": {
-    "balance": 33.91,
-    "coins": 583.0,
+    "balance": 32.45,
+    "coins": 4579.0,
     "gems": 0.0,
     "earned_sfl": 20921.95,
-    "earned_coins": 583.0,
+    "earned_coins": 4579.0,
     "spent_sfl": 14782.16,
     "items_sold": 3465.0,
     "trade_points": 13902.85,
-    "last_updated": "2026-01-29 11:58 PM",
+    "last_updated": "2026-01-30 12:23 AM",
     "active_listings": 0
   },
   "buys": [
+    {
+      "date": "2026-01-29",
+      "time": "11:57 PM",
+      "type": "BUY",
+      "item": "Wool",
+      "quantity": 25,
+      "price_text": "1.4583 SFL",
+      "price": 1.4583,
+      "counterparty": "KrustyKrack",
+      "farm_id": "-",
+      "trade_id": "928d9cac"
+    },
     {
       "date": "2026-01-29",
       "time": "09:41 PM",
@@ -846,15 +858,24 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 38,
+    "total_buys": 39,
     "total_sells": 31,
-    "buy_volume": 41.2989,
+    "buy_volume": 42.757200000000005,
     "sell_volume": 59.81380000000001,
-    "gross_profit": 18.514900000000004,
-    "avg_buy_price": 1.0868131578947369,
+    "gross_profit": 17.056600000000003,
+    "avg_buy_price": 1.0963384615384617,
     "avg_sell_price": 1.929477419354839,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Wool",
+        "quantity": 25,
+        "price": 1.4583,
+        "date": "2026-01-29",
+        "time": "11:57 PM",
+        "username": "deltaomega"
+      },
       {
         "type": "BUY",
         "item": "Beetroot",
@@ -897,8 +918,7 @@
         "quantity": 11,
         "price": 1.3182,
         "date": "2026-01-29",
-        "time": "09:12 PM",
-        "username": "deltaomega"
+        "time": "09:12 PM"
       },
       {
         "type": "BUY",
@@ -1011,17 +1031,9 @@
         "price": 0.9234,
         "date": "2026-01-27",
         "time": "05:36 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Banana",
-        "quantity": 35,
-        "price": 0.6595,
-        "date": "2026-01-27",
-        "time": "05:35 PM"
       }
     ],
-    "profit_margin": 44.83146040209304,
+    "profit_margin": 39.89176091979831,
     "most_bought_items": {
       "Feather": 379,
       "Yam": 223,
@@ -1032,7 +1044,7 @@
       "Parsnip": 100,
       "Cauliflower": 100,
       "Leather": 92,
-      "Artichoke": 60
+      "Wool": 78
     },
     "most_sold_items": {
       "Barley": 1760,
@@ -1052,13 +1064,13 @@
       "Sunflower": 2984.9604,
       "Potato": 1308.2938,
       "Pumpkin": 339.2328,
-      "Carrot": 701.1803,
+      "Carrot": 681.1803,
       "Cabbage": 115.4629,
-      "Beetroot": 80.1847,
+      "Beetroot": 30.1847,
       "Cauliflower": 56.6781,
       "Parsnip": 80.2369,
       "Radish": 30.7,
-      "Wheat": 30.7008,
+      "Wheat": 20.7008,
       "Kale": 0.62,
       "Eggplant": 90.1731,
       "Corn": 30.6068,
@@ -1067,13 +1079,13 @@
       "Barley": 0.0048,
       "Rhubarb": 24.0,
       "Zucchini": 925.5,
-      "Yam": 967.3159,
+      "Yam": 962.3159,
       "Broccoli": 727.8998,
       "Pepper": 60.4963,
       "Onion": 0.4032,
       "Turnip": 3.297,
       "Artichoke": 58.2484,
-      "Rice": 5.0
+      "Rice": 2.0
     },
     "fruits": {
       "Apple": 30.2,
@@ -1085,9 +1097,9 @@
       "Banana": 25.6
     },
     "resources": {
-      "Wood": 233.08,
-      "Stone": 18.9,
-      "Iron": 44.2,
+      "Wood": 186.88,
+      "Stone": 39.4,
+      "Iron": 43.2,
       "Crimstone": 9.1,
       "Obsidian": 2.67,
       "Gold": 8.4
