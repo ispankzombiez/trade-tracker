@@ -9,10 +9,22 @@
     "spent_sfl": 942.56,
     "items_sold": 52.0,
     "trade_points": 10355.01,
-    "last_updated": "2026-01-30 02:50 AM",
+    "last_updated": "2026-01-30 03:43 AM",
     "active_listings": 8
   },
   "buys": [
+    {
+      "date": "2026-01-30",
+      "time": "03:42 AM",
+      "type": "BUY",
+      "item": "Autumn Guardian",
+      "quantity": 1,
+      "price_text": "622 SFL",
+      "price": 622.0,
+      "counterparty": "Zohaib",
+      "farm_id": "-",
+      "trade_id": "93d93af2"
+    },
     {
       "date": "2026-01-26",
       "time": "11:34 PM",
@@ -617,15 +629,24 @@
   "sells": [],
   "last_updated": null,
   "stats": {
-    "total_buys": 50,
+    "total_buys": 51,
     "total_sells": 0,
-    "buy_volume": 247.1905000000001,
+    "buy_volume": 869.1905,
     "sell_volume": 0,
-    "gross_profit": -247.1905000000001,
-    "avg_buy_price": 4.943810000000002,
+    "gross_profit": -869.1905,
+    "avg_buy_price": 17.042950980392156,
     "avg_sell_price": 0,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Autumn Guardian",
+        "quantity": 1,
+        "price": 622.0,
+        "date": "2026-01-30",
+        "time": "03:42 AM",
+        "username": "adam"
+      },
       {
         "type": "BUY",
         "item": "Leather",
@@ -668,8 +689,7 @@
         "quantity": 100,
         "price": 1.64,
         "date": "2026-01-09",
-        "time": "12:25 AM",
-        "username": "adam"
+        "time": "12:25 AM"
       },
       {
         "type": "BUY",
@@ -782,14 +802,6 @@
         "price": 1.1773,
         "date": "2025-11-03",
         "time": "05:25 AM"
-      },
-      {
-        "type": "BUY",
-        "item": "Duskberry",
-        "quantity": 1,
-        "price": 1.177,
-        "date": "2025-11-03",
-        "time": "05:25 AM"
       }
     ],
     "profit_margin": -100.0,
@@ -800,10 +812,10 @@
       "Duskberry": 92,
       "Gold": 30,
       "Crimstone": 20,
+      "Autumn Guardian": 1,
       "Lunara": 1,
       "Clownfish": 1,
-      "Grape Granny": 1,
-      "Hungry Caterpil": 1
+      "Grape Granny": 1
     },
     "most_sold_items": {}
   },
