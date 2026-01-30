@@ -559,7 +559,6 @@
       "Big Apple": "1",
       "Big Orange": "1",
       "Chowder": "3",
-      "Wild Grass": "10",
       "Frost Pebble": "5",
       "White Balloon Flower": "1",
       "Celestine": "2",
@@ -5389,7 +5388,9 @@
           },
           "sfl": 5.38,
           "tax": 0.4035,
-          "tradeType": "instant"
+          "tradeType": "instant",
+          "fulfilledAt": 1769772541259,
+          "fulfilledById": 1696
         },
         "a357ff2b": {
           "collection": "collectibles",
@@ -5402,7 +5403,7 @@
           "tradeType": "instant"
         }
       },
-      "soldCount": 2909,
+      "soldCount": 2910,
       "dailyListings": {
         "count": 3,
         "date": 30
@@ -8479,7 +8480,7 @@
           "petXP": 0,
           "score": 50,
           "collectivePet": {
-            "totalXP": 5916093,
+            "totalXP": 5926361,
             "goalXP": 2404688,
             "goalReached": true,
             "streak": 3,
@@ -10224,7 +10225,7 @@
         "2985": {
           "id": 2985,
           "name": "Pet #2985",
-          "experience": 119545,
+          "experience": 119555,
           "energy": 4225,
           "requests": {
             "food": [
@@ -10245,7 +10246,7 @@
               "2026-01-30": 1
             }
           },
-          "pettedAt": 1769763498587,
+          "pettedAt": 1769772493455,
           "traits": {
             "type": "Warthog",
             "fur": "Cream",
@@ -10296,7 +10297,7 @@
         },
         "Burro": {
           "name": "Burro",
-          "experience": 53927,
+          "experience": 53937,
           "energy": 2140,
           "requests": {
             "food": [
@@ -10310,7 +10311,7 @@
               "Apple Pie"
             ]
           },
-          "pettedAt": 1769763499793,
+          "pettedAt": 1769772496290,
           "dailySocialXP": {
             "2026-01-30": 50
           },
@@ -10367,7 +10368,7 @@
         },
         "Oxen": {
           "name": "Oxen",
-          "experience": 1890,
+          "experience": 1900,
           "energy": 780,
           "requests": {
             "food": [
@@ -10380,7 +10381,7 @@
               "Rhubarb Tart"
             ]
           },
-          "pettedAt": 1769763499394,
+          "pettedAt": 1769772495645,
           "dailySocialXP": {
             "2026-01-30": 50
           }
