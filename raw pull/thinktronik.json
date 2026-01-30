@@ -7800,9 +7800,22 @@
       ]
     },
     "mushrooms": {
-      "mushrooms": {},
-      "magicSpawnedAt": 1769680800000,
-      "spawnedAt": 1769702400000
+      "mushrooms": {
+        "296412c5": {
+          "name": "Magic Mushroom",
+          "amount": 1,
+          "x": -4,
+          "y": 5
+        },
+        "db7c7005": {
+          "name": "Wild Mushroom",
+          "amount": 1.2,
+          "x": -7,
+          "y": -14
+        }
+      },
+      "magicSpawnedAt": 1769760000000,
+      "spawnedAt": 1769760000000
     },
     "delivery": {
       "orders": [
@@ -10139,7 +10152,7 @@
         },
         "6cdb88b1": {
           "id": "6cdb88b1",
-          "state": "idle",
+          "state": "sick",
           "type": "Cow",
           "createdAt": 1766418039188,
           "awakeAt": 1769777357228,
@@ -10147,7 +10160,7 @@
           "experience": 37130,
           "lovedAt": 1769728932467,
           "item": "Music Box",
-          "healthCheckedAt": 1769673113133
+          "healthCheckedAt": 1769761578399
         },
         "b9573930": {
           "id": "b9573930",

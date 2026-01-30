@@ -7,10 +7,10 @@
     "earned_sfl": 782.44,
     "earned_coins": 16728.0,
     "spent_sfl": 21.71,
-    "items_sold": 4535.0,
+    "items_sold": 4536.0,
     "trade_points": 26995.44,
-    "last_updated": "2026-01-30 08:18 AM",
-    "active_listings": 9
+    "last_updated": "2026-01-30 08:35 AM",
+    "active_listings": 10
   },
   "buys": [
     {
@@ -653,6 +653,18 @@
   "sells": [
     {
       "date": "2026-01-30",
+      "time": "08:22 AM",
+      "type": "SELL",
+      "item": "Milk",
+      "quantity": 25,
+      "price_text": "3.0875 SFL",
+      "price": 3.0875,
+      "counterparty": "TuOYITO",
+      "farm_id": "-",
+      "trade_id": "a00ae070"
+    },
+    {
+      "date": "2026-01-30",
       "time": "06:01 AM",
       "type": "SELL",
       "item": "Milk",
@@ -1015,12 +1027,12 @@
   "last_updated": null,
   "stats": {
     "total_buys": 53,
-    "total_sells": 30,
+    "total_sells": 31,
     "buy_volume": 145.26620000000005,
-    "sell_volume": 135.3844,
-    "gross_profit": -9.881800000000055,
+    "sell_volume": 138.4719,
+    "gross_profit": -6.7943000000000495,
     "avg_buy_price": 2.7408716981132084,
-    "avg_sell_price": 4.512813333333333,
+    "avg_sell_price": 4.466835483870968,
     "most_traded_items": {},
     "recent_activity": [
       {
@@ -1189,7 +1201,7 @@
         "time": "06:59 PM"
       }
     ],
-    "profit_margin": -6.802545946682746,
+    "profit_margin": -4.6771375584960895,
     "most_bought_items": {
       "Yam": 6204,
       "Broccoli": 2560,
@@ -1200,7 +1212,7 @@
       "Honey": 273
     },
     "most_sold_items": {
-      "Milk": 650,
+      "Milk": 675,
       "Leather": 449,
       "Egg": 100
     }
@@ -1286,23 +1298,32 @@
       "created_at": 1769739517815,
       "collection": "collectibles",
       "trade_type": "instant"
+    },
+    {
+      "id": "a00ae070",
+      "item": "Milk",
+      "quantity": 25,
+      "price": 3.0875,
+      "created_at": 1769761040774,
+      "collection": "collectibles",
+      "trade_type": "instant"
     }
   ],
   "active_offers": [],
   "inventory": {
     "crops": {
-      "Sunflower": 169324.41650000116,
-      "Potato": 92930.3259999986,
+      "Sunflower": 169224.41650000116,
+      "Potato": 92880.3259999986,
       "Pumpkin": 11090.302100000208,
-      "Carrot": 9493.0159,
-      "Cabbage": 23077.5582,
+      "Carrot": 9428.0159,
+      "Cabbage": 23037.5582,
       "Beetroot": 8697.5165,
       "Cauliflower": 11250.9358,
-      "Parsnip": 1279.4929,
+      "Parsnip": 1269.4929,
       "Radish": 3772.2598,
-      "Wheat": 731.2397,
+      "Wheat": 726.2397,
       "Kale": 283.7111,
-      "Eggplant": 4049.8729,
+      "Eggplant": 4019.8729,
       "Corn": 499.75960000000003,
       "Soybean": 27679.0958,
       "Rice": 52.05,
@@ -1318,21 +1339,21 @@
       "Artichoke": 1066.5037
     },
     "fruits": {
-      "Apple": 1275.75,
-      "Blueberry": 212.10000000000005,
-      "Orange": 346.90000000000003,
-      "Banana": 117.8,
-      "Grape": 68.15,
+      "Apple": 1272.75,
+      "Blueberry": 209.10000000000005,
+      "Orange": 343.90000000000003,
+      "Banana": 104.8,
+      "Grape": 65.15,
       "Tomato": 105.50000000000108,
-      "Lemon": 1831.7500000000007,
+      "Lemon": 1791.7500000000007,
       "Celestine": 1.8,
       "Duskberry": 7.8,
       "Lunara": 2.8
     },
     "resources": {
-      "Wood": 301.96,
+      "Wood": 376.16,
       "Stone": 745.65,
-      "Iron": 477.25,
+      "Iron": 494.9,
       "Gold": 12.1,
       "Crimstone": 37.2,
       "Obsidian": 21.2
