@@ -1,7 +1,7 @@
 {
   "username": "blasta",
   "overview": {
-    "balance": 1028.5,
+    "balance": 1026.66,
     "coins": 284683.0,
     "gems": 0.0,
     "earned_sfl": 19168.67,
@@ -9,10 +9,22 @@
     "spent_sfl": 12069.92,
     "items_sold": 8153.0,
     "trade_points": 23832.93,
-    "last_updated": "2026-01-30 05:56 AM",
+    "last_updated": "2026-01-30 06:23 AM",
     "active_listings": 86
   },
   "buys": [
+    {
+      "date": "2026-01-30",
+      "time": "06:05 AM",
+      "type": "BUY",
+      "item": "Dewberry",
+      "quantity": 4,
+      "price_text": "1.84 SFL",
+      "price": 1.84,
+      "counterparty": "DeltaOmega",
+      "farm_id": "-",
+      "trade_id": "df7d993d"
+    },
     {
       "date": "2026-01-29",
       "time": "08:50 AM",
@@ -618,15 +630,24 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 24,
+    "total_buys": 25,
     "total_sells": 26,
-    "buy_volume": 28.12790000000001,
+    "buy_volume": 29.967900000000014,
     "sell_volume": 113.33189999999999,
-    "gross_profit": 85.20399999999998,
-    "avg_buy_price": 1.1719958333333338,
+    "gross_profit": 83.36399999999998,
+    "avg_buy_price": 1.1987160000000006,
     "avg_sell_price": 4.358919230769231,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Dewberry",
+        "quantity": 4,
+        "price": 1.84,
+        "date": "2026-01-30",
+        "time": "06:05 AM",
+        "username": "blasta"
+      },
       {
         "type": "BUY",
         "item": "Orange",
@@ -669,8 +690,7 @@
         "quantity": 400,
         "price": 5.6,
         "date": "2026-01-29",
-        "time": "08:38 AM",
-        "username": "blasta"
+        "time": "08:38 AM"
       },
       {
         "type": "BUY",
@@ -783,22 +803,15 @@
         "price": 0.1399,
         "date": "2026-01-29",
         "time": "08:38 AM"
-      },
-      {
-        "type": "BUY",
-        "item": "Merino Wool",
-        "quantity": 10,
-        "price": 0.1399,
-        "date": "2026-01-29",
-        "time": "08:38 AM"
       }
     ],
-    "profit_margin": 302.91632151707006,
+    "profit_margin": 278.1776500855914,
     "most_bought_items": {
       "Merino Wool": 1010,
       "Pepper": 500,
       "Orange": 407,
-      "Wool": 100
+      "Wool": 100,
+      "Dewberry": 4
     },
     "most_sold_items": {
       "Yam": 4246,
@@ -1726,7 +1739,7 @@
       "Barley": 3871.2296000000065,
       "Rhubarb": 107367.5200000005,
       "Zucchini": 103691.94030000051,
-      "Yam": 63979.593999998964,
+      "Yam": 64556.39399999896,
       "Broccoli": 45584.743599999274,
       "Pepper": 3176.1118000000015,
       "Onion": 4375.9907000000085,
@@ -1739,14 +1752,14 @@
       "Orange": 1130.6139019975296,
       "Banana": 1069.35,
       "Grape": 401.2500000000005,
-      "Tomato": 5856.150000000008,
+      "Tomato": 5919.750000000007,
       "Lemon": 8533.550000000003,
       "Duskberry": 127.4,
       "Lunara": 153.00000000000003,
       "Celestine": 167.5
     },
     "resources": {
-      "Wood": 19545.71,
+      "Wood": 19636.11,
       "Stone": 4362.35,
       "Iron": 2752.05,
       "Gold": 1066.15,
