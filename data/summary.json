@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-30T03:44:01.099579",
+  "last_updated": "2026-01-30T04:31:56.770317",
   "total_users": 20,
   "top_traders": [
     {
@@ -39,10 +39,10 @@
     },
     {
       "username": "jaysuper",
-      "profit": 59.8916,
+      "profit": 60.541599999999995,
       "profit_margin": 0,
-      "total_volume": 59.8916,
-      "total_trades": 89
+      "total_volume": 60.541599999999995,
+      "total_trades": 90
     },
     {
       "username": "deltaomega",
@@ -50,13 +50,6 @@
       "profit_margin": 17.659625110403386,
       "total_volume": 110.65010000000001,
       "total_trades": 78
-    },
-    {
-      "username": "craig",
-      "profit": 7.468899999999934,
-      "profit_margin": 4.423364727857818,
-      "total_volume": 345.1711,
-      "total_trades": 50
     },
     {
       "username": "haesoo",
@@ -71,6 +64,13 @@
       "profit_margin": -11.972282933901734,
       "total_volume": 104.00960000000002,
       "total_trades": 62
+    },
+    {
+      "username": "andrei",
+      "profit": -10.503900000000002,
+      "profit_margin": -25.29219700362628,
+      "total_volume": 72.5565,
+      "total_trades": 51
     }
   ],
   "market_summary": {},
@@ -83,6 +83,24 @@
       "date": "2026-01-30",
       "time": "12:57 AM",
       "username": "andrei"
+    },
+    {
+      "type": "BUY",
+      "item": "Lady Bug",
+      "quantity": 1,
+      "price": 71.0,
+      "date": "2026-01-30",
+      "time": "04:19 AM",
+      "username": "craig"
+    },
+    {
+      "type": "SELL",
+      "item": "Beetroot",
+      "quantity": 100,
+      "price": 0.65,
+      "date": "2026-01-30",
+      "time": "03:52 AM",
+      "username": "jaysuper"
     },
     {
       "type": "BUY",
@@ -125,15 +143,6 @@
       "item": "Parsnip",
       "quantity": 20,
       "price": 0.3542,
-      "date": "2026-01-30",
-      "time": "02:58 AM",
-      "username": "jaysuper"
-    },
-    {
-      "type": "SELL",
-      "item": "Parsnip",
-      "quantity": 20,
-      "price": 0.356,
       "date": "2026-01-30",
       "time": "02:58 AM",
       "username": "jaysuper"
@@ -233,15 +242,6 @@
       "item": "Milk",
       "quantity": 30,
       "price": 3.6868,
-      "date": "2026-01-30",
-      "time": "01:23 AM",
-      "username": "deltaomega"
-    },
-    {
-      "type": "BUY",
-      "item": "Lemon",
-      "quantity": 10,
-      "price": 0.099,
       "date": "2026-01-30",
       "time": "01:23 AM",
       "username": "deltaomega"

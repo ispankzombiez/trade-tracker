@@ -1,19 +1,31 @@
 {
   "username": "jaysuper",
   "overview": {
-    "balance": 467.16,
-    "coins": 84822.0,
+    "balance": 467.78,
+    "coins": 84054.0,
     "gems": 0.0,
     "earned_sfl": 13684.03,
-    "earned_coins": 84822.0,
+    "earned_coins": 84054.0,
     "spent_sfl": 15466.58,
-    "items_sold": 13446.0,
+    "items_sold": 13447.0,
     "trade_points": 31145.84,
-    "last_updated": "2026-01-30 03:43 AM",
-    "active_listings": 136
+    "last_updated": "2026-01-30 04:31 AM",
+    "active_listings": 135
   },
   "buys": [],
   "sells": [
+    {
+      "date": "2026-01-30",
+      "time": "03:52 AM",
+      "type": "SELL",
+      "item": "Beetroot",
+      "quantity": 100,
+      "price_text": "0.65 SFL",
+      "price": 0.65,
+      "counterparty": "Humpala",
+      "farm_id": "-",
+      "trade_id": "be5c3f60"
+    },
     {
       "date": "2026-01-30",
       "time": "03:08 AM",
@@ -1086,14 +1098,23 @@
   "last_updated": null,
   "stats": {
     "total_buys": 0,
-    "total_sells": 89,
+    "total_sells": 90,
     "buy_volume": 0,
-    "sell_volume": 59.8916,
-    "gross_profit": 59.8916,
+    "sell_volume": 60.541599999999995,
+    "gross_profit": 60.541599999999995,
     "avg_buy_price": 0,
-    "avg_sell_price": 0.6729393258426966,
+    "avg_sell_price": 0.6726844444444444,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "SELL",
+        "item": "Beetroot",
+        "quantity": 100,
+        "price": 0.65,
+        "date": "2026-01-30",
+        "time": "03:52 AM",
+        "username": "jaysuper"
+      },
       {
         "type": "SELL",
         "item": "Wood",
@@ -1136,8 +1157,7 @@
         "quantity": 20,
         "price": 0.356,
         "date": "2026-01-30",
-        "time": "02:58 AM",
-        "username": "jaysuper"
+        "time": "02:58 AM"
       },
       {
         "type": "SELL",
@@ -1250,14 +1270,6 @@
         "price": 0.3134,
         "date": "2026-01-30",
         "time": "02:56 AM"
-      },
-      {
-        "type": "SELL",
-        "item": "Beetroot",
-        "quantity": 91,
-        "price": 0.5723,
-        "date": "2026-01-30",
-        "time": "02:56 AM"
       }
     ],
     "profit_margin": 0,
@@ -1265,8 +1277,8 @@
     "most_sold_items": {
       "Sunflower": 5600,
       "Yam": 4753,
+      "Beetroot": 2191,
       "Broccoli": 2150,
-      "Beetroot": 2091,
       "Lemon": 1195,
       "Pumpkin": 600,
       "Wood": 475,
@@ -2168,15 +2180,6 @@
       "trade_type": "instant"
     },
     {
-      "id": "be5c3f60",
-      "item": "Beetroot",
-      "quantity": 100,
-      "price": 0.65,
-      "created_at": 1769716397689,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
       "id": "5f966757",
       "item": "Beetroot",
       "quantity": 100,
@@ -2542,11 +2545,11 @@
   "inventory": {
     "crops": {
       "Sunflower": 601913.2571998293,
-      "Potato": 164068.50380001514,
+      "Potato": 163666.40380001513,
       "Pumpkin": 528514.8300000012,
-      "Carrot": 118580.57109999977,
-      "Cabbage": 106452.68659999984,
-      "Beetroot": 41136.36390000002,
+      "Carrot": 118732.27079999977,
+      "Cabbage": 106292.68659999984,
+      "Beetroot": 41036.36390000002,
       "Cauliflower": 987.0169999999995,
       "Parsnip": 757.8398000000011,
       "Radish": 21266.068,
@@ -2560,7 +2563,7 @@
       "Barley": 917.3150000000052,
       "Rhubarb": 221319.1645999989,
       "Zucchini": 514270.0394999985,
-      "Yam": 41490.79269999967,
+      "Yam": 41612.64269999967,
       "Broccoli": 14555.487599999742,
       "Pepper": 9694.91559999999,
       "Onion": 4832.812700000002,
@@ -2573,18 +2576,18 @@
       "Orange": 1607.3800000000003,
       "Banana": 424.87000000000097,
       "Grape": 1403.6900000000003,
-      "Tomato": 25719.31,
+      "Tomato": 25799.510000000002,
       "Lemon": 19190.210000000014,
-      "Duskberry": 77.16000000000001,
+      "Duskberry": 74.16000000000001,
       "Lunara": 69.16000000000001,
       "Celestine": 333.08000000000004
     },
     "resources": {
-      "Wood": 50015.08,
-      "Stone": 12455.4,
-      "Iron": 4994.55,
+      "Wood": 50119.82,
+      "Stone": 12510.4,
+      "Iron": 4993.55,
       "Gold": 1466.3000001,
-      "Crimstone": 368.85,
+      "Crimstone": 366.85,
       "Obsidian": 5.5
     }
   }

@@ -8,11 +8,23 @@
     "earned_coins": 46012.0,
     "spent_sfl": 681.39,
     "items_sold": 29.0,
-    "trade_points": 2916.34,
-    "last_updated": "2026-01-30 03:43 AM",
+    "trade_points": 2951.84,
+    "last_updated": "2026-01-30 04:31 AM",
     "active_listings": 0
   },
   "buys": [
+    {
+      "date": "2026-01-30",
+      "time": "04:19 AM",
+      "type": "BUY",
+      "item": "Lady Bug",
+      "quantity": 1,
+      "price_text": "71 SFL",
+      "price": 71.0,
+      "counterparty": "OxCh1n1",
+      "farm_id": "-",
+      "trade_id": "44c60460"
+    },
     {
       "date": "2026-01-20",
       "time": "05:45 AM",
@@ -618,15 +630,24 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 45,
+    "total_buys": 46,
     "total_sells": 5,
-    "buy_volume": 168.85110000000006,
+    "buy_volume": 239.85109999999995,
     "sell_volume": 176.32,
-    "gross_profit": 7.468899999999934,
-    "avg_buy_price": 3.752246666666668,
+    "gross_profit": -63.53109999999995,
+    "avg_buy_price": 5.214154347826086,
     "avg_sell_price": 35.263999999999996,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Lady Bug",
+        "quantity": 1,
+        "price": 71.0,
+        "date": "2026-01-30",
+        "time": "04:19 AM",
+        "username": "craig"
+      },
       {
         "type": "BUY",
         "item": "Milk",
@@ -669,8 +690,7 @@
         "quantity": 3,
         "price": 1.79,
         "date": "2026-01-20",
-        "time": "05:41 AM",
-        "username": "craig"
+        "time": "05:41 AM"
       },
       {
         "type": "BUY",
@@ -783,17 +803,9 @@
         "price": 2.1658,
         "date": "2025-12-31",
         "time": "02:17 AM"
-      },
-      {
-        "type": "BUY",
-        "item": "Gold",
-        "quantity": 37,
-        "price": 8.695,
-        "date": "2025-12-31",
-        "time": "02:17 AM"
       }
     ],
-    "profit_margin": 4.423364727857818,
+    "profit_margin": -26.487725092776298,
     "most_bought_items": {
       "Rhubarb": 6199,
       "Wood": 3650,
@@ -851,7 +863,7 @@
     "fruits": {
       "Apple": 8.050000000000022,
       "Blueberry": 233.57000000000002,
-      "Orange": 71.90000000000002,
+      "Orange": 76.43000000000002,
       "Banana": 15.210000000000013,
       "Grape": 1.0,
       "Tomato": 183.95000000000005,
@@ -861,9 +873,9 @@
       "Celestine": 3.550000000000001
     },
     "resources": {
-      "Wood": 414.8,
-      "Stone": 95.05,
-      "Iron": 15.5,
+      "Wood": 478.4,
+      "Stone": 114.8,
+      "Iron": 17.25,
       "Gold": 16.25,
       "Crimstone": 4.0,
       "Obsidian": 0.3
