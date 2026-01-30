@@ -1,19 +1,43 @@
 {
   "username": "jaysuper",
   "overview": {
-    "balance": 448.47,
-    "coins": 86461.0,
+    "balance": 450.22,
+    "coins": 84872.0,
     "gems": 0.0,
     "earned_sfl": 13684.03,
-    "earned_coins": 86461.0,
+    "earned_coins": 84872.0,
     "spent_sfl": 15466.58,
-    "items_sold": 13437.0,
+    "items_sold": 13440.0,
     "trade_points": 31145.84,
-    "last_updated": "2026-01-30 12:23 AM",
-    "active_listings": 141
+    "last_updated": "2026-01-30 01:00 AM",
+    "active_listings": 140
   },
   "buys": [],
   "sells": [
+    {
+      "date": "2026-01-30",
+      "time": "12:51 AM",
+      "type": "SELL",
+      "item": "Broccoli",
+      "quantity": 320,
+      "price_text": "1.0302 SFL",
+      "price": 1.0302,
+      "counterparty": "Dunior96",
+      "farm_id": "-",
+      "trade_id": "086e9bad"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "12:32 AM",
+      "type": "SELL",
+      "item": "Beetroot",
+      "quantity": 100,
+      "price_text": "0.6256 SFL",
+      "price": 0.6256,
+      "counterparty": "Schat45",
+      "farm_id": "-",
+      "trade_id": "404287f2"
+    },
     {
       "date": "2026-01-30",
       "time": "12:17 AM",
@@ -702,14 +726,32 @@
   "last_updated": null,
   "stats": {
     "total_buys": 0,
-    "total_sells": 57,
+    "total_sells": 59,
     "buy_volume": 0,
-    "sell_volume": 41.4344,
-    "gross_profit": 41.4344,
+    "sell_volume": 43.09019999999999,
+    "gross_profit": 43.09019999999999,
     "avg_buy_price": 0,
-    "avg_sell_price": 0.726919298245614,
+    "avg_sell_price": 0.7303423728813557,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "SELL",
+        "item": "Broccoli",
+        "quantity": 320,
+        "price": 1.0302,
+        "date": "2026-01-30",
+        "time": "12:51 AM",
+        "username": "jaysuper"
+      },
+      {
+        "type": "SELL",
+        "item": "Beetroot",
+        "quantity": 100,
+        "price": 0.6256,
+        "date": "2026-01-30",
+        "time": "12:32 AM",
+        "username": "jaysuper"
+      },
       {
         "type": "SELL",
         "item": "Beetroot",
@@ -743,8 +785,7 @@
         "quantity": 100,
         "price": 0.63,
         "date": "2026-01-30",
-        "time": "12:15 AM",
-        "username": "jaysuper"
+        "time": "12:15 AM"
       },
       {
         "type": "SELL",
@@ -752,8 +793,7 @@
         "quantity": 750,
         "price": 2.2048,
         "date": "2026-01-29",
-        "time": "11:58 PM",
-        "username": "jaysuper"
+        "time": "11:58 PM"
       },
       {
         "type": "SELL",
@@ -858,22 +898,6 @@
         "price": 0.3033,
         "date": "2026-01-29",
         "time": "10:57 PM"
-      },
-      {
-        "type": "SELL",
-        "item": "Beetroot",
-        "quantity": 100,
-        "price": 0.6265,
-        "date": "2026-01-29",
-        "time": "10:52 PM"
-      },
-      {
-        "type": "SELL",
-        "item": "Wood",
-        "quantity": 55,
-        "price": 0.4949,
-        "date": "2026-01-29",
-        "time": "10:49 PM"
       }
     ],
     "profit_margin": 0,
@@ -881,9 +905,9 @@
     "most_sold_items": {
       "Sunflower": 5600,
       "Yam": 4503,
-      "Broccoli": 1510,
+      "Broccoli": 1830,
       "Lemon": 1195,
-      "Beetroot": 600,
+      "Beetroot": 700,
       "Pumpkin": 600,
       "Wood": 225,
       "Tomato": 180,
@@ -2142,24 +2166,6 @@
       "created_at": 1769722254313,
       "collection": "collectibles",
       "trade_type": "instant"
-    },
-    {
-      "id": "086e9bad",
-      "item": "Broccoli",
-      "quantity": 320,
-      "price": 1.0302,
-      "created_at": 1769731005956,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "404287f2",
-      "item": "Beetroot",
-      "quantity": 100,
-      "price": 0.6256,
-      "created_at": 1769732448971,
-      "collection": "collectibles",
-      "trade_type": "instant"
     }
   ],
   "active_offers": [
@@ -2203,11 +2209,11 @@
   "inventory": {
     "crops": {
       "Sunflower": 602013.2571998293,
-      "Potato": 166964.50380001514,
+      "Potato": 166644.50380001514,
       "Pumpkin": 528514.8300000012,
-      "Carrot": 114518.29969999977,
-      "Cabbage": 107292.68659999984,
-      "Beetroot": 42727.36390000002,
+      "Carrot": 117303.97389999978,
+      "Cabbage": 107092.68659999984,
+      "Beetroot": 42527.36390000002,
       "Cauliflower": 987.0169999999995,
       "Parsnip": 982.8398000000011,
       "Radish": 21271.068,
@@ -2221,30 +2227,30 @@
       "Barley": 917.3150000000052,
       "Rhubarb": 221319.1645999989,
       "Zucchini": 514270.0394999985,
-      "Yam": 40889.89269999967,
-      "Broccoli": 15065.387599999744,
+      "Yam": 41242.94269999967,
+      "Broccoli": 14798.337599999742,
       "Pepper": 9694.91559999999,
       "Onion": 4832.812700000002,
       "Turnip": 2693.2374000000004,
       "Artichoke": 1207.7861000000005
     },
     "fruits": {
-      "Apple": 528.8000000000001,
+      "Apple": 549.5200000000001,
       "Blueberry": 672.3300000000021,
       "Orange": 1607.3800000000003,
       "Banana": 424.87000000000097,
       "Grape": 1403.6900000000003,
-      "Tomato": 25497.15,
+      "Tomato": 25503.730000000003,
       "Lemon": 19190.210000000014,
       "Duskberry": 77.16000000000001,
       "Lunara": 69.16000000000001,
       "Celestine": 333.08000000000004
     },
     "resources": {
-      "Wood": 49959.18,
+      "Wood": 50030.02,
       "Stone": 12396.4,
       "Iron": 5037.55,
-      "Gold": 1482.3000001,
+      "Gold": 1474.3000001,
       "Crimstone": 362.6,
       "Obsidian": 5.5
     }
