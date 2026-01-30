@@ -1,7 +1,7 @@
 {
   "farm": {
     "coins": 1283.4293000000398,
-    "balance": "6.70188876562500076",
+    "balance": "11.65988876562500076",
     "previousBalance": "163.8169812656250066",
     "inventory": {
       "Parsnip Seed": "80",
@@ -41,7 +41,7 @@
       "Barley": "118.2100000000000414",
       "Rhubarb": "2198.2",
       "Zucchini": "134.65",
-      "Yam": "75.63",
+      "Yam": "60.63",
       "Broccoli": "11.2",
       "Pepper": "37.95",
       "Onion": "16.5749",
@@ -117,7 +117,7 @@
       "Rapid Roast": "1",
       "Fried Tofu": "5",
       "Quick Juice": "4",
-      "Wood": "58.88",
+      "Wood": "86.38",
       "Gold": "2.35",
       "Egg": "3.7",
       "Speed Chicken": "1",
@@ -133,10 +133,10 @@
       "Crop Plot": "65",
       "Fruit Patch": "15",
       "Basic Land": "13",
-      "Earthworm": "2561",
+      "Earthworm": "2567",
       "Grub": "383",
       "Red Wiggler": "50",
-      "Sprout Mix": "421",
+      "Sprout Mix": "437",
       "Fruitful Blend": "108",
       "Rapid Root": "61",
       "Fishing Lure": "45",
@@ -408,7 +408,7 @@
       "Pipi": "2",
       "Wooden Compass": "2",
       "Trade Point": "518.38635",
-      "Love Charm": "235",
+      "Love Charm": "236",
       "Old Bottle": "39",
       "Ancient Clock": "1",
       "Cockle Shell": "23",
@@ -545,7 +545,7 @@
       "Apple Juice": "3",
       "Pumpkin Cake": "1",
       "Grape": "1",
-      "Axe": "50",
+      "Axe": "36",
       "Giant Orange": "1",
       "Antipasto": "2",
       "Sushi Roll": "1",
@@ -575,7 +575,7 @@
       "Napoleanfish": "1",
       "Cheer": "3",
       "Pizza Margherita": "1",
-      "Fish Stick": "1",
+      "Fish Stick": "2",
       "Pickaxe": "5"
     },
     "previousInventory": {
@@ -1562,7 +1562,7 @@
       }
     },
     "bank": {
-      "taxFreeSFL": 6736.630317500028,
+      "taxFreeSFL": 6741.588317500027,
       "withdrawnAmount": 0
     },
     "bumpkin": {
@@ -4329,7 +4329,7 @@
         "width": 2,
         "height": 2,
         "wood": {
-          "choppedAt": 1769776786976
+          "choppedAt": 1769783611376
         },
         "x": -3,
         "y": -4
@@ -4339,7 +4339,7 @@
         "width": 2,
         "height": 2,
         "wood": {
-          "choppedAt": 1769776787344
+          "choppedAt": 1769783611000
         },
         "x": -3,
         "y": -6
@@ -4448,7 +4448,7 @@
       "9caf764e": {
         "createdAt": 1768024142875,
         "wood": {
-          "choppedAt": 1769776788565
+          "choppedAt": 1769783609974
         },
         "tier": 2,
         "name": "Ancient Tree",
@@ -4459,7 +4459,7 @@
       "fb29776e": {
         "createdAt": 1768365835961,
         "wood": {
-          "choppedAt": 1769776788192
+          "choppedAt": 1769783610338
         },
         "x": -7,
         "y": -6,
@@ -4470,7 +4470,7 @@
       "bd4d2958": {
         "createdAt": 1769321229431,
         "wood": {
-          "choppedAt": 1769776787815
+          "choppedAt": 1769783610697
         },
         "x": -5,
         "y": -6,
@@ -5428,20 +5428,7 @@
       }
     },
     "trades": {
-      "listings": {
-        "1d34ca22": {
-          "collection": "collectibles",
-          "createdAt": 1769778074224,
-          "items": {
-            "Wild Grass": 10
-          },
-          "sfl": 5.36,
-          "tax": 0.402,
-          "tradeType": "instant",
-          "fulfilledAt": 1769780856730,
-          "fulfilledById": 139666
-        }
-      },
+      "listings": {},
       "soldCount": 2912,
       "dailyListings": {
         "count": 4,
@@ -5713,8 +5700,8 @@
               "Sprout Mix": 16,
               "Earthworm": 6
             },
-            "startedAt": 1769762473607,
-            "readyAt": 1769781913607
+            "startedAt": 1769784309371,
+            "readyAt": 1769803749371
           }
         }
       ],
@@ -5805,16 +5792,6 @@
           "createdAt": 1767587382139,
           "readyAt": 1767590982139,
           "processing": [
-            {
-              "name": "Fish Stick",
-              "readyAt": 1769779429358,
-              "startedAt": 1769772229358,
-              "requirements": {
-                "Red Snapper": "6",
-                "Moray Eel": "2",
-                "Napoleanfish": "2"
-              }
-            },
             {
               "name": "Fish Stick",
               "readyAt": 1769786629358,
@@ -6367,7 +6344,7 @@
       "Luminous Lantern Crafted": 10,
       "Celestial Frostbloom Harvested": 62,
       "Wheat Planted": 11772,
-      "Compost Bin Collected": 1630,
+      "Compost Bin Collected": 1631,
       "Apple Sold": 456.25,
       "Popcorn Cooked": 333,
       "Potted Potato Bought": 1,
@@ -6551,7 +6528,7 @@
       "Sea Cucumber Sold": 252,
       "Eggplant Seed Bought": 8414,
       "Lily Seed Bought": 223,
-      "Tree Chopped": 84182,
+      "Tree Chopped": 84196,
       "Power Smoothie Cooked": 244,
       "Poppy Crafted": 1,
       "Orange Seed Bought": 777,
@@ -7172,7 +7149,7 @@
       "Streamer Hat Reward Claimed": 4,
       "Twitter Post Submitted": 6,
       "Marketplace Bulk Offers Cancelled": 3,
-      "Basic Tree Chopped": 5913,
+      "Basic Tree Chopped": 5915,
       "Iron Rock Mined": 1629,
       "Stone Rock Mined": 4595,
       "Gold Rock Mined": 450,
@@ -7201,7 +7178,7 @@
       "Cool Glasses Bought": 1,
       "Yellow Edelweiss Bountied": 1,
       "Fish Flake Processed": 2,
-      "Fish Stick Processed": 25,
+      "Fish Stick Processed": 26,
       "Fish Oil Processed": 17,
       "Auction Reward Claimed": 3,
       "Starlight Tuna Map Piece Found": 9,
@@ -7216,7 +7193,7 @@
       "Luxury Key Bought": 1,
       "Anemone Caught": 6,
       "Ancient Tree Upgrade": 3,
-      "Ancient Tree Chopped": 369,
+      "Ancient Tree Chopped": 372,
       "White Lavender Bountied": 1,
       "Twilight Anglerfish Map Piece Found": 8,
       "Saw Fish Bought": 1,
@@ -8510,7 +8487,7 @@
           "petXP": 0,
           "score": 50,
           "collectivePet": {
-            "totalXP": 5996358,
+            "totalXP": 6000358,
             "goalXP": 2404688,
             "goalReached": true,
             "streak": 3,
@@ -9983,19 +9960,19 @@
       "Fruitful Bounty": 1769747366259,
       "Fruitful Fumble": 1769747366259,
       "Loyal Macaw": 1769747366259,
-      "Lumberjack's Extra": 1769777508565,
+      "Lumberjack's Extra": 1769784331376,
       "Macaw": 1769747366259,
       "No Axe No Worries": 1761407918724,
       "Spring Guardian": 1768768018364,
-      "Squirrel": 1769777508565,
-      "Tiki Totem": 1769777508565,
+      "Squirrel": 1769784331376,
+      "Tiki Totem": 1769784331376,
       "Tough Tree": 1769769027317,
-      "Tree Charge": 1769777508565,
-      "Woody the Beaver": 1769777508565,
+      "Tree Charge": 1769784331376,
+      "Woody the Beaver": 1769784331376,
       "Bee Suit": 1769735912323,
       "Sweet Bonus": 1769735912323,
-      "Efficient Bin": 1769762473607,
-      "Soil Krabby": 1769762473607,
+      "Efficient Bin": 1769784309371,
+      "Soil Krabby": 1769784309371,
       "Maneki Neko": 1769736994362,
       "Corn Onesie": 1768768018364,
       "Green Thumb": 1769763561819,
@@ -10077,7 +10054,7 @@
       "Banana Onesie": 1769621496941,
       "Nana": 1769621496941,
       "Jellyfish": 1769326233742,
-      "Turd Topper": 1769762473607,
+      "Turd Topper": 1769784309371,
       "Giant Zucchini": 1764347030471,
       "Summer Chicken": 1759465504803,
       "Banana Chicken": 1769621496941,
@@ -10110,11 +10087,11 @@
       "Abundant Harvest": 1769767165808,
       "Bale Economy": 1769767165808,
       "Experienced Farmer": 1769630126981,
-      "Bucket O' Worms": 1769762473607,
-      "Wormy Treat": 1769762473607,
-      "Saw Fish": 1769765796442,
+      "Bucket O' Worms": 1769784309371,
+      "Wormy Treat": 1769784309371,
+      "Saw Fish": 1769784309371,
       "Giant Artichoke": 1769745550428,
-      "Lunar Temple": 1769783055131,
+      "Lunar Temple": 1769783629083,
       "Fisherman's 10 Fold": 1769765796442,
       "Deep Sea Helm": 1767419312958,
       "Super Star": 1768124315885,
@@ -10126,7 +10103,7 @@
       "Sunshower": 1769458543472
     },
     "socialFarming": {
-      "points": 35269,
+      "points": 35274,
       "villageProjects": {
         "Farmer's Monument": {
           "cheers": 100,
@@ -10137,27 +10114,27 @@
           "winnerId": 132826
         },
         "Miner's Monument": {
-          "cheers": 3733,
+          "cheers": 3735,
           "winnerId": 7543661884884280
         },
         "Big Banana": {
-          "cheers": 160,
+          "cheers": 161,
           "winnerId": 9239
         },
         "Big Apple": {
-          "cheers": 22,
+          "cheers": 23,
           "winnerId": 2909
         },
         "Big Orange": {
-          "cheers": 15,
+          "cheers": 16,
           "winnerId": 36214
         },
         "Cornucopia": {
-          "cheers": 18,
+          "cheers": 20,
           "winnerId": 1621
         },
         "Basic Cooking Pot": {
-          "cheers": 5,
+          "cheers": 6,
           "winnerId": 132826
         }
       },
@@ -10220,7 +10197,7 @@
       },
       "weeklyPoints": {
         "week": "2026-01-26",
-        "points": 1613
+        "points": 1618
       },
       "helpIncrease": {
         "boughtAt": [
@@ -10255,7 +10232,7 @@
         "2985": {
           "id": 2985,
           "name": "Pet #2985",
-          "experience": 119555,
+          "experience": 119565,
           "energy": 2225,
           "requests": {
             "food": [
@@ -10276,7 +10253,7 @@
               "2026-01-30": 1
             }
           },
-          "pettedAt": 1769772493455,
+          "pettedAt": 1769784325691,
           "traits": {
             "type": "Warthog",
             "fur": "Cream",
@@ -10327,7 +10304,7 @@
         },
         "Burro": {
           "name": "Burro",
-          "experience": 53937,
+          "experience": 53947,
           "energy": 2140,
           "requests": {
             "food": [
@@ -10341,7 +10318,7 @@
               "Apple Pie"
             ]
           },
-          "pettedAt": 1769772496290,
+          "pettedAt": 1769784326538,
           "dailySocialXP": {
             "2026-01-30": 50
           },
@@ -10398,7 +10375,7 @@
         },
         "Oxen": {
           "name": "Oxen",
-          "experience": 1900,
+          "experience": 1910,
           "energy": 780,
           "requests": {
             "food": [
@@ -10411,7 +10388,7 @@
               "Rhubarb Tart"
             ]
           },
-          "pettedAt": 1769772495645,
+          "pettedAt": 1769784326074,
           "dailySocialXP": {
             "2026-01-30": 50
           }
