@@ -78,7 +78,7 @@
       "Olive": "0.008",
       "Tomato": "12.3",
       "Lemon": "20.6",
-      "Barley": "600.6048",
+      "Barley": "0.6048",
       "Rhubarb": "24",
       "Zucchini": "925.5",
       "Yam": "32.3159",
@@ -5057,7 +5057,9 @@
           },
           "sfl": 4.6635,
           "tax": 0.3497625,
-          "tradeType": "instant"
+          "tradeType": "instant",
+          "fulfilledAt": 1769800176576,
+          "fulfilledById": 4338964332312632
         },
         "cf20e0b5": {
           "collection": "collectibles",
@@ -5067,7 +5069,9 @@
           },
           "sfl": 4.6635,
           "tax": 0.3497625,
-          "tradeType": "instant"
+          "tradeType": "instant",
+          "fulfilledAt": 1769800082071,
+          "fulfilledById": 1673964753504233
         },
         "c44da45d": {
           "collection": "collectibles",
@@ -5077,10 +5081,12 @@
           },
           "sfl": 4.6635,
           "tax": 0.3497625,
-          "tradeType": "instant"
+          "tradeType": "instant",
+          "fulfilledAt": 1769800087292,
+          "fulfilledById": 1673964753504233
         }
       },
-      "soldCount": 3465,
+      "soldCount": 3468,
       "dailyListings": {
         "count": 3,
         "date": 30
@@ -8092,7 +8098,7 @@
           "petXP": 0,
           "score": 0,
           "collectivePet": {
-            "totalXP": 5320875,
+            "totalXP": 5356070,
             "goalXP": 10263180,
             "goalReached": false,
             "streak": 10,
