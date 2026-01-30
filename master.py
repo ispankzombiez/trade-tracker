@@ -61,7 +61,8 @@ def main():
         ("scripts/batch_fetch.py", "Farm Data Batch Fetcher"),
         ("scripts/marketplace_fetch.py", "Marketplace Data Fetcher"), 
         ("scripts/process_data.py", "Trade Data Processor"),
-        ("scripts/generate_dashboard_data.py", "Dashboard Data Generator")
+        ("scripts/generate_dashboard_data.py", "Dashboard Data Generator"),
+        ("generate_user_index.py", "Web Interface User Index Generator")
     ]
     
     successful = 0

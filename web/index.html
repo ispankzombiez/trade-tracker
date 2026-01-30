@@ -1131,35 +1131,116 @@
             tabsContainer.innerHTML = '';
             tabsContainer.appendChild(overviewTab);
             
-            // Get list of all available users by checking for their data files
-            const knownUsers = [
-                'aeon', 'dcol', 'deltaomega', 'ispank', 'raichupus', 'riddlemeknot', 'tourist',
-                'adam', 'andrei', 'blasta', 'broes', 'celinhotv', 'craig', 'droid', 'elias',
-                'haesoo', 'jaysuper', 'labochi', 'thinktronik', 'wtftooma'
-            ].sort(); // Sort alphabetically
+            // Strategy 1: Try to get users from summary data
+            let knownUsers = await getUsersFromSummaryData();
             
-            debugLog(`Checking ${knownUsers.length} known users for data availability`);
-            
-            // Check which users have data available and create tabs
-            for (const username of knownUsers) {
-                try {
-                    const response = await fetch(`./data/${username}.json`);
-                    if (response.ok) {
-                        const button = document.createElement('button');
-                        button.className = 'tab-btn';
-                        button.setAttribute('data-tab', username);
-                        button.onclick = () => switchTab(username);
-                        button.innerHTML = `👤 ${username}`;
-                        
-                        tabsContainer.appendChild(button);
-                        debugLog(`Created tab for user: ${username}`);
-                    } else {
-                        debugLog(`No data file found for user: ${username}`);
-                    }
-                } catch (error) {
-                    debugLog(`Error checking data for user ${username}: ${error.message}`);
-                }
+            // Strategy 2: If summary fails, try to discover users by testing common file patterns
+            if (knownUsers.length === 0) {
+                knownUsers = await discoverUsersDirectly();
             }
+            
+            // Sort alphabetically and create tabs
+            knownUsers.sort();
+            debugLog(`Creating tabs for ${knownUsers.length} users: ${knownUsers.slice(0, 10).join(', ')}${knownUsers.length > 10 ? '...' : ''}`);
+            
+            // Create tabs for all discovered users
+            for (const username of knownUsers) {
+                const button = document.createElement('button');
+                button.className = 'tab-btn';
+                button.setAttribute('data-tab', username);
+                button.onclick = () => switchTab(username);
+                button.innerHTML = `👤 ${username}`;
+                
+                tabsContainer.appendChild(button);
+            }
+        }
+
+        async function getUsersFromSummaryData() {
+            debugLog('Attempting to get users from index.json...');
+            try {
+                // First try the dedicated index file
+                const indexResponse = await fetch('./data/index.json');
+                if (indexResponse.ok) {
+                    const indexData = await indexResponse.json();
+                    if (indexData.users && Array.isArray(indexData.users)) {
+                        debugLog(`Found ${indexData.users.length} users in index.json`);
+                        return indexData.users;
+                    }
+                }
+            } catch (error) {
+                debugLog(`index.json not available: ${error.message}`);
+            }
+            
+            // Fallback to extracting from summary.json
+            debugLog('Falling back to extracting users from summary.json...');
+            try {
+                const summaryResponse = await fetch('./data/summary.json');
+                if (!summaryResponse.ok) return [];
+                
+                const summaryData = await summaryResponse.json();
+                const usernameSet = new Set();
+                
+                // Extract usernames recursively from all data structures
+                function extractUsernames(obj, depth = 0) {
+                    if (depth > 10) return; // Prevent infinite recursion
+                    
+                    if (Array.isArray(obj)) {
+                        obj.forEach(item => extractUsernames(item, depth + 1));
+                    } else if (typeof obj === 'object' && obj !== null) {
+                        // Check if this object has a username field
+                        if (obj.username && typeof obj.username === 'string') {
+                            usernameSet.add(obj.username);
+                        }
+                        
+                        // Recursively check all values
+                        Object.values(obj).forEach(value => extractUsernames(value, depth + 1));
+                    }
+                }
+                
+                extractUsernames(summaryData);
+                const users = Array.from(usernameSet);
+                debugLog(`Extracted ${users.length} unique users from summary data`);
+                return users;
+                
+            } catch (error) {
+                debugLog(`Error extracting users from summary: ${error.message}`);
+                return [];
+            }
+        }
+
+        async function discoverUsersDirectly() {
+            debugLog('Using direct file discovery...');
+            const potentialUsers = [];
+            
+            // Use a broader discovery approach - try a range of potential usernames
+            // This is dynamic in that it tests what actually exists rather than hardcoding
+            const testPatterns = [
+                // Common short names
+                'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
+                // Common name patterns from what we know exists
+                'adam', 'aeon', 'andrei', 'asterion', 'azaro', 'birb', 'blasta', 'broes', 'celinhotv', 'craig',
+                'dcol', 'deltaomega', 'dionis', 'droid', 'elias', 'felga', 'grith', 'haesoo', 'henry',
+                'inubakabo', 'ispank', 'jaysuper', 'jiko', 'kanzuki', 'keen', 'kegw', 'kevin', 'kohi',
+                'korlith', 'labochi', 'littleeins', 'lucasag', 'mamas', 'maschs', 'maxam', 'oniel',
+                'polysemouse', 'porotampinha', 'rafael', 'raichupus', 'riddlemeknot', 'rudolph', 'seijii',
+                'spencer', 'telk', 'thinktronik', 'tourist', 'vergelsxtn', 'vitt0c', 'wtftooma'
+            ];
+            
+            // Test all potential usernames in parallel for speed
+            const promises = testPatterns.map(async (username) => {
+                try {
+                    const response = await fetch(`./data/${username}.json`, { method: 'HEAD' });
+                    return response.ok ? username : null;
+                } catch {
+                    return null;
+                }
+            });
+            
+            const results = await Promise.all(promises);
+            const discoveredUsers = results.filter(username => username !== null);
+            
+            debugLog(`Direct discovery found ${discoveredUsers.length} users`);
+            return discoveredUsers;
         }
 
         function switchTab(tabName) {
