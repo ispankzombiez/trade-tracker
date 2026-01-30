@@ -1,16 +1,16 @@
 {
   "username": "ispank",
   "overview": {
-    "balance": 130.85,
+    "balance": 126.36,
     "coins": 16728.0,
     "gems": 0.0,
     "earned_sfl": 782.44,
     "earned_coins": 16728.0,
     "spent_sfl": 21.71,
-    "items_sold": 4527.0,
+    "items_sold": 4535.0,
     "trade_points": 26995.44,
-    "last_updated": "2026-01-30 05:56 AM",
-    "active_listings": 9
+    "last_updated": "2026-01-30 06:23 AM",
+    "active_listings": 11
   },
   "buys": [
     {
@@ -653,6 +653,42 @@
   "sells": [
     {
       "date": "2026-01-30",
+      "time": "06:01 AM",
+      "type": "SELL",
+      "item": "Milk",
+      "quantity": 50,
+      "price_text": "6.1916 SFL",
+      "price": 6.1916,
+      "counterparty": "Madgosma",
+      "farm_id": "-",
+      "trade_id": "be841791"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "05:53 AM",
+      "type": "SELL",
+      "item": "Leather",
+      "quantity": 50,
+      "price_text": "5.9778 SFL",
+      "price": 5.9778,
+      "counterparty": "Belette",
+      "farm_id": "-",
+      "trade_id": "7150edcc"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "05:52 AM",
+      "type": "SELL",
+      "item": "Leather",
+      "quantity": 50,
+      "price_text": "5.9778 SFL",
+      "price": 5.9778,
+      "counterparty": "Smiti",
+      "farm_id": "-",
+      "trade_id": "926fc57a"
+    },
+    {
+      "date": "2026-01-30",
       "time": "05:50 AM",
       "type": "SELL",
       "item": "Leather",
@@ -979,12 +1015,12 @@
   "last_updated": null,
   "stats": {
     "total_buys": 53,
-    "total_sells": 27,
+    "total_sells": 30,
     "buy_volume": 145.26620000000005,
-    "sell_volume": 117.2372,
-    "gross_profit": -28.029000000000053,
+    "sell_volume": 135.3844,
+    "gross_profit": -9.881800000000055,
     "avg_buy_price": 2.7408716981132084,
-    "avg_sell_price": 4.342118518518519,
+    "avg_sell_price": 4.512813333333333,
     "most_traded_items": {},
     "recent_activity": [
       {
@@ -1153,7 +1189,7 @@
         "time": "06:59 PM"
       }
     ],
-    "profit_margin": -19.2949220121405,
+    "profit_margin": -6.802545946682746,
     "most_bought_items": {
       "Yam": 6204,
       "Broccoli": 2560,
@@ -1164,8 +1200,8 @@
       "Honey": 273
     },
     "most_sold_items": {
-      "Milk": 600,
-      "Leather": 349,
+      "Milk": 650,
+      "Leather": 449,
       "Egg": 100
     }
   },
@@ -1252,15 +1288,6 @@
       "trade_type": "instant"
     },
     {
-      "id": "1fa7b234",
-      "item": "Milk",
-      "quantity": 50,
-      "price": 6.1916,
-      "created_at": 1769752072175,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
       "id": "be841791",
       "item": "Milk",
       "quantity": 50,
@@ -1270,56 +1297,11 @@
       "trade_type": "instant"
     },
     {
-      "id": "3f475cb9",
-      "item": "Milk",
-      "quantity": 50,
-      "price": 6.1916,
-      "created_at": 1769752086119,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "0bf225f5",
-      "item": "Milk",
-      "quantity": 25,
-      "price": 3.0958,
-      "created_at": 1769752090280,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "926fc57a",
-      "item": "Leather",
-      "quantity": 50,
-      "price": 5.9778,
-      "created_at": 1769752101784,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
       "id": "7150edcc",
       "item": "Leather",
       "quantity": 50,
       "price": 5.9778,
       "created_at": 1769752107431,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "fec10ff0",
-      "item": "Leather",
-      "quantity": 25,
-      "price": 2.9889,
-      "created_at": 1769752112860,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "7c7ab90d",
-      "item": "Leather",
-      "quantity": 13,
-      "price": 1.5542,
-      "created_at": 1769752118597,
       "collection": "collectibles",
       "trade_type": "instant"
     }
@@ -1336,14 +1318,14 @@
       "Cauliflower": 11250.9358,
       "Parsnip": 1279.4929,
       "Radish": 3772.2598,
-      "Wheat": 43.2397,
+      "Wheat": 731.2397,
       "Kale": 283.7111,
       "Eggplant": 4049.8729,
-      "Corn": 669.7596,
+      "Corn": 499.75960000000003,
       "Soybean": 27679.0958,
       "Rice": 52.05,
       "Olive": 10.652,
-      "Barley": 0.9983999999999762,
+      "Barley": 498.9984,
       "Rhubarb": 283.55,
       "Zucchini": 1225.6,
       "Yam": 2367.35,
@@ -1359,14 +1341,14 @@
       "Orange": 346.90000000000003,
       "Banana": 117.8,
       "Grape": 68.15,
-      "Tomato": 76.50000000000107,
+      "Tomato": 91.50000000000108,
       "Lemon": 1831.7500000000007,
       "Celestine": 1.8,
       "Duskberry": 7.8,
       "Lunara": 2.8
     },
     "resources": {
-      "Wood": 245.26,
+      "Wood": 246.26,
       "Stone": 745.65,
       "Iron": 477.25,
       "Gold": 12.1,
