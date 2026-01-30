@@ -1,7 +1,7 @@
 {
   "farm": {
     "coins": 182.97757125015505,
-    "balance": "28.18818435462368216",
+    "balance": "28.95593435462368216",
     "previousBalance": "6195.1070892861099809",
     "inventory": {
       "Sunflower Seed": "2399",
@@ -215,7 +215,7 @@
       "Wool": "9.5",
       "Merino Wool": "4.2",
       "Feather": "16.1",
-      "Milk": "3.3",
+      "Milk": "0.3",
       "Hay": "4.6265000000002978",
       "Kernel Blend": "112.55018750000022161",
       "NutriBarley": "7.417062500000215",
@@ -552,7 +552,6 @@
       "Parsnip Cake": "1",
       "Basic Cooking Pot": "1",
       "Chewed Bone": "1",
-      "Ribbon": "2",
       "Cauliflower Cake": "1",
       "Potato Cake": "1",
       "Lemon Cheesecake": "1",
@@ -1417,7 +1416,7 @@
       }
     },
     "bank": {
-      "taxFreeSFL": 45457.14225506843,
+      "taxFreeSFL": 45457.91000506843,
       "withdrawnAmount": 1485.3229
     },
     "bumpkin": {
@@ -5259,8 +5258,19 @@
           "id": "bec39626",
           "createdAt": 1731188309210,
           "readyAt": 1731188309210,
-          "oil": 5.166666666666663,
-          "crafting": [],
+          "oil": 4.9999999999999964,
+          "crafting": [
+            {
+              "name": "Cheese",
+              "boost": {
+                "Oil": 0.16666666666666666
+              },
+              "skills": {
+                "Double Nom": false
+              },
+              "readyAt": 1769789801844
+            }
+          ],
           "coordinates": {
             "x": -4,
             "y": 15
@@ -8060,7 +8070,7 @@
           "petXP": 0,
           "score": 0,
           "collectivePet": {
-            "totalXP": 5283625,
+            "totalXP": 5283965,
             "goalXP": 10263180,
             "goalReached": false,
             "streak": 10,
@@ -9661,7 +9671,7 @@
       "El Pollo Veloz": 1769627301239,
       "Speed Chicken": 1769627301239,
       "Fat Chicken": 1769627294409,
-      "Desert Gnome": 1769736325479,
+      "Desert Gnome": 1769789153844,
       "Fast Feasts": 1769736325479,
       "Time Warp Totem": 1769665302946,
       "Fruit Picker Apron": 1769749496698,

@@ -1,9 +1,9 @@
 {
   "id": 142979,
-  "totalTrades": 24109,
+  "totalTrades": 24110,
   "level": 106,
   "weeklyFlowerSpent": 146.7152,
-  "weeklyFlowerEarned": 143.0136925,
+  "weeklyFlowerEarned": 143.7814425,
   "tokenUri": "0_v1_83_90_184_503_504_0_414_505_30_0_86_0_0_374",
   "username": "DeltaOmega",
   "listings": {},
@@ -41,6 +41,25 @@
     }
   ],
   "trades": [
+    {
+      "id": "6cff59ae",
+      "sfl": 0.83,
+      "quantity": 2,
+      "itemId": 2636,
+      "collection": "collectibles",
+      "source": "offer",
+      "fulfilledAt": 1769789124043,
+      "initiatedBy": {
+        "id": 32995,
+        "bumpkinUri": "0_v1_83_90_184_503_504_0_414_505_30_0_86_0_0_374",
+        "username": "DeltaOmega"
+      },
+      "fulfilledBy": {
+        "id": 142979,
+        "bumpkinUri": "0_v1_122_193_487_325_327_328_499_378_390_432_0_0_0_497_0_0_498",
+        "username": "BLU"
+      }
+    },
     {
       "id": "972cab28",
       "sfl": 0.3542,
@@ -970,25 +989,6 @@
         "id": 342512180087039,
         "bumpkinUri": "0_v1_32_1_5_13_46_22_45_395",
         "username": "JFK97jinxer"
-      }
-    },
-    {
-      "id": "a24f81fe",
-      "sfl": 2.262,
-      "quantity": 100,
-      "itemId": 257,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769659248411,
-      "initiatedBy": {
-        "id": 142979,
-        "bumpkinUri": "0_v1_83_90_184_503_504_0_414_505_30_0_86_0_0_374",
-        "username": "DeltaOmega"
-      },
-      "fulfilledBy": {
-        "id": 6890726281192138,
-        "bumpkinUri": "0_v1_47_1_5_181_18_22_23_253",
-        "username": "EstebanKamui"
       }
     }
   ]

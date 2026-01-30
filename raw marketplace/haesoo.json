@@ -1,6 +1,6 @@
 {
   "id": 2299,
-  "totalTrades": 8342,
+  "totalTrades": 8343,
   "level": 86,
   "weeklyFlowerSpent": 172.9763,
   "weeklyFlowerEarned": 10.1486525,
@@ -15,7 +15,9 @@
       },
       "sfl": 2.418,
       "collection": "collectibles",
-      "tradeType": "instant"
+      "tradeType": "instant",
+      "fulfilledAt": 1769789292201,
+      "fulfilledById": 6742
     }
   },
   "friends": [
@@ -26,15 +28,15 @@
       "trades": 24
     },
     {
-      "id": 68705,
-      "tokenUri": "0_v1_460_263_74_282_281_280_499_163_457_291_0_0_0_175_0_0_444",
-      "username": "OxCh1n1",
-      "trades": 18
-    },
-    {
       "id": 3443,
       "tokenUri": "0_v1_53_90_42_282_234_89_240_441_30_371_86_402_69",
       "username": "eetrt",
+      "trades": 18
+    },
+    {
+      "id": 68705,
+      "tokenUri": "0_v1_460_263_74_282_281_280_499_163_457_291_0_0_0_175_0_0_444",
+      "username": "OxCh1n1",
       "trades": 18
     },
     {
@@ -51,6 +53,25 @@
     }
   ],
   "trades": [
+    {
+      "id": "5692a443",
+      "sfl": 2.418,
+      "quantity": 6,
+      "itemId": 254,
+      "collection": "collectibles",
+      "source": "offer",
+      "fulfilledAt": 1769789292201,
+      "initiatedBy": {
+        "id": 2299,
+        "bumpkinUri": "0_v1_364_263_63_231_404_334_500_509_0_228_0_0_453_277",
+        "username": "mooey"
+      },
+      "fulfilledBy": {
+        "id": 6742,
+        "bumpkinUri": "0_v1_460_90_52_282_234_22_240_255_28_371_16_458_422_189",
+        "username": "Haesoo"
+      }
+    },
     {
       "id": "1d34ca22",
       "sfl": 5.36,
@@ -980,25 +1001,6 @@
         "id": 2299,
         "bumpkinUri": "0_v1_48_90_7_282_234_22_240_278_27_0_86_0_276",
         "username": "Maryland"
-      }
-    },
-    {
-      "id": "0d2e7bd5",
-      "sfl": 0.315,
-      "quantity": 5,
-      "itemId": 603,
-      "collection": "collectibles",
-      "source": "offer",
-      "fulfilledAt": 1769621604982,
-      "initiatedBy": {
-        "id": 7389880547711604,
-        "bumpkinUri": "0_v1_460_90_52_282_234_22_240_255_28_371_16_458_422_189",
-        "username": "Haesoo"
-      },
-      "fulfilledBy": {
-        "id": 2299,
-        "bumpkinUri": "0_v1_32_90_5_15_234_22_226_517_0_228_0_458",
-        "username": "PalkaSalyami"
       }
     }
   ]
