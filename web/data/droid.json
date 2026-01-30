@@ -1,7 +1,7 @@
 {
   "username": "droid",
   "overview": {
-    "balance": 1.09,
+    "balance": 0.99,
     "coins": 169369.0,
     "gems": 0.0,
     "earned_sfl": 8175.19,
@@ -9,10 +9,46 @@
     "spent_sfl": 12297.69,
     "items_sold": 7588.0,
     "trade_points": 11367.53,
-    "last_updated": "2026-01-30 04:54 PM",
+    "last_updated": "2026-01-30 05:13 PM",
     "active_listings": 8
   },
   "buys": [
+    {
+      "date": "2026-01-30",
+      "time": "05:05 PM",
+      "type": "BUY",
+      "item": "Lemon",
+      "quantity": 100,
+      "price_text": "0.9903 SFL",
+      "price": 0.9903,
+      "counterparty": "Noriega",
+      "farm_id": "-",
+      "trade_id": "5005f9fa"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "05:04 PM",
+      "type": "BUY",
+      "item": "Lemon",
+      "quantity": 25,
+      "price_text": "0.2478 SFL",
+      "price": 0.2478,
+      "counterparty": "Nirtuguela",
+      "farm_id": "-",
+      "trade_id": "0ac70a48"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "05:04 PM",
+      "type": "BUY",
+      "item": "Egg",
+      "quantity": 30,
+      "price_text": "0.6626 SFL",
+      "price": 0.6626,
+      "counterparty": "Vikingo2050",
+      "farm_id": "-",
+      "trade_id": "4b67560b"
+    },
     {
       "date": "2026-01-30",
       "time": "03:13 PM",
@@ -773,6 +809,18 @@
   "sells": [
     {
       "date": "2026-01-30",
+      "time": "05:05 PM",
+      "type": "SELL",
+      "item": "Olive",
+      "quantity": 5,
+      "price_text": "1.9513 SFL",
+      "price": 1.9513,
+      "counterparty": "BabyRaccoon",
+      "farm_id": "-",
+      "trade_id": "75407aab"
+    },
+    {
+      "date": "2026-01-30",
       "time": "12:44 PM",
       "type": "SELL",
       "item": "Gold",
@@ -1002,15 +1050,42 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 63,
-    "total_sells": 19,
-    "buy_volume": 73.06500000000003,
-    "sell_volume": 64.34150000000001,
-    "gross_profit": -8.723500000000016,
-    "avg_buy_price": 1.1597619047619052,
-    "avg_sell_price": 3.3863947368421057,
+    "total_buys": 66,
+    "total_sells": 20,
+    "buy_volume": 74.96570000000003,
+    "sell_volume": 66.29280000000001,
+    "gross_profit": -8.672900000000013,
+    "avg_buy_price": 1.13584393939394,
+    "avg_sell_price": 3.3146400000000007,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Lemon",
+        "quantity": 100,
+        "price": 0.9903,
+        "date": "2026-01-30",
+        "time": "05:05 PM",
+        "username": "droid"
+      },
+      {
+        "type": "BUY",
+        "item": "Lemon",
+        "quantity": 25,
+        "price": 0.2478,
+        "date": "2026-01-30",
+        "time": "05:04 PM",
+        "username": "droid"
+      },
+      {
+        "type": "BUY",
+        "item": "Egg",
+        "quantity": 30,
+        "price": 0.6626,
+        "date": "2026-01-30",
+        "time": "05:04 PM",
+        "username": "droid"
+      },
       {
         "type": "BUY",
         "item": "Milk",
@@ -1035,8 +1110,7 @@
         "quantity": 12,
         "price": 1.4646,
         "date": "2026-01-30",
-        "time": "01:33 PM",
-        "username": "droid"
+        "time": "01:33 PM"
       },
       {
         "type": "BUY",
@@ -1044,8 +1118,7 @@
         "quantity": 17,
         "price": 2.0706,
         "date": "2026-01-30",
-        "time": "01:33 PM",
-        "username": "droid"
+        "time": "01:33 PM"
       },
       {
         "type": "BUY",
@@ -1053,8 +1126,7 @@
         "quantity": 200,
         "price": 0.978,
         "date": "2026-01-30",
-        "time": "01:33 PM",
-        "username": "droid"
+        "time": "01:33 PM"
       },
       {
         "type": "BUY",
@@ -1151,33 +1223,9 @@
         "price": 1.76,
         "date": "2026-01-30",
         "time": "01:19 AM"
-      },
-      {
-        "type": "BUY",
-        "item": "Cauliflower",
-        "quantity": 100,
-        "price": 1.1619,
-        "date": "2026-01-30",
-        "time": "01:17 AM"
-      },
-      {
-        "type": "BUY",
-        "item": "Wood",
-        "quantity": 50,
-        "price": 0.4549,
-        "date": "2026-01-30",
-        "time": "01:16 AM"
-      },
-      {
-        "type": "BUY",
-        "item": "Lemon",
-        "quantity": 10,
-        "price": 0.099,
-        "date": "2026-01-30",
-        "time": "01:10 AM"
       }
     ],
-    "profit_margin": -11.939369054951088,
+    "profit_margin": -11.569157628088591,
     "most_bought_items": {
       "Broccoli": 2300,
       "Yam": 1650,
@@ -1186,9 +1234,9 @@
       "Artichoke": 263,
       "Tomato": 200,
       "Milk": 190,
+      "Lemon": 175,
       "Parsnip": 100,
-      "Cauliflower": 100,
-      "Leather": 64
+      "Cauliflower": 100
     },
     "most_sold_items": {
       "Yam": 2500,
@@ -1199,7 +1247,7 @@
       "Kale": 100,
       "Blueberry": 100,
       "Gold": 45,
-      "Olive": 10,
+      "Olive": 15,
       "Obsidian": 1
     }
   },
@@ -1295,16 +1343,16 @@
       "Corn": 0.0301000000000001,
       "Soybean": 111.4219,
       "Rice": 0.991,
-      "Olive": 31.7548,
+      "Olive": 26.7548,
       "Barley": 61.73979999999994,
       "Rhubarb": 96.35,
       "Zucchini": 588.6496,
       "Yam": 213.3633,
-      "Broccoli": 310.2199,
+      "Broccoli": 300.2199,
       "Pepper": 46.7,
       "Onion": 685.7929,
       "Turnip": 21.296100000000017,
-      "Artichoke": 3.00610000000002
+      "Artichoke": 1.00610000000002
     },
     "fruits": {
       "Apple": 3.0000000000004867,
@@ -1313,13 +1361,13 @@
       "Banana": 14.50000000000071,
       "Grape": 1.9,
       "Tomato": 142.50000000000063,
-      "Lemon": 3.300000000001077,
+      "Lemon": 88.30000000000108,
       "Duskberry": 6e-15,
       "Lunara": 0.9000000000000099,
       "Celestine": 2.4000000000000252
     },
     "resources": {
-      "Wood": 156.07,
+      "Wood": 196.22,
       "Stone": 40.04,
       "Iron": 16.66,
       "Gold": 3.82,

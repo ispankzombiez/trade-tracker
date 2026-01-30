@@ -1,7 +1,7 @@
 {
   "farm": {
-    "coins": 95637.44884249874,
-    "balance": "237.52733932345419899",
+    "coins": 97671.44884249874,
+    "balance": "10.22398932345419899",
     "previousBalance": "751.1881559865725168",
     "inventory": {
       "Cauliflower Seed": "230",
@@ -31,14 +31,14 @@
       "Clover Seed": "13",
       "Sunflower": "266054.26130001511377",
       "Potato": "12389.002799996012691",
-      "Pumpkin": "7681.462899997301608",
+      "Pumpkin": "5681.462899997301608",
       "Carrot": "586.3513000002460635",
       "Cabbage": "551.152599999983",
       "Beetroot": "132.5921000000005584",
       "Cauliflower": "34.8369999999999815",
       "Parsnip": "39.8014999999999594",
       "Radish": "32.0037999999999942",
-      "Wheat": "2247.9430999999968702",
+      "Wheat": "1447.9430999999968702",
       "Kale": "50.7574000000001511",
       "Apple": "17.1",
       "Blueberry": "125.3900000000002555",
@@ -74,7 +74,7 @@
       "Rice": "1.574",
       "Olive": "0.846",
       "Tomato": "1880.4000000000023588",
-      "Lemon": "1057.7500000000000005",
+      "Lemon": "607.7500000000000005",
       "Barley": "42.1953999999979124",
       "Rhubarb": "4069.49999999842856",
       "Zucchini": "1386.1500000000966006",
@@ -83,7 +83,7 @@
       "Pepper": "523.2109999999999954",
       "Onion": "34.8899000000000166",
       "Turnip": "48.4848",
-      "Artichoke": "58.9465",
+      "Artichoke": "40.9465",
       "Duskberry": "2.7000000000000076",
       "Lunara": "2.7000000000000078",
       "Celestine": "15.4",
@@ -188,11 +188,11 @@
       "Quick Juice": "2",
       "Sushi Roll": "1",
       "Antipasto": "1",
-      "Wood": "1167.38",
+      "Wood": "1142.38",
       "Stone": "980.75",
-      "Iron": "549.4",
+      "Iron": "524.4",
       "Gold": "214.25",
-      "Egg": "683.25",
+      "Egg": "673.25",
       "Speed Chicken": "1",
       "Fat Chicken": "1",
       "Rich Chicken": "1",
@@ -535,14 +535,14 @@
       "Sea Cucumber": "28",
       "Sand Drill": "10",
       "Love Charm": "4688.6",
-      "Dung": "483",
+      "Dung": "486",
       "Trash": "67",
       "Rat": "5",
       "Snail": "5",
       "Anthill": "3",
-      "Cheer": "494",
+      "Cheer": "489",
       "Super Totem": "1",
-      "Weed": "362",
+      "Weed": "364",
       "Bracelet": "205",
       "Celestine Seed": "3",
       "Duskberry Seed": "3",
@@ -566,7 +566,7 @@
       "Purple Balloon Flower": "7",
       "Apple Juice": "1",
       "Pizza Margherita": "3",
-      "Red Balloon Flower": "7",
+      "Red Balloon Flower": "6",
       "Yellow Cosmos": "5",
       "Yellow Pansy": "5",
       "Gold Pickaxe": "6",
@@ -1422,8 +1422,8 @@
       }
     },
     "bank": {
-      "taxFreeSFL": 7058.028220000046,
-      "withdrawnAmount": 31030.996
+      "taxFreeSFL": 6829.608770000045,
+      "withdrawnAmount": 31276.996
     },
     "bumpkin": {
       "achievements": {
@@ -5005,72 +5005,6 @@
     },
     "trades": {
       "listings": {
-        "ec5e1eaf": {
-          "collection": "wearables",
-          "createdAt": 1769084052379,
-          "items": {
-            "Pickaxe Shark": 1
-          },
-          "sfl": 779,
-          "tax": 77.9,
-          "tradeType": "onchain"
-        },
-        "a4f7c479": {
-          "collection": "collectibles",
-          "createdAt": 1769791165607,
-          "items": {
-            "Wheat": 200
-          },
-          "sfl": 2.858,
-          "tax": 0.21435,
-          "tradeType": "instant",
-          "fulfilledAt": 1769791724424,
-          "fulfilledById": 17179
-        },
-        "20b59475": {
-          "collection": "collectibles",
-          "createdAt": 1769791169596,
-          "items": {
-            "Wheat": 200
-          },
-          "sfl": 2.858,
-          "tax": 0.21435,
-          "tradeType": "instant"
-        },
-        "54c3536a": {
-          "collection": "collectibles",
-          "createdAt": 1769791173969,
-          "items": {
-            "Wheat": 200
-          },
-          "sfl": 2.858,
-          "tax": 0.21435,
-          "tradeType": "instant"
-        },
-        "80d6bd03": {
-          "collection": "collectibles",
-          "createdAt": 1769791227027,
-          "items": {
-            "Broccoli": 700
-          },
-          "sfl": 2.02,
-          "tax": 0.1515,
-          "tradeType": "instant",
-          "fulfilledAt": 1769791717029,
-          "fulfilledById": 61
-        },
-        "b73c082a": {
-          "collection": "collectibles",
-          "createdAt": 1769791230271,
-          "items": {
-            "Broccoli": 700
-          },
-          "sfl": 2.02,
-          "tax": 0.1515,
-          "tradeType": "instant",
-          "fulfilledAt": 1769791720559,
-          "fulfilledById": 61
-        },
         "a82ca603": {
           "collection": "collectibles",
           "createdAt": 1769791301061,
@@ -5079,7 +5013,9 @@
           },
           "sfl": 1.6,
           "tax": 0.12,
-          "tradeType": "instant"
+          "tradeType": "instant",
+          "fulfilledAt": 1769792181466,
+          "fulfilledById": 5024961612157923
         },
         "fd11ef77": {
           "collection": "collectibles",
@@ -5091,18 +5027,6 @@
           "tax": 0.12,
           "tradeType": "instant"
         },
-        "144eeb7d": {
-          "collection": "collectibles",
-          "createdAt": 1769791366715,
-          "items": {
-            "Iron": 25
-          },
-          "sfl": 1.67,
-          "tax": 0.12525,
-          "tradeType": "instant",
-          "fulfilledAt": 1769791748074,
-          "fulfilledById": 41740
-        },
         "aa3037ac": {
           "collection": "collectibles",
           "createdAt": 1769791370585,
@@ -5111,7 +5035,9 @@
           },
           "sfl": 1.67,
           "tax": 0.12525,
-          "tradeType": "instant"
+          "tradeType": "instant",
+          "fulfilledAt": 1769792590637,
+          "fulfilledById": 5024961612157923
         },
         "b16c4171": {
           "collection": "collectibles",
@@ -5183,30 +5109,6 @@
           "tax": 0.132525,
           "tradeType": "instant"
         },
-        "9ee531c5": {
-          "collection": "collectibles",
-          "createdAt": 1769791461296,
-          "items": {
-            "Corn": 200
-          },
-          "sfl": 3.79,
-          "tax": 0.28425,
-          "tradeType": "instant",
-          "fulfilledAt": 1769791727767,
-          "fulfilledById": 4275065523435590
-        },
-        "8afed7ad": {
-          "collection": "collectibles",
-          "createdAt": 1769791464654,
-          "items": {
-            "Corn": 200
-          },
-          "sfl": 3.79,
-          "tax": 0.28425,
-          "tradeType": "instant",
-          "fulfilledAt": 1769791739572,
-          "fulfilledById": 152707
-        },
         "2d1d6171": {
           "collection": "collectibles",
           "createdAt": 1769791514096,
@@ -5215,7 +5117,9 @@
           },
           "sfl": 1.486,
           "tax": 0.11145,
-          "tradeType": "instant"
+          "tradeType": "instant",
+          "fulfilledAt": 1769792055844,
+          "fulfilledById": 4555106566429153
         },
         "c955ce0d": {
           "collection": "collectibles",
@@ -5225,7 +5129,9 @@
           },
           "sfl": 1.486,
           "tax": 0.11145,
-          "tradeType": "instant"
+          "tradeType": "instant",
+          "fulfilledAt": 1769792058485,
+          "fulfilledById": 4555106566429153
         },
         "a21e625d": {
           "collection": "collectibles",
@@ -5235,12 +5141,60 @@
           },
           "sfl": 1.486,
           "tax": 0.11145,
-          "tradeType": "instant"
+          "tradeType": "instant",
+          "fulfilledAt": 1769792068673,
+          "fulfilledById": 4555106566429153
+        },
+        "004d700c": {
+          "collection": "collectibles",
+          "createdAt": 1769791904300,
+          "items": {
+            "Wheat": 200
+          },
+          "sfl": 2.857,
+          "tax": 0.214275,
+          "tradeType": "instant",
+          "fulfilledAt": 1769792041308,
+          "fulfilledById": 76974
+        },
+        "680ae948": {
+          "collection": "collectibles",
+          "createdAt": 1769791908160,
+          "items": {
+            "Wheat": 200
+          },
+          "sfl": 2.857,
+          "tax": 0.214275,
+          "tradeType": "instant",
+          "fulfilledAt": 1769792066956,
+          "fulfilledById": 6667174390845216
+        },
+        "f9366c2a": {
+          "collection": "collectibles",
+          "createdAt": 1769791911585,
+          "items": {
+            "Wheat": 200
+          },
+          "sfl": 2.857,
+          "tax": 0.214275,
+          "tradeType": "instant",
+          "fulfilledAt": 1769792064017,
+          "fulfilledById": 6667174390845216
+        },
+        "827e94b5": {
+          "collection": "wearables",
+          "createdAt": 1769791936268,
+          "items": {
+            "Pickaxe Shark": 1
+          },
+          "sfl": 749,
+          "tax": 74.9,
+          "tradeType": "onchain"
         }
       },
-      "soldCount": 7418,
+      "soldCount": 7427,
       "dailyListings": {
-        "count": 24,
+        "count": 28,
         "date": 30
       },
       "dailyPurchases": {
@@ -5293,18 +5247,7 @@
           },
           "createdAt": 0,
           "id": "1123",
-          "crafting": [
-            {
-              "name": "Popcorn",
-              "boost": {
-                "Oil": 0
-              },
-              "skills": {
-                "Double Nom": false
-              },
-              "readyAt": 1769791701384
-            }
-          ],
+          "crafting": [],
           "oil": 0
         }
       ],
@@ -6187,7 +6130,7 @@
       "Wheat Planted": 26549,
       "Compost Bin Collected": 175,
       "Apple Sold": 761.45,
-      "Popcorn Cooked": 1628,
+      "Popcorn Cooked": 1629,
       "Cauliflower Cake Dug": 16,
       "Stone Pickaxe Crafted": 22003,
       "Soybean Harvested": 34122,
@@ -6275,7 +6218,7 @@
       "Solar Lantern Crafted": 5,
       "Grape Seed Bought": 4193,
       "Corn Sold": 13236.5949,
-      "Coins Earned": 5509136.4488425,
+      "Coins Earned": 5511170.4488425,
       "Yellow Cosmos Harvested": 420,
       "Potato Cake Cooked": 24,
       "Basic Scarecrow Crafted": 1,
@@ -6340,7 +6283,7 @@
       "Pipi Dug": 22,
       "Carrot Sold": 73535.1468,
       "Orange Cake Fed": 16,
-      "SFL Earned": 8056.057646725,
+      "SFL Earned": 8057.607646725,
       "Grain Grinder Crafted": 1,
       "Pumpkin Harvested": 202280,
       "Boiled Eggs Cooked": 138,
@@ -6699,8 +6642,8 @@
       "Big Apple Completed": 2,
       "Hound Shrine Crafted": 1,
       "Cobia Fed": 20,
-      "Coins Order Delivered": 252,
-      "FLOWER Order Delivered": 128,
+      "Coins Order Delivered": 254,
+      "FLOWER Order Delivered": 130,
       "Napoleanfish Caught": 48,
       "Mahi Mahi Caught": 290,
       "Hammerhead shark Caught": 10,
@@ -6865,15 +6808,15 @@
       "Lava Pit Bought": 1,
       "Airdrop Reward Claimed": 6,
       "Greenhouse Oiled": 15,
-      "Marketplace Listing Created": 1164,
+      "Marketplace Listing Created": 1168,
       "Digging Reward Collected": 26,
       "Pirate Chest Opened": 30,
-      "Marketplace Bulk Listings Cancelled": 80,
+      "Marketplace Bulk Listings Cancelled": 81,
       "Shipment Restocked": 56,
       "General Store Restocked": 44,
-      "FLOWER Withdraw Started": 8,
-      "FLOWER Withdrawn": 2380,
-      "Marketplace Listing Cancelled": 11,
+      "FLOWER Withdraw Started": 9,
+      "FLOWER Withdrawn": 2626,
+      "Marketplace Listing Cancelled": 12,
       "Basic Tree Chopped": 8075,
       "Iron Rock Mined": 2172,
       "Stone Rock Mined": 4218,
@@ -6881,8 +6824,8 @@
       "Betty Shop Restocked": 12,
       "Recipe Queue Cancelled": 4,
       "Daily Reward Collected": 46,
-      "Farm Cheered": 81,
-      "Farm Helped": 38,
+      "Farm Cheered": 86,
+      "Farm Helped": 39,
       "Gold Rock Mined": 6,
       "Moon Crystal Sold": 164,
       "Auction Bid Placed": 4,
@@ -7219,7 +7162,8 @@
           "readyAt": 1769791142542,
           "reward": {
             "sfl": 0.4
-          }
+          },
+          "completedAt": 1769791834097
         },
         {
           "createdAt": 1769791144297,
@@ -7246,7 +7190,8 @@
           "reward": {
             "coins": 1234,
             "items": {}
-          }
+          },
+          "completedAt": 1769791860656
         },
         {
           "createdAt": 1769791199045,
@@ -7259,7 +7204,8 @@
           "reward": {
             "coins": 800,
             "items": {}
-          }
+          },
+          "completedAt": 1769791865662
         },
         {
           "createdAt": 1769791645830,
@@ -7295,7 +7241,8 @@
           "readyAt": 1769791645830,
           "reward": {
             "sfl": 1.15
-          }
+          },
+          "completedAt": 1769791882154
         },
         {
           "createdAt": 1769791666924,
@@ -7327,7 +7274,7 @@
           }
         }
       ],
-      "fulfilledCount": 5707,
+      "fulfilledCount": 5711,
       "milestone": {
         "claimedAt": 1708393082411,
         "total": 1070,
@@ -7446,15 +7393,15 @@
         }
       },
       "betty": {
-        "deliveryCount": 781,
+        "deliveryCount": 782,
         "skippedCount": 14,
         "friendship": {
-          "updatedAt": 1769791113498,
-          "points": 5164,
+          "updatedAt": 1769791860656,
+          "points": 5167,
           "giftClaimedAtPoints": 5110,
           "giftedAt": 1769791113498
         },
-        "deliveryCompletedAt": 1769791111928,
+        "deliveryCompletedAt": 1769791860656,
         "choreCount": 30,
         "streaks": {
           "streak": 1,
@@ -7462,9 +7409,9 @@
         }
       },
       "grimbly": {
-        "deliveryCount": 197,
+        "deliveryCount": 198,
         "skippedCount": 64,
-        "deliveryCompletedAt": 1769030798413,
+        "deliveryCompletedAt": 1769791834097,
         "streaks": {
           "streak": 1,
           "lastClaimedAt": 1745686470459
@@ -7608,15 +7555,15 @@
         }
       },
       "blacksmith": {
-        "deliveryCount": 787,
+        "deliveryCount": 788,
         "skippedCount": 24,
         "friendship": {
-          "updatedAt": 1769791118462,
-          "points": 3147,
+          "updatedAt": 1769791865662,
+          "points": 3150,
           "giftClaimedAtPoints": 3020,
           "giftedAt": 1765573647715
         },
-        "deliveryCompletedAt": 1769791118462,
+        "deliveryCompletedAt": 1769791865662,
         "choreCount": 28,
         "streaks": {
           "streak": 1,
@@ -7674,9 +7621,9 @@
         "skippedCount": 3
       },
       "guria": {
-        "deliveryCount": 81,
+        "deliveryCount": 82,
         "skippedCount": 40,
-        "deliveryCompletedAt": 1769791561051,
+        "deliveryCompletedAt": 1769791882154,
         "streaks": {
           "streak": 1,
           "lastClaimedAt": 1745686455324
@@ -9342,7 +9289,7 @@
       "Sunshower": 1769468849661
     },
     "socialFarming": {
-      "points": 20086,
+      "points": 20106,
       "villageProjects": {
         "Miner's Monument": {
           "cheers": 2464,
@@ -9379,7 +9326,12 @@
           3271019388298246,
           3460380664746023,
           6402011095901551,
-          5837222500181104
+          5837222500181104,
+          7536151076011691,
+          849762198027248,
+          881704000165225,
+          5936254614562358,
+          640760803790293
         ]
       },
       "clutter": {
@@ -9424,7 +9376,7 @@
       },
       "weeklyPoints": {
         "week": "2026-01-26",
-        "points": 495
+        "points": 515
       },
       "helpedForCompetition": 142,
       "waves": {
