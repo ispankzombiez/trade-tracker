@@ -1,6 +1,6 @@
 {
   "id": 2299,
-  "totalTrades": 8341,
+  "totalTrades": 8342,
   "level": 86,
   "weeklyFlowerSpent": 172.9763,
   "weeklyFlowerEarned": 10.1486525,
@@ -15,7 +15,9 @@
       },
       "sfl": 5.36,
       "tax": 0.402,
-      "tradeType": "instant"
+      "tradeType": "instant",
+      "fulfilledAt": 1769780856730,
+      "fulfilledById": 139666
     }
   },
   "offers": {},
@@ -52,6 +54,25 @@
     }
   ],
   "trades": [
+    {
+      "id": "1d34ca22",
+      "sfl": 5.36,
+      "quantity": 10,
+      "itemId": 2638,
+      "collection": "collectibles",
+      "source": "listing",
+      "fulfilledAt": 1769780856730,
+      "initiatedBy": {
+        "id": 2299,
+        "bumpkinUri": "0_v1_460_90_52_282_234_22_240_255_28_371_16_458_422_189",
+        "username": "Haesoo"
+      },
+      "fulfilledBy": {
+        "id": 139666,
+        "bumpkinUri": "0_v1_364_90_202_85_234_89_44_476_0_238_86_124",
+        "username": "pirateking"
+      }
+    },
     {
       "id": "0dba73de",
       "sfl": 0.8975,
@@ -972,25 +993,6 @@
       "collection": "collectibles",
       "source": "offer",
       "fulfilledAt": 1769621604982,
-      "initiatedBy": {
-        "id": 7389880547711604,
-        "bumpkinUri": "0_v1_460_90_52_282_234_22_240_255_28_371_16_458_422_189",
-        "username": "Haesoo"
-      },
-      "fulfilledBy": {
-        "id": 2299,
-        "bumpkinUri": "0_v1_32_90_5_15_234_22_226_517_0_228_0_458",
-        "username": "PalkaSalyami"
-      }
-    },
-    {
-      "id": "5e58ba4a",
-      "sfl": 0.315,
-      "quantity": 5,
-      "itemId": 603,
-      "collection": "collectibles",
-      "source": "offer",
-      "fulfilledAt": 1769621601424,
       "initiatedBy": {
         "id": 7389880547711604,
         "bumpkinUri": "0_v1_460_90_52_282_234_22_240_255_28_371_16_458_422_189",

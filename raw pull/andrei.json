@@ -45,14 +45,14 @@
       "Radish": "3.0060000000000167",
       "Wheat": "2.398599999999931",
       "Kale": "689.1339000000000027",
-      "Apple": "75.100000000000304",
+      "Apple": "24.100000000000304",
       "Blueberry": "35.5500000000002356",
-      "Orange": "123.5000000000000706",
+      "Orange": "118.5000000000000706",
       "Eggplant": "62.1840000000000147",
       "Corn": "0.1386000000001591",
       "Banana": "67.250000000001458",
       "Yellow Pansy": "7",
-      "Purple Pansy": "18",
+      "Purple Pansy": "21",
       "Blue Pansy": "7",
       "Red Cosmos": "2",
       "Yellow Cosmos": "7",
@@ -116,7 +116,7 @@
       "Pickaxe": "90",
       "Stone Pickaxe": "207",
       "Iron Pickaxe": "161",
-      "Rod": "126",
+      "Rod": "107",
       "Shovel": "1",
       "Sand Shovel": "218",
       "Gold Pickaxe": "13",
@@ -192,7 +192,7 @@
       "Mushroom Soup": "8",
       "Reindeer Carrot": "103",
       "Apple Juice": "180",
-      "Orange Juice": "168",
+      "Orange Juice": "169",
       "Purple Smoothie": "200",
       "Power Smoothie": "181",
       "Bumpkin Detox": "178",
@@ -252,8 +252,8 @@
       "Fruit Patch": "15",
       "Basic Land": "21",
       "Earthworm": "2677",
-      "Grub": "1590",
-      "Red Wiggler": "165",
+      "Grub": "1575",
+      "Red Wiggler": "161",
       "Sprout Mix": "3749",
       "Fruitful Blend": "5005",
       "Rapid Root": "4608",
@@ -268,7 +268,7 @@
       "Wool": "82.1",
       "Merino Wool": "88.3",
       "Feather": "473",
-      "Milk": "17.5",
+      "Milk": "11.5",
       "Hay": "67.3875000000003225",
       "Kernel Blend": "25.355000000000199",
       "NutriBarley": "27.5162500000004585",
@@ -331,7 +331,7 @@
       "Wooden Compass": "161",
       "Pablo The Bunny": "1",
       "Iron Compass": "143",
-      "Old Bottle": "1088",
+      "Old Bottle": "1094",
       "Emerald Compass": "18",
       "Baby Panda": "9",
       "Baozi": "1",
@@ -433,34 +433,34 @@
       "Coral": "93",
       "Clam Shell": "188",
       "Pipi": "192",
-      "Starfish": "1518",
-      "Seaweed": "719",
-      "Sea Cucumber": "1340",
-      "Crab": "5017",
+      "Starfish": "1522",
+      "Seaweed": "721",
+      "Sea Cucumber": "1346",
+      "Crab": "5027",
       "Warty Goblin Pumpkin": "3",
       "Camel Bone": "1691",
       "Cockle Shell": "215",
       "Sand": "247",
       "Scarab": "10",
       "Vase": "1011",
-      "Anchovy": "509",
-      "Butterflyfish": "275",
+      "Anchovy": "519",
+      "Butterflyfish": "278",
       "Blowfish": "405",
       "Clownfish": "493",
-      "Sea Bass": "254",
+      "Sea Bass": "261",
       "Sea Horse": "202",
       "Horse Mackerel": "106",
       "Squid": "106",
-      "Red Snapper": "215",
-      "Moray Eel": "1131",
-      "Olive Flounder": "375",
-      "Napoleanfish": "347",
+      "Red Snapper": "225",
+      "Moray Eel": "1140",
+      "Olive Flounder": "377",
+      "Napoleanfish": "356",
       "Surgeonfish": "442",
       "Zebra Turkeyfish": "132",
       "Ray": "51",
       "Hammerhead shark": "329",
-      "Tuna": "126",
-      "Mahi Mahi": "774",
+      "Tuna": "128",
+      "Mahi Mahi": "777",
       "Blue Marlin": "478",
       "Oarfish": "393",
       "Football fish": "81",
@@ -474,14 +474,14 @@
       "Starlight Tuna": "2",
       "Kraken Tentacle": "24",
       "Angelfish": "57",
-      "Halibut": "417",
+      "Halibut": "425",
       "Parrotfish": "79",
       "Porgy": "209",
-      "Muskellunge": "151",
+      "Muskellunge": "156",
       "Trout": "94",
       "Walleye": "82",
       "Weakfish": "260",
-      "Rock Blackfish": "139",
+      "Rock Blackfish": "146",
       "Cobia": "162",
       "Tilapia": "97",
       "White Festive Fox": "1",
@@ -618,7 +618,7 @@
       "Trade Point": "13889.328834151841391",
       "Ancient Clock": "48",
       "Broken Pillar": "90",
-      "Love Charm": "32.8",
+      "Love Charm": "38.8",
       "Bracelet": "59",
       "Coprolite": "70",
       "Dung": "3818",
@@ -633,7 +633,7 @@
       "Moo Doll": "4",
       "Holiday Ticket 2025": "7",
       "Pepper Seed": "225",
-      "Cheese": "89",
+      "Cheese": "91",
       "Tomato Seed": "60",
       "Kale Omelette": "5",
       "Orange Cake": "6",
@@ -6383,28 +6383,8 @@
             "y": 6
           },
           "readyAt": 1746544864852,
-          "oil": 1.4999999999999998,
+          "oil": 1.1666666666666663,
           "crafting": [
-            {
-              "name": "Cheese",
-              "boost": {
-                "Oil": 0.16666666666666582
-              },
-              "skills": {
-                "Double Nom": false
-              },
-              "readyAt": 1769779922061
-            },
-            {
-              "name": "Cheese",
-              "boost": {
-                "Oil": 0.16666666666666666
-              },
-              "skills": {
-                "Double Nom": false
-              },
-              "readyAt": 1769780570061
-            },
             {
               "name": "Cheese",
               "boost": {
@@ -6424,6 +6404,26 @@
                 "Double Nom": false
               },
               "readyAt": 1769781866061
+            },
+            {
+              "name": "Cheese",
+              "boost": {
+                "Oil": 0.16666666666666666
+              },
+              "skills": {
+                "Double Nom": false
+              },
+              "readyAt": 1769782514061
+            },
+            {
+              "name": "Cheese",
+              "boost": {
+                "Oil": 0.16666666666666666
+              },
+              "skills": {
+                "Double Nom": false
+              },
+              "readyAt": 1769783162061
             }
           ]
         }
@@ -6503,16 +6503,6 @@
               "skills": {
                 "Double Nom": false
               },
-              "readyAt": 1769780123247
-            },
-            {
-              "name": "Orange Juice",
-              "boost": {
-                "Oil": 0
-              },
-              "skills": {
-                "Double Nom": false
-              },
               "readyAt": 1769782553247
             },
             {
@@ -6534,6 +6524,16 @@
                 "Double Nom": false
               },
               "readyAt": 1769787413247
+            },
+            {
+              "name": "Orange Juice",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": false
+              },
+              "readyAt": 1769789843247
             }
           ],
           "oil": 0
@@ -9660,12 +9660,12 @@
       "petalPuzzleSolvedAt": 1769779243099
     },
     "farmActivity": {
-      "Napoleanfish Caught": 596,
+      "Napoleanfish Caught": 605,
       "Blue Daffodil Harvested": 12,
-      "Mahi Mahi Caught": 866,
+      "Mahi Mahi Caught": 869,
       "Battle Fish Caught": 1,
       "Hammerhead shark Caught": 329,
-      "Olive Flounder Caught": 596,
+      "Olive Flounder Caught": 598,
       "Sunfish Caught": 317,
       "Blue Balloon Flower Harvested": 150,
       "Purple Lotus Harvested": 22,
@@ -9674,35 +9674,35 @@
       "Red Cosmos Harvested": 18,
       "Purple Cosmos Harvested": 203,
       "Red Lotus Harvested": 26,
-      "Crab Caught": 1344,
-      "Butterflyfish Caught": 596,
+      "Crab Caught": 1354,
+      "Butterflyfish Caught": 599,
       "Clownfish Caught": 519,
       "Surgeonfish Caught": 547,
       "Squid Caught": 285,
       "White Daffodil Harvested": 24,
-      "Halibut Caught": 480,
+      "Halibut Caught": 488,
       "Zebra Turkeyfish Caught": 250,
       "Parrotfish Caught": 198,
       "Purple Daffodil Harvested": 194,
-      "Red Snapper Caught": 3189,
+      "Red Snapper Caught": 3199,
       "Saw Shark Caught": 11,
       "Angelfish Caught": 160,
       "White Balloon Flower Harvested": 18,
-      "Starfish Caught": 1558,
+      "Starfish Caught": 1562,
       "Blue Lotus Harvested": 25,
       "White Lotus Harvested": 197,
       "Yellow Lotus Harvested": 52,
-      "Sea Bass Caught": 349,
+      "Sea Bass Caught": 356,
       "White Shark Caught": 30,
-      "Old Bottle Caught": 1109,
+      "Old Bottle Caught": 1115,
       "Horse Mackerel Caught": 126,
-      "Anchovy Caught": 5892,
+      "Anchovy Caught": 5902,
       "Football fish Caught": 140,
       "Kraken Tentacle Caught": 104,
       "Red Pansy Harvested": 287,
       "White Cosmos Harvested": 22,
       "Blue Carnation Harvested": 52,
-      "Tuna Caught": 4777,
+      "Tuna Caught": 4779,
       "Red Balloon Flower Harvested": 379,
       "Purple Balloon Flower Harvested": 24,
       "Purple Carnation Harvested": 36,
@@ -9711,13 +9711,13 @@
       "Celestial Frostbloom Harvested": 156,
       "Primula Enigma Harvested": 12,
       "Blue Marlin Caught": 567,
-      "Moray Eel Caught": 1248,
+      "Moray Eel Caught": 1257,
       "Sea Horse Caught": 238,
       "Purple Pansy Harvested": 24,
       "Whale Shark Caught": 8,
-      "Seaweed Caught": 1676,
+      "Seaweed Caught": 1678,
       "Yellow Daffodil Harvested": 28,
-      "Sea Cucumber Caught": 1337,
+      "Sea Cucumber Caught": 1343,
       "Yellow Carnation Harvested": 36,
       "Blowfish Caught": 457,
       "Oarfish Caught": 473,
@@ -9766,9 +9766,9 @@
       "White Tulips Crafted": 20,
       "Purple Daffodil Bountied": 4,
       "Yellow Cosmos Bountied": 7,
-      "Rock Blackfish Caught": 153,
+      "Rock Blackfish Caught": 160,
       "Yellow Clover Harvested": 23,
-      "Muskellunge Caught": 170,
+      "Muskellunge Caught": 175,
       "Dirt Path Crafted": 6,
       "Iron Rock Bought": 3,
       "Crop Plot Bought": 1,
@@ -9951,7 +9951,7 @@
       "Gift Giver Reward Opened": 17,
       "Farm Helped": 479,
       "Farm Cheered": 196,
-      "Airdrop Reward Claimed": 183,
+      "Airdrop Reward Claimed": 184,
       "Digging Reward Collected": 65,
       "Pirate Chest Opened": 65,
       "Shipment Restocked": 63,
@@ -9972,7 +9972,7 @@
       "Pipi Sold": 109,
       "Soybean Seed Bought": 35580,
       "Tofu Scramble Cooked": 295,
-      "Orange Juice Cooked": 1820,
+      "Orange Juice Cooked": 1821,
       "Pancakes Cooked": 103,
       "Banana Plant Planted": 2698,
       "Bumpkin Detox Fed": 424,
@@ -10134,7 +10134,7 @@
       "Potted Sunflower Bought": 5,
       "Bumpkin Salad Dug": 104,
       "White Tulips Bought": 2,
-      "Rod Casted": 16439,
+      "Rod Casted": 16458,
       "Surfboard Bought": 1,
       "Cabbage Seed Bought": 63105,
       "Iron Pickaxe Crafted": 4897,
@@ -10384,7 +10384,7 @@
       "Baobab Tree Crafted": 1,
       "Chicken Cured": 143,
       "Hen House Sold": 1,
-      "Cheese Cooked": 5567,
+      "Cheese Cooked": 5569,
       "Pizza Margherita Cooked": 461,
       "Blue Cheese Cooked": 73,
       "Cowboy Hat Bought": 1,
@@ -10683,25 +10683,10 @@
     },
     "fishing": {
       "wharf": {
-        "bait": "Earthworm",
-        "castedAt": 1769779395958,
-        "caught": {
-          "Anchovy": 10,
-          "Sea Bass": 7,
-          "Sea Cucumber": 4,
-          "Crab": 10,
-          "Old Bottle": 4,
-          "Moray Eel": 5,
-          "Seaweed": 2,
-          "Muskellunge": 5,
-          "Butterflyfish": 3,
-          "Halibut": 8
-        },
-        "chum": "Apple",
-        "multiplier": 25
+        "bait": "Red Wiggler"
       },
       "dailyAttempts": {
-        "2026-01-30": 36
+        "2026-01-30": 55
       },
       "extraReels": {
         "timesBought": {
@@ -12048,7 +12033,7 @@
           "petXP": 4500,
           "score": 3078.2000000000003,
           "collectivePet": {
-            "totalXP": 8482185,
+            "totalXP": 8513185,
             "goalXP": 4586794,
             "goalReached": true,
             "streak": 6,
@@ -13469,8 +13454,8 @@
       "startedAt": 1743468458265,
       "joinedAt": 1743468540417,
       "quest": {
-        "startAt": 1769779209497,
-        "name": "finley-fish",
+        "startAt": 1769866140036,
+        "name": "goblin-upgrade",
         "choices": []
       }
     },
@@ -13682,7 +13667,7 @@
     "boostsUsedAt": {
       "Apprentice Beaver": 1769779377832,
       "Bud #2308": 1764234543978,
-      "Desert Gnome": 1769779292288,
+      "Desert Gnome": 1769780824868,
       "Efficient Bin": 1769767967955,
       "Fast Feasts": 1769769657101,
       "Lumberjack's Extra": 1769779377832,
@@ -13774,15 +13759,15 @@
       "Munching Mastery": 1769065966554,
       "Observatory": 1764222127177,
       "Chonky Scarecrow": 1768933974034,
-      "Angler Waders": 1769779395958,
-      "Crab Hat": 1769779395958,
-      "Fisherman's 10 Fold": 1769779395958,
-      "Fisherman's 5 Fold": 1769779395958,
+      "Angler Waders": 1769779954077,
+      "Crab Hat": 1769779861892,
+      "Fisherman's 10 Fold": 1769779954077,
+      "Fisherman's 5 Fold": 1769779954077,
       "Pink Dolphin": 1768711801347,
-      "Trident": 1769779395958,
-      "Fishy Roll": 1769769758326,
+      "Trident": 1769779954077,
+      "Fishy Roll": 1769779861892,
       "Maneki Neko": 1769767961880,
-      "Sunflower Rod": 1769779395958,
+      "Sunflower Rod": 1769779861892,
       "Fishy Fortune": 1769770679474,
       "Fruity Profit": 1769770713280,
       "Bionic Drill": 1769770967352,
@@ -13823,7 +13808,7 @@
       "Deep Sea Helm": 1767457763552,
       "Stone Beetle": 1768990824069,
       "Giant Yam": 1769775965392,
-      "Poseidon": 1769779395958,
+      "Poseidon": 1769779954077,
       "Fox Shrine": 1756791387541,
       "Ladybug Suit": 1765443683704,
       "Skill Shrimpy": 1769065966554,
@@ -13842,7 +13827,7 @@
       "Frosted Cakes": 1769769681349,
       "Sunflorian Quiver": 1769779341376,
       "Tree Turnaround": 1769775599441,
-      "Reelmaster's Chair": 1769779395958,
+      "Reelmaster's Chair": 1769779954077,
       "Architect Ruler": 1769779270829,
       "Bucket O' Worms": 1769769644588,
       "Wormy Treat": 1769769644588,
@@ -13852,7 +13837,7 @@
       "Treasure Map": 1768527936305,
       "Lab Grown Radish": 1764488294784,
       "Eggplant Onesie": 1768826300422,
-      "Saw Fish": 1769779395958,
+      "Saw Fish": 1769779954077,
       "Flower Power": 1769685730246,
       "Kernaldo": 1768741044125,
       "Lunar Temple": 1768871596820,
@@ -13862,7 +13847,7 @@
       "Sleepy Chicken": 1769772036051
     },
     "socialFarming": {
-      "points": 264170,
+      "points": 264178,
       "villageProjects": {
         "Farmer's Monument": {
           "cheers": 100
@@ -13880,7 +13865,7 @@
           "winnerId": 69406
         },
         "Big Banana": {
-          "cheers": 72,
+          "cheers": 73,
           "winnerId": 820356515938507
         },
         "Expert Cooking Pot": {
@@ -13888,11 +13873,11 @@
           "winnerId": 7799
         },
         "Big Orange": {
-          "cheers": 18,
+          "cheers": 19,
           "winnerId": 8145501869372147
         },
         "Big Apple": {
-          "cheers": 18,
+          "cheers": 19,
           "winnerId": 195236
         }
       },
@@ -13950,7 +13935,7 @@
       },
       "weeklyPoints": {
         "week": "2026-01-26",
-        "points": 2409
+        "points": 2417
       },
       "helpedForCompetition": 511,
       "waves": {
