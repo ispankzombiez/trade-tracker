@@ -899,6 +899,67 @@
         let currentUser = null;
         let currentTab = 'overview';
 
+        // Utility function to format dates with proper local timezone handling
+        function formatLocalDateTime(dateString) {
+            if (!dateString) return 'Unknown';
+            
+            // Ensure the date string is treated as UTC if it doesn't have timezone info
+            let date;
+            if (dateString.includes('T') && !dateString.includes('Z') && !dateString.match(/[+-]\d{2}:\d{2}$/)) {
+                // Add 'Z' to indicate UTC if not present
+                date = new Date(dateString + 'Z');
+            } else {
+                date = new Date(dateString);
+            }
+            
+            // Check if date is valid
+            if (isNaN(date.getTime())) return 'Invalid Date';
+            
+            const options = {
+                year: 'numeric',
+                month: '2-digit', 
+                day: '2-digit',
+                hour: '2-digit',
+                minute: '2-digit',
+                second: '2-digit',
+                timeZoneName: 'short'
+            };
+            
+            return date.toLocaleString(undefined, options);
+        }
+        
+        function formatLocalDate(dateString) {
+            if (!dateString) return 'Unknown';
+            
+            // Handle date-only strings vs full datetime strings
+            const date = new Date(dateString);
+            if (isNaN(date.getTime())) return 'Invalid Date';
+            
+            return date.toLocaleDateString();
+        }
+        
+        function formatLocalTime(timeString, dateString = null) {
+            if (!timeString) return 'Unknown';
+            
+            // If we have both date and time, combine them for proper parsing
+            let fullDateTime;
+            if (dateString) {
+                fullDateTime = `${dateString} ${timeString}`;
+            } else {
+                fullDateTime = timeString;
+            }
+            
+            const date = new Date(fullDateTime);
+            
+            if (isNaN(date.getTime())) return timeString; // Return original if parsing fails
+            
+            return date.toLocaleTimeString(undefined, { 
+                hour: '2-digit', 
+                minute: '2-digit',
+                timeZoneName: 'short'
+            });
+        }
+
         function debugLog(message) {
             const debugElement = document.getElementById('debugLog');
             if (debugElement) {
@@ -982,9 +1043,9 @@
         }
 
         function updateLastUpdated() {
-            const date = new Date(dashboardData.last_updated);
+            const formattedDateTime = formatLocalDateTime(dashboardData.last_updated);
             document.getElementById('lastUpdated').textContent = 
-                `🔄 Last Updated: ${date.toLocaleDateString()} ${date.toLocaleTimeString()}`;
+                `🔄 Last Updated: ${formattedDateTime}`;
         }
 
         function updateTopTraders() {
@@ -1051,7 +1112,7 @@
                         <span class="trade-type ${tradeTypeClass}">${activity.type}</span>
                         <strong>${activity.item}</strong> x${activity.quantity}
                         <br>
-                        <small>${activity.username} • ${activity.date} ${activity.time}</small>
+                        <small>${activity.username} • ${formatLocalDate(activity.date)} ${formatLocalTime(activity.time, activity.date)}</small>
                     </div>
                     <div class="profit-amount">${activity.price.toFixed(2)} SFL</div>
                 `;
@@ -1075,7 +1136,7 @@
                 'aeon', 'dcol', 'deltaomega', 'ispank', 'raichupus', 'riddlemeknot', 'tourist',
                 'adam', 'andrei', 'blasta', 'broes', 'celinhotv', 'craig', 'droid', 'elias',
                 'haesoo', 'jaysuper', 'labochi', 'thinktronik', 'wtftooma'
-            ];
+            ].sort(); // Sort alphabetically
             
             debugLog(`Checking ${knownUsers.length} known users for data availability`);
             
@@ -1274,7 +1335,7 @@
                                         <span class="trade-type trade-${trade.type.toLowerCase()}">${trade.type}</span>
                                         <strong>${trade.item}</strong> x${trade.quantity}
                                         <br>
-                                        <small>${trade.date} ${trade.time}</small>
+                                        <small>${formatLocalDate(trade.date)} ${formatLocalTime(trade.time, trade.date)}</small>
                                     </div>
                                     <div class="profit-amount">${trade.price.toFixed(2)} SFL</div>
                                 </div>
@@ -1365,7 +1426,7 @@
                                         <br>
                                         <small>Counterparty: ${trade.counterparty}</small>
                                         <br>
-                                        <small>${trade.date} ${trade.time}</small>
+                                        <small>${formatLocalDate(trade.date)} ${formatLocalTime(trade.time, trade.date)}</small>
                                     </div>
                                     <div class="profit-amount">${trade.price.toFixed(2)} SFL</div>
                                 </div>
@@ -1523,7 +1584,7 @@
                         <span>${trade.price.toFixed(2)} SFL</span>
                     </div>
                     <div class="trade-item-details">
-                        Quantity: ${trade.quantity} • ${trade.date} ${trade.time}
+                        Quantity: ${trade.quantity} • ${formatLocalDate(trade.date)} ${formatLocalTime(trade.time, trade.date)}
                     </div>
                     <div class="trade-item-details">
                         Counterparty: ${trade.counterparty}
