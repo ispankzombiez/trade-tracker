@@ -7,7 +7,6 @@ on:
     paths:
       - 'web/**'
       - 'scripts/generate_dashboard_data.py'
-      - 'farm_ids.txt'
   
 permissions:
   contents: write  # Allow writing to repository
