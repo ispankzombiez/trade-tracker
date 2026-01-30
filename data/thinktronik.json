@@ -1,16 +1,16 @@
 {
   "username": "thinktronik",
   "overview": {
-    "balance": 57.58,
+    "balance": 63.19,
     "coins": 17662.0,
     "gems": 0.0,
     "earned_sfl": 7919.49,
     "earned_coins": 17662.0,
     "spent_sfl": 7980.17,
-    "items_sold": 4511.0,
+    "items_sold": 4512.0,
     "trade_points": 9373.29,
-    "last_updated": "2026-01-30 08:34 PM",
-    "active_listings": 13
+    "last_updated": "2026-01-30 08:52 PM",
+    "active_listings": 12
   },
   "buys": [
     {
@@ -51,6 +51,30 @@
     }
   ],
   "sells": [
+    {
+      "date": "2026-01-30",
+      "time": "08:47 PM",
+      "type": "SELL",
+      "item": "Lemon",
+      "quantity": 200,
+      "price_text": "1.9828 SFL",
+      "price": 1.9828,
+      "counterparty": "Zype",
+      "farm_id": "-",
+      "trade_id": "723df696"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "08:44 PM",
+      "type": "SELL",
+      "item": "Milk",
+      "quantity": 60,
+      "price_text": "7.284 SFL",
+      "price": 7.284,
+      "counterparty": "yangwi",
+      "farm_id": "-",
+      "trade_id": "84a6975d"
+    },
     {
       "date": "2026-01-30",
       "time": "08:11 PM",
@@ -883,12 +907,12 @@
   "last_updated": null,
   "stats": {
     "total_buys": 3,
-    "total_sells": 69,
+    "total_sells": 71,
     "buy_volume": 3.1991,
-    "sell_volume": 304.23749999999995,
-    "gross_profit": 301.03839999999997,
+    "sell_volume": 313.50429999999994,
+    "gross_profit": 310.30519999999996,
     "avg_buy_price": 1.0663666666666667,
-    "avg_sell_price": 4.4092391304347816,
+    "avg_sell_price": 4.41555352112676,
     "most_traded_items": {},
     "recent_activity": [
       {
@@ -920,11 +944,11 @@
       },
       {
         "type": "SELL",
-        "item": "Milk",
-        "quantity": 50,
-        "price": 6.07,
+        "item": "Lemon",
+        "quantity": 200,
+        "price": 1.9828,
         "date": "2026-01-30",
-        "time": "08:11 PM",
+        "time": "08:47 PM",
         "username": "thinktronik"
       },
       {
@@ -933,8 +957,24 @@
         "quantity": 60,
         "price": 7.284,
         "date": "2026-01-30",
-        "time": "07:41 PM",
+        "time": "08:44 PM",
         "username": "thinktronik"
+      },
+      {
+        "type": "SELL",
+        "item": "Milk",
+        "quantity": 50,
+        "price": 6.07,
+        "date": "2026-01-30",
+        "time": "08:11 PM"
+      },
+      {
+        "type": "SELL",
+        "item": "Milk",
+        "quantity": 60,
+        "price": 7.284,
+        "date": "2026-01-30",
+        "time": "07:41 PM"
       },
       {
         "type": "SELL",
@@ -1039,40 +1079,24 @@
         "price": 2.5625,
         "date": "2026-01-30",
         "time": "09:21 AM"
-      },
-      {
-        "type": "SELL",
-        "item": "Moonfur",
-        "quantity": 1,
-        "price": 3.278,
-        "date": "2026-01-30",
-        "time": "05:30 AM"
-      },
-      {
-        "type": "SELL",
-        "item": "Moonfur",
-        "quantity": 1,
-        "price": 3.278,
-        "date": "2026-01-30",
-        "time": "05:30 AM"
       }
     ],
-    "profit_margin": 9410.096589665842,
+    "profit_margin": 9699.765559063486,
     "most_bought_items": {
       "Yam": 887,
       "Broccoli": 259
     },
     "most_sold_items": {
       "Wheat": 1050,
-      "Milk": 935,
+      "Milk": 995,
       "Kale": 900,
       "Artichoke": 450,
       "Barley": 450,
       "Wood": 400,
       "Gold": 340,
+      "Lemon": 200,
       "Iron": 125,
-      "Rice": 40,
-      "Olive": 40
+      "Rice": 40
     }
   },
   "active_listings": [
@@ -1136,15 +1160,6 @@
       "quantity": 200,
       "price": 1.9828,
       "created_at": 1769796914921,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "5c2f6b29",
-      "item": "Milk",
-      "quantity": 50,
-      "price": 6.07,
-      "created_at": 1769800517423,
       "collection": "collectibles",
       "trade_type": "instant"
     },
@@ -1229,16 +1244,16 @@
       "Orange": 3918.3000000000034,
       "Banana": 2198.2500000000014,
       "Grape": 155.50000000000014,
-      "Tomato": 9277.200000000004,
+      "Tomato": 9311.750000000004,
       "Lemon": 1052.6000000000035,
       "Duskberry": 192.2,
       "Lunara": 17.200000000000024,
       "Celestine": 20.500000000000025
     },
     "resources": {
-      "Wood": 6647.95,
+      "Wood": 6702.17,
       "Stone": 1193.34,
-      "Iron": 864.1,
+      "Iron": 912.25,
       "Gold": 649.29,
       "Crimstone": 44.3,
       "Obsidian": 6.0
