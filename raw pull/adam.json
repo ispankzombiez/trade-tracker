@@ -1,7 +1,7 @@
 {
   "farm": {
     "coins": 28488.461802699952,
-    "balance": "3362.623982970796573",
+    "balance": "2740.623982970796573",
     "previousBalance": "2089.2240129707965729",
     "inventory": {
       "Sunflower Seed": "1844",
@@ -128,8 +128,8 @@
       "Rich Chicken": "2",
       "Rooster": "1",
       "Honey": "0.689182667824074105",
-      "Wild Mushroom": "394.4",
-      "Magic Mushroom": "158",
+      "Wild Mushroom": "395.4",
+      "Magic Mushroom": "159",
       "Tree": "23",
       "Stone Rock": "16",
       "Iron Rock": "12",
@@ -387,7 +387,7 @@
       "Vase": "11",
       "Scarab": "18",
       "Hieroglyph": "6",
-      "Trade Point": "4355.006868099479171",
+      "Trade Point": "4666.006868099479171",
       "Kale Seed": "38",
       "Cow Skull": "1",
       "Barley Seed": "14",
@@ -397,7 +397,7 @@
       "Onion Seed": "89",
       "Turnip Seed": "59",
       "Timeshard": "15",
-      "Love Charm": "13177",
+      "Love Charm": "13201",
       "Broken Pillar": "1",
       "Geniseed": "3",
       "Basic Biome": "1",
@@ -411,7 +411,7 @@
       "Giant Pumpkin": "4",
       "Miner's Monument": "1",
       "Woodcutter's Monument": "1",
-      "Cheer": "501",
+      "Cheer": "504",
       "Farmer's Monument": "1",
       "Better Together Banner": "1",
       "Pepper Seed": "118",
@@ -490,7 +490,8 @@
       "Wheat Cake": "1",
       "Sunflower Cake": "1",
       "Earthworm": "9",
-      "Oil Drill": "2"
+      "Oil Drill": "2",
+      "Autumn Guardian": "1"
     },
     "previousInventory": {
       "Sunflower Seed": "1000",
@@ -887,7 +888,8 @@
       "Pony Toy": "1",
       "Red Slime Balloon": "1",
       "Blue Slime Balloon": "1",
-      "Giant Turnip": "1"
+      "Giant Turnip": "1",
+      "Autumn Guardian": "1"
     },
     "shipments": {
       "restockedAt": 1769644499202
@@ -1620,11 +1622,6 @@
       }
     },
     "calendar": {
-      "fishFrenzy": {
-        "startedAt": 1769644800000,
-        "triggeredAt": 1769644809306,
-        "acknowledgedAt": 1769644905367
-      },
       "dates": [
         {
           "name": "sunshower",
@@ -1803,7 +1800,7 @@
         "y": -1,
         "crop": {
           "id": "8a770a63",
-          "plantedAt": 1769468436001,
+          "plantedAt": 1769596321212.5,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -1828,7 +1825,7 @@
         "y": -2,
         "crop": {
           "id": "25738e80",
-          "plantedAt": 1769468436233.5,
+          "plantedAt": 1769596321328.75,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -1845,7 +1842,7 @@
         "y": -3,
         "crop": {
           "id": "5e150039",
-          "plantedAt": 1769468436472.5,
+          "plantedAt": 1769596321448.25,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -1870,7 +1867,7 @@
         "y": -4,
         "crop": {
           "id": "d2068396",
-          "plantedAt": 1769468458868,
+          "plantedAt": 1769596332646,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -1887,7 +1884,7 @@
         "y": -1,
         "crop": {
           "id": "b3509741",
-          "plantedAt": 1769468459655,
+          "plantedAt": 1769596333039.5,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -1904,7 +1901,7 @@
         "y": -2,
         "crop": {
           "id": "787cb661",
-          "plantedAt": 1769468459318,
+          "plantedAt": 1769596332871,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -1921,7 +1918,7 @@
         "y": -3,
         "crop": {
           "id": "29abbe26",
-          "plantedAt": 1769468458560,
+          "plantedAt": 1769596332492,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -1938,7 +1935,7 @@
         "y": -4,
         "crop": {
           "id": "80a90190",
-          "plantedAt": 1769468436901.5,
+          "plantedAt": 1769596321662.75,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -1955,7 +1952,7 @@
         "y": -1,
         "crop": {
           "id": "02dba985",
-          "plantedAt": 1769468437935,
+          "plantedAt": 1769596322179.5,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -1972,7 +1969,7 @@
         "y": -2,
         "crop": {
           "id": "27233601",
-          "plantedAt": 1769468438152.5,
+          "plantedAt": 1769596322288.25,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -1989,7 +1986,7 @@
         "y": -3,
         "crop": {
           "id": "4196c16a",
-          "plantedAt": 1769468438384.5,
+          "plantedAt": 1769596322404.25,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -2006,7 +2003,7 @@
         "y": -4,
         "crop": {
           "id": "20ab391e",
-          "plantedAt": 1769468463210,
+          "plantedAt": 1769596334817,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -2023,7 +2020,7 @@
         "y": -1,
         "crop": {
           "id": "df014340",
-          "plantedAt": 1769468440072,
+          "plantedAt": 1769596323248,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -2040,7 +2037,7 @@
         "y": -2,
         "crop": {
           "id": "8fb355d2",
-          "plantedAt": 1769468439787,
+          "plantedAt": 1769596323105.5,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -2057,7 +2054,7 @@
         "y": -3,
         "crop": {
           "id": "a8e66c61",
-          "plantedAt": 1769468439502.5,
+          "plantedAt": 1769596322963.25,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -2074,7 +2071,7 @@
         "y": -4,
         "crop": {
           "id": "bb3cf9d3",
-          "plantedAt": 1769468439226,
+          "plantedAt": 1769596322825,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -2091,7 +2088,7 @@
         "y": -1,
         "crop": {
           "id": "249ea8a7",
-          "plantedAt": 1769468440327.5,
+          "plantedAt": 1769596323375.75,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -2108,7 +2105,7 @@
         "y": -2,
         "crop": {
           "id": "18374f37",
-          "plantedAt": 1769468440567.5,
+          "plantedAt": 1769596323495.75,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -2122,7 +2119,7 @@
         "y": 1,
         "crop": {
           "id": "b1822ad7",
-          "plantedAt": 1769468445877.5,
+          "plantedAt": 1769596326150.75,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -2136,7 +2133,7 @@
         "y": 4,
         "crop": {
           "id": "76c1db35",
-          "plantedAt": 1769468443906,
+          "plantedAt": 1769596325165,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -2153,7 +2150,7 @@
         "y": -3,
         "crop": {
           "id": "77874c84",
-          "plantedAt": 1769468440920,
+          "plantedAt": 1769596323672,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -2170,7 +2167,7 @@
         "y": -4,
         "crop": {
           "id": "c94c2fa4",
-          "plantedAt": 1769468463667,
+          "plantedAt": 1769596335045.5,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -2187,7 +2184,7 @@
         "y": -1,
         "crop": {
           "id": "5aa726ea",
-          "plantedAt": 1769468466300.5,
+          "plantedAt": 1769596336362.25,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -2204,7 +2201,7 @@
         "y": -2,
         "crop": {
           "id": "278619b8",
-          "plantedAt": 1769468465933,
+          "plantedAt": 1769596336178.5,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -2221,7 +2218,7 @@
         "y": -3,
         "crop": {
           "id": "d8d5a87c",
-          "plantedAt": 1769468441895,
+          "plantedAt": 1769596324159.5,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -2238,7 +2235,7 @@
         "y": -4,
         "crop": {
           "id": "fc3d628a",
-          "plantedAt": 1769468441497.5,
+          "plantedAt": 1769596323960.75,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -2255,7 +2252,7 @@
         "y": 4,
         "crop": {
           "id": "1395d69c",
-          "plantedAt": 1769468449912,
+          "plantedAt": 1769596328168,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -2272,7 +2269,7 @@
         "y": 3,
         "crop": {
           "id": "db3b4ec7",
-          "plantedAt": 1769468449612,
+          "plantedAt": 1769596328018,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -2289,7 +2286,7 @@
         "y": 2,
         "crop": {
           "id": "20c676d1",
-          "plantedAt": 1769468450647.5,
+          "plantedAt": 1769596328535.75,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -2306,7 +2303,7 @@
         "y": 1,
         "crop": {
           "id": "f0ccea4b",
-          "plantedAt": 1769468452703,
+          "plantedAt": 1769596329563.5,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -2323,7 +2320,7 @@
         "y": 4,
         "crop": {
           "id": "a52380b8",
-          "plantedAt": 1769468447858.5,
+          "plantedAt": 1769596327141.25,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -2340,7 +2337,7 @@
         "y": 3,
         "crop": {
           "id": "5960d67d",
-          "plantedAt": 1769468449268.5,
+          "plantedAt": 1769596327846.25,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -2357,7 +2354,7 @@
         "y": 2,
         "crop": {
           "id": "e53b82c8",
-          "plantedAt": 1769468464161.5,
+          "plantedAt": 1769596335292.75,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -2374,7 +2371,7 @@
         "y": 1,
         "crop": {
           "id": "7166c124",
-          "plantedAt": 1769468452343,
+          "plantedAt": 1769596329383.5,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -2391,7 +2388,7 @@
         "y": 4,
         "crop": {
           "id": "6faa70b1",
-          "plantedAt": 1769468448171.5,
+          "plantedAt": 1769596327297.75,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -2408,7 +2405,7 @@
         "y": 3,
         "crop": {
           "id": "ac76d6c6",
-          "plantedAt": 1769468449057.5,
+          "plantedAt": 1769596327740.75,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -2425,7 +2422,7 @@
         "y": 2,
         "crop": {
           "id": "ffbbced9",
-          "plantedAt": 1769468456843,
+          "plantedAt": 1769596331633.5,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -2442,7 +2439,7 @@
         "y": 1,
         "crop": {
           "id": "a91314f0",
-          "plantedAt": 1769468452118,
+          "plantedAt": 1769596329271,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -2459,7 +2456,7 @@
         "y": 4,
         "crop": {
           "id": "2dc3491f",
-          "plantedAt": 1769468457997.5,
+          "plantedAt": 1769596332210.75,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -2476,7 +2473,7 @@
         "y": 3,
         "crop": {
           "id": "b2cd19d5",
-          "plantedAt": 1769468457570,
+          "plantedAt": 1769596331997,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -2490,7 +2487,7 @@
         "y": 1,
         "crop": {
           "id": "28fffdcd",
-          "plantedAt": 1769468457180.5,
+          "plantedAt": 1769596331802.25,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -2512,7 +2509,7 @@
         "y": 2,
         "crop": {
           "id": "abf64936",
-          "plantedAt": 1769468451435,
+          "plantedAt": 1769596328929.5,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -2526,7 +2523,7 @@
         "y": 4,
         "crop": {
           "id": "6a42dffe",
-          "plantedAt": 1769468447084.5,
+          "plantedAt": 1769596326754.25,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -2540,7 +2537,7 @@
         "y": 4,
         "crop": {
           "id": "1d8bf11d",
-          "plantedAt": 1769468460518,
+          "plantedAt": 1769596333471,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -2554,7 +2551,7 @@
         "y": 1,
         "crop": {
           "id": "a9e8f837",
-          "plantedAt": 1769468444760,
+          "plantedAt": 1769596325592,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -2568,7 +2565,7 @@
         "y": 1,
         "crop": {
           "id": "9af8f9eb",
-          "plantedAt": 1769468445195.5,
+          "plantedAt": 1769596325809.75,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -2582,7 +2579,7 @@
         "y": 3,
         "crop": {
           "id": "aff05323",
-          "plantedAt": 1769468460158,
+          "plantedAt": 1769596333291,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -2604,7 +2601,7 @@
         "y": 2,
         "crop": {
           "id": "6a68a68f",
-          "plantedAt": 1769468446193.5,
+          "plantedAt": 1769596326308.75,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -2618,7 +2615,7 @@
         "y": 2,
         "crop": {
           "id": "5bc7d41b",
-          "plantedAt": 1769468445622.5,
+          "plantedAt": 1769596326023.25,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -2632,7 +2629,7 @@
         "y": 2,
         "crop": {
           "id": "8a8e3771",
-          "plantedAt": 1769468443125,
+          "plantedAt": 1769596324774.5,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -2646,7 +2643,7 @@
         "y": 1,
         "crop": {
           "id": "f9323dae",
-          "plantedAt": 1769468442877,
+          "plantedAt": 1769596324650.5,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -2660,7 +2657,7 @@
         "y": 3,
         "crop": {
           "id": "e9d41d14",
-          "plantedAt": 1769468446845.5,
+          "plantedAt": 1769596326634.75,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -2674,7 +2671,7 @@
         "y": 2,
         "crop": {
           "id": "96f28d71",
-          "plantedAt": 1769468444422.5,
+          "plantedAt": 1769596325423.25,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -2688,7 +2685,7 @@
         "y": 3,
         "crop": {
           "id": "c72dfda1",
-          "plantedAt": 1769468443380.5,
+          "plantedAt": 1769596324902.25,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -2702,7 +2699,7 @@
         "y": 4,
         "crop": {
           "id": "129fe1a1",
-          "plantedAt": 1769468447295,
+          "plantedAt": 1769596326859.5,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -2724,7 +2721,7 @@
         "y": 3,
         "crop": {
           "id": "6622c978",
-          "plantedAt": 1769468446597.5,
+          "plantedAt": 1769596326510.75,
           "boostedTime": 3780000,
           "name": "Broccoli",
           "criticalHit": {
@@ -3108,7 +3105,7 @@
           "tradeType": "onchain"
         }
       },
-      "tradePoints": 10355.00686809948,
+      "tradePoints": 10666.00686809948,
       "weeklyPurchases": {
         "2025-12-08": {
           "Clownfish": 1
@@ -3680,7 +3677,7 @@
         {
           "id": "1336e91f",
           "coordinates": {
-            "x": 8,
+            "x": 7,
             "y": 0
           }
         }
@@ -4020,6 +4017,15 @@
           "id": "bc9c9e29",
           "removedAt": 1769470281583
         }
+      ],
+      "Autumn Guardian": [
+        {
+          "id": "68c89428",
+          "coordinates": {
+            "x": 10,
+            "y": 0
+          }
+        }
       ]
     },
     "pumpkinPlaza": {
@@ -4092,24 +4098,20 @@
       }
     },
     "dailyRewards": {
-      "streaks": 1,
+      "streaks": 2,
       "chest": {
-        "collectedAt": 1769644907538,
-        "code": 43
+        "collectedAt": 1769731403183,
+        "code": 44
       }
     },
     "buffs": {
       "Power hour": {
-        "startedAt": 1769477671505,
+        "startedAt": 1769731406446,
         "durationMS": 3600000
       }
     },
     "floatingIsland": {
       "schedule": [
-        {
-          "startAt": 1769749200000,
-          "endAt": 1769751000000
-        },
         {
           "startAt": 1769779200000,
           "endAt": 1769781000000
@@ -4117,35 +4119,39 @@
         {
           "startAt": 1769809200000,
           "endAt": 1769811000000
+        },
+        {
+          "startAt": 1769839200000,
+          "endAt": 1769841000000
         }
       ],
       "shop": {
-        "Flower Coin": {
-          "type": "collectible",
+        "Luvvy Head": {
+          "type": "wearable",
           "cost": {
             "items": {
-              "Love Charm": 1500
+              "Love Charm": 650
             }
           },
-          "name": "Flower Coin"
+          "name": "Luvvy Head"
         },
-        "Gourmet Hourglass": {
+        "Time Warp Totem": {
           "type": "collectible",
           "cost": {
             "items": {
-              "Love Charm": 325
+              "Love Charm": 100
             }
           },
-          "name": "Gourmet Hourglass"
+          "name": "Time Warp Totem"
         },
-        "Bronze Love Box": {
+        "Silver Tool Box": {
           "type": "collectible",
           "cost": {
             "items": {
-              "Love Charm": 130
+              "Love Charm": 455
             }
           },
-          "name": "Bronze Love Box"
+          "name": "Silver Tool Box"
         }
       },
       "boughtAt": {
@@ -4290,7 +4296,7 @@
       "Potato Cake Cooked": 3,
       "Basic Scarecrow Crafted": 1,
       "Turbo Composter Collected": 16,
-      "Collectible Placed": 401,
+      "Collectible Placed": 402,
       "Grubnash's Tombstone Bought": 1,
       "Apple Juice Fed": 14,
       "Kale Harvested": 483,
@@ -4614,7 +4620,7 @@
       "Tornado Event Triggered": 4,
       "Farm Helped": 3,
       "Streamer Hat Reward Claimed": 8,
-      "Daily Reward Collected": 34,
+      "Daily Reward Collected": 35,
       "Mushroom Soup Cooked": 4,
       "Fused Stone Rock Mined": 1,
       "Angelfish Caught": 2,
@@ -4635,7 +4641,7 @@
       "Raffle Entries": 1492,
       "Raffle Won": 3,
       "Raffle Lost": 7,
-      "Pet Cookie Collected": 8,
+      "Pet Cookie Collected": 9,
       "Mariner Pot Placed": 1,
       "Paw Prints Points Earned": 15,
       "Ticket Order Delivered": 1,
@@ -4750,9 +4756,16 @@
       ]
     },
     "mushrooms": {
-      "magicSpawnedAt": 1769637600000,
-      "mushrooms": {},
-      "spawnedAt": 1769632650994
+      "magicSpawnedAt": 1769716800000,
+      "mushrooms": {
+        "b6b6314e": {
+          "name": "Wild Mushroom",
+          "amount": 1,
+          "x": 14,
+          "y": -5
+        }
+      },
+      "spawnedAt": 1769747850994
     },
     "delivery": {
       "orders": [
@@ -5046,8 +5059,8 @@
         "goal": 20
       },
       "dailySFL": {
-        "day": 29,
-        "amount": 4.280622530990529
+        "day": 30,
+        "amount": 4.281034391635981
       }
     },
     "potionHouse": {
@@ -5446,52 +5459,52 @@
         "mine-whack": {
           "coins": 0,
           "items": {
-            "Mark": 60
+            "Mark": 40
           },
           "wearables": {},
-          "score": 3500,
-          "startAt": 1769644800000,
-          "endAt": 1769731200000
+          "score": 2500,
+          "startAt": 1769731200000,
+          "endAt": 1769817600000
         },
         "chicken-rescue": {
           "coins": 0,
           "items": {
-            "Mark": 50
+            "Mark": 35
           },
           "wearables": {},
-          "score": 45,
-          "startAt": 1769644800000,
-          "endAt": 1769731200000
+          "score": 30,
+          "startAt": 1769731200000,
+          "endAt": 1769817600000
         },
         "crops-and-chickens": {
           "coins": 0,
           "items": {
-            "Mark": 20
+            "Mark": 60
           },
           "wearables": {},
-          "score": 500,
-          "startAt": 1769644800000,
-          "endAt": 1769731200000
+          "score": 4000,
+          "startAt": 1769731200000,
+          "endAt": 1769817600000
         },
         "fruit-dash": {
           "coins": 0,
           "items": {
-            "Mark": 55
+            "Mark": 40
           },
           "wearables": {},
-          "score": 2750,
-          "startAt": 1769644800000,
-          "endAt": 1769731200000
+          "score": 2000,
+          "startAt": 1769731200000,
+          "endAt": 1769817600000
         },
         "memory": {
           "coins": 0,
           "items": {
-            "Mark": 20
+            "Mark": 60
           },
           "wearables": {},
-          "score": 150,
-          "startAt": 1769644800000,
-          "endAt": 1769731200000
+          "score": 750,
+          "startAt": 1769731200000,
+          "endAt": 1769817600000
         }
       }
     },
@@ -5612,7 +5625,7 @@
           "petXP": 0,
           "score": 0,
           "collectivePet": {
-            "totalXP": 7473390,
+            "totalXP": 8109265,
             "goalXP": 4586794,
             "goalReached": true,
             "streak": 6,
@@ -5678,13 +5691,12 @@
         },
         "completedPatterns": [],
         "patterns": [
+          "ARTEFACT_SIXTEEN",
+          "ARTEFACT_TWENTY",
           "ARTEFACT_SEVENTEEN",
-          "ARTEFACT_TWENTY_TWO",
-          "ARTEFACT_TWENTY_THREE",
-          "HIEROGLYPH",
           "HIEROGLYPH",
           "SEA_CUCUMBERS",
-          "OLD_BOTTLE",
+          "SEAWEED",
           "WOODEN_COMPASS"
         ]
       }
@@ -6406,7 +6418,7 @@
       "Sunshower": 1769470241130
     },
     "socialFarming": {
-      "points": 5904,
+      "points": 5941,
       "villageProjects": {
         "Miner's Monument": {
           "cheers": 7
@@ -6437,32 +6449,32 @@
       },
       "dailyCollections": {},
       "clutter": {
-        "spawnedAt": 1769644808025,
+        "spawnedAt": 1769731212835,
         "locations": {
-          "559676e1": {
+          "8a1fa430": {
             "type": "Dung",
-            "x": 13,
-            "y": 6
+            "x": 2,
+            "y": -6
           },
-          "86ae83ca": {
+          "affc74ee": {
             "type": "Weed",
-            "x": 8,
-            "y": -5
+            "x": 3,
+            "y": 7
           },
-          "c3c0c89e": {
+          "d9b45dca": {
+            "type": "Weed",
+            "x": 11,
+            "y": 5
+          },
+          "e346d41e": {
             "type": "Dung",
             "x": 11,
             "y": 5
           },
-          "c9424077": {
+          "fa7b43cf": {
             "type": "Dung",
-            "x": -5,
-            "y": 0
-          },
-          "ded7be9f": {
-            "type": "Weed",
-            "x": 6,
-            "y": -6
+            "x": 11,
+            "y": 1
           }
         }
       },
@@ -6477,14 +6489,13 @@
       },
       "weeklyPoints": {
         "week": "2026-01-26",
-        "points": 51
+        "points": 88
       },
       "helpedForCompetition": 3,
       "waves": {
-        "date": "2026-01-21",
+        "date": "2026-01-30",
         "farms": [
-          173307,
-          7472470663336746
+          170849
         ]
       }
     },
@@ -6493,19 +6504,19 @@
         "20": {
           "id": 20,
           "name": "Pet #20",
-          "experience": 65,
+          "experience": 90,
           "energy": 5,
           "requests": {
             "food": [
-              "Reindeer Carrot",
-              "Apple Juice",
-              "Sour Shake",
-              "Blue Cheese",
-              "Caprese Salad"
+              "Pumpkin Soup",
+              "Potato Cake",
+              "Sauerkraut",
+              "Kale Omelette",
+              "Rice Bun"
             ],
             "fedAt": 1764033323154
           },
-          "pettedAt": 1769465973217,
+          "pettedAt": 1769744473532,
           "traits": {
             "type": "Griffin",
             "fur": "Red",
@@ -6519,7 +6530,7 @@
           },
           "location": "farm",
           "dailySocialXP": {
-            "2026-01-29": 10
+            "2026-01-30": 15
           },
           "walking": false,
           "cheeredAt": 1769213147165
@@ -6527,19 +6538,19 @@
         "2921": {
           "id": 2921,
           "name": "Pet #2921",
-          "experience": 65,
+          "experience": 90,
           "energy": 0,
           "requests": {
             "food": [
-              "Pumpkin Soup",
-              "Cauliflower Burger",
-              "Goblin's Treat",
-              "Honey Cheddar",
-              "Caprese Salad"
+              "Rhubarb Tart",
+              "Boiled Eggs",
+              "Orange Cake",
+              "Lemon Cheesecake",
+              "Cabbage Cake"
             ],
             "fedAt": 1766526965707
           },
-          "pettedAt": 1769470295011,
+          "pettedAt": 1769744470358,
           "traits": {
             "type": "Warthog",
             "fur": "Grey",
@@ -6554,26 +6565,26 @@
           "location": "farm",
           "walking": false,
           "dailySocialXP": {
-            "2026-01-29": 10
+            "2026-01-30": 15
           },
           "cheeredAt": 1769213143759
         },
         "3000": {
           "id": 3000,
           "name": "Pet #3000",
-          "experience": 65,
+          "experience": 90,
           "energy": 25,
           "requests": {
             "food": [
-              "Sunflower Crunch",
-              "Bumpkin Detox",
-              "Fried Tofu",
-              "Steamed Red Rice",
-              "Wheat Cake"
+              "Club Sandwich",
+              "Fermented Carrots",
+              "Goblin's Treat",
+              "Beetroot Cake",
+              "Caprese Salad"
             ],
             "fedAt": 1764808565728
           },
-          "pettedAt": 1769465974070,
+          "pettedAt": 1769744469680,
           "traits": {
             "type": "Wolf",
             "fur": "Grey",
@@ -6587,29 +6598,29 @@
           },
           "location": "farm",
           "dailySocialXP": {
-            "2026-01-29": 10
+            "2026-01-30": 15
           },
           "walking": true,
           "cheeredAt": 1769213142816
         }
       },
-      "requestsGeneratedAt": 1769644808025,
+      "requestsGeneratedAt": 1769731212835,
       "common": {
         "Meowchi": {
           "name": "Meowchi",
-          "experience": 40,
+          "experience": 55,
           "energy": 0,
           "requests": {
             "food": [
               "Quick Juice",
-              "Bumpkin Salad",
-              "Beetroot Cake"
+              "Power Smoothie",
+              "Blue Cheese"
             ],
             "fedAt": 1762478744157
           },
           "pettedAt": 1769470301955,
           "dailySocialXP": {
-            "2026-01-29": 10
+            "2026-01-30": 15
           },
           "cheeredAt": 1769465971281
         }

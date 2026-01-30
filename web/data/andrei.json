@@ -1,18 +1,30 @@
 {
   "username": "andrei",
   "overview": {
-    "balance": 11.12,
-    "coins": 51209.0,
+    "balance": 5.59,
+    "coins": 46248.0,
     "gems": 0.0,
     "earned_sfl": 11634.86,
-    "earned_coins": 51209.0,
+    "earned_coins": 46248.0,
     "spent_sfl": 15729.07,
     "items_sold": 10530.0,
-    "trade_points": 13889.16,
-    "last_updated": "2026-01-29 11:58 PM",
+    "trade_points": 13889.32,
+    "last_updated": "2026-01-30 08:35 AM",
     "active_listings": 0
   },
   "buys": [
+    {
+      "date": "2026-01-30",
+      "time": "12:57 AM",
+      "type": "BUY",
+      "item": "Milk",
+      "quantity": 45,
+      "price_text": "5.535 SFL",
+      "price": 5.535,
+      "counterparty": "ABFerraz",
+      "farm_id": "-",
+      "trade_id": "bd5d4fd5"
+    },
     {
       "date": "2026-01-29",
       "time": "10:14 PM",
@@ -618,15 +630,24 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 27,
+    "total_buys": 28,
     "total_sells": 23,
-    "buy_volume": 35.995200000000004,
+    "buy_volume": 41.5302,
     "sell_volume": 31.0263,
-    "gross_profit": -4.968900000000005,
-    "avg_buy_price": 1.3331555555555556,
+    "gross_profit": -10.503900000000002,
+    "avg_buy_price": 1.4832214285714287,
     "avg_sell_price": 1.3489695652173912,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Milk",
+        "quantity": 45,
+        "price": 5.535,
+        "date": "2026-01-30",
+        "time": "12:57 AM",
+        "username": "andrei"
+      },
       {
         "type": "BUY",
         "item": "Whale Bear",
@@ -669,8 +690,7 @@
         "quantity": 25,
         "price": 0.4699,
         "date": "2026-01-29",
-        "time": "03:16 PM",
-        "username": "andrei"
+        "time": "03:16 PM"
       },
       {
         "type": "BUY",
@@ -783,21 +803,13 @@
         "price": 0.7946,
         "date": "2026-01-29",
         "time": "01:19 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Lunara",
-        "quantity": 3,
-        "price": 1.169,
-        "date": "2026-01-29",
-        "time": "01:17 PM"
       }
     ],
-    "profit_margin": -13.804340578743846,
+    "profit_margin": -25.29219700362628,
     "most_bought_items": {
       "Stone": 659,
+      "Milk": 145,
       "Apple": 140,
-      "Milk": 100,
       "Blueberry": 75,
       "Leather": 60,
       "Celestine": 4,
@@ -991,15 +1003,6 @@
       "quantity": 1,
       "price": 0.0704,
       "created_at": 1769203429507,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "d48a57f2",
-      "item": "Whale Bear",
-      "quantity": 1,
-      "price": 0.3201,
-      "created_at": 1769203469256,
       "collection": "collectibles",
       "trade_type": "instant"
     },
@@ -1659,6 +1662,15 @@
       "created_at": 1769694693933,
       "collection": "wearables",
       "trade_type": "instant"
+    },
+    {
+      "id": "4f05b663",
+      "item": "Whale Bear",
+      "quantity": 1,
+      "price": 0.311,
+      "created_at": 1769734838837,
+      "collection": "collectibles",
+      "trade_type": "instant"
     }
   ],
   "inventory": {
@@ -1666,13 +1678,13 @@
       "Sunflower": 25651.598300008514,
       "Potato": 61100.45800000062,
       "Pumpkin": 284.6147999999876,
-      "Carrot": 7920.157,
+      "Carrot": 7770.157,
       "Cabbage": 4778.882,
       "Beetroot": 320.7724,
       "Cauliflower": 90.09,
       "Parsnip": 33.976,
       "Radish": 3.0060000000000167,
-      "Wheat": 52.39859999999993,
+      "Wheat": 42.39859999999993,
       "Kale": 689.1339,
       "Eggplant": 62.18400000000001,
       "Corn": 0.1386000000001591,
@@ -1682,8 +1694,8 @@
       "Barley": 257.98210000000006,
       "Rhubarb": 503.35,
       "Zucchini": 529.05,
-      "Yam": 2698.605,
-      "Broccoli": 553.076,
+      "Yam": 2902.395,
+      "Broccoli": 894.656,
       "Pepper": 1179.455,
       "Onion": 17.619400000000013,
       "Turnip": 1.9881,
@@ -1696,16 +1708,16 @@
       "Banana": 71.25000000000146,
       "Grape": 17.450000000000628,
       "Tomato": 999.0000000000002,
-      "Lemon": 42.70000000000148,
+      "Lemon": 27.700000000001484,
       "Lunara": 0.6,
       "Celestine": 1.4,
       "Duskberry": 18.500000000000004
     },
     "resources": {
-      "Wood": 603.82,
+      "Wood": 788.52,
       "Stone": 201.9,
       "Iron": 159.0,
-      "Gold": 10.6,
+      "Gold": 27.2,
       "Crimstone": 0.1,
       "Obsidian": 16.9
     }
