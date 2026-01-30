@@ -1,7 +1,7 @@
 {
   "farm": {
     "coins": 30.677571250155097,
-    "balance": "44.18559685462368216",
+    "balance": "48.73559685462368216",
     "previousBalance": "6195.1070892861099809",
     "inventory": {
       "Sunflower Seed": "2399",
@@ -40,11 +40,11 @@
       "Sunflower": "2984.9604",
       "Potato": "808.2938",
       "Pumpkin": "339.2328",
-      "Carrot": "681.1803",
-      "Cabbage": "115.4629",
-      "Beetroot": "30.1847",
-      "Cauliflower": "46.6781",
-      "Parsnip": "80.2369",
+      "Carrot": "671.1803",
+      "Cabbage": "110.4629",
+      "Beetroot": "10.1847",
+      "Cauliflower": "36.6781",
+      "Parsnip": "70.2369",
       "Radish": "15.7",
       "Wheat": "50.8006",
       "Kale": "0.62",
@@ -74,7 +74,7 @@
       "Yellow Lotus": "10",
       "Purple Lotus": "4",
       "White Lotus": "12",
-      "Soybean": "60.4162",
+      "Soybean": "40.4162",
       "Olive": "0.008",
       "Tomato": "7.3",
       "Lemon": "20.6",
@@ -130,7 +130,7 @@
       "Beetroot Cake": "1",
       "Radish Cake": "4",
       "Wheat Cake": "2",
-      "Bumpkin Salad": "10",
+      "Bumpkin Salad": "9",
       "Goblin's Treat": "14",
       "Cauliflower Burger": "10",
       "Club Sandwich": "14",
@@ -138,7 +138,7 @@
       "Pancakes": "10",
       "Apple Pie": "15",
       "Blueberry Jam": "10",
-      "Fermented Carrots": "12",
+      "Fermented Carrots": "11",
       "Honey Cake": "15",
       "Kale & Mushroom Pie": "15",
       "Kale Stew": "13",
@@ -156,7 +156,7 @@
       "Kale Omelette": "15",
       "Cabbers n Mash": "19",
       "Fancy Fries": "7",
-      "Bumpkin ganoush": "15",
+      "Bumpkin ganoush": "14",
       "Cornbread": "2",
       "Eggplant Cake": "2",
       "Popcorn": "17",
@@ -174,7 +174,7 @@
       "Fried Calamari": "3",
       "Fried Tofu": "19",
       "Grape Juice": "14",
-      "Ocean's Olive": "6",
+      "Ocean's Olive": "5",
       "Quick Juice": "19",
       "Rice Bun": "13",
       "Slow Juice": "4",
@@ -188,7 +188,7 @@
       "Wood": "359.48",
       "Stone": "63.4",
       "Iron": "61.9",
-      "Egg": "32.3",
+      "Egg": "12.3",
       "Speed Chicken": "1",
       "Fat Chicken": "1",
       "Honey": "6.437421169560208907",
@@ -480,7 +480,7 @@
       "Boiled Eggs": "20",
       "Anchovy": "21",
       "Bloom Doll": "1",
-      "Tofu Scramble": "10",
+      "Tofu Scramble": "9",
       "Fish Bowl": "1",
       "Blue Lotus": "3",
       "Purple Cauliflower": "1",
@@ -511,10 +511,10 @@
       "Black Magic": "1",
       "Grape Seed": "16",
       "Golden Helios": "1",
-      "Bumpkin Broth": "19",
+      "Bumpkin Broth": "9",
       "Primula Enigma": "4",
       "Squeaky Chicken": "1",
-      "Tuna": "60",
+      "Tuna": "55",
       "Thermal Stone": "1",
       "Orange Cake": "1",
       "Protective Pesticide": "1",
@@ -547,7 +547,7 @@
       "Wooly Doll": "1",
       "Big Orange": "1",
       "Big Apple": "1",
-      "Cheese": "6",
+      "Cheese": "7",
       "Lunar Doll": "1",
       "Parsnip Cake": "1",
       "Cauliflower Cake": "1",
@@ -5185,8 +5185,29 @@
           "readyAt": 1715884659437,
           "createdAt": 1715884659437,
           "id": "deadcbc0",
-          "oil": 4.145833333333333,
-          "crafting": [],
+          "oil": 2.791666666666666,
+          "crafting": [
+            {
+              "name": "Bumpkin Salad",
+              "boost": {
+                "Oil": 0.7291666666666667
+              },
+              "skills": {
+                "Double Nom": false
+              },
+              "readyAt": 1769808627325
+            },
+            {
+              "name": "Tofu Scramble",
+              "boost": {
+                "Oil": 0.625
+              },
+              "skills": {
+                "Double Nom": false
+              },
+              "readyAt": 1769813001325
+            }
+          ],
           "coordinates": {
             "x": 0,
             "y": 15
@@ -5209,8 +5230,19 @@
           "readyAt": 1715884629354,
           "createdAt": 1715884629354,
           "id": "e44d73f2",
-          "oil": 2.4026620370370346,
-          "crafting": [],
+          "oil": 2.388773148148146,
+          "crafting": [
+            {
+              "name": "Bumpkin Broth",
+              "boost": {
+                "Oil": 0.013888888888888888
+              },
+              "skills": {
+                "Double Nom": false
+              },
+              "readyAt": 1769804091135
+            }
+          ],
           "coordinates": {
             "x": -2,
             "y": 12
@@ -5258,18 +5290,7 @@
           "createdAt": 1731188309210,
           "readyAt": 1731188309210,
           "oil": 4.9999999999999964,
-          "crafting": [
-            {
-              "name": "Cheese",
-              "boost": {
-                "Oil": 0.16666666666666666
-              },
-              "skills": {
-                "Double Nom": false
-              },
-              "readyAt": 1769789801844
-            }
-          ],
+          "crafting": [],
           "coordinates": {
             "x": -4,
             "y": 15
@@ -6129,7 +6150,7 @@
       "Mermaid Scale Sold": 1559,
       "Rapid Roast Cooked": 109,
       "Carrot Sold": 6036.8776,
-      "SFL Earned": 20921.94561845625,
+      "SFL Earned": 20926.49561845625,
       "Orange Cake Fed": 102,
       "Kernaldo Crafted": 1,
       "Boiled Eggs Cooked": 934,
@@ -6473,7 +6494,7 @@
       "Hen House Sold": 1,
       "Gold Beetle Crafted": 1,
       "Omnifeed Mixed": 62237,
-      "Cheese Cooked": 2573,
+      "Cheese Cooked": 2574,
       "Sour Shake Cooked": 502,
       "Blue Cheese Cooked": 78,
       "Spaghetti al Limone Cooked": 90,
@@ -6691,7 +6712,7 @@
       "Farms Cheered": 7,
       "Farms Helped": 7,
       "Coins Order Delivered": 70,
-      "FLOWER Order Delivered": 232,
+      "FLOWER Order Delivered": 239,
       "Obsidian Collected": 44,
       "Mole Shrine Crafted": 2,
       "Ticket Order Delivered": 658,
@@ -6909,30 +6930,6 @@
           }
         },
         {
-          "createdAt": 1769385610295,
-          "id": "847091",
-          "from": "grimbly",
-          "items": {
-            "Tofu Scramble": 1
-          },
-          "readyAt": 1769385610295,
-          "reward": {
-            "sfl": 0.4
-          }
-        },
-        {
-          "createdAt": 1769385610295,
-          "readyAt": 1769385610295,
-          "from": "grimtooth",
-          "id": "2da35e",
-          "items": {
-            "Fermented Carrots": 1
-          },
-          "reward": {
-            "sfl": 0.4
-          }
-        },
-        {
           "createdAt": 1769644800168,
           "id": "63887f",
           "from": "blacksmith",
@@ -6946,28 +6943,17 @@
           }
         },
         {
-          "createdAt": 1769644800473,
-          "id": "d4fceb",
-          "from": "grubnuk",
-          "items": {
-            "Blue Cosmos": 1
-          },
-          "readyAt": 1769644800473,
-          "reward": {
-            "sfl": 0.55
-          }
-        },
-        {
           "createdAt": 1769731205325,
-          "id": "743a30",
+          "readyAt": 1769731205325,
           "from": "gambit",
+          "id": "743a30",
           "items": {
             "Ocean's Olive": 1
           },
-          "readyAt": 1769731205325,
           "reward": {
             "sfl": 0.85
-          }
+          },
+          "completedAt": 1769803259179
         },
         {
           "createdAt": 1769731205325,
@@ -6979,7 +6965,8 @@
           "readyAt": 1769731205325,
           "reward": {
             "sfl": 0.95
-          }
+          },
+          "completedAt": 1769803299567
         },
         {
           "createdAt": 1769731205325,
@@ -6991,7 +6978,8 @@
           "readyAt": 1769731205325,
           "reward": {
             "sfl": 1.15
-          }
+          },
+          "completedAt": 1769803274598
         },
         {
           "createdAt": 1769731200454,
@@ -7019,37 +7007,37 @@
         },
         {
           "createdAt": 1769731200454,
-          "readyAt": 1769731200454,
-          "from": "miranda",
           "id": "f5d607",
+          "from": "miranda",
           "items": {
             "Giant Orange": 1,
             "Red Pansy": 2
           },
+          "readyAt": 1769731200454,
           "reward": {}
         },
         {
           "createdAt": 1769731200454,
-          "readyAt": 1769731200454,
-          "from": "pharaoh",
           "id": "8e62bc",
+          "from": "pharaoh",
           "items": {
             "Sand": 5,
             "Sand Shovel": 7,
             "Vase": 2
           },
+          "readyAt": 1769731200454,
           "reward": {},
           "completedAt": 1769731602413
         },
         {
           "createdAt": 1769731371975,
-          "readyAt": 1769731371975,
-          "from": "raven",
           "id": "e5ded3",
+          "from": "raven",
           "items": {
             "Blue Cosmos": 1,
             "Purple Cosmos": 2
           },
+          "readyAt": 1769731371975,
           "reward": {}
         },
         {
@@ -7129,9 +7117,47 @@
             "Olive": 10
           },
           "reward": {}
+        },
+        {
+          "createdAt": 1769803283658,
+          "readyAt": 1769803283658,
+          "from": "grubnuk",
+          "id": "f26892",
+          "items": {
+            "Red Pansy": 1
+          },
+          "reward": {
+            "sfl": 0.55
+          }
+        },
+        {
+          "createdAt": 1769803331119,
+          "readyAt": 1769803331119,
+          "from": "grimbly",
+          "id": "bcd234",
+          "items": {
+            "Bumpkin Salad": 1
+          },
+          "reward": {
+            "sfl": 0.4
+          },
+          "completedAt": 1769803336759
+        },
+        {
+          "createdAt": 1769803331119,
+          "readyAt": 1769803331119,
+          "from": "grimtooth",
+          "id": "205eed",
+          "items": {
+            "Bumpkin Broth": 10
+          },
+          "reward": {
+            "sfl": 0.4
+          },
+          "completedAt": 1769803346669
         }
       ],
-      "fulfilledCount": 12702,
+      "fulfilledCount": 12709,
       "milestone": {
         "claimedAt": 1707955631354,
         "total": 2770,
@@ -7267,9 +7293,9 @@
         }
       },
       "grimbly": {
-        "deliveryCount": 454,
+        "deliveryCount": 456,
         "skippedCount": 30,
-        "deliveryCompletedAt": 1769367046297,
+        "deliveryCompletedAt": 1769803336759,
         "friendship": {
           "points": 35,
           "updatedAt": 1768203319996
@@ -7298,7 +7324,7 @@
       },
       "grubnuk": {
         "deliveryCount": 457,
-        "skippedCount": 64,
+        "skippedCount": 65,
         "deliveryCompletedAt": 1769558731757,
         "friendship": {
           "points": 3,
@@ -7327,9 +7353,9 @@
         }
       },
       "grimtooth": {
-        "deliveryCount": 456,
+        "deliveryCount": 458,
         "skippedCount": 34,
-        "deliveryCompletedAt": 1769367048662,
+        "deliveryCompletedAt": 1769803346669,
         "friendship": {
           "points": 45,
           "updatedAt": 1768177276547
@@ -7341,9 +7367,9 @@
         }
       },
       "gordo": {
-        "deliveryCount": 267,
+        "deliveryCount": 268,
         "skippedCount": 30,
-        "deliveryCompletedAt": 1769717396850,
+        "deliveryCompletedAt": 1769803299567,
         "streaks": {
           "streak": 1,
           "lastClaimedAt": 1746324329877
@@ -7485,9 +7511,9 @@
         }
       },
       "gambit": {
-        "deliveryCount": 190,
+        "deliveryCount": 191,
         "skippedCount": 53,
-        "deliveryCompletedAt": 1769647052371,
+        "deliveryCompletedAt": 1769803259179,
         "streaks": {
           "streak": 1,
           "lastClaimedAt": 1746324341780
@@ -7524,9 +7550,9 @@
         }
       },
       "guria": {
-        "deliveryCount": 237,
+        "deliveryCount": 238,
         "skippedCount": 56,
-        "deliveryCompletedAt": 1769717382389,
+        "deliveryCompletedAt": 1769803274598,
         "friendship": {
           "points": 24,
           "updatedAt": 1767292316830
@@ -9661,8 +9687,8 @@
       "El Pollo Veloz": 1769627301239,
       "Speed Chicken": 1769627301239,
       "Fat Chicken": 1769627294409,
-      "Desert Gnome": 1769789153844,
-      "Fast Feasts": 1769736325479,
+      "Desert Gnome": 1769803528213,
+      "Fast Feasts": 1769803528213,
       "Time Warp Totem": 1769665302946,
       "Fruit Picker Apron": 1769799672071,
       "Poseidon": 1764830129249,

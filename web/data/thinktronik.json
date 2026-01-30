@@ -1,16 +1,16 @@
 {
   "username": "thinktronik",
   "overview": {
-    "balance": 13.3,
+    "balance": 57.58,
     "coins": 17662.0,
     "gems": 0.0,
     "earned_sfl": 7919.49,
     "earned_coins": 17662.0,
     "spent_sfl": 7980.17,
-    "items_sold": 4510.0,
+    "items_sold": 4511.0,
     "trade_points": 9373.29,
-    "last_updated": "2026-01-30 08:04 PM",
-    "active_listings": 21
+    "last_updated": "2026-01-30 08:34 PM",
+    "active_listings": 13
   },
   "buys": [
     {
@@ -51,6 +51,18 @@
     }
   ],
   "sells": [
+    {
+      "date": "2026-01-30",
+      "time": "08:11 PM",
+      "type": "SELL",
+      "item": "Milk",
+      "quantity": 50,
+      "price_text": "6.07 SFL",
+      "price": 6.07,
+      "counterparty": "Erec",
+      "farm_id": "-",
+      "trade_id": "5c2f6b29"
+    },
     {
       "date": "2026-01-30",
       "time": "07:41 PM",
@@ -871,12 +883,12 @@
   "last_updated": null,
   "stats": {
     "total_buys": 3,
-    "total_sells": 68,
+    "total_sells": 69,
     "buy_volume": 3.1991,
-    "sell_volume": 298.16749999999996,
-    "gross_profit": 294.9684,
+    "sell_volume": 304.23749999999995,
+    "gross_profit": 301.03839999999997,
     "avg_buy_price": 1.0663666666666667,
-    "avg_sell_price": 4.384816176470587,
+    "avg_sell_price": 4.4092391304347816,
     "most_traded_items": {},
     "recent_activity": [
       {
@@ -909,6 +921,15 @@
       {
         "type": "SELL",
         "item": "Milk",
+        "quantity": 50,
+        "price": 6.07,
+        "date": "2026-01-30",
+        "time": "08:11 PM",
+        "username": "thinktronik"
+      },
+      {
+        "type": "SELL",
+        "item": "Milk",
         "quantity": 60,
         "price": 7.284,
         "date": "2026-01-30",
@@ -921,8 +942,7 @@
         "quantity": 150,
         "price": 3.4125,
         "date": "2026-01-30",
-        "time": "07:38 PM",
-        "username": "thinktronik"
+        "time": "07:38 PM"
       },
       {
         "type": "SELL",
@@ -1035,25 +1055,17 @@
         "price": 3.278,
         "date": "2026-01-30",
         "time": "05:30 AM"
-      },
-      {
-        "type": "SELL",
-        "item": "Moonfur",
-        "quantity": 1,
-        "price": 3.278,
-        "date": "2026-01-30",
-        "time": "05:30 AM"
       }
     ],
-    "profit_margin": 9220.35572504767,
+    "profit_margin": 9410.096589665842,
     "most_bought_items": {
       "Yam": 887,
       "Broccoli": 259
     },
     "most_sold_items": {
       "Wheat": 1050,
+      "Milk": 935,
       "Kale": 900,
-      "Milk": 885,
       "Artichoke": 450,
       "Barley": 450,
       "Wood": 400,
@@ -1191,7 +1203,7 @@
       "Carrot": 3314.5754,
       "Cabbage": 1297.5476,
       "Beetroot": 1051.1071,
-      "Cauliflower": 616.8758,
+      "Cauliflower": 566.8758,
       "Parsnip": 133.38849999999994,
       "Radish": 4759.9201,
       "Wheat": 10266.4535,
@@ -1200,11 +1212,11 @@
       "Corn": 4074.8443999999995,
       "Soybean": 2101.9547,
       "Rice": 670.814,
-      "Olive": 414.246,
+      "Olive": 412.246,
       "Barley": 3786.6062,
       "Rhubarb": 891.25,
       "Zucchini": 2280.3499,
-      "Yam": 761.1099,
+      "Yam": 979.0098,
       "Broccoli": 63.13379999999997,
       "Pepper": 213.52329999999995,
       "Onion": 1827.2243,
@@ -1212,19 +1224,19 @@
       "Artichoke": 4311.263
     },
     "fruits": {
-      "Apple": 887.1500000000012,
-      "Blueberry": 4754.000000000005,
-      "Orange": 3928.3000000000034,
+      "Apple": 889.5500000000012,
+      "Blueberry": 4714.000000000005,
+      "Orange": 3918.3000000000034,
       "Banana": 2198.2500000000014,
       "Grape": 155.50000000000014,
-      "Tomato": 9242.650000000003,
+      "Tomato": 9277.200000000004,
       "Lemon": 1052.6000000000035,
       "Duskberry": 192.2,
       "Lunara": 17.200000000000024,
       "Celestine": 20.500000000000025
     },
     "resources": {
-      "Wood": 6646.95,
+      "Wood": 6647.95,
       "Stone": 1193.34,
       "Iron": 864.1,
       "Gold": 649.29,

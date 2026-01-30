@@ -1,6 +1,6 @@
 {
   "id": 166616,
-  "totalTrades": 7392,
+  "totalTrades": 7393,
   "level": 134,
   "weeklyFlowerSpent": 7521.198,
   "weeklyFlowerEarned": 0,
@@ -85,7 +85,9 @@
       },
       "sfl": 6.07,
       "tax": 0.45525,
-      "tradeType": "instant"
+      "tradeType": "instant",
+      "fulfilledAt": 1769803883744,
+      "fulfilledById": 7261388690586601
     },
     "ca0a1561": {
       "collection": "collectibles",
@@ -159,19 +161,38 @@
       "trades": 18
     },
     {
-      "id": 90898,
-      "tokenUri": "0_v1_53_90_202_0_0_99_477_161_30_433_16_0_267_410",
-      "username": "Precioso",
+      "id": 4195894524803088,
+      "tokenUri": "0_v1_48_2_7_15_19_22_45",
+      "username": "EduardoHDM",
       "trades": 17
     },
     {
-      "id": 3012455009986860,
-      "tokenUri": "0_v1_53_263_51_14_234_41_23_395_27_310_0_124_453_175_0_177_469",
-      "username": "MaykeHuller",
+      "id": 171104,
+      "tokenUri": "0_v1_348_2_184_282_18_22_400_476_501_383_86_0_0_189_0_266",
+      "username": "Snoo",
       "trades": 17
     }
   ],
   "trades": [
+    {
+      "id": "5c2f6b29",
+      "sfl": 6.07,
+      "quantity": 50,
+      "itemId": 645,
+      "collection": "collectibles",
+      "source": "listing",
+      "fulfilledAt": 1769803883744,
+      "initiatedBy": {
+        "id": 166616,
+        "bumpkinUri": "0_v1_306_2_97_282_504_41_257_505_30_432_86_439_276_189_0_0_444",
+        "username": "ThinkTronik"
+      },
+      "fulfilledBy": {
+        "id": 7261388690586601,
+        "bumpkinUri": "0_v1_47_90_5_14_19_22_44_517_0_0_0_401",
+        "username": "Erec"
+      }
+    },
     {
       "id": "10eb09fa",
       "sfl": 7.284,
@@ -515,7 +536,7 @@
       }
     },
     {
-      "id": "4959e939",
+      "id": "6f3fd5a1",
       "sfl": 3.278,
       "quantity": 1,
       "itemId": 2634,
@@ -534,7 +555,7 @@
       }
     },
     {
-      "id": "6f3fd5a1",
+      "id": "4959e939",
       "sfl": 3.278,
       "quantity": 1,
       "itemId": 2634,
@@ -1063,25 +1084,6 @@
         "id": 100065,
         "bumpkinUri": "0_v1_48_90_50_13_35_41_240_395_28_228_86_483_422",
         "username": "younloth"
-      }
-    },
-    {
-      "id": "a2bf5dcb",
-      "sfl": 5.5687,
-      "quantity": 45,
-      "itemId": 645,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769701184907,
-      "initiatedBy": {
-        "id": 166616,
-        "bumpkinUri": "0_v1_306_2_97_282_504_41_257_505_30_432_86_439_276_189_0_0_444",
-        "username": "ThinkTronik"
-      },
-      "fulfilledBy": {
-        "id": 174777,
-        "bumpkinUri": "0_v1_47_4_7_14_20_89_240_476_0_0_0_420",
-        "username": "KerryD"
       }
     },
     {
