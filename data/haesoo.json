@@ -1,7 +1,7 @@
 {
   "username": "haesoo",
   "overview": {
-    "balance": 11.66,
+    "balance": 9.24,
     "coins": 1183.0,
     "gems": 0.0,
     "earned_sfl": 6549.94,
@@ -9,10 +9,22 @@
     "spent_sfl": 2498.78,
     "items_sold": 2912.0,
     "trade_points": 2768.39,
-    "last_updated": "2026-01-30 04:09 PM",
+    "last_updated": "2026-01-30 04:27 PM",
     "active_listings": 0
   },
   "buys": [
+    {
+      "date": "2026-01-30",
+      "time": "04:08 PM",
+      "type": "BUY",
+      "item": "Olive",
+      "quantity": 6,
+      "price_text": "2.418 SFL",
+      "price": 2.418,
+      "counterparty": "mooey",
+      "farm_id": "-",
+      "trade_id": "5692a443"
+    },
     {
       "date": "2026-01-30",
       "time": "12:59 PM",
@@ -834,15 +846,24 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 48,
+    "total_buys": 49,
     "total_sells": 20,
-    "buy_volume": 59.802000000000014,
+    "buy_volume": 62.22000000000002,
     "sell_volume": 68.59730000000002,
-    "gross_profit": 8.795300000000005,
-    "avg_buy_price": 1.2458750000000003,
+    "gross_profit": 6.377299999999998,
+    "avg_buy_price": 1.2697959183673473,
     "avg_sell_price": 3.429865000000001,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Olive",
+        "quantity": 6,
+        "price": 2.418,
+        "date": "2026-01-30",
+        "time": "04:08 PM",
+        "username": "haesoo"
+      },
       {
         "type": "BUY",
         "item": "Wood",
@@ -885,8 +906,7 @@
         "quantity": 1,
         "price": 0.275,
         "date": "2026-01-30",
-        "time": "09:35 AM",
-        "username": "haesoo"
+        "time": "09:35 AM"
       },
       {
         "type": "BUY",
@@ -999,17 +1019,9 @@
         "price": 2.3999,
         "date": "2026-01-29",
         "time": "09:52 AM"
-      },
-      {
-        "type": "BUY",
-        "item": "Leather",
-        "quantity": 20,
-        "price": 2.3999,
-        "date": "2026-01-29",
-        "time": "09:52 AM"
       }
     ],
-    "profit_margin": 14.70736764656701,
+    "profit_margin": 10.249598199935706,
     "most_bought_items": {
       "Wood": 984,
       "Carrot": 500,
