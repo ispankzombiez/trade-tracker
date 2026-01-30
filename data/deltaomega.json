@@ -1,7 +1,7 @@
 {
   "username": "deltaomega",
   "overview": {
-    "balance": 28.54,
+    "balance": 28.19,
     "coins": 627.0,
     "gems": 0.0,
     "earned_sfl": 20921.95,
@@ -9,10 +9,22 @@
     "spent_sfl": 14782.16,
     "items_sold": 3465.0,
     "trade_points": 13902.85,
-    "last_updated": "2026-01-30 02:56 PM",
+    "last_updated": "2026-01-30 03:20 PM",
     "active_listings": 0
   },
   "buys": [
+    {
+      "date": "2026-01-30",
+      "time": "02:55 PM",
+      "type": "BUY",
+      "item": "Honey",
+      "quantity": 6,
+      "price_text": "0.3542 SFL",
+      "price": 0.3542,
+      "counterparty": "Danay",
+      "farm_id": "-",
+      "trade_id": "972cab28"
+    },
     {
       "date": "2026-01-30",
       "time": "06:05 AM",
@@ -1170,15 +1182,24 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 52,
+    "total_buys": 53,
     "total_sells": 44,
-    "buy_volume": 55.80310000000001,
+    "buy_volume": 56.157300000000006,
     "sell_volume": 69.6944,
-    "gross_profit": 13.891299999999994,
-    "avg_buy_price": 1.0731365384615386,
+    "gross_profit": 13.537099999999995,
+    "avg_buy_price": 1.0595716981132077,
     "avg_sell_price": 1.5839636363636365,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Honey",
+        "quantity": 6,
+        "price": 0.3542,
+        "date": "2026-01-30",
+        "time": "02:55 PM",
+        "username": "deltaomega"
+      },
       {
         "type": "BUY",
         "item": "Gold",
@@ -1221,8 +1242,7 @@
         "quantity": 3,
         "price": 0.51,
         "date": "2026-01-30",
-        "time": "06:03 AM",
-        "username": "deltaomega"
+        "time": "06:03 AM"
       },
       {
         "type": "BUY",
@@ -1335,17 +1355,9 @@
         "price": 1.3182,
         "date": "2026-01-29",
         "time": "09:12 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Feather",
-        "quantity": 100,
-        "price": 0.5396,
-        "date": "2026-01-29",
-        "time": "07:49 PM"
       }
     ],
-    "profit_margin": 24.893419899611295,
+    "profit_margin": 24.105681719028503,
     "most_bought_items": {
       "Feather": 379,
       "Yam": 323,
@@ -1382,7 +1394,7 @@
       "Beetroot": 30.1847,
       "Cauliflower": 46.6781,
       "Parsnip": 80.2369,
-      "Radish": 30.7,
+      "Radish": 15.7,
       "Wheat": 68.8006,
       "Kale": 0.62,
       "Eggplant": 90.1731,
@@ -1392,12 +1404,13 @@
       "Barley": 0.0048,
       "Rhubarb": 24.0,
       "Zucchini": 925.5,
-      "Yam": 47.3159,
+      "Yam": 32.3159,
       "Broccoli": 77.8998,
       "Pepper": 60.4963,
       "Onion": 0.4032,
       "Turnip": 3.297,
-      "Artichoke": 28.2484
+      "Artichoke": 28.2484,
+      "Rice": 4.0
     },
     "fruits": {
       "Apple": 41.7,
