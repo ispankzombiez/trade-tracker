@@ -1,7 +1,7 @@
 {
   "farm": {
     "coins": 2715.42930000004,
-    "balance": "1.33781376562500076",
+    "balance": "5.19531376562500076",
     "previousBalance": "163.8169812656250066",
     "inventory": {
       "Parsnip Seed": "80",
@@ -104,11 +104,11 @@
       "Pumpkin Soup": "17",
       "Sauerkraut": "2",
       "Sunflower Cake": "6",
-      "Cabbage Cake": "6",
+      "Cabbage Cake": "5",
       "Cauliflower Cake": "1",
       "Apple Pie": "5",
-      "Honey Cake": "3",
-      "Kale & Mushroom Pie": "2",
+      "Honey Cake": "2",
+      "Kale & Mushroom Pie": "1",
       "Mushroom Jacket Potatoes": "4",
       "Mushroom Soup": "8",
       "Sunflower Crunch": "4",
@@ -147,7 +147,7 @@
       "Oil": "42.996999999999998",
       "Oil Reserve": "3",
       "Leather": "3.35",
-      "Wool": "2.5",
+      "Wool": "21.5",
       "Merino Wool": "344.8",
       "Feather": "456.3",
       "Milk": "5.7",
@@ -274,17 +274,17 @@
       "Blowfish": "30",
       "Clownfish": "113",
       "Sea Bass": "56",
-      "Sea Horse": "55",
+      "Sea Horse": "45",
       "Horse Mackerel": "5",
-      "Red Snapper": "23",
-      "Moray Eel": "108",
+      "Red Snapper": "17",
+      "Moray Eel": "96",
       "Olive Flounder": "34",
-      "Surgeonfish": "64",
+      "Surgeonfish": "44",
       "Zebra Turkeyfish": "35",
       "Hammerhead shark": "13",
       "Mahi Mahi": "76",
       "Blue Marlin": "79",
-      "Oarfish": "51",
+      "Oarfish": "31",
       "Football fish": "54",
       "Sunfish": "24",
       "Whale Shark": "5",
@@ -294,7 +294,7 @@
       "Angelfish": "2",
       "Halibut": "107",
       "Lemon Shark": "1",
-      "Porgy": "56",
+      "Porgy": "46",
       "Muskellunge": "9",
       "Trout": "79",
       "Walleye": "5",
@@ -426,7 +426,7 @@
       "Hieroglyph": "12",
       "Kale Seed": "35",
       "Lava Pit": "2",
-      "Tuna": "96",
+      "Tuna": "86",
       "Purple Gladiolus": "9",
       "Parrotfish": "39",
       "Blueberry Jam": "5",
@@ -559,7 +559,6 @@
       "Big Apple": "1",
       "Big Orange": "1",
       "Chowder": "3",
-      "Frost Pebble": "5",
       "White Balloon Flower": "1",
       "Celestine": "2",
       "Beetroot Cake": "1",
@@ -573,8 +572,10 @@
       "Iron Pickaxe": "2",
       "Lunar Doll": "1",
       "Basic Cooking Pot": "1",
-      "Napoleanfish": "3",
-      "Cheer": "3"
+      "Napoleanfish": "1",
+      "Cheer": "3",
+      "Pizza Margherita": "1",
+      "Fish Stick": "1"
     },
     "previousInventory": {
       "Potato Seed": "500",
@@ -1560,7 +1561,7 @@
       }
     },
     "bank": {
-      "taxFreeSFL": 6729.249742500027,
+      "taxFreeSFL": 6734.226242500027,
       "withdrawnAmount": 0
     },
     "bumpkin": {
@@ -1631,7 +1632,7 @@
       },
       "tokenUri": "https://api.sunflower-land.com/bumpkins/metadata/4597_v1_48_2_52_88_46_22_45_25_27_0_16",
       "sessionId": "0xed20cb7ebec7c9195c95c0f4ec8a9f4fe5e3e08dd3919c6de2cd1ee35b25c213",
-      "experience": 13869758.621139934,
+      "experience": 13936662.642939936,
       "skills": {
         "Green Thumb": 1,
         "Old Farmer": 1,
@@ -1684,7 +1685,8 @@
         "Tree Charge": 1,
         "Fisherman's 10 Fold": 1,
         "Bountiful Bounties": 1,
-        "Tap Prospector": 1
+        "Tap Prospector": 1,
+        "Nom Nom": 1
       },
       "id": 4597,
       "updatedAt": 1686019912183,
@@ -3299,7 +3301,8 @@
           "id": "43c2c368",
           "plantedAt": 1769674569385,
           "boostedTime": 71078256,
-          "name": "Barley"
+          "name": "Barley",
+          "criticalHit": {}
         }
       },
       "2": {
@@ -3312,7 +3315,8 @@
           "id": "cc112447",
           "plantedAt": 1769674569705,
           "boostedTime": 71078256,
-          "name": "Barley"
+          "name": "Barley",
+          "criticalHit": {}
         }
       },
       "3": {
@@ -3325,7 +3329,8 @@
           "id": "899c09e0",
           "plantedAt": 1769674570023,
           "boostedTime": 71078256,
-          "name": "Barley"
+          "name": "Barley",
+          "criticalHit": {}
         }
       },
       "4": {
@@ -3338,7 +3343,8 @@
           "id": "52a448fc",
           "plantedAt": 1769728012153,
           "boostedTime": 35539128,
-          "name": "Wheat"
+          "name": "Wheat",
+          "criticalHit": {}
         }
       },
       "5": {
@@ -3351,7 +3357,8 @@
           "id": "54c0202c",
           "plantedAt": 1769728012537,
           "boostedTime": 35539128,
-          "name": "Wheat"
+          "name": "Wheat",
+          "criticalHit": {}
         }
       },
       "6": {
@@ -3364,7 +3371,8 @@
           "id": "dff9eb2c",
           "plantedAt": 1769728012912,
           "boostedTime": 35539128,
-          "name": "Wheat"
+          "name": "Wheat",
+          "criticalHit": {}
         }
       },
       "7": {
@@ -3377,7 +3385,8 @@
           "id": "58fd8e81",
           "plantedAt": 1769728013320,
           "boostedTime": 35539128,
-          "name": "Wheat"
+          "name": "Wheat",
+          "criticalHit": {}
         }
       },
       "8": {
@@ -3390,7 +3399,8 @@
           "id": "69513384",
           "plantedAt": 1769728015913,
           "boostedTime": 35539128,
-          "name": "Wheat"
+          "name": "Wheat",
+          "criticalHit": {}
         }
       },
       "9": {
@@ -3403,7 +3413,8 @@
           "id": "7eeb19b0",
           "plantedAt": 1769728015391,
           "boostedTime": 35539128,
-          "name": "Wheat"
+          "name": "Wheat",
+          "criticalHit": {}
         }
       },
       "10": {
@@ -3416,7 +3427,8 @@
           "id": "be39f512",
           "plantedAt": 1769728015188,
           "boostedTime": 35539128,
-          "name": "Wheat"
+          "name": "Wheat",
+          "criticalHit": {}
         }
       },
       "11": {
@@ -3429,7 +3441,8 @@
           "id": "4d8e26cc",
           "plantedAt": 1769728014760,
           "boostedTime": 35539128,
-          "name": "Wheat"
+          "name": "Wheat",
+          "criticalHit": {}
         }
       },
       "12": {
@@ -3442,7 +3455,8 @@
           "id": "a54ce6f1",
           "plantedAt": 1769728014578,
           "boostedTime": 35539128,
-          "name": "Wheat"
+          "name": "Wheat",
+          "criticalHit": {}
         }
       },
       "13": {
@@ -3455,7 +3469,8 @@
           "id": "10a44a8a",
           "plantedAt": 1769728014086,
           "boostedTime": 35539128,
-          "name": "Wheat"
+          "name": "Wheat",
+          "criticalHit": {}
         }
       },
       "14": {
@@ -3468,7 +3483,8 @@
           "id": "b990b0df",
           "plantedAt": 1769728013826,
           "boostedTime": 35539128,
-          "name": "Wheat"
+          "name": "Wheat",
+          "criticalHit": {}
         }
       },
       "15": {
@@ -3481,7 +3497,8 @@
           "id": "cbb20180",
           "plantedAt": 1769728016226,
           "boostedTime": 35539128,
-          "name": "Wheat"
+          "name": "Wheat",
+          "criticalHit": {}
         }
       },
       "16": {
@@ -3494,7 +3511,8 @@
           "id": "7004670b",
           "plantedAt": 1769728016507,
           "boostedTime": 35539128,
-          "name": "Wheat"
+          "name": "Wheat",
+          "criticalHit": {}
         }
       },
       "17": {
@@ -3507,7 +3525,8 @@
           "id": "d7cd9fce",
           "plantedAt": 1769728016716,
           "boostedTime": 35539128,
-          "name": "Wheat"
+          "name": "Wheat",
+          "criticalHit": {}
         }
       },
       "18": {
@@ -3520,7 +3539,8 @@
           "id": "a59656f7",
           "plantedAt": 1769728017167,
           "boostedTime": 35539128,
-          "name": "Wheat"
+          "name": "Wheat",
+          "criticalHit": {}
         }
       },
       "3ecea6f4": {
@@ -3533,7 +3553,8 @@
           "id": "193b0659",
           "plantedAt": 1769728018146,
           "boostedTime": 35539128,
-          "name": "Wheat"
+          "name": "Wheat",
+          "criticalHit": {}
         }
       },
       "5c846b7a": {
@@ -3546,7 +3567,8 @@
           "id": "a5fed561",
           "plantedAt": 1769728017772,
           "boostedTime": 35539128,
-          "name": "Wheat"
+          "name": "Wheat",
+          "criticalHit": {}
         }
       },
       "617f7dce": {
@@ -3559,7 +3581,8 @@
           "id": "c78ae7e7",
           "plantedAt": 1769728018578,
           "boostedTime": 35539128,
-          "name": "Wheat"
+          "name": "Wheat",
+          "criticalHit": {}
         }
       },
       "9b86781e": {
@@ -3572,7 +3595,8 @@
           "id": "2195fc6d",
           "plantedAt": 1769728021040,
           "boostedTime": 35539128,
-          "name": "Wheat"
+          "name": "Wheat",
+          "criticalHit": {}
         }
       },
       "302e727d": {
@@ -3585,7 +3609,8 @@
           "id": "646f0b49",
           "plantedAt": 1769728021665,
           "boostedTime": 35539128,
-          "name": "Wheat"
+          "name": "Wheat",
+          "criticalHit": {}
         }
       },
       "c61dba29": {
@@ -3598,7 +3623,8 @@
           "id": "7d29fd22",
           "plantedAt": 1769728020514,
           "boostedTime": 35539128,
-          "name": "Wheat"
+          "name": "Wheat",
+          "criticalHit": {}
         }
       },
       "5b3fe9e4": {
@@ -3611,7 +3637,8 @@
           "id": "81fe04e1",
           "plantedAt": 1769728020277,
           "boostedTime": 35539128,
-          "name": "Wheat"
+          "name": "Wheat",
+          "criticalHit": {}
         }
       },
       "146d638a": {
@@ -3624,7 +3651,8 @@
           "id": "0604aeef",
           "plantedAt": 1769728019863,
           "boostedTime": 35539128,
-          "name": "Wheat"
+          "name": "Wheat",
+          "criticalHit": {}
         }
       },
       "1510909c": {
@@ -3637,7 +3665,8 @@
           "id": "054f595e",
           "plantedAt": 1769728019663,
           "boostedTime": 35539128,
-          "name": "Wheat"
+          "name": "Wheat",
+          "criticalHit": {}
         }
       },
       "aa9098af": {
@@ -3650,7 +3679,8 @@
           "id": "5f794394",
           "plantedAt": 1769728019407,
           "boostedTime": 35539128,
-          "name": "Wheat"
+          "name": "Wheat",
+          "criticalHit": {}
         }
       },
       "902cbcea": {
@@ -3663,7 +3693,8 @@
           "id": "b88bbafc",
           "plantedAt": 1769728021981,
           "boostedTime": 35539128,
-          "name": "Wheat"
+          "name": "Wheat",
+          "criticalHit": {}
         }
       },
       "fcd76a3f": {
@@ -3676,7 +3707,8 @@
           "id": "da37f197",
           "plantedAt": 1769728022346,
           "boostedTime": 35539128,
-          "name": "Wheat"
+          "name": "Wheat",
+          "criticalHit": {}
         }
       },
       "6b46c79f": {
@@ -3689,7 +3721,8 @@
           "id": "8581a2b1",
           "plantedAt": 1769728022691,
           "boostedTime": 35539128,
-          "name": "Wheat"
+          "name": "Wheat",
+          "criticalHit": {}
         }
       },
       "169416b0": {
@@ -4989,7 +5022,8 @@
           "name": "Apple",
           "plantedAt": 1769604488996,
           "harvestedAt": 1769743044694,
-          "harvestsLeft": 3
+          "harvestsLeft": 3,
+          "criticalHit": {}
         },
         "fertiliser": {
           "name": "Fruitful Blend",
@@ -5010,7 +5044,8 @@
           "name": "Apple",
           "plantedAt": 1769561788503,
           "harvestedAt": 1769743044392,
-          "harvestsLeft": 2
+          "harvestsLeft": 2,
+          "criticalHit": {}
         }
       },
       "9f759233": {
@@ -5023,7 +5058,8 @@
           "name": "Apple",
           "plantedAt": 1769604490151,
           "harvestedAt": 1769743046259,
-          "harvestsLeft": 2
+          "harvestsLeft": 2,
+          "criticalHit": {}
         },
         "fertiliser": {
           "name": "Fruitful Blend",
@@ -5040,7 +5076,8 @@
           "name": "Apple",
           "plantedAt": 1769697399885,
           "harvestedAt": 1769743043753,
-          "harvestsLeft": 5
+          "harvestsLeft": 5,
+          "criticalHit": {}
         },
         "fertiliser": {
           "name": "Fruitful Blend",
@@ -5061,7 +5098,8 @@
           "name": "Apple",
           "plantedAt": 1769561788951,
           "harvestedAt": 1769743041451,
-          "harvestsLeft": 1
+          "harvestsLeft": 1,
+          "criticalHit": {}
         }
       },
       "0e9a66d1": {
@@ -5074,7 +5112,8 @@
           "name": "Apple",
           "plantedAt": 1769589041558,
           "harvestedAt": 1769743041755,
-          "harvestsLeft": 3
+          "harvestsLeft": 3,
+          "criticalHit": {}
         },
         "fertiliser": {
           "name": "Fruitful Blend",
@@ -5091,7 +5130,8 @@
           "name": "Apple",
           "plantedAt": 1769617183546,
           "harvestedAt": 1769743042752,
-          "harvestsLeft": 1
+          "harvestsLeft": 1,
+          "criticalHit": {}
         },
         "fertiliser": {
           "name": "Fruitful Blend",
@@ -5112,7 +5152,8 @@
           "name": "Apple",
           "plantedAt": 1769561788085,
           "harvestedAt": 1769743043042,
-          "harvestsLeft": 2
+          "harvestsLeft": 2,
+          "criticalHit": {}
         }
       },
       "85c6008b": {
@@ -5125,7 +5166,8 @@
           "name": "Apple",
           "plantedAt": 1769617184298,
           "harvestedAt": 1769743044057,
-          "harvestsLeft": 2
+          "harvestsLeft": 2,
+          "criticalHit": {}
         },
         "fertiliser": {
           "name": "Fruitful Blend",
@@ -5142,7 +5184,8 @@
           "name": "Apple",
           "plantedAt": 1769561045208,
           "harvestedAt": 1769743041172,
-          "harvestsLeft": 2
+          "harvestsLeft": 2,
+          "criticalHit": {}
         },
         "fertiliser": {
           "name": "Fruitful Blend",
@@ -5159,7 +5202,8 @@
           "name": "Apple",
           "plantedAt": 1769653498871,
           "harvestedAt": 1769743042087,
-          "harvestsLeft": 3
+          "harvestsLeft": 3,
+          "criticalHit": {}
         }
       },
       "aef1cf37": {
@@ -5172,7 +5216,8 @@
           "name": "Apple",
           "plantedAt": 1769604488077,
           "harvestedAt": 1769743042398,
-          "harvestsLeft": 3
+          "harvestsLeft": 3,
+          "criticalHit": {}
         },
         "fertiliser": {
           "name": "Fruitful Blend",
@@ -5189,7 +5234,8 @@
           "name": "Apple",
           "plantedAt": 1769653498348,
           "harvestedAt": 1769743043362,
-          "harvestsLeft": 2
+          "harvestsLeft": 2,
+          "criticalHit": {}
         }
       },
       "0539f736": {
@@ -5204,7 +5250,8 @@
           "name": "Apple",
           "plantedAt": 1769743049174,
           "harvestedAt": 0,
-          "harvestsLeft": 6
+          "harvestsLeft": 6,
+          "criticalHit": {}
         }
       },
       "f59837f1": {
@@ -5215,7 +5262,8 @@
           "name": "Apple",
           "plantedAt": 1769653499720,
           "harvestedAt": 1769743040826,
-          "harvestsLeft": 3
+          "harvestsLeft": 3,
+          "criticalHit": {}
         }
       }
     },
@@ -5380,18 +5428,6 @@
     },
     "trades": {
       "listings": {
-        "97fb403b": {
-          "collection": "collectibles",
-          "createdAt": 1769767012054,
-          "items": {
-            "Wild Grass": 10
-          },
-          "sfl": 5.38,
-          "tax": 0.4035,
-          "tradeType": "instant",
-          "fulfilledAt": 1769772541259,
-          "fulfilledById": 1696
-        },
         "a357ff2b": {
           "collection": "collectibles",
           "createdAt": 1769767063982,
@@ -5400,10 +5436,12 @@
           },
           "sfl": 2.599,
           "tax": 0.194925,
-          "tradeType": "instant"
+          "tradeType": "instant",
+          "fulfilledAt": 1769773974038,
+          "fulfilledById": 8582038389909496
         }
       },
-      "soldCount": 2910,
+      "soldCount": 2911,
       "dailyListings": {
         "count": 3,
         "date": 30
@@ -5457,16 +5495,6 @@
           "readyAt": 1722519262732,
           "oil": 0,
           "crafting": [
-            {
-              "name": "Pizza Margherita",
-              "boost": {
-                "Oil": 0
-              },
-              "skills": {
-                "Double Nom": false
-              },
-              "readyAt": 1769773373522
-            },
             {
               "name": "Pizza Margherita",
               "boost": {
@@ -5778,16 +5806,6 @@
           "processing": [
             {
               "name": "Fish Stick",
-              "readyAt": 1769772229358,
-              "startedAt": 1769765029358,
-              "requirements": {
-                "Red Snapper": "6",
-                "Moray Eel": "2",
-                "Napoleanfish": "2"
-              }
-            },
-            {
-              "name": "Fish Stick",
               "readyAt": 1769779429358,
               "startedAt": 1769772229358,
               "requirements": {
@@ -5810,6 +5828,16 @@
               "name": "Fish Stick",
               "readyAt": 1769793829358,
               "startedAt": 1769786629358,
+              "requirements": {
+                "Red Snapper": "6",
+                "Moray Eel": "2",
+                "Napoleanfish": "2"
+              }
+            },
+            {
+              "name": "Fish Stick",
+              "readyAt": 1769801029358,
+              "startedAt": 1769793829358,
               "requirements": {
                 "Red Snapper": "6",
                 "Moray Eel": "2",
@@ -6319,7 +6347,7 @@
       "Wheat Cake Cooked": 35,
       "Sunstone Mined": 65,
       "Fermented Carrots Fed": 70,
-      "Cabbage Cake Fed": 19,
+      "Cabbage Cake Fed": 20,
       "Tent Sold": 1,
       "Seaweed Sold": 233,
       "Beetroot Sold": 2610.17,
@@ -6413,11 +6441,11 @@
       "Corn Harvested": 9063,
       "Yellow Carnation Harvested": 40,
       "Sand Drill Crafted": 118,
-      "Surgeonfish Fed": 93,
+      "Surgeonfish Fed": 113,
       "Bumpkin ganoush Cooked": 146,
       "Club Sandwich Cooked": 194,
       "Solar Lantern Crafted": 5,
-      "Kale & Mushroom Pie Fed": 73,
+      "Kale & Mushroom Pie Fed": 74,
       "Toadstool Seat Bought": 1,
       "Corn Sold": 962.015,
       "Coins Earned": 3864402.4593,
@@ -6497,7 +6525,7 @@
       "Iron Compass Sold": 42,
       "Potato Sold": 479.02,
       "Aurora Lantern Crafted": 10,
-      "Honey Cake Fed": 28,
+      "Honey Cake Fed": 29,
       "Fancy Fries Cooked": 26,
       "Sauerkraut Fed": 131,
       "Cornbread Fed": 28,
@@ -6597,7 +6625,7 @@
       "Enchanted Rose Bought": 1,
       "Cauliflower Burger Dug": 4,
       "Mushroom Soup Fed": 100,
-      "Moray Eel Fed": 160,
+      "Moray Eel Fed": 170,
       "Nana Crafted": 1,
       "Beetroot Blaze Cooked": 138,
       "Red Carnation Harvested": 26,
@@ -6652,7 +6680,7 @@
       "Hay Mixed": 3232,
       "Chicken Bought": 414,
       "NutriBarley Mixed": 2352,
-      "Tuna Fed": 333,
+      "Tuna Fed": 343,
       "Barn Delight Mixed": 30,
       "Chicken Cured": 136,
       "Mixed Grain Mixed": 2344,
@@ -6731,7 +6759,7 @@
       "Fish Omelette Fed": 1,
       "Oil Drilled": 358,
       "Clownfish Fed": 236,
-      "Oarfish Fed": 122,
+      "Oarfish Fed": 142,
       "Gladiolus Seed Planted": 28,
       "Seafood Basket Cooked": 2,
       "Artichoke Planted": 2793,
@@ -6780,9 +6808,9 @@
       "Steamed Red Rice Cooked": 18,
       "Orange Bunny Lantern Bought": 1,
       "Blue Marlin Fed": 311,
-      "Pizza Margherita Cooked": 23,
+      "Pizza Margherita Cooked": 24,
       "Blue Cheese Cooked": 7,
-      "Pizza Margherita Fed": 36,
+      "Pizza Margherita Fed": 37,
       "Bronze Love Box Bought": 1,
       "Love Charm Sold": 51850,
       "Gold Food Box Bought": 1,
@@ -7172,7 +7200,7 @@
       "Cool Glasses Bought": 1,
       "Yellow Edelweiss Bountied": 1,
       "Fish Flake Processed": 2,
-      "Fish Stick Processed": 24,
+      "Fish Stick Processed": 25,
       "Fish Oil Processed": 17,
       "Auction Reward Claimed": 3,
       "Starlight Tuna Map Piece Found": 9,
@@ -7225,7 +7253,8 @@
       "Gilded Swordfish Map Piece Found": 7,
       "Cornucopia Bought": 1,
       "Rock Blackfish Fed": 30,
-      "Sea Horse Fed": 20
+      "Sea Horse Fed": 30,
+      "Porgy Fed": 10
     },
     "milestones": {
       "Expert Angler": 1,
@@ -8480,7 +8509,7 @@
           "petXP": 0,
           "score": 50,
           "collectivePet": {
-            "totalXP": 5926361,
+            "totalXP": 5936696,
             "goalXP": 2404688,
             "goalReached": true,
             "streak": 3,
@@ -10035,9 +10064,9 @@
       "Desert Rose": 1769610731366,
       "Fire Kissed": 1769762471345,
       "Trident": 1769765796442,
-      "Blossombeard": 1769769820778,
-      "Munching Mastery": 1769769820778,
-      "Observatory": 1769769820778,
+      "Blossombeard": 1769773759285,
+      "Munching Mastery": 1769773759285,
+      "Observatory": 1769773759285,
       "Crab Hat": 1769747742591,
       "Sunflower Rod": 1769765796442,
       "Fishy Roll": 1769765796442,
@@ -10066,12 +10095,12 @@
       "Ladybug Suit": 1768147114379,
       "Juicy Boost": 1768457368939,
       "Pink Dolphin": 1768731150083,
-      "Skill Shrimpy": 1769769726469,
+      "Skill Shrimpy": 1769773759285,
       "Time Warp Totem": 1768759763672,
       "Reelmaster's Chair": 1769765796442,
       "Turbo Charged": 1765782300297,
       "Drive-Through Deli": 1769769485330,
-      "Grain Grinder": 1769769820778,
+      "Grain Grinder": 1769773740527,
       "Blossom Hourglass": 1763791258926,
       "Sol & Luna": 1769736691381,
       "Fine Fibers": 1769767165808,
