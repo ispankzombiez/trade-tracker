@@ -44,8 +44,18 @@ jobs:
         git config --local user.name "Trading Monitor Bot"
         git add -A
         git diff --staged --quiet || git commit -m "Update trading data - $(date '+%Y-%m-%d %H:%M:%S')"
-        git pull --rebase origin main
-        git push
+        
+        # Handle potential conflicts by using merge strategy favoring newer data
+        git fetch origin main
+        git merge origin/main --strategy-option=ours --no-edit || {
+          echo "Merge failed, attempting to resolve conflicts automatically..."
+          git status --porcelain | grep "^UU" | cut -c4- | xargs -r git add
+          git status --porcelain | grep "^AA" | cut -c4- | xargs -r git add
+          git status --porcelain | grep "^DD" | cut -c4- | xargs -r git rm
+          git commit --no-edit -m "Auto-resolve merge conflicts - $(date '+%Y-%m-%d %H:%M:%S')"
+        }
+        
+        git push origin main
         
     - name: Generate dashboard data
       run: |
