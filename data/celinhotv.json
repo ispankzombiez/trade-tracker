@@ -1,16 +1,16 @@
 {
   "username": "celinhotv",
   "overview": {
-    "balance": 237.53,
-    "coins": 95637.0,
+    "balance": 10.22,
+    "coins": 97671.0,
     "gems": 0.0,
-    "earned_sfl": 8056.06,
-    "earned_coins": 95637.0,
+    "earned_sfl": 8057.61,
+    "earned_coins": 97671.0,
     "spent_sfl": 10569.59,
-    "items_sold": 7418.0,
+    "items_sold": 7427.0,
     "trade_points": 37913.62,
-    "last_updated": "2026-01-30 04:54 PM",
-    "active_listings": 22
+    "last_updated": "2026-01-30 05:13 PM",
+    "active_listings": 17
   },
   "buys": [
     {
@@ -27,6 +27,30 @@
     }
   ],
   "sells": [
+    {
+      "date": "2026-01-30",
+      "time": "05:03 PM",
+      "type": "SELL",
+      "item": "Iron",
+      "quantity": 25,
+      "price_text": "1.67 SFL",
+      "price": 1.67,
+      "counterparty": "YASS",
+      "farm_id": "-",
+      "trade_id": "aa3037ac"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "04:56 PM",
+      "type": "SELL",
+      "item": "Pumpkin",
+      "quantity": 2000,
+      "price_text": "1.6 SFL",
+      "price": 1.6,
+      "counterparty": "YASS",
+      "farm_id": "-",
+      "trade_id": "a82ca603"
+    },
     {
       "date": "2026-01-30",
       "time": "04:54 PM",
@@ -1015,12 +1039,12 @@
   "last_updated": null,
   "stats": {
     "total_buys": 1,
-    "total_sells": 82,
+    "total_sells": 84,
     "buy_volume": 0.4339,
-    "sell_volume": 197.2046,
-    "gross_profit": 196.7707,
+    "sell_volume": 200.47459999999998,
+    "gross_profit": 200.0407,
     "avg_buy_price": 0.4339,
-    "avg_sell_price": 2.4049341463414633,
+    "avg_sell_price": 2.3866023809523806,
     "most_traded_items": {},
     "recent_activity": [
       {
@@ -1034,6 +1058,24 @@
       },
       {
         "type": "SELL",
+        "item": "Iron",
+        "quantity": 25,
+        "price": 1.67,
+        "date": "2026-01-30",
+        "time": "05:03 PM",
+        "username": "celinhotv"
+      },
+      {
+        "type": "SELL",
+        "item": "Pumpkin",
+        "quantity": 2000,
+        "price": 1.6,
+        "date": "2026-01-30",
+        "time": "04:56 PM",
+        "username": "celinhotv"
+      },
+      {
+        "type": "SELL",
         "item": "Lemon",
         "quantity": 150,
         "price": 1.486,
@@ -1056,8 +1098,7 @@
         "quantity": 200,
         "price": 2.857,
         "date": "2026-01-30",
-        "time": "04:54 PM",
-        "username": "celinhotv"
+        "time": "04:54 PM"
       },
       {
         "type": "SELL",
@@ -1065,8 +1106,7 @@
         "quantity": 150,
         "price": 1.486,
         "date": "2026-01-30",
-        "time": "04:54 PM",
-        "username": "celinhotv"
+        "time": "04:54 PM"
       },
       {
         "type": "SELL",
@@ -1171,25 +1211,9 @@
         "price": 11.3151,
         "date": "2026-01-30",
         "time": "04:42 PM"
-      },
-      {
-        "type": "SELL",
-        "item": "Grape",
-        "quantity": 30,
-        "price": 6.81,
-        "date": "2026-01-30",
-        "time": "04:42 PM"
-      },
-      {
-        "type": "SELL",
-        "item": "Grape",
-        "quantity": 30,
-        "price": 6.81,
-        "date": "2026-01-30",
-        "time": "04:42 PM"
       }
     ],
-    "profit_margin": 45349.32011984328,
+    "profit_margin": 46102.949988476605,
     "most_bought_items": {
       "Artichoke": 47
     },
@@ -1199,10 +1223,10 @@
       "Broccoli": 9900,
       "Potato": 9000,
       "Carrot": 4000,
+      "Pumpkin": 3500,
       "Beetroot": 1850,
       "Wheat": 1760,
       "Rhubarb": 1500,
-      "Pumpkin": 1500,
       "Lemon": 850
     }
   },
@@ -1366,14 +1390,14 @@
     "crops": {
       "Sunflower": 266054.2613000151,
       "Potato": 12389.002799996013,
-      "Pumpkin": 7681.462899997302,
+      "Pumpkin": 5681.462899997302,
       "Carrot": 586.351300000246,
       "Cabbage": 551.152599999983,
       "Beetroot": 132.59210000000056,
       "Cauliflower": 34.83699999999998,
       "Parsnip": 39.80149999999996,
       "Radish": 32.00379999999999,
-      "Wheat": 2247.943099999997,
+      "Wheat": 1447.9430999999968,
       "Kale": 50.75740000000015,
       "Eggplant": 101.6614,
       "Corn": 2746.0570999999995,
@@ -1388,7 +1412,7 @@
       "Pepper": 523.211,
       "Onion": 34.88990000000002,
       "Turnip": 48.4848,
-      "Artichoke": 58.9465
+      "Artichoke": 40.9465
     },
     "fruits": {
       "Apple": 17.1,
@@ -1396,16 +1420,16 @@
       "Orange": 62.1,
       "Grape": 13.300000000000827,
       "Tomato": 1880.4000000000024,
-      "Lemon": 1057.75,
+      "Lemon": 607.75,
       "Duskberry": 2.7000000000000077,
       "Lunara": 2.7000000000000077,
       "Celestine": 15.4,
       "Banana": 70.0
     },
     "resources": {
-      "Wood": 1167.38,
+      "Wood": 1142.38,
       "Stone": 980.75,
-      "Iron": 549.4,
+      "Iron": 524.4,
       "Gold": 214.25,
       "Crimstone": 36.4,
       "Obsidian": 51.9
