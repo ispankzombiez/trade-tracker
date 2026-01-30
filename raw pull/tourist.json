@@ -81,7 +81,7 @@
       "Rice": "826.4088",
       "Olive": "1832.9208",
       "Tomato": "1832.9100000000079338",
-      "Lemon": "284.5800000000046292",
+      "Lemon": "244.5800000000046292",
       "Barley": "6967.812099999998264",
       "Rhubarb": "53629.43939999949942",
       "Zucchini": "297620.3145999998891",
@@ -274,7 +274,7 @@
       "Tofu Scramble": "299",
       "Paella": "1",
       "Cheese": "272",
-      "Wood": "258910.03",
+      "Wood": "258993.38",
       "Stone": "12660.35",
       "Iron": "5918.7",
       "Gold": "2823.3812499999999999",
@@ -306,8 +306,8 @@
       "Oil": "5527.3623235185048066",
       "Oil Reserve": "4",
       "Leather": "995.5",
-      "Wool": "478.2",
-      "Merino Wool": "2086.8",
+      "Wool": "553.5",
+      "Merino Wool": "2146.15",
       "Feather": "9434.2",
       "Milk": "181.75",
       "Hay": "80.65000000000000005",
@@ -946,7 +946,7 @@
       "Wild Grass": "10",
       "Spaghetti al Limone": "39",
       "Chewed Bone": "10",
-      "Sour Shake": "340",
+      "Sour Shake": "342",
       "Fermented Fish": "4",
       "Big Orange": "1",
       "Lobster": "4",
@@ -6458,7 +6458,7 @@
         "width": 2,
         "height": 2,
         "wood": {
-          "choppedAt": 1769757662074
+          "choppedAt": 1769760327776
         }
       },
       "fd4ddd0e": {
@@ -6468,7 +6468,7 @@
         "width": 2,
         "height": 2,
         "wood": {
-          "choppedAt": 1769757659799
+          "choppedAt": 1769760325451
         }
       },
       "efcded4d": {
@@ -6478,13 +6478,13 @@
         "width": 2,
         "height": 2,
         "wood": {
-          "choppedAt": 1769757662739
+          "choppedAt": 1769760328579
         }
       },
       "b4d128c9": {
         "createdAt": 1757557816273,
         "wood": {
-          "choppedAt": 1769757660519
+          "choppedAt": 1769760326281
         },
         "x": 1,
         "y": -4,
@@ -6495,7 +6495,7 @@
       "c0670f9c": {
         "createdAt": 1757557820864,
         "wood": {
-          "choppedAt": 1769757661308
+          "choppedAt": 1769760327008
         },
         "x": 1,
         "y": -6,
@@ -9989,18 +9989,8 @@
             "y": -1
           },
           "readyAt": 1738220541829,
-          "oil": 39.33333333333333,
+          "oil": 38.99999999999999,
           "crafting": [
-            {
-              "name": "Sour Shake",
-              "boost": {
-                "Oil": 0.3333333333333333
-              },
-              "skills": {
-                "Double Nom": true
-              },
-              "readyAt": 1769764463734
-            },
             {
               "name": "Sour Shake",
               "boost": {
@@ -10030,6 +10020,16 @@
                 "Double Nom": true
               },
               "readyAt": 1769766632509
+            },
+            {
+              "name": "Sour Shake",
+              "boost": {
+                "Oil": 0.3333333333333333
+              },
+              "skills": {
+                "Double Nom": true
+              },
+              "readyAt": 1769767355434
             }
           ]
         }
@@ -15570,7 +15570,7 @@
       "Blueberry Jam Fed": 165,
       "Sea Cucumber Sold": 261,
       "Eggplant Seed Bought": 18427,
-      "Tree Chopped": 408602,
+      "Tree Chopped": 408625,
       "Power Smoothie Cooked": 1143,
       "Treasure Dug": 26997,
       "Mini Corn Maze Bought": 3,
@@ -15695,7 +15695,7 @@
       "Cow Fed": 17864,
       "Kernel Blend Mixed": 3880,
       "Sheep Bought": 368,
-      "Sheep Fed": 14047,
+      "Sheep Fed": 14058,
       "Cow Bought": 380,
       "Barley Harvested": 12058,
       "Adrift Ark Crafted": 1,
@@ -15706,15 +15706,15 @@
       "Music Box Crafted": 1,
       "Milk Collected": 13637,
       "Leather Collected": 12817,
-      "Wool Collected": 8501,
-      "Merino Wool Collected": 7726,
+      "Wool Collected": 8512,
+      "Merino Wool Collected": 7737,
       "Kale & Mushroom Pie Cooked": 1,
       "Sunlit Citadel Crafted": 1,
       "Baobab Tree Crafted": 1,
       "NutriBarley Mixed": 5007,
       "Treasure Key Bought": 6,
       "Mixed Grain Mixed": 5141,
-      "Sour Shake Cooked": 6569,
+      "Sour Shake Cooked": 6570,
       "Cheese Cooked": 18908,
       "Honey Cheddar Cooked": 239,
       "Pizza Margherita Cooked": 1681,
@@ -15966,9 +15966,9 @@
       "Toucan Shrine Crafted": 3,
       "Ruffroot Fetched": 100,
       "Sparrow Shrine Crafted": 3,
-      "Ancient Tree Chopped": 1425,
-      "Basic Tree Chopped": 4318,
-      "Sacred Tree Chopped": 1428,
+      "Ancient Tree Chopped": 1426,
+      "Basic Tree Chopped": 4321,
+      "Sacred Tree Chopped": 1429,
       "Pure Gold Rock Mined": 285,
       "Fused Stone Rock Mined": 438,
       "Reinforced Stone Rock Mined": 438,
@@ -19628,9 +19628,9 @@
           "state": "idle",
           "type": "Sheep",
           "createdAt": 1768177222666,
-          "awakeAt": 1769765081130,
-          "asleepAt": 1769730089130,
-          "experience": 163275,
+          "awakeAt": 1769800095837,
+          "asleepAt": 1769765103837,
+          "experience": 168640,
           "lovedAt": 1769753668588,
           "item": "Brush",
           "healthCheckedAt": 1769719659670
@@ -19676,9 +19676,9 @@
           "state": "idle",
           "type": "Sheep",
           "createdAt": 1768793030994,
-          "awakeAt": 1769765083725,
-          "asleepAt": 1769730091725,
-          "experience": 70820,
+          "awakeAt": 1769800096271,
+          "asleepAt": 1769765104271,
+          "experience": 76160,
           "lovedAt": 1769753669053,
           "item": "Music Box",
           "healthCheckedAt": 1769711154997
@@ -19688,9 +19688,9 @@
           "state": "idle",
           "type": "Sheep",
           "createdAt": 1768793031326,
-          "awakeAt": 1769765088031,
-          "asleepAt": 1769730096031,
-          "experience": 70820,
+          "awakeAt": 1769800098556,
+          "asleepAt": 1769765106556,
+          "experience": 76160,
           "lovedAt": 1769753669362,
           "item": "Music Box",
           "healthCheckedAt": 1769711154997
@@ -19700,9 +19700,9 @@
           "state": "idle",
           "type": "Sheep",
           "createdAt": 1768793030825,
-          "awakeAt": 1769765087517,
-          "asleepAt": 1769730095517,
-          "experience": 70810,
+          "awakeAt": 1769800099004,
+          "asleepAt": 1769765107004,
+          "experience": 76160,
           "lovedAt": 1769753669933,
           "item": "Music Box",
           "healthCheckedAt": 1769711154997
@@ -19712,9 +19712,9 @@
           "state": "idle",
           "type": "Sheep",
           "createdAt": 1768793031164,
-          "awakeAt": 1769765085046,
-          "asleepAt": 1769730093046,
-          "experience": 70810,
+          "awakeAt": 1769800100466,
+          "asleepAt": 1769765108466,
+          "experience": 76160,
           "lovedAt": 1769753669659,
           "item": "Brush",
           "healthCheckedAt": 1769711154997
@@ -19724,9 +19724,9 @@
           "state": "idle",
           "type": "Sheep",
           "createdAt": 1768793030651,
-          "awakeAt": 1769765086121,
-          "asleepAt": 1769730094121,
-          "experience": 70810,
+          "awakeAt": 1769800100964,
+          "asleepAt": 1769765108964,
+          "experience": 76160,
           "lovedAt": 1769753670239,
           "item": "Music Box",
           "healthCheckedAt": 1769711154997
@@ -19796,9 +19796,9 @@
           "state": "idle",
           "type": "Sheep",
           "createdAt": 1769386852406,
-          "awakeAt": 1769765082443,
-          "asleepAt": 1769730090443,
-          "experience": 3435,
+          "awakeAt": 1769800099526,
+          "asleepAt": 1769765107526,
+          "experience": 3915,
           "lovedAt": 1769753670814,
           "item": "Brush",
           "healthCheckedAt": 1769711154997
@@ -19820,9 +19820,9 @@
           "state": "idle",
           "type": "Sheep",
           "createdAt": 1769386852060,
-          "awakeAt": 1769765086571,
-          "asleepAt": 1769730094571,
-          "experience": 3435,
+          "awakeAt": 1769800100010,
+          "asleepAt": 1769765108010,
+          "experience": 3915,
           "lovedAt": 1769753670533,
           "item": "Brush",
           "healthCheckedAt": 1769711154997
@@ -19856,9 +19856,9 @@
           "state": "idle",
           "type": "Sheep",
           "createdAt": 1769386852239,
-          "awakeAt": 1769765087024,
-          "asleepAt": 1769730095024,
-          "experience": 3480,
+          "awakeAt": 1769800097114,
+          "asleepAt": 1769765105114,
+          "experience": 3880,
           "lovedAt": 1769753671755,
           "item": "Brush",
           "healthCheckedAt": 1769711154997
@@ -19892,9 +19892,9 @@
           "state": "idle",
           "type": "Sheep",
           "createdAt": 1769386852675,
-          "awakeAt": 1769765084794,
-          "asleepAt": 1769730092794,
-          "experience": 3455,
+          "awakeAt": 1769800098086,
+          "asleepAt": 1769765106086,
+          "experience": 3855,
           "lovedAt": 1769753671116,
           "item": "Brush",
           "healthCheckedAt": 1769711154997
@@ -19904,9 +19904,9 @@
           "state": "idle",
           "type": "Sheep",
           "createdAt": 1769386852554,
-          "awakeAt": 1769765084280,
-          "asleepAt": 1769730092280,
-          "experience": 3465,
+          "awakeAt": 1769800097662,
+          "asleepAt": 1769765105662,
+          "experience": 3865,
           "lovedAt": 1769753671423,
           "item": "Brush",
           "healthCheckedAt": 1769711154997
@@ -20953,14 +20953,14 @@
       }
     },
     "boostsUsedAt": {
-      "Luna's Hat": 1769763839568,
-      "Goblin Medallion": 1769763839568,
-      "Desert Gnome": 1769763839568,
+      "Luna's Hat": 1769764512474,
+      "Goblin Medallion": 1769764512474,
+      "Desert Gnome": 1769764512474,
       "Bud #2197": 1769763887950,
       "Camel Onesie": 1769763887950,
       "Cannonball": 1769763888573,
       "Catchup": 1769763888573,
-      "Foreman Beaver": 1769763888394,
+      "Foreman Beaver": 1769765098579,
       "Fruitful Fumble": 1769763887950,
       "Generous Orchard": 1769763887950,
       "Goblin Quiver": 1769763887950,
@@ -20978,14 +20978,14 @@
       "Frosted Cakes": 1769755106153,
       "Kuebiko": 1769763895570,
       "Fast Feasts": 1769761526173,
-      "Bud #1707": 1769762432739,
-      "Goblin Shield": 1769763520180,
-      "Lumberjack's Extra": 1769762432739,
-      "Squirrel": 1769762432739,
-      "Tiki Totem": 1769762432739,
+      "Bud #1707": 1769765098579,
+      "Goblin Shield": 1769765098579,
+      "Lumberjack's Extra": 1769765098579,
+      "Squirrel": 1769765098579,
+      "Tiki Totem": 1769765098579,
       "Tough Tree": 1769754216368,
-      "Tree Charge": 1769762432739,
-      "Wood Nymph Wendy": 1769762432739,
+      "Tree Charge": 1769765098579,
+      "Wood Nymph Wendy": 1769765098579,
       "Bud #365": 1769763520180,
       "Prospector": 1769763520180,
       "Quarry": 1769763520180,
@@ -21037,20 +21037,20 @@
       "Rice Panda": 1769330255755,
       "Rice and Shine": 1769757449892,
       "Turbo Sprout": 1769757449892,
-      "Abundant Harvest": 1769755099696,
-      "Bale": 1769755099696,
-      "Bale Economy": 1769755099696,
-      "Black Sheep Onesie": 1769730096031,
-      "Bud #2437": 1769755099696,
-      "Cattlegrim": 1769755099696,
-      "Double Bale": 1769755099696,
-      "Dream Scarf": 1769730096031,
-      "Farm Dog": 1769730096031,
-      "Fine Fibers": 1769755099696,
-      "Merino Jumper": 1769730096031,
-      "Restless Animals": 1769755099696,
-      "Toxic Tuft": 1769730096031,
-      "White Sheep Onesie": 1769730096031,
+      "Abundant Harvest": 1769765108964,
+      "Bale": 1769765108964,
+      "Bale Economy": 1769765108964,
+      "Black Sheep Onesie": 1769765108964,
+      "Bud #2437": 1769765108964,
+      "Cattlegrim": 1769765108964,
+      "Double Bale": 1769765108964,
+      "Dream Scarf": 1769765108964,
+      "Farm Dog": 1769765108964,
+      "Fine Fibers": 1769765108964,
+      "Merino Jumper": 1769765108964,
+      "Restless Animals": 1769765108964,
+      "Toxic Tuft": 1769765108964,
+      "White Sheep Onesie": 1769765108964,
       "Crim Peckster": 1769756756677,
       "Crimson Carp": 1769756756677,
       "Crimstone Amulet": 1769756756677,
@@ -21200,7 +21200,7 @@
       "Frozen Sheep": 1768159235447,
       "Lady Bug": 1769760882879,
       "Winter Guardian": 1768166736593,
-      "Badger Shrine": 1769763520180,
+      "Badger Shrine": 1769765098579,
       "Golden Cauliflower": 1769387352825,
       "Groovy Gramophone": 1769763236153,
       "Lava Swimwear": 1769754829266,
@@ -21219,11 +21219,11 @@
       "Luminous Anglerfish Topper": 1769627101035,
       "Gilded Swordfish": 1769750905149,
       "Saw Fish": 1769763361269,
-      "Collie Shrine": 1769755099696,
+      "Collie Shrine": 1769765108964,
       "Tortoise Shrine": 1769763236153,
       "Mole Shrine": 1769758970926,
       "Training Whistle": 1769755099696,
-      "Master Chef's Cleaver": 1769763839568,
+      "Master Chef's Cleaver": 1769764512474,
       "Toucan Shrine": 1769763888573,
       "Sparrow Shrine": 1769763341284,
       "Fox Shrine": 1769763842890,
