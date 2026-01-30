@@ -9,9 +9,14 @@ on:
       - 'scripts/generate_dashboard_data.py'
   
 permissions:
-  contents: write  # Allow writing to repository
-  pages: write     # Allow GitHub Pages deployment
-  id-token: write  # Allow OIDC token
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   deploy-dashboard:
