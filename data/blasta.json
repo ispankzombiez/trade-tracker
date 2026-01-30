@@ -1,7 +1,7 @@
 {
   "username": "blasta",
   "overview": {
-    "balance": 1026.66,
+    "balance": 1024.61,
     "coins": 279883.0,
     "gems": 0.0,
     "earned_sfl": 19168.67,
@@ -9,10 +9,22 @@
     "spent_sfl": 12069.92,
     "items_sold": 8153.0,
     "trade_points": 23832.93,
-    "last_updated": "2026-01-30 02:21 PM",
+    "last_updated": "2026-01-30 02:37 PM",
     "active_listings": 86
   },
   "buys": [
+    {
+      "date": "2026-01-30",
+      "time": "02:26 PM",
+      "type": "BUY",
+      "item": "Merino Wool",
+      "quantity": 200,
+      "price_text": "2.051 SFL",
+      "price": 2.051,
+      "counterparty": "Artemia",
+      "farm_id": "-",
+      "trade_id": "23fc85fb"
+    },
     {
       "date": "2026-01-30",
       "time": "06:05 AM",
@@ -630,15 +642,24 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 25,
+    "total_buys": 26,
     "total_sells": 26,
-    "buy_volume": 29.967900000000014,
+    "buy_volume": 32.018900000000016,
     "sell_volume": 113.33189999999999,
-    "gross_profit": 83.36399999999998,
-    "avg_buy_price": 1.1987160000000006,
+    "gross_profit": 81.31299999999997,
+    "avg_buy_price": 1.2314961538461544,
     "avg_sell_price": 4.358919230769231,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Merino Wool",
+        "quantity": 200,
+        "price": 2.051,
+        "date": "2026-01-30",
+        "time": "02:26 PM",
+        "username": "blasta"
+      },
       {
         "type": "BUY",
         "item": "Dewberry",
@@ -681,8 +702,7 @@
         "quantity": 120,
         "price": 1.7696,
         "date": "2026-01-29",
-        "time": "08:50 AM",
-        "username": "blasta"
+        "time": "08:50 AM"
       },
       {
         "type": "BUY",
@@ -795,19 +815,11 @@
         "price": 0.1399,
         "date": "2026-01-29",
         "time": "08:38 AM"
-      },
-      {
-        "type": "BUY",
-        "item": "Merino Wool",
-        "quantity": 10,
-        "price": 0.1399,
-        "date": "2026-01-29",
-        "time": "08:38 AM"
       }
     ],
-    "profit_margin": 278.1776500855914,
+    "profit_margin": 253.9531339302722,
     "most_bought_items": {
-      "Merino Wool": 1010,
+      "Merino Wool": 1210,
       "Pepper": 500,
       "Orange": 407,
       "Wool": 100,
