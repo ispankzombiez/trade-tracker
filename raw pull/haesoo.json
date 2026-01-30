@@ -11,17 +11,17 @@
       "Sunflower": "17849.74200000057412",
       "Potato": "8381.903600000000001",
       "Pumpkin": "53.5",
-      "Carrot": "264.8710000000000072",
-      "Cabbage": "313.1655",
+      "Carrot": "244.8710000000000072",
+      "Cabbage": "303.1655",
       "Beetroot": "24.4650000000000007",
-      "Cauliflower": "37.6650000000000234",
+      "Cauliflower": "22.6650000000000234",
       "Parsnip": "58.1550000000000679",
       "Radish": "511.0796",
-      "Wheat": "269.875000000000236",
-      "Kale": "34.175000000000179",
-      "Apple": "70.450000000000009",
-      "Blueberry": "20.6000000000000588",
-      "Orange": "32.250000000000026",
+      "Wheat": "259.875000000000236",
+      "Kale": "14.175000000000179",
+      "Apple": "65.450000000000009",
+      "Blueberry": "15.6000000000000588",
+      "Orange": "27.250000000000026",
       "Eggplant": "381.265",
       "Corn": "351.6829000000000551",
       "Banana": "45.8",
@@ -36,8 +36,8 @@
       "Red Daffodil": "8",
       "White Daffodil": "2",
       "Soybean": "39.9",
-      "Tomato": "46.2000000000000008",
-      "Lemon": "203.45",
+      "Tomato": "21.2000000000000008",
+      "Lemon": "148.45",
       "Barley": "118.2100000000000414",
       "Rhubarb": "2198.2",
       "Zucchini": "134.65",
@@ -450,7 +450,7 @@
       "The Lot": "3",
       "Starlight Tuna": "1",
       "Fermented Carrots": "4",
-      "Cheese": "8",
+      "Cheese": "4",
       "Carrot Juice": "4",
       "Purple Pansy": "1",
       "Anchovy": "122",
@@ -539,7 +539,7 @@
       "Garden Eel": "6",
       "Doll": "3",
       "Carrot Seed": "5",
-      "Roast Veggies": "1",
+      "Roast Veggies": "4",
       "Cluck Doll": "1",
       "Blue Cosmos": "6",
       "Apple Juice": "3",
@@ -5547,37 +5547,37 @@
               "skills": {
                 "Double Nom": false
               },
-              "readyAt": 1769770634321
-            },
-            {
-              "name": "Roast Veggies",
-              "boost": {
-                "Oil": 0
-              },
-              "skills": {
-                "Double Nom": false
-              },
-              "readyAt": 1769776466321
-            },
-            {
-              "name": "Roast Veggies",
-              "boost": {
-                "Oil": 0
-              },
-              "skills": {
-                "Double Nom": false
-              },
-              "readyAt": 1769782298321
-            },
-            {
-              "name": "Roast Veggies",
-              "boost": {
-                "Oil": 0
-              },
-              "skills": {
-                "Double Nom": false
-              },
               "readyAt": 1769788130321
+            },
+            {
+              "name": "Caprese Salad",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": false
+              },
+              "readyAt": 1769796878321
+            },
+            {
+              "name": "Spaghetti al Limone",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": false
+              },
+              "readyAt": 1769840618321
+            },
+            {
+              "name": "Roast Veggies",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": false
+              },
+              "readyAt": 1769846450321
             }
           ],
           "oil": 0,
@@ -5655,7 +5655,48 @@
           "createdAt": 1723011530828,
           "readyAt": 1723011530828,
           "oil": 0,
-          "crafting": [],
+          "crafting": [
+            {
+              "name": "Purple Smoothie",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": false
+              },
+              "readyAt": 1769787515028
+            },
+            {
+              "name": "Sour Shake",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": false
+              },
+              "readyAt": 1769790755028
+            },
+            {
+              "name": "Sour Shake",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": false
+              },
+              "readyAt": 1769793995028
+            },
+            {
+              "name": "Bumpkin Detox",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": false
+              },
+              "readyAt": 1769800475028
+            }
+          ],
           "coordinates": {
             "x": 1,
             "y": 6
@@ -6312,7 +6353,7 @@
       "Goblin's Treat Cooked": 93,
       "Roast Veggies Fed": 6,
       "Pumpkin Planted": 18969,
-      "Roast Veggies Cooked": 372,
+      "Roast Veggies Cooked": 375,
       "Carrot Cake Fed": 10,
       "Starfish Dug": 5,
       "White Balloon Flower Harvested": 22,
@@ -8487,7 +8528,7 @@
           "petXP": 0,
           "score": 50,
           "collectivePet": {
-            "totalXP": 6000358,
+            "totalXP": 6018406,
             "goalXP": 2404688,
             "goalReached": true,
             "streak": 3,
@@ -10008,8 +10049,8 @@
       "Rich Chicken": 1769767149549,
       "Speed Chicken": 1769767149549,
       "Undead Rooster": 1769767149549,
-      "Desert Gnome": 1769768554090,
-      "Fast Feasts": 1769768527240,
+      "Desert Gnome": 1769785902334,
+      "Fast Feasts": 1769785886109,
       "Premium Worms": 1769747357146,
       "Gold Beetle": 1769766753612,
       "Golden Touch": 1769766753612,

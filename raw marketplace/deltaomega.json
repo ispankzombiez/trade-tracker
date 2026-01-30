@@ -1,8 +1,8 @@
 {
   "id": 142979,
-  "totalTrades": 24108,
+  "totalTrades": 24109,
   "level": 106,
-  "weeklyFlowerSpent": 146.361,
+  "weeklyFlowerSpent": 146.7152,
   "weeklyFlowerEarned": 143.0136925,
   "tokenUri": "0_v1_83_90_184_503_504_0_414_505_30_0_86_0_0_374",
   "username": "DeltaOmega",
@@ -16,15 +16,15 @@
       "trades": 68
     },
     {
-      "id": 7171535366555767,
-      "tokenUri": "0_v1_348_90_184_181_447_334_332_196_0_228_86_0_0_189_0_266",
-      "username": "Pedrico",
-      "trades": 52
-    },
-    {
       "id": 60802,
       "tokenUri": "0_v1_47_90_51_13_20_89_23_0_0_0_0_439_0_189",
       "username": "Kuradike",
+      "trades": 52
+    },
+    {
+      "id": 7171535366555767,
+      "tokenUri": "0_v1_348_90_184_181_447_334_332_196_0_228_86_0_0_189_0_266",
+      "username": "Pedrico",
       "trades": 52
     },
     {
@@ -41,6 +41,25 @@
     }
   ],
   "trades": [
+    {
+      "id": "972cab28",
+      "sfl": 0.3542,
+      "quantity": 6,
+      "itemId": 614,
+      "collection": "collectibles",
+      "source": "listing",
+      "fulfilledAt": 1769784932045,
+      "initiatedBy": {
+        "id": 7392098409105826,
+        "bumpkinUri": "0_v1_47_1_43_13_35_34_23_517",
+        "username": "Danay"
+      },
+      "fulfilledBy": {
+        "id": 142979,
+        "bumpkinUri": "0_v1_83_90_184_503_504_0_414_505_30_0_86_0_0_374",
+        "username": "DeltaOmega"
+      }
+    },
     {
       "id": "2f2945ff",
       "sfl": 0.5101,
@@ -970,25 +989,6 @@
         "id": 6890726281192138,
         "bumpkinUri": "0_v1_47_1_5_181_18_22_23_253",
         "username": "EstebanKamui"
-      }
-    },
-    {
-      "id": "a30d3bb8",
-      "sfl": 2.262,
-      "quantity": 100,
-      "itemId": 257,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769659015569,
-      "initiatedBy": {
-        "id": 142979,
-        "bumpkinUri": "0_v1_83_90_184_503_504_0_414_505_30_0_86_0_0_374",
-        "username": "DeltaOmega"
-      },
-      "fulfilledBy": {
-        "id": 8249996128610215,
-        "bumpkinUri": "0_v1_47_1_7_0_18_22_23_0_0_0_0_0_451",
-        "username": "JamurKrispi"
       }
     }
   ]
