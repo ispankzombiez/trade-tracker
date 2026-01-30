@@ -9,7 +9,7 @@
     "spent_sfl": 15729.07,
     "items_sold": 10536.0,
     "trade_points": 13889.33,
-    "last_updated": "2026-01-30 02:21 PM",
+    "last_updated": "2026-01-30 02:37 PM",
     "active_listings": 0
   },
   "buys": [
@@ -497,6 +497,18 @@
   "sells": [
     {
       "date": "2026-01-30",
+      "time": "02:30 PM",
+      "type": "SELL",
+      "item": "Grape",
+      "quantity": 5,
+      "price_text": "1.1252 SFL",
+      "price": 1.1252,
+      "counterparty": "LoloLINDA",
+      "farm_id": "-",
+      "trade_id": "6ee3bdcc"
+    },
+    {
+      "date": "2026-01-30",
       "time": "12:24 PM",
       "type": "SELL",
       "item": "Iron",
@@ -871,12 +883,12 @@
   "last_updated": null,
   "stats": {
     "total_buys": 40,
-    "total_sells": 31,
+    "total_sells": 32,
     "buy_volume": 65.2358,
-    "sell_volume": 43.787,
-    "gross_profit": -21.4488,
+    "sell_volume": 44.912200000000006,
+    "gross_profit": -20.323599999999992,
     "avg_buy_price": 1.630895,
-    "avg_sell_price": 1.4124838709677419,
+    "avg_sell_price": 1.4035062500000002,
     "most_traded_items": {},
     "recent_activity": [
       {
@@ -1045,7 +1057,7 @@
         "time": "03:14 PM"
       }
     ],
-    "profit_margin": -32.878879388311326,
+    "profit_margin": -31.154059580782317,
     "most_bought_items": {
       "Stone": 937,
       "Milk": 205,
@@ -1062,7 +1074,7 @@
       "Beetroot": 1000,
       "Iron": 155,
       "Gold": 35,
-      "Grape": 25,
+      "Grape": 30,
       "Duskberry": 18
     }
   },
@@ -1928,7 +1940,7 @@
     "fruits": {
       "Apple": 24.100000000000303,
       "Blueberry": 35.55000000000024,
-      "Orange": 118.50000000000007,
+      "Orange": 113.50000000000007,
       "Banana": 67.25000000000146,
       "Grape": 17.25000000000063,
       "Tomato": 909.0000000000002,
@@ -1938,7 +1950,7 @@
       "Duskberry": 18.500000000000004
     },
     "resources": {
-      "Wood": 891.32,
+      "Wood": 964.92,
       "Stone": 459.9,
       "Iron": 32.25,
       "Gold": 12.2,
