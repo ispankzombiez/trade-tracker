@@ -2,18 +2,54 @@
   "username": "thinktronik",
   "overview": {
     "balance": 1053.04,
-    "coins": 17962.0,
+    "coins": 18162.0,
     "gems": 0.0,
     "earned_sfl": 7919.49,
-    "earned_coins": 17962.0,
+    "earned_coins": 18162.0,
     "spent_sfl": 7980.17,
     "items_sold": 4493.0,
     "trade_points": 9373.29,
-    "last_updated": "2026-01-30 05:07 AM",
+    "last_updated": "2026-01-30 05:34 AM",
     "active_listings": 12
   },
   "buys": [],
   "sells": [
+    {
+      "date": "2026-01-30",
+      "time": "05:30 AM",
+      "type": "SELL",
+      "item": "Moonfur",
+      "quantity": 1,
+      "price_text": "3.278 SFL",
+      "price": 3.278,
+      "counterparty": "FaBuu",
+      "farm_id": "-",
+      "trade_id": "c1ad959c"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "05:30 AM",
+      "type": "SELL",
+      "item": "Moonfur",
+      "quantity": 1,
+      "price_text": "3.278 SFL",
+      "price": 3.278,
+      "counterparty": "FaBuu",
+      "farm_id": "-",
+      "trade_id": "6f3fd5a1"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "05:30 AM",
+      "type": "SELL",
+      "item": "Moonfur",
+      "quantity": 1,
+      "price_text": "3.278 SFL",
+      "price": 3.278,
+      "counterparty": "FaBuu",
+      "farm_id": "-",
+      "trade_id": "4959e939"
+    },
     {
       "date": "2026-01-30",
       "time": "02:05 AM",
@@ -630,14 +666,41 @@
   "last_updated": null,
   "stats": {
     "total_buys": 0,
-    "total_sells": 51,
+    "total_sells": 54,
     "buy_volume": 0,
-    "sell_volume": 221.58620000000002,
-    "gross_profit": 221.58620000000002,
+    "sell_volume": 231.42020000000005,
+    "gross_profit": 231.42020000000005,
     "avg_buy_price": 0,
-    "avg_sell_price": 4.344827450980392,
+    "avg_sell_price": 4.28555925925926,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "SELL",
+        "item": "Moonfur",
+        "quantity": 1,
+        "price": 3.278,
+        "date": "2026-01-30",
+        "time": "05:30 AM",
+        "username": "thinktronik"
+      },
+      {
+        "type": "SELL",
+        "item": "Moonfur",
+        "quantity": 1,
+        "price": 3.278,
+        "date": "2026-01-30",
+        "time": "05:30 AM",
+        "username": "thinktronik"
+      },
+      {
+        "type": "SELL",
+        "item": "Moonfur",
+        "quantity": 1,
+        "price": 3.278,
+        "date": "2026-01-30",
+        "time": "05:30 AM",
+        "username": "thinktronik"
+      },
       {
         "type": "SELL",
         "item": "Rice",
@@ -662,8 +725,7 @@
         "quantity": 30,
         "price": 7.4846,
         "date": "2026-01-29",
-        "time": "08:57 PM",
-        "username": "thinktronik"
+        "time": "08:57 PM"
       },
       {
         "type": "SELL",
@@ -671,8 +733,7 @@
         "quantity": 250,
         "price": 3.528,
         "date": "2026-01-29",
-        "time": "08:21 PM",
-        "username": "thinktronik"
+        "time": "08:21 PM"
       },
       {
         "type": "SELL",
@@ -680,8 +741,7 @@
         "quantity": 40,
         "price": 10.2,
         "date": "2026-01-29",
-        "time": "07:20 PM",
-        "username": "thinktronik"
+        "time": "07:20 PM"
       },
       {
         "type": "SELL",
@@ -778,30 +838,6 @@
         "price": 2.8224,
         "date": "2026-01-29",
         "time": "03:54 PM"
-      },
-      {
-        "type": "SELL",
-        "item": "Gold",
-        "quantity": 20,
-        "price": 4.82,
-        "date": "2026-01-29",
-        "time": "03:50 PM"
-      },
-      {
-        "type": "SELL",
-        "item": "Artichoke",
-        "quantity": 100,
-        "price": 0.96,
-        "date": "2026-01-29",
-        "time": "03:50 PM"
-      },
-      {
-        "type": "SELL",
-        "item": "Milk",
-        "quantity": 40,
-        "price": 4.95,
-        "date": "2026-01-29",
-        "time": "03:49 PM"
       }
     ],
     "profit_margin": 0,
@@ -815,7 +851,8 @@
       "Gold": 340,
       "Iron": 125,
       "Olive": 40,
-      "Rice": 30
+      "Rice": 30,
+      "Moonfur": 3
     }
   },
   "active_listings": [
@@ -940,7 +977,7 @@
       "Cauliflower": 616.8758,
       "Parsnip": 133.38849999999994,
       "Radish": 4759.9201,
-      "Wheat": 9840.8535,
+      "Wheat": 10037.4535,
       "Kale": 3395.4852,
       "Eggplant": 2087.0092,
       "Corn": 4074.8443999999995,
@@ -963,14 +1000,14 @@
       "Orange": 3928.3000000000034,
       "Banana": 2167.0000000000014,
       "Grape": 155.50000000000014,
-      "Tomato": 8989.750000000004,
+      "Tomato": 9000.900000000003,
       "Lemon": 1052.6000000000035,
       "Duskberry": 192.2,
       "Lunara": 17.200000000000024,
       "Celestine": 20.500000000000025
     },
     "resources": {
-      "Wood": 6148.59,
+      "Wood": 6204.36,
       "Stone": 1069.81,
       "Iron": 814.95,
       "Gold": 632.71,
