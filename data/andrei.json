@@ -1,16 +1,16 @@
 {
   "username": "andrei",
   "overview": {
-    "balance": 2.99,
-    "coins": 51323.0,
+    "balance": 5.15,
+    "coins": 53301.0,
     "gems": 0.0,
-    "earned_sfl": 11634.86,
-    "earned_coins": 51323.0,
+    "earned_sfl": 11638.5,
+    "earned_coins": 53301.0,
     "spent_sfl": 15729.07,
-    "items_sold": 10530.0,
+    "items_sold": 10535.0,
     "trade_points": 13889.32,
-    "last_updated": "2026-01-30 11:10 AM",
-    "active_listings": 0
+    "last_updated": "2026-01-30 11:34 AM",
+    "active_listings": 6
   },
   "buys": [
     {
@@ -448,6 +448,78 @@
   ],
   "sells": [
     {
+      "date": "2026-01-30",
+      "time": "11:23 AM",
+      "type": "SELL",
+      "item": "Grape",
+      "quantity": 5,
+      "price_text": "1.1784 SFL",
+      "price": 1.1784,
+      "counterparty": "Kierra",
+      "farm_id": "-",
+      "trade_id": "0a1c95d2"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "11:23 AM",
+      "type": "SELL",
+      "item": "Grape",
+      "quantity": 5,
+      "price_text": "1.1784 SFL",
+      "price": 1.1784,
+      "counterparty": "Kierra",
+      "farm_id": "-",
+      "trade_id": "d8226013"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "11:22 AM",
+      "type": "SELL",
+      "item": "Iron",
+      "quantity": 40,
+      "price_text": "2.4805 SFL",
+      "price": 2.4805,
+      "counterparty": "PotatoFactor",
+      "farm_id": "-",
+      "trade_id": "d33e7880"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "11:21 AM",
+      "type": "SELL",
+      "item": "Gold",
+      "quantity": 5,
+      "price_text": "1.19 SFL",
+      "price": 1.19,
+      "counterparty": "RajaPolah",
+      "farm_id": "-",
+      "trade_id": "ec0e0a12"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "11:21 AM",
+      "type": "SELL",
+      "item": "Gold",
+      "quantity": 5,
+      "price_text": "1.19 SFL",
+      "price": 1.19,
+      "counterparty": "RajaPolah",
+      "farm_id": "-",
+      "trade_id": "7dce3ada"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "11:21 AM",
+      "type": "SELL",
+      "item": "Gold",
+      "quantity": 5,
+      "price_text": "1.19 SFL",
+      "price": 1.19,
+      "counterparty": "RajaPolah",
+      "farm_id": "-",
+      "trade_id": "6ab6dc7f"
+    },
+    {
       "date": "2026-01-29",
       "time": "04:39 PM",
       "type": "SELL",
@@ -727,12 +799,12 @@
   "last_updated": null,
   "stats": {
     "total_buys": 36,
-    "total_sells": 23,
+    "total_sells": 29,
     "buy_volume": 52.89609999999999,
-    "sell_volume": 31.0263,
-    "gross_profit": -21.86979999999999,
+    "sell_volume": 39.4336,
+    "gross_profit": -13.462499999999991,
     "avg_buy_price": 1.4693361111111107,
-    "avg_sell_price": 1.3489695652173912,
+    "avg_sell_price": 1.3597793103448275,
     "most_traded_items": {},
     "recent_activity": [
       {
@@ -901,7 +973,7 @@
         "time": "02:11 PM"
       }
     ],
-    "profit_margin": -41.34482504381229,
+    "profit_margin": -25.45083664013036,
     "most_bought_items": {
       "Stone": 659,
       "Milk": 155,
@@ -916,13 +988,68 @@
     },
     "most_sold_items": {
       "Beetroot": 1000,
-      "Iron": 65,
-      "Gold": 20,
-      "Duskberry": 18,
-      "Grape": 10
+      "Iron": 105,
+      "Gold": 35,
+      "Grape": 20,
+      "Duskberry": 18
     }
   },
-  "active_listings": [],
+  "active_listings": [
+    {
+      "id": "6ab6dc7f",
+      "item": "Gold",
+      "quantity": 5,
+      "price": 1.19,
+      "created_at": 1769772040676,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "7dce3ada",
+      "item": "Gold",
+      "quantity": 5,
+      "price": 1.19,
+      "created_at": 1769772045763,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "ec0e0a12",
+      "item": "Gold",
+      "quantity": 5,
+      "price": 1.19,
+      "created_at": 1769772053203,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "0a1c95d2",
+      "item": "Grape",
+      "quantity": 5,
+      "price": 1.1784,
+      "created_at": 1769772132750,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "d8226013",
+      "item": "Grape",
+      "quantity": 5,
+      "price": 1.1784,
+      "created_at": 1769772147082,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "37a0bf56",
+      "item": "Grape",
+      "quantity": 5,
+      "price": 1.1784,
+      "created_at": 1769772153149,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    }
+  ],
   "active_offers": [
     {
       "id": "32258476",
@@ -1777,9 +1904,9 @@
       "Potato": 61100.45800000062,
       "Pumpkin": 284.6147999999876,
       "Carrot": 7720.157,
-      "Cabbage": 4748.882,
+      "Cabbage": 4738.882,
       "Beetroot": 320.7724,
-      "Cauliflower": 90.09,
+      "Cauliflower": 65.09,
       "Parsnip": 33.976,
       "Radish": 3.0060000000000167,
       "Wheat": 2.398599999999931,
@@ -1787,12 +1914,12 @@
       "Eggplant": 62.18400000000001,
       "Corn": 0.1386000000001591,
       "Soybean": 127.0741,
-      "Rice": 0.554,
-      "Olive": 3.124,
+      "Rice": 2.554,
+      "Olive": 2.124,
       "Barley": 227.98210000000006,
       "Rhubarb": 503.35,
       "Zucchini": 529.05,
-      "Yam": 2882.395,
+      "Yam": 3086.185,
       "Broccoli": 1010.446,
       "Pepper": 1179.455,
       "Onion": 17.619400000000013,
@@ -1801,10 +1928,10 @@
     },
     "fruits": {
       "Apple": 150.1000000000003,
-      "Blueberry": 10.550000000000235,
+      "Blueberry": 35.55000000000024,
       "Orange": 3.5000000000000706,
       "Banana": 67.25000000000146,
-      "Grape": 23.850000000000627,
+      "Grape": 22.25000000000063,
       "Tomato": 909.0000000000002,
       "Lemon": 32.70000000000148,
       "Lunara": 0.6,
@@ -1812,10 +1939,10 @@
       "Duskberry": 18.500000000000004
     },
     "resources": {
-      "Wood": 762.12,
+      "Wood": 835.72,
       "Stone": 191.9,
-      "Iron": 152.25,
-      "Gold": 27.2,
+      "Iron": 112.25,
+      "Gold": 12.2,
       "Crimstone": 0.1,
       "Obsidian": 16.9
     }
