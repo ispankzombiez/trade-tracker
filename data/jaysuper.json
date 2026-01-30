@@ -1,19 +1,31 @@
 {
   "username": "jaysuper",
   "overview": {
-    "balance": 471.95,
+    "balance": 474.37,
     "coins": 82054.0,
     "gems": 0.0,
     "earned_sfl": 13684.03,
     "earned_coins": 82054.0,
     "spent_sfl": 15466.58,
-    "items_sold": 13450.0,
+    "items_sold": 13452.0,
     "trade_points": 31145.84,
-    "last_updated": "2026-01-30 07:59 AM",
-    "active_listings": 136
+    "last_updated": "2026-01-30 08:18 AM",
+    "active_listings": 137
   },
   "buys": [],
   "sells": [
+    {
+      "date": "2026-01-30",
+      "time": "08:03 AM",
+      "type": "SELL",
+      "item": "Wood",
+      "quantity": 119,
+      "price_text": "1.0655 SFL",
+      "price": 1.0655,
+      "counterparty": "Eloperoa",
+      "farm_id": "-",
+      "trade_id": "732c3a14"
+    },
     {
       "date": "2026-01-30",
       "time": "07:56 AM",
@@ -1182,14 +1194,23 @@
   "last_updated": null,
   "stats": {
     "total_buys": 0,
-    "total_sells": 97,
+    "total_sells": 98,
     "buy_volume": 0,
-    "sell_volume": 67.4827,
-    "gross_profit": 67.4827,
+    "sell_volume": 68.5482,
+    "gross_profit": 68.5482,
     "avg_buy_price": 0,
-    "avg_sell_price": 0.6956979381443298,
+    "avg_sell_price": 0.6994714285714285,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "SELL",
+        "item": "Wood",
+        "quantity": 119,
+        "price": 1.0655,
+        "date": "2026-01-30",
+        "time": "08:03 AM",
+        "username": "jaysuper"
+      },
       {
         "type": "SELL",
         "item": "Beetroot",
@@ -1232,8 +1253,7 @@
         "quantity": 125,
         "price": 0.7858,
         "date": "2026-01-30",
-        "time": "04:45 AM",
-        "username": "jaysuper"
+        "time": "04:45 AM"
       },
       {
         "type": "SELL",
@@ -1346,14 +1366,6 @@
         "price": 0.362,
         "date": "2026-01-30",
         "time": "02:57 AM"
-      },
-      {
-        "type": "SELL",
-        "item": "Parsnip",
-        "quantity": 25,
-        "price": 0.46,
-        "date": "2026-01-30",
-        "time": "02:57 AM"
       }
     ],
     "profit_margin": 0,
@@ -1364,7 +1376,7 @@
       "Beetroot": 2626,
       "Broccoli": 2150,
       "Lemon": 1195,
-      "Wood": 795,
+      "Wood": 914,
       "Pumpkin": 600,
       "Parsnip": 295,
       "Tomato": 180,
@@ -2604,15 +2616,6 @@
       "created_at": 1769759629888,
       "collection": "collectibles",
       "trade_type": "instant"
-    },
-    {
-      "id": "ed891933",
-      "item": "Beetroot",
-      "quantity": 250,
-      "price": 1.6477,
-      "created_at": 1769759670004,
-      "collection": "collectibles",
-      "trade_type": "instant"
     }
   ],
   "active_offers": [
@@ -2656,11 +2659,11 @@
   "inventory": {
     "crops": {
       "Sunflower": 601913.2571998293,
-      "Potato": 161794.40380001513,
+      "Potato": 161298.40380001513,
       "Pumpkin": 528514.8300000012,
       "Carrot": 118732.27079999977,
-      "Cabbage": 105732.68659999984,
-      "Beetroot": 40851.36390000002,
+      "Cabbage": 105652.68659999984,
+      "Beetroot": 40601.36390000002,
       "Cauliflower": 987.0169999999995,
       "Parsnip": 727.8398000000011,
       "Radish": 21266.068,
@@ -2674,7 +2677,7 @@
       "Barley": 917.3150000000052,
       "Rhubarb": 221319.1645999989,
       "Zucchini": 514270.0394999985,
-      "Yam": 40627.842699999674,
+      "Yam": 40938.992699999675,
       "Broccoli": 14331.987599999742,
       "Pepper": 9694.91559999999,
       "Onion": 4832.812700000002,
@@ -2694,8 +2697,8 @@
       "Celestine": 333.08000000000004
     },
     "resources": {
-      "Wood": 50219.64,
-      "Stone": 12510.4,
+      "Wood": 50110.16,
+      "Stone": 12597.4,
       "Iron": 5037.35,
       "Gold": 1458.8000001,
       "Crimstone": 357.85,
