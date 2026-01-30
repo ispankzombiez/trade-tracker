@@ -29,7 +29,7 @@
       "Red Lotus": "4",
       "Soybean": "17098.2833",
       "Olive": "88.08",
-      "Tomato": "910.9000000000009869",
+      "Tomato": "918.9000000000009881",
       "Lemon": "858.7000000000005678",
       "Barley": "401.8870000000000441",
       "Rhubarb": "1661.7999",
@@ -94,7 +94,7 @@
       "Earthworm": "2809",
       "Grub": "1081",
       "Sprout Mix": "1057",
-      "Fruitful Blend": "768",
+      "Fruitful Blend": "765",
       "Rapid Root": "1774",
       "Beehive": "4",
       "Flower Bed": "4",
@@ -239,7 +239,7 @@
       "Zebra Turkeyfish": "15",
       "Blue Marlin": "9",
       "Hammerhead shark": "5",
-      "Rice": "39.85",
+      "Rice": "44.95",
       "Rocky the Mole": "1",
       "White Pansy": "3",
       "Yellow Lotus": "4",
@@ -265,7 +265,7 @@
       "Crim Peckster": "1",
       "Pearl": "18",
       "Grape Seed": "34",
-      "Rice Seed": "50",
+      "Rice Seed": "48",
       "Woodcutter's Monument": "1",
       "Shroom Syrup": "5",
       "Sunpetal Seed": "39",
@@ -472,7 +472,7 @@
       "Treasure Key": "1",
       "Club Sandwich": "4",
       "Basic Cooking Pot": "1",
-      "Tomato Seed": "15",
+      "Tomato Seed": "13",
       "Orange Cake": "1",
       "Axe": "174",
       "Pickaxe": "20"
@@ -2137,12 +2137,12 @@
       }
     },
     "greenhouse": {
-      "oil": 62,
+      "oil": 54,
       "pots": {
         "1": {
           "plant": {
             "name": "Rice",
-            "plantedAt": 1769658686831
+            "plantedAt": 1769748406511
           }
         },
         "2": {
@@ -2154,7 +2154,7 @@
         "3": {
           "plant": {
             "name": "Rice",
-            "plantedAt": 1769658687203
+            "plantedAt": 1769748407873
           }
         },
         "4": {
@@ -3758,8 +3758,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769760020729,
-          "harvestedAt": 1769768324909,
-          "harvestsLeft": 4
+          "harvestedAt": 1769770878235,
+          "harvestsLeft": 3
         },
         "fertiliser": {
           "name": "Fruitful Blend",
@@ -3792,8 +3792,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769720410261,
-          "harvestedAt": 1769768325346,
-          "harvestsLeft": 4
+          "harvestedAt": 1769770878448,
+          "harvestsLeft": 3
         }
       },
       "9ff86706": {
@@ -3803,8 +3803,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769720409727,
-          "harvestedAt": 1769768325439,
-          "harvestsLeft": 3
+          "harvestedAt": 1769770878661,
+          "harvestsLeft": 2
         },
         "fertiliser": {
           "name": "Fruitful Blend",
@@ -3815,15 +3815,15 @@
         "createdAt": 1748434437906,
         "x": 9,
         "y": 4,
-        "fertiliser": {
-          "name": "Fruitful Blend",
-          "fertilisedAt": 1769712550957
-        },
         "fruit": {
           "name": "Tomato",
-          "plantedAt": 1769707507010,
-          "harvestedAt": 1769768325820,
-          "harvestsLeft": 0
+          "plantedAt": 1769770241841,
+          "harvestedAt": 0,
+          "harvestsLeft": 5
+        },
+        "fertiliser": {
+          "name": "Fruitful Blend",
+          "fertilisedAt": 1769775294279
         }
       },
       "f30d51fa": {
@@ -3937,9 +3937,13 @@
         "y": 6,
         "fruit": {
           "name": "Tomato",
-          "plantedAt": 1769715095443,
-          "harvestedAt": 1769768326221,
-          "harvestsLeft": 1
+          "plantedAt": 1769770881764,
+          "harvestedAt": 0,
+          "harvestsLeft": 7
+        },
+        "fertiliser": {
+          "name": "Fruitful Blend",
+          "fertilisedAt": 1769775924890
         }
       }
     },
@@ -6116,10 +6120,10 @@
       "Lemon Seed Bought": 652,
       "Lemon Seed Planted": 635,
       "Tomato Seed Bought": 1100,
-      "Tomato Seed Planted": 1085,
+      "Tomato Seed Planted": 1087,
       "Honey Harvested": 1174.0531295938647,
       "Lemon Harvested": 3651,
-      "Tomato Harvested": 6284,
+      "Tomato Harvested": 6288,
       "Banana Harvested": 1897,
       "Roast Veggies Fed": 4,
       "Boiled Eggs Fed": 22,
@@ -6286,9 +6290,9 @@
       "Grape Seed Bought": 192,
       "Grape Planted": 158,
       "Olive Planted": 104,
-      "Rice Planted": 109,
+      "Rice Planted": 111,
       "Grape Harvested": 158,
-      "Rice Harvested": 107,
+      "Rice Harvested": 109,
       "Orange Cake Cooked": 11,
       "Olive Harvested": 102,
       "Radish Sold": 100,
@@ -7586,7 +7590,7 @@
           "petXP": 9870,
           "score": 4224,
           "collectivePet": {
-            "totalXP": 6262512.5,
+            "totalXP": 6264062.5,
             "goalXP": 5445481,
             "goalReached": true,
             "streak": 8,
@@ -8670,13 +8674,13 @@
       "Turbo Charged": 1769757839980,
       "Desert Gnome": 1769773433720,
       "Fast Feasts": 1769773433720,
-      "Camel Onesie": 1769773366221,
-      "Fruitful Fumble": 1769773366221,
+      "Camel Onesie": 1769775919137,
+      "Fruitful Fumble": 1769775919137,
       "Lady Bug": 1769757789438,
-      "Loyal Macaw": 1769773366221,
-      "Macaw": 1769773366221,
+      "Loyal Macaw": 1769775919137,
+      "Macaw": 1769775919137,
       "Lumberjack's Extra": 1769773373693,
-      "No Axe No Worries": 1769765059117,
+      "No Axe No Worries": 1769775920455,
       "Squirrel": 1769773373693,
       "Tiki Totem": 1769773373693,
       "Tough Tree": 1769773372735,
@@ -8729,10 +8733,10 @@
       "Purple Trail": 1769335165682,
       "Vinny": 1769685757229,
       "El Pollo Veloz": 1769635490685,
-      "Rice Panda": 1769547009580,
+      "Rice Panda": 1769775476557,
       "Chicory": 1769514751170,
       "Olive Royalty Shirt": 1769671002792,
-      "Non La Hat": 1769547009580,
+      "Non La Hat": 1769775476557,
       "Blossombeard": 1764496872589,
       "Golden Spatula": 1764496872589,
       "Munching Mastery": 1764496872589,
@@ -8746,17 +8750,17 @@
       "Drive-Through Deli": 1755719867045,
       "Ferrous Favor": 1769757890837,
       "Rocky Favor": 1769757890837,
-      "Glass Room": 1769685757229,
+      "Glass Room": 1769775476557,
       "Gold Beetle": 1769757862025,
       "Golden Touch": 1769757862025,
       "Crim Peckster": 1769757845128,
       "Crimstone Armor": 1769757845128,
-      "Generous Orchard": 1769765058349,
+      "Generous Orchard": 1769775918661,
       "Blooming Boost": 1769727328137,
       "Victoria's Secretary": 1769630045402,
       "Sweet Bonus": 1769773425375,
       "Petalled Perk": 1768885976498,
-      "Kuebiko": 1769773422841,
+      "Kuebiko": 1769775479873,
       "Green Amulet": 1769773400264,
       "Cow-Smart Nutrition": 1769635484390,
       "Dr Cow": 1769591067401,
@@ -8768,7 +8772,7 @@
       "Milk Apron": 1769591069239,
       "Moo-ver": 1769591069239,
       "Wood Nymph Wendy": 1769773373693,
-      "Lunar Calendar": 1769773422841,
+      "Lunar Calendar": 1769775479873,
       "King of Bears": 1769773425375,
       "Apprentice Beaver": 1769773373693,
       "Butterfly": 1769514751599,
@@ -8776,8 +8780,8 @@
       "Obie": 1769292556446,
       "Treasure Map": 1764782600264,
       "Lemon Frog": 1769496367005,
-      "Cannonball": 1769773366221,
-      "Tomato Clown": 1769773366221,
+      "Cannonball": 1769775921764,
+      "Tomato Clown": 1769775921764,
       "Green Thumb": 1769773422841,
       "Banana Onesie": 1769613323117,
       "Nana": 1769613323117,
@@ -8789,7 +8793,7 @@
       "Squirrel Monkey": 1768874162738,
       "Black Bearry": 1768938015404,
       "Nugget": 1769757862025,
-      "Fruit Tune Box": 1769773366221,
+      "Fruit Tune Box": 1769775921764,
       "Camel": 1769723512125,
       "Bionic Drill": 1769723529756,
       "Reelmaster's Chair": 1769723318051,
