@@ -6,15 +6,15 @@
     "inventory": {
       "Corn Seed": "183",
       "Sunflower": "1449.100000000000001",
-      "Potato": "1547.9",
+      "Potato": "1047.9",
       "Pumpkin": "1317.1",
-      "Carrot": "967.7615000000000405",
+      "Carrot": "847.7615000000000405",
       "Cabbage": "469.4606000000000386",
-      "Beetroot": "218.8209000000000313",
+      "Beetroot": "118.8209000000000313",
       "Cauliflower": "89.9855000000001015",
       "Parsnip": "102.3934000000000356",
       "Radish": "195.8997000000001961",
-      "Wheat": "490.6939000000005763",
+      "Wheat": "460.6939000000005763",
       "Kale": "60.1891000000003353",
       "Blueberry": "160.3",
       "Orange": "134.4000000000000007",
@@ -40,11 +40,11 @@
       "Rhubarb": "75.8",
       "Zucchini": "255.249",
       "Yam": "3221.2464000000000012",
-      "Broccoli": "2442.4482000000000094",
+      "Broccoli": "2432.4482000000000094",
       "Pepper": "421.3844000000000244",
       "Onion": "2223.9096",
       "Turnip": "663.9971000000001451",
-      "Artichoke": "1921.3",
+      "Artichoke": "1919.3",
       "Duskberry": "1.9000000000000012",
       "Lunara": "0.1000000000000012",
       "Celestine": "15.8",
@@ -114,7 +114,7 @@
       "Wood": "237",
       "Stone": "0.25",
       "Iron": "1.7",
-      "Egg": "1874.8",
+      "Egg": "1784.8",
       "Speed Chicken": "1",
       "Fat Chicken": "1",
       "Rich Chicken": "1",
@@ -130,7 +130,7 @@
       "Fruit Patch": "16",
       "Basic Land": "21",
       "Earthworm": "1377",
-      "Fruitful Blend": "341",
+      "Fruitful Blend": "350",
       "Beehive": "4",
       "Flower Bed": "4",
       "Crimstone Rock": "4",
@@ -392,7 +392,7 @@
       "White Pansy": "4",
       "Gold": "15.1",
       "Sprout Mix": "191",
-      "Apple Pie": "9",
+      "Apple Pie": "10",
       "Bloom Doll": "1",
       "Lemon Cheesecake": "2",
       "Frozen Meat": "1",
@@ -490,7 +490,7 @@
       "Orange Juice": "4",
       "Purple Smoothie": "5",
       "The Lot": "1",
-      "Grub": "15",
+      "Grub": "18",
       "Fish Oil": "8",
       "Yellow Daffodil": "4",
       "Big Apple": "1",
@@ -4877,10 +4877,10 @@
           "producing": {
             "items": {
               "Fruitful Blend": 9,
-              "Grub": 3
+              "Grub": 2
             },
-            "startedAt": 1769707334178,
-            "readyAt": 1769730662178
+            "startedAt": 1769732110840,
+            "readyAt": 1769755438840
           }
         }
       ],
@@ -4936,9 +4936,39 @@
                 "Double Nom": false
               },
               "readyAt": 1769767883419
+            },
+            {
+              "name": "Potato Cake",
+              "boost": {
+                "Oil": 4.375
+              },
+              "skills": {
+                "Double Nom": false
+              },
+              "readyAt": 1769787785119
+            },
+            {
+              "name": "Carrot Cake",
+              "boost": {
+                "Oil": 5.416666666666666
+              },
+              "skills": {
+                "Double Nom": false
+              },
+              "readyAt": 1769812425319
+            },
+            {
+              "name": "Beetroot Cake",
+              "boost": {
+                "Oil": 9.166666666666666
+              },
+              "skills": {
+                "Double Nom": false
+              },
+              "readyAt": 1769854124119
             }
           ],
-          "oil": 26.875,
+          "oil": 7.91666666666667,
           "coordinates": {
             "x": 10,
             "y": -5
@@ -7710,7 +7740,7 @@
       "Gift Giver Reward Opened": 18,
       "Farm Cheered": 354,
       "Bulk Resources Purchased": 61811,
-      "Airdrop Reward Claimed": 109,
+      "Airdrop Reward Claimed": 110,
       "General Store Restocked": 36,
       "Recipe Queue Cancelled": 222,
       "Marketplace Listing Created": 298,
@@ -7956,7 +7986,7 @@
       "Protective Pesticide Crafted": 10,
       "Onion Harvested": 3443,
       "Turnip Harvested": 2297,
-      "Turbo Composter Collected": 352,
+      "Turbo Composter Collected": 353,
       "Kale & Mushroom Pie Fed": 28,
       "Carrot Juice Fed": 35,
       "Sour Shake Fed": 42,
@@ -8003,7 +8033,7 @@
       "Fish n Chips Fed": 9,
       "Kernel Blend Mixed": 2579,
       "Purple Smoothie Cooked": 109,
-      "Chicken Cured": 496,
+      "Chicken Cured": 497,
       "Orange Cake Cooked": 60,
       "Goblin's Treat Cooked": 41,
       "Orange Tunnel Bunny Bought": 1,
@@ -10128,7 +10158,7 @@
           "petXP": 0,
           "score": 770,
           "collectivePet": {
-            "totalXP": 5327412,
+            "totalXP": 5456962,
             "goalXP": 2404688,
             "goalReached": true,
             "streak": 3,
@@ -10254,7 +10284,7 @@
           "experience": 70422.5,
           "lovedAt": 1769724002088,
           "item": "Music Box",
-          "healthCheckedAt": 1769645735110
+          "healthCheckedAt": 1769733938006
         },
         "a69edea9": {
           "id": "a69edea9",
@@ -10410,7 +10440,7 @@
           "experience": 11322.5,
           "lovedAt": 1769724000827,
           "item": "Music Box",
-          "healthCheckedAt": 1769645735110
+          "healthCheckedAt": 1769733938006
         },
         "22b4ab39": {
           "id": "22b4ab39",
@@ -10949,7 +10979,7 @@
           "experience": 391717.5,
           "lovedAt": 1769729676089,
           "item": "Music Box",
-          "healthCheckedAt": 1769645735110
+          "healthCheckedAt": 1769733938006
         },
         "4753a917": {
           "id": "4753a917",
@@ -10961,7 +10991,7 @@
           "experience": 391755,
           "lovedAt": 1769729668893,
           "item": "Brush",
-          "healthCheckedAt": 1769645735110
+          "healthCheckedAt": 1769733938006
         },
         "09ec8214": {
           "id": "09ec8214",
@@ -11917,10 +11947,10 @@
       "Flower Fox": 1769682010395,
       "Humming Bird": 1769681957937,
       "Petalled Perk": 1769510276989,
-      "Composting Revamp": 1769723590552,
+      "Composting Revamp": 1769732110840,
       "Premium Worms": 1769723590552,
-      "Soil Krabby": 1769723590552,
-      "Swift Decomposer": 1769723590552,
+      "Soil Krabby": 1769732110840,
+      "Swift Decomposer": 1769732110840,
       "Efficient Bin": 1769717142577,
       "Green Thumb": 1769725019650,
       "Laurie the Chuckle Crow": 1769724989949,
@@ -11956,7 +11986,7 @@
       "Experienced Farmer": 1757322487816,
       "Horror Mike": 1757322485410,
       "Scary Mike": 1769438336118,
-      "Desert Gnome": 1769702905241,
+      "Desert Gnome": 1769734013993,
       "Turbo Charged": 1757296691266,
       "Angler Waders": 1769568846467,
       "Pink Dolphin": 1768701651730,
@@ -11966,10 +11996,10 @@
       "Time Warp Totem": 1769633730660,
       "Barn Blueprint": 1768817873991,
       "Obie": 1769363706059,
-      "Turd Topper": 1769723590552,
+      "Turd Topper": 1769732110840,
       "Maximus": 1769385958799,
       "Purple Trail": 1769385958799,
-      "Oracle Syringe": 1769726415676,
+      "Oracle Syringe": 1769734025976,
       "Chicken Coop": 1769693187211,
       "Rich Chicken": 1769693187211,
       "Jellyfish": 1769213664076,
@@ -11987,7 +12017,7 @@
       "Chonky Feed": 1769693174370,
       "Merino Whisperer": 1769717183060,
       "Betty's Friend": 1769646258912,
-      "Frosted Cakes": 1769702905241,
+      "Frosted Cakes": 1769734013993,
       "Paw Shield": 1769375262753,
       "Grain Grinder": 1766707801246,
       "Drive-Through Deli": 1765881317560,
@@ -11998,8 +12028,8 @@
       "Reelmaster's Chair": 1769568846467,
       "Fruit Tune Box": 1769712939456,
       "Rooster": 1768213513923,
-      "Bucket O' Worms": 1769723590552,
-      "Wormy Treat": 1769723590552,
+      "Bucket O' Worms": 1769732110840,
+      "Wormy Treat": 1769732110840,
       "Poseidon": 1769568846467,
       "Architect Ruler": 1769654171503,
       "Astronaut Sheep": 1769717183060,
@@ -12026,7 +12056,7 @@
       "Frenzied Fish": 1769040238731,
       "Fishy Chance": 1769568846467,
       "Sparrow Shrine": 1769725019650,
-      "Saw Fish": 1769723590552,
+      "Saw Fish": 1769732110840,
       "Squirrel Onesie": 1769562131970,
       "Green Amulet": 1768467634244,
       "Basic Scarecrow": 1769439628168,
