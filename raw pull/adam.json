@@ -1,7 +1,7 @@
 {
   "farm": {
     "coins": 28488.461802699952,
-    "balance": "3362.623982970796573",
+    "balance": "2740.623982970796573",
     "previousBalance": "2089.2240129707965729",
     "inventory": {
       "Sunflower Seed": "1844",
@@ -128,8 +128,8 @@
       "Rich Chicken": "2",
       "Rooster": "1",
       "Honey": "0.689182667824074105",
-      "Wild Mushroom": "394.4",
-      "Magic Mushroom": "158",
+      "Wild Mushroom": "395.4",
+      "Magic Mushroom": "159",
       "Tree": "23",
       "Stone Rock": "16",
       "Iron Rock": "12",
@@ -387,7 +387,7 @@
       "Vase": "11",
       "Scarab": "18",
       "Hieroglyph": "6",
-      "Trade Point": "4355.006868099479171",
+      "Trade Point": "4666.006868099479171",
       "Kale Seed": "38",
       "Cow Skull": "1",
       "Barley Seed": "14",
@@ -397,7 +397,7 @@
       "Onion Seed": "89",
       "Turnip Seed": "59",
       "Timeshard": "15",
-      "Love Charm": "13183",
+      "Love Charm": "13190",
       "Broken Pillar": "1",
       "Geniseed": "3",
       "Basic Biome": "1",
@@ -490,7 +490,8 @@
       "Wheat Cake": "1",
       "Sunflower Cake": "1",
       "Earthworm": "9",
-      "Oil Drill": "2"
+      "Oil Drill": "2",
+      "Autumn Guardian": "1"
     },
     "previousInventory": {
       "Sunflower Seed": "1000",
@@ -887,7 +888,8 @@
       "Pony Toy": "1",
       "Red Slime Balloon": "1",
       "Blue Slime Balloon": "1",
-      "Giant Turnip": "1"
+      "Giant Turnip": "1",
+      "Autumn Guardian": "1"
     },
     "shipments": {
       "restockedAt": 1769644499202
@@ -3103,7 +3105,7 @@
           "tradeType": "onchain"
         }
       },
-      "tradePoints": 10355.00686809948,
+      "tradePoints": 10666.00686809948,
       "weeklyPurchases": {
         "2025-12-08": {
           "Clownfish": 1
@@ -3675,7 +3677,7 @@
         {
           "id": "1336e91f",
           "coordinates": {
-            "x": 8,
+            "x": 7,
             "y": 0
           }
         }
@@ -4015,6 +4017,15 @@
           "id": "bc9c9e29",
           "removedAt": 1769470281583
         }
+      ],
+      "Autumn Guardian": [
+        {
+          "id": "68c89428",
+          "coordinates": {
+            "x": 10,
+            "y": 0
+          }
+        }
       ]
     },
     "pumpkinPlaza": {
@@ -4285,7 +4296,7 @@
       "Potato Cake Cooked": 3,
       "Basic Scarecrow Crafted": 1,
       "Turbo Composter Collected": 16,
-      "Collectible Placed": 401,
+      "Collectible Placed": 402,
       "Grubnash's Tombstone Bought": 1,
       "Apple Juice Fed": 14,
       "Kale Harvested": 483,
@@ -4746,20 +4757,7 @@
     },
     "mushrooms": {
       "magicSpawnedAt": 1769716800000,
-      "mushrooms": {
-        "f1397cbf": {
-          "name": "Wild Mushroom",
-          "amount": 1,
-          "x": 4,
-          "y": -8
-        },
-        "fa505949": {
-          "name": "Magic Mushroom",
-          "amount": 1,
-          "x": 5,
-          "y": -7
-        }
-      },
+      "mushrooms": {},
       "spawnedAt": 1769690250994
     },
     "delivery": {
@@ -5620,7 +5618,7 @@
           "petXP": 0,
           "score": 0,
           "collectivePet": {
-            "totalXP": 7789110,
+            "totalXP": 7817830,
             "goalXP": 4586794,
             "goalReached": true,
             "streak": 6,
@@ -6413,7 +6411,7 @@
       "Sunshower": 1769470241130
     },
     "socialFarming": {
-      "points": 5911,
+      "points": 5922,
       "villageProjects": {
         "Miner's Monument": {
           "cheers": 7
@@ -6484,7 +6482,7 @@
       },
       "weeklyPoints": {
         "week": "2026-01-26",
-        "points": 58
+        "points": 69
       },
       "helpedForCompetition": 3,
       "waves": {
@@ -6499,7 +6497,7 @@
         "20": {
           "id": 20,
           "name": "Pet #20",
-          "experience": 65,
+          "experience": 80,
           "energy": 5,
           "requests": {
             "food": [
@@ -6511,7 +6509,7 @@
             ],
             "fedAt": 1764033323154
           },
-          "pettedAt": 1769465973217,
+          "pettedAt": 1769744473532,
           "traits": {
             "type": "Griffin",
             "fur": "Red",
@@ -6525,7 +6523,7 @@
           },
           "location": "farm",
           "dailySocialXP": {
-            "2026-01-29": 10
+            "2026-01-30": 5
           },
           "walking": false,
           "cheeredAt": 1769213147165
@@ -6533,7 +6531,7 @@
         "2921": {
           "id": 2921,
           "name": "Pet #2921",
-          "experience": 65,
+          "experience": 80,
           "energy": 0,
           "requests": {
             "food": [
@@ -6545,7 +6543,7 @@
             ],
             "fedAt": 1766526965707
           },
-          "pettedAt": 1769470295011,
+          "pettedAt": 1769744470358,
           "traits": {
             "type": "Warthog",
             "fur": "Grey",
@@ -6560,14 +6558,14 @@
           "location": "farm",
           "walking": false,
           "dailySocialXP": {
-            "2026-01-29": 10
+            "2026-01-30": 5
           },
           "cheeredAt": 1769213143759
         },
         "3000": {
           "id": 3000,
           "name": "Pet #3000",
-          "experience": 65,
+          "experience": 80,
           "energy": 25,
           "requests": {
             "food": [
@@ -6579,7 +6577,7 @@
             ],
             "fedAt": 1764808565728
           },
-          "pettedAt": 1769465974070,
+          "pettedAt": 1769744469680,
           "traits": {
             "type": "Wolf",
             "fur": "Grey",
@@ -6593,7 +6591,7 @@
           },
           "location": "farm",
           "dailySocialXP": {
-            "2026-01-29": 10
+            "2026-01-30": 5
           },
           "walking": true,
           "cheeredAt": 1769213142816
@@ -6603,7 +6601,7 @@
       "common": {
         "Meowchi": {
           "name": "Meowchi",
-          "experience": 40,
+          "experience": 45,
           "energy": 0,
           "requests": {
             "food": [
@@ -6615,7 +6613,7 @@
           },
           "pettedAt": 1769470301955,
           "dailySocialXP": {
-            "2026-01-29": 10
+            "2026-01-30": 5
           },
           "cheeredAt": 1769465971281
         }
