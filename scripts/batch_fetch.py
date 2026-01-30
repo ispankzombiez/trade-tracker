@@ -449,20 +449,12 @@ def fetch_farms_batch(long_farm_ids: List[str], api_key: str, chunk_size: int = 
         chunk = long_farm_ids[i:i + chunk_size]
         print(f"📦 Fetching batch {i//chunk_size + 1}: {len(chunk)} farms")
         
-        # Convert string IDs to integers for the API
-        chunk_as_ints = []
-        for long_id in chunk:
-            try:
-                chunk_as_ints.append(int(long_id))
-            except ValueError:
-                print(f"⚠️ Invalid long ID: {long_id}")
-                continue
-        
+        # Use the correct format: array of string IDs, not integers
         payload = {
-            "ids": chunk_as_ints
+            "ids": chunk  # Keep as strings, don't convert to integers
         }
         
-        print(f"🚀 Sending batch request with {len(chunk_as_ints)} long farm IDs")
+        print(f"🚀 Sending batch request with {len(chunk)} long farm IDs")
         
         try:
             response = requests.post(
@@ -884,7 +876,7 @@ def main():
     # 🔧 CONFIGURATION - Update these values
     API_KEY = "sfl.MTEyODk3NjMwMTU4MzUwOA.YKi8l48T3jH_mPYvpxgCrkeS_IUt3uWQFgTUQg40JCE"
     FARM_IDS_FILE = "farm_ids.txt"
-    USE_BATCH_API = True  # Set to False to use individual requests
+    USE_BATCH_API = False  # Set to False to use individual requests (batch API deprecated)
     BATCH_SIZE = 50  # Number of farms per batch request
     
     # Optional: Read from environment variables
@@ -925,7 +917,8 @@ def main():
         print(f"📁 Results saved in: raw pull")
         
     else:
-        print("🐌 Using INDIVIDUAL API mode (slower but more granular)")
+        print("� Using INDIVIDUAL API calls (proven reliable method)")
+        print(f"⏰ Processing {len(farm_ids)} farms with {current_wait_time}s intervals")
         # Use the original adaptive method
         process_batch_adaptive(farm_ids, API_KEY, current_wait_time, FARM_IDS_FILE)
 
