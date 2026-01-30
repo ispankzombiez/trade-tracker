@@ -551,7 +551,6 @@
       "Big Banana": "1",
       "Hieroglyph": "3",
       "Big Apple": "1",
-      "Moonfur": "3",
       "Sunflower Seed": "980",
       "Frost Pebble": "10",
       "Ribbon": "10",
@@ -5915,7 +5914,9 @@
           },
           "sfl": 3.278,
           "tax": 0.24585,
-          "tradeType": "instant"
+          "tradeType": "instant",
+          "fulfilledAt": 1769751057061,
+          "fulfilledById": 55458
         },
         "4959e939": {
           "collection": "collectibles",
@@ -5925,7 +5926,9 @@
           },
           "sfl": 3.278,
           "tax": 0.24585,
-          "tradeType": "instant"
+          "tradeType": "instant",
+          "fulfilledAt": 1769751057061,
+          "fulfilledById": 55458
         },
         "6f3fd5a1": {
           "collection": "collectibles",
@@ -5935,7 +5938,9 @@
           },
           "sfl": 3.278,
           "tax": 0.24585,
-          "tradeType": "instant"
+          "tradeType": "instant",
+          "fulfilledAt": 1769751057061,
+          "fulfilledById": 55458
         },
         "bd1e9480": {
           "collection": "collectibles",
@@ -5978,7 +5983,7 @@
           "tradeType": "instant"
         }
       },
-      "soldCount": 4493,
+      "soldCount": 4496,
       "dailyListings": {
         "count": 66,
         "date": 29
@@ -6759,16 +6764,16 @@
     "floatingIsland": {
       "schedule": [
         {
-          "startAt": 1769749200000,
-          "endAt": 1769751000000
-        },
-        {
           "startAt": 1769779200000,
           "endAt": 1769781000000
         },
         {
           "startAt": 1769809200000,
           "endAt": 1769811000000
+        },
+        {
+          "startAt": 1769839200000,
+          "endAt": 1769841000000
         }
       ],
       "shop": {
@@ -9556,7 +9561,7 @@
           "petXP": 0,
           "score": 3050,
           "collectivePet": {
-            "totalXP": 7972530,
+            "totalXP": 7992730,
             "goalXP": 4586794,
             "goalReached": true,
             "streak": 6,

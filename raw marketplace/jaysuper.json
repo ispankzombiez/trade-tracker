@@ -1,6 +1,6 @@
 {
   "id": 151471,
-  "totalTrades": 40019,
+  "totalTrades": 40020,
   "level": 190,
   "weeklyFlowerSpent": 136.2059,
   "weeklyFlowerEarned": 144.16383,
@@ -1366,28 +1366,6 @@
       "sfl": 0.6635,
       "tax": 0.033175,
       "tradeType": "instant"
-    },
-    "3f0fbca1": {
-      "collection": "collectibles",
-      "createdAt": 1769750304676,
-      "items": {
-        "Yam": 250
-      },
-      "sfl": 0.7244,
-      "tax": 0.03622,
-      "tradeType": "instant"
-    },
-    "c9352e28": {
-      "collection": "collectibles",
-      "createdAt": 1769750322532,
-      "items": {
-        "Wood": 220
-      },
-      "sfl": 1.9706,
-      "tax": 0.09853,
-      "tradeType": "instant",
-      "fulfilledAt": 1769750740476,
-      "fulfilledById": 1153246534274707
     }
   },
   "offers": {
@@ -1461,6 +1439,25 @@
     }
   ],
   "trades": [
+    {
+      "id": "3f0fbca1",
+      "sfl": 0.7244,
+      "quantity": 250,
+      "itemId": 260,
+      "collection": "collectibles",
+      "source": "listing",
+      "fulfilledAt": 1769752050905,
+      "initiatedBy": {
+        "id": 151471,
+        "bumpkinUri": "0_v1_306_1_51_330_333_334_332_161_388_380_0_0_0_384_0_177_469",
+        "username": "JaySuper"
+      },
+      "fulfilledBy": {
+        "id": 1386033714481233,
+        "bumpkinUri": "0_v1_48_90_202_88_234_89_240_517_0_228_0_0_0_374",
+        "username": "IWillGoCrazy"
+      }
+    },
     {
       "id": "c9352e28",
       "sfl": 1.9706,
@@ -2390,25 +2387,6 @@
         "id": 4192148125948039,
         "bumpkinUri": "0_v1_32_2_5_14_234_89_23_505_29_238_0_174",
         "username": "kurakuto"
-      }
-    },
-    {
-      "id": "c4e807fc",
-      "sfl": 0.8095,
-      "quantity": 275,
-      "itemId": 260,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769728928274,
-      "initiatedBy": {
-        "id": 151471,
-        "bumpkinUri": "0_v1_306_1_51_330_333_334_332_161_388_380_0_0_0_384_0_177_469",
-        "username": "JaySuper"
-      },
-      "fulfilledBy": {
-        "id": 4882576235885021,
-        "bumpkinUri": "0_v1_47_1_5_15_18_89_23_476_0_238_0_350",
-        "username": "Therid"
       }
     }
   ]

@@ -6229,16 +6229,16 @@
     "floatingIsland": {
       "schedule": [
         {
-          "startAt": 1769749200000,
-          "endAt": 1769751000000
-        },
-        {
           "startAt": 1769779200000,
           "endAt": 1769781000000
         },
         {
           "startAt": 1769809200000,
           "endAt": 1769811000000
+        },
+        {
+          "startAt": 1769839200000,
+          "endAt": 1769841000000
         }
       ],
       "shop": {
@@ -7175,10 +7175,16 @@
           "amount": 1.2,
           "x": 3,
           "y": 11
+        },
+        "b4d93576": {
+          "name": "Wild Mushroom",
+          "amount": 1.2,
+          "x": 9,
+          "y": 0
         }
       },
       "magicSpawnedAt": 1769716800000,
-      "spawnedAt": 1769692150141
+      "spawnedAt": 1769749750141
     },
     "delivery": {
       "orders": [
@@ -8305,7 +8311,7 @@
           "petXP": 0,
           "score": 0,
           "collectivePet": {
-            "totalXP": 4918445,
+            "totalXP": 4949920,
             "goalXP": 10263180,
             "goalReached": false,
             "streak": 10,

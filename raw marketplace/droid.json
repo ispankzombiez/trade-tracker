@@ -1,6 +1,6 @@
 {
   "id": 145238,
-  "totalTrades": 16675,
+  "totalTrades": 16676,
   "level": 128,
   "weeklyFlowerSpent": 211.6866,
   "weeklyFlowerEarned": 19.0142075,
@@ -86,6 +86,18 @@
       "sfl": 4.85,
       "tax": 0.36375,
       "tradeType": "instant"
+    },
+    "1165b0b4": {
+      "collection": "collectibles",
+      "createdAt": 1769752012678,
+      "items": {
+        "Gold": 10
+      },
+      "sfl": 2.41,
+      "tax": 0.18075,
+      "tradeType": "instant",
+      "fulfilledAt": 1769752126870,
+      "fulfilledById": 5246051758988885
     }
   },
   "offers": {},
@@ -122,6 +134,25 @@
     }
   ],
   "trades": [
+    {
+      "id": "1165b0b4",
+      "sfl": 2.41,
+      "quantity": 10,
+      "itemId": 604,
+      "collection": "collectibles",
+      "source": "listing",
+      "fulfilledAt": 1769752126870,
+      "initiatedBy": {
+        "id": 145238,
+        "bumpkinUri": "0_v1_48_90_184_474_18_89_226_209_30_381_86_427_0_189_0_177",
+        "username": "Droid"
+      },
+      "fulfilledBy": {
+        "id": 5246051758988885,
+        "bumpkinUri": "0_v1_32_1_5_15_18_34_23_395",
+        "username": "calabazin"
+      }
+    },
     {
       "id": "2577b0df",
       "sfl": 0.5979,
@@ -1051,25 +1082,6 @@
         "id": 145238,
         "bumpkinUri": "0_v1_48_90_184_474_18_89_226_209_30_381_86_427_0_189_0_177",
         "username": "Droid"
-      }
-    },
-    {
-      "id": "e609f66c",
-      "sfl": 2.199,
-      "quantity": 100,
-      "itemId": 211,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769667509427,
-      "initiatedBy": {
-        "id": 145238,
-        "bumpkinUri": "0_v1_48_90_184_474_18_89_226_209_30_381_86_427_0_189_0_177",
-        "username": "Droid"
-      },
-      "fulfilledBy": {
-        "id": 3404402928378151,
-        "bumpkinUri": "0_v1_48_2_7_181_234_89_226_395_0_228",
-        "username": "Bourbon"
       }
     }
   ]

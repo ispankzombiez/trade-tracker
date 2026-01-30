@@ -1,16 +1,16 @@
 {
   "username": "droid",
   "overview": {
-    "balance": 0.07,
-    "coins": 183140.0,
+    "balance": 1.01,
+    "coins": 181057.0,
     "gems": 0.0,
-    "earned_sfl": 8174.26,
-    "earned_coins": 183140.0,
+    "earned_sfl": 8175.19,
+    "earned_coins": 181057.0,
     "spent_sfl": 12297.69,
-    "items_sold": 7582.0,
+    "items_sold": 7583.0,
     "trade_points": 11367.53,
-    "last_updated": "2026-01-30 05:34 AM",
-    "active_listings": 8
+    "last_updated": "2026-01-30 05:56 AM",
+    "active_listings": 9
   },
   "buys": [
     {
@@ -677,6 +677,18 @@
   "sells": [
     {
       "date": "2026-01-30",
+      "time": "05:48 AM",
+      "type": "SELL",
+      "item": "Gold",
+      "quantity": 10,
+      "price_text": "2.41 SFL",
+      "price": 2.41,
+      "counterparty": "calabazin",
+      "farm_id": "-",
+      "trade_id": "1165b0b4"
+    },
+    {
+      "date": "2026-01-30",
       "time": "02:43 AM",
       "type": "SELL",
       "item": "Olive",
@@ -835,12 +847,12 @@
   "last_updated": null,
   "stats": {
     "total_buys": 55,
-    "total_sells": 13,
+    "total_sells": 14,
     "buy_volume": 58.67410000000002,
-    "sell_volume": 48.6935,
-    "gross_profit": -9.980600000000017,
+    "sell_volume": 51.1035,
+    "gross_profit": -7.57060000000002,
     "avg_buy_price": 1.0668018181818184,
-    "avg_sell_price": 3.745653846153846,
+    "avg_sell_price": 3.6502499999999998,
     "most_traded_items": {},
     "recent_activity": [
       {
@@ -1009,7 +1021,7 @@
         "time": "05:19 PM"
       }
     ],
-    "profit_margin": -17.010231090038047,
+    "profit_margin": -12.90279697515602,
     "most_bought_items": {
       "Broccoli": 2300,
       "Yam": 1650,
@@ -1030,7 +1042,7 @@
       "Barley": 100,
       "Kale": 100,
       "Blueberry": 100,
-      "Gold": 15,
+      "Gold": 25,
       "Olive": 10,
       "Obsidian": 1
     }
@@ -1107,6 +1119,15 @@
       "created_at": 1769656189516,
       "collection": "collectibles",
       "trade_type": "instant"
+    },
+    {
+      "id": "1165b0b4",
+      "item": "Gold",
+      "quantity": 10,
+      "price": 2.41,
+      "created_at": 1769752012678,
+      "collection": "collectibles",
+      "trade_type": "instant"
     }
   ],
   "active_offers": [],
@@ -1121,7 +1142,7 @@
       "Cauliflower": 14.750899999999925,
       "Parsnip": 81.11899999999993,
       "Radish": 287.2946999999998,
-      "Wheat": 748.6798999999988,
+      "Wheat": 921.3798999999989,
       "Kale": 85.2209999999999,
       "Eggplant": 998.8689,
       "Corn": 0.0301000000000001,
@@ -1151,10 +1172,10 @@
       "Celestine": 2.4000000000000252
     },
     "resources": {
-      "Wood": 64.32,
+      "Wood": 61.32,
       "Stone": 0.04,
-      "Iron": 26.8,
-      "Gold": 10.13,
+      "Iron": 21.8,
+      "Gold": 0.13,
       "Obsidian": 10.2,
       "Crimstone": 4.0
     }
