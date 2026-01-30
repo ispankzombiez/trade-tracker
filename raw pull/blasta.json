@@ -1,7 +1,7 @@
 {
   "farm": {
     "coins": 280683.7765000017,
-    "balance": "1024.6138276224105531",
+    "balance": "1025.7613276224105531",
     "previousBalance": "1852.6531636141976597",
     "inventory": {
       "Beetroot Seed": "438",
@@ -29,7 +29,7 @@
       "Sunflower": "276539.87179999852397",
       "Potato": "111407.83560000149571",
       "Pumpkin": "101374.23509999971682",
-      "Carrot": "24464.48920000012445",
+      "Carrot": "25377.44760000012485",
       "Cabbage": "9901.63049999853416",
       "Beetroot": "2871.2534999999967268",
       "Cauliflower": "1391.8090000000003899",
@@ -80,13 +80,13 @@
       "Grape": "401.2500000000004902",
       "Rice": "628.1918",
       "Olive": "778.806",
-      "Tomato": "6632.5500000000075095",
+      "Tomato": "6699.1500000000075175",
       "Lemon": "8493.550000000003236",
       "Barley": "4970.9996000000075097",
       "Rhubarb": "107367.52000000049844",
       "Zucchini": "103691.94030000050487",
       "Yam": "65070.793999998960571",
-      "Broccoli": "46097.143599999273683",
+      "Broccoli": "46347.143599999273773",
       "Pepper": "3176.111800000001532",
       "Onion": "4375.9907000000085338",
       "Turnip": "1201.7490000000018508",
@@ -116,7 +116,7 @@
       "Blue Clover": "18",
       "Axe": "7503",
       "Pickaxe": "1513",
-      "Stone Pickaxe": "477",
+      "Stone Pickaxe": "463",
       "Rod": "697",
       "Shovel": "1",
       "Sand Shovel": "470",
@@ -262,12 +262,12 @@
       "Banana Blast": "125",
       "Beetroot Blaze": "15",
       "Rapid Roast": "10",
-      "Carrot Juice": "233",
+      "Carrot Juice": "237",
       "Seafood Basket": "10",
       "Fish Burger": "10",
       "Fish Omelette": "10",
       "Fried Calamari": "27",
-      "Fried Tofu": "223",
+      "Fried Tofu": "222",
       "Grape Juice": "40",
       "Ocean's Olive": "14",
       "Quick Juice": "390",
@@ -283,9 +283,9 @@
       "Caprese Salad": "16",
       "Sour Shake": "102",
       "Spaghetti al Limone": "19",
-      "Wood": "20087.71",
+      "Wood": "20169.51",
       "Stone": "4222.35",
-      "Iron": "2512.55",
+      "Iron": "2553.05",
       "Gold": "1112.65",
       "Egg": "282.6",
       "Chicken": "10",
@@ -364,7 +364,7 @@
       "Bumpkin Emblem": "5",
       "Sunflorian Emblem": "35",
       "Nightshade Emblem": "310",
-      "Mark": "50691.1",
+      "Mark": "45691.1",
       "Pharaoh's Treasure Banner": "1",
       "Amber Fossil": "4",
       "Gem": "7554",
@@ -891,8 +891,8 @@
       "Cheer": "62",
       "Phantom Barracuda": "1",
       "Honey Cheddar": "28",
-      "Fish n Chips": "46",
-      "Carrot Seed": "600",
+      "Fish n Chips": "26",
+      "Carrot Seed": "587",
       "Pumpkin Seed": "900",
       "Chewed Bone": "10",
       "Shroom Syrup": "4",
@@ -904,14 +904,14 @@
       "Paw Prints Raffle Ticket": "110",
       "Treasure Key": "2",
       "Wheat Seed": "240",
-      "Tomato Seed": "81",
+      "Tomato Seed": "85",
       "Messy Bed": "1",
       "Pirate Cake": "4",
-      "Broccoli Seed": "519",
+      "Broccoli Seed": "527",
       "Yam Seed": "403",
       "Big Banana": "1",
       "Zucchini Seed": "322",
-      "Pizza Margherita": "24",
+      "Pizza Margherita": "4",
       "Cabbage Seed": "236",
       "Dewberry": "5",
       "Expert Cooking Pot": "1",
@@ -921,7 +921,8 @@
       "Grape Seed": "28",
       "Paw Prints Rug": "1",
       "Big Apple": "1",
-      "Big Orange": "1"
+      "Big Orange": "1",
+      "Harvest Hourglass": "1"
     },
     "previousInventory": {
       "Cabbage Seed": "540",
@@ -2130,7 +2131,7 @@
       },
       "tokenUri": "https://api.sunflower-land.com/bumpkins/metadata/429_v1_55_4_54_17_20_65_77_0_0_95",
       "sessionId": "0x489cd328f1f834a001fdf7452754e435a689311f0e79b4242dfbf9042950b0a8",
-      "experience": 208852615.9749554,
+      "experience": 209980496.7597554,
       "skills": {
         "Experienced Farmer": 1,
         "Green Thumb": 1,
@@ -4435,25 +4436,37 @@
         "1": {
           "plant": {
             "name": "Grape",
-            "plantedAt": 1769756833312
+            "plantedAt": 1769756833312,
+            "criticalHit": {
+              "Greenhouse Gamble": 1
+            }
           }
         },
         "2": {
           "plant": {
             "name": "Grape",
-            "plantedAt": 1769756833609
+            "plantedAt": 1769756833609,
+            "criticalHit": {
+              "Greenhouse Gamble": 0
+            }
           }
         },
         "3": {
           "plant": {
             "name": "Grape",
-            "plantedAt": 1769756832892
+            "plantedAt": 1769756832892,
+            "criticalHit": {
+              "Greenhouse Gamble": 0
+            }
           }
         },
         "4": {
           "plant": {
             "name": "Grape",
-            "plantedAt": 1769756832627
+            "plantedAt": 1769756832627,
+            "criticalHit": {
+              "Greenhouse Gamble": 0
+            }
           }
         }
       }
@@ -4605,11 +4618,10 @@
       "Sand Drill": "10",
       "Sunflower Seed": "960",
       "Gold Pickaxe": "10",
-      "Tomato Seed": "20",
+      "Tomato Seed": "15",
       "Pumpkin Seed": "360",
       "Rhubarb Seed": "480",
       "Artichoke Seed": "69",
-      "Carrot Seed": "233",
       "Sand Shovel": "50",
       "Wheat Seed": "43"
     },
@@ -4621,10 +4633,10 @@
         "y": 2,
         "height": 1,
         "crop": {
-          "id": "84011620",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "87586622",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "2": {
@@ -4634,10 +4646,10 @@
         "y": -2,
         "height": 1,
         "crop": {
-          "id": "20220497",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "54957850",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "3": {
@@ -4647,10 +4659,10 @@
         "y": 1,
         "height": 1,
         "crop": {
-          "id": "39188488",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "36117735",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "4": {
@@ -4660,10 +4672,10 @@
         "y": 0,
         "height": 1,
         "crop": {
-          "id": "71080016",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "47437302",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "5": {
@@ -4673,10 +4685,10 @@
         "y": 0,
         "height": 1,
         "crop": {
-          "id": "60710169",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "27782032",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "6": {
@@ -4686,10 +4698,10 @@
         "y": 1,
         "height": 1,
         "crop": {
-          "id": "28944327",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "83837365",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "7": {
@@ -4699,10 +4711,10 @@
         "y": -2,
         "height": 1,
         "crop": {
-          "id": "14164102",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "55496422",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "8": {
@@ -4712,10 +4724,10 @@
         "y": -1,
         "height": 1,
         "crop": {
-          "id": "97058915",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "62376450",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "9": {
@@ -4725,10 +4737,10 @@
         "y": 3,
         "height": 1,
         "crop": {
-          "id": "41353674",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "53156083",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "10": {
@@ -4738,10 +4750,10 @@
         "y": 3,
         "height": 1,
         "crop": {
-          "id": "15331507",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "25609894",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "11": {
@@ -4751,10 +4763,10 @@
         "y": 1,
         "height": 1,
         "crop": {
-          "id": "86727932",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "26944638",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "12": {
@@ -4764,10 +4776,10 @@
         "y": 3,
         "height": 1,
         "crop": {
-          "id": "88008703",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "36534977",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "13": {
@@ -4777,10 +4789,10 @@
         "y": -3,
         "height": 1,
         "crop": {
-          "id": "49353924",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "20769830",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "14": {
@@ -4790,10 +4802,10 @@
         "y": 0,
         "height": 1,
         "crop": {
-          "id": "20450819",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "22583561",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "15": {
@@ -4803,10 +4815,10 @@
         "y": -1,
         "height": 1,
         "crop": {
-          "id": "90273603",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "66297508",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "16": {
@@ -4816,10 +4828,10 @@
         "y": 1,
         "height": 1,
         "crop": {
-          "id": "20397455",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "54293396",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "17": {
@@ -4829,10 +4841,10 @@
         "y": 0,
         "height": 1,
         "crop": {
-          "id": "83586968",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "36882675",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "18": {
@@ -4842,10 +4854,10 @@
         "y": -2,
         "height": 1,
         "crop": {
-          "id": "76125852",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "24276079",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "22104820": {
@@ -4855,10 +4867,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "66017084",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "21800965",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "1028f003": {
@@ -4868,10 +4880,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "72231940",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "19513391",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "1ec47240": {
@@ -4881,10 +4893,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "66501060",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "31176960",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "3c6e558f": {
@@ -4894,10 +4906,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "64991002",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "52513085",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "41e92caf": {
@@ -4907,10 +4919,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "98671043",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "15327322",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "7fd694ce": {
@@ -4920,10 +4932,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "35546103",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "23366274",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "bb54afad": {
@@ -4933,10 +4945,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "35517633",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "17908786",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "cffaf41d": {
@@ -4946,10 +4958,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "54104102",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "85566430",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "0b6c1d9b": {
@@ -4959,10 +4971,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "68942490",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "49420887",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "7f5a55a5": {
@@ -4972,10 +4984,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "87938993",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "37798001",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "2837aae9": {
@@ -4985,10 +4997,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "91528397",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "66450894",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "346228c5": {
@@ -4998,10 +5010,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "88193884",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "28231380",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "7f83aac4": {
@@ -5011,10 +5023,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "54176338",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "51965209",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "9d214b4c": {
@@ -5024,10 +5036,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "87395059",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "89363355",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "28b619e2": {
@@ -5037,10 +5049,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "89058386",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "26432382",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "2aa0dab3": {
@@ -5050,10 +5062,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "63965786",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "65267149",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "3e92c7df": {
@@ -5063,10 +5075,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "63062367",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "11173899",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "acbbeddb": {
@@ -5076,10 +5088,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "21410050",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "76914768",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "06ad96d4": {
@@ -5089,10 +5101,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "91262741",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "87690824",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "125e0cdd": {
@@ -5102,10 +5114,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "75653776",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "72493962",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "35dc6b60": {
@@ -5115,10 +5127,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "18671726",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "59482726",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "4353dab3": {
@@ -5128,10 +5140,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "66784986",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "39965607",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "57a48ae3": {
@@ -5141,10 +5153,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "87995959",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "15575420",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "64da7478": {
@@ -5154,10 +5166,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "22021255",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "14661327",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "75efbb93": {
@@ -5167,10 +5179,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "47726232",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "84706672",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "8ac02257": {
@@ -5180,10 +5192,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "28873323",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "92633314",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "ad04230a": {
@@ -5193,10 +5205,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "50204277",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "84582221",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "bdb31ac1": {
@@ -5206,10 +5218,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "73712878",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "93971586",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "e9e64d51": {
@@ -5219,10 +5231,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "36867659",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "27313507",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "f78cbb98": {
@@ -5232,10 +5244,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "54585275",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "78165580",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "2a8fa263": {
@@ -5245,10 +5257,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "93955871",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "62617511",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "374ac593": {
@@ -5258,10 +5270,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "80762213",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "75541129",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "61b65ac0": {
@@ -5271,10 +5283,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "69357073",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "45713803",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "d5ae5b0d": {
@@ -5284,10 +5296,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "73932361",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "49403642",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "e08f07bd": {
@@ -5297,10 +5309,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "63572480",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "56161344",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "f7432e07": {
@@ -5310,10 +5322,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "65046208",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "41603671",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "20d4a537": {
@@ -5323,10 +5335,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "90288821",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "37313309",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "27e17de0": {
@@ -5336,10 +5348,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "89007598",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "97260396",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "3ca6d56e": {
@@ -5349,10 +5361,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "98027662",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "10089232",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "73a38f6e": {
@@ -5362,10 +5374,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "16829489",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "68563578",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "8f9fe7fa": {
@@ -5375,10 +5387,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "44074555",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "88534273",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "b13f389a": {
@@ -5388,10 +5400,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "27431434",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "93587658",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "b385bfc7": {
@@ -5401,10 +5413,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "18013823",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "97944329",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "b5b1ba5d": {
@@ -5414,10 +5426,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "57545647",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "43068707",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "e0c01fd9": {
@@ -5427,10 +5439,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "38976647",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "23924055",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "f49cb65c": {
@@ -5440,10 +5452,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "25550369",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "48640803",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "4723bbcb": {
@@ -5453,10 +5465,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "58533264",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "44118132",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       },
       "9aed4cb1": {
@@ -5466,10 +5478,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "35191544",
-          "plantedAt": 1769791847053.5,
-          "boostedTime": 6846799.5,
-          "name": "Broccoli"
+          "id": "79691286",
+          "plantedAt": 1769796562397.3,
+          "boostedTime": 3388079.7,
+          "name": "Carrot"
         }
       }
     },
@@ -5477,7 +5489,7 @@
       "5ee1823f": {
         "createdAt": 1758771493366,
         "wood": {
-          "choppedAt": 1769792398856
+          "choppedAt": 1769794052839
         },
         "x": -6,
         "y": -2,
@@ -5488,7 +5500,7 @@
       "77d89db0": {
         "createdAt": 1758781137926,
         "wood": {
-          "choppedAt": 1769792399565
+          "choppedAt": 1769794046840
         },
         "x": -6,
         "y": 4,
@@ -5499,7 +5511,7 @@
       "57a8e072": {
         "createdAt": 1758784525263,
         "wood": {
-          "choppedAt": 1769792403278
+          "choppedAt": 1769794049634
         },
         "x": -6,
         "y": -6,
@@ -5510,7 +5522,7 @@
       "68a0d207": {
         "createdAt": 1758796643567,
         "wood": {
-          "choppedAt": 1769792402329
+          "choppedAt": 1769794047268
         },
         "x": -6,
         "y": 2,
@@ -5521,7 +5533,7 @@
       "10f96631": {
         "createdAt": 1762627132019,
         "wood": {
-          "choppedAt": 1769792403569
+          "choppedAt": 1769794048544
         },
         "x": -6,
         "y": -4,
@@ -5532,7 +5544,7 @@
       "e1738e38": {
         "createdAt": 1762627134082,
         "wood": {
-          "choppedAt": 1769792399094
+          "choppedAt": 1769794047632
         },
         "x": -6,
         "y": 0,
@@ -5657,7 +5669,7 @@
         "createdAt": 1738127911644,
         "height": 1,
         "stone": {
-          "minedAt": 1769771158994,
+          "minedAt": 1769778729145,
           "boostedTime": 21240000
         }
       },
@@ -5668,7 +5680,7 @@
         "width": 1,
         "height": 1,
         "stone": {
-          "minedAt": 1769771157262,
+          "minedAt": 1769778727199,
           "boostedTime": 21240000
         }
       },
@@ -5679,7 +5691,7 @@
         "width": 1,
         "height": 1,
         "stone": {
-          "minedAt": 1769771163773,
+          "minedAt": 1769778728052,
           "boostedTime": 21240000
         }
       },
@@ -5690,7 +5702,7 @@
         "width": 1,
         "height": 1,
         "stone": {
-          "minedAt": 1769771157852,
+          "minedAt": 1769778728692,
           "boostedTime": 21240000
         }
       },
@@ -5701,7 +5713,7 @@
         "width": 1,
         "height": 1,
         "stone": {
-          "minedAt": 1769771158375,
+          "minedAt": 1769778726186,
           "boostedTime": 21240000
         }
       },
@@ -5712,7 +5724,7 @@
         "width": 1,
         "height": 1,
         "stone": {
-          "minedAt": 1769771158771,
+          "minedAt": 1769778728423,
           "boostedTime": 21240000
         }
       },
@@ -5723,7 +5735,7 @@
         "width": 1,
         "height": 1,
         "stone": {
-          "minedAt": 1769771163124,
+          "minedAt": 1769778724825,
           "boostedTime": 21240000
         }
       },
@@ -5734,7 +5746,7 @@
         "width": 1,
         "height": 1,
         "stone": {
-          "minedAt": 1769771163426,
+          "minedAt": 1769778730397,
           "boostedTime": 21240000
         }
       },
@@ -5745,14 +5757,14 @@
         "width": 1,
         "height": 1,
         "stone": {
-          "minedAt": 1769771157547,
+          "minedAt": 1769778726741,
           "boostedTime": 21240000
         }
       },
       "feaa6a3d": {
         "createdAt": 1747239309486,
         "stone": {
-          "minedAt": 1769771159467,
+          "minedAt": 1769778729581,
           "boostedTime": 21240000
         },
         "x": -4,
@@ -5761,7 +5773,7 @@
       "8ca1d8d6": {
         "createdAt": 1768294107435,
         "stone": {
-          "minedAt": 1769771159737,
+          "minedAt": 1769778725487,
           "boostedTime": 21240000
         },
         "x": -3,
@@ -5978,8 +5990,11 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769792213412,
-          "harvestedAt": 0,
-          "harvestsLeft": 5
+          "harvestedAt": 1769793193577,
+          "harvestsLeft": 4,
+          "criticalHit": {
+            "Generous Orchard": 0
+          }
         }
       },
       "2": {
@@ -5991,8 +6006,11 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769791242846,
-          "harvestedAt": 1769792216311,
-          "harvestsLeft": 5
+          "harvestedAt": 1769793190276,
+          "harvestsLeft": 4,
+          "criticalHit": {
+            "Generous Orchard": 0
+          }
         }
       },
       "72160936": {
@@ -6004,8 +6022,11 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769792212708,
-          "harvestedAt": 0,
-          "harvestsLeft": 5
+          "harvestedAt": 1769793195108,
+          "harvestsLeft": 4,
+          "criticalHit": {
+            "Generous Orchard": 0
+          }
         }
       },
       "2a15de36": {
@@ -6017,8 +6038,11 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769791244396,
-          "harvestedAt": 1769792217676,
-          "harvestsLeft": 4
+          "harvestedAt": 1769793191891,
+          "harvestsLeft": 3,
+          "criticalHit": {
+            "Generous Orchard": 0
+          }
         }
       },
       "099ea80d": {
@@ -6030,8 +6054,11 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769792208219,
-          "harvestedAt": 0,
-          "harvestsLeft": 5
+          "harvestedAt": 1769793186637,
+          "harvestsLeft": 4,
+          "criticalHit": {
+            "Generous Orchard": 0
+          }
         }
       },
       "bec5e1e7": {
@@ -6043,8 +6070,11 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769789677843,
-          "harvestedAt": 1769792205835,
-          "harvestsLeft": 3
+          "harvestedAt": 1769793185261,
+          "harvestsLeft": 2,
+          "criticalHit": {
+            "Generous Orchard": 0
+          }
         }
       },
       "fd2423c2": {
@@ -6056,8 +6086,11 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769759743317,
-          "harvestedAt": 1769792211817,
-          "harvestsLeft": 2
+          "harvestedAt": 1769793194122,
+          "harvestsLeft": 1,
+          "criticalHit": {
+            "Generous Orchard": 0
+          }
         }
       },
       "d12f2ec9": {
@@ -6068,9 +6101,12 @@
         "height": 2,
         "fruit": {
           "name": "Tomato",
-          "plantedAt": 1769786204592,
-          "harvestedAt": 1769792210620,
-          "harvestsLeft": 1
+          "plantedAt": 1769793191376,
+          "harvestedAt": 0,
+          "harvestsLeft": 5,
+          "criticalHit": {
+            "Generous Orchard": 0
+          }
         }
       },
       "b825c6fa": {
@@ -6082,8 +6118,11 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769791244069,
-          "harvestedAt": 1769792216835,
-          "harvestsLeft": 6
+          "harvestedAt": 1769793192539,
+          "harvestsLeft": 5,
+          "criticalHit": {
+            "Generous Orchard": 0
+          }
         }
       },
       "10ea424f": {
@@ -6095,8 +6134,11 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769791242420,
-          "harvestedAt": 1769792215699,
-          "harvestsLeft": 4
+          "harvestedAt": 1769793194599,
+          "harvestsLeft": 3,
+          "criticalHit": {
+            "Generous Orchard": 1
+          }
         }
       },
       "7acdbb9d": {
@@ -6108,8 +6150,11 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769789676689,
-          "harvestedAt": 1769792206341,
-          "harvestsLeft": 5
+          "harvestedAt": 1769793185686,
+          "harvestsLeft": 4,
+          "criticalHit": {
+            "Generous Orchard": 0
+          }
         }
       },
       "d2634212": {
@@ -6121,8 +6166,11 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769759737243,
-          "harvestedAt": 1769792206752,
-          "harvestsLeft": 2
+          "harvestedAt": 1769793186144,
+          "harvestsLeft": 1,
+          "criticalHit": {
+            "Generous Orchard": 0
+          }
         }
       },
       "4d573a79": {
@@ -6134,8 +6182,11 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769786205082,
-          "harvestedAt": 1769792209444,
-          "harvestsLeft": 3
+          "harvestedAt": 1769793189687,
+          "harvestsLeft": 2,
+          "criticalHit": {
+            "Generous Orchard": 0
+          }
         }
       },
       "7072e940": {
@@ -6147,8 +6198,11 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769786203401,
-          "harvestedAt": 1769792207622,
-          "harvestsLeft": 2
+          "harvestedAt": 1769793187146,
+          "harvestsLeft": 1,
+          "criticalHit": {
+            "Generous Orchard": 0
+          }
         }
       },
       "aea97252": {
@@ -6160,8 +6214,11 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769792209770,
-          "harvestedAt": 0,
-          "harvestsLeft": 6
+          "harvestedAt": 1769793188728,
+          "harvestsLeft": 5,
+          "criticalHit": {
+            "Generous Orchard": 0
+          }
         }
       },
       "5d3463b3": {
@@ -6173,8 +6230,11 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769789675670,
-          "harvestedAt": 1769792209175,
-          "harvestsLeft": 3
+          "harvestedAt": 1769793188232,
+          "harvestsLeft": 2,
+          "criticalHit": {
+            "Generous Orchard": 1
+          }
         }
       }
     },
@@ -7550,26 +7610,6 @@
               "skills": {
                 "Double Nom": true
               },
-              "readyAt": 1769798403450
-            },
-            {
-              "name": "Carrot Juice",
-              "boost": {
-                "Oil": 0
-              },
-              "skills": {
-                "Double Nom": true
-              },
-              "readyAt": 1769799229650
-            },
-            {
-              "name": "Carrot Juice",
-              "boost": {
-                "Oil": 0
-              },
-              "skills": {
-                "Double Nom": true
-              },
               "readyAt": 1769800055850
             },
             {
@@ -7581,6 +7621,26 @@
                 "Double Nom": true
               },
               "readyAt": 1769800882050
+            },
+            {
+              "name": "Carrot Juice",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": true
+              },
+              "readyAt": 1769801708250
+            },
+            {
+              "name": "Carrot Juice",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": true
+              },
+              "readyAt": 1769802534450
             }
           ]
         }
@@ -7756,13 +7816,19 @@
               "seeds": 540,
               "crop": "Cabbage",
               "growTimeRemaining": 88646400,
-              "totalGrowTime": 88646400
+              "totalGrowTime": 88646400,
+              "criticalHit": {
+                "Green Amulet": 49
+              }
             },
             {
               "seeds": 1200,
               "crop": "Zucchini",
               "growTimeRemaining": 49248000,
-              "totalGrowTime": 49248000
+              "totalGrowTime": 49248000,
+              "criticalHit": {
+                "Green Amulet": 110
+              }
             }
           ],
           "unallocatedOilTime": 0
@@ -12036,6 +12102,16 @@
             "y": 2
           }
         }
+      ],
+      "Harvest Hourglass": [
+        {
+          "id": "f48363ba",
+          "coordinates": {
+            "x": 6,
+            "y": -7
+          },
+          "createdAt": 1769799947402
+        }
       ]
     },
     "pumpkinPlaza": {
@@ -12631,7 +12707,7 @@
       "Haunted Stump Bought": 2,
       "Pirate Cake Dug": 30,
       "Club Sandwich Dug": 64,
-      "Carrot Juice Cooked": 1068,
+      "Carrot Juice Cooked": 1070,
       "Bale Crafted": 1,
       "Olive Seed Bought": 3906,
       "Bumpkin Salad Cooked": 799,
@@ -12681,7 +12757,7 @@
       "Coins Earned": 4618464.7765,
       "Basic Scarecrow Crafted": 1,
       "Turbo Composter Collected": 1986,
-      "Collectible Placed": 2151,
+      "Collectible Placed": 2152,
       "Grubnash's Tombstone Bought": 1,
       "Rod Casted": 13186,
       "Cabbage Seed Bought": 95888,
@@ -12689,7 +12765,7 @@
       "Olive Harvested": 2424,
       "Soybean Planted": 22065,
       "Grape Planted": 1973,
-      "Iron Mined": 27950,
+      "Iron Mined": 27964,
       "Cabbage Sold": 19203.352,
       "Wheat Sold": 255,
       "Shroom Syrup Fed": 232,
@@ -12712,7 +12788,7 @@
       "Rapid Roast Cooked": 26,
       "Carrot Sold": 1027.8232,
       "Orange Cake Fed": 217,
-      "SFL Earned": 19168.6726195125,
+      "SFL Earned": 19169.8201195125,
       "Kernaldo Crafted": 1,
       "Boiled Eggs Cooked": 2559,
       "Wheat Seed Bought": 28334,
@@ -12752,7 +12828,7 @@
       "Sunflower Harvested": 582461,
       "Kale Stew Fed": 275,
       "Cabbage Cake Cooked": 140,
-      "Carrot Seed Bought": 125528,
+      "Carrot Seed Bought": 125761,
       "Goblin Brunch Cooked": 292,
       "Fried Tofu Cooked": 514,
       "Giant Dawn Mushroom Bought": 3,
@@ -12841,7 +12917,7 @@
       "Radish Seed Bought": 7952,
       "Crab Sold": 1947,
       "Wooden Compass Sold": 38,
-      "Carrot Planted": 72494,
+      "Carrot Planted": 72758,
       "Club Sandwich Fed": 124,
       "Seafood Basket Cooked": 56,
       "Flower Fox Bought": 1,
@@ -12881,7 +12957,7 @@
       "Cauliflower Burger Fed": 225,
       "Fancy Fries Fed": 154,
       "Stone Mined": 86117,
-      "Carrot Harvested": 136165,
+      "Carrot Harvested": 136363,
       "Cauliflower Harvested": 19151,
       "Gold Dug": 18,
       "Immortal Pear Crafted": 1,
@@ -12923,7 +12999,7 @@
       "Blueberry Jam Fed": 241,
       "Sea Cucumber Sold": 412,
       "Eggplant Seed Bought": 15998,
-      "Tree Chopped": 310505,
+      "Tree Chopped": 310537,
       "Power Smoothie Cooked": 819,
       "Poppy Crafted": 1,
       "Antipasto Cooked": 312,
@@ -12988,11 +13064,11 @@
       "Goblin Pants Bought": 1,
       "Fish Omelette Fed": 60,
       "Lemon Seed Bought": 4291,
-      "Tomato Seed Bought": 5539,
+      "Tomato Seed Bought": 5544,
       "Lemon Seed Planted": 4258,
-      "Tomato Seed Planted": 5458,
+      "Tomato Seed Planted": 5459,
       "Slow Juice Fed": 104,
-      "Tomato Harvested": 32338,
+      "Tomato Harvested": 32354,
       "Lemon Harvested": 25071,
       "Goblin Sabatons Bought": 1,
       "Beetroot Blaze Fed": 41,
@@ -13001,7 +13077,7 @@
       "Steamed Red Rice Fed": 140,
       "Rice Panda Bought": 1,
       "Silver Squire Bought": 3,
-      "Fish n Chips Fed": 213,
+      "Fish n Chips Fed": 233,
       "Imsety Jar Bought": 1,
       "Goblin Helmet Bought": 1,
       "Amber Amulet Bought": 1,
@@ -13094,12 +13170,12 @@
       "Paella Bought": 1,
       "Cowgirl Skirt Bought": 2,
       "Castellan Crafted": 1,
-      "Pizza Margherita Fed": 1442,
+      "Pizza Margherita Fed": 1462,
       "Basic Bear Sold": 13,
       "Sleepy Rug Bought": 1,
       "Meteorite Bought": 1,
       "Cowboy Shirt Bought": 1,
-      "Harvest Hourglass Bought": 8,
+      "Harvest Hourglass Bought": 9,
       "Fisher's Hourglass Bought": 1,
       "Cowboy Trouser Bought": 1,
       "Giant Pumpkin Bought": 8,
@@ -13121,7 +13197,7 @@
       "Yam Planted": 18834,
       "Yam Harvested": 35147,
       "Broccoli Planted": 19014,
-      "Broccoli Harvested": 30256,
+      "Broccoli Harvested": 30322,
       "Artichoke Planted": 4635,
       "Artichoke Harvested": 4635,
       "Clover Seed Bought": 48,
@@ -13301,7 +13377,7 @@
       "Boar Shrine Crafted": 2,
       "Farms Cheered": 15,
       "Farms Helped": 23,
-      "FLOWER Order Delivered": 347,
+      "FLOWER Order Delivered": 348,
       "Coins Order Delivered": 373,
       "Potion Mixed": 1090,
       "Obsidian Collected": 201,
@@ -13314,10 +13390,10 @@
       "VIP Chest Opened": 2,
       "Auction Bid Cancelled": 4,
       "Auction Reward Claimed": 4,
-      "Ancient Tree Chopped": 7298,
+      "Ancient Tree Chopped": 7306,
       "Fused Stone Rock Mined": 1419,
       "Stone Rock Mined": 2982,
-      "Iron Rock Mined": 2994,
+      "Iron Rock Mined": 3004,
       "Gold Rock Mined": 539,
       "Pure Gold Rock Mined": 117,
       "Tornado Event Triggered": 4,
@@ -13372,7 +13448,7 @@
       "Furikake Sprinkle Made": 1,
       "Surimi Rice Bowl Made": 1,
       "Refined Iron Rock Upgrade": 1,
-      "Refined Iron Rock Mined": 86,
+      "Refined Iron Rock Mined": 87,
       "Isopod Caught": 36,
       "Barnacle Caught": 42,
       "Saw Fish Bought": 1,
@@ -13768,7 +13844,8 @@
           },
           "reward": {
             "sfl": 0.85
-          }
+          },
+          "completedAt": 1769799075281
         },
         {
           "createdAt": 1769751601506,
@@ -13810,7 +13887,7 @@
           "completedAt": 1769751632753
         }
       ],
-      "fulfilledCount": 16017,
+      "fulfilledCount": 16018,
       "milestone": {
         "claimedAt": 1707958435986,
         "total": 2690,
@@ -14165,9 +14242,9 @@
         }
       },
       "gambit": {
-        "deliveryCount": 287,
+        "deliveryCount": 288,
         "skippedCount": 261,
-        "deliveryCompletedAt": 1769562391035,
+        "deliveryCompletedAt": 1769799075281,
         "streaks": {
           "streak": 32,
           "lastClaimedAt": 1746318839936
@@ -15025,7 +15102,7 @@
           "petXP": 12150,
           "score": 464.6,
           "collectivePet": {
-            "totalXP": 5314285,
+            "totalXP": 5320875,
             "goalXP": 10263180,
             "goalReached": false,
             "streak": 10,
@@ -16826,99 +16903,99 @@
       "Scary Mike": {
         "0": {
           "-7": 1764916261338,
-          "-6": 1769798692935,
-          "-5": 1769798692935,
-          "-4": 1769798692935,
-          "-3": 1769798692935,
-          "-2": 1769798692935,
-          "-1": 1769798692935
+          "-6": 1769799935083,
+          "-5": 1769799935083,
+          "-4": 1769799935083,
+          "-3": 1769799935083,
+          "-2": 1769799935083,
+          "-1": 1769799935083
         },
         "1": {
-          "-7": 1769798692935,
-          "-6": 1769798692935,
-          "-5": 1769798692935,
-          "-4": 1769798692935,
-          "-3": 1769798692935,
-          "-1": 1769798692935,
-          "-2": 1769798692935
+          "-7": 1769799935083,
+          "-6": 1769799935083,
+          "-5": 1769799935083,
+          "-4": 1769799935083,
+          "-3": 1769799935083,
+          "-1": 1769799935083,
+          "-2": 1769799935083
         },
         "2": {
-          "-1": 1769798692935,
-          "-2": 1769798692935,
-          "-3": 1769798692935,
-          "-4": 1769798692935,
-          "-5": 1769798692935,
-          "-6": 1769798692935,
-          "-7": 1769798692935
+          "-1": 1769799935083,
+          "-2": 1769799935083,
+          "-3": 1769799935083,
+          "-4": 1769799935083,
+          "-5": 1769799935083,
+          "-6": 1769799935083,
+          "-7": 1769799935083
         },
         "3": {
-          "-1": 1769798692935,
-          "-4": 1769798692935,
-          "-5": 1769798692935,
-          "-6": 1769798692935,
-          "-7": 1769798692935,
-          "-3": 1769798692935,
-          "-2": 1769798692935
+          "-1": 1769799935083,
+          "-4": 1769799935083,
+          "-5": 1769799935083,
+          "-6": 1769799935083,
+          "-7": 1769799935083,
+          "-3": 1769799935083,
+          "-2": 1769799935083
         },
         "-3": {
-          "-1": 1769798692935,
-          "-2": 1769798692935,
-          "-3": 1769798692935,
-          "-4": 1769798692935,
-          "-5": 1769798692935,
-          "-6": 1769798692935,
-          "-7": 1769798692935
+          "-1": 1769799935083,
+          "-2": 1769799935083,
+          "-3": 1769799935083,
+          "-4": 1769799935083,
+          "-5": 1769799935083,
+          "-6": 1769799935083,
+          "-7": 1769799935083
         },
         "-2": {
-          "-1": 1769798692935,
-          "-2": 1769798692935,
-          "-3": 1769798692935,
-          "-4": 1769798692935,
-          "-5": 1769798692935,
-          "-6": 1769798692935,
-          "-7": 1769798692935
+          "-1": 1769799935083,
+          "-2": 1769799935083,
+          "-3": 1769799935083,
+          "-4": 1769799935083,
+          "-5": 1769799935083,
+          "-6": 1769799935083,
+          "-7": 1769799935083
         },
         "-1": {
-          "-1": 1769798692935,
-          "-2": 1769798692935,
-          "-3": 1769798692935,
-          "-4": 1769798692935,
-          "-5": 1769798692935,
-          "-6": 1769798692935,
+          "-1": 1769799935083,
+          "-2": 1769799935083,
+          "-3": 1769799935083,
+          "-4": 1769799935083,
+          "-5": 1769799935083,
+          "-6": 1769799935083,
           "-7": 1764916261338
         }
       },
       "Sir Goldensnout": {
         "0": {
-          "1": 1769798692935,
-          "-2": 1769798692935
+          "1": 1769799935083,
+          "-2": 1769799935083
         },
         "1": {
-          "1": 1769798692935,
-          "-2": 1769798692935
+          "1": 1769799935083,
+          "-2": 1769799935083
         },
         "2": {
-          "0": 1769798692935,
-          "1": 1769798692935,
-          "-2": 1769798692935,
-          "-1": 1769798692935
+          "0": 1769799935083,
+          "1": 1769799935083,
+          "-2": 1769799935083,
+          "-1": 1769799935083
         },
         "-1": {
-          "0": 1769798692935,
-          "1": 1769798692935,
-          "-1": 1769798692935,
-          "-2": 1769798692935
+          "0": 1769799935083,
+          "1": 1769799935083,
+          "-1": 1769799935083,
+          "-2": 1769799935083
         }
       },
       "Gnome": {
         "0": {
-          "1": 1769798692935
+          "1": 1769799935083
         }
       },
       "Emerald Turtle": {
         "0": {
           "1": 1769792405730,
-          "-1": 1769792403426
+          "-1": 1769799970397
         },
         "1": {
           "0": 1769792405026,
@@ -16926,9 +17003,9 @@
           "-1": 1769798196406
         },
         "-1": {
-          "0": 1769792399737,
+          "0": 1769799965487,
           "1": 1769792402822,
-          "-1": 1769792403124
+          "-1": 1769799964825
         }
       },
       "Laurie the Chuckle Crow": {
@@ -17014,33 +17091,33 @@
       }
     },
     "boostsUsedAt": {
-      "Foreman Beaver": 1769798441274,
-      "Tree Charge": 1769797983569,
-      "Lumberjack's Extra": 1769797983569,
-      "Wood Nymph Wendy": 1769797983569,
-      "Tiki Totem": 1769797983569,
-      "Squirrel": 1769797983569,
-      "Goblin Shield": 1769798203115,
-      "Bud #2046": 1769797983569,
-      "Tree Turnaround": 1769797980785,
+      "Foreman Beaver": 1769799632839,
+      "Tree Charge": 1769799632839,
+      "Lumberjack's Extra": 1769799632839,
+      "Wood Nymph Wendy": 1769799632839,
+      "Tiki Totem": 1769799632839,
+      "Squirrel": 1769799632839,
+      "Goblin Shield": 1769799970397,
+      "Bud #2046": 1769799632839,
+      "Tree Turnaround": 1769799630641,
       "Tough Tree": 1769797979353,
       "Healthy Livestock": 1769792415931,
-      "Bud #1027": 1769798445676,
-      "Camel Onesie": 1769798445676,
-      "Cannonball": 1769798445676,
-      "Catchup": 1769798445676,
-      "Fruitful Fumble": 1769798445676,
-      "Generous Orchard": 1769798437175,
-      "Goblin Quiver": 1769798692935,
-      "Loyal Macaw": 1769798445676,
-      "Macaw": 1769798445676,
+      "Bud #1027": 1769799423108,
+      "Camel Onesie": 1769799423108,
+      "Cannonball": 1769799423108,
+      "Catchup": 1769799423108,
+      "Fruitful Fumble": 1769799423108,
+      "Generous Orchard": 1769799422122,
+      "Goblin Quiver": 1769799935083,
+      "Loyal Macaw": 1769799423108,
+      "Macaw": 1769799423108,
       "Spring Guardian": 1768780418694,
-      "Tomato Bombard": 1769798445676,
-      "Tomato Clown": 1769798445676,
-      "Zesty Vibes": 1769798445676,
-      "Desert Gnome": 1769798470047,
+      "Tomato Bombard": 1769799423108,
+      "Tomato Clown": 1769799423108,
+      "Zesty Vibes": 1769799423108,
+      "Desert Gnome": 1769799231610,
       "Fast Feasts": 1769798470047,
-      "Goblin Medallion": 1769798470047,
+      "Goblin Medallion": 1769799231610,
       "Bud #1472": 1769793983962,
       "Bionic Drill": 1769751525080,
       "Heart of Davy Jones": 1769751525080,
@@ -17048,13 +17125,13 @@
       "Camel": 1769751507082,
       "Crab Trap": 1769751523380,
       "Frosted Cakes": 1769758673922,
-      "Kuebiko": 1769798697615,
-      "Bud #800": 1769798203115,
-      "Ferrous Favor": 1769798203115,
-      "Iron Beetle": 1769792403773,
-      "Iron Bumpkin": 1769792403773,
-      "Iron Hustle": 1769792403773,
-      "Rocky the Mole": 1769792403773,
+      "Kuebiko": 1769800011044,
+      "Bud #800": 1769799970397,
+      "Ferrous Favor": 1769799970397,
+      "Iron Beetle": 1769799970397,
+      "Iron Bumpkin": 1769799970397,
+      "Iron Hustle": 1769799970397,
+      "Rocky the Mole": 1769799970397,
       "Prospector": 1769798203115,
       "Quarry": 1769798203115,
       "Rock Golem": 1769798203115,
@@ -17082,28 +17159,28 @@
       "White Sheep Onesie": 1769761381879,
       "Efficient Bin": 1769792437912,
       "Soil Krabby": 1769792594319,
-      "Bud #275": 1769798693853,
+      "Bud #275": 1769799950477,
       "Glass Room": 1769793873949,
       "Grape Granny": 1769624706710,
       "Greenhouse Gamble": 1769793873662,
-      "Lunar Calendar": 1769798693853,
+      "Lunar Calendar": 1769799950477,
       "Olive Express": 1769781300511,
       "Rice and Shine": 1769793877609,
-      "Seed Specialist": 1769798693853,
+      "Seed Specialist": 1769799950477,
       "Seeded Bounty": 1769793877609,
       "Turbo Sprout": 1769793877609,
       "Vinny": 1769624706710,
       "Blossom Ward": 1768780418694,
       "Bud #1786": 1769796595694,
-      "Gnome": 1769798692935,
-      "Green Amulet": 1769798692935,
-      "Green Thumb": 1769798693853,
-      "Hectare Farm": 1769798692935,
+      "Gnome": 1769799935083,
+      "Green Amulet": 1769799935083,
+      "Green Thumb": 1769799950477,
+      "Hectare Farm": 1769799935083,
       "Laurie the Chuckle Crow": 1769796595694,
       "Laurie's Gains": 1769796595694,
       "Old Farmer": 1769796595694,
       "Sickle": 1769743096876,
-      "Sir Goldensnout": 1769798692935,
+      "Sir Goldensnout": 1769799935083,
       "Strong Roots": 1769781280292,
       "Bee Suit": 1769792413322,
       "King of Bears": 1769792413322,
@@ -17131,7 +17208,7 @@
       "Moo-ver": 1769792571222,
       "Mootant": 1769792571222,
       "Pollen Power Up": 1769743096876,
-      "Emerald Turtle": 1769798196406,
+      "Emerald Turtle": 1769799970397,
       "Gilded Swordfish": 1769792405730,
       "Gold Beetle": 1769792405730,
       "Golden Touch": 1769792405730,
@@ -17151,22 +17228,22 @@
       "Corn Onesie": 1768799781880,
       "Poppy": 1768799781880,
       "Cabbage Girl": 1769758685792,
-      "Acre Farm": 1769798692935,
-      "Bud #1547": 1769798692935,
+      "Acre Farm": 1769799935083,
+      "Bud #1547": 1769799935083,
       "Cabbage Boy": 1769758685792,
-      "Experienced Farmer": 1769798692935,
-      "Horror Mike": 1769798692935,
-      "Scary Mike": 1769798692935,
+      "Experienced Farmer": 1769799935083,
+      "Horror Mike": 1769799935083,
+      "Scary Mike": 1769799935083,
       "Blooming Boost": 1769747783028,
       "Butterfly": 1769578873884,
       "Chicory": 1769606877390,
       "Flower Crown": 1769747783028,
       "Flower Fox": 1769747783028,
       "Humming Bird": 1769409038142,
-      "Carrot Amulet": 1769751253282,
-      "Easter Bunny": 1769751477115,
-      "Lab Grown Carrot": 1769751477115,
-      "Pablo The Bunny": 1769751477115,
+      "Carrot Amulet": 1769799950477,
+      "Easter Bunny": 1769799935083,
+      "Lab Grown Carrot": 1769799935083,
+      "Pablo The Bunny": 1769799935083,
       "Paw Shield": 1769388094385,
       "Angler Waders": 1769756046751,
       "Crab Hat": 1769756046751,
@@ -17190,7 +17267,7 @@
       "Rice Panda": 1769766258836,
       "Soybliss": 1769797977041,
       "Rooster": 1768070973800,
-      "Bud #1134": 1769734729777,
+      "Bud #1134": 1769799572287,
       "Freya Fox": 1769793983962,
       "Lab Grown Pumpkin": 1769793983962,
       "Victoria Sisters": 1769793983962,
@@ -17219,12 +17296,12 @@
       "Deep Sea Helm": 1767416746554,
       "Potent Potato": 1769751168898,
       "Giant Yam": 1769754324865,
-      "Autumn's Embrace": 1769798693853,
-      "Blossombeard": 1769750730796,
-      "Observatory": 1769750730796,
+      "Autumn's Embrace": 1769799950477,
+      "Blossombeard": 1769799572287,
+      "Observatory": 1769799572287,
       "Grain Grinder": 1769398556642,
       "Autumn Guardian": 1769645717530,
-      "Skill Shrimpy": 1769398533376,
+      "Skill Shrimpy": 1769799572287,
       "Frozen Heart": 1768175497149,
       "Frozen Cow": 1768163442311,
       "Lady Bug": 1769734197625,
@@ -17237,10 +17314,10 @@
       "Parsnip": 1768116098420,
       "Badger Shrine": 1769286114039,
       "Tin Turtle": 1769798203115,
-      "Rocky Favor": 1769798203115,
-      "Fruit Tune Box": 1769798445676,
+      "Rocky Favor": 1769799970397,
+      "Fruit Tune Box": 1769799423108,
       "Bud #1331": 1769217504991,
-      "Harvest Hourglass": 1769754342497,
+      "Harvest Hourglass": 1769799950477,
       "Time Warp Totem": 1768773815366,
       "Lava Swimwear": 1769748504711,
       "Sunflower Rod": 1760084094579,
@@ -17253,23 +17330,23 @@
       "Giant Onion": 1768175497149,
       "Pickaxe Shark": 1769792405730,
       "Leathercraft Mastery": 1769793905122,
-      "Mole Shrine": 1769792405730,
+      "Mole Shrine": 1769799970397,
       "Collie Shrine": 1762142476892,
       "Janitor Chicken": 1769793905122,
       "Architect Ruler": 1769798658986,
       "Bucket O' Worms": 1769792594319,
       "Giant Gold Bone": 1769732321609,
       "Obsidian Turtle": 1769748497159,
-      "Sparrow Shrine": 1769798693853,
-      "Super Totem": 1769798693853,
+      "Sparrow Shrine": 1769799950477,
+      "Super Totem": 1769799970397,
       "Super Star": 1768093202688,
       "Obsidian Necklace": 1769748504711,
-      "Boar Shrine": 1769798470047,
+      "Boar Shrine": 1769799231610,
       "Sleepy Chicken": 1769756843093,
-      "Master Chef's Cleaver": 1769798470047,
+      "Master Chef's Cleaver": 1769799231610,
       "Bantam Shrine": 1769793905122,
       "Tortoise Shrine": 1769798135421,
-      "Goblin Crown": 1769751634636,
+      "Goblin Crown": 1769799075281,
       "Banana Onesie": 1767360043346,
       "Nana": 1767360043346,
       "Stag Shrine": 1769781305572,
@@ -17280,12 +17357,12 @@
       "Fisherman's 10 Fold": 1769756046751,
       "Fishy Gamble": 1769756004452,
       "More With Less": 1769792594319,
-      "Nom Nom": 1769751634636,
+      "Nom Nom": 1769799075281,
       "Saw Fish": 1769792594319,
-      "Munching Mastery": 1769750730796,
+      "Munching Mastery": 1769799572287,
       "Juicy Boost": 1769398540858,
       "Drive-Through Deli": 1769398545731,
-      "Fishy Feast": 1769398533376,
+      "Fishy Feast": 1769799572287,
       "Buzzworthy Treats": 1769398545731,
       "Ancient Rod": 1769756046751,
       "Kernaldo": 1768780496740,
@@ -17424,7 +17501,7 @@
         "49": {
           "id": 49,
           "name": "Pet #49",
-          "experience": 65070,
+          "experience": 65080,
           "energy": 11745,
           "requests": {
             "food": [
@@ -17441,7 +17518,7 @@
               "Popcorn"
             ]
           },
-          "pettedAt": 1769792484669,
+          "pettedAt": 1769799727975,
           "traits": {
             "type": "Bear",
             "fur": "Dark-Red",
@@ -17467,7 +17544,7 @@
         "1155": {
           "name": "Pet #1155",
           "id": 1155,
-          "experience": 9220,
+          "experience": 9230,
           "energy": 3195,
           "requests": {
             "food": [
@@ -17482,7 +17559,7 @@
               "Mashed Potato"
             ]
           },
-          "pettedAt": 1769792485618,
+          "pettedAt": 1769799724196,
           "traits": {
             "type": "Griffin",
             "fur": "Green",
@@ -17505,7 +17582,7 @@
         "2965": {
           "id": 2965,
           "name": "Pet #2965",
-          "experience": 69262,
+          "experience": 69272,
           "energy": 39470,
           "requests": {
             "food": [
@@ -17522,7 +17599,7 @@
               "Roast Veggies"
             ]
           },
-          "pettedAt": 1769792485842,
+          "pettedAt": 1769799726645,
           "traits": {
             "type": "Wolf",
             "fur": "Pink",
@@ -17550,7 +17627,7 @@
       "common": {
         "Barkley": {
           "name": "Barkley",
-          "experience": 62792,
+          "experience": 62802,
           "energy": 1175,
           "requests": {
             "food": [
@@ -17565,7 +17642,7 @@
               "Carrot Juice"
             ]
           },
-          "pettedAt": 1769792484967,
+          "pettedAt": 1769799730493,
           "dailySocialXP": {
             "2026-01-30": 50
           },
@@ -17621,7 +17698,7 @@
         },
         "Pippin": {
           "name": "Pippin",
-          "experience": 62875,
+          "experience": 62885,
           "energy": 1475,
           "requests": {
             "food": [
@@ -17636,7 +17713,7 @@
               "Power Smoothie"
             ]
           },
-          "pettedAt": 1769792488118,
+          "pettedAt": 1769799727335,
           "dailySocialXP": {
             "2026-01-30": 50
           },

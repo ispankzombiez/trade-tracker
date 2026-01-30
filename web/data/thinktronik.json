@@ -9,10 +9,35 @@
     "spent_sfl": 7980.17,
     "items_sold": 4501.0,
     "trade_points": 9373.29,
-    "last_updated": "2026-01-30 06:55 PM",
+    "last_updated": "2026-01-30 07:14 PM",
     "active_listings": 11
   },
-  "buys": [],
+  "buys": [
+    {
+      "date": "2026-01-30",
+      "time": "07:13 PM",
+      "type": "BUY",
+      "item": "Yam",
+      "quantity": 110,
+      "price_text": "0.3066 SFL",
+      "price": 0.3066,
+      "counterparty": "BETO861",
+      "farm_id": "-",
+      "trade_id": "57b84512"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "07:13 PM",
+      "type": "BUY",
+      "item": "Broccoli",
+      "quantity": 259,
+      "price_text": "0.7247 SFL",
+      "price": 0.7247,
+      "counterparty": "mmlmlz",
+      "farm_id": "-",
+      "trade_id": "3ec52ed4"
+    }
+  ],
   "sells": [
     {
       "date": "2026-01-30",
@@ -725,15 +750,33 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 0,
+    "total_buys": 2,
     "total_sells": 59,
-    "buy_volume": 0,
+    "buy_volume": 1.0312999999999999,
     "sell_volume": 248.02100000000002,
-    "gross_profit": 248.02100000000002,
-    "avg_buy_price": 0,
+    "gross_profit": 246.98970000000003,
+    "avg_buy_price": 0.5156499999999999,
     "avg_sell_price": 4.203745762711865,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Yam",
+        "quantity": 110,
+        "price": 0.3066,
+        "date": "2026-01-30",
+        "time": "07:13 PM",
+        "username": "thinktronik"
+      },
+      {
+        "type": "BUY",
+        "item": "Broccoli",
+        "quantity": 259,
+        "price": 0.7247,
+        "date": "2026-01-30",
+        "time": "07:13 PM",
+        "username": "thinktronik"
+      },
       {
         "type": "SELL",
         "item": "Kale",
@@ -767,8 +810,7 @@
         "quantity": 5,
         "price": 2.5625,
         "date": "2026-01-30",
-        "time": "09:43 AM",
-        "username": "thinktronik"
+        "time": "09:43 AM"
       },
       {
         "type": "SELL",
@@ -776,8 +818,7 @@
         "quantity": 5,
         "price": 2.5625,
         "date": "2026-01-30",
-        "time": "09:21 AM",
-        "username": "thinktronik"
+        "time": "09:21 AM"
       },
       {
         "type": "SELL",
@@ -882,26 +923,13 @@
         "price": 2.8224,
         "date": "2026-01-29",
         "time": "04:01 PM"
-      },
-      {
-        "type": "SELL",
-        "item": "Wheat",
-        "quantity": 150,
-        "price": 2.1168,
-        "date": "2026-01-29",
-        "time": "04:00 PM"
-      },
-      {
-        "type": "SELL",
-        "item": "Milk",
-        "quantity": 50,
-        "price": 6.1875,
-        "date": "2026-01-29",
-        "time": "03:59 PM"
       }
     ],
-    "profit_margin": 0,
-    "most_bought_items": {},
+    "profit_margin": 23949.35518277902,
+    "most_bought_items": {
+      "Broccoli": 259,
+      "Yam": 110
+    },
     "most_sold_items": {
       "Wheat": 1050,
       "Milk": 575,
@@ -1051,19 +1079,19 @@
       "Orange": 3928.3000000000034,
       "Banana": 2198.2500000000014,
       "Grape": 155.50000000000014,
-      "Tomato": 9210.150000000003,
+      "Tomato": 9242.650000000003,
       "Lemon": 1052.6000000000035,
       "Duskberry": 192.2,
       "Lunara": 17.200000000000024,
       "Celestine": 20.500000000000025
     },
     "resources": {
-      "Wood": 6645.95,
+      "Wood": 6646.95,
       "Stone": 1193.34,
       "Iron": 864.1,
       "Gold": 659.29,
       "Crimstone": 56.3,
-      "Obsidian": 2.0
+      "Obsidian": 6.0
     }
   }
 }

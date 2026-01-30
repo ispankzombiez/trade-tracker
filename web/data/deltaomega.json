@@ -2,15 +2,15 @@
   "username": "deltaomega",
   "overview": {
     "balance": 28.96,
-    "coins": 182.0,
+    "coins": 378.0,
     "gems": 0.0,
     "earned_sfl": 20921.95,
-    "earned_coins": 182.0,
+    "earned_coins": 378.0,
     "spent_sfl": 14782.16,
     "items_sold": 3465.0,
     "trade_points": 13902.85,
-    "last_updated": "2026-01-30 06:55 PM",
-    "active_listings": 0
+    "last_updated": "2026-01-30 07:14 PM",
+    "active_listings": 3
   },
   "buys": [
     {
@@ -653,6 +653,42 @@
   "sells": [
     {
       "date": "2026-01-30",
+      "time": "07:09 PM",
+      "type": "SELL",
+      "item": "Barley",
+      "quantity": 200,
+      "price_text": "4.6635 SFL",
+      "price": 4.6635,
+      "counterparty": "Leo547",
+      "farm_id": "-",
+      "trade_id": "ef0048a3"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "07:08 PM",
+      "type": "SELL",
+      "item": "Barley",
+      "quantity": 200,
+      "price_text": "4.6635 SFL",
+      "price": 4.6635,
+      "counterparty": "TYBY",
+      "farm_id": "-",
+      "trade_id": "c44da45d"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "07:08 PM",
+      "type": "SELL",
+      "item": "Barley",
+      "quantity": 200,
+      "price_text": "4.6635 SFL",
+      "price": 4.6635,
+      "counterparty": "TYBY",
+      "farm_id": "-",
+      "trade_id": "cf20e0b5"
+    },
+    {
+      "date": "2026-01-30",
       "time": "04:05 PM",
       "type": "SELL",
       "item": "Ribbon",
@@ -1195,12 +1231,12 @@
   "last_updated": null,
   "stats": {
     "total_buys": 53,
-    "total_sells": 45,
+    "total_sells": 48,
     "buy_volume": 56.157300000000006,
-    "sell_volume": 70.52439999999999,
-    "gross_profit": 14.36709999999998,
+    "sell_volume": 84.5149,
+    "gross_profit": 28.35759999999999,
     "avg_buy_price": 1.0595716981132077,
-    "avg_sell_price": 1.5672088888888887,
+    "avg_sell_price": 1.7607270833333333,
     "most_traded_items": {},
     "recent_activity": [
       {
@@ -1369,7 +1405,7 @@
         "time": "09:12 PM"
       }
     ],
-    "profit_margin": 25.583673004222028,
+    "profit_margin": 50.49672972169243,
     "most_bought_items": {
       "Feather": 379,
       "Yam": 323,
@@ -1383,7 +1419,7 @@
       "Cauliflower": 100
     },
     "most_sold_items": {
-      "Barley": 1760,
+      "Barley": 2360,
       "Wheat": 335,
       "Iron": 55,
       "Gold": 16,
@@ -1394,7 +1430,35 @@
       "Dewberry": 7
     }
   },
-  "active_listings": [],
+  "active_listings": [
+    {
+      "id": "ef0048a3",
+      "item": "Barley",
+      "quantity": 200,
+      "price": 4.6635,
+      "created_at": 1769799862037,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "cf20e0b5",
+      "item": "Barley",
+      "quantity": 200,
+      "price": 4.6635,
+      "created_at": 1769799870823,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "c44da45d",
+      "item": "Barley",
+      "quantity": 200,
+      "price": 4.6635,
+      "created_at": 1769799880373,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    }
+  ],
   "active_offers": [],
   "inventory": {
     "crops": {
@@ -1413,7 +1477,7 @@
       "Corn": 30.6068,
       "Soybean": 60.4162,
       "Olive": 0.008,
-      "Barley": 0.0048,
+      "Barley": 600.6048,
       "Rhubarb": 24.0,
       "Zucchini": 925.5,
       "Yam": 32.3159,
@@ -1424,7 +1488,7 @@
       "Artichoke": 28.2484
     },
     "fruits": {
-      "Apple": 30.7,
+      "Apple": 30.2,
       "Blueberry": 30.2,
       "Orange": 30.3,
       "Tomato": 12.3,
@@ -1435,8 +1499,8 @@
       "Lunara": 3.0
     },
     "resources": {
-      "Wood": 326.88,
-      "Stone": 25.9,
+      "Wood": 312.88,
+      "Stone": 63.4,
       "Iron": 61.9,
       "Crimstone": 4.1,
       "Obsidian": 5.97,
