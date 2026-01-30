@@ -1,12 +1,61 @@
 {
-  "last_updated": "2026-01-30T21:18:19.307547",
-  "total_users": 20,
+  "last_updated": "2026-01-30T21:54:03.447110",
+  "total_users": 50,
   "top_traders": [
+    {
+      "username": "littleeins",
+      "profit": 23268.3664,
+      "profit_margin": 0,
+      "total_volume": 23268.3664,
+      "total_trades": 50
+    },
+    {
+      "username": "polysemouse",
+      "profit": 16800.995900000005,
+      "profit_margin": 29301.115469199907,
+      "total_volume": 16915.674100000007,
+      "total_trades": 50
+    },
+    {
+      "username": "vitt0c",
+      "profit": 8452.5663,
+      "profit_margin": 11490.569446540216,
+      "total_volume": 8599.688100000001,
+      "total_trades": 50
+    },
+    {
+      "username": "porotampinha",
+      "profit": 3768.3994000000007,
+      "profit_margin": 0,
+      "total_volume": 3768.3994000000007,
+      "total_trades": 50
+    },
+    {
+      "username": "telk",
+      "profit": 3267.5939000000003,
+      "profit_margin": 0,
+      "total_volume": 3267.5939000000003,
+      "total_trades": 50
+    },
     {
       "username": "labochi",
       "profit": 2130.4286,
       "profit_margin": 10594.50887173775,
       "total_volume": 2170.6462,
+      "total_trades": 50
+    },
+    {
+      "username": "jiko",
+      "profit": 530.402,
+      "profit_margin": 379.9495694780728,
+      "total_volume": 809.598,
+      "total_trades": 50
+    },
+    {
+      "username": "kevin",
+      "profit": 434.91600000000017,
+      "profit_margin": 938.6055023696276,
+      "total_volume": 527.5888000000002,
       "total_trades": 50
     },
     {
@@ -22,55 +71,6 @@
       "profit_margin": 146.86293436293445,
       "total_volume": 636.7682000000002,
       "total_trades": 72
-    },
-    {
-      "username": "celinhotv",
-      "profit": 213.62169999999998,
-      "profit_margin": 49232.93385572712,
-      "total_volume": 214.48949999999996,
-      "total_trades": 93
-    },
-    {
-      "username": "jaysuper",
-      "profit": 97.46320000000003,
-      "profit_margin": 0,
-      "total_volume": 97.46320000000003,
-      "total_trades": 127
-    },
-    {
-      "username": "blasta",
-      "profit": 81.31299999999997,
-      "profit_margin": 253.9531339302722,
-      "total_volume": 145.3508,
-      "total_trades": 52
-    },
-    {
-      "username": "deltaomega",
-      "profit": 30.831599999999995,
-      "profit_margin": 54.902212179004316,
-      "total_volume": 143.14620000000002,
-      "total_trades": 104
-    },
-    {
-      "username": "haesoo",
-      "profit": -0.8166999999999973,
-      "profit_margin": -1.1765638055723588,
-      "total_volume": 138.01130000000003,
-      "total_trades": 71
-    },
-    {
-      "username": "ispank",
-      "profit": -6.7943000000000495,
-      "profit_margin": -4.6771375584960895,
-      "total_volume": 283.73810000000003,
-      "total_trades": 84
-    },
-    {
-      "username": "droid",
-      "profit": -9.452900000000014,
-      "profit_margin": -12.479784330991741,
-      "total_volume": 142.03850000000006,
-      "total_trades": 87
     }
   ],
   "market_summary": {},
@@ -86,6 +86,69 @@
     },
     {
       "type": "BUY",
+      "item": "Soybean",
+      "quantity": 349,
+      "price": 0.7675,
+      "date": "2026-01-30",
+      "time": "12:52 AM",
+      "username": "rudolph"
+    },
+    {
+      "type": "BUY",
+      "item": "Soybean",
+      "quantity": 200,
+      "price": 0.4396,
+      "date": "2026-01-30",
+      "time": "12:52 AM",
+      "username": "rudolph"
+    },
+    {
+      "type": "BUY",
+      "item": "Soybean",
+      "quantity": 316,
+      "price": 0.6934,
+      "date": "2026-01-30",
+      "time": "12:52 AM",
+      "username": "rudolph"
+    },
+    {
+      "type": "BUY",
+      "item": "Soybean",
+      "quantity": 360,
+      "price": 0.7809,
+      "date": "2026-01-30",
+      "time": "12:52 AM",
+      "username": "rudolph"
+    },
+    {
+      "type": "BUY",
+      "item": "Pumpkin",
+      "quantity": 2000,
+      "price": 1.42,
+      "date": "2026-01-30",
+      "time": "12:44 AM",
+      "username": "asterion"
+    },
+    {
+      "type": "BUY",
+      "item": "Broccoli",
+      "quantity": 2000,
+      "price": 5.848,
+      "date": "2026-01-30",
+      "time": "12:14 PM",
+      "username": "asterion"
+    },
+    {
+      "type": "BUY",
+      "item": "Honey",
+      "quantity": 10,
+      "price": 0.551,
+      "date": "2026-01-30",
+      "time": "12:05 PM",
+      "username": "vitt0c"
+    },
+    {
+      "type": "BUY",
       "item": "Wool",
       "quantity": 19,
       "price": 1.119,
@@ -94,166 +157,103 @@
       "username": "haesoo"
     },
     {
-      "type": "SELL",
-      "item": "Lemon",
-      "quantity": 200,
-      "price": 1.9828,
-      "date": "2026-01-30",
-      "time": "08:47 PM",
-      "username": "thinktronik"
-    },
-    {
-      "type": "SELL",
+      "type": "BUY",
       "item": "Milk",
-      "quantity": 60,
-      "price": 7.284,
-      "date": "2026-01-30",
-      "time": "08:44 PM",
-      "username": "thinktronik"
-    },
-    {
-      "type": "SELL",
-      "item": "Wood",
-      "quantity": 60,
-      "price": 0.5368,
-      "date": "2026-01-30",
-      "time": "07:36 PM",
-      "username": "jaysuper"
-    },
-    {
-      "type": "BUY",
-      "item": "Yam",
-      "quantity": 777,
-      "price": 2.1678,
-      "date": "2026-01-30",
-      "time": "07:14 PM",
-      "username": "thinktronik"
-    },
-    {
-      "type": "BUY",
-      "item": "Yam",
-      "quantity": 110,
-      "price": 0.3066,
-      "date": "2026-01-30",
-      "time": "07:13 PM",
-      "username": "thinktronik"
-    },
-    {
-      "type": "BUY",
-      "item": "Broccoli",
-      "quantity": 259,
-      "price": 0.7247,
-      "date": "2026-01-30",
-      "time": "07:13 PM",
-      "username": "thinktronik"
-    },
-    {
-      "type": "SELL",
-      "item": "Pumpkin",
-      "quantity": 2000,
-      "price": 1.6,
-      "date": "2026-01-30",
-      "time": "07:10 PM",
-      "username": "celinhotv"
-    },
-    {
-      "type": "SELL",
-      "item": "Beetroot",
-      "quantity": 125,
-      "price": 0.816,
-      "date": "2026-01-30",
-      "time": "06:50 PM",
-      "username": "jaysuper"
-    },
-    {
-      "type": "SELL",
-      "item": "Leather",
-      "quantity": 11,
-      "price": 1.3035,
-      "date": "2026-01-30",
-      "time": "06:40 PM",
-      "username": "jaysuper"
-    },
-    {
-      "type": "SELL",
-      "item": "Leather",
-      "quantity": 5,
-      "price": 0.585,
-      "date": "2026-01-30",
-      "time": "06:33 PM",
-      "username": "jaysuper"
-    },
-    {
-      "type": "SELL",
-      "item": "Leather",
-      "quantity": 5,
-      "price": 0.585,
-      "date": "2026-01-30",
-      "time": "06:33 PM",
-      "username": "jaysuper"
-    },
-    {
-      "type": "BUY",
-      "item": "Gold",
-      "quantity": 10,
-      "price": 2.398,
-      "date": "2026-01-30",
-      "time": "06:21 PM",
-      "username": "haesoo"
-    },
-    {
-      "type": "BUY",
-      "item": "Gold",
-      "quantity": 20,
-      "price": 4.796,
-      "date": "2026-01-30",
-      "time": "06:21 PM",
-      "username": "haesoo"
-    },
-    {
-      "type": "BUY",
-      "item": "Stone",
       "quantity": 50,
-      "price": 0.78,
+      "price": 5.951,
       "date": "2026-01-30",
-      "time": "06:05 PM",
-      "username": "droid"
+      "time": "11:04 AM",
+      "username": "vitt0c"
     },
     {
       "type": "BUY",
-      "item": "Gold",
-      "quantity": 3,
-      "price": 0.7467,
+      "item": "Milk",
+      "quantity": 50,
+      "price": 5.951,
       "date": "2026-01-30",
-      "time": "06:05 AM",
-      "username": "deltaomega"
+      "time": "10:51 AM",
+      "username": "vitt0c"
     },
     {
       "type": "BUY",
-      "item": "Gold",
-      "quantity": 4,
-      "price": 0.9667,
+      "item": "Corn",
+      "quantity": 150,
+      "price": 2.8497,
       "date": "2026-01-30",
-      "time": "06:05 AM",
-      "username": "deltaomega"
+      "time": "10:34 AM",
+      "username": "felga"
     },
     {
       "type": "BUY",
-      "item": "Dewberry",
-      "quantity": 4,
-      "price": 1.84,
+      "item": "Corn",
+      "quantity": 150,
+      "price": 2.8497,
       "date": "2026-01-30",
-      "time": "06:05 AM",
-      "username": "blasta"
+      "time": "10:34 AM",
+      "username": "felga"
     },
     {
       "type": "BUY",
-      "item": "Duskberry",
-      "quantity": 2,
-      "price": 1.5746,
+      "item": "Corn",
+      "quantity": 150,
+      "price": 2.8497,
       "date": "2026-01-30",
-      "time": "06:03 AM",
-      "username": "deltaomega"
+      "time": "10:34 AM",
+      "username": "felga"
+    },
+    {
+      "type": "BUY",
+      "item": "Corn",
+      "quantity": 150,
+      "price": 2.8497,
+      "date": "2026-01-30",
+      "time": "10:34 AM",
+      "username": "felga"
+    },
+    {
+      "type": "BUY",
+      "item": "Carrot",
+      "quantity": 178,
+      "price": 0.3074,
+      "date": "2026-01-30",
+      "time": "10:12 AM",
+      "username": "mamas"
+    },
+    {
+      "type": "BUY",
+      "item": "Milk",
+      "quantity": 50,
+      "price": 5.951,
+      "date": "2026-01-30",
+      "time": "10:02 AM",
+      "username": "vitt0c"
+    },
+    {
+      "type": "BUY",
+      "item": "Wheat",
+      "quantity": 400,
+      "price": 5.7153,
+      "date": "2026-01-30",
+      "time": "09:25 PM",
+      "username": "lucasag"
+    },
+    {
+      "type": "BUY",
+      "item": "Wheat",
+      "quantity": 100,
+      "price": 1.4196,
+      "date": "2026-01-30",
+      "time": "09:25 PM",
+      "username": "lucasag"
+    },
+    {
+      "type": "BUY",
+      "item": "Wheat",
+      "quantity": 209,
+      "price": 2.9671,
+      "date": "2026-01-30",
+      "time": "09:25 PM",
+      "username": "lucasag"
     }
   ]
 }

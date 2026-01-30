@@ -1,18 +1,30 @@
 {
   "username": "deltaomega",
   "overview": {
-    "balance": 48.74,
-    "coins": 30.0,
+    "balance": 47.86,
+    "coins": 111.0,
     "gems": 0.0,
     "earned_sfl": 20926.5,
-    "earned_coins": 30.0,
+    "earned_coins": 111.0,
     "spent_sfl": 14782.16,
     "items_sold": 3468.0,
     "trade_points": 13902.85,
-    "last_updated": "2026-01-30 09:18 PM",
+    "last_updated": "2026-01-30 09:54 PM",
     "active_listings": 0
   },
   "buys": [
+    {
+      "date": "2026-01-30",
+      "time": "09:17 PM",
+      "type": "BUY",
+      "item": "Wool",
+      "quantity": 15,
+      "price_text": "0.8773 SFL",
+      "price": 0.8773,
+      "counterparty": "Eon",
+      "farm_id": "-",
+      "trade_id": "9d37a1fc"
+    },
     {
       "date": "2026-01-30",
       "time": "02:55 PM",
@@ -1266,15 +1278,24 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 53,
+    "total_buys": 54,
     "total_sells": 51,
-    "buy_volume": 56.157300000000006,
+    "buy_volume": 57.03460000000001,
     "sell_volume": 86.9889,
-    "gross_profit": 30.831599999999995,
-    "avg_buy_price": 1.0595716981132077,
+    "gross_profit": 29.95429999999999,
+    "avg_buy_price": 1.0561962962962965,
     "avg_sell_price": 1.7056647058823529,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Wool",
+        "quantity": 15,
+        "price": 0.8773,
+        "date": "2026-01-30",
+        "time": "09:17 PM",
+        "username": "deltaomega"
+      },
       {
         "type": "BUY",
         "item": "Honey",
@@ -1317,8 +1338,7 @@
         "quantity": 3,
         "price": 1.1688,
         "date": "2026-01-30",
-        "time": "06:03 AM",
-        "username": "deltaomega"
+        "time": "06:03 AM"
       },
       {
         "type": "BUY",
@@ -1431,17 +1451,9 @@
         "price": 2.7563,
         "date": "2026-01-29",
         "time": "09:12 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Leather",
-        "quantity": 11,
-        "price": 1.3182,
-        "date": "2026-01-29",
-        "time": "09:12 PM"
       }
     ],
-    "profit_margin": 54.902212179004316,
+    "profit_margin": 52.51952323677204,
     "most_bought_items": {
       "Feather": 379,
       "Yam": 323,
@@ -1479,13 +1491,13 @@
       "Cauliflower": 36.6781,
       "Parsnip": 70.2369,
       "Radish": 15.7,
-      "Wheat": 50.8006,
+      "Wheat": 40.8006,
       "Kale": 0.62,
       "Eggplant": 90.1731,
       "Corn": 30.6068,
       "Soybean": 40.4162,
       "Olive": 0.008,
-      "Barley": 0.6048,
+      "Barley": 0.0048,
       "Rhubarb": 24.0,
       "Zucchini": 925.5,
       "Yam": 17.3159,
@@ -1509,7 +1521,7 @@
     "resources": {
       "Wood": 409.28,
       "Stone": 63.4,
-      "Iron": 61.9,
+      "Iron": 58.9,
       "Crimstone": 0.1,
       "Obsidian": 5.97,
       "Gold": 9.4
