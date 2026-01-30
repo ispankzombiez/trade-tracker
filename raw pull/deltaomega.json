@@ -562,7 +562,8 @@
       "Iron Pickaxe": "10",
       "Stone Pickaxe": "13",
       "Cheer": "5",
-      "Pickaxe": "22"
+      "Pickaxe": "22",
+      "Buzz Doll": "1"
     },
     "previousInventory": {
       "Sunflower Seed": "1200",
@@ -5940,7 +5941,7 @@
       "Crude Doll Crafted": 7,
       "Cluck Doll Crafted": 76,
       "Wooly Doll Crafted": 49,
-      "Buzz Doll Crafted": 10,
+      "Buzz Doll Crafted": 11,
       "Moo Doll Crafted": 24,
       "Angler Doll Crafted": 4,
       "Juicy Doll Crafted": 54,
@@ -8075,7 +8076,7 @@
           "petXP": 0,
           "score": 0,
           "collectivePet": {
-            "totalXP": 5379565,
+            "totalXP": 5401785,
             "goalXP": 10263180,
             "goalReached": false,
             "streak": 10,
@@ -9444,13 +9445,10 @@
       "bonusClaimedAt": 1768946387807
     },
     "craftingBox": {
-      "status": "crafting",
+      "status": "idle",
       "startedAt": 1769784954975,
       "readyAt": 1769806554975,
-      "recipes": {},
-      "item": {
-        "collectible": "Buzz Doll"
-      }
+      "recipes": {}
     },
     "season": {
       "startedAt": 1769385600000,
@@ -9828,7 +9826,7 @@
         "1007": {
           "name": "Pet #1007",
           "id": 1007,
-          "experience": 10615,
+          "experience": 10625,
           "energy": 70,
           "requests": {
             "food": [
@@ -9845,7 +9843,7 @@
               "Pizza Margherita"
             ]
           },
-          "pettedAt": 1769799617290,
+          "pettedAt": 1769806983253,
           "traits": {
             "type": "Ram",
             "fur": "Brown",
@@ -9871,7 +9869,7 @@
         "2948": {
           "id": 2948,
           "name": "Pet #2948",
-          "experience": 95182,
+          "experience": 95192,
           "energy": 70,
           "requests": {
             "food": [
@@ -9889,7 +9887,7 @@
               "Bumpkin Roast"
             ]
           },
-          "pettedAt": 1769799614358,
+          "pettedAt": 1769806981151,
           "traits": {
             "type": "Phoenix",
             "fur": "Grey",
@@ -9916,7 +9914,7 @@
       "common": {
         "Pippin": {
           "name": "Pippin",
-          "experience": 103006,
+          "experience": 103016,
           "energy": 45,
           "requests": {
             "food": [
@@ -9931,7 +9929,7 @@
               "Antipasto"
             ]
           },
-          "pettedAt": 1769799612427,
+          "pettedAt": 1769806979444,
           "dailySocialXP": {
             "2026-01-30": 50
           },
@@ -9942,7 +9940,7 @@
         },
         "Skipper": {
           "name": "Skipper",
-          "experience": 42062,
+          "experience": 42072,
           "energy": 80,
           "requests": {
             "food": [
@@ -9957,7 +9955,7 @@
               "Lemon Cheesecake"
             ]
           },
-          "pettedAt": 1769799613447,
+          "pettedAt": 1769806980212,
           "dailySocialXP": {
             "2026-01-30": 50
           },
@@ -9968,7 +9966,7 @@
         },
         "Smokey": {
           "name": "Smokey",
-          "experience": 4495,
+          "experience": 4505,
           "energy": 80,
           "requests": {
             "food": [
@@ -9982,7 +9980,7 @@
               "Potato Cake"
             ]
           },
-          "pettedAt": 1769799616810,
+          "pettedAt": 1769806982567,
           "fetches": {
             "Acorn": 204,
             "Ribbon": 14
