@@ -1,7 +1,7 @@
 {
   "farm": {
     "coins": 172957.35739999922,
-    "balance": "0.0355209102868796",
+    "balance": "0.1005209102868796",
     "previousBalance": "13.4986759102868811",
     "inventory": {
       "Pumpkin Seed": "900",
@@ -39,20 +39,20 @@
       "Edelweiss Seed": "13",
       "Clover Seed": "13",
       "Sunflower": "24657.035199987436995",
-      "Potato": "13282.00149999469429",
+      "Potato": "12882.00149999469429",
       "Pumpkin": "111.6692",
-      "Carrot": "749.8098",
+      "Carrot": "249.8098",
       "Cabbage": "52.5857000000000004",
       "Beetroot": "18.4556000000000642",
       "Cauliflower": "14.7508999999999256",
-      "Parsnip": "81.1189999999999261",
+      "Parsnip": "1.1189999999999261",
       "Radish": "287.2946999999998144",
       "Wheat": "921.3798999999988634",
       "Kale": "85.220999999999906",
       "Apple": "3.0000000000004868",
       "Blueberry": "3.0000000000054129",
       "Orange": "0.8000000000008347",
-      "Eggplant": "998.868900000000054",
+      "Eggplant": "758.868900000000054",
       "Corn": "0.0301000000000001",
       "Banana": "14.5000000000007112",
       "Red Pansy": "2",
@@ -72,7 +72,7 @@
       "Barley": "61.7397999999999357",
       "Rhubarb": "96.35",
       "Zucchini": "588.6496",
-      "Yam": "917.1633",
+      "Yam": "17.1633",
       "Broccoli": "182.5199",
       "Pepper": "46.7",
       "Onion": "685.7929000000000271",
@@ -158,8 +158,8 @@
       "Antipasto": "3",
       "Wood": "49.77",
       "Stone": "40.04",
-      "Iron": "96.66",
-      "Gold": "23.82",
+      "Iron": "16.66",
+      "Gold": "3.82",
       "Egg": "57.3",
       "Speed Chicken": "1",
       "Fat Chicken": "1",
@@ -188,7 +188,7 @@
       "Leather": "3.5",
       "Merino Wool": "12.4",
       "Feather": "544.6",
-      "Milk": "0.4",
+      "Milk": "14.4",
       "Hay": "6.7198500000003214",
       "Kernel Blend": "0.6408750000001554",
       "NutriBarley": "2.4260000000000904",
@@ -1376,7 +1376,7 @@
       }
     },
     "bank": {
-      "taxFreeSFL": 18606.100374999998,
+      "taxFreeSFL": 18610.725374999998,
       "withdrawnAmount": 360.7484
     },
     "bumpkin": {
@@ -1438,7 +1438,7 @@
       },
       "tokenUri": "https://api.sunflower-land.com/bumpkins/metadata/23812_v1_306_3_50_14_18_41_23",
       "sessionId": "0x1dd11dd285432a5eb2460f4ade2c50721e108ed706d048d6925d75d142a136ef",
-      "experience": 55080598.22465984,
+      "experience": 55156537.59778484,
       "skills": {
         "Fisherman's 5 Fold": 1,
         "Fishy Chance": 1,
@@ -4886,16 +4886,6 @@
           "tax": 0.36375,
           "tradeType": "instant"
         },
-        "5ddedbf1": {
-          "collection": "collectibles",
-          "createdAt": 1769776093726,
-          "items": {
-            "Iron": 80
-          },
-          "sfl": 5,
-          "tax": 0.375,
-          "tradeType": "instant"
-        },
         "456c17f7": {
           "collection": "collectibles",
           "createdAt": 1769776113253,
@@ -4904,7 +4894,9 @@
           },
           "sfl": 2.59,
           "tax": 0.19425,
-          "tradeType": "instant"
+          "tradeType": "instant",
+          "fulfilledAt": 1769776413365,
+          "fulfilledById": 170434
         },
         "2e7e1b95": {
           "collection": "collectibles",
@@ -4914,7 +4906,9 @@
           },
           "sfl": 2.399,
           "tax": 0.179925,
-          "tradeType": "instant"
+          "tradeType": "instant",
+          "fulfilledAt": 1769776505199,
+          "fulfilledById": 3239539888288849
         },
         "653a88d7": {
           "collection": "collectibles",
@@ -4924,7 +4918,9 @@
           },
           "sfl": 2.399,
           "tax": 0.179925,
-          "tradeType": "instant"
+          "tradeType": "instant",
+          "fulfilledAt": 1769777052680,
+          "fulfilledById": 8655559328718236
         },
         "278fda66": {
           "collection": "collectibles",
@@ -4934,10 +4930,12 @@
           },
           "sfl": 0.85,
           "tax": 0.06375,
-          "tradeType": "instant"
+          "tradeType": "instant",
+          "fulfilledAt": 1769776563833,
+          "fulfilledById": 52114
         }
       },
-      "soldCount": 7583,
+      "soldCount": 7588,
       "dailyListings": {
         "count": 7,
         "date": 30
@@ -5105,14 +5103,44 @@
           "readyAt": 1752277639794,
           "crafting": [
             {
-              "name": "Honey Cheddar",
+              "name": "Cheese",
               "boost": {
                 "Oil": 0
               },
               "skills": {
                 "Double Nom": true
               },
-              "readyAt": 1769776230763
+              "readyAt": 1769777359680
+            },
+            {
+              "name": "Cheese",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": true
+              },
+              "readyAt": 1769778439680
+            },
+            {
+              "name": "Cheese",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": true
+              },
+              "readyAt": 1769779519680
+            },
+            {
+              "name": "Cheese",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": true
+              },
+              "readyAt": 1769780599680
             }
           ],
           "oil": 0,
@@ -5127,7 +5155,48 @@
           "id": "5da3bd15",
           "createdAt": 1753670318514,
           "readyAt": 1753670318514,
-          "crafting": [],
+          "crafting": [
+            {
+              "name": "Bumpkin ganoush",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": true
+              },
+              "readyAt": 1769790870373
+            },
+            {
+              "name": "Bumpkin ganoush",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": true
+              },
+              "readyAt": 1769805450373
+            },
+            {
+              "name": "Bumpkin ganoush",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": true
+              },
+              "readyAt": 1769820030373
+            },
+            {
+              "name": "Bumpkin ganoush",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": true
+              },
+              "readyAt": 1769834610373
+            }
+          ],
           "oil": 0,
           "coordinates": {
             "x": -4,
@@ -7758,8 +7827,8 @@
       "Turnip Planted": 869,
       "Onion Harvested": 3841,
       "Turnip Harvested": 869,
-      "Honey Cheddar Cooked": 127,
-      "Honey Cheddar Fed": 168,
+      "Honey Cheddar Cooked": 128,
+      "Honey Cheddar Fed": 170,
       "Oil Drilled": 954,
       "Edelweiss Seed Bought": 32,
       "Acorn House Bought": 1,
@@ -11061,7 +11130,7 @@
       "Rock'N'Roll": 1769464281974,
       "Stone Beetle": 1769464281974,
       "Tunnel Mole": 1760936501773,
-      "Desert Gnome": 1769773806301,
+      "Desert Gnome": 1769776293420,
       "Knight Chicken": 1764944589664,
       "Abundant Harvest": 1769735633595,
       "Alien Chicken": 1769735633595,
@@ -11077,7 +11146,7 @@
       "Bee Suit": 1769734938445,
       "Sweet Bonus": 1769734938445,
       "Strong Roots": 1769695394787,
-      "Fast Feasts": 1769771519342,
+      "Fast Feasts": 1769776293420,
       "Forge-Ward Profits": 1769748728147,
       "Desert Rose": 1769586743041,
       "Chicory": 1769754922335,
@@ -11112,13 +11181,13 @@
       "Bale Economy": 1767853306061,
       "Dream Scarf": 1767830406092,
       "White Sheep Onesie": 1767830406092,
-      "Blossombeard": 1769756878450,
-      "Buzzworthy Treats": 1769735003630,
+      "Blossombeard": 1769776251808,
+      "Buzzworthy Treats": 1769776251808,
       "Grain Grinder": 1769748656762,
-      "Munching Mastery": 1769756878450,
-      "Observatory": 1769756878450,
+      "Munching Mastery": 1769776251808,
+      "Observatory": 1769776251808,
       "Skill Shrimpy": 1769735021797,
-      "Drive-Through Deli": 1769735003630,
+      "Drive-Through Deli": 1769776251808,
       "Juicy Boost": 1769554966763,
       "Chonky Feed": 1769735624630,
       "Double Bale": 1769735633595,
