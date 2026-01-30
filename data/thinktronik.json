@@ -1,19 +1,31 @@
 {
   "username": "thinktronik",
   "overview": {
-    "balance": 1048.17,
-    "coins": 34389.0,
+    "balance": 1053.04,
+    "coins": 17762.0,
     "gems": 0.0,
     "earned_sfl": 7919.49,
-    "earned_coins": 34389.0,
+    "earned_coins": 17762.0,
     "spent_sfl": 7980.17,
-    "items_sold": 4492.0,
+    "items_sold": 4493.0,
     "trade_points": 9373.29,
-    "last_updated": "2026-01-30 01:42 AM",
-    "active_listings": 13
+    "last_updated": "2026-01-30 02:50 AM",
+    "active_listings": 12
   },
   "buys": [],
   "sells": [
+    {
+      "date": "2026-01-30",
+      "time": "02:05 AM",
+      "type": "SELL",
+      "item": "Rice",
+      "quantity": 15,
+      "price_text": "5.2699 SFL",
+      "price": 5.2699,
+      "counterparty": "trangiuvoi",
+      "farm_id": "-",
+      "trade_id": "3a2d86d5"
+    },
     {
       "date": "2026-01-29",
       "time": "11:26 PM",
@@ -618,14 +630,23 @@
   "last_updated": null,
   "stats": {
     "total_buys": 0,
-    "total_sells": 50,
+    "total_sells": 51,
     "buy_volume": 0,
-    "sell_volume": 216.3163,
-    "gross_profit": 216.3163,
+    "sell_volume": 221.58620000000002,
+    "gross_profit": 221.58620000000002,
     "avg_buy_price": 0,
-    "avg_sell_price": 4.326326,
+    "avg_sell_price": 4.344827450980392,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "SELL",
+        "item": "Rice",
+        "quantity": 15,
+        "price": 5.2699,
+        "date": "2026-01-30",
+        "time": "02:05 AM",
+        "username": "thinktronik"
+      },
       {
         "type": "SELL",
         "item": "Olive",
@@ -668,8 +689,7 @@
         "quantity": 20,
         "price": 4.82,
         "date": "2026-01-29",
-        "time": "05:12 PM",
-        "username": "thinktronik"
+        "time": "05:12 PM"
       },
       {
         "type": "SELL",
@@ -782,14 +802,6 @@
         "price": 4.95,
         "date": "2026-01-29",
         "time": "03:49 PM"
-      },
-      {
-        "type": "SELL",
-        "item": "Milk",
-        "quantity": 40,
-        "price": 4.95,
-        "date": "2026-01-29",
-        "time": "03:48 PM"
       }
     ],
     "profit_margin": 0,
@@ -803,7 +815,7 @@
       "Gold": 340,
       "Iron": 125,
       "Olive": 40,
-      "Rice": 15
+      "Rice": 30
     }
   },
   "active_listings": [
@@ -914,15 +926,6 @@
       "created_at": 1769700051244,
       "collection": "collectibles",
       "trade_type": "instant"
-    },
-    {
-      "id": "3a2d86d5",
-      "item": "Rice",
-      "quantity": 15,
-      "price": 5.2699,
-      "created_at": 1769700055356,
-      "collection": "collectibles",
-      "trade_type": "instant"
     }
   ],
   "active_offers": [],
@@ -931,46 +934,46 @@
       "Sunflower": 247188.74680000904,
       "Potato": 1623.8470000003058,
       "Pumpkin": 1902.0448999999617,
-      "Carrot": 3324.5754,
-      "Cabbage": 1387.5476,
+      "Carrot": 3314.5754,
+      "Cabbage": 1297.5476,
       "Beetroot": 1051.1071,
-      "Cauliflower": 636.8758,
+      "Cauliflower": 616.8758,
       "Parsnip": 133.38849999999994,
       "Radish": 4759.9201,
-      "Wheat": 9850.8535,
-      "Kale": 3505.4852,
+      "Wheat": 9840.8535,
+      "Kale": 3395.4852,
       "Eggplant": 2087.0092,
       "Corn": 4074.8443999999995,
-      "Soybean": 2141.9547,
-      "Rice": 695.814,
+      "Soybean": 2101.9547,
+      "Rice": 680.814,
       "Olive": 414.246,
       "Barley": 3786.6062,
       "Rhubarb": 891.25,
       "Zucchini": 2280.3499,
       "Yam": 1351.1103,
-      "Broccoli": 835.4339,
+      "Broccoli": 825.4339,
       "Pepper": 213.52329999999995,
       "Onion": 1827.2243,
       "Turnip": 612.2850999999999,
-      "Artichoke": 4375.263
+      "Artichoke": 4373.263
     },
     "fruits": {
-      "Apple": 872.5500000000012,
+      "Apple": 867.5500000000012,
       "Blueberry": 4754.000000000005,
-      "Orange": 3933.3000000000034,
-      "Banana": 2142.2500000000014,
-      "Grape": 165.50000000000014,
-      "Tomato": 8961.300000000003,
+      "Orange": 3928.3000000000034,
+      "Banana": 2167.0000000000014,
+      "Grape": 155.50000000000014,
+      "Tomato": 8970.450000000004,
       "Lemon": 1052.6000000000035,
       "Duskberry": 192.2,
       "Lunara": 17.200000000000024,
       "Celestine": 20.500000000000025
     },
     "resources": {
-      "Wood": 6953.82,
-      "Stone": 1344.3,
-      "Iron": 839.8,
-      "Gold": 639.85,
+      "Wood": 6091.82,
+      "Stone": 1029.3,
+      "Iron": 764.8,
+      "Gold": 632.71,
       "Crimstone": 56.3,
       "Obsidian": 2.0
     }
