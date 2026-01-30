@@ -9,10 +9,22 @@
     "spent_sfl": 12297.69,
     "items_sold": 7588.0,
     "trade_points": 11367.53,
-    "last_updated": "2026-01-30 05:53 PM",
+    "last_updated": "2026-01-30 06:08 PM",
     "active_listings": 8
   },
   "buys": [
+    {
+      "date": "2026-01-30",
+      "time": "06:05 PM",
+      "type": "BUY",
+      "item": "Stone",
+      "quantity": 50,
+      "price_text": "0.78 SFL",
+      "price": 0.78,
+      "counterparty": "JohanVash",
+      "farm_id": "-",
+      "trade_id": "59d9344b"
+    },
     {
       "date": "2026-01-30",
       "time": "05:05 PM",
@@ -1050,15 +1062,24 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 66,
+    "total_buys": 67,
     "total_sells": 20,
-    "buy_volume": 74.96570000000003,
+    "buy_volume": 75.74570000000003,
     "sell_volume": 66.29280000000001,
-    "gross_profit": -8.672900000000013,
-    "avg_buy_price": 1.13584393939394,
+    "gross_profit": -9.452900000000014,
+    "avg_buy_price": 1.130532835820896,
     "avg_sell_price": 3.3146400000000007,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Stone",
+        "quantity": 50,
+        "price": 0.78,
+        "date": "2026-01-30",
+        "time": "06:05 PM",
+        "username": "droid"
+      },
       {
         "type": "BUY",
         "item": "Lemon",
@@ -1101,8 +1122,7 @@
         "quantity": 7,
         "price": 0.4249,
         "date": "2026-01-30",
-        "time": "03:12 PM",
-        "username": "droid"
+        "time": "03:12 PM"
       },
       {
         "type": "BUY",
@@ -1215,22 +1235,14 @@
         "price": 0.6352,
         "date": "2026-01-30",
         "time": "01:42 AM"
-      },
-      {
-        "type": "BUY",
-        "item": "Parsnip",
-        "quantity": 100,
-        "price": 1.76,
-        "date": "2026-01-30",
-        "time": "01:19 AM"
       }
     ],
-    "profit_margin": -11.569157628088591,
+    "profit_margin": -12.479784330991741,
     "most_bought_items": {
       "Broccoli": 2300,
       "Yam": 1650,
       "Carrot": 600,
-      "Stone": 473,
+      "Stone": 523,
       "Artichoke": 263,
       "Tomato": 200,
       "Milk": 190,

@@ -81,7 +81,7 @@
       "Rice": "826.4088",
       "Olive": "1876.5208",
       "Tomato": "1832.9000000000079479",
-      "Lemon": "3024.5800000000046292",
+      "Lemon": "2984.5800000000046292",
       "Barley": "7894.502099999998264",
       "Rhubarb": "53629.43939999949942",
       "Zucchini": "297620.3145999998891",
@@ -274,7 +274,7 @@
       "Tofu Scramble": "299",
       "Paella": "1",
       "Cheese": "198",
-      "Wood": "259287.48",
+      "Wood": "259369.83",
       "Stone": "12755.35",
       "Iron": "5969.6",
       "Gold": "2863.2812499999999999",
@@ -305,8 +305,8 @@
       "Crimstone": "737.375000000000001",
       "Oil": "5551.7956568518381141",
       "Oil Reserve": "4",
-      "Leather": "979.5",
-      "Wool": "533.5",
+      "Leather": "975.5",
+      "Wool": "528.5",
       "Merino Wool": "2146.15",
       "Feather": "9314.2",
       "Milk": "181.75",
@@ -911,7 +911,7 @@
       "Angelfish": "291",
       "Honey Cheddar": "10",
       "Isopod": "92",
-      "Doll": "269",
+      "Doll": "270",
       "Moonfur": "1",
       "Stone Pickaxe": "92",
       "Octopus": "6",
@@ -946,7 +946,7 @@
       "Wild Grass": "10",
       "Spaghetti al Limone": "48",
       "Chewed Bone": "10",
-      "Sour Shake": "364",
+      "Sour Shake": "366",
       "Fermented Fish": "10",
       "Big Orange": "1",
       "Pizza Margherita": "33",
@@ -6196,7 +6196,7 @@
         "width": 2,
         "height": 2,
         "wood": {
-          "choppedAt": 1769788169664
+          "choppedAt": 1769790602400
         }
       },
       "fd4ddd0e": {
@@ -6206,7 +6206,7 @@
         "width": 2,
         "height": 2,
         "wood": {
-          "choppedAt": 1769788177304
+          "choppedAt": 1769790609284
         }
       },
       "efcded4d": {
@@ -6216,13 +6216,13 @@
         "width": 2,
         "height": 2,
         "wood": {
-          "choppedAt": 1769788175804
+          "choppedAt": 1769790606269
         }
       },
       "b4d128c9": {
         "createdAt": 1757557816273,
         "wood": {
-          "choppedAt": 1769788168323
+          "choppedAt": 1769790599535
         },
         "x": 1,
         "y": -4,
@@ -6233,7 +6233,7 @@
       "c0670f9c": {
         "createdAt": 1757557820864,
         "wood": {
-          "choppedAt": 1769788170315
+          "choppedAt": 1769790601714
         },
         "x": 1,
         "y": -6,
@@ -9765,18 +9765,8 @@
             "y": -1
           },
           "readyAt": 1738220541829,
-          "oil": 39.33333333333333,
+          "oil": 38.99999999999999,
           "crafting": [
-            {
-              "name": "Sour Shake",
-              "boost": {
-                "Oil": 0.3333333333333333
-              },
-              "skills": {
-                "Double Nom": true
-              },
-              "readyAt": 1769795499961.5
-            },
             {
               "name": "Sour Shake",
               "boost": {
@@ -9806,6 +9796,16 @@
                 "Double Nom": true
               },
               "readyAt": 1769797668736.5
+            },
+            {
+              "name": "Sour Shake",
+              "boost": {
+                "Oil": 0.3333333333333333
+              },
+              "skills": {
+                "Double Nom": true
+              },
+              "readyAt": 1769798391661.5
             }
           ]
         }
@@ -14917,7 +14917,7 @@
       "Weakfish Bountied": 4,
       "Yellow Lavender Bountied": 4,
       "Timber Crafted": 253,
-      "Doll Crafted": 999,
+      "Doll Crafted": 1000,
       "Gilded Doll Crafted": 73,
       "Gilded Doll Bountied": 12,
       "Crude Doll Crafted": 47,
@@ -15346,7 +15346,7 @@
       "Blueberry Jam Fed": 165,
       "Sea Cucumber Sold": 261,
       "Eggplant Seed Bought": 18427,
-      "Tree Chopped": 408689,
+      "Tree Chopped": 408712,
       "Power Smoothie Cooked": 1143,
       "Treasure Dug": 26997,
       "Mini Corn Maze Bought": 3,
@@ -15490,7 +15490,7 @@
       "NutriBarley Mixed": 5007,
       "Treasure Key Bought": 6,
       "Mixed Grain Mixed": 5141,
-      "Sour Shake Cooked": 6581,
+      "Sour Shake Cooked": 6582,
       "Cheese Cooked": 18908,
       "Honey Cheddar Cooked": 239,
       "Pizza Margherita Cooked": 1684,
@@ -15742,9 +15742,9 @@
       "Toucan Shrine Crafted": 3,
       "Ruffroot Fetched": 100,
       "Sparrow Shrine Crafted": 3,
-      "Ancient Tree Chopped": 1428,
-      "Basic Tree Chopped": 4329,
-      "Sacred Tree Chopped": 1432,
+      "Ancient Tree Chopped": 1429,
+      "Basic Tree Chopped": 4332,
+      "Sacred Tree Chopped": 1433,
       "Pure Gold Rock Mined": 288,
       "Fused Stone Rock Mined": 439,
       "Reinforced Stone Rock Mined": 439,
@@ -20369,8 +20369,8 @@
     },
     "craftingBox": {
       "status": "crafting",
-      "startedAt": 1769793045346,
-      "readyAt": 1769795070346,
+      "startedAt": 1769795335868,
+      "readyAt": 1769797360868,
       "recipes": {},
       "item": {
         "collectible": "Doll"
@@ -20729,14 +20729,14 @@
       }
     },
     "boostsUsedAt": {
-      "Luna's Hat": 1769794837067,
-      "Goblin Medallion": 1769794837067,
-      "Desert Gnome": 1769794837067,
+      "Luna's Hat": 1769795513487,
+      "Goblin Medallion": 1769795513487,
+      "Desert Gnome": 1769795513487,
       "Bud #2197": 1769794833188,
       "Camel Onesie": 1769794833188,
       "Cannonball": 1769794833188,
       "Catchup": 1769794833188,
-      "Foreman Beaver": 1769794832522,
+      "Foreman Beaver": 1769795379284,
       "Fruitful Fumble": 1769794833188,
       "Generous Orchard": 1769794833188,
       "Goblin Quiver": 1769794882206,
@@ -20754,14 +20754,14 @@
       "Frosted Cakes": 1769793122364,
       "Kuebiko": 1769794882386,
       "Fast Feasts": 1769793101212,
-      "Bud #1707": 1769792947304,
-      "Goblin Shield": 1769793010251,
-      "Lumberjack's Extra": 1769792947304,
-      "Squirrel": 1769792947304,
-      "Tiki Totem": 1769792947304,
+      "Bud #1707": 1769795379284,
+      "Goblin Shield": 1769795379284,
+      "Lumberjack's Extra": 1769795379284,
+      "Squirrel": 1769795379284,
+      "Tiki Totem": 1769795379284,
       "Tough Tree": 1769792938323,
-      "Tree Charge": 1769792947304,
-      "Wood Nymph Wendy": 1769792947304,
+      "Tree Charge": 1769795379284,
+      "Wood Nymph Wendy": 1769795379284,
       "Bud #365": 1769793010251,
       "Prospector": 1769793006956,
       "Quarry": 1769793006956,
@@ -20845,7 +20845,7 @@
       "Oil Be Back": 1769792962426,
       "Oil Can": 1769792962426,
       "Oil Overalls": 1769792962426,
-      "Sol & Luna": 1769793045346,
+      "Sol & Luna": 1769795335868,
       "Cowbell Necklace": 1769755099696,
       "Longhorn Cowfish": 1769755099696,
       "Mammoth": 1769755099696,
@@ -20976,7 +20976,7 @@
       "Frozen Sheep": 1768159235447,
       "Lady Bug": 1769793025760,
       "Winter Guardian": 1768166736593,
-      "Badger Shrine": 1769793006956,
+      "Badger Shrine": 1769795379284,
       "Golden Cauliflower": 1769387352825,
       "Groovy Gramophone": 1769763236153,
       "Lava Swimwear": 1769754829266,
@@ -20989,7 +20989,7 @@
       "Giant Artichoke": 1769734412329,
       "Reelmaster's Chair": 1769733434865,
       "Black Bearry": 1768846432139,
-      "Architect Ruler": 1769793045346,
+      "Architect Ruler": 1769795335868,
       "Bucket O' Worms": 1769793018418,
       "Wormy Treat": 1769793018418,
       "Luminous Anglerfish Topper": 1769627101035,
@@ -20999,10 +20999,10 @@
       "Tortoise Shrine": 1769793067664,
       "Mole Shrine": 1769793010251,
       "Training Whistle": 1769755099696,
-      "Master Chef's Cleaver": 1769794837067,
+      "Master Chef's Cleaver": 1769795513487,
       "Toucan Shrine": 1769794833188,
       "Sparrow Shrine": 1769794882386,
-      "Fox Shrine": 1769793045346,
+      "Fox Shrine": 1769795335868,
       "Harvest Hourglass": 1768729159098,
       "Time Warp Totem": 1768099937709,
       "Super Star": 1768091859802,

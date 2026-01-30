@@ -1,7 +1,7 @@
 {
   "username": "andrei",
   "overview": {
-    "balance": 7.54,
+    "balance": 7.47,
     "coins": 47151.0,
     "gems": 0.0,
     "earned_sfl": 11638.5,
@@ -9,10 +9,46 @@
     "spent_sfl": 15729.07,
     "items_sold": 10536.0,
     "trade_points": 13889.33,
-    "last_updated": "2026-01-30 05:53 PM",
+    "last_updated": "2026-01-30 06:08 PM",
     "active_listings": 0
   },
   "buys": [
+    {
+      "date": "2026-01-30",
+      "time": "06:01 PM",
+      "type": "BUY",
+      "item": "Long Rug",
+      "quantity": 1,
+      "price_text": "0.0405 SFL",
+      "price": 0.0405,
+      "counterparty": "IVLEV",
+      "farm_id": "-",
+      "trade_id": "faf3fe00"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "06:01 PM",
+      "type": "BUY",
+      "item": "Wheat Whiskers",
+      "quantity": 1,
+      "price_text": "0.0262 SFL",
+      "price": 0.0262,
+      "counterparty": "IVLEV",
+      "farm_id": "-",
+      "trade_id": "ac9309b1"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "06:00 PM",
+      "type": "BUY",
+      "item": "Floor Mirror",
+      "quantity": 1,
+      "price_text": "0.0501 SFL",
+      "price": 0.0501,
+      "counterparty": "IVLEV",
+      "farm_id": "-",
+      "trade_id": "01f8e985"
+    },
     {
       "date": "2026-01-30",
       "time": "02:54 PM",
@@ -966,22 +1002,40 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 46,
+    "total_buys": 49,
     "total_sells": 33,
-    "buy_volume": 70.67639999999999,
+    "buy_volume": 70.79319999999998,
     "sell_volume": 55.31220000000001,
-    "gross_profit": -15.364199999999975,
-    "avg_buy_price": 1.5364434782608694,
+    "gross_profit": -15.480999999999973,
+    "avg_buy_price": 1.444759183673469,
     "avg_sell_price": 1.6761272727272731,
     "most_traded_items": {},
     "recent_activity": [
       {
         "type": "BUY",
-        "item": "Crimstone",
+        "item": "Long Rug",
         "quantity": 1,
-        "price": 0.5284,
+        "price": 0.0405,
         "date": "2026-01-30",
-        "time": "02:54 PM",
+        "time": "06:01 PM",
+        "username": "andrei"
+      },
+      {
+        "type": "BUY",
+        "item": "Wheat Whiskers",
+        "quantity": 1,
+        "price": 0.0262,
+        "date": "2026-01-30",
+        "time": "06:01 PM",
+        "username": "andrei"
+      },
+      {
+        "type": "BUY",
+        "item": "Floor Mirror",
+        "quantity": 1,
+        "price": 0.0501,
+        "date": "2026-01-30",
+        "time": "06:00 PM",
         "username": "andrei"
       },
       {
@@ -1008,8 +1062,15 @@
         "quantity": 1,
         "price": 0.5284,
         "date": "2026-01-30",
-        "time": "02:54 PM",
-        "username": "andrei"
+        "time": "02:54 PM"
+      },
+      {
+        "type": "BUY",
+        "item": "Crimstone",
+        "quantity": 1,
+        "price": 0.5284,
+        "date": "2026-01-30",
+        "time": "02:54 PM"
       },
       {
         "type": "BUY",
@@ -1017,8 +1078,7 @@
         "quantity": 4,
         "price": 2.113,
         "date": "2026-01-30",
-        "time": "02:53 PM",
-        "username": "andrei"
+        "time": "02:53 PM"
       },
       {
         "type": "BUY",
@@ -1115,33 +1175,9 @@
         "price": 0.1982,
         "date": "2026-01-30",
         "time": "10:41 AM"
-      },
-      {
-        "type": "BUY",
-        "item": "Milk",
-        "quantity": 10,
-        "price": 1.1999,
-        "date": "2026-01-30",
-        "time": "10:40 AM"
-      },
-      {
-        "type": "BUY",
-        "item": "Milk",
-        "quantity": 45,
-        "price": 5.535,
-        "date": "2026-01-30",
-        "time": "12:57 AM"
-      },
-      {
-        "type": "BUY",
-        "item": "Whale Bear",
-        "quantity": 1,
-        "price": 0.3201,
-        "date": "2026-01-29",
-        "time": "10:14 PM"
       }
     ],
-    "profit_margin": -21.738798240996964,
+    "profit_margin": -21.867919517693757,
     "most_bought_items": {
       "Stone": 937,
       "Milk": 205,
