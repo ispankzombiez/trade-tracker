@@ -35,7 +35,7 @@
       "Cauliflower": "28916.471599999999535",
       "Parsnip": "5.925399999999665",
       "Radish": "99147.304",
-      "Wheat": "17662.567599999997657",
+      "Wheat": "17642.567599999997657",
       "Kale": "26.61999999999808",
       "Apple": "457.78000000000005",
       "Blueberry": "36.3900000000011466",
@@ -76,16 +76,16 @@
       "Purple Lotus": "20",
       "White Lotus": "29",
       "Blue Lotus": "13",
-      "Soybean": "64154.23829999999678",
+      "Soybean": "64859.28669999999678",
       "Grape": "321.180000000001404",
       "Rice": "826.4088",
       "Olive": "1876.5208",
-      "Tomato": "2017.1500000000079662",
-      "Lemon": "2554.5800000000046292",
+      "Tomato": "2066.2000000000079698",
+      "Lemon": "2444.5800000000046292",
       "Barley": "7894.502099999998264",
       "Rhubarb": "53629.43939999949942",
       "Zucchini": "297620.3145999998891",
-      "Yam": "2590.493399999976079",
+      "Yam": "2575.493399999976079",
       "Broccoli": "26433.13959999993191",
       "Pepper": "6410.088499999999817",
       "Onion": "5827.649899999999282",
@@ -273,8 +273,8 @@
       "The Lot": "316",
       "Tofu Scramble": "299",
       "Paella": "1",
-      "Cheese": "234",
-      "Wood": "259664.73",
+      "Cheese": "247",
+      "Wood": "259761.48",
       "Stone": "12822.35",
       "Iron": "5969.6",
       "Gold": "2863.2812499999999999",
@@ -292,10 +292,10 @@
       "Crop Plot": "65",
       "Fruit Patch": "15",
       "Basic Land": "30",
-      "Earthworm": "937",
+      "Earthworm": "942",
       "Grub": "521",
       "Red Wiggler": "1234",
-      "Sprout Mix": "2656",
+      "Sprout Mix": "2672",
       "Fruitful Blend": "10519",
       "Rapid Root": "3083",
       "Fishing Lure": "252",
@@ -303,13 +303,13 @@
       "Flower Bed": "3",
       "Crimstone Rock": "5",
       "Crimstone": "748.625000000000001",
-      "Oil": "5534.2706568518380864",
+      "Oil": "5531.1456568518380864",
       "Oil Reserve": "4",
-      "Leather": "1100.9",
-      "Wool": "583.8",
+      "Leather": "1096.9",
+      "Wool": "578.8",
       "Merino Wool": "2205.5",
-      "Feather": "9314.2",
-      "Milk": "194.75",
+      "Feather": "9294.2",
+      "Milk": "140.75",
       "Hay": "80.65000000000000005",
       "Kernel Blend": "212.95",
       "NutriBarley": "150.75",
@@ -911,7 +911,7 @@
       "Angelfish": "291",
       "Honey Cheddar": "10",
       "Isopod": "92",
-      "Doll": "274",
+      "Doll": "275",
       "Moonfur": "1",
       "Stone Pickaxe": "92",
       "Octopus": "6",
@@ -924,10 +924,10 @@
       "Pepper Seed": "2",
       "Magma Stone": "1",
       "Purple Cauliflower": "1",
-      "Tomato Seed": "82",
+      "Tomato Seed": "76",
       "Cauliflower Seed": "10",
       "Olive Flounder": "199",
-      "Wheat Seed": "240",
+      "Wheat Seed": "175",
       "Big Banana": "1",
       "Dewberry": "10",
       "Ribbon": "10",
@@ -942,11 +942,11 @@
       "Ruffroot": "10",
       "Crab Stick": "11",
       "Barnacle": "48",
-      "Soybean Seed": "5",
+      "Soybean Seed": "13",
       "Wild Grass": "10",
-      "Spaghetti al Limone": "50",
+      "Spaghetti al Limone": "52",
       "Chewed Bone": "10",
-      "Sour Shake": "386",
+      "Sour Shake": "390",
       "Fermented Fish": "12",
       "Big Orange": "1",
       "Pizza Margherita": "35",
@@ -2180,7 +2180,7 @@
         "necklace": "Beetroot Amulet",
         "aura": "Slime Aura",
         "onesie": "White Sheep Onesie",
-        "hat": "Tofu Mask"
+        "hat": "Hornet Mask"
       },
       "tokenUri": "https://api.sunflower-land.com/bumpkins/metadata/5239_v1_71_1_6_14_19_22_58_80_30_0_86_124_69",
       "sessionId": "0x2f3bd4e4a72dcb36a03e868acb70bacbaed673b4d2fb5591b0f67f26467ae079",
@@ -5153,10 +5153,13 @@
         "y": 13,
         "height": 1,
         "crop": {
-          "id": "d7951b13",
-          "plantedAt": 1769792738759,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "186e4ac7",
+          "plantedAt": 1769732452810.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 1
+          }
         }
       },
       "2": {
@@ -5166,10 +5169,13 @@
         "y": 12,
         "height": 1,
         "crop": {
-          "id": "6018a7ea",
-          "plantedAt": 1769792734270,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "58dd522e",
+          "plantedAt": 1769732443482.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "3": {
@@ -5179,10 +5185,13 @@
         "y": 13,
         "height": 1,
         "crop": {
-          "id": "4ab5b2ad",
-          "plantedAt": 1769792740818,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "8f2a03fd",
+          "plantedAt": 1769732447947.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "4": {
@@ -5192,10 +5201,13 @@
         "y": 12,
         "height": 1,
         "crop": {
-          "id": "498c236e",
-          "plantedAt": 1769792736228,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "466710ed",
+          "plantedAt": 1769732441183.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "5": {
@@ -5205,10 +5217,13 @@
         "y": 8,
         "height": 1,
         "crop": {
-          "id": "02939d89",
-          "plantedAt": 1769792713554,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "8075261a",
+          "plantedAt": 1769732417726.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "6": {
@@ -5218,10 +5233,13 @@
         "y": 15,
         "height": 1,
         "crop": {
-          "id": "bf8cb80c",
-          "plantedAt": 1769792746279,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "f25cbace",
+          "plantedAt": 1769732448912.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "7": {
@@ -5231,10 +5249,13 @@
         "y": 14,
         "height": 1,
         "crop": {
-          "id": "4d775095",
-          "plantedAt": 1769792748756,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "877bbad6",
+          "plantedAt": 1769732453694.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 1
+          }
         }
       },
       "8": {
@@ -5244,10 +5265,13 @@
         "y": 14,
         "height": 1,
         "crop": {
-          "id": "71ed7e89",
-          "plantedAt": 1769792747803,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "12d54f94",
+          "plantedAt": 1769732451574.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "9": {
@@ -5257,10 +5281,13 @@
         "y": 13,
         "height": 1,
         "crop": {
-          "id": "1acb6e8d",
-          "plantedAt": 1769792737782,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "b14b52ed",
+          "plantedAt": 1769732454661.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "10": {
@@ -5270,10 +5297,13 @@
         "y": 14,
         "height": 1,
         "crop": {
-          "id": "b75c09c4",
-          "plantedAt": 1769792744316,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "d9c95f9c",
+          "plantedAt": 1769732446947.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "11": {
@@ -5283,10 +5313,13 @@
         "y": 10,
         "height": 1,
         "crop": {
-          "id": "b6ffc9eb",
-          "plantedAt": 1769792726960,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "9dec574f",
+          "plantedAt": 1769732428637.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "12": {
@@ -5296,10 +5329,13 @@
         "y": 10,
         "height": 1,
         "crop": {
-          "id": "94c58395",
-          "plantedAt": 1769792724990,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "95a3a7b2",
+          "plantedAt": 1769732434324.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 1
+          }
         }
       },
       "13": {
@@ -5309,10 +5345,13 @@
         "y": 8,
         "height": 1,
         "crop": {
-          "id": "7e621a9d",
-          "plantedAt": 1769792717041,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "9de8cc03",
+          "plantedAt": 1769732421195.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "14": {
@@ -5322,10 +5361,13 @@
         "y": 10,
         "height": 1,
         "crop": {
-          "id": "2679377c",
-          "plantedAt": 1769792726033,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "d6bc743b",
+          "plantedAt": 1769732433687.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "15": {
@@ -5335,10 +5377,13 @@
         "y": 14,
         "height": 1,
         "crop": {
-          "id": "9dc11895",
-          "plantedAt": 1769792743715,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "d1ff8ace",
+          "plantedAt": 1769732446488.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "16": {
@@ -5348,10 +5393,13 @@
         "y": 11,
         "height": 1,
         "crop": {
-          "id": "6d65ec71",
-          "plantedAt": 1769792729868,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "fc110253",
+          "plantedAt": 1769732431498.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "17": {
@@ -5361,10 +5409,13 @@
         "y": 11,
         "height": 1,
         "crop": {
-          "id": "65510ac9",
-          "plantedAt": 1769792731227,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "17d4ee8e",
+          "plantedAt": 1769732436155.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "18": {
@@ -5374,10 +5425,13 @@
         "y": 9,
         "height": 1,
         "crop": {
-          "id": "5e3513db",
-          "plantedAt": 1769792720364,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "08830dfb",
+          "plantedAt": 1769732426563.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 1
+          }
         }
       },
       "55728747": {
@@ -5387,10 +5441,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "d32f8747",
-          "plantedAt": 1769792721080,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "6d7e2c75",
+          "plantedAt": 1769732425801.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "0d94eb58": {
@@ -5400,10 +5457,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "a2b1f638",
-          "plantedAt": 1769792736548,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "aaaeaf12",
+          "plantedAt": 1769732440712.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 1
+          }
         }
       },
       "1871dea7": {
@@ -5413,10 +5473,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "2a2f006b",
-          "plantedAt": 1769792728029,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "4b8864f1",
+          "plantedAt": 1769732439930.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "1be7a8ad": {
@@ -5426,10 +5489,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "9690e13f",
-          "plantedAt": 1769792716604,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "6b930ddc",
+          "plantedAt": 1769732420724.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "3580b504": {
@@ -5439,10 +5505,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "e43fafd6",
-          "plantedAt": 1769792744779,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "d11fc3db",
+          "plantedAt": 1769732448420.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "3ba0ba8d": {
@@ -5452,10 +5521,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "c47bb49c",
-          "plantedAt": 1769792739200,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "0f137227",
+          "plantedAt": 1769732452374.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "4b25ecbf": {
@@ -5465,10 +5537,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "2cfc14de",
-          "plantedAt": 1769792718197,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "524323c7",
+          "plantedAt": 1769732422212.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 1
+          }
         }
       },
       "4c94daf0": {
@@ -5478,10 +5553,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "adaa7fd9",
-          "plantedAt": 1769792741178,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "059d1e95",
+          "plantedAt": 1769732447426.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 1
+          }
         }
       },
       "55924cce": {
@@ -5491,10 +5569,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "aec3c2cd",
-          "plantedAt": 1769792735276,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "01f28dee",
+          "plantedAt": 1769732441960.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "6f1f4a38": {
@@ -5504,10 +5585,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "9f500aa7",
-          "plantedAt": 1769792724407,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "5df7e31a",
+          "plantedAt": 1769732433313.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 1
+          }
         }
       },
       "6f9167f1": {
@@ -5517,10 +5601,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "2524c5ef",
-          "plantedAt": 1769792745639,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "75bb19ae",
+          "plantedAt": 1769732449427.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "a295f366": {
@@ -5530,10 +5617,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "f9b2274a",
-          "plantedAt": 1769792729436,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "b8f44ef7",
+          "plantedAt": 1769732429565.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "a7c097e1": {
@@ -5543,10 +5633,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "6b7fb9e9",
-          "plantedAt": 1769792739773,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "83bff1c3",
+          "plantedAt": 1769732450337.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "ba6f0db5": {
@@ -5556,10 +5649,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "44a5b7f5",
-          "plantedAt": 1769792726463,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "3c0a9320",
+          "plantedAt": 1769732429218.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "cdd3ed9d": {
@@ -5569,10 +5665,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "01d20541",
-          "plantedAt": 1769792730732,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "77f1a246",
+          "plantedAt": 1769732434806.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "dca3a4b5": {
@@ -5582,10 +5681,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "4930929b",
-          "plantedAt": 1769792714581,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "0abeff19",
+          "plantedAt": 1769732418137.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "f10693df": {
@@ -5595,10 +5697,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "1520524f",
-          "plantedAt": 1769792728496,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "3d4daf41",
+          "plantedAt": 1769732439464.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "0d1b896f": {
@@ -5608,10 +5713,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "c46eda9c",
-          "plantedAt": 1769792721524,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "eb5e2709",
+          "plantedAt": 1769732425418.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 1
+          }
         }
       },
       "430d73bc": {
@@ -5621,10 +5729,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "1121eca5",
-          "plantedAt": 1769792719880,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "1525ecd6",
+          "plantedAt": 1769732426939.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "7760db3d": {
@@ -5634,10 +5745,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "05658a8b",
-          "plantedAt": 1769792721929,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "d7bb4eeb",
+          "plantedAt": 1769732425074.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "bac1131d": {
@@ -5647,10 +5761,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "6e4a1ac6",
-          "plantedAt": 1769792728931,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "e243aa3e",
+          "plantedAt": 1769732438952.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "c44a290d": {
@@ -5660,10 +5777,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "abee7f10",
-          "plantedAt": 1769792719428,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "0fedaf99",
+          "plantedAt": 1769732427324.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "dfa9158b": {
@@ -5673,10 +5793,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "e4fe6b02",
-          "plantedAt": 1769792742039,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "2b5a39fb",
+          "plantedAt": 1769732445322.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "2a0e7a37": {
@@ -5686,10 +5809,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "56efb0bc",
-          "plantedAt": 1769792727403,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "bb18b2ac",
+          "plantedAt": 1769732428181.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "a69e218d": {
@@ -5699,10 +5825,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "466f3463",
-          "plantedAt": 1769792723409,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "da7b2498",
+          "plantedAt": 1769732437901.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "afca210e": {
@@ -5712,10 +5841,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "10a08840",
-          "plantedAt": 1769792715076,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "4d36fddf",
+          "plantedAt": 1769732419147.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "b1ff304e": {
@@ -5725,10 +5857,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "e73dc754",
-          "plantedAt": 1769792747183,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "59a41753",
+          "plantedAt": 1769732450794.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "f4f6cc83": {
@@ -5738,10 +5873,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "ad9d1b84",
-          "plantedAt": 1769792732800,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "c31258ce",
+          "plantedAt": 1769732444840.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "14be9f50": {
@@ -5751,10 +5889,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "7af73c06",
-          "plantedAt": 1769792735656,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "04e3c00a",
+          "plantedAt": 1769732441555.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 1
+          }
         }
       },
       "16cd40bc": {
@@ -5764,10 +5905,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "f4fb9359",
-          "plantedAt": 1769792733321,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "190babf2",
+          "plantedAt": 1769732444093.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "224384c4": {
@@ -5777,10 +5921,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "ec48e40f",
-          "plantedAt": 1769792731568,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "61d7bfd2",
+          "plantedAt": 1769732435657.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "5be7a88e": {
@@ -5790,10 +5937,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "7af47b4e",
-          "plantedAt": 1769792730305,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "eae8ec18",
+          "plantedAt": 1769732432610.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "611cfde4": {
@@ -5803,10 +5953,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "fa95bf37",
-          "plantedAt": 1769792738339,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "937e6067",
+          "plantedAt": 1769732454132.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "74db76a8": {
@@ -5816,10 +5969,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "e5e7f391",
-          "plantedAt": 1769792740306,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "2d93249c",
+          "plantedAt": 1769732449867.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "e19f5b12": {
@@ -5829,10 +5985,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "a2eac7ab",
-          "plantedAt": 1769792737093,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "6a1fd842",
+          "plantedAt": 1769732440300.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "34b85d89": {
@@ -5842,10 +6001,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "9ac0556b",
-          "plantedAt": 1769792716201,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "9c0d5632",
+          "plantedAt": 1769732420343.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "51437be4": {
@@ -5855,10 +6017,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "58de097c",
-          "plantedAt": 1769792734700,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "5eab95ec",
+          "plantedAt": 1769732442741.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 1
+          }
         }
       },
       "81ee3fee": {
@@ -5868,10 +6033,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "2b8daf45",
-          "plantedAt": 1769792732087,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "95ecb288",
+          "plantedAt": 1769732436913.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "27114ec0": {
@@ -5881,10 +6049,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "aa6a9b85",
-          "plantedAt": 1769792717492,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "7c11d35e",
+          "plantedAt": 1769732421470.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "4ab538a1": {
@@ -5894,10 +6065,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "2550f095",
-          "plantedAt": 1769792743145,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "f4efdeb5",
+          "plantedAt": 1769732445989.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "07bf5021": {
@@ -5907,10 +6081,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "b5f7db80",
-          "plantedAt": 1769792718970,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "491d5d07",
+          "plantedAt": 1769732427754.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "a3bc239d": {
@@ -5920,10 +6097,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "abb065e9",
-          "plantedAt": 1769792748353,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "cb012ed2",
+          "plantedAt": 1769732453242.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 1
+          }
         }
       },
       "f6593b9c": {
@@ -5933,10 +6113,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "9324feb7",
-          "plantedAt": 1769792715536,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "096c0f91",
+          "plantedAt": 1769732419968.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "3131682c": {
@@ -5946,10 +6129,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "01f899e1",
-          "plantedAt": 1769792714090,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "eb6d7025",
+          "plantedAt": 1769732418697.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "53feca10": {
@@ -5959,10 +6145,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "02323656",
-          "plantedAt": 1769792749408,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "a20d83bb",
+          "plantedAt": 1769732455076.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "449a1af1": {
@@ -5972,10 +6161,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "d89ce540",
-          "plantedAt": 1769792725565,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "94fc2161",
+          "plantedAt": 1769732430257.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       },
       "5be8ef1c": {
@@ -5985,10 +6177,13 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "117fa89e",
-          "plantedAt": 1769792722467,
-          "boostedTime": 8680797,
-          "name": "Soybean"
+          "id": "21ba3213",
+          "plantedAt": 1769732424488.6,
+          "boostedTime": 71141738.4,
+          "name": "Wheat",
+          "criticalHit": {
+            "Green Amulet": 0
+          }
         }
       }
     },
@@ -6000,7 +6195,7 @@
         "width": 2,
         "height": 2,
         "wood": {
-          "choppedAt": 1769796681228
+          "choppedAt": 1769799123293
         }
       },
       "fd4ddd0e": {
@@ -6010,7 +6205,7 @@
         "width": 2,
         "height": 2,
         "wood": {
-          "choppedAt": 1769796678986
+          "choppedAt": 1769799125537
         }
       },
       "efcded4d": {
@@ -6020,13 +6215,13 @@
         "width": 2,
         "height": 2,
         "wood": {
-          "choppedAt": 1769796682036
+          "choppedAt": 1769799122461
         }
       },
       "b4d128c9": {
         "createdAt": 1757557816273,
         "wood": {
-          "choppedAt": 1769796679743
+          "choppedAt": 1769799124802
         },
         "x": 1,
         "y": -4,
@@ -6037,7 +6232,7 @@
       "c0670f9c": {
         "createdAt": 1757557820864,
         "wood": {
-          "choppedAt": 1769796680488
+          "choppedAt": 1769799124079
         },
         "x": 1,
         "y": -6,
@@ -6264,9 +6459,9 @@
         "height": 2,
         "fruit": {
           "name": "Tomato",
-          "plantedAt": 1769789090664,
-          "harvestedAt": 1769796906134,
-          "harvestsLeft": 1
+          "plantedAt": 1769798378701,
+          "harvestedAt": 0,
+          "harvestsLeft": 5
         }
       },
       "2": {
@@ -6278,8 +6473,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769795445579,
-          "harvestedAt": 1769796904836,
-          "harvestsLeft": 4
+          "harvestedAt": 1769798373512,
+          "harvestsLeft": 3
         }
       },
       "8ae9a489": {
@@ -6291,8 +6486,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769793806843,
-          "harvestedAt": 1769796905260,
-          "harvestsLeft": 3
+          "harvestedAt": 1769798376956,
+          "harvestsLeft": 2
         }
       },
       "9207026f": {
@@ -6304,8 +6499,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769795449086,
-          "harvestedAt": 1769796907975,
-          "harvestsLeft": 5
+          "harvestedAt": 1769798379349,
+          "harvestsLeft": 4
         }
       },
       "93ab272d": {
@@ -6317,8 +6512,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769792222101,
-          "harvestedAt": 1769796906946,
-          "harvestsLeft": 2
+          "harvestedAt": 1769798377226,
+          "harvestsLeft": 1
         }
       },
       "a2f18fe9": {
@@ -6330,8 +6525,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769796906608,
-          "harvestedAt": 0,
-          "harvestsLeft": 5
+          "harvestedAt": 1769798376714,
+          "harvestsLeft": 4
         }
       },
       "b5c8e870": {
@@ -6342,9 +6537,9 @@
         "height": 2,
         "fruit": {
           "name": "Tomato",
-          "plantedAt": 1769787284831,
-          "harvestedAt": 1769796905776,
-          "harvestsLeft": 1
+          "plantedAt": 1769798378128,
+          "harvestedAt": 0,
+          "harvestsLeft": 6
         }
       },
       "ea774f83": {
@@ -6355,9 +6550,9 @@
         "height": 2,
         "fruit": {
           "name": "Tomato",
-          "plantedAt": 1769790677389,
-          "harvestedAt": 1769796904432,
-          "harvestsLeft": 1
+          "plantedAt": 1769798376073,
+          "harvestedAt": 0,
+          "harvestsLeft": 6
         }
       },
       "eb262085": {
@@ -6368,9 +6563,9 @@
         "height": 2,
         "fruit": {
           "name": "Tomato",
-          "plantedAt": 1769790676985,
-          "harvestedAt": 1769796904147,
-          "harvestsLeft": 1
+          "plantedAt": 1769798375024,
+          "harvestedAt": 0,
+          "harvestsLeft": 5
         }
       },
       "f041ccc8": {
@@ -6381,9 +6576,9 @@
         "height": 2,
         "fruit": {
           "name": "Tomato",
-          "plantedAt": 1769787282643,
-          "harvestedAt": 1769796903411,
-          "harvestsLeft": 1
+          "plantedAt": 1769798375578,
+          "harvestedAt": 0,
+          "harvestsLeft": 5
         }
       },
       "66e38b8a": {
@@ -6395,8 +6590,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769792220256,
-          "harvestedAt": 1769796902946,
-          "harvestsLeft": 4
+          "harvestedAt": 1769798373244,
+          "harvestsLeft": 3
         }
       },
       "cf1a4feb": {
@@ -6408,8 +6603,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769790680701,
-          "harvestedAt": 1769796907140,
-          "harvestsLeft": 2
+          "harvestedAt": 1769798379721,
+          "harvestsLeft": 1
         }
       },
       "2ff783ac": {
@@ -6421,8 +6616,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769789087444,
-          "harvestedAt": 1769796903809,
-          "harvestsLeft": 2
+          "harvestedAt": 1769798374312,
+          "harvestsLeft": 1
         }
       },
       "51a65554": {
@@ -6433,9 +6628,9 @@
         "height": 2,
         "fruit": {
           "name": "Tomato",
-          "plantedAt": 1769787287873,
-          "harvestedAt": 1769796907717,
-          "harvestsLeft": 1
+          "plantedAt": 1769798380738,
+          "harvestedAt": 0,
+          "harvestsLeft": 5
         }
       },
       "8784f8f4": {
@@ -6447,8 +6642,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769795448124,
-          "harvestedAt": 1769796907415,
-          "harvestsLeft": 4
+          "harvestedAt": 1769798377453,
+          "harvestsLeft": 3
         }
       }
     },
@@ -9482,8 +9677,8 @@
               "Sprout Mix": 16,
               "Earthworm": 5
             },
-            "startedAt": 1769793018418,
-            "readyAt": 1769803314418
+            "startedAt": 1769803338030,
+            "readyAt": 1769813634030
           },
           "boost": {
             "Egg": 20
@@ -9575,16 +9770,6 @@
               "skills": {
                 "Double Nom": true
               },
-              "readyAt": 1769803104244
-            },
-            {
-              "name": "Spaghetti al Limone",
-              "boost": {
-                "Oil": 3.125
-              },
-              "skills": {
-                "Double Nom": true
-              },
               "readyAt": 1769810075306.5
             },
             {
@@ -9606,6 +9791,16 @@
                 "Double Nom": true
               },
               "readyAt": 1769824017431.5
+            },
+            {
+              "name": "Spaghetti al Limone",
+              "boost": {
+                "Oil": 3.125
+              },
+              "skills": {
+                "Double Nom": true
+              },
+              "readyAt": 1769830988494
             }
           ]
         }
@@ -9744,28 +9939,8 @@
             "y": -1
           },
           "readyAt": 1738220541829,
-          "oil": 39.33333333333333,
+          "oil": 38.66666666666666,
           "crafting": [
-            {
-              "name": "Sour Shake",
-              "boost": {
-                "Oil": 0.3333333333333333
-              },
-              "skills": {
-                "Double Nom": true
-              },
-              "readyAt": 1769803452136.5
-            },
-            {
-              "name": "Sour Shake",
-              "boost": {
-                "Oil": 0.3333333333333333
-              },
-              "skills": {
-                "Double Nom": true
-              },
-              "readyAt": 1769804175061.5
-            },
             {
               "name": "Sour Shake",
               "boost": {
@@ -9785,6 +9960,26 @@
                 "Double Nom": true
               },
               "readyAt": 1769805620911.5
+            },
+            {
+              "name": "Sour Shake",
+              "boost": {
+                "Oil": 0.3333333333333333
+              },
+              "skills": {
+                "Double Nom": true
+              },
+              "readyAt": 1769806343836.5
+            },
+            {
+              "name": "Sour Shake",
+              "boost": {
+                "Oil": 0.3333333333333333
+              },
+              "skills": {
+                "Double Nom": true
+              },
+              "readyAt": 1769807066761.5
             }
           ]
         }
@@ -9798,7 +9993,7 @@
             "y": -1
           },
           "readyAt": 1738226488148,
-          "oil": 91.3333333333332,
+          "oil": 89.83333333333316,
           "crafting": [
             {
               "name": "Cheese",
@@ -9808,7 +10003,7 @@
               "skills": {
                 "Double Nom": true
               },
-              "readyAt": 1769802978442
+              "readyAt": 1769804217742
             },
             {
               "name": "Cheese",
@@ -9818,7 +10013,7 @@
               "skills": {
                 "Double Nom": true
               },
-              "readyAt": 1769803116142
+              "readyAt": 1769804355442
             },
             {
               "name": "Cheese",
@@ -9828,7 +10023,7 @@
               "skills": {
                 "Double Nom": true
               },
-              "readyAt": 1769803253842
+              "readyAt": 1769804493142
             },
             {
               "name": "Cheese",
@@ -9838,7 +10033,7 @@
               "skills": {
                 "Double Nom": true
               },
-              "readyAt": 1769803391542
+              "readyAt": 1769804630842
             }
           ]
         }
@@ -14896,7 +15091,7 @@
       "Weakfish Bountied": 4,
       "Yellow Lavender Bountied": 4,
       "Timber Crafted": 253,
-      "Doll Crafted": 1004,
+      "Doll Crafted": 1005,
       "Gilded Doll Crafted": 73,
       "Gilded Doll Bountied": 12,
       "Crude Doll Crafted": 47,
@@ -15031,7 +15226,7 @@
       "Bush Bought": 16,
       "Luminous Lantern Crafted": 10,
       "Rice Harvested": 3404,
-      "Compost Bin Collected": 3706,
+      "Compost Bin Collected": 3707,
       "Crimstone Pants Bought": 1,
       "Pirate Cake Dug": 24,
       "Club Sandwich Dug": 58,
@@ -15216,13 +15411,13 @@
       "Pumpkin Soup Dug": 76,
       "Wheat Cake Fed": 70,
       "Oil Drill Crafted": 367,
-      "Wheat Planted": 28529,
+      "Wheat Planted": 28594,
       "Soil Krabby Crafted": 1,
       "Popcorn Cooked": 5773,
       "Whale Bear Dug": 4,
       "Cauliflower Cake Dug": 55,
       "Stone Pickaxe Crafted": 31935,
-      "Soybean Harvested": 76754,
+      "Soybean Harvested": 76819,
       "Grape Harvested": 1514,
       "Lily Seed Planted": 410,
       "Kale Stew Cooked": 2104,
@@ -15325,7 +15520,7 @@
       "Blueberry Jam Fed": 165,
       "Sea Cucumber Sold": 261,
       "Eggplant Seed Bought": 18427,
-      "Tree Chopped": 408782,
+      "Tree Chopped": 408805,
       "Power Smoothie Cooked": 1143,
       "Treasure Dug": 26997,
       "Mini Corn Maze Bought": 3,
@@ -15384,8 +15579,8 @@
       "Tomato Seed Bought": 7715,
       "Lemon Seed Bought": 5082,
       "Lemon Seed Planted": 5076,
-      "Tomato Seed Planted": 7633,
-      "Tomato Harvested": 43790,
+      "Tomato Seed Planted": 7639,
+      "Tomato Harvested": 43805,
       "Lemon Harvested": 29159,
       "Goblin Pants Bought": 1,
       "Pancakes Fed": 946,
@@ -15469,8 +15664,8 @@
       "NutriBarley Mixed": 5007,
       "Treasure Key Bought": 6,
       "Mixed Grain Mixed": 5141,
-      "Sour Shake Cooked": 6592,
-      "Cheese Cooked": 18932,
+      "Sour Shake Cooked": 6594,
+      "Cheese Cooked": 18941,
       "Honey Cheddar Cooked": 239,
       "Pizza Margherita Cooked": 1685,
       "Caprese Salad Cooked": 642,
@@ -15486,7 +15681,7 @@
       "Meteorite Bought": 2,
       "Sleepy Rug Bought": 1,
       "Sand Sold": 1,
-      "Spaghetti al Limone Cooked": 1372,
+      "Spaghetti al Limone Cooked": 1373,
       "Paella Bought": 1,
       "Sushi Roll Cooked": 926,
       "Dream Scarf Bought": 1,
@@ -15721,9 +15916,9 @@
       "Toucan Shrine Crafted": 3,
       "Ruffroot Fetched": 100,
       "Sparrow Shrine Crafted": 3,
-      "Ancient Tree Chopped": 1432,
-      "Basic Tree Chopped": 4342,
-      "Sacred Tree Chopped": 1436,
+      "Ancient Tree Chopped": 1433,
+      "Basic Tree Chopped": 4345,
+      "Sacred Tree Chopped": 1437,
       "Pure Gold Rock Mined": 288,
       "Fused Stone Rock Mined": 440,
       "Reinforced Stone Rock Mined": 440,
@@ -20348,8 +20543,8 @@
     },
     "craftingBox": {
       "status": "crafting",
-      "startedAt": 1769802148160,
-      "readyAt": 1769804173160,
+      "startedAt": 1769804204381,
+      "readyAt": 1769806229381,
       "recipes": {},
       "item": {
         "collectible": "Doll"
@@ -20444,92 +20639,92 @@
     "aoe": {
       "Gnome": {
         "0": {
-          "1": 1769801429423
+          "1": 1769803595235
         }
       },
       "Scary Mike": {
         "0": {
-          "-1": 1769801427805,
-          "-2": 1769801420410,
-          "-3": 1769801415899,
-          "-4": 1769801410507,
-          "-5": 1769801406171,
-          "-6": 1769801401748,
-          "-7": 1769801396819
+          "-1": 1769803592344,
+          "-2": 1769803591906,
+          "-3": 1769803583550,
+          "-4": 1769803573064,
+          "-5": 1769803571749,
+          "-6": 1769803567376,
+          "-7": 1769803561913
         },
         "1": {
-          "-1": 1769801428420,
-          "-2": 1769801419839,
-          "-3": 1769801416271,
-          "-4": 1769801410054,
-          "-5": 1769801406686,
-          "-6": 1769801400984,
-          "-7": 1769801397240
+          "-1": 1769803593053,
+          "-2": 1769803593935,
+          "-3": 1769803583164,
+          "-4": 1769803571126,
+          "-5": 1769803573556,
+          "-6": 1769803568139,
+          "-7": 1769803562295
         },
         "2": {
-          "-1": 1769801428957,
-          "-2": 1769801419389,
-          "-3": 1769801416718,
-          "-4": 1769801409563,
-          "-5": 1769801407094,
-          "-6": 1769801400524,
-          "-7": 1769801397665
+          "-1": 1769803594822,
+          "-2": 1769803594385,
+          "-3": 1769803582762,
+          "-4": 1769803580538,
+          "-5": 1769803570652,
+          "-6": 1769803568519,
+          "-7": 1769803562726
         },
         "3": {
-          "-1": 1769801429423,
-          "-2": 1769801418985,
-          "-3": 1769801417184,
-          "-4": 1769801409118,
-          "-5": 1769801407580,
-          "-6": 1769801400065,
-          "-7": 1769801398118
+          "-1": 1769803595235,
+          "-2": 1769803595692,
+          "-3": 1769803582304,
+          "-4": 1769803581002,
+          "-5": 1769803570208,
+          "-6": 1769803568889,
+          "-7": 1769803563041
         },
         "-2": {
-          "-1": 1769801425389,
-          "-2": 1769801421372,
-          "-3": 1769801414923,
-          "-4": 1769801411368,
-          "-5": 1769801404682,
-          "-6": 1769801402569,
-          "-7": 1769801395692
+          "-1": 1769803589966,
+          "-2": 1769803589496,
+          "-3": 1769803585050,
+          "-4": 1769803576387,
+          "-5": 1769803575891,
+          "-6": 1769803566621,
+          "-7": 1769803560736
         },
         "-3": {
-          "-1": 1769801424901,
-          "-2": 1769801421800,
-          "-3": 1769801413965,
-          "-4": 1769801411813,
-          "-7": 1769801395200
+          "-1": 1769803588505,
+          "-2": 1769803588998,
+          "-3": 1769803585648,
+          "-4": 1769803576809,
+          "-7": 1769803559702
         },
         "-1": {
-          "-1": 1769801425964,
-          "-2": 1769801420917,
-          "-3": 1769801415338,
-          "-4": 1769801410947,
-          "-5": 1769801405027,
-          "-6": 1769801402093,
-          "-7": 1769801396147
+          "-1": 1769803590969,
+          "-2": 1769803591442,
+          "-3": 1769803584266,
+          "-4": 1769803574003,
+          "-5": 1769803574865,
+          "-6": 1769803567027,
+          "-7": 1769803561548
         }
       },
       "Sir Goldensnout": {
         "0": {
-          "1": 1769801412209,
-          "-2": 1769801394710
+          "1": 1769803577198,
+          "-2": 1769803560267
         },
         "1": {
-          "1": 1769801411813,
-          "-2": 1769801395200
+          "1": 1769803576809,
+          "-2": 1769803559702
         },
         "2": {
-          "0": 1769801404682,
-          "1": 1769801411368,
-          "-1": 1769801402569,
-          "-2": 1769801395692
+          "0": 1769803575891,
+          "1": 1769803576387,
+          "-1": 1769803566621,
+          "-2": 1769803560736
         },
         "-1": {
-          "0": 1769801404020,
-          "1": 1769801412717,
-          "-1": 1769801403094,
-          "-2": 1769801394172
+          "0": 1769803579462,
+          "1": 1769803578454,
+          "-1": 1769803566063,
+          "-2": 1769803559289
         }
       },
       "Tin Turtle": {
@@ -20708,22 +20903,22 @@
       }
     },
     "boostsUsedAt": {
-      "Luna's Hat": 1769802881619,
-      "Goblin Medallion": 1769802881619,
-      "Desert Gnome": 1769802881619,
-      "Bud #2197": 1769802649975,
-      "Camel Onesie": 1769802649975,
-      "Cannonball": 1769802649975,
-      "Catchup": 1769802649975,
-      "Foreman Beaver": 1769802648428,
-      "Fruitful Fumble": 1769802649975,
-      "Generous Orchard": 1769801186461,
-      "Goblin Quiver": 1769802649975,
-      "Loyal Macaw": 1769802649975,
-      "Macaw": 1769802649975,
+      "Luna's Hat": 1769804199155,
+      "Goblin Medallion": 1769804199155,
+      "Desert Gnome": 1769804199155,
+      "Bud #2197": 1769804121721,
+      "Camel Onesie": 1769804121721,
+      "Cannonball": 1769804122738,
+      "Catchup": 1769804122738,
+      "Foreman Beaver": 1769804121105,
+      "Fruitful Fumble": 1769804121721,
+      "Generous Orchard": 1769804121349,
+      "Goblin Quiver": 1769804121721,
+      "Loyal Macaw": 1769804121721,
+      "Macaw": 1769804121721,
       "Spring Guardian": 1768780374432,
-      "Tomato Bombard": 1769802649975,
-      "Tomato Clown": 1769802649975,
+      "Tomato Bombard": 1769804121721,
+      "Tomato Clown": 1769804122738,
       "Butterfly": 1769303514292,
       "Humming Bird": 1769711206638,
       "Petalled Perk": 1769740073628,
@@ -20731,16 +20926,16 @@
       "Flower Crown": 1769796432747,
       "Flower Fox": 1769796432747,
       "Frosted Cakes": 1769793122364,
-      "Kuebiko": 1769801430205,
-      "Fast Feasts": 1769799011045,
-      "Bud #1707": 1769801452036,
-      "Goblin Shield": 1769802157019,
-      "Lumberjack's Extra": 1769801452036,
-      "Squirrel": 1769801452036,
-      "Tiki Totem": 1769801452036,
-      "Tough Tree": 1769800536273,
-      "Tree Charge": 1769801452036,
-      "Wood Nymph Wendy": 1769801452036,
+      "Kuebiko": 1769803596815,
+      "Fast Feasts": 1769803332818,
+      "Bud #1707": 1769803895537,
+      "Goblin Shield": 1769803895537,
+      "Lumberjack's Extra": 1769803895537,
+      "Squirrel": 1769803895537,
+      "Tiki Totem": 1769803895537,
+      "Tough Tree": 1769803895537,
+      "Tree Charge": 1769803895537,
+      "Wood Nymph Wendy": 1769803895537,
       "Bud #365": 1769802157019,
       "Prospector": 1769802157019,
       "Quarry": 1769802157019,
@@ -20750,9 +20945,9 @@
       "Stone Beetle": 1769802157019,
       "Tin Turtle": 1769802157019,
       "Tunnel Mole": 1769802157019,
-      "Efficient Bin": 1769793018418,
-      "Soil Krabby": 1769793018418,
-      "Swift Decomposer": 1769793018418,
+      "Efficient Bin": 1769803338030,
+      "Soil Krabby": 1769803338030,
+      "Swift Decomposer": 1769803338030,
       "Bee Suit": 1769792957827,
       "Honeycomb Shield": 1769792957827,
       "King of Bears": 1769792957827,
@@ -20768,23 +20963,23 @@
       "Turbo Charged": 1769793015131,
       "Medic Apron": 1753828893028,
       "Blossom Ward": 1768780374432,
-      "Bud #1854": 1769801430011,
-      "Bud #801": 1769801430205,
-      "Coder": 1769801430011,
+      "Bud #1854": 1769803596661,
+      "Bud #801": 1769803596815,
+      "Coder": 1769803596661,
       "Corn Onesie": 1768780374432,
-      "Green Amulet": 1769801430011,
-      "Green Thumb": 1769801430205,
-      "Infernal Pitchfork": 1769801430011,
+      "Green Amulet": 1769803593935,
+      "Green Thumb": 1769803596815,
+      "Infernal Pitchfork": 1769803596661,
       "Laurie the Chuckle Crow": 1769797137502,
       "Laurie's Gains": 1769797137502,
-      "Lunar Calendar": 1769801430205,
+      "Lunar Calendar": 1769803596815,
       "Old Farmer": 1769797139315,
       "Pollen Power Up": 1769794882206,
       "Poppy": 1768780374432,
       "Queen Cornelia": 1768780347460,
-      "Seed Specialist": 1769801430205,
-      "Sir Goldensnout": 1769801412717,
-      "Gnome": 1769801429423,
+      "Seed Specialist": 1769803596815,
+      "Sir Goldensnout": 1769803579462,
+      "Gnome": 1769803595235,
       "Glass Room": 1769793057458,
       "Hoot": 1769797139315,
       "Olive Express": 1769793067664,
@@ -20812,11 +21007,11 @@
       "Crimstone Armor": 1769800828143,
       "Crimstone Hammer": 1769800825268,
       "Fireside Alchemist": 1769800828143,
-      "Horror Mike": 1769801429423,
-      "Scary Mike": 1769801429423,
-      "Soybliss": 1769801430011,
-      "Strong Roots": 1769797098026,
-      "Tofu Mask": 1769801430011,
+      "Horror Mike": 1769803595692,
+      "Scary Mike": 1769803595692,
+      "Soybliss": 1769803596661,
+      "Strong Roots": 1769803596815,
+      "Tofu Mask": 1769803596661,
       "Battle Fish": 1769792962426,
       "Dev Wrench": 1769792962426,
       "Infernal Drill": 1769792962426,
@@ -20824,7 +21019,7 @@
       "Oil Be Back": 1769792962426,
       "Oil Can": 1769792962426,
       "Oil Overalls": 1769792962426,
-      "Sol & Luna": 1769802148160,
+      "Sol & Luna": 1769804204381,
       "Cowbell Necklace": 1769798999071,
       "Longhorn Cowfish": 1769798999071,
       "Mammoth": 1769798999071,
@@ -20888,7 +21083,7 @@
       "Angler Waders": 1769733434865,
       "Fisherman's 10 Fold": 1769733434865,
       "Fisherman's 5 Fold": 1769733434865,
-      "More With Less": 1769793018418,
+      "More With Less": 1769803338030,
       "Pink Dolphin": 1768706586792,
       "Walrus": 1769733434865,
       "Bud #410": 1769644953248,
@@ -20899,7 +21094,7 @@
       "Paw Shield": 1769386204892,
       "Giant Kale": 1768594862803,
       "Solflare Aegis": 1769385116821,
-      "Turd Topper": 1769793018418,
+      "Turd Topper": 1769803338030,
       "Giant Zucchini": 1769231666437,
       "Summer Chicken": 1769372100096,
       "Peeled Potato": 1769742119561,
@@ -20913,7 +21108,7 @@
       "Purple Trail": 1769382983878,
       "Alba": 1769733434865,
       "Fishy Chance": 1769733408764,
-      "Fruit Tune Box": 1769802649975,
+      "Fruit Tune Box": 1769804122738,
       "Lab Grown Radish": 1769375295156,
       "Radical Radish": 1769375292839,
       "Desert Rose": 1769796423442,
@@ -20931,7 +21126,7 @@
       "Bud #2233": 1769299442338,
       "Deep Sea Helm": 1764816051449,
       "Janitor Chicken": 1769745200417,
-      "Autumn's Embrace": 1769801430205,
+      "Autumn's Embrace": 1769803596815,
       "Blossombeard": 1769627448991,
       "Golden Spatula": 1769627448991,
       "Juicy Boost": 1769626750856,
@@ -20955,7 +21150,7 @@
       "Frozen Sheep": 1768159235447,
       "Lady Bug": 1769793025760,
       "Winter Guardian": 1768166736593,
-      "Badger Shrine": 1769802157019,
+      "Badger Shrine": 1769803895537,
       "Golden Cauliflower": 1769387352825,
       "Groovy Gramophone": 1769802161967,
       "Lava Swimwear": 1769754829266,
@@ -20968,27 +21163,27 @@
       "Giant Artichoke": 1769797139315,
       "Reelmaster's Chair": 1769733434865,
       "Black Bearry": 1768846432139,
-      "Architect Ruler": 1769802148160,
-      "Bucket O' Worms": 1769793018418,
-      "Wormy Treat": 1769793018418,
+      "Architect Ruler": 1769804204381,
+      "Bucket O' Worms": 1769803338030,
+      "Wormy Treat": 1769803338030,
       "Luminous Anglerfish Topper": 1769627101035,
       "Gilded Swordfish": 1769793002244,
-      "Saw Fish": 1769793018418,
+      "Saw Fish": 1769803338030,
       "Collie Shrine": 1769800186868,
       "Tortoise Shrine": 1769802161967,
       "Mole Shrine": 1769800828143,
       "Training Whistle": 1769798999071,
-      "Master Chef's Cleaver": 1769802881619,
-      "Toucan Shrine": 1769802649975,
-      "Sparrow Shrine": 1769801430205,
-      "Fox Shrine": 1769802148160,
+      "Master Chef's Cleaver": 1769804199155,
+      "Toucan Shrine": 1769804122738,
+      "Sparrow Shrine": 1769803596815,
+      "Fox Shrine": 1769804204381,
       "Harvest Hourglass": 1768729159098,
       "Time Warp Totem": 1768099937709,
       "Super Star": 1768091859802,
       "Beetroot Amulet": 1769387342743,
       "Sleepy Chicken": 1769797765788,
       "Tree Turnaround": 1769800529962,
-      "Experienced Farmer": 1769801430011,
+      "Experienced Farmer": 1769803596661,
       "Greenhouse Gamble": 1769793057458,
       "Young Farmer": 1769763228552,
       "Squirrel Onesie": 1769627257030,
