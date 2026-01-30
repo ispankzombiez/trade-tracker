@@ -7,10 +7,10 @@
     "earned_sfl": 1120.18,
     "earned_coins": 278063.0,
     "spent_sfl": 0.0,
-    "items_sold": 2794.0,
+    "items_sold": 2795.0,
     "trade_points": 252976.67,
-    "last_updated": "2026-01-30 01:00 AM",
-    "active_listings": 12
+    "last_updated": "2026-01-30 01:42 AM",
+    "active_listings": 15
   },
   "buys": [
     {
@@ -195,6 +195,42 @@
     }
   ],
   "sells": [
+    {
+      "date": "2026-01-30",
+      "time": "01:33 AM",
+      "type": "SELL",
+      "item": "Milk",
+      "quantity": 100,
+      "price_text": "12.39 SFL",
+      "price": 12.39,
+      "counterparty": "Precioso",
+      "farm_id": "-",
+      "trade_id": "67d1ade0"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "01:33 AM",
+      "type": "SELL",
+      "item": "Milk",
+      "quantity": 100,
+      "price_text": "12.25 SFL",
+      "price": 12.25,
+      "counterparty": "Precioso",
+      "farm_id": "-",
+      "trade_id": "2eb19419"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "01:29 AM",
+      "type": "SELL",
+      "item": "Wood",
+      "quantity": 500,
+      "price_text": "4.3 SFL",
+      "price": 4.3,
+      "counterparty": "Mikeeeboi",
+      "farm_id": "-",
+      "trade_id": "b2d48008"
+    },
     {
       "date": "2026-01-30",
       "time": "12:39 AM",
@@ -763,12 +799,12 @@
   "last_updated": null,
   "stats": {
     "total_buys": 15,
-    "total_sells": 47,
+    "total_sells": 50,
     "buy_volume": 183.57920000000001,
-    "sell_volume": 353.46900000000005,
-    "gross_profit": 169.88980000000004,
+    "sell_volume": 382.409,
+    "gross_profit": 198.82979999999998,
     "avg_buy_price": 12.238613333333335,
-    "avg_sell_price": 7.520617021276597,
+    "avg_sell_price": 7.64818,
     "most_traded_items": {},
     "recent_activity": [
       {
@@ -898,6 +934,30 @@
       },
       {
         "type": "SELL",
+        "item": "Milk",
+        "quantity": 100,
+        "price": 12.39,
+        "date": "2026-01-30",
+        "time": "01:33 AM"
+      },
+      {
+        "type": "SELL",
+        "item": "Milk",
+        "quantity": 100,
+        "price": 12.25,
+        "date": "2026-01-30",
+        "time": "01:33 AM"
+      },
+      {
+        "type": "SELL",
+        "item": "Wood",
+        "quantity": 500,
+        "price": 4.3,
+        "date": "2026-01-30",
+        "time": "01:29 AM"
+      },
+      {
+        "type": "SELL",
         "item": "Leather",
         "quantity": 100,
         "price": 11.89,
@@ -911,33 +971,9 @@
         "price": 0.999,
         "date": "2026-01-30",
         "time": "12:34 AM"
-      },
-      {
-        "type": "SELL",
-        "item": "Wood",
-        "quantity": 500,
-        "price": 4.29,
-        "date": "2026-01-30",
-        "time": "12:28 AM"
-      },
-      {
-        "type": "SELL",
-        "item": "Iron",
-        "quantity": 100,
-        "price": 6.4,
-        "date": "2026-01-29",
-        "time": "02:14 PM"
-      },
-      {
-        "type": "SELL",
-        "item": "Gold",
-        "quantity": 25,
-        "price": 6.06,
-        "date": "2026-01-29",
-        "time": "02:12 PM"
       }
     ],
-    "profit_margin": 92.54305498662158,
+    "profit_margin": 108.30736815499793,
     "most_bought_items": {
       "Blueberry": 300,
       "Obsidian": 9,
@@ -949,16 +985,25 @@
       "Sunflower": 16000,
       "Pumpkin": 6000,
       "Potato": 6000,
-      "Wood": 4100,
+      "Wood": 4600,
       "Zucchini": 2000,
       "Carrot": 2000,
+      "Milk": 1100,
       "Leather": 1100,
-      "Milk": 900,
       "Tomato": 200,
       "Iron": 200
     }
   },
   "active_listings": [
+    {
+      "id": "37383186",
+      "item": "Leather",
+      "quantity": 100,
+      "price": 11.86,
+      "created_at": 1769736468432,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
     {
       "id": "90c9d979",
       "item": "Frost Pebble",
@@ -1066,6 +1111,24 @@
       "created_at": 1769732839299,
       "collection": "collectibles",
       "trade_type": "instant"
+    },
+    {
+      "id": "2eb19419",
+      "item": "Milk",
+      "quantity": 100,
+      "price": 12.25,
+      "created_at": 1769736440993,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "b2d48008",
+      "item": "Wood",
+      "quantity": 500,
+      "price": 4.3,
+      "created_at": 1769736491553,
+      "collection": "collectibles",
+      "trade_type": "instant"
     }
   ],
   "active_offers": [],
@@ -1073,8 +1136,8 @@
     "crops": {
       "Sunflower": 948223.4123999962,
       "Potato": 459040.9784999947,
-      "Pumpkin": 147405.04969999983,
-      "Carrot": 82024.48519999998,
+      "Pumpkin": 149076.10599999983,
+      "Carrot": 82181.02519999997,
       "Cabbage": 60906.9054,
       "Beetroot": 28870.411599999996,
       "Cauliflower": 17028.910200000002,
@@ -1110,7 +1173,7 @@
       "Celestine": 4.570000000000016
     },
     "resources": {
-      "Wood": 12278.04,
+      "Wood": 11778.04,
       "Stone": 1701.93,
       "Iron": 3007.19,
       "Gold": 671.66,

@@ -1,18 +1,30 @@
 {
   "username": "wtftooma",
   "overview": {
-    "balance": 422.23,
-    "coins": 8808.0,
+    "balance": 419.05,
+    "coins": 8708.0,
     "gems": 0.0,
     "earned_sfl": 428.8,
-    "earned_coins": 8808.0,
+    "earned_coins": 8708.0,
     "spent_sfl": 0.0,
     "items_sold": 1429.0,
     "trade_points": 22991.45,
-    "last_updated": "2026-01-30 01:00 AM",
+    "last_updated": "2026-01-30 01:42 AM",
     "active_listings": 1
   },
   "buys": [
+    {
+      "date": "2026-01-30",
+      "time": "01:07 AM",
+      "type": "BUY",
+      "item": "Stone",
+      "quantity": 200,
+      "price_text": "3.1844 SFL",
+      "price": 3.1844,
+      "counterparty": "Naya",
+      "farm_id": "-",
+      "trade_id": "dd951b44"
+    },
     {
       "date": "2026-01-29",
       "time": "08:32 PM",
@@ -617,15 +629,24 @@
   "sells": [],
   "last_updated": null,
   "stats": {
-    "total_buys": 50,
+    "total_buys": 51,
     "total_sells": 0,
-    "buy_volume": 79.3932,
+    "buy_volume": 82.5776,
     "sell_volume": 0,
-    "gross_profit": -79.3932,
-    "avg_buy_price": 1.587864,
+    "gross_profit": -82.5776,
+    "avg_buy_price": 1.6191686274509804,
     "avg_sell_price": 0,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Stone",
+        "quantity": 200,
+        "price": 3.1844,
+        "date": "2026-01-30",
+        "time": "01:07 AM",
+        "username": "wtftooma"
+      },
       {
         "type": "BUY",
         "item": "Gold",
@@ -668,8 +689,7 @@
         "quantity": 300,
         "price": 0.9672,
         "date": "2026-01-29",
-        "time": "08:17 PM",
-        "username": "wtftooma"
+        "time": "08:17 PM"
       },
       {
         "type": "BUY",
@@ -782,14 +802,6 @@
         "price": 0.3224,
         "date": "2026-01-29",
         "time": "08:17 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Yam",
-        "quantity": 1000,
-        "price": 2.9142,
-        "date": "2026-01-29",
-        "time": "08:16 PM"
       }
     ],
     "profit_margin": -100.0,
@@ -799,11 +811,11 @@
       "Cabbage": 500,
       "Honey": 242,
       "Radish": 211,
+      "Stone": 200,
       "Iron": 200,
       "Cauliflower": 113,
       "Apple": 105,
-      "Gold": 48,
-      "Leather": 42
+      "Gold": 48
     },
     "most_sold_items": {}
   },
@@ -848,7 +860,7 @@
       "Barley": 1932.813599999999,
       "Rhubarb": 75.8,
       "Zucchini": 255.249,
-      "Yam": 3221.2464,
+      "Yam": 3206.2464,
       "Broccoli": 2432.4482,
       "Pepper": 421.3844,
       "Onion": 2223.9096,
@@ -870,8 +882,8 @@
       "Apple": 205.20000000000002
     },
     "resources": {
-      "Wood": 237.0,
-      "Stone": 0.25,
+      "Wood": 207.0,
+      "Stone": 190.25,
       "Iron": 1.7,
       "Obsidian": 6.79,
       "Gold": 15.1,
