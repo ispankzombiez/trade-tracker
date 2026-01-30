@@ -7,13 +7,25 @@
     "earned_sfl": 13684.03,
     "earned_coins": 82054.0,
     "spent_sfl": 15466.58,
-    "items_sold": 13454.0,
+    "items_sold": 13455.0,
     "trade_points": 31145.84,
-    "last_updated": "2026-01-30 12:02 PM",
+    "last_updated": "2026-01-30 12:17 PM",
     "active_listings": 138
   },
   "buys": [],
   "sells": [
+    {
+      "date": "2026-01-30",
+      "time": "12:06 PM",
+      "type": "SELL",
+      "item": "Beetroot",
+      "quantity": 220,
+      "price_text": "1.45 SFL",
+      "price": 1.45,
+      "counterparty": "Rounae",
+      "farm_id": "-",
+      "trade_id": "5c78b53d"
+    },
     {
       "date": "2026-01-30",
       "time": "11:31 AM",
@@ -1278,14 +1290,23 @@
   "last_updated": null,
   "stats": {
     "total_buys": 0,
-    "total_sells": 105,
+    "total_sells": 106,
     "buy_volume": 0,
-    "sell_volume": 74.43029999999999,
-    "gross_profit": 74.43029999999999,
+    "sell_volume": 75.88029999999999,
+    "gross_profit": 75.88029999999999,
     "avg_buy_price": 0,
-    "avg_sell_price": 0.7088599999999999,
+    "avg_sell_price": 0.7158518867924527,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "SELL",
+        "item": "Beetroot",
+        "quantity": 220,
+        "price": 1.45,
+        "date": "2026-01-30",
+        "time": "12:06 PM",
+        "username": "jaysuper"
+      },
       {
         "type": "SELL",
         "item": "Wood",
@@ -1328,8 +1349,7 @@
         "quantity": 20,
         "price": 0.362,
         "date": "2026-01-30",
-        "time": "08:42 AM",
-        "username": "jaysuper"
+        "time": "08:42 AM"
       },
       {
         "type": "SELL",
@@ -1442,14 +1462,6 @@
         "price": 0.354,
         "date": "2026-01-30",
         "time": "02:58 AM"
-      },
-      {
-        "type": "SELL",
-        "item": "Parsnip",
-        "quantity": 20,
-        "price": 0.3542,
-        "date": "2026-01-30",
-        "time": "02:58 AM"
       }
     ],
     "profit_margin": 0,
@@ -1457,7 +1469,7 @@
     "most_sold_items": {
       "Sunflower": 5600,
       "Yam": 5003,
-      "Beetroot": 2626,
+      "Beetroot": 2846,
       "Broccoli": 2150,
       "Lemon": 1195,
       "Wood": 1024,
@@ -2756,7 +2768,7 @@
       "Pumpkin": 528514.8300000012,
       "Carrot": 118732.27079999977,
       "Cabbage": 105292.68659999984,
-      "Beetroot": 40601.36390000002,
+      "Beetroot": 40381.36390000002,
       "Cauliflower": 987.0169999999995,
       "Parsnip": 647.8398000000011,
       "Radish": 21266.068,
