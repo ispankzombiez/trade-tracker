@@ -9,7 +9,7 @@
     "spent_sfl": 10569.59,
     "items_sold": 7434.0,
     "trade_points": 37913.62,
-    "last_updated": "2026-01-30 06:55 PM",
+    "last_updated": "2026-01-30 07:14 PM",
     "active_listings": 17
   },
   "buys": [
@@ -27,6 +27,18 @@
     }
   ],
   "sells": [
+    {
+      "date": "2026-01-30",
+      "time": "07:10 PM",
+      "type": "SELL",
+      "item": "Pumpkin",
+      "quantity": 2000,
+      "price_text": "1.6 SFL",
+      "price": 1.6,
+      "counterparty": "sifo",
+      "farm_id": "-",
+      "trade_id": "fd11ef77"
+    },
     {
       "date": "2026-01-30",
       "time": "05:37 PM",
@@ -1123,12 +1135,12 @@
   "last_updated": null,
   "stats": {
     "total_buys": 1,
-    "total_sells": 91,
+    "total_sells": 92,
     "buy_volume": 0.4339,
-    "sell_volume": 212.45559999999998,
-    "gross_profit": 212.02169999999998,
+    "sell_volume": 214.05559999999997,
+    "gross_profit": 213.62169999999998,
     "avg_buy_price": 0.4339,
-    "avg_sell_price": 2.334676923076923,
+    "avg_sell_price": 2.326691304347826,
     "most_traded_items": {},
     "recent_activity": [
       {
@@ -1138,6 +1150,15 @@
         "price": 0.4339,
         "date": "2026-01-30",
         "time": "04:50 PM",
+        "username": "celinhotv"
+      },
+      {
+        "type": "SELL",
+        "item": "Pumpkin",
+        "quantity": 2000,
+        "price": 1.6,
+        "date": "2026-01-30",
+        "time": "07:10 PM",
         "username": "celinhotv"
       },
       {
@@ -1173,8 +1194,7 @@
         "quantity": 25,
         "price": 1.67,
         "date": "2026-01-30",
-        "time": "05:33 PM",
-        "username": "celinhotv"
+        "time": "05:33 PM"
       },
       {
         "type": "SELL",
@@ -1287,17 +1307,9 @@
         "price": 3.79,
         "date": "2026-01-30",
         "time": "04:48 PM"
-      },
-      {
-        "type": "SELL",
-        "item": "Corn",
-        "quantity": 200,
-        "price": 3.79,
-        "date": "2026-01-30",
-        "time": "04:48 PM"
       }
     ],
-    "profit_margin": 48864.18529615118,
+    "profit_margin": 49232.93385572712,
     "most_bought_items": {
       "Artichoke": 47
     },
@@ -1306,8 +1318,8 @@
       "Yam": 12200,
       "Broccoli": 9900,
       "Potato": 9000,
+      "Pumpkin": 5500,
       "Carrot": 4000,
-      "Pumpkin": 3500,
       "Beetroot": 1850,
       "Wheat": 1760,
       "Rhubarb": 1500,
