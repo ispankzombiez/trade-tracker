@@ -288,7 +288,7 @@
       "Petnip Plant": "2",
       "Trade Point": "1391.4503",
       "Mark": "131669.19999999999993",
-      "Crab": "190",
+      "Crab": "188",
       "Sea Cucumber": "25",
       "Gladiolus Seed": "6",
       "Starfish": "21",
@@ -452,8 +452,8 @@
       "Sea Snail": "12",
       "Octopus": "18",
       "Blue Crab": "13",
-      "Lobster": "8",
-      "Barnacle": "20",
+      "Lobster": "4",
+      "Barnacle": "16",
       "Squid": "47",
       "Horseshoe Crab": "18",
       "Kale Seed": "22",
@@ -462,7 +462,7 @@
       "Bantam Shrine": "1",
       "Reindeer Carrot": "12",
       "Sea Urchin": "12",
-      "Shrimp": "8",
+      "Shrimp": "4",
       "Rice": "10.2",
       "Sunstone": "2",
       "Butterflyfish": "29",
@@ -490,7 +490,7 @@
       "Purple Smoothie": "5",
       "The Lot": "1",
       "Grub": "28",
-      "Fish Oil": "9",
+      "Fish Oil": "10",
       "Yellow Daffodil": "4",
       "Big Apple": "1",
       "Enchanted Rose": "1",
@@ -5047,16 +5047,6 @@
           "readyAt": 1767581437593,
           "processing": [
             {
-              "name": "Fish Oil",
-              "readyAt": 1769801659140,
-              "startedAt": 1769744059140,
-              "requirements": {
-                "Crab": "2",
-                "Mahi Mahi": "4",
-                "Tuna": "8"
-              }
-            },
-            {
               "name": "Crab Stick",
               "readyAt": 1769816059140,
               "startedAt": 1769801659140,
@@ -5076,6 +5066,28 @@
                 "Barnacle": "2",
                 "Lobster": "2",
                 "Shrimp": "2"
+              }
+            },
+            {
+              "name": "Crab Stick",
+              "readyAt": 1769844859140,
+              "startedAt": 1769830459140,
+              "requirements": {
+                "Crab": "1",
+                "Barnacle": "2",
+                "Lobster": "2",
+                "Shrimp": "2"
+              }
+            },
+            {
+              "name": "Crab Stick",
+              "readyAt": 1769859259140,
+              "startedAt": 1769844859140,
+              "requirements": {
+                "Crab": "1",
+                "Shrimp": "2",
+                "Lobster": "2",
+                "Barnacle": "2"
               }
             }
           ],
@@ -8255,7 +8267,7 @@
       "Gold Rock Mined": 21,
       "Building Construction Sped Up": 1,
       "Fish Flake Processed": 7,
-      "Fish Oil Processed": 28,
+      "Fish Oil Processed": 29,
       "Fish Stick Processed": 15,
       "Sparrow Shrine Crafted": 1,
       "Starlight Tuna Map Piece Found": 6,
@@ -10160,7 +10172,7 @@
           "petXP": 0,
           "score": 1005,
           "collectivePet": {
-            "totalXP": 6197034,
+            "totalXP": 6197802,
             "goalXP": 2404688,
             "goalReached": true,
             "streak": 3,

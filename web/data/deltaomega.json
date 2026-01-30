@@ -1,16 +1,16 @@
 {
   "username": "deltaomega",
   "overview": {
-    "balance": 28.96,
-    "coins": 378.0,
+    "balance": 44.19,
+    "coins": 30.0,
     "gems": 0.0,
     "earned_sfl": 20921.95,
-    "earned_coins": 378.0,
+    "earned_coins": 30.0,
     "spent_sfl": 14782.16,
     "items_sold": 3468.0,
     "trade_points": 13902.85,
-    "last_updated": "2026-01-30 07:51 PM",
-    "active_listings": 3
+    "last_updated": "2026-01-30 08:04 PM",
+    "active_listings": 0
   },
   "buys": [
     {
@@ -653,6 +653,42 @@
   "sells": [
     {
       "date": "2026-01-30",
+      "time": "07:50 PM",
+      "type": "SELL",
+      "item": "Chewed Bone",
+      "quantity": 1,
+      "price_text": "0.45 SFL",
+      "price": 0.45,
+      "counterparty": "Kuky1",
+      "farm_id": "-",
+      "trade_id": "4348a4b2"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "07:49 PM",
+      "type": "SELL",
+      "item": "Crimstone",
+      "quantity": 2,
+      "price_text": "1.012 SFL",
+      "price": 1.012,
+      "counterparty": "Rusmi",
+      "farm_id": "-",
+      "trade_id": "21b71d86"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "07:49 PM",
+      "type": "SELL",
+      "item": "Crimstone",
+      "quantity": 2,
+      "price_text": "1.012 SFL",
+      "price": 1.012,
+      "counterparty": "Rusmi",
+      "farm_id": "-",
+      "trade_id": "aa5a4d89"
+    },
+    {
+      "date": "2026-01-30",
       "time": "07:09 PM",
       "type": "SELL",
       "item": "Barley",
@@ -1231,12 +1267,12 @@
   "last_updated": null,
   "stats": {
     "total_buys": 53,
-    "total_sells": 48,
+    "total_sells": 51,
     "buy_volume": 56.157300000000006,
-    "sell_volume": 84.5149,
-    "gross_profit": 28.35759999999999,
+    "sell_volume": 86.9889,
+    "gross_profit": 30.831599999999995,
     "avg_buy_price": 1.0595716981132077,
-    "avg_sell_price": 1.7607270833333333,
+    "avg_sell_price": 1.7056647058823529,
     "most_traded_items": {},
     "recent_activity": [
       {
@@ -1405,7 +1441,7 @@
         "time": "09:12 PM"
       }
     ],
-    "profit_margin": 50.49672972169243,
+    "profit_margin": 54.902212179004316,
     "most_bought_items": {
       "Feather": 379,
       "Yam": 323,
@@ -1423,42 +1459,14 @@
       "Wheat": 335,
       "Iron": 55,
       "Gold": 16,
+      "Crimstone": 12,
+      "Chewed Bone": 10,
       "Ribbon": 9,
-      "Chewed Bone": 9,
-      "Crimstone": 8,
       "Frost Pebble": 8,
       "Dewberry": 7
     }
   },
-  "active_listings": [
-    {
-      "id": "ef0048a3",
-      "item": "Barley",
-      "quantity": 200,
-      "price": 4.6635,
-      "created_at": 1769799862037,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "cf20e0b5",
-      "item": "Barley",
-      "quantity": 200,
-      "price": 4.6635,
-      "created_at": 1769799870823,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "c44da45d",
-      "item": "Barley",
-      "quantity": 200,
-      "price": 4.6635,
-      "created_at": 1769799880373,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    }
-  ],
+  "active_listings": [],
   "active_offers": [],
   "inventory": {
     "crops": {
@@ -1471,7 +1479,7 @@
       "Cauliflower": 46.6781,
       "Parsnip": 80.2369,
       "Radish": 15.7,
-      "Wheat": 68.8006,
+      "Wheat": 50.8006,
       "Kale": 0.62,
       "Eggplant": 90.1731,
       "Corn": 30.6068,
@@ -1488,10 +1496,10 @@
       "Artichoke": 28.2484
     },
     "fruits": {
-      "Apple": 30.2,
+      "Apple": 26.2,
       "Blueberry": 30.2,
       "Orange": 30.3,
-      "Tomato": 12.3,
+      "Tomato": 7.3,
       "Lemon": 20.6,
       "Duskberry": 3.0,
       "Banana": 25.6,
@@ -1499,10 +1507,10 @@
       "Lunara": 3.0
     },
     "resources": {
-      "Wood": 312.88,
+      "Wood": 359.48,
       "Stone": 63.4,
       "Iron": 61.9,
-      "Crimstone": 4.1,
+      "Crimstone": 0.1,
       "Obsidian": 5.97,
       "Gold": 9.4
     }

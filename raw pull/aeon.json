@@ -332,7 +332,7 @@
       "Wool": "57682.05",
       "Merino Wool": "54702.3",
       "Feather": "20033.25",
-      "Milk": "14271.55",
+      "Milk": "14247.55",
       "Hay": "278.5065234374993176",
       "Kernel Blend": "1277.597539062499585",
       "NutriBarley": "562.7644531249986399",
@@ -877,9 +877,9 @@
       "Pizza Margherita": "223",
       "Lemon Cheesecake": "150",
       "Squeaky Chicken": "1",
-      "Crab Pot": "8",
+      "Crab Pot": "4",
       "Mariner Pot": "2",
-      "Ribbon": "4",
+      "Ribbon": "3",
       "Bear Shrine": "1",
       "Toucan Shrine": "1",
       "Chewed Bone": "7",
@@ -896,7 +896,7 @@
       "Lunar Temple": "1",
       "Magma Stone": "1",
       "Messy Bed": "1",
-      "Barnacle": "6",
+      "Barnacle": "30",
       "Isopod": "6",
       "Anemone": "6",
       "Oyster": "6",
@@ -915,7 +915,7 @@
       "Wild Grass": "1",
       "Luxury Key": "1",
       "Acorn": "18",
-      "Cheese": "144",
+      "Cheese": "152",
       "Barley Seed": "143",
       "Rare Key": "2",
       "Cabbage Seed": "540",
@@ -1912,7 +1912,8 @@
             }
           },
           "initialProgress": 713,
-          "startedAt": 1769385600342
+          "startedAt": 1769385600342,
+          "completedAt": 1769802753984
         },
         "bert": {
           "name": "Chop Trees 200 times",
@@ -2025,7 +2026,8 @@
             }
           },
           "initialProgress": 10769,
-          "startedAt": 1769385600342
+          "startedAt": 1769385600342,
+          "completedAt": 1769802757767
         },
         "chase": {
           "name": "Collect Milk 100 times",
@@ -2035,7 +2037,8 @@
             }
           },
           "initialProgress": 7828,
-          "startedAt": 1769385600342
+          "startedAt": 1769385600342,
+          "completedAt": 1769802758965
         }
       }
     },
@@ -7688,7 +7691,7 @@
             "y": -3
           },
           "readyAt": 1738420172268,
-          "oil": 58.16666666666669,
+          "oil": 57.500000000000036,
           "crafting": [
             {
               "name": "Cheese",
@@ -7698,7 +7701,7 @@
               "skills": {
                 "Double Nom": true
               },
-              "readyAt": 1769800918346
+              "readyAt": 1769802868699
             },
             {
               "name": "Cheese",
@@ -7708,7 +7711,7 @@
               "skills": {
                 "Double Nom": true
               },
-              "readyAt": 1769801056046
+              "readyAt": 1769803006399
             },
             {
               "name": "Cheese",
@@ -7718,7 +7721,7 @@
               "skills": {
                 "Double Nom": true
               },
-              "readyAt": 1769801193746
+              "readyAt": 1769803144099
             },
             {
               "name": "Cheese",
@@ -7728,7 +7731,7 @@
               "skills": {
                 "Double Nom": true
               },
-              "readyAt": 1769801331446
+              "readyAt": 1769803281799
             }
           ]
         }
@@ -12988,7 +12991,7 @@
       "Cow Cured": 246,
       "Castellan Crafted": 1,
       "Mixed Grain Mixed": 28343,
-      "Cheese Cooked": 10893,
+      "Cheese Cooked": 10897,
       "Sour Shake Cooked": 1057,
       "Honey Cheddar Cooked": 163,
       "Pizza Margherita Cooked": 803,
@@ -13463,7 +13466,7 @@
       "Wild Grass Fetched": 200,
       "Chewed Bone Fetched": 183,
       "Moonfur Fetched": 33,
-      "Ribbon Fetched": 88,
+      "Ribbon Fetched": 93,
       "Frost Pebble Fetched": 96,
       "Heart leaf Fetched": 159,
       "Faction Kitchen Delivered": 880,
@@ -13529,7 +13532,7 @@
       "Crab Pot Crafted": 20,
       "Mariner Pot Crafted": 20,
       "Toucan Shrine Crafted": 1,
-      "Crab Pot Placed": 12,
+      "Crab Pot Placed": 16,
       "Mariner Pot Placed": 18,
       "Fish Stick Processed": 12,
       "Sand Caught": 12,
@@ -13542,7 +13545,7 @@
       "Sea Urchin Caught": 6,
       "White Lavender Bountied": 1,
       "Chiogga Crafted": 2,
-      "Barnacle Caught": 6,
+      "Barnacle Caught": 30,
       "Isopod Caught": 6,
       "Anemone Caught": 6,
       "Oyster Caught": 6,
@@ -13553,9 +13556,9 @@
       "Raffle Entries": 20270,
       "Raffle Lost": 4,
       "Raffle Won": 3,
-      "Pet Cookie Collected": 1445,
+      "Pet Cookie Collected": 1468,
       "Marketplace Offer Claimed": 1,
-      "Paw Prints Points Earned": 3207
+      "Paw Prints Points Earned": 3230
     },
     "milestones": {
       "Fish Encyclopedia": 1,
@@ -13586,11 +13589,12 @@
           "x": -16,
           "y": -16,
           "waterTrap": {
-            "type": "Mariner Pot",
-            "placedAt": 1769196229982,
-            "readyAt": 1769225029982,
+            "type": "Crab Pot",
+            "placedAt": 1769802844304,
+            "chum": "Ribbon",
+            "readyAt": 1769817244304,
             "caught": {
-              "Barnacle": 6
+              "Blue Crab": 6
             }
           }
         },
@@ -13598,11 +13602,12 @@
           "x": -15,
           "y": -18,
           "waterTrap": {
-            "type": "Mariner Pot",
-            "placedAt": 1769196234731,
-            "readyAt": 1769225034731,
+            "type": "Crab Pot",
+            "placedAt": 1769802847873,
+            "chum": "Ribbon",
+            "readyAt": 1769817247873,
             "caught": {
-              "Barnacle": 6
+              "Blue Crab": 6
             }
           }
         },
@@ -13610,11 +13615,12 @@
           "x": -13.5,
           "y": -18,
           "waterTrap": {
-            "type": "Mariner Pot",
-            "placedAt": 1769196237663,
-            "readyAt": 1769225037663,
+            "type": "Crab Pot",
+            "placedAt": 1769802850428,
+            "chum": "Ribbon",
+            "readyAt": 1769817250428,
             "caught": {
-              "Barnacle": 6
+              "Blue Crab": 6
             }
           }
         },
@@ -13622,11 +13628,12 @@
           "x": -12,
           "y": -18,
           "waterTrap": {
-            "type": "Mariner Pot",
-            "placedAt": 1769196239853,
-            "readyAt": 1769225039853,
+            "type": "Crab Pot",
+            "placedAt": 1769802852533,
+            "chum": "Ribbon",
+            "readyAt": 1769817252533,
             "caught": {
-              "Barnacle": 6
+              "Blue Crab": 6
             }
           }
         }
@@ -14254,13 +14261,13 @@
         "deliveryCount": 699,
         "skippedCount": 9,
         "friendship": {
-          "updatedAt": 1769724317366,
-          "points": 2169,
+          "updatedAt": 1769802753984,
+          "points": 2170,
           "giftClaimedAtPoints": 2100,
           "giftedAt": 1746240633613
         },
         "deliveryCompletedAt": 1769724317366,
-        "choreCount": 56,
+        "choreCount": 57,
         "streaks": {
           "streak": 25,
           "lastClaimedAt": 1745989209459
@@ -14468,18 +14475,18 @@
       "chase": {
         "deliveryCount": 0,
         "friendship": {
-          "points": 55,
-          "updatedAt": 1768935911181
+          "points": 56,
+          "updatedAt": 1769802758965
         },
-        "choreCount": 55
+        "choreCount": 56
       },
       "eldric": {
         "deliveryCount": 0,
         "friendship": {
-          "points": 30,
-          "updatedAt": 1768497813015
+          "points": 31,
+          "updatedAt": 1769802757767
         },
-        "choreCount": 30
+        "choreCount": 31
       }
     },
     "islands": {
@@ -15168,7 +15175,7 @@
           "petXP": 11730,
           "score": 1690.9,
           "collectivePet": {
-            "totalXP": 6197034,
+            "totalXP": 6197802,
             "goalXP": 2404688,
             "goalReached": true,
             "streak": 3,
@@ -17063,10 +17070,10 @@
       "Gnome": 1769799396187,
       "Lab Grown Carrot": 1769637725669,
       "Pablo The Bunny": 1769637725669,
-      "Desert Gnome": 1769800806812,
+      "Desert Gnome": 1769802731502,
       "Fast Feasts": 1769800383494,
-      "Luna's Hat": 1769800806812,
-      "Nightshade Medallion": 1769800806812,
+      "Luna's Hat": 1769802731502,
+      "Nightshade Medallion": 1769802731502,
       "Premium Worms": 1769723876808,
       "Soil Krabby": 1769800286465,
       "Swift Decomposer": 1769800286465,
@@ -17298,7 +17305,7 @@
       "Turbo Charged": 1769800283677,
       "Nightshade Crown": 1769724571721,
       "Sleepy Chicken": 1769724357954,
-      "Master Chef's Cleaver": 1769800806812,
+      "Master Chef's Cleaver": 1769802731502,
       "Banana Amulet": 1769630396931,
       "Architect Ruler": 1766085688783,
       "Fox Shrine": 1765497688357,
@@ -17443,7 +17450,7 @@
           "name": "Pet #18",
           "id": 18,
           "experience": 263428,
-          "energy": 300485,
+          "energy": 299485,
           "requests": {
             "food": [
               "Popcorn",
@@ -17481,7 +17488,7 @@
           },
           "walking": true,
           "fetches": {
-            "Ribbon": 88,
+            "Ribbon": 93,
             "Acorn": 702,
             "Chewed Bone": 182,
             "Dewberry": 225
