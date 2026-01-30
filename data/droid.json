@@ -1,7 +1,7 @@
 {
   "username": "droid",
   "overview": {
-    "balance": 7.12,
+    "balance": 2.61,
     "coins": 172928.0,
     "gems": 0.0,
     "earned_sfl": 8175.19,
@@ -9,10 +9,46 @@
     "spent_sfl": 12297.69,
     "items_sold": 7588.0,
     "trade_points": 11367.53,
-    "last_updated": "2026-01-30 01:33 PM",
+    "last_updated": "2026-01-30 01:58 PM",
     "active_listings": 8
   },
   "buys": [
+    {
+      "date": "2026-01-30",
+      "time": "01:33 PM",
+      "type": "BUY",
+      "item": "Milk",
+      "quantity": 12,
+      "price_text": "1.4646 SFL",
+      "price": 1.4646,
+      "counterparty": "BlackwolfNS",
+      "farm_id": "-",
+      "trade_id": "433e4b78"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "01:33 PM",
+      "type": "BUY",
+      "item": "Milk",
+      "quantity": 17,
+      "price_text": "2.0706 SFL",
+      "price": 2.0706,
+      "counterparty": "Hooa",
+      "farm_id": "-",
+      "trade_id": "def8ed77"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "01:33 PM",
+      "type": "BUY",
+      "item": "Tomato",
+      "quantity": 200,
+      "price_text": "0.978 SFL",
+      "price": 0.978,
+      "counterparty": "ShimKoy",
+      "farm_id": "-",
+      "trade_id": "3a02778a"
+    },
     {
       "date": "2026-01-30",
       "time": "12:55 PM",
@@ -942,15 +978,42 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 58,
+    "total_buys": 61,
     "total_sells": 19,
-    "buy_volume": 67.0341,
+    "buy_volume": 71.5473,
     "sell_volume": 64.34150000000001,
-    "gross_profit": -2.6925999999999846,
-    "avg_buy_price": 1.1557603448275862,
+    "gross_profit": -7.205799999999996,
+    "avg_buy_price": 1.1729065573770492,
     "avg_sell_price": 3.3863947368421057,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Milk",
+        "quantity": 12,
+        "price": 1.4646,
+        "date": "2026-01-30",
+        "time": "01:33 PM",
+        "username": "droid"
+      },
+      {
+        "type": "BUY",
+        "item": "Milk",
+        "quantity": 17,
+        "price": 2.0706,
+        "date": "2026-01-30",
+        "time": "01:33 PM",
+        "username": "droid"
+      },
+      {
+        "type": "BUY",
+        "item": "Tomato",
+        "quantity": 200,
+        "price": 0.978,
+        "date": "2026-01-30",
+        "time": "01:33 PM",
+        "username": "droid"
+      },
       {
         "type": "BUY",
         "item": "Leather",
@@ -975,8 +1038,7 @@
         "quantity": 200,
         "price": 3.2,
         "date": "2026-01-30",
-        "time": "06:30 AM",
-        "username": "droid"
+        "time": "06:30 AM"
       },
       {
         "type": "BUY",
@@ -984,8 +1046,7 @@
         "quantity": 1,
         "price": 0.5979,
         "date": "2026-01-30",
-        "time": "04:55 AM",
-        "username": "droid"
+        "time": "04:55 AM"
       },
       {
         "type": "BUY",
@@ -993,8 +1054,7 @@
         "quantity": 1,
         "price": 0.89,
         "date": "2026-01-30",
-        "time": "04:54 AM",
-        "username": "droid"
+        "time": "04:54 AM"
       },
       {
         "type": "BUY",
@@ -1091,44 +1151,20 @@
         "price": 0.099,
         "date": "2026-01-30",
         "time": "01:10 AM"
-      },
-      {
-        "type": "BUY",
-        "item": "Leather",
-        "quantity": 30,
-        "price": 3.5653,
-        "date": "2026-01-30",
-        "time": "01:09 AM"
-      },
-      {
-        "type": "BUY",
-        "item": "Stone",
-        "quantity": 48,
-        "price": 0.769,
-        "date": "2026-01-30",
-        "time": "01:08 AM"
-      },
-      {
-        "type": "BUY",
-        "item": "Yam",
-        "quantity": 150,
-        "price": 0.435,
-        "date": "2026-01-29",
-        "time": "05:20 PM"
       }
     ],
-    "profit_margin": -4.016761618340493,
+    "profit_margin": -10.07137935323904,
     "most_bought_items": {
       "Broccoli": 2300,
       "Yam": 1650,
       "Carrot": 600,
       "Stone": 473,
       "Artichoke": 263,
-      "Milk": 152,
+      "Tomato": 200,
+      "Milk": 181,
       "Parsnip": 100,
       "Cauliflower": 100,
-      "Leather": 64,
-      "Wood": 50
+      "Leather": 64
     },
     "most_sold_items": {
       "Yam": 2500,
@@ -1252,7 +1288,7 @@
       "Orange": 0.8000000000008347,
       "Banana": 14.50000000000071,
       "Grape": 1.9,
-      "Tomato": 2.5000000000006337,
+      "Tomato": 202.50000000000063,
       "Lemon": 3.300000000001077,
       "Duskberry": 6e-15,
       "Lunara": 0.9000000000000099,
