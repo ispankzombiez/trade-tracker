@@ -21,7 +21,7 @@
       "Olive Seed": "60",
       "Onion Seed": "302",
       "Turnip Seed": "203",
-      "Artichoke Seed": "21",
+      "Artichoke Seed": "37",
       "Edelweiss Seed": "13",
       "Gladiolus Seed": "13",
       "Lavender Seed": "13",
@@ -80,8 +80,8 @@
       "Grape": "299.300000000001401",
       "Rice": "826.4088",
       "Olive": "1745.7208",
-      "Tomato": "1372.5200000000078933",
-      "Lemon": "1924.5800000000046292",
+      "Tomato": "1405.2200000000078957",
+      "Lemon": "1764.5800000000046292",
       "Barley": "6967.812099999998264",
       "Rhubarb": "43339.30749999960842",
       "Zucchini": "297620.3145999998891",
@@ -90,7 +90,7 @@
       "Pepper": "6410.088499999999817",
       "Onion": "5827.649899999999282",
       "Turnip": "12478.7383999999992",
-      "Artichoke": "55442.212799999998714",
+      "Artichoke": "56271.562799999998714",
       "Duskberry": "842.9",
       "Lunara": "180.0000000000000096",
       "Celestine": "122.0000000000000096",
@@ -274,9 +274,9 @@
       "Tofu Scramble": "299",
       "Paella": "1",
       "Cheese": "273",
-      "Wood": "257724.98",
+      "Wood": "257833.78",
       "Stone": "12650.35",
-      "Iron": "5882.9",
+      "Iron": "5879.9",
       "Gold": "2796.9812499999999999",
       "Egg": "5077.7",
       "Chicken": "30",
@@ -303,12 +303,12 @@
       "Flower Bed": "3",
       "Crimstone Rock": "5",
       "Crimstone": "732.125000000000001",
-      "Oil": "5430.0870869351717544",
+      "Oil": "5419.8537536018383723",
       "Oil Reserve": "4",
-      "Leather": "918.1",
-      "Wool": "567.2",
+      "Leather": "914.1",
+      "Wool": "553.2",
       "Merino Wool": "2086.8",
-      "Feather": "9533.45",
+      "Feather": "9524.45",
       "Milk": "186.75",
       "Hay": "80.65000000000000005",
       "Kernel Blend": "212.95",
@@ -356,7 +356,7 @@
       "Lifetime Farmer Banner": "1",
       "Goblin Emblem": "71038",
       "Nightshade Emblem": "100",
-      "Mark": "142661.35",
+      "Mark": "142761.35",
       "Pharaoh's Treasure Banner": "1",
       "Amber Fossil": "26",
       "Gem": "1512590",
@@ -518,7 +518,7 @@
       "Starfish": "1646",
       "Seaweed": "328",
       "Sea Cucumber": "1982",
-      "Crab": "4297",
+      "Crab": "4296",
       "Warty Goblin Pumpkin": "29",
       "White Carrot": "40",
       "Anchovy": "4351",
@@ -844,9 +844,9 @@
       "Ancient Clock": "48",
       "Duskberry Seed": "5",
       "Broken Pillar": "100",
-      "Dung": "5396",
+      "Dung": "5429",
       "Trash": "51",
-      "Weed": "3690",
+      "Weed": "3712",
       "Bracelet": "169",
       "Coprolite": "94",
       "Cheer": "800",
@@ -911,7 +911,7 @@
       "Angelfish": "291",
       "Honey Cheddar": "10",
       "Isopod": "92",
-      "Doll": "249",
+      "Doll": "250",
       "Moonfur": "1",
       "Stone Pickaxe": "81",
       "Octopus": "6",
@@ -924,7 +924,7 @@
       "Pepper Seed": "2",
       "Magma Stone": "1",
       "Purple Cauliflower": "1",
-      "Tomato Seed": "85",
+      "Tomato Seed": "82",
       "Cauliflower Seed": "10",
       "Olive Flounder": "199",
       "Wheat Seed": "190",
@@ -942,23 +942,23 @@
       "Zucchini Seed": "150",
       "Heart leaf": "10",
       "Ruffroot": "10",
-      "Crab Stick": "6",
-      "Barnacle": "10",
-      "Soybean Seed": "477",
+      "Crab Stick": "7",
+      "Barnacle": "8",
+      "Soybean Seed": "412",
       "Wild Grass": "10",
       "Spaghetti al Limone": "30",
       "Chewed Bone": "10",
-      "Sour Shake": "265",
+      "Sour Shake": "273",
       "Fermented Fish": "4",
       "Big Orange": "1",
-      "Lobster": "10",
+      "Lobster": "8",
       "Pizza Margherita": "20",
       "Blue Cheese": "13",
       "Big Apple": "1",
       "Barley Seed": "2",
       "Fancy Fries": "8",
       "Lemon Cheesecake": "4",
-      "Shrimp": "16",
+      "Shrimp": "14",
       "Potato Seed": "50"
     },
     "previousInventory": {
@@ -2180,7 +2180,7 @@
         "necklace": "Beetroot Amulet",
         "aura": "Slime Aura",
         "onesie": "White Sheep Onesie",
-        "hat": "Hornet Mask"
+        "hat": "Tofu Mask"
       },
       "tokenUri": "https://api.sunflower-land.com/bumpkins/metadata/5239_v1_71_1_6_14_19_22_58_80_30_0_86_124_69",
       "sessionId": "0x2f3bd4e4a72dcb36a03e868acb70bacbaed673b4d2fb5591b0f67f26467ae079",
@@ -5151,13 +5151,10 @@
         "y": 13,
         "height": 1,
         "crop": {
-          "id": "1c2e0b83",
-          "plantedAt": 1769604641442.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 1
-          }
+          "id": "0df23c87",
+          "plantedAt": 1769725725425,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "2": {
@@ -5167,13 +5164,10 @@
         "y": 12,
         "height": 1,
         "crop": {
-          "id": "2a56d510",
-          "plantedAt": 1769604637643.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 1
-          }
+          "id": "d42ced57",
+          "plantedAt": 1769725719906,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "3": {
@@ -5183,13 +5177,10 @@
         "y": 13,
         "height": 1,
         "crop": {
-          "id": "aac6083a",
-          "plantedAt": 1769604639950.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "5cd69d56",
+          "plantedAt": 1769725723529,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "4": {
@@ -5199,13 +5190,10 @@
         "y": 12,
         "height": 1,
         "crop": {
-          "id": "93ef5c27",
-          "plantedAt": 1769604636216.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "560da30c",
+          "plantedAt": 1769725717978,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "5": {
@@ -5215,13 +5203,10 @@
         "y": 8,
         "height": 1,
         "crop": {
-          "id": "c59a6636",
-          "plantedAt": 1769604616530.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 1
-          }
+          "id": "7fb51c5b",
+          "plantedAt": 1769725697717,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "6": {
@@ -5231,13 +5216,10 @@
         "y": 15,
         "height": 1,
         "crop": {
-          "id": "e27af7df",
-          "plantedAt": 1769604647665.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "7416b181",
+          "plantedAt": 1769725730575,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "7": {
@@ -5247,13 +5229,10 @@
         "y": 14,
         "height": 1,
         "crop": {
-          "id": "9e387e14",
-          "plantedAt": 1769604643056.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "da445891",
+          "plantedAt": 1769725727761,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "8": {
@@ -5263,13 +5242,10 @@
         "y": 14,
         "height": 1,
         "crop": {
-          "id": "3fd41228",
-          "plantedAt": 1769604645207.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 1
-          }
+          "id": "254dcc94",
+          "plantedAt": 1769725728689,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "9": {
@@ -5279,13 +5255,10 @@
         "y": 13,
         "height": 1,
         "crop": {
-          "id": "1ca0a850",
-          "plantedAt": 1769604642186.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "7bedea1b",
+          "plantedAt": 1769725726910,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "10": {
@@ -5295,13 +5268,10 @@
         "y": 14,
         "height": 1,
         "crop": {
-          "id": "62af560e",
-          "plantedAt": 1769604647191.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "cdcf3324",
+          "plantedAt": 1769725722092,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "11": {
@@ -5311,13 +5281,10 @@
         "y": 10,
         "height": 1,
         "crop": {
-          "id": "abc49d52",
-          "plantedAt": 1769604624663.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "62785dd4",
+          "plantedAt": 1769725704372,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "12": {
@@ -5327,13 +5294,10 @@
         "y": 10,
         "height": 1,
         "crop": {
-          "id": "8430567e",
-          "plantedAt": 1769604628130.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "d46d3f04",
+          "plantedAt": 1769725708823,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "13": {
@@ -5343,13 +5307,10 @@
         "y": 8,
         "height": 1,
         "crop": {
-          "id": "048aff88",
-          "plantedAt": 1769604620077.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "4e940765",
+          "plantedAt": 1769725701196,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "14": {
@@ -5359,13 +5320,10 @@
         "y": 10,
         "height": 1,
         "crop": {
-          "id": "e07183c9",
-          "plantedAt": 1769604625946.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "faf4a5cf",
+          "plantedAt": 1769725707275,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "15": {
@@ -5375,13 +5333,10 @@
         "y": 14,
         "height": 1,
         "crop": {
-          "id": "b7d714a3",
-          "plantedAt": 1769604648145.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "35b15bd3",
+          "plantedAt": 1769725731721,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "16": {
@@ -5391,13 +5346,10 @@
         "y": 11,
         "height": 1,
         "crop": {
-          "id": "85bb1a5c",
-          "plantedAt": 1769604634286.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "7d5a9d17",
+          "plantedAt": 1769725714616,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "17": {
@@ -5407,13 +5359,10 @@
         "y": 11,
         "height": 1,
         "crop": {
-          "id": "ea34993e",
-          "plantedAt": 1769604631131.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "21794650",
+          "plantedAt": 1769725712017,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "18": {
@@ -5423,13 +5372,10 @@
         "y": 9,
         "height": 1,
         "crop": {
-          "id": "003b0976",
-          "plantedAt": 1769604625524.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 1
-          }
+          "id": "aea59afd",
+          "plantedAt": 1769725707907,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "55728747": {
@@ -5439,13 +5385,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "f5d098ae",
-          "plantedAt": 1769604626801.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "89798416",
+          "plantedAt": 1769725706320,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "0d94eb58": {
@@ -5455,13 +5398,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "0ba6e933",
-          "plantedAt": 1769604635797.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "e885a1ed",
+          "plantedAt": 1769725717502,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "1871dea7": {
@@ -5471,13 +5411,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "f54d90d4",
-          "plantedAt": 1769604634964.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "75f21b44",
+          "plantedAt": 1769725716596,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "1be7a8ad": {
@@ -5487,13 +5424,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "52b0dbdd",
-          "plantedAt": 1769604619509.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 1
-          }
+          "id": "5c7c77c8",
+          "plantedAt": 1769725700686,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "3580b504": {
@@ -5503,13 +5437,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "41f03b56",
-          "plantedAt": 1769604646057.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 1
-          }
+          "id": "caaa49b1",
+          "plantedAt": 1769725730071,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "3ba0ba8d": {
@@ -5519,13 +5450,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "7e73a5ad",
-          "plantedAt": 1769604641080.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "b1733d35",
+          "plantedAt": 1769725724955,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "4b25ecbf": {
@@ -5535,13 +5463,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "e2115434",
-          "plantedAt": 1769604620987.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "5806a76e",
+          "plantedAt": 1769725702341,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "4c94daf0": {
@@ -5551,13 +5476,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "a93c7af0",
-          "plantedAt": 1769604639570.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "b1ffa473",
+          "plantedAt": 1769725722591,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "55924cce": {
@@ -5567,13 +5489,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "42ac5f38",
-          "plantedAt": 1769604636616.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "0105cf3d",
+          "plantedAt": 1769725718839,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "6f1f4a38": {
@@ -5583,13 +5502,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "6b80da0b",
-          "plantedAt": 1769604632163.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "b8e528a2",
+          "plantedAt": 1769725709270,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "6f9167f1": {
@@ -5599,13 +5515,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "9a2d8364",
-          "plantedAt": 1769604645699.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "f8468d3b",
+          "plantedAt": 1769725729605,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "a295f366": {
@@ -5615,13 +5528,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "62470d72",
-          "plantedAt": 1769604633906.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "94050c38",
+          "plantedAt": 1769725715028,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "a7c097e1": {
@@ -5631,13 +5541,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "9f4f0b22",
-          "plantedAt": 1769604640716.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "68f99a41",
+          "plantedAt": 1769725724469,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "ba6f0db5": {
@@ -5647,13 +5554,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "f6d4dd53",
-          "plantedAt": 1769604623998.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "7d53f28c",
+          "plantedAt": 1769725704884,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "cdd3ed9d": {
@@ -5663,13 +5567,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "40f7692a",
-          "plantedAt": 1769604631503.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "14ee9aac",
+          "plantedAt": 1769725712470,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "dca3a4b5": {
@@ -5679,13 +5580,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "986a824e",
-          "plantedAt": 1769604617333.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "f596d05e",
+          "plantedAt": 1769725698752,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "f10693df": {
@@ -5695,13 +5593,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "7898afcb",
-          "plantedAt": 1769604623177.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "a7e49010",
+          "plantedAt": 1769725716104,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "0d1b896f": {
@@ -5711,13 +5606,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "4d7c51ae",
-          "plantedAt": 1769604627200.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "54197046",
+          "plantedAt": 1769725709714,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "430d73bc": {
@@ -5727,13 +5619,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "ca3a7507",
-          "plantedAt": 1769604625094.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "31762a39",
+          "plantedAt": 1769725705837,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "7760db3d": {
@@ -5743,13 +5632,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "69a415aa",
-          "plantedAt": 1769604628617.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "b968fc17",
+          "plantedAt": 1769725708387,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "bac1131d": {
@@ -5759,13 +5645,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "8cf600ca",
-          "plantedAt": 1769604633314.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "a59eee8b",
+          "plantedAt": 1769725715593,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "c44a290d": {
@@ -5775,13 +5658,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "636660e4",
-          "plantedAt": 1769604622110.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "8eca5cfc",
+          "plantedAt": 1769725703367,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "dfa9158b": {
@@ -5791,13 +5671,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "06bd8f95",
-          "plantedAt": 1769604639063.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "0467330d",
+          "plantedAt": 1769725721615,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "2a0e7a37": {
@@ -5807,13 +5684,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "585c5cdb",
-          "plantedAt": 1769604621415.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "3e6cd962",
+          "plantedAt": 1769725702935,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "a69e218d": {
@@ -5823,13 +5697,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "5bf98925",
-          "plantedAt": 1769604629787.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "d8320646",
+          "plantedAt": 1769725710636,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "afca210e": {
@@ -5839,13 +5710,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "46ba787d",
-          "plantedAt": 1769604617717.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "89f89e70",
+          "plantedAt": 1769725699264,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "b1ff304e": {
@@ -5855,13 +5723,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "b399dce3",
-          "plantedAt": 1769604644894.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "4b5b4da4",
+          "plantedAt": 1769725729163,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "f4f6cc83": {
@@ -5871,13 +5736,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "d88b3360",
-          "plantedAt": 1769604638615.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "35e88c26",
+          "plantedAt": 1769725721088,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "14be9f50": {
@@ -5887,13 +5749,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "3ef80b3a",
-          "plantedAt": 1769604632659.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "c1146d52",
+          "plantedAt": 1769725718423,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "16cd40bc": {
@@ -5903,13 +5762,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "64d384ea",
-          "plantedAt": 1769604638106.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "43aa8359",
+          "plantedAt": 1769725722872,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "224384c4": {
@@ -5919,13 +5775,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "ec8cbf7d",
-          "plantedAt": 1769604630743.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "99d3eaec",
+          "plantedAt": 1769725713454,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "5be7a88e": {
@@ -5935,13 +5788,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "f2daa44f",
-          "plantedAt": 1769604631907.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "3591ba62",
+          "plantedAt": 1769725712926,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "611cfde4": {
@@ -5951,13 +5801,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "b5142854",
-          "plantedAt": 1769604641822.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "5218899b",
+          "plantedAt": 1769725725895,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "74db76a8": {
@@ -5967,13 +5814,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "20a66677",
-          "plantedAt": 1769604640335.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "0ccf7748",
+          "plantedAt": 1769725723976,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "e19f5b12": {
@@ -5983,13 +5827,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "05f13aec",
-          "plantedAt": 1769604635387.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "e61fa57c",
+          "plantedAt": 1769725717065,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "34b85d89": {
@@ -5999,13 +5840,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "d1cd8887",
-          "plantedAt": 1769604618882.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "2871987d",
+          "plantedAt": 1769725700152,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "51437be4": {
@@ -6015,13 +5853,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "6deb6b8c",
-          "plantedAt": 1769604637179.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "b9eff775",
+          "plantedAt": 1769725719441,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "81ee3fee": {
@@ -6031,13 +5866,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "04e2db76",
-          "plantedAt": 1769604630196.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "f693f26b",
+          "plantedAt": 1769725711518,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "27114ec0": {
@@ -6047,13 +5879,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "bfc2addd",
-          "plantedAt": 1769604620575.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "522303f7",
+          "plantedAt": 1769725701710,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "4ab538a1": {
@@ -6063,13 +5892,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "3393e9fa",
-          "plantedAt": 1769604648823.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "ec64db12",
+          "plantedAt": 1769725731071,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "07bf5021": {
@@ -6079,13 +5905,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "9d5048c7",
-          "plantedAt": 1769604622567.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "a96e58e6",
+          "plantedAt": 1769725703884,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "a3bc239d": {
@@ -6095,13 +5918,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "05917866",
-          "plantedAt": 1769604643462.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "30ccb9f3",
+          "plantedAt": 1769725728255,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "f6593b9c": {
@@ -6111,13 +5931,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "19112f24",
-          "plantedAt": 1769604618393.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 1
-          }
+          "id": "3ae033b8",
+          "plantedAt": 1769725699707,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "3131682c": {
@@ -6127,13 +5944,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "85a68f28",
-          "plantedAt": 1769604616951.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "4e18bf8a",
+          "plantedAt": 1769725698285,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "53feca10": {
@@ -6143,13 +5957,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "47ca626e",
-          "plantedAt": 1769604642637.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "2846cc9c",
+          "plantedAt": 1769725727347,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "449a1af1": {
@@ -6159,13 +5970,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "0eb17cd7",
-          "plantedAt": 1769604626335.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "32e6b824",
+          "plantedAt": 1769725706807,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       },
       "5be8ef1c": {
@@ -6175,13 +5983,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "39bd5caa",
-          "plantedAt": 1769604629350.4,
-          "boostedTime": 106712607.60000001,
-          "name": "Artichoke",
-          "criticalHit": {
-            "Green Amulet": 0
-          }
+          "id": "9cb7226e",
+          "plantedAt": 1769725711018,
+          "boostedTime": 8680797,
+          "name": "Soybean"
         }
       }
     },
@@ -6193,7 +5998,7 @@
         "width": 2,
         "height": 2,
         "wood": {
-          "choppedAt": 1769728969637
+          "choppedAt": 1769731524738
         }
       },
       "fd4ddd0e": {
@@ -6203,7 +6008,7 @@
         "width": 2,
         "height": 2,
         "wood": {
-          "choppedAt": 1769728967319
+          "choppedAt": 1769731518396
         }
       },
       "efcded4d": {
@@ -6213,13 +6018,13 @@
         "width": 2,
         "height": 2,
         "wood": {
-          "choppedAt": 1769728976234
+          "choppedAt": 1769731521519
         }
       },
       "b4d128c9": {
         "createdAt": 1757557816273,
         "wood": {
-          "choppedAt": 1769728968062
+          "choppedAt": 1769731519270
         },
         "x": 1,
         "y": -4,
@@ -6230,7 +6035,7 @@
       "c0670f9c": {
         "createdAt": 1757557820864,
         "wood": {
-          "choppedAt": 1769728968864
+          "choppedAt": 1769731520010
         },
         "x": 1,
         "y": -6,
@@ -6457,12 +6262,9 @@
         "height": 2,
         "fruit": {
           "name": "Tomato",
-          "plantedAt": 1769716281300,
-          "harvestedAt": 1769727563633,
-          "harvestsLeft": 1,
-          "criticalHit": {
-            "Generous Orchard": 1
-          }
+          "plantedAt": 1769729180701,
+          "harvestedAt": 1769730701691,
+          "harvestsLeft": 4
         }
       },
       "2": {
@@ -6493,12 +6295,9 @@
         "height": 2,
         "fruit": {
           "name": "Tomato",
-          "plantedAt": 1769717771262,
-          "harvestedAt": 1769727562933,
-          "harvestsLeft": 2,
-          "criticalHit": {
-            "Generous Orchard": 0
-          }
+          "plantedAt": 1769730557632,
+          "harvestedAt": 0,
+          "harvestsLeft": 5
         }
       },
       "9207026f": {
@@ -6530,11 +6329,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769727568436,
-          "harvestedAt": 0,
-          "harvestsLeft": 7,
-          "criticalHit": {
-            "Generous Orchard": 0
-          }
+          "harvestedAt": 1769730555368,
+          "harvestsLeft": 5
         }
       },
       "a2f18fe9": {
@@ -6686,11 +6482,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769724338548,
-          "harvestedAt": 1769727564024,
-          "harvestsLeft": 3,
-          "criticalHit": {
-            "Generous Orchard": 0
-          }
+          "harvestedAt": 1769730583595,
+          "harvestsLeft": 1
         }
       },
       "51a65554": {
@@ -6721,12 +6514,9 @@
         "height": 2,
         "fruit": {
           "name": "Tomato",
-          "plantedAt": 1769716280607,
-          "harvestedAt": 1769727563421,
-          "harvestsLeft": 2,
-          "criticalHit": {
-            "Generous Orchard": 1
-          }
+          "plantedAt": 1769730556644,
+          "harvestedAt": 0,
+          "harvestsLeft": 5
         }
       }
     },
@@ -9790,7 +9580,7 @@
               }
             }
           ],
-          "unallocatedOilTime": 90259555.00000003
+          "unallocatedOilTime": 93859555.00000003
         }
       ],
       "Smoothie Shack": [
@@ -9802,7 +9592,7 @@
             "y": -1
           },
           "readyAt": 1738220541829,
-          "oil": 30.99999999999995,
+          "oil": 38.99999999999999,
           "crafting": [
             {
               "name": "Sour Shake",
@@ -9812,7 +9602,7 @@
               "skills": {
                 "Double Nom": true
               },
-              "readyAt": 1769734100884
+              "readyAt": 1769736992584
             },
             {
               "name": "Sour Shake",
@@ -9822,7 +9612,7 @@
               "skills": {
                 "Double Nom": true
               },
-              "readyAt": 1769734823809
+              "readyAt": 1769737715509
             },
             {
               "name": "Sour Shake",
@@ -9832,7 +9622,7 @@
               "skills": {
                 "Double Nom": true
               },
-              "readyAt": 1769735546734
+              "readyAt": 1769738438434
             },
             {
               "name": "Sour Shake",
@@ -9842,7 +9632,7 @@
               "skills": {
                 "Double Nom": true
               },
-              "readyAt": 1769736269659
+              "readyAt": 1769739161359
             }
           ]
         }
@@ -10008,17 +9798,6 @@
           "processing": [
             {
               "name": "Crab Stick",
-              "readyAt": 1769734804262,
-              "startedAt": 1769720404262,
-              "requirements": {
-                "Barnacle": "2",
-                "Crab": "1",
-                "Lobster": "2",
-                "Shrimp": "2"
-              }
-            },
-            {
-              "name": "Crab Stick",
               "readyAt": 1769749204262,
               "startedAt": 1769734804262,
               "requirements": {
@@ -10043,6 +9822,17 @@
               "name": "Crab Stick",
               "readyAt": 1769778004262,
               "startedAt": 1769763604262,
+              "requirements": {
+                "Barnacle": "2",
+                "Crab": "1",
+                "Lobster": "2",
+                "Shrimp": "2"
+              }
+            },
+            {
+              "name": "Crab Stick",
+              "readyAt": 1769792404262,
+              "startedAt": 1769778004262,
               "requirements": {
                 "Barnacle": "2",
                 "Crab": "1",
@@ -14954,7 +14744,7 @@
       "Weakfish Bountied": 4,
       "Yellow Lavender Bountied": 4,
       "Timber Crafted": 253,
-      "Doll Crafted": 979,
+      "Doll Crafted": 980,
       "Gilded Doll Crafted": 73,
       "Gilded Doll Bountied": 12,
       "Crude Doll Crafted": 47,
@@ -15035,11 +14825,11 @@
       "Pirate Chest Opened": 65,
       "Digging Reward Collected": 65,
       "Recipe Queue Cancelled": 975,
-      "Minigame Attempt Started": 583,
-      "Minigame Score Submitted": 582,
-      "Minigame Prize Claimed": 472,
+      "Minigame Attempt Started": 584,
+      "Minigame Score Submitted": 584,
+      "Minigame Prize Claimed": 474,
       "Shipment Restocked": 65,
-      "Farm Helped": 738,
+      "Farm Helped": 749,
       "Gift Giver Reward Opened": 22,
       "Airdrop Reward Claimed": 93,
       "Greenhouse Oiled": 274,
@@ -15145,7 +14935,7 @@
       "Rod Casted": 26393,
       "Cabbage Seed Bought": 136271,
       "Olive Harvested": 2071,
-      "Soybean Planted": 76039,
+      "Soybean Planted": 76104,
       "Grape Planted": 1510,
       "Iron Mined": 32859,
       "Cabbage Sold": 48267.0951,
@@ -15383,7 +15173,7 @@
       "Blueberry Jam Fed": 165,
       "Sea Cucumber Sold": 261,
       "Eggplant Seed Bought": 18427,
-      "Tree Chopped": 408271,
+      "Tree Chopped": 408295,
       "Power Smoothie Cooked": 1143,
       "Treasure Dug": 26997,
       "Mini Corn Maze Bought": 3,
@@ -15442,8 +15232,8 @@
       "Tomato Seed Bought": 7660,
       "Lemon Seed Bought": 5082,
       "Lemon Seed Planted": 5076,
-      "Tomato Seed Planted": 7575,
-      "Tomato Harvested": 43481,
+      "Tomato Seed Planted": 7578,
+      "Tomato Harvested": 43491,
       "Lemon Harvested": 29159,
       "Goblin Pants Bought": 1,
       "Pancakes Fed": 946,
@@ -15527,7 +15317,7 @@
       "NutriBarley Mixed": 5007,
       "Treasure Key Bought": 6,
       "Mixed Grain Mixed": 5141,
-      "Sour Shake Cooked": 6533,
+      "Sour Shake Cooked": 6537,
       "Cheese Cooked": 18877,
       "Honey Cheddar Cooked": 239,
       "Pizza Margherita Cooked": 1679,
@@ -15591,7 +15381,7 @@
       "Carrot Juice Fed": 8667,
       "Quick Juice Fed": 1371,
       "Broccoli Planted": 27206,
-      "Artichoke Harvested": 6576,
+      "Artichoke Harvested": 6641,
       "Broccoli Harvested": 29250,
       "Clover Seed Planted": 133,
       "Edelweiss Seed Bought": 164,
@@ -15779,9 +15569,9 @@
       "Toucan Shrine Crafted": 3,
       "Ruffroot Fetched": 100,
       "Sparrow Shrine Crafted": 3,
-      "Ancient Tree Chopped": 1413,
-      "Basic Tree Chopped": 4275,
-      "Sacred Tree Chopped": 1413,
+      "Ancient Tree Chopped": 1414,
+      "Basic Tree Chopped": 4279,
+      "Sacred Tree Chopped": 1414,
       "Pure Gold Rock Mined": 282,
       "Fused Stone Rock Mined": 434,
       "Reinforced Stone Rock Mined": 434,
@@ -15859,7 +15649,7 @@
       "Barnacle Caught": 30,
       "Raffle Won": 1,
       "Pet Cookie Collected": 1510,
-      "Crab Stick Processed": 8,
+      "Crab Stick Processed": 9,
       "Octopus Caught": 6,
       "Sea Urchin Caught": 6,
       "Horseshoe Crab Caught": 6,
@@ -17717,10 +17507,11 @@
             },
             "2026-01-30": {
               "attempts": 1,
-              "highscore": 0
+              "highscore": 2590,
+              "prizeClaimedAt": 1769734269393
             }
           },
-          "highscore": 3535
+          "highscore": 2590
         },
         "festival-of-colors-2025": {
           "history": {},
@@ -17898,9 +17689,14 @@
               "attempts": 1,
               "highscore": 150,
               "prizeClaimedAt": 1769645872094
+            },
+            "2026-01-30": {
+              "attempts": 1,
+              "highscore": 750,
+              "prizeClaimedAt": 1769734347387
             }
           },
-          "highscore": 150
+          "highscore": 750
         },
         "holiday-puzzle-2025": {
           "history": {
@@ -18304,9 +18100,9 @@
         },
         "2026-01-26": {
           "petXP": 12150,
-          "score": 4183,
+          "score": 4283,
           "collectivePet": {
-            "totalXP": 4644370,
+            "totalXP": 4690585,
             "goalXP": 10263180,
             "goalReached": false,
             "streak": 10,
@@ -20400,8 +20196,8 @@
     },
     "craftingBox": {
       "status": "crafting",
-      "startedAt": 1769732809838,
-      "readyAt": 1769735509838,
+      "startedAt": 1769735868780,
+      "readyAt": 1769737893780,
       "recipes": {},
       "item": {
         "collectible": "Doll"
@@ -20496,7 +20292,7 @@
     "aoe": {
       "Gnome": {
         "0": {
-          "1": 1769711355487
+          "1": 1769734408392
         }
       },
       "Scary Mike": {
@@ -20564,24 +20360,24 @@
       },
       "Sir Goldensnout": {
         "0": {
-          "1": 1769711343179,
-          "-2": 1769711329392
+          "1": 1769734394085,
+          "-2": 1769734378923
         },
         "1": {
-          "1": 1769711343568,
-          "-2": 1769711329790
+          "1": 1769734392630,
+          "-2": 1769734379401
         },
         "2": {
-          "0": 1769711340577,
-          "1": 1769711343955,
-          "-1": 1769711341054,
-          "-2": 1769711330150
+          "0": 1769734389464,
+          "1": 1769734393098,
+          "-1": 1769734389030,
+          "-2": 1769734379866
         },
         "-1": {
-          "0": 1769711342182,
-          "1": 1769711342618,
-          "-1": 1769711341888,
-          "-2": 1769711328976
+          "0": 1769734391241,
+          "1": 1769734392153,
+          "-1": 1769734390885,
+          "-2": 1769734378341
         }
       },
       "Tin Turtle": {
@@ -20602,67 +20398,67 @@
       },
       "Laurie the Chuckle Crow": {
         "0": {
-          "-7": 1769711331899,
-          "-6": 1769711338075,
-          "-5": 1769711338378,
-          "-4": 1769711346247,
-          "-3": 1769711345073,
-          "-2": 1769711353521,
-          "-1": 1769711356316
+          "-7": 1769734381284,
+          "-6": 1769734388536,
+          "-5": 1769734387889,
+          "-4": 1769734395643,
+          "-3": 1769734399038,
+          "-2": 1769734405557,
+          "-1": 1769734409311
         },
         "1": {
-          "-7": 1769711332516,
-          "-6": 1769711337534,
-          "-5": 1769711336358,
-          "-4": 1769711345727,
-          "-3": 1769711348654,
-          "-2": 1769711353868,
-          "-1": 1769711355900
+          "-7": 1769734381883,
+          "-6": 1769734386447,
+          "-5": 1769734385503,
+          "-4": 1769734396203,
+          "-3": 1769734398595,
+          "-2": 1769734406034,
+          "-1": 1769734408859
         },
         "2": {
-          "-7": 1769711332964,
-          "-6": 1769711334541,
-          "-5": 1769711337092,
-          "-4": 1769711335540,
-          "-3": 1769711348240,
-          "-2": 1769711354240,
-          "-1": 1769711355487
+          "-7": 1769734382318,
+          "-6": 1769734383989,
+          "-5": 1769734384999,
+          "-4": 1769734396706,
+          "-3": 1769734398119,
+          "-2": 1769734406500,
+          "-1": 1769734408392
         },
         "3": {
-          "-7": 1769711333429,
-          "-6": 1769711335012,
-          "-5": 1769711333860,
-          "-4": 1769711347407,
-          "-3": 1769711347892,
-          "-2": 1769711354609,
-          "-1": 1769711355081
+          "-7": 1769734382924,
+          "-6": 1769734384511,
+          "-5": 1769734383553,
+          "-4": 1769734397220,
+          "-3": 1769734397689,
+          "-2": 1769734407556,
+          "-1": 1769734407956
         },
         "-3": {
-          "-7": 1769711330150,
-          "-6": 1769711341054,
-          "-5": 1769711340577,
-          "-4": 1769711343955,
-          "-3": 1769711350070,
-          "-2": 1769711352379,
-          "-1": 1769711358548
+          "-7": 1769734379866,
+          "-6": 1769734389030,
+          "-5": 1769734389464,
+          "-4": 1769734393098,
+          "-3": 1769734400537,
+          "-2": 1769734404157,
+          "-1": 1769734410690
         },
         "-2": {
-          "-7": 1769711330808,
-          "-6": 1769711339646,
-          "-5": 1769711340125,
-          "-4": 1769711344336,
-          "-3": 1769711349602,
-          "-2": 1769711352768,
-          "-1": 1769711358130
+          "-7": 1769734380357,
+          "-6": 1769734390356,
+          "-5": 1769734389893,
+          "-4": 1769734393555,
+          "-3": 1769734400067,
+          "-2": 1769734404581,
+          "-1": 1769734410206
         },
         "-1": {
-          "-7": 1769711331315,
-          "-6": 1769711339230,
-          "-5": 1769711338791,
-          "-4": 1769711346757,
-          "-3": 1769711349054,
-          "-2": 1769711353154,
-          "-1": 1769711357317
+          "-7": 1769734380786,
+          "-6": 1769734386951,
+          "-5": 1769734387430,
+          "-4": 1769734395238,
+          "-3": 1769734399460,
+          "-2": 1769734405076,
+          "-1": 1769734409772
         }
       },
       "Emerald Turtle": {
@@ -20760,22 +20556,22 @@
       }
     },
     "boostsUsedAt": {
-      "Luna's Hat": 1769733487634,
-      "Goblin Medallion": 1769733487634,
-      "Desert Gnome": 1769733487634,
-      "Bud #2197": 1769733306024,
-      "Camel Onesie": 1769733306024,
-      "Cannonball": 1769733310436,
-      "Catchup": 1769733310436,
-      "Foreman Beaver": 1769733746234,
-      "Fruitful Fumble": 1769733306024,
-      "Generous Orchard": 1769731843389,
-      "Goblin Quiver": 1769733306024,
-      "Loyal Macaw": 1769733306024,
-      "Macaw": 1769733306024,
+      "Luna's Hat": 1769736296326,
+      "Goblin Medallion": 1769736296326,
+      "Desert Gnome": 1769736296326,
+      "Bud #2197": 1769736443691,
+      "Camel Onesie": 1769736443691,
+      "Cannonball": 1769736443691,
+      "Catchup": 1769736443691,
+      "Foreman Beaver": 1769736299019,
+      "Fruitful Fumble": 1769736443691,
+      "Generous Orchard": 1769736297368,
+      "Goblin Quiver": 1769736443691,
+      "Loyal Macaw": 1769736443691,
+      "Macaw": 1769736443691,
       "Spring Guardian": 1768780374432,
-      "Tomato Bombard": 1769733306024,
-      "Tomato Clown": 1769733310436,
+      "Tomato Bombard": 1769736443691,
+      "Tomato Clown": 1769736443691,
       "Butterfly": 1769303514292,
       "Humming Bird": 1769711206638,
       "Petalled Perk": 1769619574865,
@@ -20783,16 +20579,16 @@
       "Flower Crown": 1769711413465,
       "Flower Fox": 1769711413465,
       "Frosted Cakes": 1769719683178,
-      "Kuebiko": 1769733312888,
+      "Kuebiko": 1769734412518,
       "Fast Feasts": 1769733478478,
-      "Bud #1707": 1769733746234,
-      "Goblin Shield": 1769733746234,
-      "Lumberjack's Extra": 1769733746234,
-      "Squirrel": 1769733746234,
-      "Tiki Totem": 1769733746234,
+      "Bud #1707": 1769736294738,
+      "Goblin Shield": 1769736294738,
+      "Lumberjack's Extra": 1769736294738,
+      "Squirrel": 1769736294738,
+      "Tiki Totem": 1769736294738,
       "Tough Tree": 1769731089686,
-      "Tree Charge": 1769733746234,
-      "Wood Nymph Wendy": 1769733746234,
+      "Tree Charge": 1769736294738,
+      "Wood Nymph Wendy": 1769736294738,
       "Bud #365": 1769728577921,
       "Prospector": 1769728577921,
       "Quarry": 1769728577921,
@@ -20820,25 +20616,25 @@
       "Turbo Charged": 1769724687641,
       "Medic Apron": 1753828893028,
       "Blossom Ward": 1768780374432,
-      "Bud #1854": 1769719662217,
-      "Bud #801": 1769719668769,
-      "Coder": 1769719662217,
+      "Bud #1854": 1769734412329,
+      "Bud #801": 1769734412518,
+      "Coder": 1769734412329,
       "Corn Onesie": 1768780374432,
-      "Green Amulet": 1769711348654,
-      "Green Thumb": 1769711361431,
-      "Infernal Pitchfork": 1769719662217,
-      "Laurie the Chuckle Crow": 1769711358548,
-      "Laurie's Gains": 1769711358548,
-      "Lunar Calendar": 1769719668769,
-      "Old Farmer": 1769711361253,
+      "Green Amulet": 1769734409311,
+      "Green Thumb": 1769734412518,
+      "Infernal Pitchfork": 1769734412329,
+      "Laurie the Chuckle Crow": 1769734410690,
+      "Laurie's Gains": 1769734410690,
+      "Lunar Calendar": 1769734412518,
+      "Old Farmer": 1769734412329,
       "Pollen Power Up": 1769711361253,
       "Poppy": 1768780374432,
       "Queen Cornelia": 1768780347460,
-      "Seed Specialist": 1769719668769,
-      "Sir Goldensnout": 1769711343955,
-      "Gnome": 1769711355487,
+      "Seed Specialist": 1769734412518,
+      "Sir Goldensnout": 1769734394085,
+      "Gnome": 1769734408392,
       "Glass Room": 1769719662217,
-      "Hoot": 1769711361253,
+      "Hoot": 1769734412329,
       "Olive Express": 1769719668769,
       "Pharaoh Gnome": 1769719662217,
       "Rice Panda": 1769330255755,
@@ -20876,7 +20672,7 @@
       "Oil Be Back": 1769711201837,
       "Oil Can": 1769711201837,
       "Oil Overalls": 1769711201837,
-      "Sol & Luna": 1769732809838,
+      "Sol & Luna": 1769735868780,
       "Cowbell Necklace": 1769711238070,
       "Longhorn Cowfish": 1769711238070,
       "Mammoth": 1769711238070,
@@ -20965,14 +20761,14 @@
       "Purple Trail": 1769382983878,
       "Alba": 1769733434865,
       "Fishy Chance": 1769733408764,
-      "Fruit Tune Box": 1769733310436,
+      "Fruit Tune Box": 1769736443691,
       "Lab Grown Radish": 1769375295156,
       "Radical Radish": 1769375292839,
       "Desert Rose": 1769303514292,
       "Crab Hat": 1769733434865,
       "Fishy Roll": 1769733434865,
-      "Crop Processor Unit": 1769733498089,
-      "Rapid Rig": 1769733498089,
+      "Crop Processor Unit": 1769734733795,
+      "Rapid Rig": 1769734733795,
       "Summer Guardian": 1769126408803,
       "Lemon Frog": 1769405143546,
       "Lemon Tea Bath": 1769405143546,
@@ -20983,7 +20779,7 @@
       "Bud #2233": 1769299442338,
       "Deep Sea Helm": 1764816051449,
       "Janitor Chicken": 1769684197364,
-      "Autumn's Embrace": 1769711361431,
+      "Autumn's Embrace": 1769734412518,
       "Blossombeard": 1769627448991,
       "Golden Spatula": 1769627448991,
       "Juicy Boost": 1769626750856,
@@ -21007,9 +20803,9 @@
       "Frozen Sheep": 1768159235447,
       "Lady Bug": 1769713274029,
       "Winter Guardian": 1768166736593,
-      "Badger Shrine": 1769733746234,
+      "Badger Shrine": 1769736294738,
       "Golden Cauliflower": 1769387352825,
-      "Groovy Gramophone": 1769733498089,
+      "Groovy Gramophone": 1769734733795,
       "Lava Swimwear": 1769644662605,
       "Oil Gallon": 1769711201837,
       "Chef Apron": 1769644939509,
@@ -21017,29 +20813,29 @@
       "Giant Onion": 1768166736473,
       "Goblin Crown": 1769731606881,
       "Pickaxe Shark": 1769711175461,
-      "Giant Artichoke": 1769711361253,
+      "Giant Artichoke": 1769734412329,
       "Reelmaster's Chair": 1769733434865,
       "Black Bearry": 1768846432139,
-      "Architect Ruler": 1769730607414,
+      "Architect Ruler": 1769735868780,
       "Bucket O' Worms": 1769731918986,
       "Wormy Treat": 1769731918986,
       "Luminous Anglerfish Topper": 1769627101035,
       "Gilded Swordfish": 1769711175461,
       "Saw Fish": 1769733434865,
       "Collie Shrine": 1769730096031,
-      "Tortoise Shrine": 1769733498089,
+      "Tortoise Shrine": 1769734733795,
       "Mole Shrine": 1769728315080,
       "Training Whistle": 1769711238070,
-      "Master Chef's Cleaver": 1769733487634,
-      "Toucan Shrine": 1769733310436,
-      "Sparrow Shrine": 1769711361431,
-      "Fox Shrine": 1769732809838,
+      "Master Chef's Cleaver": 1769736296326,
+      "Toucan Shrine": 1769736443691,
+      "Sparrow Shrine": 1769734412518,
+      "Fox Shrine": 1769735868780,
       "Harvest Hourglass": 1768729159098,
       "Time Warp Totem": 1768099937709,
       "Super Star": 1768091859802,
       "Beetroot Amulet": 1769387342743,
       "Sleepy Chicken": 1769719659670,
-      "Tree Turnaround": 1769733740398,
+      "Tree Turnaround": 1769736290759,
       "Experienced Farmer": 1769677738921,
       "Greenhouse Gamble": 1769694778717,
       "Young Farmer": 1769669781894,
@@ -21065,7 +20861,7 @@
       "Magma Stone": 1769644662605
     },
     "socialFarming": {
-      "points": 29949,
+      "points": 30004,
       "villageProjects": {
         "Farmer's Monument": {
           "cheers": 100,
@@ -21210,14 +21006,14 @@
       },
       "helpIncrease": {
         "boughtAt": [
-          1769646479636,
-          1769646546067,
-          1769646566850
+          1769734614446,
+          1769734664601,
+          1769734686172
         ]
       },
       "weeklyPoints": {
         "week": "2026-01-26",
-        "points": 490
+        "points": 545
       },
       "helpedForCompetition": 608,
       "waves": {
@@ -21277,7 +21073,7 @@
         },
         "Twizzle": {
           "name": "Twizzle",
-          "experience": 127294,
+          "experience": 127304,
           "energy": 995,
           "requests": {
             "food": [
@@ -21292,7 +21088,7 @@
               "Parsnip Cake"
             ]
           },
-          "pettedAt": 1769728309797,
+          "pettedAt": 1769735861495,
           "fetches": {
             "Acorn": 106,
             "Heart leaf": 121
@@ -21326,7 +21122,7 @@
         },
         "Nibbles": {
           "name": "Nibbles",
-          "experience": 126914,
+          "experience": 126924,
           "energy": 1010,
           "requests": {
             "food": [
@@ -21341,7 +21137,7 @@
               "Radish Cake"
             ]
           },
-          "pettedAt": 1769728310064,
+          "pettedAt": 1769735863332,
           "dailySocialXP": {
             "2026-01-30": 5
           },
@@ -21353,7 +21149,7 @@
         },
         "Biscuit": {
           "name": "Biscuit",
-          "experience": 42161,
+          "experience": 42171,
           "energy": 22800,
           "requests": {
             "food": [
@@ -21371,7 +21167,7 @@
               "2026-01-30": 2
             }
           },
-          "pettedAt": 1769728310378,
+          "pettedAt": 1769735862789,
           "dailySocialXP": {
             "2026-01-30": 5
           }
@@ -21406,7 +21202,7 @@
         "65": {
           "id": 65,
           "name": "Pet #65",
-          "experience": 187377,
+          "experience": 187387,
           "energy": 281455,
           "requests": {
             "food": [
@@ -21427,7 +21223,7 @@
               "2026-01-30": 2
             }
           },
-          "pettedAt": 1769728305307,
+          "pettedAt": 1769735865176,
           "traits": {
             "type": "Phoenix",
             "fur": "Ghost-Teal",
@@ -21448,7 +21244,7 @@
         "141": {
           "id": 141,
           "name": "Pet #141",
-          "experience": 130010,
+          "experience": 130020,
           "energy": 56235,
           "requests": {
             "food": [
@@ -21466,7 +21262,7 @@
               "Cauliflower Cake"
             ]
           },
-          "pettedAt": 1769728305005,
+          "pettedAt": 1769735865434,
           "traits": {
             "type": "Ram",
             "fur": "Cream",
@@ -21491,7 +21287,7 @@
         "475": {
           "id": 475,
           "name": "Pet #475",
-          "experience": 129342,
+          "experience": 129352,
           "energy": 35440,
           "requests": {
             "food": [
@@ -21509,7 +21305,7 @@
               "Cauliflower Cake"
             ]
           },
-          "pettedAt": 1769728304475,
+          "pettedAt": 1769735864656,
           "traits": {
             "type": "Griffin",
             "fur": "Dark-Green",
@@ -21533,7 +21329,7 @@
         "628": {
           "name": "Pet #628",
           "id": 628,
-          "experience": 128132,
+          "experience": 128142,
           "energy": 1895,
           "requests": {
             "food": [
@@ -21551,7 +21347,7 @@
               "Pizza Margherita"
             ]
           },
-          "pettedAt": 1769728303904,
+          "pettedAt": 1769735864149,
           "traits": {
             "type": "Bear",
             "fur": "Brown",
@@ -21578,7 +21374,7 @@
         "682": {
           "name": "Pet #682",
           "id": 682,
-          "experience": 129647,
+          "experience": 129657,
           "energy": 26655,
           "requests": {
             "food": [
@@ -21596,7 +21392,7 @@
               "Spaghetti al Limone"
             ]
           },
-          "pettedAt": 1769728304764,
+          "pettedAt": 1769735865698,
           "traits": {
             "type": "Warthog",
             "fur": "Grey",
@@ -21644,7 +21440,7 @@
         "826": {
           "name": "Pet #826",
           "id": 826,
-          "experience": 158517,
+          "experience": 158527,
           "energy": 159095,
           "requests": {
             "food": [
@@ -21665,7 +21461,7 @@
               "2026-01-30": 1
             }
           },
-          "pettedAt": 1769728305587,
+          "pettedAt": 1769735866117,
           "traits": {
             "type": "Wolf",
             "fur": "Dark-Green",
@@ -21685,7 +21481,7 @@
         "866": {
           "name": "Pet #866",
           "id": 866,
-          "experience": 132280,
+          "experience": 132290,
           "energy": 19395,
           "requests": {
             "food": [
@@ -21703,7 +21499,7 @@
               "Cabbage Cake"
             ]
           },
-          "pettedAt": 1769728304222,
+          "pettedAt": 1769735864403,
           "traits": {
             "type": "Dragon",
             "fur": "Dark-Green",
