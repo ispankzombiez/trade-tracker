@@ -7,9 +7,9 @@
     "earned_sfl": 7919.49,
     "earned_coins": 17662.0,
     "spent_sfl": 7980.17,
-    "items_sold": 4503.0,
+    "items_sold": 4510.0,
     "trade_points": 9373.29,
-    "last_updated": "2026-01-30 07:34 PM",
+    "last_updated": "2026-01-30 07:51 PM",
     "active_listings": 21
   },
   "buys": [
@@ -51,6 +51,78 @@
     }
   ],
   "sells": [
+    {
+      "date": "2026-01-30",
+      "time": "07:41 PM",
+      "type": "SELL",
+      "item": "Milk",
+      "quantity": 60,
+      "price_text": "7.284 SFL",
+      "price": 7.284,
+      "counterparty": "MCDUCK",
+      "farm_id": "-",
+      "trade_id": "10eb09fa"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "07:38 PM",
+      "type": "SELL",
+      "item": "Kale",
+      "quantity": 150,
+      "price_text": "3.4125 SFL",
+      "price": 3.4125,
+      "counterparty": "Propenzo",
+      "farm_id": "-",
+      "trade_id": "04c94bf7"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "07:38 PM",
+      "type": "SELL",
+      "item": "Kale",
+      "quantity": 200,
+      "price_text": "4.55 SFL",
+      "price": 4.55,
+      "counterparty": "Propenzo",
+      "farm_id": "-",
+      "trade_id": "e5015381"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "07:37 PM",
+      "type": "SELL",
+      "item": "Milk",
+      "quantity": 40,
+      "price_text": "4.856 SFL",
+      "price": 4.856,
+      "counterparty": "Jul1a",
+      "farm_id": "-",
+      "trade_id": "feb59e85"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "07:36 PM",
+      "type": "SELL",
+      "item": "Milk",
+      "quantity": 80,
+      "price_text": "9.712 SFL",
+      "price": 9.712,
+      "counterparty": "Skaffatar",
+      "farm_id": "-",
+      "trade_id": "fad71a51"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "07:36 PM",
+      "type": "SELL",
+      "item": "Milk",
+      "quantity": 70,
+      "price_text": "8.498 SFL",
+      "price": 8.498,
+      "counterparty": "Skaffatar",
+      "farm_id": "-",
+      "trade_id": "fe775a13"
+    },
     {
       "date": "2026-01-30",
       "time": "07:32 PM",
@@ -799,12 +871,12 @@
   "last_updated": null,
   "stats": {
     "total_buys": 3,
-    "total_sells": 62,
+    "total_sells": 68,
     "buy_volume": 3.1991,
-    "sell_volume": 259.85499999999996,
-    "gross_profit": 256.6559,
+    "sell_volume": 298.16749999999996,
+    "gross_profit": 294.9684,
     "avg_buy_price": 1.0663666666666667,
-    "avg_sell_price": 4.191209677419354,
+    "avg_sell_price": 4.384816176470587,
     "most_traded_items": {},
     "recent_activity": [
       {
@@ -836,12 +908,61 @@
       },
       {
         "type": "SELL",
+        "item": "Milk",
+        "quantity": 60,
+        "price": 7.284,
+        "date": "2026-01-30",
+        "time": "07:41 PM",
+        "username": "thinktronik"
+      },
+      {
+        "type": "SELL",
+        "item": "Kale",
+        "quantity": 150,
+        "price": 3.4125,
+        "date": "2026-01-30",
+        "time": "07:38 PM",
+        "username": "thinktronik"
+      },
+      {
+        "type": "SELL",
+        "item": "Kale",
+        "quantity": 200,
+        "price": 4.55,
+        "date": "2026-01-30",
+        "time": "07:38 PM"
+      },
+      {
+        "type": "SELL",
+        "item": "Milk",
+        "quantity": 40,
+        "price": 4.856,
+        "date": "2026-01-30",
+        "time": "07:37 PM"
+      },
+      {
+        "type": "SELL",
+        "item": "Milk",
+        "quantity": 80,
+        "price": 9.712,
+        "date": "2026-01-30",
+        "time": "07:36 PM"
+      },
+      {
+        "type": "SELL",
+        "item": "Milk",
+        "quantity": 70,
+        "price": 8.498,
+        "date": "2026-01-30",
+        "time": "07:36 PM"
+      },
+      {
+        "type": "SELL",
         "item": "Kale",
         "quantity": 100,
         "price": 2.275,
         "date": "2026-01-30",
-        "time": "07:32 PM",
-        "username": "thinktronik"
+        "time": "07:32 PM"
       },
       {
         "type": "SELL",
@@ -849,8 +970,7 @@
         "quantity": 60,
         "price": 7.284,
         "date": "2026-01-30",
-        "time": "07:23 PM",
-        "username": "thinktronik"
+        "time": "07:23 PM"
       },
       {
         "type": "SELL",
@@ -923,65 +1043,17 @@
         "price": 3.278,
         "date": "2026-01-30",
         "time": "05:30 AM"
-      },
-      {
-        "type": "SELL",
-        "item": "Rice",
-        "quantity": 15,
-        "price": 5.2699,
-        "date": "2026-01-30",
-        "time": "02:05 AM"
-      },
-      {
-        "type": "SELL",
-        "item": "Olive",
-        "quantity": 15,
-        "price": 5.955,
-        "date": "2026-01-29",
-        "time": "11:26 PM"
-      },
-      {
-        "type": "SELL",
-        "item": "Gold",
-        "quantity": 30,
-        "price": 7.4846,
-        "date": "2026-01-29",
-        "time": "08:57 PM"
-      },
-      {
-        "type": "SELL",
-        "item": "Wheat",
-        "quantity": 250,
-        "price": 3.528,
-        "date": "2026-01-29",
-        "time": "08:21 PM"
-      },
-      {
-        "type": "SELL",
-        "item": "Gold",
-        "quantity": 40,
-        "price": 10.2,
-        "date": "2026-01-29",
-        "time": "07:20 PM"
-      },
-      {
-        "type": "SELL",
-        "item": "Gold",
-        "quantity": 20,
-        "price": 4.82,
-        "date": "2026-01-29",
-        "time": "05:12 PM"
       }
     ],
-    "profit_margin": 8022.753274358412,
+    "profit_margin": 9220.35572504767,
     "most_bought_items": {
       "Yam": 887,
       "Broccoli": 259
     },
     "most_sold_items": {
       "Wheat": 1050,
-      "Milk": 635,
-      "Kale": 550,
+      "Kale": 900,
+      "Milk": 885,
       "Artichoke": 450,
       "Barley": 450,
       "Wood": 400,
@@ -1195,7 +1267,7 @@
       "Parsnip": 133.38849999999994,
       "Radish": 4759.9201,
       "Wheat": 10266.4535,
-      "Kale": 2945.4852,
+      "Kale": 2495.4852,
       "Eggplant": 2087.0092,
       "Corn": 4074.8443999999995,
       "Soybean": 2101.9547,
