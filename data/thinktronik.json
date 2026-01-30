@@ -7,13 +7,25 @@
     "earned_sfl": 7919.49,
     "earned_coins": 18162.0,
     "spent_sfl": 7980.17,
-    "items_sold": 4497.0,
+    "items_sold": 4498.0,
     "trade_points": 9373.29,
-    "last_updated": "2026-01-30 09:37 AM",
+    "last_updated": "2026-01-30 09:57 AM",
     "active_listings": 12
   },
   "buys": [],
   "sells": [
+    {
+      "date": "2026-01-30",
+      "time": "09:43 AM",
+      "type": "SELL",
+      "item": "Ruffroot",
+      "quantity": 5,
+      "price_text": "2.5625 SFL",
+      "price": 2.5625,
+      "counterparty": "FaBuu",
+      "farm_id": "-",
+      "trade_id": "fcc155ef"
+    },
     {
       "date": "2026-01-30",
       "time": "09:21 AM",
@@ -678,14 +690,23 @@
   "last_updated": null,
   "stats": {
     "total_buys": 0,
-    "total_sells": 55,
+    "total_sells": 56,
     "buy_volume": 0,
-    "sell_volume": 233.98270000000002,
-    "gross_profit": 233.98270000000002,
+    "sell_volume": 236.54520000000002,
+    "gross_profit": 236.54520000000002,
     "avg_buy_price": 0,
-    "avg_sell_price": 4.25423090909091,
+    "avg_sell_price": 4.224021428571429,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "SELL",
+        "item": "Ruffroot",
+        "quantity": 5,
+        "price": 2.5625,
+        "date": "2026-01-30",
+        "time": "09:43 AM",
+        "username": "thinktronik"
+      },
       {
         "type": "SELL",
         "item": "Ruffroot",
@@ -728,8 +749,7 @@
         "quantity": 15,
         "price": 5.2699,
         "date": "2026-01-30",
-        "time": "02:05 AM",
-        "username": "thinktronik"
+        "time": "02:05 AM"
       },
       {
         "type": "SELL",
@@ -842,14 +862,6 @@
         "price": 6.025,
         "date": "2026-01-29",
         "time": "03:56 PM"
-      },
-      {
-        "type": "SELL",
-        "item": "Wheat",
-        "quantity": 150,
-        "price": 2.1168,
-        "date": "2026-01-29",
-        "time": "03:55 PM"
       }
     ],
     "profit_margin": 0,
@@ -864,7 +876,7 @@
       "Iron": 125,
       "Olive": 40,
       "Rice": 30,
-      "Ruffroot": 5
+      "Ruffroot": 10
     }
   },
   "active_listings": [
