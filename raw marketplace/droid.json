@@ -1,8 +1,8 @@
 {
   "id": 145238,
-  "totalTrades": 16676,
+  "totalTrades": 16677,
   "level": 128,
-  "weeklyFlowerSpent": 211.6866,
+  "weeklyFlowerSpent": 214.8866,
   "weeklyFlowerEarned": 19.0142075,
   "tokenUri": "0_v1_48_90_184_474_18_89_226_209_30_381_86_427_0_189_0_177",
   "username": "Droid",
@@ -103,15 +103,15 @@
       "trades": 38
     },
     {
-      "id": 129916,
-      "tokenUri": "0_v1_348_1_5_0_0_41_257_443_30_371_0_0_0_0_417_0_516",
-      "username": "NWK",
-      "trades": 28
-    },
-    {
       "id": 1394833854317271,
       "tokenUri": "0_v1_306_0_5_15_35_41_257_378_457_382_0_366_305_468_0_177",
       "username": "Rokirok",
+      "trades": 28
+    },
+    {
+      "id": 129916,
+      "tokenUri": "0_v1_348_1_5_0_0_41_257_443_30_371_0_0_0_0_417_0_516",
+      "username": "NWK",
       "trades": 28
     },
     {
@@ -122,6 +122,25 @@
     }
   ],
   "trades": [
+    {
+      "id": "d0264092",
+      "sfl": 3.2,
+      "quantity": 200,
+      "itemId": 602,
+      "collection": "collectibles",
+      "source": "listing",
+      "fulfilledAt": 1769754609087,
+      "initiatedBy": {
+        "id": 1068480843228932,
+        "bumpkinUri": "0_v1_47_3_5_14_35_89_45_476_0_0_0_0_451",
+        "username": "Sovereign"
+      },
+      "fulfilledBy": {
+        "id": 145238,
+        "bumpkinUri": "0_v1_48_90_184_474_18_89_226_209_30_381_86_427_0_189_0_177",
+        "username": "Droid"
+      }
+    },
     {
       "id": "1165b0b4",
       "sfl": 2.41,
@@ -1046,25 +1065,6 @@
         "id": 722812519921009,
         "bumpkinUri": "0_v1_32_4_52_181_234_89_455_517_0_0_0_0_0_189_0_266",
         "username": "Tapiokka"
-      },
-      "fulfilledBy": {
-        "id": 145238,
-        "bumpkinUri": "0_v1_48_90_184_474_18_89_226_209_30_381_86_427_0_189_0_177",
-        "username": "Droid"
-      }
-    },
-    {
-      "id": "60e4dae6",
-      "sfl": 3.717,
-      "quantity": 7,
-      "itemId": 636,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769667735844,
-      "initiatedBy": {
-        "id": 7954116537189880,
-        "bumpkinUri": "0_v1_32_90_5_15_35_41_23_476_0_0_0_458",
-        "username": "Bighouse"
       },
       "fulfilledBy": {
         "id": 145238,

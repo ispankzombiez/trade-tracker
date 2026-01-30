@@ -1,18 +1,30 @@
 {
   "username": "droid",
   "overview": {
-    "balance": 3.24,
-    "coins": 181057.0,
+    "balance": 0.04,
+    "coins": 174537.0,
     "gems": 0.0,
     "earned_sfl": 8175.19,
-    "earned_coins": 181057.0,
+    "earned_coins": 174537.0,
     "spent_sfl": 12297.69,
     "items_sold": 7583.0,
     "trade_points": 11367.53,
-    "last_updated": "2026-01-30 06:23 AM",
+    "last_updated": "2026-01-30 06:41 AM",
     "active_listings": 8
   },
   "buys": [
+    {
+      "date": "2026-01-30",
+      "time": "06:30 AM",
+      "type": "BUY",
+      "item": "Stone",
+      "quantity": 200,
+      "price_text": "3.2 SFL",
+      "price": 3.2,
+      "counterparty": "Sovereign",
+      "farm_id": "-",
+      "trade_id": "d0264092"
+    },
     {
       "date": "2026-01-30",
       "time": "04:55 AM",
@@ -846,15 +858,24 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 55,
+    "total_buys": 56,
     "total_sells": 14,
-    "buy_volume": 58.67410000000002,
+    "buy_volume": 61.87410000000002,
     "sell_volume": 51.1035,
-    "gross_profit": -7.57060000000002,
-    "avg_buy_price": 1.0668018181818184,
+    "gross_profit": -10.770600000000023,
+    "avg_buy_price": 1.1048946428571431,
     "avg_sell_price": 3.6502499999999998,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Stone",
+        "quantity": 200,
+        "price": 3.2,
+        "date": "2026-01-30",
+        "time": "06:30 AM",
+        "username": "droid"
+      },
       {
         "type": "BUY",
         "item": "Yellow Daffodil",
@@ -897,8 +918,7 @@
         "quantity": 50,
         "price": 0.4864,
         "date": "2026-01-30",
-        "time": "04:52 AM",
-        "username": "droid"
+        "time": "04:52 AM"
       },
       {
         "type": "BUY",
@@ -1011,22 +1031,14 @@
         "price": 0.3987,
         "date": "2026-01-29",
         "time": "05:20 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Stone",
-        "quantity": 25,
-        "price": 0.3987,
-        "date": "2026-01-29",
-        "time": "05:19 PM"
       }
     ],
-    "profit_margin": -12.90279697515602,
+    "profit_margin": -17.407283499881242,
     "most_bought_items": {
       "Broccoli": 2300,
       "Yam": 1650,
       "Carrot": 600,
-      "Stone": 273,
+      "Stone": 473,
       "Artichoke": 263,
       "Milk": 114,
       "Parsnip": 100,
@@ -1127,7 +1139,7 @@
       "Sunflower": 25857.035199987436,
       "Potato": 13598.001499994694,
       "Pumpkin": 291.6692,
-      "Carrot": 494.6099,
+      "Carrot": 721.4099,
       "Cabbage": 52.5857,
       "Beetroot": 38.45560000000006,
       "Cauliflower": 14.750899999999925,
@@ -1143,7 +1155,7 @@
       "Barley": 61.73979999999994,
       "Rhubarb": 96.35,
       "Zucchini": 588.6496,
-      "Yam": 90.3633,
+      "Yam": 75.3633,
       "Broccoli": 10.8199,
       "Pepper": 46.7,
       "Onion": 685.7929,
@@ -1163,8 +1175,8 @@
       "Celestine": 2.4000000000000252
     },
     "resources": {
-      "Wood": 61.32,
-      "Stone": 0.04,
+      "Wood": 4.32,
+      "Stone": 105.04,
       "Iron": 21.8,
       "Gold": 0.13,
       "Obsidian": 10.2,
