@@ -5981,32 +5981,32 @@
         }
       ],
       "shop": {
-        "Flower Coin": {
-          "type": "collectible",
+        "Luvvy Head": {
+          "type": "wearable",
           "cost": {
             "items": {
-              "Love Charm": 1500
+              "Love Charm": 650
             }
           },
-          "name": "Flower Coin"
+          "name": "Luvvy Head"
         },
-        "Gourmet Hourglass": {
+        "Time Warp Totem": {
           "type": "collectible",
           "cost": {
             "items": {
-              "Love Charm": 325
+              "Love Charm": 100
             }
           },
-          "name": "Gourmet Hourglass"
+          "name": "Time Warp Totem"
         },
-        "Bronze Love Box": {
+        "Silver Tool Box": {
           "type": "collectible",
           "cost": {
             "items": {
-              "Love Charm": 130
+              "Love Charm": 455
             }
           },
-          "name": "Bronze Love Box"
+          "name": "Silver Tool Box"
         }
       },
       "boughtAt": {},
@@ -7688,52 +7688,52 @@
         "mine-whack": {
           "coins": 0,
           "items": {
-            "Mark": 60
+            "Mark": 40
           },
           "wearables": {},
-          "score": 3500,
-          "startAt": 1769644800000,
-          "endAt": 1769731200000
+          "score": 2500,
+          "startAt": 1769731200000,
+          "endAt": 1769817600000
         },
         "chicken-rescue": {
           "coins": 0,
           "items": {
-            "Mark": 50
+            "Mark": 35
           },
           "wearables": {},
-          "score": 45,
-          "startAt": 1769644800000,
-          "endAt": 1769731200000
+          "score": 30,
+          "startAt": 1769731200000,
+          "endAt": 1769817600000
         },
         "crops-and-chickens": {
           "coins": 0,
           "items": {
-            "Mark": 20
+            "Mark": 60
           },
           "wearables": {},
-          "score": 500,
-          "startAt": 1769644800000,
-          "endAt": 1769731200000
+          "score": 4000,
+          "startAt": 1769731200000,
+          "endAt": 1769817600000
         },
         "fruit-dash": {
           "coins": 0,
           "items": {
-            "Mark": 55
+            "Mark": 40
           },
           "wearables": {},
-          "score": 2750,
-          "startAt": 1769644800000,
-          "endAt": 1769731200000
+          "score": 2000,
+          "startAt": 1769731200000,
+          "endAt": 1769817600000
         },
         "memory": {
           "coins": 0,
           "items": {
-            "Mark": 20
+            "Mark": 60
           },
           "wearables": {},
-          "score": 150,
-          "startAt": 1769644800000,
-          "endAt": 1769731200000
+          "score": 750,
+          "startAt": 1769731200000,
+          "endAt": 1769817600000
         }
       }
     },
@@ -7826,7 +7826,7 @@
           "petXP": 9870,
           "score": 4224,
           "collectivePet": {
-            "totalXP": 5600282.5,
+            "totalXP": 5678182.5,
             "goalXP": 5445481,
             "goalReached": true,
             "streak": 8,
@@ -7909,250 +7909,21 @@
     },
     "desert": {
       "digging": {
-        "grid": [
-          {
-            "dugAt": 1769723458964,
-            "x": 8,
-            "y": 8,
-            "items": {
-              "Crab": 1
-            },
-            "tool": "Sand Shovel"
-          },
-          {
-            "dugAt": 1769723461448,
-            "x": 7,
-            "y": 8,
-            "items": {
-              "Camel Bone": 1
-            },
-            "tool": "Sand Shovel"
-          },
-          {
-            "dugAt": 1769723465769,
-            "x": 7,
-            "y": 9,
-            "items": {
-              "Moon Crystal": 1
-            },
-            "tool": "Sand Shovel"
-          },
-          {
-            "dugAt": 1769723467837,
-            "x": 1,
-            "y": 8,
-            "items": {
-              "Crab": 1
-            },
-            "tool": "Sand Shovel"
-          },
-          {
-            "dugAt": 1769723469239,
-            "x": 2,
-            "y": 8,
-            "items": {
-              "Old Bottle": 1
-            },
-            "tool": "Sand Shovel"
-          },
-          {
-            "dugAt": 1769723472008,
-            "x": 1,
-            "y": 1,
-            "items": {
-              "Wood": 1
-            },
-            "tool": "Sand Shovel"
-          },
-          {
-            "dugAt": 1769723474544,
-            "x": 8,
-            "y": 1,
-            "items": {
-              "Camel Bone": 1
-            },
-            "tool": "Sand Shovel"
-          },
-          {
-            "dugAt": 1769723480581,
-            "x": 8,
-            "y": 2,
-            "items": {
-              "Crab": 1
-            },
-            "tool": "Sand Shovel"
-          },
-          {
-            "dugAt": 1769723481750,
-            "x": 7,
-            "y": 2,
-            "items": {
-              "Sand": 2
-            },
-            "tool": "Sand Shovel"
-          },
-          {
-            "dugAt": 1769723485420,
-            "x": 9,
-            "y": 1,
-            "items": {
-              "Camel Bone": 1
-            },
-            "tool": "Sand Shovel"
-          },
-          {
-            "dugAt": 1769723493526,
-            "x": 9,
-            "y": 2,
-            "items": {
-              "Moon Crystal": 1
-            },
-            "tool": "Sand Shovel"
-          },
-          {
-            "dugAt": 1769723495995,
-            "x": 8,
-            "y": 4,
-            "items": {
-              "Sand": 2
-            },
-            "tool": "Sand Shovel"
-          },
-          {
-            "dugAt": 1769723498017,
-            "x": 8,
-            "y": 6,
-            "items": {
-              "Crab": 1
-            },
-            "tool": "Sand Shovel"
-          },
-          {
-            "dugAt": 1769723499447,
-            "x": 7,
-            "y": 6,
-            "items": {
-              "Crab": 1
-            },
-            "tool": "Sand Shovel"
-          },
-          {
-            "dugAt": 1769723505905,
-            "x": 8,
-            "y": 7,
-            "items": {
-              "Sea Cucumber": 1
-            },
-            "tool": "Sand Shovel"
-          },
-          {
-            "dugAt": 1769723508104,
-            "x": 4,
-            "y": 8,
-            "items": {
-              "Crab": 1
-            },
-            "tool": "Sand Shovel"
-          },
-          {
-            "dugAt": 1769723509540,
-            "x": 4,
-            "y": 7,
-            "items": {
-              "Sand": 2
-            },
-            "tool": "Sand Shovel"
-          },
-          {
-            "dugAt": 1769723512125,
-            "x": 1,
-            "y": 6,
-            "items": {
-              "Sand": 2
-            },
-            "tool": "Sand Shovel"
-          },
-          {
-            "dugAt": 1769723514443,
-            "x": 1,
-            "y": 3,
-            "items": {
-              "Crab": 1
-            },
-            "tool": "Sand Shovel"
-          },
-          {
-            "dugAt": 1769723515694,
-            "x": 2,
-            "y": 3,
-            "items": {
-              "Crab": 1
-            },
-            "tool": "Sand Shovel"
-          },
-          {
-            "dugAt": 1769723517813,
-            "x": 2,
-            "y": 4,
-            "items": {
-              "Crab": 1
-            },
-            "tool": "Sand Shovel"
-          },
-          {
-            "dugAt": 1769723519047,
-            "x": 1,
-            "y": 4,
-            "items": {
-              "Vase": 1
-            },
-            "tool": "Sand Shovel"
-          },
-          {
-            "dugAt": 1769723521016,
-            "x": 0,
-            "y": 5,
-            "items": {
-              "Hieroglyph": 1
-            },
-            "tool": "Sand Shovel"
-          },
-          {
-            "dugAt": 1769723523134,
-            "x": 3,
-            "y": 3,
-            "items": {
-              "Camel Bone": 1
-            },
-            "tool": "Sand Shovel"
-          },
-          {
-            "dugAt": 1769723529756,
-            "x": 4,
-            "y": 4,
-            "items": {
-              "Moon Crystal": 1
-            },
-            "tool": "Sand Shovel"
-          }
-        ],
+        "grid": [],
         "extraDigs": 2,
         "streak": {
           "collectedAt": 1769723537743,
           "count": 48,
           "totalClaimed": 168
         },
-        "completedPatterns": [
-          "ARTEFACT_SEVENTEEN"
-        ],
+        "completedPatterns": [],
         "patterns": [
+          "ARTEFACT_SIXTEEN",
+          "ARTEFACT_TWENTY",
           "ARTEFACT_SEVENTEEN",
-          "ARTEFACT_TWENTY_TWO",
-          "ARTEFACT_TWENTY_THREE",
-          "HIEROGLYPH",
           "HIEROGLYPH",
           "SEA_CUCUMBERS",
-          "OLD_BOTTLE",
+          "SEAWEED",
           "WOODEN_COMPASS"
         ]
       }

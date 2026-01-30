@@ -1,8 +1,8 @@
 {
   "id": 142979,
-  "totalTrades": 24081,
+  "totalTrades": 24082,
   "level": 106,
-  "weeklyFlowerSpent": 152.0353,
+  "weeklyFlowerSpent": 152.2099,
   "weeklyFlowerEarned": 150.4965725,
   "tokenUri": "0_v1_83_90_184_503_504_0_414_505_30_0_86_0_0_374",
   "username": "DeltaOmega",
@@ -16,15 +16,15 @@
       "trades": 68
     },
     {
-      "id": 60802,
-      "tokenUri": "0_v1_47_90_51_13_20_89_23_0_0_0_0_439_0_189",
-      "username": "Kuradike",
-      "trades": 52
-    },
-    {
       "id": 7171535366555767,
       "tokenUri": "0_v1_348_90_184_181_447_334_332_196_0_228_86_0_0_189_0_266",
       "username": "Pedrico",
+      "trades": 52
+    },
+    {
+      "id": 60802,
+      "tokenUri": "0_v1_47_90_51_13_20_89_23_0_0_0_0_439_0_189",
+      "username": "Kuradike",
       "trades": 52
     },
     {
@@ -41,6 +41,25 @@
     }
   ],
   "trades": [
+    {
+      "id": "928d9cac",
+      "sfl": 1.4583,
+      "quantity": 25,
+      "itemId": 642,
+      "collection": "collectibles",
+      "source": "listing",
+      "fulfilledAt": 1769731066471,
+      "initiatedBy": {
+        "id": 1234053693657651,
+        "bumpkinUri": "0_v1_32_3_487_512_510_34_257_319_457_371_0_0_0_461_0_0_498",
+        "username": "KrustyKrack"
+      },
+      "fulfilledBy": {
+        "id": 142979,
+        "bumpkinUri": "0_v1_83_90_184_503_504_0_414_505_30_0_86_0_0_374",
+        "username": "DeltaOmega"
+      }
+    },
     {
       "id": "a5d96422",
       "sfl": 0.96,
@@ -970,25 +989,6 @@
         "id": 142979,
         "bumpkinUri": "0_v1_53_90_63_335_338_339_257_379_30_383_408_0_0_440_0_177_444",
         "username": "Anatolich"
-      }
-    },
-    {
-      "id": "d4d68e5d",
-      "sfl": 0.708,
-      "quantity": 60,
-      "itemId": 265,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769563981081,
-      "initiatedBy": {
-        "id": 4002525172695157,
-        "bumpkinUri": "0_v1_48_90_5_13_234_89_23_476_0_0_0_458",
-        "username": "Mavian"
-      },
-      "fulfilledBy": {
-        "id": 142979,
-        "bumpkinUri": "0_v1_83_90_184_503_504_0_414_505_30_0_86_0_0_374",
-        "username": "DeltaOmega"
       }
     }
   ]

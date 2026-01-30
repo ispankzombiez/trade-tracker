@@ -534,7 +534,7 @@
       "Trade Point": "8513.616588859362254",
       "Sea Cucumber": "28",
       "Sand Drill": "10",
-      "Love Charm": "4676.6",
+      "Love Charm": "4677.6",
       "Dung": "462",
       "Trash": "67",
       "Rat": "5",
@@ -6434,32 +6434,32 @@
         }
       ],
       "shop": {
-        "Flower Coin": {
-          "type": "collectible",
+        "Luvvy Head": {
+          "type": "wearable",
           "cost": {
             "items": {
-              "Love Charm": 1500
+              "Love Charm": 650
             }
           },
-          "name": "Flower Coin"
+          "name": "Luvvy Head"
         },
-        "Gourmet Hourglass": {
+        "Time Warp Totem": {
           "type": "collectible",
           "cost": {
             "items": {
-              "Love Charm": 325
+              "Love Charm": 100
             }
           },
-          "name": "Gourmet Hourglass"
+          "name": "Time Warp Totem"
         },
-        "Bronze Love Box": {
+        "Silver Tool Box": {
           "type": "collectible",
           "cost": {
             "items": {
-              "Love Charm": 130
+              "Love Charm": 455
             }
           },
-          "name": "Bronze Love Box"
+          "name": "Silver Tool Box"
         }
       },
       "boughtAt": {
@@ -8255,52 +8255,52 @@
         "mine-whack": {
           "coins": 0,
           "items": {
-            "Mark": 60
+            "Mark": 40
           },
           "wearables": {},
-          "score": 3500,
-          "startAt": 1769644800000,
-          "endAt": 1769731200000
+          "score": 2500,
+          "startAt": 1769731200000,
+          "endAt": 1769817600000
         },
         "chicken-rescue": {
           "coins": 0,
           "items": {
-            "Mark": 50
+            "Mark": 35
           },
           "wearables": {},
-          "score": 45,
-          "startAt": 1769644800000,
-          "endAt": 1769731200000
+          "score": 30,
+          "startAt": 1769731200000,
+          "endAt": 1769817600000
         },
         "crops-and-chickens": {
           "coins": 0,
           "items": {
-            "Mark": 20
+            "Mark": 60
           },
           "wearables": {},
-          "score": 500,
-          "startAt": 1769644800000,
-          "endAt": 1769731200000
+          "score": 4000,
+          "startAt": 1769731200000,
+          "endAt": 1769817600000
         },
         "fruit-dash": {
           "coins": 0,
           "items": {
-            "Mark": 55
+            "Mark": 40
           },
           "wearables": {},
-          "score": 2750,
-          "startAt": 1769644800000,
-          "endAt": 1769731200000
+          "score": 2000,
+          "startAt": 1769731200000,
+          "endAt": 1769817600000
         },
         "memory": {
           "coins": 0,
           "items": {
-            "Mark": 20
+            "Mark": 60
           },
           "wearables": {},
-          "score": 150,
-          "startAt": 1769644800000,
-          "endAt": 1769731200000
+          "score": 750,
+          "startAt": 1769731200000,
+          "endAt": 1769817600000
         }
       }
     },
@@ -8466,7 +8466,7 @@
           "petXP": 0,
           "score": 0,
           "collectivePet": {
-            "totalXP": 5601082.5,
+            "totalXP": 5678182.5,
             "goalXP": 5445481,
             "goalReached": true,
             "streak": 8,
@@ -8532,13 +8532,12 @@
         },
         "completedPatterns": [],
         "patterns": [
+          "ARTEFACT_SIXTEEN",
+          "ARTEFACT_TWENTY",
           "ARTEFACT_SEVENTEEN",
-          "ARTEFACT_TWENTY_TWO",
-          "ARTEFACT_TWENTY_THREE",
-          "HIEROGLYPH",
           "HIEROGLYPH",
           "SEA_CUCUMBERS",
-          "OLD_BOTTLE",
+          "SEAWEED",
           "WOODEN_COMPASS"
         ]
       }
@@ -9676,7 +9675,7 @@
       "Generous Orchard": 1769724079533,
       "Sleepy Chicken": 1769724144655,
       "Master Chef's Cleaver": 1769099909191,
-      "Lunar Temple": 1769727200748,
+      "Lunar Temple": 1769731955140,
       "Saw Fish": 1769708618361,
       "Giant Gold Bone": 1769644958672,
       "Kernaldo": 1768779850039,
@@ -9685,10 +9684,10 @@
       "Sunshower": 1769468849661
     },
     "socialFarming": {
-      "points": 19971,
+      "points": 19984,
       "villageProjects": {
         "Miner's Monument": {
-          "cheers": 2444,
+          "cheers": 2448,
           "winnerId": 3271019388298246
         },
         "Woodcutter's Monument": {
@@ -9704,7 +9703,7 @@
           "winnerId": 3460380664746023
         },
         "Cornucopia": {
-          "cheers": 334,
+          "cheers": 338,
           "winnerId": 3460380664746023
         }
       },
@@ -9735,32 +9734,32 @@
         ]
       },
       "clutter": {
-        "spawnedAt": 1769644954430,
+        "spawnedAt": 1769731620839,
         "locations": {
-          "27f6cd8f": {
-            "type": "Weed",
-            "x": -9,
-            "y": -7
-          },
-          "4c00d599": {
-            "type": "Dung",
-            "x": 5,
-            "y": -11
-          },
-          "4e95d2bc": {
+          "01bc2fe2": {
             "type": "Dung",
             "x": -11,
-            "y": 1
+            "y": -3
           },
-          "96fd6896": {
+          "115802f0": {
             "type": "Dung",
-            "x": -2,
-            "y": -11
+            "x": -9,
+            "y": -14
           },
-          "bd862916": {
+          "a0f01b35": {
             "type": "Weed",
-            "x": -6,
-            "y": 12
+            "x": 0,
+            "y": 15
+          },
+          "abb89589": {
+            "type": "Dung",
+            "x": -15,
+            "y": 5
+          },
+          "c61232f0": {
+            "type": "Weed",
+            "x": -10,
+            "y": 3
           }
         }
       },
@@ -9776,7 +9775,7 @@
       },
       "weeklyPoints": {
         "week": "2026-01-26",
-        "points": 380
+        "points": 393
       },
       "helpedForCompetition": 142,
       "waves": {
@@ -9790,7 +9789,7 @@
       "common": {
         "Barkley": {
           "name": "Barkley",
-          "experience": 6505,
+          "experience": 6515,
           "energy": 540,
           "requests": {
             "food": [
@@ -9806,13 +9805,13 @@
             "Chewed Bone": -95578899
           },
           "dailySocialXP": {
-            "2026-01-29": 30
+            "2026-01-30": 10
           },
           "cheeredAt": 1768179051772
         },
         "Burro": {
           "name": "Burro",
-          "experience": 6895,
+          "experience": 6905,
           "energy": 230,
           "requests": {
             "food": [
@@ -9824,7 +9823,7 @@
           },
           "pettedAt": 1768179053311,
           "dailySocialXP": {
-            "2026-01-29": 30
+            "2026-01-30": 10
           },
           "cheeredAt": 1768179049012,
           "fetches": {
@@ -9833,7 +9832,7 @@
         },
         "Meowchi": {
           "name": "Meowchi",
-          "experience": 5355,
+          "experience": 5365,
           "energy": 290,
           "requests": {
             "food": [
@@ -9848,7 +9847,7 @@
             "Acorn": -2143460325
           },
           "dailySocialXP": {
-            "2026-01-29": 30
+            "2026-01-30": 10
           },
           "cheeredAt": 1768179051370
         }

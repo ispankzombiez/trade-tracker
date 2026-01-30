@@ -89,7 +89,7 @@
       "Purple Clover": "1",
       "White Clover": "2",
       "Blue Clover": "19",
-      "Axe": "176",
+      "Axe": "168",
       "Pickaxe": "306",
       "Shovel": "1",
       "Petting Hand": "1",
@@ -157,7 +157,7 @@
       "Pumpkin Cake": "3",
       "Beetroot Cake": "3",
       "Parsnip Cake": "3",
-      "Boiled Eggs": "52",
+      "Boiled Eggs": "54",
       "Bumpkin Broth": "25",
       "Bumpkin Salad": "11",
       "Mashed Potato": "64",
@@ -194,11 +194,11 @@
       "Rice Bun": "3",
       "The Lot": "2",
       "Sour Shake": "3",
-      "Wood": "16703",
+      "Wood": "16716",
       "Stone": "4462.1",
       "Iron": "1834.3",
       "Gold": "114.95",
-      "Egg": "24162.42",
+      "Egg": "24142.42",
       "Chicken": "30",
       "Speed Chicken": "6",
       "Fat Chicken": "3",
@@ -3523,11 +3523,6 @@
       }
     },
     "calendar": {
-      "fishFrenzy": {
-        "startedAt": 1769644800000,
-        "triggeredAt": 1769652162621,
-        "acknowledgedAt": 1769652168012
-      },
       "dates": [
         {
           "name": "sunshower",
@@ -4598,7 +4593,7 @@
       "e56686b2": {
         "createdAt": 1763522032912,
         "wood": {
-          "choppedAt": 1769721918876
+          "choppedAt": 1769730401521
         },
         "x": 1,
         "y": -4,
@@ -5376,26 +5371,6 @@
               "skills": {
                 "Double Nom": false
               },
-              "readyAt": 1769725857132
-            },
-            {
-              "name": "Boiled Eggs",
-              "boost": {
-                "Oil": 0
-              },
-              "skills": {
-                "Double Nom": false
-              },
-              "readyAt": 1769728773132
-            },
-            {
-              "name": "Boiled Eggs",
-              "boost": {
-                "Oil": 0
-              },
-              "skills": {
-                "Double Nom": false
-              },
               "readyAt": 1769731689132
             },
             {
@@ -5407,6 +5382,26 @@
                 "Double Nom": false
               },
               "readyAt": 1769734605132
+            },
+            {
+              "name": "Boiled Eggs",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": false
+              },
+              "readyAt": 1769737521132
+            },
+            {
+              "name": "Boiled Eggs",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": false
+              },
+              "readyAt": 1769740437132
             }
           ],
           "oil": 0
@@ -5988,32 +5983,32 @@
         }
       ],
       "shop": {
-        "Flower Coin": {
-          "type": "collectible",
+        "Luvvy Head": {
+          "type": "wearable",
           "cost": {
             "items": {
-              "Love Charm": 1500
+              "Love Charm": 650
             }
           },
-          "name": "Flower Coin"
+          "name": "Luvvy Head"
         },
-        "Gourmet Hourglass": {
+        "Time Warp Totem": {
           "type": "collectible",
           "cost": {
             "items": {
-              "Love Charm": 325
+              "Love Charm": 100
             }
           },
-          "name": "Gourmet Hourglass"
+          "name": "Time Warp Totem"
         },
-        "Bronze Love Box": {
+        "Silver Tool Box": {
           "type": "collectible",
           "cost": {
             "items": {
-              "Love Charm": 130
+              "Love Charm": 455
             }
           },
-          "name": "Bronze Love Box"
+          "name": "Silver Tool Box"
         }
       },
       "boughtAt": {
@@ -6320,7 +6315,7 @@
       "Orange Cake Fed": 13,
       "SFL Earned": 9050.8563125,
       "Kernaldo Crafted": 1,
-      "Boiled Eggs Cooked": 4692,
+      "Boiled Eggs Cooked": 4694,
       "Wheat Seed Bought": 10305,
       "Orange Sold": 1346,
       "Sunflower Cake Dug": 11,
@@ -6526,7 +6521,7 @@
       "Beekeeper Hat Bought": 1,
       "Sea Cucumber Sold": 78,
       "Eggplant Seed Bought": 8041,
-      "Tree Chopped": 75959,
+      "Tree Chopped": 75967,
       "Power Smoothie Cooked": 93,
       "Poppy Crafted": 1,
       "Antipasto Cooked": 22,
@@ -6749,7 +6744,7 @@
       "Moray Eel Bountied": 1,
       "VIP Chest Opened": 2,
       "Streamer Hat Reward Claimed": 10,
-      "Ancient Tree Chopped": 888,
+      "Ancient Tree Chopped": 890,
       "Sacred Tree Chopped": 426,
       "Gold Rock Mined": 362,
       "Stone Rock Mined": 3162,
@@ -7226,8 +7221,8 @@
         "goal": 20
       },
       "dailySFL": {
-        "day": 29,
-        "amount": 4.280622530990529
+        "day": 30,
+        "amount": 4.281034391635981
       }
     },
     "potionHouse": {
@@ -7836,52 +7831,52 @@
         "mine-whack": {
           "coins": 0,
           "items": {
-            "Mark": 60
+            "Mark": 40
           },
           "wearables": {},
-          "score": 3500,
-          "startAt": 1769644800000,
-          "endAt": 1769731200000
+          "score": 2500,
+          "startAt": 1769731200000,
+          "endAt": 1769817600000
         },
         "chicken-rescue": {
           "coins": 0,
           "items": {
-            "Mark": 50
+            "Mark": 35
           },
           "wearables": {},
-          "score": 45,
-          "startAt": 1769644800000,
-          "endAt": 1769731200000
+          "score": 30,
+          "startAt": 1769731200000,
+          "endAt": 1769817600000
         },
         "crops-and-chickens": {
           "coins": 0,
           "items": {
-            "Mark": 20
+            "Mark": 60
           },
           "wearables": {},
-          "score": 500,
-          "startAt": 1769644800000,
-          "endAt": 1769731200000
+          "score": 4000,
+          "startAt": 1769731200000,
+          "endAt": 1769817600000
         },
         "fruit-dash": {
           "coins": 0,
           "items": {
-            "Mark": 55
+            "Mark": 40
           },
           "wearables": {},
-          "score": 2750,
-          "startAt": 1769644800000,
-          "endAt": 1769731200000
+          "score": 2000,
+          "startAt": 1769731200000,
+          "endAt": 1769817600000
         },
         "memory": {
           "coins": 0,
           "items": {
-            "Mark": 20
+            "Mark": 60
           },
           "wearables": {},
-          "score": 150,
-          "startAt": 1769644800000,
-          "endAt": 1769731200000
+          "score": 750,
+          "startAt": 1769731200000,
+          "endAt": 1769817600000
         }
       }
     },
@@ -8050,7 +8045,7 @@
           "petXP": 0,
           "score": 0,
           "collectivePet": {
-            "totalXP": 4514180,
+            "totalXP": 4607100,
             "goalXP": 10263180,
             "goalReached": false,
             "streak": 10,
@@ -8116,13 +8111,12 @@
         },
         "completedPatterns": [],
         "patterns": [
+          "ARTEFACT_SIXTEEN",
+          "ARTEFACT_TWENTY",
           "ARTEFACT_SEVENTEEN",
-          "ARTEFACT_TWENTY_TWO",
-          "ARTEFACT_TWENTY_THREE",
-          "HIEROGLYPH",
           "HIEROGLYPH",
           "SEA_CUCUMBERS",
-          "OLD_BOTTLE",
+          "SEAWEED",
           "WOODEN_COMPASS"
         ]
       }
@@ -9323,12 +9317,12 @@
       "Scarecrow": 1769729122126,
       "Victoria Sisters": 1769571655371,
       "Young Farmer": 1769729120570,
-      "Lumberjack's Extra": 1769729119327,
-      "Squirrel": 1769729119327,
-      "Tiki Totem": 1769729119327,
+      "Lumberjack's Extra": 1769731121521,
+      "Squirrel": 1769731121521,
+      "Tiki Totem": 1769731121521,
       "Tough Tree": 1769665905147,
-      "Tree Charge": 1769729119327,
-      "Woody the Beaver": 1769729119327,
+      "Tree Charge": 1769731121521,
+      "Woody the Beaver": 1769731121521,
       "Infernal Drill": 1769681480677,
       "Knight Chicken": 1769681480677,
       "Oil Can": 1769681480677,
@@ -9348,7 +9342,7 @@
       "Rocky Favor": 1769729579824,
       "Stone Beetle": 1769729579824,
       "Tunnel Mole": 1769729579824,
-      "Desert Gnome": 1769727864783,
+      "Desert Gnome": 1769730907143,
       "Strong Roots": 1769652163121,
       "Healthy Livestock": 1754179284431,
       "Crim Peckster": 1769681560633,
@@ -9398,7 +9392,7 @@
       "Rocky the Mole": 1769699450968,
       "Angler Waders": 1769665969079,
       "Trident": 1769665959370,
-      "Fast Feasts": 1769727864783,
+      "Fast Feasts": 1769730907143,
       "Forge-Ward Profits": 1769568525938,
       "Betty's Friend": 1769568534561,
       "Fruity Profit": 1769568723510,
@@ -9448,7 +9442,7 @@
       "Observatory": 1769114093968,
       "Drive-Through Deli": 1769114070368,
       "Skill Shrimpy": 1769114070368,
-      "Tree Turnaround": 1769729118876,
+      "Tree Turnaround": 1769730903707,
       "Sweet Bonus": 1769722702363,
       "Pollen Power Up": 1769729120570,
       "Laurie the Chuckle Crow": 1755216028630,
@@ -9527,32 +9521,32 @@
       },
       "dailyCollections": {},
       "clutter": {
-        "spawnedAt": 1769647613402,
+        "spawnedAt": 1769731223050,
         "locations": {
-          "a2b6e604": {
-            "type": "Weed",
-            "x": -8,
-            "y": 10
-          },
-          "bd4385e5": {
-            "type": "Weed",
-            "x": -7,
-            "y": 14
-          },
-          "bfdd7a17": {
+          "12570df3": {
             "type": "Dung",
-            "x": 7,
-            "y": -4
-          },
-          "f6587c0f": {
-            "type": "Dung",
-            "x": 3,
-            "y": -4
-          },
-          "f8e3563d": {
-            "type": "Dung",
-            "x": -11,
+            "x": 6,
             "y": -3
+          },
+          "556f68fe": {
+            "type": "Dung",
+            "x": -15,
+            "y": 4
+          },
+          "9082e35c": {
+            "type": "Weed",
+            "x": 1,
+            "y": 6
+          },
+          "b2cf0216": {
+            "type": "Weed",
+            "x": -3,
+            "y": 7
+          },
+          "f7fd6a2d": {
+            "type": "Dung",
+            "x": -5,
+            "y": -2
           }
         }
       },
@@ -9580,9 +9574,9 @@
           "energy": 280,
           "requests": {
             "food": [
-              "Rhubarb Tart",
-              "Goblin's Treat",
-              "Parsnip Cake"
+              "Purple Smoothie",
+              "Apple Juice",
+              "Goblin Brunch"
             ],
             "fedAt": 1761645824347
           },
@@ -9601,9 +9595,9 @@
           "energy": 320,
           "requests": {
             "food": [
-              "Fruit Salad",
-              "Cauliflower Burger",
-              "Eggplant Cake"
+              "Carrot Juice",
+              "Pancakes",
+              "Bumpkin Roast"
             ],
             "fedAt": 1761645830027
           },
@@ -9621,9 +9615,9 @@
           "energy": 350,
           "requests": {
             "food": [
-              "Cheese",
-              "Power Smoothie",
-              "Radish Cake"
+              "Rhubarb Tart",
+              "Orange Cake",
+              "Slow Juice"
             ],
             "fedAt": 1761645827722
           },
@@ -9636,7 +9630,7 @@
           }
         }
       },
-      "requestsGeneratedAt": 1769652162555,
+      "requestsGeneratedAt": 1769731223050,
       "nfts": {
         "404": {
           "name": "Pet #404",
@@ -9645,18 +9639,13 @@
           "energy": 1305,
           "requests": {
             "food": [
-              "Carrot Juice",
-              "Power Smoothie",
-              "Cabbers n Mash",
-              "Grape Juice",
-              "Cauliflower Cake"
+              "Rhubarb Tart",
+              "Bumpkin ganoush",
+              "Bumpkin Salad",
+              "Kale Omelette",
+              "Spaghetti al Limone"
             ],
-            "fedAt": 1769681600457,
-            "foodFed": [
-              "Carrot Juice",
-              "Power Smoothie",
-              "Grape Juice"
-            ]
+            "fedAt": 1769681600457
           },
           "pettedAt": 1769722938220,
           "traits": {
@@ -9685,18 +9674,13 @@
           "energy": 1215,
           "requests": {
             "food": [
-              "Reindeer Carrot",
-              "Fancy Fries",
-              "Apple Pie",
-              "Wheat Cake",
-              "Honey Cake"
+              "Bumpkin Broth",
+              "Kale Stew",
+              "Orange Cake",
+              "Goblin Brunch",
+              "Slow Juice"
             ],
-            "fedAt": 1769681605502,
-            "foodFed": [
-              "Reindeer Carrot",
-              "Fancy Fries",
-              "Wheat Cake"
-            ]
+            "fedAt": 1769681605502
           },
           "pettedAt": 1769722937856,
           "traits": {
