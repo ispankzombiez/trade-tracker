@@ -11,18 +11,18 @@
       "Sunflower": "17849.74200000057412",
       "Potato": "8381.903600000000001",
       "Pumpkin": "53.5",
-      "Carrot": "384.8710000000000072",
+      "Carrot": "264.8710000000000072",
       "Cabbage": "313.1655",
       "Beetroot": "24.4650000000000007",
       "Cauliflower": "37.6650000000000234",
       "Parsnip": "58.1550000000000679",
       "Radish": "511.0796",
-      "Wheat": "309.875000000000236",
+      "Wheat": "269.875000000000236",
       "Kale": "34.175000000000179",
       "Apple": "70.450000000000009",
       "Blueberry": "20.6000000000000588",
       "Orange": "32.250000000000026",
-      "Eggplant": "411.265",
+      "Eggplant": "381.265",
       "Corn": "351.6829000000000551",
       "Banana": "45.8",
       "Red Pansy": "1",
@@ -36,7 +36,7 @@
       "Red Daffodil": "8",
       "White Daffodil": "2",
       "Soybean": "39.9",
-      "Tomato": "76.2000000000000008",
+      "Tomato": "46.2000000000000008",
       "Lemon": "203.45",
       "Barley": "118.2100000000000414",
       "Rhubarb": "2198.2",
@@ -119,7 +119,7 @@
       "Quick Juice": "4",
       "Wood": "1.48",
       "Gold": "5.35",
-      "Egg": "63.7",
+      "Egg": "3.7",
       "Speed Chicken": "1",
       "Fat Chicken": "1",
       "Rich Chicken": "1",
@@ -147,9 +147,9 @@
       "Oil": "42.996999999999998",
       "Oil Reserve": "3",
       "Leather": "3.35",
-      "Wool": "38.5",
+      "Wool": "2.5",
       "Merino Wool": "344.8",
-      "Feather": "492.3",
+      "Feather": "456.3",
       "Milk": "5.7",
       "Hay": "14.2580000000002759",
       "Kernel Blend": "15.8550000000003026",
@@ -415,7 +415,7 @@
       "Broken Pillar": "1",
       "Clam Shell": "2",
       "Trash": "7",
-      "Dung": "95",
+      "Dung": "71",
       "Coprolite": "1",
       "Anthill": "1",
       "Snail": "1",
@@ -432,7 +432,7 @@
       "Blueberry Jam": "5",
       "Purple Lotus": "1",
       "Holiday Ticket 2025": "2",
-      "Weed": "35",
+      "Weed": "29",
       "White Cosmos": "2",
       "Broccoli Seed": "18",
       "Squeaky Chicken": "1",
@@ -450,11 +450,11 @@
       "The Lot": "3",
       "Starlight Tuna": "1",
       "Fermented Carrots": "4",
-      "Cheese": "13",
+      "Cheese": "8",
       "Carrot Juice": "4",
       "Purple Pansy": "1",
       "Anchovy": "122",
-      "Iron": "36.45",
+      "Iron": "24.45",
       "Power Smoothie": "3",
       "Rice Bun": "1",
       "Blue Cheese": "2",
@@ -578,7 +578,8 @@
       "Iron Pickaxe": "2",
       "Lunar Doll": "1",
       "Basic Cooking Pot": "1",
-      "Napoleanfish": "3"
+      "Napoleanfish": "3",
+      "Cheer": "3"
     },
     "previousInventory": {
       "Potato Seed": "500",
@@ -5468,6 +5469,16 @@
                 "Double Nom": false
               },
               "readyAt": 1769773373522
+            },
+            {
+              "name": "Pizza Margherita",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": false
+              },
+              "readyAt": 1769831693522
             }
           ],
           "coordinates": {
@@ -5588,6 +5599,26 @@
                 "Double Nom": false
               },
               "readyAt": 1769897677036
+            },
+            {
+              "name": "Carrot Cake",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": false
+              },
+              "readyAt": 1769939797036
+            },
+            {
+              "name": "Eggplant Cake",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": false
+              },
+              "readyAt": 1770017557036
             }
           ],
           "oil": 0,
@@ -6809,11 +6840,11 @@
       "Big Orange Bought": 93,
       "Pest Net Crafted": 6,
       "Anthill Burned": 2,
-      "Dung Burned": 6930,
+      "Dung Burned": 6990,
       "Rat Burned": 1,
       "Snail Burned": 1,
       "Trash Burned": 60,
-      "Weed Burned": 4325,
+      "Weed Burned": 4355,
       "Farmer's Monument Bought": 1,
       "Woodcutter's Monument Bought": 1,
       "Antipasto Cooked": 19,
@@ -7100,8 +7131,8 @@
       "Pirate Chest Opened": 64,
       "Digging Reward Collected": 65,
       "Shipment Restocked": 65,
-      "Farm Cheered": 770,
-      "Farm Helped": 1329,
+      "Farm Cheered": 775,
+      "Farm Helped": 1341,
       "Airdrop Reward Claimed": 143,
       "Jafar Shop Restocked": 7,
       "Blacksmith Shop Restocked": 29,
@@ -8450,7 +8481,7 @@
           "petXP": 0,
           "score": 50,
           "collectivePet": {
-            "totalXP": 5823891,
+            "totalXP": 5828891,
             "goalXP": 2404688,
             "goalReached": true,
             "streak": 3,
@@ -9971,8 +10002,8 @@
       "Rich Chicken": 1769767149549,
       "Speed Chicken": 1769767149549,
       "Undead Rooster": 1769767149549,
-      "Desert Gnome": 1769766277615,
-      "Fast Feasts": 1769766277615,
+      "Desert Gnome": 1769768554090,
+      "Fast Feasts": 1769768527240,
       "Premium Worms": 1769747357146,
       "Gold Beetle": 1769766753612,
       "Golden Touch": 1769766753612,
@@ -10066,7 +10097,7 @@
       "Sunshower": 1769458543472
     },
     "socialFarming": {
-      "points": 35184,
+      "points": 35259,
       "villageProjects": {
         "Farmer's Monument": {
           "cheers": 100,
@@ -10115,7 +10146,12 @@
           1621,
           204,
           1164010181301338,
-          2909
+          2909,
+          61992,
+          128122,
+          7125230236674634,
+          18755,
+          4280
         ]
       },
       "dailyCollections": {},
@@ -10155,14 +10191,26 @@
       },
       "weeklyPoints": {
         "week": "2026-01-26",
-        "points": 1528
+        "points": 1603
       },
       "helpIncrease": {
         "boughtAt": [
           1769767734682,
           1769767769540,
           1769767812433,
-          1769767844445
+          1769767844445,
+          1769767913426,
+          1769767950655,
+          1769767976128,
+          1769768065172,
+          1769768095665,
+          1769768116395,
+          1769768168929,
+          1769768220976,
+          1769768253868,
+          1769768309928,
+          1769768353921,
+          1769768391986
         ]
       },
       "helpedForCompetition": 657,
