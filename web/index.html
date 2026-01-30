@@ -793,15 +793,9 @@
         <div id="dashboard" style="display: none;">
             <!-- Tab Navigation -->
             <div class="tab-container">
-                <div class="tabs">
+                <div class="tabs" id="tabsContainer">
                     <button class="tab-btn active" onclick="switchTab('overview')" data-tab="overview">📊 Overview</button>
-                    <button class="tab-btn" onclick="switchTab('aeon')" data-tab="aeon">👤 aeon</button>
-                    <button class="tab-btn" onclick="switchTab('dcol')" data-tab="dcol">👤 dcol</button>
-                    <button class="tab-btn" onclick="switchTab('deltaomega')" data-tab="deltaomega">👤 deltaomega</button>
-                    <button class="tab-btn" onclick="switchTab('ispank')" data-tab="ispank">👤 ispank</button>
-                    <button class="tab-btn" onclick="switchTab('raichupus')" data-tab="raichupus">👤 raichupus</button>
-                    <button class="tab-btn" onclick="switchTab('riddlemeknot')" data-tab="riddlemeknot">👤 riddlemeknot</button>
-                    <button class="tab-btn" onclick="switchTab('tourist')" data-tab="tourist">👤 tourist</button>
+                    <!-- User tabs will be dynamically generated here -->
                 </div>
             </div>
 
@@ -1066,8 +1060,33 @@
         }
 
         function updateUserButtons() {
-            // User buttons are now handled by the tab system
-            // This function is kept for compatibility but does nothing
+            debugLog('updateUserButtons called - generating dynamic tabs');
+            
+            // Get the tabs container
+            const tabsContainer = document.getElementById('tabsContainer');
+            
+            // Keep only the overview tab and clear user tabs
+            const overviewTab = tabsContainer.querySelector('[data-tab="overview"]');
+            tabsContainer.innerHTML = '';
+            tabsContainer.appendChild(overviewTab);
+            
+            // Get list of users from dashboard data
+            const users = dashboardData.top_traders || [];
+            
+            debugLog(`Found ${users.length} users to create tabs for`);
+            
+            // Create tabs for each user
+            users.forEach(user => {
+                const username = user.username.toLowerCase();
+                const button = document.createElement('button');
+                button.className = 'tab-btn';
+                button.setAttribute('data-tab', username);
+                button.onclick = () => switchTab(username);
+                button.innerHTML = `👤 ${username}`;
+                
+                tabsContainer.appendChild(button);
+                debugLog(`Created tab for user: ${username}`);
+            });
         }
 
         function switchTab(tabName) {
