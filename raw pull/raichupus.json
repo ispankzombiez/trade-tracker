@@ -4,8 +4,8 @@
     "balance": "3407.402694733290711",
     "previousBalance": "0",
     "inventory": {
-      "Sunflower": "953327.40229999616132",
-      "Potato": "458702.15809999466844",
+      "Sunflower": "953027.40229999616132",
+      "Potato": "458638.15809999466844",
       "Pumpkin": "149531.00009999981666",
       "Carrot": "84139.063499999977437",
       "Cabbage": "61689.905400000003126",
@@ -22,13 +22,13 @@
       "Corn": "16922.95859999999985",
       "Banana": "1126.5200000000000948",
       "Red Pansy": "34",
-      "Yellow Pansy": "33",
-      "Purple Pansy": "32",
-      "White Pansy": "32",
-      "Blue Pansy": "31",
+      "Yellow Pansy": "31",
+      "Purple Pansy": "34",
+      "White Pansy": "34",
+      "Blue Pansy": "34",
       "Red Cosmos": "32",
       "Yellow Cosmos": "32",
-      "Purple Cosmos": "30",
+      "Purple Cosmos": "32",
       "White Cosmos": "34",
       "Blue Cosmos": "41",
       "Red Balloon Flower": "34",
@@ -54,7 +54,7 @@
       "Purple Lotus": "32",
       "White Lotus": "32",
       "Blue Lotus": "31",
-      "Soybean": "57514.716100000011869",
+      "Soybean": "57499.716100000011869",
       "Grape": "480.97000000000002",
       "Rice": "499.6",
       "Olive": "567.85",
@@ -191,7 +191,7 @@
       "Bumpkin Broth": "496",
       "Bumpkin Salad": "99",
       "Goblin's Treat": "100",
-      "Mashed Potato": "959",
+      "Mashed Potato": "969",
       "Cauliflower Burger": "125",
       "Club Sandwich": "99",
       "Roast Veggies": "99",
@@ -259,7 +259,7 @@
       "Stone": "1910.25",
       "Iron": "3133.47",
       "Gold": "699.94",
-      "Egg": "2859.8",
+      "Egg": "2849.8",
       "Speed Chicken": "2",
       "Fat Chicken": "2",
       "Rich Chicken": "1",
@@ -585,7 +585,7 @@
       "Vase": "466",
       "Blueberry Seed": "53",
       "Orange Seed": "48",
-      "Sunpetal Seed": "50",
+      "Sunpetal Seed": "46",
       "Sand": "2426",
       "Cockle Shell": "210",
       "Seaweed": "515",
@@ -5238,14 +5238,14 @@
           "x": -13,
           "y": -2,
           "flower": {
-            "plantedAt": 1769704013657,
-            "name": "Purple Pansy",
+            "plantedAt": 1769725643022,
+            "name": "Yellow Cosmos",
             "criticalHit": {
-              "Humming Bird": 1,
+              "Humming Bird": 0,
               "Butterfly": 0,
               "Desert Rose": 0,
               "Chicory": 0,
-              "Petalled Perk": 0,
+              "Petalled Perk": 1,
               "Moth Shrine": 0
             }
           }
@@ -5255,25 +5255,8 @@
           "x": -13,
           "y": -4,
           "flower": {
-            "plantedAt": 1769704023698,
-            "name": "Blue Pansy",
-            "criticalHit": {
-              "Humming Bird": 0,
-              "Butterfly": 0,
-              "Desert Rose": 0,
-              "Chicory": 0,
-              "Petalled Perk": 1,
-              "Moth Shrine": 1
-            }
-          }
-        },
-        "ad2b440a": {
-          "createdAt": 1750560684884,
-          "x": -13,
-          "y": 0,
-          "flower": {
-            "plantedAt": 1769704004748,
-            "name": "Purple Cosmos",
+            "plantedAt": 1769725646439,
+            "name": "Yellow Pansy",
             "criticalHit": {
               "Humming Bird": 0,
               "Butterfly": 0,
@@ -5284,17 +5267,34 @@
             }
           }
         },
+        "ad2b440a": {
+          "createdAt": 1750560684884,
+          "x": -13,
+          "y": 0,
+          "flower": {
+            "plantedAt": 1769725639409,
+            "name": "Yellow Pansy",
+            "criticalHit": {
+              "Humming Bird": 0,
+              "Butterfly": 1,
+              "Desert Rose": 0,
+              "Chicory": 0,
+              "Petalled Perk": 0,
+              "Moth Shrine": 0
+            }
+          }
+        },
         "5a5d87b6": {
           "createdAt": 1751687278143,
           "x": -13,
           "y": -6,
           "flower": {
-            "plantedAt": 1769704038262,
-            "name": "White Pansy",
+            "plantedAt": 1769725649886,
+            "name": "Yellow Cosmos",
             "criticalHit": {
-              "Humming Bird": 1,
-              "Butterfly": 0,
-              "Desert Rose": 0,
+              "Humming Bird": 0,
+              "Butterfly": 1,
+              "Desert Rose": 1,
               "Chicory": 0,
               "Petalled Perk": 0,
               "Moth Shrine": 0
@@ -5309,13 +5309,13 @@
         "x": -15,
         "y": -2,
         "honey": {
-          "updatedAt": 1769769443062,
-          "produced": 77082.20000000001
+          "updatedAt": 1769791054686,
+          "produced": 48313057.10000001
         },
         "flowers": [
           {
-            "attachedAt": 1769769409548,
-            "attachedUntil": 1769790404748,
+            "attachedAt": 1769791044209,
+            "attachedUntil": 1769807614227,
             "id": "ad2b440a",
             "rate": 2.3000000000000003
           }
@@ -5326,13 +5326,13 @@
         "x": -15,
         "y": -4,
         "honey": {
-          "updatedAt": 1769769443062,
-          "produced": 56591.50000000001
+          "updatedAt": 1769791054686,
+          "produced": 48304747.20000001
         },
         "flowers": [
           {
-            "attachedAt": 1769769418457,
-            "attachedUntil": 1769790413657,
+            "attachedAt": 1769791047822,
+            "attachedUntil": 1769807617840,
             "id": "57450556",
             "rate": 2.3000000000000003
           }
@@ -5343,13 +5343,13 @@
         "x": -15,
         "y": 0,
         "honey": {
-          "updatedAt": 1769769443062,
-          "produced": 33497.200000000004
+          "updatedAt": 1769791054686,
+          "produced": 48296888.10000001
         },
         "flowers": [
           {
-            "attachedAt": 1769769428498,
-            "attachedUntil": 1769790423698,
+            "attachedAt": 1769791051239,
+            "attachedUntil": 1769807621257,
             "id": "537ee304",
             "rate": 2.3000000000000003
           }
@@ -5360,13 +5360,13 @@
         "x": -15,
         "y": -6,
         "honey": {
-          "updatedAt": 1769769443062,
-          "produced": 0
+          "updatedAt": 1769791054686,
+          "produced": 48288960.00000001
         },
         "flowers": [
           {
-            "attachedAt": 1769769443062,
-            "attachedUntil": 1769790438262,
+            "attachedAt": 1769791054686,
+            "attachedUntil": 1769807624704,
             "id": "5a5d87b6",
             "rate": 2.3000000000000003
           }
@@ -5553,7 +5553,7 @@
               "skills": {
                 "Double Nom": false
               },
-              "readyAt": 1769788996351.5
+              "readyAt": 1769791091116.5
             },
             {
               "name": "Mashed Potato",
@@ -5563,27 +5563,27 @@
               "skills": {
                 "Double Nom": false
               },
-              "readyAt": 1769789005464
+              "readyAt": 1769791100229
             },
             {
-              "name": "Mashed Potato",
+              "name": "Fried Tofu",
               "boost": {
                 "Oil": 0
               },
               "skills": {
                 "Double Nom": false
               },
-              "readyAt": 1769789014576.5
+              "readyAt": 1769792740479
             },
             {
-              "name": "Mashed Potato",
+              "name": "Boiled Eggs",
               "boost": {
                 "Oil": 0
               },
               "skills": {
                 "Double Nom": false
               },
-              "readyAt": 1769789023689
+              "readyAt": 1769793833979
             }
           ],
           "oil": 0
@@ -10882,7 +10882,7 @@
       "Royal Bedding Crafted": 3,
       "Red Pansy Harvested": 109,
       "Blue Cosmos Harvested": 156,
-      "Purple Cosmos Harvested": 193,
+      "Purple Cosmos Harvested": 194,
       "Royal Bed Crafted": 1,
       "Kelp Fibre Crafted": 30,
       "Fisher Bed Crafted": 1,
@@ -10902,7 +10902,7 @@
       "Blue Balloon Flower Harvested": 124,
       "White Lotus Harvested": 41,
       "Ray Caught": 112,
-      "Blue Pansy Harvested": 111,
+      "Blue Pansy Harvested": 112,
       "Barred Knifejaw Caught": 105,
       "Parrotfish Caught": 103,
       "Weakfish Caught": 230,
@@ -10912,8 +10912,8 @@
       "Angelfish Caught": 207,
       "Purple Daffodil Harvested": 111,
       "Red Daffodil Harvested": 42,
-      "White Pansy Harvested": 132,
-      "Purple Pansy Harvested": 44,
+      "White Pansy Harvested": 133,
+      "Purple Pansy Harvested": 45,
       "Tilapia Caught": 208,
       "Sunfish Caught": 331,
       "Prism Petal Harvested": 65,
@@ -11141,7 +11141,7 @@
       "Sunflower Seed Bought": 298881,
       "Basic Scarecrow Crafted": 1,
       "Potato Harvested": 166948,
-      "Mashed Potato Cooked": 4366,
+      "Mashed Potato Cooked": 4376,
       "Mashed Potato Fed": 109,
       "Rhubarb Planted": 23341,
       "Rhubarb Seed Bought": 120987,
@@ -11255,7 +11255,7 @@
       "Artichoke Planted": 3472,
       "Artichoke Seed Bought": 3130,
       "Sunpetal Seed Bought": 868,
-      "Sunpetal Seed Planted": 818,
+      "Sunpetal Seed Planted": 822,
       "Banana Harvested": 1936,
       "Sour Shake Cooked": 279,
       "Mangrove Crafted": 1,
@@ -12998,7 +12998,7 @@
           "petXP": 34420,
           "score": 11482,
           "collectivePet": {
-            "totalXP": 6051237,
+            "totalXP": 6084331,
             "goalXP": 2404688,
             "goalReached": true,
             "streak": 3,
@@ -15593,9 +15593,9 @@
       "Seeded Bounty": 1764549546716,
       "Slick Saver": 1769769707005,
       "Turbo Sprout": 1769769707005,
-      "Desert Gnome": 1769788988070,
-      "Fast Feasts": 1769788988070,
-      "Luna's Hat": 1769788988070,
+      "Desert Gnome": 1769791086907,
+      "Fast Feasts": 1769791086907,
+      "Luna's Hat": 1769791086907,
       "Acre Farm": 1769788890932,
       "Bud #1109": 1769691604336,
       "Cabbage Boy": 1769737537164,
@@ -15699,9 +15699,9 @@
       "Vinny": 1769638019294,
       "Olive Express": 1769769707005,
       "Desert Rose": 1769711045030,
-      "Blooming Boost": 1769769443062,
-      "Flower Crown": 1769769443062,
-      "Flower Fox": 1769769443062,
+      "Blooming Boost": 1769791054686,
+      "Flower Crown": 1769791054686,
+      "Flower Fox": 1769791054686,
       "Butterfly": 1769769291231,
       "Soybliss": 1769788890932,
       "Frosted Cakes": 1769784413163,
@@ -15711,7 +15711,7 @@
       "Corn Onesie": 1768781765933,
       "Poppy": 1768781765933,
       "Queen Cornelia": 1768781765933,
-      "Petalled Perk": 1769711045030,
+      "Petalled Perk": 1769791015224,
       "Peeled Potato": 1769773047746,
       "Potent Potato": 1769773047746,
       "Crimstone Hammer": 1769776849717,
@@ -15734,7 +15734,7 @@
       "Bud #1409": 1769642078635,
       "Fishy Gamble": 1769642040056,
       "Chicory": 1769769291473,
-      "Humming Bird": 1769687886529,
+      "Humming Bird": 1769791015480,
       "Frenzied Fish": 1769049482042,
       "Easter Bunny": 1769778241960,
       "Lab Grown Carrot": 1769778241960,
@@ -15790,7 +15790,7 @@
       "Frozen Cow": 1768141631290,
       "Frozen Sheep": 1768172604525,
       "Skill Shrimpy": 1769431460226,
-      "Nightshade Medallion": 1769788988070,
+      "Nightshade Medallion": 1769791086907,
       "Winter Guardian": 1768164730738,
       "Mysterious Parsnip": 1768004127930,
       "Parsnip": 1768016179006,
@@ -15849,11 +15849,11 @@
       "Forge-Ward Profits": 1769777354060,
       "Squirrel Onesie": 1769474508583,
       "Pollen Power Up": 1769771666496,
-      "Flower Power": 1769769443062,
+      "Flower Power": 1769791054686,
       "Kernaldo": 1768742666910,
       "Sunshower": 1769470221251,
       "Broccoli Hat": 1769783170097,
-      "Moth Shrine": 1769769443062,
+      "Moth Shrine": 1769791054686,
       "Power hour": 1769560484868
     },
     "socialFarming": {
