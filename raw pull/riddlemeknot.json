@@ -89,18 +89,18 @@
       "Eggplant": "303.2445",
       "Radish": "390.1824",
       "Orange": "65.6000000000000433",
-      "Love Charm": "5135",
+      "Love Charm": "5138",
       "Clownfish": "20",
       "Yam": "1145.4791",
-      "Broccoli": "1170",
+      "Broccoli": "1160",
       "Nightshade Faction Banner": "1",
       "Tomato": "10.7000000000002043",
-      "Artichoke": "649.0506",
+      "Artichoke": "647.0506",
       "Apple Seed": "30",
       "Hen House": "1",
       "Turbo Composter": "1",
       "Mark": "657",
-      "Fruitful Blend": "165",
+      "Fruitful Blend": "169",
       "Moray Eel": "88",
       "Crafting Box": "1",
       "Construction Bear": "1",
@@ -124,7 +124,7 @@
       "Blue Marlin": "7",
       "Surgeonfish": "34",
       "Celestine": "38.0000000000000053",
-      "Grub": "383",
+      "Grub": "387",
       "Lunara": "39.0000000000000049",
       "Lemon": "15.2000000000002181",
       "Duskberry": "43.1000000000000051",
@@ -201,7 +201,7 @@
       "Blowfish": "23",
       "Mushroom Soup": "8",
       "Dirt Path": "144",
-      "Egg": "51",
+      "Egg": "41",
       "Bracelet": "93",
       "Fence": "25",
       "Sunflower Cake": "1",
@@ -402,7 +402,7 @@
       "Iron Pickaxe": "8",
       "Gold Pickaxe": "1",
       "Big Orange": "1",
-      "Boiled Eggs": "6",
+      "Boiled Eggs": "7",
       "Cornbread": "1",
       "Kale Omelette": "1",
       "Potato Cake": "1",
@@ -4141,16 +4141,6 @@
           "readyAt": 0,
           "crafting": [
             {
-              "name": "Boiled Eggs",
-              "boost": {
-                "Oil": 0
-              },
-              "skills": {
-                "Double Nom": false
-              },
-              "readyAt": 1769756594147
-            },
-            {
               "name": "Popcorn",
               "boost": {
                 "Oil": 0
@@ -4179,6 +4169,16 @@
                 "Double Nom": false
               },
               "readyAt": 1769773215347
+            },
+            {
+              "name": "Boiled Eggs",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": false
+              },
+              "readyAt": 1769776131347
             }
           ],
           "oil": 0,
@@ -4254,10 +4254,10 @@
           "producing": {
             "items": {
               "Fruitful Blend": 4,
-              "Grub": 4
+              "Grub": 5
             },
-            "startedAt": 1769730876903,
-            "readyAt": 1769756796903
+            "startedAt": 1769756933226,
+            "readyAt": 1769782853226
           }
         }
       ],
@@ -6626,7 +6626,7 @@
       "Blueberry Seed Bought": 740,
       "Blueberry Seed Planted": 699,
       "Blueberry Sold": 300,
-      "Boiled Eggs Cooked": 934,
+      "Boiled Eggs Cooked": 935,
       "Boiled Eggs Fed": 30,
       "Broccoli Harvested": 5171,
       "Broccoli Planted": 5171,
@@ -6954,7 +6954,7 @@
       "Treasure Key Crafted": 26,
       "Tree Chopped": 57664,
       "Tuna Fed": 80,
-      "Turbo Composter Collected": 974,
+      "Turbo Composter Collected": 975,
       "Turnip Harvested": 2894,
       "Turnip Planted": 2894,
       "Turnip Seed Bought": 2633,
@@ -8106,7 +8106,7 @@
           "petXP": 0,
           "score": 20,
           "collectivePet": {
-            "totalXP": 5676963,
+            "totalXP": 5678847,
             "goalXP": 2404688,
             "goalReached": true,
             "streak": 3,
@@ -9513,7 +9513,7 @@
       "Squirrel": 1769755980181,
       "Tiki Totem": 1769755980181,
       "Tough Tree": 1769755980181,
-      "Soil Krabby": 1769745667118,
+      "Soil Krabby": 1769756933226,
       "Abundant Harvest": 1769732191513,
       "Alien Chicken": 1769703358756,
       "Ayam Cemani": 1769703358756,
@@ -9541,18 +9541,18 @@
       "Chonky Scarecrow": 1769042001644,
       "Young Farmer": 1769043754218,
       "Chicory": 1769177605058,
-      "Desert Gnome": 1769754527791,
+      "Desert Gnome": 1769756922484,
       "Crimstone Armor": 1769671769137,
       "Chonky Feed": 1769732189944,
       "Cow-Smart Nutrition": 1769732189944,
       "Bee Suit": 1769719566056,
-      "Turd Topper": 1769745667118,
+      "Turd Topper": 1769756933226,
       "White Sheep Onesie": 1769732191513,
       "Grain Grinder": 1766292716755,
       "Desert Rose": 1769727800224,
       "Butterfly": 1769619848505,
       "Iron Beetle": 1769732389322,
-      "Fast Feasts": 1769754527791,
+      "Fast Feasts": 1769756922484,
       "Juicy Boost": 1765857387693,
       "Petalled Perk": 1769177605058,
       "Fine Fibers": 1769732191513,
@@ -9567,7 +9567,7 @@
       "Frosted Cakes": 1769721038662,
       "Poseidon": 1769651228331,
       "Reelmaster's Chair": 1769651242508,
-      "Bucket O' Worms": 1769745667118,
+      "Bucket O' Worms": 1769756933226,
       "Boar Shrine": 1766037640814,
       "Catchup": 1769754469567,
       "Fruitful Fumble": 1769754469567,
@@ -9575,11 +9575,11 @@
       "Blooming Boost": 1769728046673,
       "Trident": 1769651167262,
       "Power hour": 1768279406680,
-      "Saw Fish": 1769745667118,
+      "Saw Fish": 1769756933226,
       "Sunshower": 1769459422702
     },
     "socialFarming": {
-      "points": 11320,
+      "points": 11323,
       "clutter": {
         "spawnedAt": 1769731213309,
         "locations": {
@@ -9664,7 +9664,7 @@
       },
       "weeklyPoints": {
         "week": "2026-01-26",
-        "points": 370
+        "points": 373
       },
       "helpIncrease": {
         "boughtAt": [
