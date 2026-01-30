@@ -1,18 +1,42 @@
 {
   "username": "droid",
   "overview": {
-    "balance": 2.44,
+    "balance": 1.3,
     "coins": 175288.0,
     "gems": 0.0,
     "earned_sfl": 8174.26,
     "earned_coins": 175288.0,
     "spent_sfl": 12297.69,
-    "items_sold": 7581.0,
+    "items_sold": 7582.0,
     "trade_points": 11366.79,
-    "last_updated": "2026-01-30 01:42 AM",
+    "last_updated": "2026-01-30 02:50 AM",
     "active_listings": 9
   },
   "buys": [
+    {
+      "date": "2026-01-30",
+      "time": "01:53 AM",
+      "type": "BUY",
+      "item": "Wool",
+      "quantity": 10,
+      "price_text": "0.506 SFL",
+      "price": 0.506,
+      "counterparty": "Digits",
+      "farm_id": "-",
+      "trade_id": "192a20b8"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "01:42 AM",
+      "type": "BUY",
+      "item": "Honey",
+      "quantity": 10,
+      "price_text": "0.6352 SFL",
+      "price": 0.6352,
+      "counterparty": "Pepes",
+      "farm_id": "-",
+      "trade_id": "2576f0c3"
+    },
     {
       "date": "2026-01-30",
       "time": "01:19 AM",
@@ -581,6 +605,18 @@
   "sells": [
     {
       "date": "2026-01-30",
+      "time": "02:43 AM",
+      "type": "SELL",
+      "item": "Olive",
+      "quantity": 5,
+      "price_text": "2.2999 SFL",
+      "price": 2.2999,
+      "counterparty": "Muziboo",
+      "farm_id": "-",
+      "trade_id": "74063d3a"
+    },
+    {
+      "date": "2026-01-30",
       "time": "01:13 AM",
       "type": "SELL",
       "item": "Iron",
@@ -726,15 +762,33 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 47,
-    "total_sells": 12,
-    "buy_volume": 54.17490000000002,
-    "sell_volume": 46.393600000000006,
-    "gross_profit": -7.781300000000016,
-    "avg_buy_price": 1.1526574468085111,
-    "avg_sell_price": 3.866133333333334,
+    "total_buys": 49,
+    "total_sells": 13,
+    "buy_volume": 55.31610000000002,
+    "sell_volume": 48.6935,
+    "gross_profit": -6.62260000000002,
+    "avg_buy_price": 1.1289000000000005,
+    "avg_sell_price": 3.745653846153846,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Wool",
+        "quantity": 10,
+        "price": 0.506,
+        "date": "2026-01-30",
+        "time": "01:53 AM",
+        "username": "droid"
+      },
+      {
+        "type": "BUY",
+        "item": "Honey",
+        "quantity": 10,
+        "price": 0.6352,
+        "date": "2026-01-30",
+        "time": "01:42 AM",
+        "username": "droid"
+      },
       {
         "type": "BUY",
         "item": "Parsnip",
@@ -768,8 +822,7 @@
         "quantity": 10,
         "price": 0.099,
         "date": "2026-01-30",
-        "time": "01:10 AM",
-        "username": "droid"
+        "time": "01:10 AM"
       },
       {
         "type": "BUY",
@@ -777,8 +830,7 @@
         "quantity": 10,
         "price": 0.099,
         "date": "2026-01-30",
-        "time": "01:10 AM",
-        "username": "droid"
+        "time": "01:10 AM"
       },
       {
         "type": "BUY",
@@ -883,25 +935,9 @@
         "price": 0.0962,
         "date": "2026-01-29",
         "time": "02:21 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Artichoke",
-        "quantity": 18,
-        "price": 0.1732,
-        "date": "2026-01-29",
-        "time": "02:21 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Artichoke",
-        "quantity": 125,
-        "price": 1.2025,
-        "date": "2026-01-29",
-        "time": "02:21 PM"
       }
     ],
-    "profit_margin": -14.363293702434177,
+    "profit_margin": -11.972282933901734,
     "most_bought_items": {
       "Broccoli": 2300,
       "Yam": 1650,
@@ -923,7 +959,7 @@
       "Kale": 100,
       "Blueberry": 100,
       "Gold": 15,
-      "Olive": 5,
+      "Olive": 10,
       "Obsidian": 1
     }
   },
@@ -1010,17 +1046,7 @@
       "trade_type": "instant"
     }
   ],
-  "active_offers": [
-    {
-      "id": "192a20b8",
-      "item": "Wool",
-      "quantity": 10,
-      "price": 0.506,
-      "created_at": 1769735390793,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    }
-  ],
+  "active_offers": [],
   "inventory": {
     "crops": {
       "Sunflower": 27857.035199987436,
@@ -1038,7 +1064,7 @@
       "Corn": 0.0301000000000001,
       "Soybean": 141.4219,
       "Rice": 0.991,
-      "Olive": 39.7548,
+      "Olive": 34.7548,
       "Barley": 91.73979999999993,
       "Rhubarb": 96.35,
       "Zucchini": 588.6496,

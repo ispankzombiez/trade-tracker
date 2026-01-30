@@ -1,7 +1,7 @@
 {
   "farm": {
     "coins": 175288.45739999923,
-    "balance": "2.4430634102868796",
+    "balance": "1.3018634102868796",
     "previousBalance": "13.4986759102868811",
     "inventory": {
       "Pumpkin Seed": "900",
@@ -66,7 +66,7 @@
       "Soybean": "141.421899999999999",
       "Grape": "1.9",
       "Rice": "0.991",
-      "Olive": "39.7548",
+      "Olive": "34.7548",
       "Tomato": "7.5000000000006339",
       "Lemon": "3.300000000001077",
       "Barley": "91.7397999999999357",
@@ -497,7 +497,7 @@
       "Napoleanfish": "6",
       "Carrot Juice": "6",
       "Potato Cake": "1",
-      "Wool": "9.25",
+      "Wool": "19.25",
       "Gem": "4504",
       "Yam Seed": "21",
       "Yellow Cosmos": "5",
@@ -548,7 +548,7 @@
       "Chowder": "2",
       "Fish Oil": "1",
       "Cluck Doll": "2",
-      "Cheese": "6",
+      "Cheese": "2",
       "Orange Juice": "2",
       "Kale Stew": "4",
       "Fish n Chips": "1",
@@ -4852,7 +4852,9 @@
           },
           "sfl": 2.2999,
           "tax": 0.1724925,
-          "tradeType": "instant"
+          "tradeType": "instant",
+          "fulfilledAt": 1769741011321,
+          "fulfilledById": 2526741396558928
         },
         "329fdebf": {
           "collection": "collectibles",
@@ -4895,7 +4897,7 @@
           "tradeType": "instant"
         }
       },
-      "soldCount": 7581,
+      "soldCount": 7582,
       "dailyListings": {
         "count": 1,
         "date": 30
@@ -4904,17 +4906,7 @@
         "count": 3,
         "date": 214
       },
-      "offers": {
-        "192a20b8": {
-          "createdAt": 1769735390793,
-          "items": {
-            "Wool": 10
-          },
-          "sfl": 0.506,
-          "collection": "collectibles",
-          "tradeType": "instant"
-        }
-      },
+      "offers": {},
       "tradePoints": 11366.786871688271,
       "weeklyPurchases": {
         "2026-01-19": {
@@ -5045,14 +5037,14 @@
           "readyAt": 1752277639794,
           "crafting": [
             {
-              "name": "Cheese",
+              "name": "Honey Cheddar",
               "boost": {
                 "Oil": 0
               },
               "skills": {
                 "Double Nom": true
               },
-              "readyAt": 1769737079609
+              "readyAt": 1769776230763
             }
           ],
           "oil": 0,
@@ -7239,7 +7231,7 @@
       "Marketplace Listing Created": 1244,
       "Marketplace Offer Made": 597,
       "Marketplace Offer Cancelled": 180,
-      "Marketplace Offer Claimed": 234,
+      "Marketplace Offer Claimed": 235,
       "Recipe Queue Cancelled": 191,
       "Greenhouse Oiled": 75,
       "Blacksmith Shop Restocked": 18,
@@ -7683,7 +7675,7 @@
       "White Carrot Sold": 1,
       "Chicken Sold": 20,
       "Hen House Sold": 1,
-      "Cheese Cooked": 2575,
+      "Cheese Cooked": 2576,
       "Music Box Crafted": 1,
       "Sheep Cured": 19,
       "Cowboy Hat Bought": 1,
@@ -9467,7 +9459,7 @@
           "petXP": 0,
           "score": 30,
           "collectivePet": {
-            "totalXP": 4706305,
+            "totalXP": 4771430,
             "goalXP": 10263180,
             "goalReached": false,
             "streak": 10,
@@ -10758,7 +10750,7 @@
       "Rock'N'Roll": 1769464281974,
       "Stone Beetle": 1769464281974,
       "Tunnel Mole": 1760936501773,
-      "Desert Gnome": 1769735999085,
+      "Desert Gnome": 1769737350763,
       "Knight Chicken": 1764944589664,
       "Abundant Harvest": 1769735633595,
       "Alien Chicken": 1769735633595,
