@@ -9,11 +9,23 @@
     "spent_sfl": 15466.58,
     "items_sold": 13453.0,
     "trade_points": 31145.84,
-    "last_updated": "2026-01-30 11:10 AM",
+    "last_updated": "2026-01-30 11:34 AM",
     "active_listings": 138
   },
   "buys": [],
   "sells": [
+    {
+      "date": "2026-01-30",
+      "time": "11:31 AM",
+      "type": "SELL",
+      "item": "Wood",
+      "quantity": 110,
+      "price_text": "0.9845 SFL",
+      "price": 0.9845,
+      "counterparty": "Alyneko",
+      "farm_id": "-",
+      "trade_id": "2cab2d6b"
+    },
     {
       "date": "2026-01-30",
       "time": "08:50 AM",
@@ -1266,14 +1278,23 @@
   "last_updated": null,
   "stats": {
     "total_buys": 0,
-    "total_sells": 104,
+    "total_sells": 105,
     "buy_volume": 0,
-    "sell_volume": 73.44579999999999,
-    "gross_profit": 73.44579999999999,
+    "sell_volume": 74.43029999999999,
+    "gross_profit": 74.43029999999999,
     "avg_buy_price": 0,
-    "avg_sell_price": 0.7062096153846154,
+    "avg_sell_price": 0.7088599999999999,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "SELL",
+        "item": "Wood",
+        "quantity": 110,
+        "price": 0.9845,
+        "date": "2026-01-30",
+        "time": "11:31 AM",
+        "username": "jaysuper"
+      },
       {
         "type": "SELL",
         "item": "Leather",
@@ -1316,8 +1337,7 @@
         "quantity": 20,
         "price": 0.362,
         "date": "2026-01-30",
-        "time": "08:41 AM",
-        "username": "jaysuper"
+        "time": "08:41 AM"
       },
       {
         "type": "SELL",
@@ -1430,14 +1450,6 @@
         "price": 0.3542,
         "date": "2026-01-30",
         "time": "02:58 AM"
-      },
-      {
-        "type": "SELL",
-        "item": "Parsnip",
-        "quantity": 20,
-        "price": 0.356,
-        "date": "2026-01-30",
-        "time": "02:58 AM"
       }
     ],
     "profit_margin": 0,
@@ -1448,7 +1460,7 @@
       "Beetroot": 2626,
       "Broccoli": 2150,
       "Lemon": 1195,
-      "Wood": 914,
+      "Wood": 1024,
       "Pumpkin": 600,
       "Parsnip": 375,
       "Tomato": 180,
