@@ -2,17 +2,29 @@
   "username": "droid",
   "overview": {
     "balance": 0.04,
-    "coins": 173097.0,
+    "coins": 172957.0,
     "gems": 0.0,
     "earned_sfl": 8175.19,
-    "earned_coins": 173097.0,
+    "earned_coins": 172957.0,
     "spent_sfl": 12297.69,
     "items_sold": 7583.0,
     "trade_points": 11367.53,
-    "last_updated": "2026-01-30 12:17 PM",
-    "active_listings": 8
+    "last_updated": "2026-01-30 12:35 PM",
+    "active_listings": 13
   },
   "buys": [
+    {
+      "date": "2026-01-30",
+      "time": "12:31 PM",
+      "type": "BUY",
+      "item": "Milk",
+      "quantity": 38,
+      "price_text": "4.56 SFL",
+      "price": 4.56,
+      "counterparty": "Veayce",
+      "farm_id": "-",
+      "trade_id": "88572b0b"
+    },
     {
       "date": "2026-01-30",
       "time": "06:30 AM",
@@ -689,6 +701,30 @@
   "sells": [
     {
       "date": "2026-01-30",
+      "time": "12:33 PM",
+      "type": "SELL",
+      "item": "Yam",
+      "quantity": 900,
+      "price_text": "2.59 SFL",
+      "price": 2.59,
+      "counterparty": "Tang170",
+      "farm_id": "-",
+      "trade_id": "456c17f7"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "12:30 PM",
+      "type": "SELL",
+      "item": "Iron",
+      "quantity": 80,
+      "price_text": "5 SFL",
+      "price": 5.0,
+      "counterparty": "Jorjgvara",
+      "farm_id": "-",
+      "trade_id": "5ddedbf1"
+    },
+    {
+      "date": "2026-01-30",
       "time": "05:48 AM",
       "type": "SELL",
       "item": "Gold",
@@ -858,15 +894,24 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 56,
-    "total_sells": 14,
-    "buy_volume": 61.87410000000002,
-    "sell_volume": 51.1035,
-    "gross_profit": -10.770600000000023,
-    "avg_buy_price": 1.1048946428571431,
-    "avg_sell_price": 3.6502499999999998,
+    "total_buys": 57,
+    "total_sells": 16,
+    "buy_volume": 66.4341,
+    "sell_volume": 58.69350000000001,
+    "gross_profit": -7.7405999999999935,
+    "avg_buy_price": 1.1655105263157894,
+    "avg_sell_price": 3.6683437500000005,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Milk",
+        "quantity": 38,
+        "price": 4.56,
+        "date": "2026-01-30",
+        "time": "12:31 PM",
+        "username": "droid"
+      },
       {
         "type": "BUY",
         "item": "Stone",
@@ -909,8 +954,7 @@
         "quantity": 20,
         "price": 0.1946,
         "date": "2026-01-30",
-        "time": "04:53 AM",
-        "username": "droid"
+        "time": "04:53 AM"
       },
       {
         "type": "BUY",
@@ -1023,34 +1067,26 @@
         "price": 0.3987,
         "date": "2026-01-29",
         "time": "05:20 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Stone",
-        "quantity": 25,
-        "price": 0.3987,
-        "date": "2026-01-29",
-        "time": "05:20 PM"
       }
     ],
-    "profit_margin": -17.407283499881242,
+    "profit_margin": -11.651546419685062,
     "most_bought_items": {
       "Broccoli": 2300,
       "Yam": 1650,
       "Carrot": 600,
       "Stone": 473,
       "Artichoke": 263,
-      "Milk": 114,
+      "Milk": 152,
       "Parsnip": 100,
       "Cauliflower": 100,
       "Leather": 59,
       "Wood": 50
     },
     "most_sold_items": {
-      "Yam": 1600,
+      "Yam": 2500,
       "Carrot": 800,
       "Eggplant": 200,
-      "Iron": 115,
+      "Iron": 195,
       "Barley": 100,
       "Kale": 100,
       "Blueberry": 100,
@@ -1131,6 +1167,42 @@
       "created_at": 1769656189516,
       "collection": "collectibles",
       "trade_type": "instant"
+    },
+    {
+      "id": "456c17f7",
+      "item": "Yam",
+      "quantity": 900,
+      "price": 2.59,
+      "created_at": 1769776113253,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "2e7e1b95",
+      "item": "Gold",
+      "quantity": 10,
+      "price": 2.399,
+      "created_at": 1769776158066,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "653a88d7",
+      "item": "Gold",
+      "quantity": 10,
+      "price": 2.399,
+      "created_at": 1769776164779,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "278fda66",
+      "item": "Carrot",
+      "quantity": 500,
+      "price": 0.85,
+      "created_at": 1769776185985,
+      "collection": "collectibles",
+      "trade_type": "instant"
     }
   ],
   "active_offers": [],
@@ -1156,7 +1228,7 @@
       "Rhubarb": 96.35,
       "Zucchini": 588.6496,
       "Yam": 917.1633,
-      "Broccoli": 0.8199,
+      "Broccoli": 182.5199,
       "Pepper": 46.7,
       "Onion": 685.7929,
       "Turnip": 21.296100000000017,
@@ -1175,9 +1247,9 @@
       "Celestine": 2.4000000000000252
     },
     "resources": {
-      "Wood": 70.77,
-      "Stone": 75.04,
-      "Iron": 39.23,
+      "Wood": 49.77,
+      "Stone": 40.04,
+      "Iron": 96.66,
       "Gold": 23.82,
       "Obsidian": 10.2,
       "Crimstone": 4.0

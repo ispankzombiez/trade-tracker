@@ -1,18 +1,42 @@
 {
   "username": "andrei",
   "overview": {
-    "balance": 3.83,
-    "coins": 53276.0,
+    "balance": 2.32,
+    "coins": 52792.0,
     "gems": 0.0,
     "earned_sfl": 11638.5,
-    "earned_coins": 53276.0,
+    "earned_coins": 52792.0,
     "spent_sfl": 15729.07,
     "items_sold": 10536.0,
     "trade_points": 13889.33,
-    "last_updated": "2026-01-30 12:17 PM",
+    "last_updated": "2026-01-30 12:35 PM",
     "active_listings": 0
   },
   "buys": [
+    {
+      "date": "2026-01-30",
+      "time": "12:25 PM",
+      "type": "BUY",
+      "item": "Stone",
+      "quantity": 171,
+      "price_text": "2.7306 SFL",
+      "price": 2.7306,
+      "counterparty": "Leeminnhhh",
+      "farm_id": "-",
+      "trade_id": "1b5efbda"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "12:25 PM",
+      "type": "BUY",
+      "item": "Stone",
+      "quantity": 107,
+      "price_text": "1.7086 SFL",
+      "price": 1.7086,
+      "counterparty": "zyx20000000",
+      "farm_id": "-",
+      "trade_id": "52d6716a"
+    },
     {
       "date": "2026-01-30",
       "time": "11:36 AM",
@@ -473,6 +497,18 @@
   "sells": [
     {
       "date": "2026-01-30",
+      "time": "12:24 PM",
+      "type": "SELL",
+      "item": "Iron",
+      "quantity": 50,
+      "price_text": "3.175 SFL",
+      "price": 3.175,
+      "counterparty": "Jackzieeei",
+      "farm_id": "-",
+      "trade_id": "027b7537"
+    },
+    {
+      "date": "2026-01-30",
       "time": "11:32 AM",
       "type": "SELL",
       "item": "Grape",
@@ -834,15 +870,33 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 38,
-    "total_sells": 30,
-    "buy_volume": 60.796599999999984,
-    "sell_volume": 40.612,
-    "gross_profit": -20.184599999999982,
-    "avg_buy_price": 1.5999105263157891,
-    "avg_sell_price": 1.3537333333333335,
+    "total_buys": 40,
+    "total_sells": 31,
+    "buy_volume": 65.2358,
+    "sell_volume": 43.787,
+    "gross_profit": -21.4488,
+    "avg_buy_price": 1.630895,
+    "avg_sell_price": 1.4124838709677419,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Stone",
+        "quantity": 171,
+        "price": 2.7306,
+        "date": "2026-01-30",
+        "time": "12:25 PM",
+        "username": "andrei"
+      },
+      {
+        "type": "BUY",
+        "item": "Stone",
+        "quantity": 107,
+        "price": 1.7086,
+        "date": "2026-01-30",
+        "time": "12:25 PM",
+        "username": "andrei"
+      },
       {
         "type": "BUY",
         "item": "Milk",
@@ -876,8 +930,7 @@
         "quantity": 50,
         "price": 0.936,
         "date": "2026-01-30",
-        "time": "11:04 AM",
-        "username": "andrei"
+        "time": "11:04 AM"
       },
       {
         "type": "BUY",
@@ -885,8 +938,7 @@
         "quantity": 100,
         "price": 1.1,
         "date": "2026-01-30",
-        "time": "11:04 AM",
-        "username": "andrei"
+        "time": "11:04 AM"
       },
       {
         "type": "BUY",
@@ -991,27 +1043,11 @@
         "price": 4.96,
         "date": "2026-01-29",
         "time": "03:14 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Milk",
-        "quantity": 15,
-        "price": 1.8734,
-        "date": "2026-01-29",
-        "time": "02:16 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Apple",
-        "quantity": 57,
-        "price": 1.1536,
-        "date": "2026-01-29",
-        "time": "02:11 PM"
       }
     ],
-    "profit_margin": -33.20021185395234,
+    "profit_margin": -32.878879388311326,
     "most_bought_items": {
-      "Stone": 659,
+      "Stone": 937,
       "Milk": 205,
       "Orange": 140,
       "Apple": 140,
@@ -1024,7 +1060,7 @@
     },
     "most_sold_items": {
       "Beetroot": 1000,
-      "Iron": 105,
+      "Iron": 155,
       "Gold": 35,
       "Grape": 25,
       "Duskberry": 18
@@ -1882,7 +1918,7 @@
       "Barley": 227.98210000000006,
       "Rhubarb": 503.35,
       "Zucchini": 529.05,
-      "Yam": 3289.975,
+      "Yam": 3493.765,
       "Broccoli": 1010.446,
       "Pepper": 1179.455,
       "Onion": 17.619400000000013,
@@ -1892,7 +1928,7 @@
     "fruits": {
       "Apple": 150.1000000000003,
       "Blueberry": 35.55000000000024,
-      "Orange": 143.50000000000006,
+      "Orange": 133.50000000000006,
       "Banana": 67.25000000000146,
       "Grape": 17.25000000000063,
       "Tomato": 909.0000000000002,
@@ -1902,9 +1938,9 @@
       "Duskberry": 18.500000000000004
     },
     "resources": {
-      "Wood": 835.72,
-      "Stone": 191.9,
-      "Iron": 112.25,
+      "Wood": 832.72,
+      "Stone": 459.9,
+      "Iron": 32.25,
       "Gold": 12.2,
       "Crimstone": 0.1,
       "Obsidian": 16.9
