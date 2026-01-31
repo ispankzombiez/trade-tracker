@@ -230,11 +230,9 @@
 
         .timeframe-controls {
             display: flex;
-            flex-wrap: wrap;
             gap: 10px;
             margin-bottom: 15px;
             justify-content: center;
-            align-items: center;
         }
 
         .timeframe-btn {
@@ -256,50 +254,6 @@
         .timeframe-btn.active {
             background: var(--primary-color);
             color: var(--dark-bg);
-        }
-
-        .custom-date-range {
-            display: flex;
-            gap: 8px;
-            align-items: center;
-            margin-left: 15px;
-            padding-left: 15px;
-            border-left: 1px solid var(--border-color);
-        }
-
-        .date-input {
-            background: var(--card-bg);
-            color: var(--text-light);
-            border: 1px solid var(--border-color);
-            border-radius: 8px;
-            padding: 6px 10px;
-            font-size: 0.85rem;
-        }
-
-        .date-input:focus {
-            outline: none;
-            border-color: var(--primary-color);
-        }
-
-        .apply-dates-btn {
-            background: var(--secondary-color);
-            color: var(--text-light);
-            border: none;
-            border-radius: 8px;
-            padding: 6px 12px;
-            cursor: pointer;
-            font-size: 0.85rem;
-            transition: all 0.3s ease;
-        }
-
-        .apply-dates-btn:hover {
-            background: var(--primary-color);
-        }
-
-        .time-filter-label {
-            font-size: 0.8rem;
-            color: var(--text-muted);
-            white-space: nowrap;
         }
 
         .user-buttons {
@@ -920,21 +874,10 @@
                 <div class="card">
                     <h3>📊 Market Summary</h3>
                     <div class="timeframe-controls">
-                        <button class="timeframe-btn active" data-timeframe="day">24h</button>
-                        <button class="timeframe-btn" data-timeframe="week">7d</button>
-                        <button class="timeframe-btn" data-timeframe="month">30d</button>
-                        <button class="timeframe-btn" data-timeframe="3month">3m</button>
-                        <button class="timeframe-btn" data-timeframe="year">1y</button>
-                        <button class="timeframe-btn" data-timeframe="all">All</button>
-                        
-                        <div class="custom-date-range">
-                            <span class="time-filter-label">Custom:</span>
-                            <input type="date" id="startDate" class="date-input" title="Start Date">
-                            <span class="time-filter-label">to</span>
-                            <input type="date" id="endDate" class="date-input" title="End Date">
-                            <button class="apply-dates-btn" onclick="applyCustomDateRange()">Apply</button>
-                            <button class="apply-dates-btn" onclick="clearCustomDateRange()" style="background: var(--danger-color);">Clear</button>
-                        </div>
+                        <button class="timeframe-btn active" onclick="changeTimeframe('day')" data-timeframe="day">Day</button>
+                        <button class="timeframe-btn" onclick="changeTimeframe('week')" data-timeframe="week">Week</button>
+                        <button class="timeframe-btn" onclick="changeTimeframe('month')" data-timeframe="month">Month</button>
+                        <button class="timeframe-btn" onclick="changeTimeframe('year')" data-timeframe="year">Year</button>
                     </div>
                     <div id="marketSummary" class="stats-grid">
                         <!-- Will be populated by JavaScript -->
@@ -956,23 +899,6 @@
                     <!-- User Stats -->
                     <div class="card">
                         <h3 id="userDetailsTitle">📈 Trader Statistics</h3>
-                        <div class="timeframe-controls" id="userTimeframeControls">
-                            <button class="timeframe-btn active" onclick="changeUserTimeframe('day')" data-timeframe="day">24h</button>
-                            <button class="timeframe-btn" onclick="changeUserTimeframe('week')" data-timeframe="week">7d</button>
-                            <button class="timeframe-btn" onclick="changeUserTimeframe('month')" data-timeframe="month">30d</button>
-                            <button class="timeframe-btn" onclick="changeUserTimeframe('3month')" data-timeframe="3month">3m</button>
-                            <button class="timeframe-btn" onclick="changeUserTimeframe('year')" data-timeframe="year">1y</button>
-                            <button class="timeframe-btn" onclick="changeUserTimeframe('all')" data-timeframe="all">All</button>
-                            
-                            <div class="custom-date-range">
-                                <span class="time-filter-label">Custom:</span>
-                                <input type="date" id="userStartDate" class="date-input" title="Start Date">
-                                <span class="time-filter-label">to</span>
-                                <input type="date" id="userEndDate" class="date-input" title="End Date">
-                                <button class="apply-dates-btn" onclick="applyUserCustomDateRange()">Apply</button>
-                                <button class="apply-dates-btn" onclick="clearUserCustomDateRange()" style="background: var(--danger-color);">Clear</button>
-                            </div>
-                        </div>
                         <div id="userStats" class="stats-grid">
                             <!-- Will be populated by JavaScript -->
                         </div>
@@ -1006,34 +932,14 @@
 
             <!-- Detailed Trade Columns -->
             <div id="detailedTrades" class="detailed-trades" style="display: none;">
-                <div style="margin-bottom: 20px;">
-                    <div class="timeframe-controls" id="tradesTimeframeControls">
-                        <button class="timeframe-btn active" onclick="changeTradesTimeframe('day')" data-timeframe="day">24h</button>
-                        <button class="timeframe-btn" onclick="changeTradesTimeframe('week')" data-timeframe="week">7d</button>
-                        <button class="timeframe-btn" onclick="changeTradesTimeframe('month')" data-timeframe="month">30d</button>
-                        <button class="timeframe-btn" onclick="changeTradesTimeframe('3month')" data-timeframe="3month">3m</button>
-                        <button class="timeframe-btn" onclick="changeTradesTimeframe('year')" data-timeframe="year">1y</button>
-                        <button class="timeframe-btn" onclick="changeTradesTimeframe('all')" data-timeframe="all">All</button>
-                        
-                        <div class="custom-date-range">
-                            <span class="time-filter-label">Custom:</span>
-                            <input type="date" id="tradesStartDate" class="date-input" title="Start Date">
-                            <span class="time-filter-label">to</span>
-                            <input type="date" id="tradesEndDate" class="date-input" title="End Date">
-                            <button class="apply-dates-btn" onclick="applyTradesCustomDateRange()">Apply</button>
-                            <button class="apply-dates-btn" onclick="clearTradesCustomDateRange()" style="background: var(--danger-color);">Clear</button>
-                        </div>
-                    </div>
-                </div>
-                
                 <div class="trade-column">
-                    <h3>🛒 All Buys <span id="buysFilterInfo" class="time-filter-label"></span></h3>
+                    <h3>🛒 All Buys</h3>
                     <div id="buysList" class="trade-list">
                         <!-- Will be populated by JavaScript -->
                     </div>
                 </div>
                 <div class="trade-column">
-                    <h3>💰 All Sells <span id="sellsFilterInfo" class="time-filter-label"></span></h3>
+                    <h3>💰 All Sells</h3>
                     <div id="sellsList" class="trade-list">
                         <!-- Will be populated by JavaScript -->
                     </div>
@@ -1197,22 +1103,12 @@
         }
 
         function updateLastUpdated() {
-            if (!dashboardData || !dashboardData.last_updated) {
-                console.error('Dashboard data not loaded or invalid for last updated');
-                return;
-            }
-            
             const formattedDateTime = formatLocalDateTime(dashboardData.last_updated);
             document.getElementById('lastUpdated').textContent = 
                 `🔄 Last Updated: ${formattedDateTime}`;
         }
 
         function updateTopTraders() {
-            if (!dashboardData || !dashboardData.top_traders) {
-                console.error('Dashboard data not loaded or invalid for top traders');
-                return;
-            }
-            
             const container = document.getElementById('topTraders');
             container.innerHTML = '';
 
@@ -1236,11 +1132,6 @@
         }
 
         function updateMarketSummary() {
-            if (!dashboardData || !dashboardData.top_traders) {
-                console.error('Dashboard data not loaded or invalid');
-                return;
-            }
-            
             const container = document.getElementById('marketSummary');
             const totalProfit = dashboardData.top_traders.reduce((sum, trader) => sum + trader.profit, 0);
             const totalVolume = dashboardData.top_traders.reduce((sum, trader) => sum + trader.total_volume, 0);
@@ -1267,11 +1158,6 @@
         }
 
         function updateRecentActivity() {
-            if (!dashboardData || !dashboardData.recent_activity) {
-                console.error('Dashboard data not loaded or invalid for recent activity');
-                return;
-            }
-            
             const container = document.getElementById('recentActivity');
             container.innerHTML = '';
 
@@ -1750,13 +1636,7 @@
             }, 100);
         }
 
-        // Enhanced time filtering variables and functions
         let currentTimeframe = 'day';
-        let userTimeframe = 'day'; 
-        let tradesTimeframe = 'day';
-        let customDateRange = null;
-        let userCustomDateRange = null;
-        let tradesCustomDateRange = null;
 
         function toggleDebug() {
             const debugPanel = document.getElementById('debugPanel');
@@ -1770,393 +1650,40 @@
             }
         }
 
-        // Enhanced time filtering functions
-        function getDateRange(timeframe, customRange = null) {
-            if (customRange) {
-                return customRange;
-            }
-            
-            const now = new Date();
-            let startDate;
-            
-            switch (timeframe) {
-                case 'day':
-                    startDate = new Date(now - 24 * 60 * 60 * 1000);
-                    break;
-                case 'week':
-                    startDate = new Date(now - 7 * 24 * 60 * 60 * 1000);
-                    break;
-                case 'month':
-                    startDate = new Date(now - 30 * 24 * 60 * 60 * 1000);
-                    break;
-                case '3month':
-                    startDate = new Date(now - 90 * 24 * 60 * 60 * 1000);
-                    break;
-                case 'year':
-                    startDate = new Date(now - 365 * 24 * 60 * 60 * 1000);
-                    break;
-                case 'all':
-                    return null; // No filtering
-                default:
-                    startDate = new Date(now - 24 * 60 * 60 * 1000);
-            }
-            
-            return { start: startDate, end: now };
-        }
-
-        function isTradeInDateRange(trade, dateRange) {
-            if (!dateRange) return true; // No filtering
-            
-            const tradeDate = new Date(trade.date + ' ' + trade.time);
-            return tradeDate >= dateRange.start && tradeDate <= dateRange.end;
-        }
-
-        // Market Summary timeframe functions
         function changeTimeframe(timeframe) {
             currentTimeframe = timeframe;
-            customDateRange = null;
             
             // Update active button
-            document.querySelectorAll('#marketSummary').forEach(container => {
-                const parent = container.closest('.card');
-                if (parent) {
-                    parent.querySelectorAll('.timeframe-btn').forEach(btn => {
-                        btn.classList.remove('active');
-                    });
-                    const targetBtn = parent.querySelector(`[data-timeframe="${timeframe}"]`);
-                    if (targetBtn) targetBtn.classList.add('active');
-                }
+            document.querySelectorAll('.timeframe-btn').forEach(btn => {
+                btn.classList.remove('active');
             });
+            document.querySelector(`[data-timeframe="${timeframe}"]`).classList.add('active');
             
-            // Clear custom date inputs
-            const startInput = document.getElementById('startDate');
-            const endInput = document.getElementById('endDate');
-            if (startInput) startInput.value = '';
-            if (endInput) endInput.value = '';
-            
-            // Recalculate market summary
+            // Recalculate market summary for the selected timeframe
             updateMarketSummary();
         }
 
-        function applyCustomDateRange() {
-            const startDate = document.getElementById('startDate').value;
-            const endDate = document.getElementById('endDate').value;
-            
-            if (!startDate || !endDate) {
-                alert('Please select both start and end dates');
-                return;
-            }
-            
-            if (new Date(startDate) > new Date(endDate)) {
-                alert('Start date cannot be after end date');
-                return;
-            }
-            
-            customDateRange = {
-                start: new Date(startDate),
-                end: new Date(endDate + ' 23:59:59') // Include full end date
-            };
-            
-            currentTimeframe = 'custom';
-            
-            // Update active state
-            document.querySelectorAll('#marketSummary').forEach(container => {
-                const parent = container.closest('.card');
-                if (parent) {
-                    parent.querySelectorAll('.timeframe-btn').forEach(btn => btn.classList.remove('active'));
-                }
-            });
-            
-            updateMarketSummary();
-        }
-
-        function clearCustomDateRange() {
-            customDateRange = null;
-            document.getElementById('startDate').value = '';
-            document.getElementById('endDate').value = '';
-            changeTimeframe('day');
-        }
-
-        // User-specific timeframe functions
-        function changeUserTimeframe(timeframe) {
-            userTimeframe = timeframe;
-            userCustomDateRange = null;
-            
-            // Update active button
-            const controls = document.getElementById('userTimeframeControls');
-            if (controls) {
-                controls.querySelectorAll('.timeframe-btn').forEach(btn => {
-                    btn.classList.remove('active');
-                });
-                const targetBtn = controls.querySelector(`[data-timeframe="${timeframe}"]`);
-                if (targetBtn) targetBtn.classList.add('active');
-            }
-            
-            // Clear custom date inputs
-            const startInput = document.getElementById('userStartDate');
-            const endInput = document.getElementById('userEndDate');
-            if (startInput) startInput.value = '';
-            if (endInput) endInput.value = '';
-            
-            // Update user statistics and trades
-            updateUserStats();
-            updateUserMostItems();
-        }
-
-        function applyUserCustomDateRange() {
-            const startDate = document.getElementById('userStartDate').value;
-            const endDate = document.getElementById('userEndDate').value;
-            
-            if (!startDate || !endDate) {
-                alert('Please select both start and end dates');
-                return;
-            }
-            
-            if (new Date(startDate) > new Date(endDate)) {
-                alert('Start date cannot be after end date');
-                return;
-            }
-            
-            userCustomDateRange = {
-                start: new Date(startDate),
-                end: new Date(endDate + ' 23:59:59')
-            };
-            
-            userTimeframe = 'custom';
-            
-            // Update active state
-            const controls = document.getElementById('userTimeframeControls');
-            if (controls) {
-                controls.querySelectorAll('.timeframe-btn').forEach(btn => btn.classList.remove('active'));
-            }
-            
-            updateUserStats();
-            updateUserMostItems();
-        }
-
-        function clearUserCustomDateRange() {
-            userCustomDateRange = null;
-            const startInput = document.getElementById('userStartDate');
-            const endInput = document.getElementById('userEndDate');
-            if (startInput) startInput.value = '';
-            if (endInput) endInput.value = '';
-            changeUserTimeframe('day');
-        }
-
-        // Trades-specific timeframe functions
-        function changeTradesTimeframe(timeframe) {
-            tradesTimeframe = timeframe;
-            tradesCustomDateRange = null;
-            
-            // Update active button
-            const controls = document.getElementById('tradesTimeframeControls');
-            if (controls) {
-                controls.querySelectorAll('.timeframe-btn').forEach(btn => {
-                    btn.classList.remove('active');
-                });
-                const targetBtn = controls.querySelector(`[data-timeframe="${timeframe}"]`);
-                if (targetBtn) targetBtn.classList.add('active');
-            }
-            
-            // Clear custom date inputs
-            const startInput = document.getElementById('tradesStartDate');
-            const endInput = document.getElementById('tradesEndDate');
-            if (startInput) startInput.value = '';
-            if (endInput) endInput.value = '';
-            
-            // Update detailed trades
-            updateDetailedTrades();
-        }
-
-        function applyTradesCustomDateRange() {
-            const startDate = document.getElementById('tradesStartDate').value;
-            const endDate = document.getElementById('tradesEndDate').value;
-            
-            if (!startDate || !endDate) {
-                alert('Please select both start and end dates');
-                return;
-            }
-            
-            if (new Date(startDate) > new Date(endDate)) {
-                alert('Start date cannot be after end date');
-                return;
-            }
-            
-            tradesCustomDateRange = {
-                start: new Date(startDate),
-                end: new Date(endDate + ' 23:59:59')
-            };
-            
-            tradesTimeframe = 'custom';
-            
-            // Update active state
-            const controls = document.getElementById('tradesTimeframeControls');
-            if (controls) {
-                controls.querySelectorAll('.timeframe-btn').forEach(btn => btn.classList.remove('active'));
-            }
-            
-            updateDetailedTrades();
-        }
-
-        function clearTradesCustomDateRange() {
-            tradesCustomDateRange = null;
-            const startInput = document.getElementById('tradesStartDate');
-            const endInput = document.getElementById('tradesEndDate');
-            if (startInput) startInput.value = '';
-            if (endInput) endInput.value = '';
-            changeTradesTimeframe('day');
-        }
-
-        // User statistics update functions with time filtering
-        function updateUserStats() {
-            if (!currentUser) return;
-            
-            fetch(`./data/${currentUser.toLowerCase()}.json`)
-                .then(response => response.json())
-                .then(userData => {
-                    // Apply time filtering to buys and sells
-                    const dateRange = getDateRange(userTimeframe, userCustomDateRange);
-                    let buys = userData.buys || [];
-                    let sells = userData.sells || [];
-                    
-                    if (dateRange) {
-                        buys = buys.filter(trade => isTradeInDateRange(trade, dateRange));
-                        sells = sells.filter(trade => isTradeInDateRange(trade, dateRange));
-                    }
-                    
-                    // Calculate filtered statistics
-                    const totalEarnedFromSells = sells.reduce((sum, sell) => sum + sell.price, 0);
-                    const totalSpentOnBuys = buys.reduce((sum, buy) => sum + buy.price, 0);
-                    const totalProfit = totalEarnedFromSells - totalSpentOnBuys;
-                    const profitClass = totalProfit >= 0 ? 'profit-positive' : 'profit-negative';
-                    const profitSign = totalProfit >= 0 ? '+' : '';
-                    
-                    // Update the stats display
-                    const userStats = document.getElementById('userStats');
-                    if (userStats) {
-                        userStats.innerHTML = `
-                            <div class="stat-item">
-                                <span class="stat-value">${totalEarnedFromSells.toFixed(2)}</span>
-                                <span class="stat-label">Total Earned from Sells</span>
-                            </div>
-                            <div class="stat-item">
-                                <span class="stat-value">${totalSpentOnBuys.toFixed(2)}</span>
-                                <span class="stat-label">Total Spent on Buys</span>
-                            </div>
-                            <div class="stat-item ${profitClass}">
-                                <span class="stat-value">${profitSign}${totalProfit.toFixed(2)}</span>
-                                <span class="stat-label">Total Profit</span>
-                            </div>
-                            <div class="stat-item">
-                                <span class="stat-value">${buys.length + sells.length}</span>
-                                <span class="stat-label">Total Trades</span>
-                            </div>
-                            <div class="stat-item">
-                                <span class="stat-value">${buys.length}</span>
-                                <span class="stat-label">Buys</span>
-                            </div>
-                            <div class="stat-item">
-                                <span class="stat-value">${sells.length}</span>
-                                <span class="stat-label">Sells</span>
-                            </div>
-                        `;
-                    }
-                    
-                    // Update recent trades
-                    const allTrades = [...buys, ...sells];
-                    const recentTrades = allTrades
-                        .sort((a, b) => new Date(b.date + ' ' + b.time) - new Date(a.date + ' ' + a.time))
-                        .slice(0, 8);
-                        
-                    const userRecentActivity = document.getElementById('userRecentActivity');
-                    if (userRecentActivity) {
-                        userRecentActivity.innerHTML = recentTrades.length > 0 ? 
-                            recentTrades.map(trade => `
-                                <div class="activity-item">
-                                    <div>
-                                        <span class="trade-type trade-${trade.type.toLowerCase()}">${trade.type}</span>
-                                        <strong>${trade.item}</strong> x${trade.quantity}
-                                        <br>
-                                        <small>${formatLocalDate(trade.date)} ${formatLocalTime(trade.time, trade.date)}</small>
-                                    </div>
-                                    <div class="profit-amount">${trade.price.toFixed(2)} SFL</div>
-                                </div>
-                            `).join('') : 
-                            '<div style="padding: 20px; text-align: center; color: var(--text-muted);">No trades in selected timeframe</div>';
-                    }
-                })
-                .catch(error => console.error('Error updating user stats:', error));
-        }
-
-        function updateUserMostItems() {
-            if (!currentUser) return;
-            
-            fetch(`./data/${currentUser.toLowerCase()}.json`)
-                .then(response => response.json())
-                .then(userData => {
-                    // Apply time filtering to buys and sells
-                    const dateRange = getDateRange(userTimeframe, userCustomDateRange);
-                    let buys = userData.buys || [];
-                    let sells = userData.sells || [];
-                    
-                    if (dateRange) {
-                        buys = buys.filter(trade => isTradeInDateRange(trade, dateRange));
-                        sells = sells.filter(trade => isTradeInDateRange(trade, dateRange));
-                    }
-                    
-                    // Calculate most bought items
-                    const boughtItems = {};
-                    buys.forEach(buy => {
-                        boughtItems[buy.item] = (boughtItems[buy.item] || 0) + buy.quantity;
-                    });
-                    const topBought = Object.entries(boughtItems)
-                        .sort(([,a], [,b]) => b - a)
-                        .slice(0, 10);
-                        
-                    // Calculate most sold items  
-                    const soldItems = {};
-                    sells.forEach(sell => {
-                        soldItems[sell.item] = (soldItems[sell.item] || 0) + sell.quantity;
-                    });
-                    const topSold = Object.entries(soldItems)
-                        .sort(([,a], [,b]) => b - a)
-                        .slice(0, 10);
-                        
-                    // Update most bought items display
-                    const userMostBought = document.getElementById('userMostBought');
-                    if (userMostBought) {
-                        userMostBought.innerHTML = topBought.length > 0 ?
-                            topBought.map(([item, quantity]) => `
-                                <div class="activity-item">
-                                    <div><strong>${item}</strong></div>
-                                    <div class="profit-amount">${quantity} bought</div>
-                                </div>
-                            `).join('') :
-                            '<div style="padding: 20px; text-align: center; color: var(--text-muted);">No purchases in selected timeframe</div>';
-                    }
-                    
-                    // Update most sold items display
-                    const userMostSold = document.getElementById('userMostSold');
-                    if (userMostSold) {
-                        userMostSold.innerHTML = topSold.length > 0 ?
-                            topSold.map(([item, quantity]) => `
-                                <div class="activity-item">
-                                    <div><strong>${item}</strong></div>
-                                    <div class="profit-amount">${quantity} sold</div>
-                                </div>
-                            `).join('') :
-                            '<div style="padding: 20px; text-align: center; color: var(--text-muted);">No sales in selected timeframe</div>';
-                    }
-                })
-                .catch(error => console.error('Error updating user most items:', error));
-        }
-
-        // Legacy function for compatibility - enhanced
         function filterDataByTimeframe(data) {
-            const dateRange = getDateRange(currentTimeframe, customDateRange);
-            if (!dateRange) return data;
+            if (!currentUser || currentTimeframe === 'year') return data; // Return all data for year view
             
-            return data.filter(trade => isTradeInDateRange(trade, dateRange));
+            const now = new Date();
+            let cutoffDate;
+            
+            switch (currentTimeframe) {
+                case 'day':
+                    cutoffDate = new Date(now - 24 * 60 * 60 * 1000);
+                    break;
+                case 'week':
+                    cutoffDate = new Date(now - 7 * 24 * 60 * 60 * 1000);
+                    break;
+                case 'month':
+                    cutoffDate = new Date(now - 30 * 24 * 60 * 60 * 1000);
+                    break;
+                default:
+                    return data;
+            }
+            
+            return data.filter(trade => new Date(trade.date + ' ' + trade.time) >= cutoffDate);
         }
 
         function updateDetailedTrades() {
@@ -2182,24 +1709,14 @@
                     console.log('User data loaded:', userData);
                     
                     // Extract buys and sells from the user data structure
-                    let buys = userData.buys || [];
-                    let sells = userData.sells || [];
+                    const buys = userData.buys || [];
+                    const sells = userData.sells || [];
                     
-                    // Apply time filtering
-                    const dateRange = getDateRange(tradesTimeframe, tradesCustomDateRange);
-                    if (dateRange) {
-                        buys = buys.filter(trade => isTradeInDateRange(trade, dateRange));
-                        sells = sells.filter(trade => isTradeInDateRange(trade, dateRange));
-                    }
-                    
-                    console.log(`Filtered trades - Buys: ${buys.length}, Sells: ${sells.length}`);
-                    console.log(`Time filter: ${tradesTimeframe}${tradesCustomDateRange ? ' (custom range)' : ''}`);
+                    console.log('Buys found:', buys.length);
+                    console.log('Sells found:', sells.length);
 
                     updateTradesList('buysList', buys);
                     updateTradesList('sellsList', sells);
-                    
-                    // Update filter info
-                    updateTradesFilterInfo(buys.length, sells.length, dateRange);
                     
                     // Show the detailed trades section
                     const detailedTradesElement = document.getElementById('detailedTrades');
@@ -2211,28 +1728,6 @@
                     // Hide detailed trades if there's an error
                     document.getElementById('detailedTrades').style.display = 'none';
                 });
-        }
-
-        function updateTradesFilterInfo(buysCount, sellsCount, dateRange) {
-            let filterText = '';
-            if (dateRange) {
-                const startStr = dateRange.start.toLocaleDateString();
-                const endStr = dateRange.end.toLocaleDateString();
-                filterText = `(${startStr} - ${endStr})`;
-            } else if (tradesTimeframe !== 'all') {
-                filterText = `(${tradesTimeframe})`;
-            }
-            
-            const buysInfo = document.getElementById('buysFilterInfo');
-            const sellsInfo = document.getElementById('sellsFilterInfo');
-            
-            if (buysInfo) {
-                buysInfo.textContent = buysCount > 0 ? `${filterText} - ${buysCount} trades` : filterText;
-            }
-            if (sellsInfo) {
-                sellsInfo.textContent = sellsCount > 0 ? `${filterText} - ${sellsCount} trades` : filterText;
-            }
-        }
         }
 
         function updateTradesList(containerId, trades) {
@@ -2613,38 +2108,6 @@
             debugLog('Page loaded, JavaScript is running!');
             debugLog('Starting data load...');
             loadData();
-            
-            // Set up timeframe button event listeners after page loads
-            setTimeout(() => {
-                document.querySelectorAll('.timeframe-btn[data-timeframe]').forEach(btn => {
-                    btn.addEventListener('click', () => {
-                        const timeframe = btn.getAttribute('data-timeframe');
-                        if (typeof changeTimeframe === 'function') {
-                            changeTimeframe(timeframe);
-                        }
-                    });
-                });
-                
-                // Set up user timeframe buttons
-                document.querySelectorAll('#userTimeframeControls .timeframe-btn[data-timeframe]').forEach(btn => {
-                    btn.addEventListener('click', () => {
-                        const timeframe = btn.getAttribute('data-timeframe');
-                        if (typeof changeUserTimeframe === 'function') {
-                            changeUserTimeframe(timeframe);
-                        }
-                    });
-                });
-                
-                // Set up trades timeframe buttons
-                document.querySelectorAll('#tradesTimeframeControls .timeframe-btn[data-timeframe]').forEach(btn => {
-                    btn.addEventListener('click', () => {
-                        const timeframe = btn.getAttribute('data-timeframe');
-                        if (typeof changeTradesTimeframe === 'function') {
-                            changeTradesTimeframe(timeframe);
-                        }
-                    });
-                });
-            }, 1000); // Wait 1 second for data to load
         };
 
         // Auto-refresh every 5 minutes
