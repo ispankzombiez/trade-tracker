@@ -15,7 +15,7 @@
       "Parsnip": "57.3934000000000356",
       "Radish": "195.8997000000001961",
       "Wheat": "616.6939000000005763",
-      "Kale": "60.1891000000003353",
+      "Kale": "0.1891000000003353",
       "Blueberry": "158.3",
       "Orange": "52.4000000000000007",
       "Eggplant": "797.5587",
@@ -111,10 +111,10 @@
       "Fried Tofu": "4",
       "Quick Juice": "5",
       "Sour Shake": "11",
-      "Wood": "437",
+      "Wood": "458.7",
       "Stone": "158.25",
       "Iron": "1.7",
-      "Egg": "2265.05",
+      "Egg": "2491.8",
       "Speed Chicken": "1",
       "Fat Chicken": "1",
       "Rich Chicken": "1",
@@ -139,11 +139,11 @@
       "Leather": "3.05",
       "Wool": "8606.05",
       "Merino Wool": "29742.2",
-      "Feather": "4483.15",
+      "Feather": "4616.65",
       "Hay": "399.8613125",
       "Kernel Blend": "388.0125",
       "NutriBarley": "359.5785625",
-      "Mixed Grain": "122.19771875",
+      "Mixed Grain": "113.8705",
       "Kelp Fibre": "2",
       "Omnifeed": "0.498125",
       "Obsidian": "6.79",
@@ -288,7 +288,7 @@
       "Petnip Plant": "2",
       "Trade Point": "1391.4503",
       "Mark": "131669.19999999999993",
-      "Crab": "188",
+      "Crab": "186",
       "Sea Cucumber": "22",
       "Gladiolus Seed": "6",
       "Starfish": "19",
@@ -312,7 +312,7 @@
       "Cockle Shell": "8",
       "Lava Pit": "3",
       "Super Totem": "3",
-      "Axe": "852",
+      "Axe": "836",
       "Radish Seed": "240",
       "Blue Daffodil": "3",
       "Astronaut Sheep": "4",
@@ -423,18 +423,18 @@
       "Yellow Edelweiss": "1",
       "Crab Pot": "46",
       "Mariner Pot": "43",
-      "Love Charm": "4309",
+      "Love Charm": "4313",
       "Club Sandwich": "5",
       "Roast Veggies": "7",
       "Apple Seed": "1",
       "Sea Grapes": "37",
-      "Tofu Scramble": "4",
+      "Tofu Scramble": "5",
       "Apple Juice": "5",
       "Anemone": "42",
       "Oyster": "18",
       "Parsnip Cake": "2",
       "Garden Eel": "12",
-      "Cheer": "34",
+      "Cheer": "33",
       "Cauliflower Cake": "4",
       "Red Wiggler": "63",
       "Saw Shark": "6",
@@ -452,8 +452,7 @@
       "Sea Snail": "12",
       "Octopus": "18",
       "Blue Crab": "13",
-      "Lobster": "4",
-      "Barnacle": "16",
+      "Barnacle": "12",
       "Squid": "47",
       "Horseshoe Crab": "18",
       "Kale Seed": "22",
@@ -462,7 +461,6 @@
       "Bantam Shrine": "1",
       "Reindeer Carrot": "12",
       "Sea Urchin": "12",
-      "Shrimp": "4",
       "Rice": "10.2",
       "Sunstone": "2",
       "Butterflyfish": "29",
@@ -473,7 +471,7 @@
       "Fish Flake": "5",
       "Red Snapper": "32",
       "Hieroglyph": "2",
-      "Crab Stick": "9",
+      "Crab Stick": "10",
       "Fish Stick": "5",
       "Orange Seed": "10",
       "Tilapia": "4",
@@ -482,13 +480,13 @@
       "Rice Bun": "5",
       "White Balloon Flower": "3",
       "Isopod": "18",
-      "Acorn": "17",
+      "Acorn": "2",
       "Mussel": "18",
       "Cornucopia": "1",
       "Tuna": "57",
       "Orange Juice": "3",
       "Purple Smoothie": "4",
-      "The Lot": "1",
+      "The Lot": "2",
       "Grub": "14",
       "Fish Oil": "10",
       "Yellow Daffodil": "4",
@@ -498,7 +496,7 @@
       "Giant Acorn": "1",
       "Stone Pickaxe": "17",
       "Crimstone": "18",
-      "Honey Cake": "4",
+      "Honey Cake": "5",
       "Banana Blast": "6",
       "Pickaxe": "17",
       "Sunstone Rock": "1",
@@ -514,8 +512,7 @@
       "Blue Cosmos": "5",
       "Wooly Doll": "2",
       "Doll": "3",
-      "Dewberry": "11",
-      "Ruffroot": "10",
+      "Dewberry": "1",
       "Moon Crystal": "4",
       "Wooden Compass": "1"
     },
@@ -3832,7 +3829,7 @@
       "d06567ec": {
         "createdAt": 1767146920626,
         "wood": {
-          "choppedAt": 1769825491286
+          "choppedAt": 1769832192114
         },
         "tier": 3,
         "name": "Sacred Tree",
@@ -4919,18 +4916,7 @@
           "id": "03fd896c",
           "createdAt": 1746195482305,
           "readyAt": 1746195482305,
-          "crafting": [
-            {
-              "name": "Tofu Scramble",
-              "boost": {
-                "Oil": 0
-              },
-              "skills": {
-                "Double Nom": false
-              },
-              "readyAt": 1769826842143
-            }
-          ],
+          "crafting": [],
           "oil": 0,
           "coordinates": {
             "x": 10,
@@ -5008,18 +4994,7 @@
           "id": "4322200f",
           "createdAt": 1746214357791,
           "readyAt": 1746214357791,
-          "crafting": [
-            {
-              "name": "The Lot",
-              "boost": {
-                "Oil": 0
-              },
-              "skills": {
-                "Double Nom": false
-              },
-              "readyAt": 1769827477183
-            }
-          ],
+          "crafting": [],
           "oil": 0,
           "coordinates": {
             "x": 4,
@@ -5101,17 +5076,6 @@
           "processing": [
             {
               "name": "Crab Stick",
-              "readyAt": 1769830459140,
-              "startedAt": 1769816059140,
-              "requirements": {
-                "Crab": "1",
-                "Barnacle": "2",
-                "Lobster": "2",
-                "Shrimp": "2"
-              }
-            },
-            {
-              "name": "Crab Stick",
               "readyAt": 1769844859140,
               "startedAt": 1769830459140,
               "requirements": {
@@ -5130,6 +5094,28 @@
                 "Barnacle": "2",
                 "Lobster": "2",
                 "Shrimp": "2"
+              }
+            },
+            {
+              "name": "Crab Stick",
+              "readyAt": 1769873659140,
+              "startedAt": 1769859259140,
+              "requirements": {
+                "Crab": "1",
+                "Barnacle": "2",
+                "Lobster": "2",
+                "Shrimp": "2"
+              }
+            },
+            {
+              "name": "Crab Stick",
+              "readyAt": 1769888059140,
+              "startedAt": 1769873659140,
+              "requirements": {
+                "Crab": "1",
+                "Shrimp": "2",
+                "Lobster": "2",
+                "Barnacle": "2"
               }
             }
           ],
@@ -7174,7 +7160,7 @@
             "x": -4,
             "y": -2
           },
-          "createdAt": 1769226950166
+          "createdAt": 1769832940304
         }
       ],
       "Fox Shrine": [
@@ -7757,9 +7743,9 @@
       "Shipment Restocked": 58,
       "Twitter Post Submitted": 9,
       "Gift Giver Reward Opened": 18,
-      "Farm Cheered": 359,
+      "Farm Cheered": 360,
       "Bulk Resources Purchased": 61811,
-      "Airdrop Reward Claimed": 111,
+      "Airdrop Reward Claimed": 112,
       "General Store Restocked": 36,
       "Recipe Queue Cancelled": 224,
       "Marketplace Listing Created": 298,
@@ -7768,7 +7754,7 @@
       "Marketplace Offer Claimed": 7,
       "Marketplace Listing Cancelled": 35,
       "Faction Prize Claimed": 4,
-      "Tree Chopped": 22153,
+      "Tree Chopped": 22169,
       "Sunflower Harvested": 14146,
       "Coins Earned": 1723898.2721,
       "Coins Spent": 2132701.64,
@@ -7992,7 +7978,7 @@
       "Spring Duckling Bought": 1,
       "Pizza Margherita Cooked": 274,
       "Pizza Margherita Fed": 333,
-      "The Lot Cooked": 21,
+      "The Lot Cooked": 22,
       "Pumpkin Soup Cooked": 158,
       "Apple Pie Cooked": 40,
       "Ancient Clock Sold": 1,
@@ -8032,8 +8018,8 @@
       "Duskberry Harvested": 52,
       "Brush Crafted": 1,
       "Omnifeed Mixed": 452,
-      "Chicken Fed": 11003,
-      "Egg Collected": 9567,
+      "Chicken Fed": 11034,
+      "Egg Collected": 9602,
       "Premium Composter Collected": 863,
       "Barn Delight Mixed": 112,
       "Gumbo Cooked": 34,
@@ -8045,14 +8031,14 @@
       "Tuna Fed": 129,
       "Lunara Harvested": 52,
       "Chicken Bought": 404,
-      "Feather Collected": 8923,
+      "Feather Collected": 8958,
       "Fancy Fries Cooked": 31,
       "Hay Mixed": 2681,
       "Fish n Chips Cooked": 12,
       "Fish n Chips Fed": 9,
       "Kernel Blend Mixed": 2579,
       "Purple Smoothie Cooked": 109,
-      "Chicken Cured": 501,
+      "Chicken Cured": 503,
       "Orange Cake Cooked": 60,
       "Goblin's Treat Cooked": 41,
       "Orange Tunnel Bunny Bought": 1,
@@ -8104,7 +8090,7 @@
       "Mushroom Jacket Potatoes Cooked": 7,
       "Chowder Cooked": 28,
       "Shroom Syrup Cooked": 2,
-      "Mixed Grain Mixed": 7133,
+      "Mixed Grain Mixed": 7153,
       "Blueberry Jam Cooked": 14,
       "Lavender Seed Bought": 27,
       "Lavender Seed Planted": 22,
@@ -8115,7 +8101,7 @@
       "Clam Shell Sold": 236,
       "Pearl Sold": 44,
       "Fish Burger Cooked": 2,
-      "Tofu Scramble Cooked": 33,
+      "Tofu Scramble Cooked": 34,
       "Wooden Compass Sold": 34,
       "Sheep Bought": 164,
       "Sheep Fed": 14727,
@@ -8304,7 +8290,7 @@
       "Greenhouse Oiled": 2,
       "Frozen Meat Bought": 1,
       "Sacred Tree Upgrade": 1,
-      "Sacred Tree Chopped": 213,
+      "Sacred Tree Chopped": 214,
       "Ruffroot Fetched": 67,
       "Gold Rock Mined": 21,
       "Building Construction Sped Up": 1,
@@ -8335,7 +8321,7 @@
       "Hermit Crab Caught": 24,
       "White Shark Caught": 5,
       "Moonfur Fetched": 5,
-      "Crab Stick Processed": 15,
+      "Crab Stick Processed": 16,
       "Sea Snail Caught": 30,
       "Octopus Caught": 18,
       "Lobster Caught": 12,
@@ -10179,7 +10165,7 @@
           "petXP": 0,
           "score": 1005,
           "collectivePet": {
-            "totalXP": 6673410,
+            "totalXP": 6698185,
             "goalXP": 2404688,
             "goalReached": true,
             "streak": 3,
@@ -10422,9 +10408,9 @@
           "state": "idle",
           "type": "Chicken",
           "createdAt": 1764899874167,
-          "awakeAt": 1769833365142,
-          "asleepAt": 1769787656842,
-          "experience": 25625,
+          "awakeAt": 1769879848995,
+          "asleepAt": 1769834140695,
+          "experience": 25785,
           "lovedAt": 1769818936993,
           "item": "Music Box",
           "healthCheckedAt": 1769779797026
@@ -10434,9 +10420,9 @@
           "state": "idle",
           "type": "Chicken",
           "createdAt": 1769395903078,
-          "awakeAt": 1769833362908,
-          "asleepAt": 1769787654608,
-          "experience": 1825,
+          "awakeAt": 1769879847269,
+          "asleepAt": 1769834138969,
+          "experience": 1985,
           "lovedAt": 1769818932124,
           "item": "Brush",
           "healthCheckedAt": 1769790692344
@@ -10446,9 +10432,9 @@
           "state": "idle",
           "type": "Chicken",
           "createdAt": 1754385556296,
-          "awakeAt": 1769833360049,
-          "asleepAt": 1769787651749,
-          "experience": 71507.5,
+          "awakeAt": 1769879843847,
+          "asleepAt": 1769834135547,
+          "experience": 71667.5,
           "lovedAt": 1769818935351,
           "item": "Music Box",
           "healthCheckedAt": 1769822710525
@@ -10458,9 +10444,9 @@
           "state": "idle",
           "type": "Chicken",
           "createdAt": 1756636845760,
-          "awakeAt": 1769833360260,
-          "asleepAt": 1769787651960,
-          "experience": 63100,
+          "awakeAt": 1769879844102,
+          "asleepAt": 1769834135802,
+          "experience": 63260,
           "lovedAt": 1769818935086,
           "item": "Music Box",
           "healthCheckedAt": 1769779797026
@@ -10470,9 +10456,9 @@
           "state": "idle",
           "type": "Chicken",
           "createdAt": 1761532868625,
-          "awakeAt": 1769833360465,
-          "asleepAt": 1769787652165,
-          "experience": 41615,
+          "awakeAt": 1769879844333,
+          "asleepAt": 1769834136033,
+          "experience": 41775,
           "lovedAt": 1769818934680,
           "item": "Petting Hand",
           "healthCheckedAt": 1769779797026
@@ -10482,9 +10468,9 @@
           "state": "idle",
           "type": "Chicken",
           "createdAt": 1763373335050,
-          "awakeAt": 1769833364738,
-          "asleepAt": 1769787656438,
-          "experience": 33362.5,
+          "awakeAt": 1769879848591,
+          "asleepAt": 1769834140291,
+          "experience": 33522.5,
           "lovedAt": 1769818936601,
           "item": "Brush",
           "healthCheckedAt": 1769768264251
@@ -10494,9 +10480,9 @@
           "state": "idle",
           "type": "Chicken",
           "createdAt": 1764899874028,
-          "awakeAt": 1769833364942,
-          "asleepAt": 1769787656642,
-          "experience": 25687.5,
+          "awakeAt": 1769879848782,
+          "asleepAt": 1769834140482,
+          "experience": 25847.5,
           "lovedAt": 1769818936786,
           "item": "Music Box",
           "healthCheckedAt": 1769779797026
@@ -10506,21 +10492,21 @@
           "state": "idle",
           "type": "Chicken",
           "createdAt": 1765159246027,
-          "awakeAt": 1769833361191,
-          "asleepAt": 1769787652891,
-          "experience": 24460,
+          "awakeAt": 1769879845004,
+          "asleepAt": 1769834136704,
+          "experience": 24620,
           "lovedAt": 1769818934082,
           "item": "Music Box",
           "healthCheckedAt": 1769779797026
         },
         "a88405ed": {
           "id": "a88405ed",
-          "state": "sick",
+          "state": "idle",
           "type": "Chicken",
           "createdAt": 1765159244498,
-          "awakeAt": 1769833360943,
-          "asleepAt": 1769787652643,
-          "experience": 24442.5,
+          "awakeAt": 1769879844799,
+          "asleepAt": 1769834136499,
+          "experience": 24602.5,
           "lovedAt": 1769818934271,
           "item": "Brush",
           "healthCheckedAt": 1769822710525
@@ -10530,9 +10516,9 @@
           "state": "idle",
           "type": "Chicken",
           "createdAt": 1765159244978,
-          "awakeAt": 1769833360710,
-          "asleepAt": 1769787652410,
-          "experience": 24400,
+          "awakeAt": 1769879844589,
+          "asleepAt": 1769834136289,
+          "experience": 24560,
           "lovedAt": 1769818934470,
           "item": "Music Box",
           "healthCheckedAt": 1769822710525
@@ -10542,9 +10528,9 @@
           "state": "idle",
           "type": "Chicken",
           "createdAt": 1765792748918,
-          "awakeAt": 1769833365793,
-          "asleepAt": 1769787657493,
-          "experience": 21230,
+          "awakeAt": 1769879849615,
+          "asleepAt": 1769834141315,
+          "experience": 21390,
           "lovedAt": 1769818937619,
           "item": "Brush",
           "healthCheckedAt": 1769822710525
@@ -10554,9 +10540,9 @@
           "state": "idle",
           "type": "Chicken",
           "createdAt": 1767007413825,
-          "awakeAt": 1769833365572,
-          "asleepAt": 1769787657272,
-          "experience": 15092.5,
+          "awakeAt": 1769879849415,
+          "asleepAt": 1769834141115,
+          "experience": 15252.5,
           "lovedAt": 1769818937392,
           "item": "Brush",
           "healthCheckedAt": 1769797305533
@@ -10566,9 +10552,9 @@
           "state": "idle",
           "type": "Chicken",
           "createdAt": 1767007414531,
-          "awakeAt": 1769833365364,
-          "asleepAt": 1769787657064,
-          "experience": 15075,
+          "awakeAt": 1769879849222,
+          "asleepAt": 1769834140922,
+          "experience": 15235,
           "lovedAt": 1769818937225,
           "item": "Music Box",
           "healthCheckedAt": 1769797305533
@@ -10578,9 +10564,9 @@
           "state": "idle",
           "type": "Chicken",
           "createdAt": 1767525918045,
-          "awakeAt": 1769833361396,
-          "asleepAt": 1769787653096,
-          "experience": 12557.5,
+          "awakeAt": 1769879845281,
+          "asleepAt": 1769834136981,
+          "experience": 12717.5,
           "lovedAt": 1769818933856,
           "item": "Petting Hand",
           "healthCheckedAt": 1769790692344
@@ -10590,21 +10576,21 @@
           "state": "idle",
           "type": "Chicken",
           "createdAt": 1767579206356,
-          "awakeAt": 1769833361803,
-          "asleepAt": 1769787653503,
-          "experience": 12172.5,
+          "awakeAt": 1769879845664,
+          "asleepAt": 1769834137364,
+          "experience": 12332.5,
           "lovedAt": 1769818933484,
           "item": "Music Box",
           "healthCheckedAt": 1769790692344
         },
         "e4f8ea14": {
           "id": "e4f8ea14",
-          "state": "sick",
+          "state": "idle",
           "type": "Chicken",
           "createdAt": 1767579206877,
-          "awakeAt": 1769833361580,
-          "asleepAt": 1769787653280,
-          "experience": 12247.5,
+          "awakeAt": 1769879845474,
+          "asleepAt": 1769834137174,
+          "experience": 12407.5,
           "lovedAt": 1769818933676,
           "item": "Music Box",
           "healthCheckedAt": 1769822710525
@@ -10614,9 +10600,9 @@
           "state": "idle",
           "type": "Chicken",
           "createdAt": 1768213480701,
-          "awakeAt": 1769833370268,
-          "asleepAt": 1769787661968,
-          "experience": 9295,
+          "awakeAt": 1769879850184,
+          "asleepAt": 1769834141884,
+          "experience": 9455,
           "lovedAt": 1769818938181,
           "item": "Music Box",
           "healthCheckedAt": 1769790692344
@@ -10626,9 +10612,9 @@
           "state": "idle",
           "type": "Chicken",
           "createdAt": 1768213479582,
-          "awakeAt": 1769833366019,
-          "asleepAt": 1769787657719,
-          "experience": 9312.5,
+          "awakeAt": 1769879850033,
+          "asleepAt": 1769834141733,
+          "experience": 9472.5,
           "lovedAt": 1769818937990,
           "item": "Music Box",
           "healthCheckedAt": 1769790692344
@@ -10638,9 +10624,9 @@
           "state": "idle",
           "type": "Chicken",
           "createdAt": 1768213480839,
-          "awakeAt": 1769833367321,
-          "asleepAt": 1769787659021,
-          "experience": 9315,
+          "awakeAt": 1769879849791,
+          "asleepAt": 1769834141491,
+          "experience": 9475,
           "lovedAt": 1769818937813,
           "item": "Music Box",
           "healthCheckedAt": 1769790692344
@@ -10650,9 +10636,9 @@
           "state": "idle",
           "type": "Chicken",
           "createdAt": 1768213479372,
-          "awakeAt": 1769833362438,
-          "asleepAt": 1769787654138,
-          "experience": 9295,
+          "awakeAt": 1769879846327,
+          "asleepAt": 1769834138027,
+          "experience": 9455,
           "lovedAt": 1769818932899,
           "item": "Music Box",
           "healthCheckedAt": 1769790692344
@@ -10662,9 +10648,9 @@
           "state": "idle",
           "type": "Chicken",
           "createdAt": 1768792386154,
-          "awakeAt": 1769833362244,
-          "asleepAt": 1769787653944,
-          "experience": 6205,
+          "awakeAt": 1769879845866,
+          "asleepAt": 1769834137566,
+          "experience": 6365,
           "lovedAt": 1769818933271,
           "item": "Music Box",
           "healthCheckedAt": 1769797305533
@@ -10674,9 +10660,9 @@
           "state": "idle",
           "type": "Chicken",
           "createdAt": 1768792385613,
-          "awakeAt": 1769833367971,
-          "asleepAt": 1769787659671,
-          "experience": 6142.5,
+          "awakeAt": 1769879850757,
+          "asleepAt": 1769834142457,
+          "experience": 6302.5,
           "lovedAt": 1769818938800,
           "item": "Music Box",
           "healthCheckedAt": 1769797305533
@@ -10686,9 +10672,9 @@
           "state": "idle",
           "type": "Chicken",
           "createdAt": 1768792385977,
-          "awakeAt": 1769833367540,
-          "asleepAt": 1769787659240,
-          "experience": 6087.5,
+          "awakeAt": 1769879846544,
+          "asleepAt": 1769834138244,
+          "experience": 6247.5,
           "lovedAt": 1769818932698,
           "item": "Music Box",
           "healthCheckedAt": 1769797305533
@@ -10698,9 +10684,9 @@
           "state": "idle",
           "type": "Chicken",
           "createdAt": 1768792386309,
-          "awakeAt": 1769833362677,
-          "asleepAt": 1769787654377,
-          "experience": 6097.5,
+          "awakeAt": 1769879850571,
+          "asleepAt": 1769834142271,
+          "experience": 6257.5,
           "lovedAt": 1769818938601,
           "item": "Music Box",
           "healthCheckedAt": 1769797305533
@@ -10710,9 +10696,9 @@
           "state": "idle",
           "type": "Chicken",
           "createdAt": 1768792385813,
-          "awakeAt": 1769833367798,
-          "asleepAt": 1769787659498,
-          "experience": 6090,
+          "awakeAt": 1769879841199,
+          "asleepAt": 1769834132899,
+          "experience": 6250,
           "lovedAt": 1769818938386,
           "item": "Music Box",
           "healthCheckedAt": 1769797305533
@@ -10722,20 +10708,20 @@
           "state": "idle",
           "type": "Chicken",
           "createdAt": 1768792385225,
-          "awakeAt": 1769833362030,
-          "asleepAt": 1769787653730,
-          "experience": 6210,
+          "awakeAt": 1769879846099,
+          "asleepAt": 1769834137799,
+          "experience": 6370,
           "lovedAt": 1769818933087,
           "item": "Music Box",
           "healthCheckedAt": 1769797305533
         },
         "0fc3ea95": {
           "id": "0fc3ea95",
-          "state": "ready",
+          "state": "idle",
           "type": "Chicken",
           "createdAt": 1769395902734,
-          "awakeAt": 1769833368387,
-          "asleepAt": 1769787660087,
+          "awakeAt": 1769879846822,
+          "asleepAt": 1769834138522,
           "experience": 1940,
           "lovedAt": 1769818932319,
           "item": "Brush",
@@ -10746,9 +10732,9 @@
           "state": "idle",
           "type": "Chicken",
           "createdAt": 1769395903938,
-          "awakeAt": 1769833363093,
-          "asleepAt": 1769787654793,
-          "experience": 1810,
+          "awakeAt": 1769879851854,
+          "asleepAt": 1769834143554,
+          "experience": 1970,
           "lovedAt": 1769818939924,
           "item": "Music Box",
           "healthCheckedAt": 1769790692344
@@ -10758,20 +10744,20 @@
           "state": "idle",
           "type": "Chicken",
           "createdAt": 1769395904305,
-          "awakeAt": 1769833369337,
-          "asleepAt": 1769787661037,
-          "experience": 1880,
+          "awakeAt": 1769879847489,
+          "asleepAt": 1769834139189,
+          "experience": 2040,
           "lovedAt": 1769818939440,
           "item": "Music Box",
           "healthCheckedAt": 1769829670135
         },
         "657f784c": {
           "id": "657f784c",
-          "state": "ready",
+          "state": "idle",
           "type": "Chicken",
           "createdAt": 1769395902890,
-          "awakeAt": 1769833369610,
-          "asleepAt": 1769787661310,
+          "awakeAt": 1769879851151,
+          "asleepAt": 1769834142851,
           "experience": 1925,
           "lovedAt": 1769818939002,
           "item": "Brush",
@@ -10779,11 +10765,11 @@
         },
         "6f027b0f": {
           "id": "6f027b0f",
-          "state": "ready",
+          "state": "idle",
           "type": "Chicken",
           "createdAt": 1769395904120,
-          "awakeAt": 1769833363568,
-          "asleepAt": 1769787655268,
+          "awakeAt": 1769879847047,
+          "asleepAt": 1769834138747,
           "experience": 1940,
           "lovedAt": 1769818939228,
           "item": "Music Box",
@@ -10791,11 +10777,11 @@
         },
         "86e37df4": {
           "id": "86e37df4",
-          "state": "ready",
+          "state": "idle",
           "type": "Chicken",
           "createdAt": 1769395903752,
-          "awakeAt": 1769833363773,
-          "asleepAt": 1769787655473,
+          "awakeAt": 1769879850964,
+          "asleepAt": 1769834142664,
           "experience": 1932.5,
           "lovedAt": 1769818932498,
           "item": "Music Box",
@@ -10806,9 +10792,9 @@
           "state": "idle",
           "type": "Chicken",
           "createdAt": 1769395903248,
-          "awakeAt": 1769833363374,
-          "asleepAt": 1769787655074,
-          "experience": 1917.5,
+          "awakeAt": 1769879851346,
+          "asleepAt": 1769834143046,
+          "experience": 2077.5,
           "lovedAt": 1769818931729,
           "item": "Brush",
           "healthCheckedAt": 1769790692344
@@ -10818,9 +10804,9 @@
           "state": "idle",
           "type": "Chicken",
           "createdAt": 1769395903414,
-          "awakeAt": 1769833369184,
-          "asleepAt": 1769787660884,
-          "experience": 1902.5,
+          "awakeAt": 1769879847699,
+          "asleepAt": 1769834139399,
+          "experience": 2062.5,
           "lovedAt": 1769818931925,
           "item": "Petting Hand",
           "healthCheckedAt": 1769790692344
@@ -10830,9 +10816,9 @@
           "state": "idle",
           "type": "Chicken",
           "createdAt": 1769395903586,
-          "awakeAt": 1769833368250,
-          "asleepAt": 1769787659950,
-          "experience": 1787.5,
+          "awakeAt": 1769879851638,
+          "asleepAt": 1769834143338,
+          "experience": 1947.5,
           "lovedAt": 1769818939696,
           "item": "Petting Hand",
           "healthCheckedAt": 1769790692344
@@ -12102,7 +12088,7 @@
       }
     },
     "boostsUsedAt": {
-      "Squirrel": 1769826211286,
+      "Squirrel": 1769832912114,
       "Catchup": 1769831406797,
       "Fruit Picker Apron": 1769831401093,
       "Fruitful Bounty": 1769831401093,
@@ -12130,16 +12116,16 @@
       "Pollen Power Up": 1757282090460,
       "Scarecrow": 1769800454191,
       "Strong Roots": 1769800454191,
-      "Abundant Harvest": 1769822711795,
-      "Alien Chicken": 1769787661968,
-      "Bale": 1769822711795,
+      "Abundant Harvest": 1769834143554,
+      "Alien Chicken": 1769834143554,
+      "Bale": 1769834143554,
       "Clucky Grazing": 1757322268303,
-      "Double Bale": 1769822711795,
-      "Efficient Feeding": 1769787647675,
-      "Fat Chicken": 1769787647675,
-      "Fine Fibers": 1769822711795,
+      "Double Bale": 1769834143554,
+      "Efficient Feeding": 1769834132498,
+      "Fat Chicken": 1769834132498,
+      "Fine Fibers": 1769834143554,
       "Healthy Livestock": 1757268969718,
-      "Restless Animals": 1769822711795,
+      "Restless Animals": 1769834143554,
       "Stone Beetle": 1769417932115,
       "Bale Economy": 1769822711795,
       "Black Sheep Onesie": 1769822711795,
@@ -12169,9 +12155,9 @@
       "Turd Topper": 1769831402705,
       "Maximus": 1769385958799,
       "Purple Trail": 1769385958799,
-      "Oracle Syringe": 1769822721767,
-      "Chicken Coop": 1769787661968,
-      "Rich Chicken": 1769787661968,
+      "Oracle Syringe": 1769832923482,
+      "Chicken Coop": 1769834143554,
+      "Rich Chicken": 1769834143554,
       "Jellyfish": 1769213664076,
       "Blossombeard": 1769480620159,
       "Observatory": 1769480620159,
@@ -12179,20 +12165,20 @@
       "Oil Extraction": 1769768304836,
       "Giant Kale": 1768683973997,
       "Treasure Map": 1769768784562,
-      "Cluckulator": 1769787647675,
-      "Janitor Chicken": 1769787661968,
-      "Speed Chicken": 1769787661968,
+      "Cluckulator": 1769834132498,
+      "Janitor Chicken": 1769834143554,
+      "Speed Chicken": 1769834143554,
       "Fast Feasts": 1769816153979,
       "Munching Mastery": 1769480620159,
-      "Chonky Feed": 1769787647675,
-      "Merino Whisperer": 1769822711795,
+      "Chonky Feed": 1769834132498,
+      "Merino Whisperer": 1769834143554,
       "Betty's Friend": 1769818439197,
       "Frosted Cakes": 1769816189832,
       "Paw Shield": 1769375262753,
       "Grain Grinder": 1766707801246,
       "Drive-Through Deli": 1765881317560,
-      "Lumberjack's Extra": 1769826211286,
-      "Tree Charge": 1769826211286,
+      "Lumberjack's Extra": 1769832912114,
+      "Tree Charge": 1769832912114,
       "Tough Tree": 1769797307307,
       "Giant Onion": 1768181918633,
       "Reelmaster's Chair": 1769818405273,
@@ -12207,10 +12193,10 @@
       "Collie Shrine": 1769822711795,
       "Boar Shrine": 1769511341032,
       "Skill Shrimpy": 1769480620159,
-      "Ayam Cemani": 1769787661968,
-      "Chicken Suit": 1769787661968,
-      "El Pollo Veloz": 1769787661968,
-      "Undead Rooster": 1769787661968,
+      "Ayam Cemani": 1769834143554,
+      "Chicken Suit": 1769834143554,
+      "El Pollo Veloz": 1769834143554,
+      "Undead Rooster": 1769834143554,
       "Bionic Drill": 1769818688482,
       "Swiss Whiskers": 1765930319043,
       "Trident": 1769818405273,
@@ -12232,14 +12218,14 @@
       "Basic Scarecrow": 1769439628168,
       "Flower Power": 1769794757627,
       "Kernaldo": 1768762311437,
-      "Cattlegrim": 1769822711795,
-      "Bantam Shrine": 1769787661968,
+      "Cattlegrim": 1769834143554,
+      "Bantam Shrine": 1769834143554,
       "Coin Swindler": 1768655513621,
       "Fox Shrine": 1769472962881,
       "Sunshower": 1769465834982
     },
     "socialFarming": {
-      "points": 21503,
+      "points": 21514,
       "villageProjects": {
         "Farmer's Monument": {
           "cheers": 100,
@@ -12250,23 +12236,23 @@
           "winnerId": 7125230236674634
         },
         "Miner's Monument": {
-          "cheers": 1753,
+          "cheers": 1754,
           "winnerId": 162346
         },
         "Big Banana": {
-          "cheers": 161,
+          "cheers": 162,
           "winnerId": 7125230236674634
         },
         "Cornucopia": {
-          "cheers": 60,
+          "cheers": 61,
           "winnerId": 6261778720573978
         },
         "Big Apple": {
-          "cheers": 43,
+          "cheers": 44,
           "winnerId": 1164010181301338
         },
         "Big Orange": {
-          "cheers": 10,
+          "cheers": 11,
           "winnerId": 2299
         }
       },
@@ -12278,7 +12264,8 @@
         "date": "2026-01-31",
         "projects": {},
         "farms": [
-          151471
+          151471,
+          1164010181301338
         ]
       },
       "clutter": {
@@ -12318,7 +12305,7 @@
       },
       "weeklyPoints": {
         "week": "2026-01-26",
-        "points": 582
+        "points": 593
       },
       "helpIncrease": {
         "boughtAt": [
@@ -12358,7 +12345,7 @@
         },
         "Meowchi": {
           "name": "Meowchi",
-          "experience": 70899,
+          "experience": 70914,
           "energy": 1630,
           "requests": {
             "food": [
@@ -12373,9 +12360,9 @@
               "Cabbage Cake"
             ]
           },
-          "pettedAt": 1769824467703,
+          "pettedAt": 1769831973527,
           "dailySocialXP": {
-            "2026-01-31": 5
+            "2026-01-31": 10
           },
           "fetches": {
             "Acorn": 42,
@@ -12406,7 +12393,7 @@
         },
         "Bison": {
           "name": "Bison",
-          "experience": 12295,
+          "experience": 12310,
           "energy": 5440,
           "requests": {
             "food": [
@@ -12420,9 +12407,9 @@
               "Orange Juice"
             ]
           },
-          "pettedAt": 1769824467922,
+          "pettedAt": 1769831973832,
           "dailySocialXP": {
-            "2026-01-31": 5
+            "2026-01-31": 10
           }
         }
       },
@@ -12431,7 +12418,7 @@
         "1101": {
           "name": "Pet #1101",
           "id": 1101,
-          "experience": 20245,
+          "experience": 20260,
           "energy": 5285,
           "requests": {
             "food": [
@@ -12447,7 +12434,7 @@
               "Blueberry Jam"
             ]
           },
-          "pettedAt": 1769824468715,
+          "pettedAt": 1769831974615,
           "traits": {
             "type": "Bear",
             "fur": "Dark-Green",
@@ -12461,7 +12448,7 @@
           },
           "location": "farm",
           "dailySocialXP": {
-            "2026-01-31": 5
+            "2026-01-31": 10
           },
           "fetches": {
             "Dewberry": 19,
@@ -12471,7 +12458,7 @@
         "2950": {
           "id": 2950,
           "name": "Pet #2950",
-          "experience": 146617,
+          "experience": 146632,
           "energy": 37450,
           "requests": {
             "food": [
@@ -12489,7 +12476,7 @@
               "Parsnip Cake"
             ]
           },
-          "pettedAt": 1769824468494,
+          "pettedAt": 1769831974367,
           "traits": {
             "type": "Dragon",
             "fur": "Yellow",
@@ -12503,7 +12490,7 @@
           },
           "location": "farm",
           "dailySocialXP": {
-            "2026-01-31": 5
+            "2026-01-31": 10
           },
           "walking": true,
           "fetches": {

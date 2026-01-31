@@ -1,16 +1,16 @@
 {
   "username": "kanzuki",
   "overview": {
-    "balance": 528.63,
+    "balance": 533.79,
     "coins": 146015.0,
     "gems": 0.0,
     "earned_sfl": 2315.5,
     "earned_coins": 146015.0,
     "spent_sfl": 341.22,
-    "items_sold": 10030.0,
+    "items_sold": 10034.0,
     "trade_points": 13566.92,
-    "last_updated": "2026-01-31 04:15 AM",
-    "active_listings": 15
+    "last_updated": "2026-01-31 05:00 AM",
+    "active_listings": 13
   },
   "buys": [
     {
@@ -545,6 +545,42 @@
   "sells": [
     {
       "date": "2026-01-31",
+      "time": "04:27 AM",
+      "type": "SELL",
+      "item": "Yam",
+      "quantity": 1000,
+      "price_text": "2.7876 SFL",
+      "price": 2.7876,
+      "counterparty": "dhuks",
+      "farm_id": "-",
+      "trade_id": "93ca6a22"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "04:23 AM",
+      "type": "SELL",
+      "item": "Yam",
+      "quantity": 1000,
+      "price_text": "2.7876 SFL",
+      "price": 2.7876,
+      "counterparty": "sunilxyz26",
+      "farm_id": "-",
+      "trade_id": "85d22c6b"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "04:12 AM",
+      "type": "SELL",
+      "item": "Yam",
+      "quantity": 1000,
+      "price_text": "2.7876 SFL",
+      "price": 2.7876,
+      "counterparty": "Ace24",
+      "farm_id": "-",
+      "trade_id": "bc41e4af"
+    },
+    {
+      "date": "2026-01-31",
       "time": "03:58 AM",
       "type": "SELL",
       "item": "Yam",
@@ -955,12 +991,12 @@
   "last_updated": null,
   "stats": {
     "total_buys": 44,
-    "total_sells": 34,
+    "total_sells": 37,
     "buy_volume": 88.00569999999999,
-    "sell_volume": 143.75920000000005,
-    "gross_profit": 55.75350000000006,
+    "sell_volume": 152.122,
+    "gross_profit": 64.11630000000002,
     "avg_buy_price": 2.0001295454545454,
-    "avg_sell_price": 4.2282117647058834,
+    "avg_sell_price": 4.111405405405406,
     "most_traded_items": {},
     "recent_activity": [
       {
@@ -1129,7 +1165,7 @@
         "time": "02:39 AM"
       }
     ],
-    "profit_margin": 63.35214650869212,
+    "profit_margin": 72.85471281973784,
     "most_bought_items": {
       "Tomato": 3538,
       "Banana": 855,
@@ -1141,7 +1177,7 @@
       "Ribbon": 10
     },
     "most_sold_items": {
-      "Yam": 13100,
+      "Yam": 16100,
       "Sunflower": 12000,
       "Wood": 595,
       "Leather": 60,
@@ -1250,15 +1286,6 @@
       "trade_type": "instant"
     },
     {
-      "id": "bc41e4af",
-      "item": "Yam",
-      "quantity": 1000,
-      "price": 2.7876,
-      "created_at": 1769829571521,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
       "id": "85d22c6b",
       "item": "Yam",
       "quantity": 1000,
@@ -1318,7 +1345,7 @@
       "Barley": 8136.719300000018,
       "Rhubarb": 36254.945099996876,
       "Zucchini": 21003.500000000004,
-      "Yam": 29880.936899999586,
+      "Yam": 25880.936899999586,
       "Broccoli": 16471.477500000015,
       "Pepper": 3703.7726000000134,
       "Onion": 5015.072,
@@ -1338,9 +1365,9 @@
       "Celestine": 2299.5
     },
     "resources": {
-      "Wood": 18124.48,
+      "Wood": 18360.48,
       "Stone": 1010.15,
-      "Iron": 1075.3,
+      "Iron": 1110.5,
       "Gold": 274.1,
       "Crimstone": 133.1,
       "Obsidian": 29.0

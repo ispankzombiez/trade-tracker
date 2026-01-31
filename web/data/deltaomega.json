@@ -1,18 +1,66 @@
 {
   "username": "deltaomega",
   "overview": {
-    "balance": 5.77,
-    "coins": 2655.0,
+    "balance": 5.21,
+    "coins": 1967.0,
     "gems": 0.0,
     "earned_sfl": 20935.1,
-    "earned_coins": 2655.0,
+    "earned_coins": 1967.0,
     "spent_sfl": 14782.16,
     "items_sold": 3468.0,
     "trade_points": 13902.85,
-    "last_updated": "2026-01-31 04:15 AM",
+    "last_updated": "2026-01-31 05:00 AM",
     "active_listings": 0
   },
   "buys": [
+    {
+      "date": "2026-01-31",
+      "time": "04:31 AM",
+      "type": "BUY",
+      "item": "Yam",
+      "quantity": 511,
+      "price_text": "1.4735 SFL",
+      "price": 1.4735,
+      "counterparty": "Fukyna",
+      "farm_id": "-",
+      "trade_id": "ce84a8c8"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "04:30 AM",
+      "type": "BUY",
+      "item": "Yam",
+      "quantity": 500,
+      "price_text": "1.3945 SFL",
+      "price": 1.3945,
+      "counterparty": "Razienera",
+      "farm_id": "-",
+      "trade_id": "1550eb7c"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "04:30 AM",
+      "type": "BUY",
+      "item": "Broccoli",
+      "quantity": 750,
+      "price_text": "2.321 SFL",
+      "price": 2.321,
+      "counterparty": "iorg",
+      "farm_id": "-",
+      "trade_id": "9d6fe158"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "04:27 AM",
+      "type": "BUY",
+      "item": "Stone",
+      "quantity": 100,
+      "price_text": "1.57 SFL",
+      "price": 1.57,
+      "counterparty": "sunilxyz26",
+      "farm_id": "-",
+      "trade_id": "4a4fa5ad"
+    },
     {
       "date": "2026-01-30",
       "time": "10:06 PM",
@@ -688,6 +736,102 @@
   ],
   "sells": [
     {
+      "date": "2026-01-31",
+      "time": "04:33 AM",
+      "type": "SELL",
+      "item": "Dewberry",
+      "quantity": 2,
+      "price_text": "0.864 SFL",
+      "price": 0.864,
+      "counterparty": "BLU",
+      "farm_id": "-",
+      "trade_id": "079d5e1a"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "04:32 AM",
+      "type": "SELL",
+      "item": "Ribbon",
+      "quantity": 3,
+      "price_text": "1.353 SFL",
+      "price": 1.353,
+      "counterparty": "Vincent142",
+      "farm_id": "-",
+      "trade_id": "d5e559b3"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "04:32 AM",
+      "type": "SELL",
+      "item": "Ribbon",
+      "quantity": 1,
+      "price_text": "0.4252 SFL",
+      "price": 0.4252,
+      "counterparty": "BallsOfGold",
+      "farm_id": "-",
+      "trade_id": "c7d81cf1"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "04:32 AM",
+      "type": "SELL",
+      "item": "Frost Pebble",
+      "quantity": 2,
+      "price_text": "0.98 SFL",
+      "price": 0.98,
+      "counterparty": "Korlith",
+      "farm_id": "-",
+      "trade_id": "8767904a"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "04:32 AM",
+      "type": "SELL",
+      "item": "Chewed Bone",
+      "quantity": 3,
+      "price_text": "1.398 SFL",
+      "price": 1.398,
+      "counterparty": "Vincent142",
+      "farm_id": "-",
+      "trade_id": "a4ed26f8"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "04:31 AM",
+      "type": "SELL",
+      "item": "Wood",
+      "quantity": 50,
+      "price_text": "0.4388 SFL",
+      "price": 0.4388,
+      "counterparty": "Dilags",
+      "farm_id": "-",
+      "trade_id": "3bf192eb"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "04:30 AM",
+      "type": "SELL",
+      "item": "Iron",
+      "quantity": 10,
+      "price_text": "0.6202 SFL",
+      "price": 0.6202,
+      "counterparty": "KanaXan",
+      "farm_id": "-",
+      "trade_id": "d944322c"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "04:30 AM",
+      "type": "SELL",
+      "item": "Iron",
+      "quantity": 10,
+      "price_text": "0.6202 SFL",
+      "price": 0.6202,
+      "counterparty": "KanaXan",
+      "farm_id": "-",
+      "trade_id": "522933bb"
+    },
+    {
       "date": "2026-01-30",
       "time": "10:07 PM",
       "type": "SELL",
@@ -1314,15 +1458,51 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 56,
-    "total_sells": 52,
-    "buy_volume": 57.96330000000001,
-    "sell_volume": 87.2489,
-    "gross_profit": 29.285599999999995,
-    "avg_buy_price": 1.0350589285714287,
-    "avg_sell_price": 1.6778634615384616,
+    "total_buys": 60,
+    "total_sells": 60,
+    "buy_volume": 64.72229999999999,
+    "sell_volume": 93.94829999999999,
+    "gross_profit": 29.226,
+    "avg_buy_price": 1.0787049999999998,
+    "avg_sell_price": 1.565805,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Yam",
+        "quantity": 511,
+        "price": 1.4735,
+        "date": "2026-01-31",
+        "time": "04:31 AM",
+        "username": "deltaomega"
+      },
+      {
+        "type": "BUY",
+        "item": "Yam",
+        "quantity": 500,
+        "price": 1.3945,
+        "date": "2026-01-31",
+        "time": "04:30 AM",
+        "username": "deltaomega"
+      },
+      {
+        "type": "BUY",
+        "item": "Broccoli",
+        "quantity": 750,
+        "price": 2.321,
+        "date": "2026-01-31",
+        "time": "04:30 AM",
+        "username": "deltaomega"
+      },
+      {
+        "type": "BUY",
+        "item": "Stone",
+        "quantity": 100,
+        "price": 1.57,
+        "date": "2026-01-31",
+        "time": "04:27 AM",
+        "username": "deltaomega"
+      },
       {
         "type": "BUY",
         "item": "Stone",
@@ -1338,8 +1518,7 @@
         "quantity": 2,
         "price": 0.7717,
         "date": "2026-01-30",
-        "time": "10:06 PM",
-        "username": "deltaomega"
+        "time": "10:06 PM"
       },
       {
         "type": "BUY",
@@ -1347,8 +1526,7 @@
         "quantity": 15,
         "price": 0.8773,
         "date": "2026-01-30",
-        "time": "09:17 PM",
-        "username": "deltaomega"
+        "time": "09:17 PM"
       },
       {
         "type": "BUY",
@@ -1356,8 +1534,7 @@
         "quantity": 6,
         "price": 0.3542,
         "date": "2026-01-30",
-        "time": "02:55 PM",
-        "username": "deltaomega"
+        "time": "02:55 PM"
       },
       {
         "type": "BUY",
@@ -1365,8 +1542,7 @@
         "quantity": 3,
         "price": 0.7467,
         "date": "2026-01-30",
-        "time": "06:05 AM",
-        "username": "deltaomega"
+        "time": "06:05 AM"
       },
       {
         "type": "BUY",
@@ -1455,49 +1631,17 @@
         "price": 0.6999,
         "date": "2026-01-30",
         "time": "01:22 AM"
-      },
-      {
-        "type": "BUY",
-        "item": "Egg",
-        "quantity": 122,
-        "price": 2.7816,
-        "date": "2026-01-30",
-        "time": "01:21 AM"
-      },
-      {
-        "type": "BUY",
-        "item": "Wool",
-        "quantity": 25,
-        "price": 1.4583,
-        "date": "2026-01-29",
-        "time": "11:57 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Beetroot",
-        "quantity": 100,
-        "price": 0.6265,
-        "date": "2026-01-29",
-        "time": "09:41 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Parsnip",
-        "quantity": 100,
-        "price": 1.76,
-        "date": "2026-01-29",
-        "time": "09:41 PM"
       }
     ],
-    "profit_margin": 50.52438353233855,
+    "profit_margin": 45.15599723742822,
     "most_bought_items": {
+      "Yam": 1334,
+      "Broccoli": 850,
       "Feather": 379,
-      "Yam": 323,
+      "Stone": 280,
       "Corn": 200,
       "Soybean": 200,
-      "Stone": 180,
       "Egg": 172,
-      "Broccoli": 100,
       "Beetroot": 100,
       "Parsnip": 100,
       "Cauliflower": 100
@@ -1505,13 +1649,14 @@
     "most_sold_items": {
       "Barley": 2360,
       "Wheat": 355,
-      "Iron": 55,
+      "Iron": 75,
+      "Wood": 50,
       "Gold": 16,
+      "Ribbon": 13,
+      "Chewed Bone": 13,
       "Crimstone": 12,
-      "Chewed Bone": 10,
-      "Ribbon": 9,
-      "Frost Pebble": 8,
-      "Dewberry": 7
+      "Frost Pebble": 10,
+      "Dewberry": 9
     }
   },
   "active_listings": [],
@@ -1536,8 +1681,8 @@
       "Barley": 0.0048,
       "Rhubarb": 24.0,
       "Zucchini": 925.5,
-      "Yam": 2.3159,
-      "Broccoli": 70.8998,
+      "Yam": 1013.3159,
+      "Broccoli": 820.8998,
       "Pepper": 50.4963,
       "Onion": 0.4032,
       "Turnip": 3.297,
@@ -1555,9 +1700,9 @@
       "Lunara": 3.0
     },
     "resources": {
-      "Wood": 374.68,
-      "Stone": 39.4,
-      "Iron": 92.75,
+      "Wood": 330.48,
+      "Stone": 74.4,
+      "Iron": 108.6,
       "Crimstone": 0.1,
       "Obsidian": 5.97,
       "Gold": 9.4

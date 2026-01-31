@@ -1,6 +1,6 @@
 {
   "id": 145238,
-  "totalTrades": 16717,
+  "totalTrades": 16723,
   "level": 128,
   "weeklyFlowerSpent": 219.7804,
   "weeklyFlowerEarned": 22.7543525,
@@ -89,7 +89,9 @@
       },
       "sfl": 2.932,
       "tax": 0.2199,
-      "tradeType": "instant"
+      "tradeType": "instant",
+      "fulfilledAt": 1769833237977,
+      "fulfilledById": 128954
     },
     "2438a9bb": {
       "collection": "collectibles",
@@ -145,7 +147,9 @@
       },
       "sfl": 0.899,
       "tax": 0.067425,
-      "tradeType": "instant"
+      "tradeType": "instant",
+      "fulfilledAt": 1769832794567,
+      "fulfilledById": 6130986235059937
     },
     "2e3b4f8c": {
       "collection": "collectibles",
@@ -185,7 +189,9 @@
       },
       "sfl": 2.05,
       "tax": 0.15375,
-      "tradeType": "instant"
+      "tradeType": "instant",
+      "fulfilledAt": 1769833796526,
+      "fulfilledById": 128954
     },
     "5c6c75f4": {
       "collection": "collectibles",
@@ -195,7 +201,9 @@
       },
       "sfl": 2.05,
       "tax": 0.15375,
-      "tradeType": "instant"
+      "tradeType": "instant",
+      "fulfilledAt": 1769833799091,
+      "fulfilledById": 128954
     },
     "eb8443b1": {
       "collection": "collectibles",
@@ -205,7 +213,9 @@
       },
       "sfl": 2.05,
       "tax": 0.15375,
-      "tradeType": "instant"
+      "tradeType": "instant",
+      "fulfilledAt": 1769834586743,
+      "fulfilledById": 205757
     },
     "6160e7ab": {
       "collection": "collectibles",
@@ -215,14 +225,16 @@
       },
       "sfl": 0.871,
       "tax": 0.065325,
-      "tradeType": "instant"
+      "tradeType": "instant",
+      "fulfilledAt": 1769833793630,
+      "fulfilledById": 128954
     }
   },
   "offers": {},
   "friends": [
     {
       "id": 49035,
-      "tokenUri": "0_v1_352_1_6_0_0_89_477_292_29_433_0_401_160_100_98_266_469",
+      "tokenUri": "0_v1_352_1_6_0_0_89_477_454_29_433_0_401_160_100_98_266_469",
       "username": "Tourist",
       "trades": 56
     },
@@ -252,6 +264,120 @@
     }
   ],
   "trades": [
+    {
+      "id": "eb8443b1",
+      "sfl": 2.05,
+      "quantity": 200,
+      "itemId": 263,
+      "collection": "collectibles",
+      "source": "listing",
+      "fulfilledAt": 1769834585752,
+      "initiatedBy": {
+        "id": 145238,
+        "bumpkinUri": "0_v1_48_90_184_474_18_89_226_209_30_381_86_427_0_189_0_177",
+        "username": "Droid"
+      },
+      "fulfilledBy": {
+        "id": 205757,
+        "bumpkinUri": "0_v1_348_90_51_342_338_89_226_476_0_238_86_483_0_189",
+        "username": "Ayz"
+      }
+    },
+    {
+      "id": "5c6c75f4",
+      "sfl": 2.05,
+      "quantity": 200,
+      "itemId": 263,
+      "collection": "collectibles",
+      "source": "listing",
+      "fulfilledAt": 1769833799091,
+      "initiatedBy": {
+        "id": 145238,
+        "bumpkinUri": "0_v1_48_90_184_474_18_89_226_209_30_381_86_427_0_189_0_177",
+        "username": "Droid"
+      },
+      "fulfilledBy": {
+        "id": 128954,
+        "bumpkinUri": "0_v1_83_127_52_282_234_99_324_278_389_238_86_483_276_496",
+        "username": "rocy"
+      }
+    },
+    {
+      "id": "529431c2",
+      "sfl": 2.05,
+      "quantity": 200,
+      "itemId": 263,
+      "collection": "collectibles",
+      "source": "listing",
+      "fulfilledAt": 1769833796526,
+      "initiatedBy": {
+        "id": 145238,
+        "bumpkinUri": "0_v1_48_90_184_474_18_89_226_209_30_381_86_427_0_189_0_177",
+        "username": "Droid"
+      },
+      "fulfilledBy": {
+        "id": 128954,
+        "bumpkinUri": "0_v1_83_127_52_282_234_99_324_278_389_238_86_483_276_496",
+        "username": "rocy"
+      }
+    },
+    {
+      "id": "6160e7ab",
+      "sfl": 0.871,
+      "quantity": 85,
+      "itemId": 263,
+      "collection": "collectibles",
+      "source": "listing",
+      "fulfilledAt": 1769833793630,
+      "initiatedBy": {
+        "id": 145238,
+        "bumpkinUri": "0_v1_48_90_184_474_18_89_226_209_30_381_86_427_0_189_0_177",
+        "username": "Droid"
+      },
+      "fulfilledBy": {
+        "id": 128954,
+        "bumpkinUri": "0_v1_83_127_52_282_234_99_324_278_389_238_86_483_276_496",
+        "username": "rocy"
+      }
+    },
+    {
+      "id": "80be2d5b",
+      "sfl": 2.932,
+      "quantity": 200,
+      "itemId": 210,
+      "collection": "collectibles",
+      "source": "listing",
+      "fulfilledAt": 1769833237977,
+      "initiatedBy": {
+        "id": 145238,
+        "bumpkinUri": "0_v1_48_90_184_474_18_89_226_209_30_381_86_427_0_189_0_177",
+        "username": "Droid"
+      },
+      "fulfilledBy": {
+        "id": 128954,
+        "bumpkinUri": "0_v1_83_127_52_282_234_99_324_278_389_238_86_483_276_496",
+        "username": "rocy"
+      }
+    },
+    {
+      "id": "50f3a781",
+      "sfl": 0.899,
+      "quantity": 3000,
+      "itemId": 202,
+      "collection": "collectibles",
+      "source": "listing",
+      "fulfilledAt": 1769832794567,
+      "initiatedBy": {
+        "id": 145238,
+        "bumpkinUri": "0_v1_48_90_184_474_18_89_226_209_30_381_86_427_0_189_0_177",
+        "username": "Droid"
+      },
+      "fulfilledBy": {
+        "id": 6130986235059937,
+        "bumpkinUri": "0_v1_32_90_42_13_18_22_23_476_0_0_86_0_451",
+        "username": "Sunflowes288"
+      }
+    },
     {
       "id": "bce30b7f",
       "sfl": 1.07,
@@ -1084,120 +1210,6 @@
       },
       "fulfilledBy": {
         "id": 145238,
-        "bumpkinUri": "0_v1_48_90_184_474_18_89_226_209_30_381_86_427_0_189_0_177",
-        "username": "Droid"
-      }
-    },
-    {
-      "id": "2ddc0778",
-      "sfl": 0.3175,
-      "quantity": 5,
-      "itemId": 614,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769748841868,
-      "initiatedBy": {
-        "id": 1352,
-        "bumpkinUri": "0_v1_32_1_43_13_234_22_240_476_0_228",
-        "username": "Persephone"
-      },
-      "fulfilledBy": {
-        "id": 145238,
-        "bumpkinUri": "0_v1_48_90_184_474_18_89_226_209_30_381_86_427_0_189_0_177",
-        "username": "Droid"
-      }
-    },
-    {
-      "id": "31d76810",
-      "sfl": 0.1946,
-      "quantity": 20,
-      "itemId": 265,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769748784435,
-      "initiatedBy": {
-        "id": 8656809066373481,
-        "bumpkinUri": "0_v1_48_1_42_0_35_41_240_395_27",
-        "username": "JR2025JR"
-      },
-      "fulfilledBy": {
-        "id": 145238,
-        "bumpkinUri": "0_v1_48_90_184_474_18_89_226_209_30_381_86_427_0_189_0_177",
-        "username": "Droid"
-      }
-    },
-    {
-      "id": "1d17a312",
-      "sfl": 0.4864,
-      "quantity": 50,
-      "itemId": 265,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769748766301,
-      "initiatedBy": {
-        "id": 506434134260081,
-        "bumpkinUri": "0_v1_47_90_202_181_234_89_240_196_0_228_86",
-        "username": "Flaa"
-      },
-      "fulfilledBy": {
-        "id": 145238,
-        "bumpkinUri": "0_v1_48_90_184_474_18_89_226_209_30_381_86_427_0_189_0_177",
-        "username": "Droid"
-      }
-    },
-    {
-      "id": "2ea95ae4",
-      "sfl": 0.8716,
-      "quantity": 500,
-      "itemId": 204,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769748706096,
-      "initiatedBy": {
-        "id": 5788667940681702,
-        "bumpkinUri": "0_v1_32_1_5_17_21_22_76_26",
-        "username": "Legaty"
-      },
-      "fulfilledBy": {
-        "id": 145238,
-        "bumpkinUri": "0_v1_48_90_184_474_18_89_226_209_30_381_86_427_0_189_0_177",
-        "username": "Droid"
-      }
-    },
-    {
-      "id": "74063d3a",
-      "sfl": 2.2999,
-      "quantity": 5,
-      "itemId": 254,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769741011321,
-      "initiatedBy": {
-        "id": 145238,
-        "bumpkinUri": "0_v1_48_90_184_474_18_89_226_209_30_381_86_427_0_189_0_177",
-        "username": "Droid"
-      },
-      "fulfilledBy": {
-        "id": 2526741396558928,
-        "bumpkinUri": "0_v1_48_1_5_0_0_22_23_441",
-        "username": "Muziboo"
-      }
-    },
-    {
-      "id": "192a20b8",
-      "sfl": 0.506,
-      "quantity": 10,
-      "itemId": 642,
-      "collection": "collectibles",
-      "source": "offer",
-      "fulfilledAt": 1769738012735,
-      "initiatedBy": {
-        "id": 145238,
-        "bumpkinUri": "0_v1_53_158_463_320_322_323_414_321_30_431_0_402_0_497_0_0_444",
-        "username": "Digits"
-      },
-      "fulfilledBy": {
-        "id": 1213141032242343,
         "bumpkinUri": "0_v1_48_90_184_474_18_89_226_209_30_381_86_427_0_189_0_177",
         "username": "Droid"
       }
