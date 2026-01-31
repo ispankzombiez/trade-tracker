@@ -7,24 +7,12 @@
     "earned_sfl": 10629.11,
     "earned_coins": 116538.0,
     "spent_sfl": 9758.66,
-    "items_sold": 5337.0,
+    "items_sold": 5341.0,
     "trade_points": 6878.93,
-    "last_updated": "2026-01-31 03:54 PM",
+    "last_updated": "2026-01-31 04:21 PM",
     "active_listings": 24
   },
   "buys": [
-    {
-      "date": "2026-01-31",
-      "time": "03:31 PM",
-      "type": "BUY",
-      "item": "Barley",
-      "quantity": 70,
-      "price_text": "1.5954 SFL",
-      "price": 1.5954,
-      "counterparty": "Davbinary",
-      "farm_id": "-",
-      "trade_id": "8554ea78"
-    },
     {
       "date": "2026-01-31",
       "time": "03:31 PM",
@@ -36,6 +24,18 @@
       "counterparty": "LAOLAOA",
       "farm_id": "-",
       "trade_id": "4b95695e"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "03:31 PM",
+      "type": "BUY",
+      "item": "Barley",
+      "quantity": 70,
+      "price_text": "1.5954 SFL",
+      "price": 1.5954,
+      "counterparty": "Davbinary",
+      "farm_id": "-",
+      "trade_id": "8554ea78"
     },
     {
       "date": "2026-01-31",
@@ -545,6 +545,18 @@
   "sells": [
     {
       "date": "2026-01-31",
+      "time": "03:59 PM",
+      "type": "SELL",
+      "item": "Leather",
+      "quantity": 20,
+      "price_text": "2.434 SFL",
+      "price": 2.434,
+      "counterparty": "Fahim2233",
+      "farm_id": "-",
+      "trade_id": "620e5857"
+    },
+    {
+      "date": "2026-01-31",
       "time": "03:44 PM",
       "type": "SELL",
       "item": "Milk",
@@ -991,19 +1003,19 @@
   "last_updated": null,
   "stats": {
     "total_buys": 44,
-    "total_sells": 37,
+    "total_sells": 38,
     "buy_volume": 102.4368,
-    "sell_volume": 151.28570000000005,
-    "gross_profit": 48.84890000000004,
+    "sell_volume": 153.71970000000005,
+    "gross_profit": 51.28290000000004,
     "avg_buy_price": 2.328109090909091,
-    "avg_sell_price": 4.088802702702704,
+    "avg_sell_price": 4.0452552631578955,
     "most_traded_items": {},
     "recent_activity": [
       {
         "type": "BUY",
         "item": "Barley",
-        "quantity": 70,
-        "price": 1.5954,
+        "quantity": 55,
+        "price": 1.2535,
         "date": "2026-01-31",
         "time": "03:31 PM",
         "username": "grith"
@@ -1011,8 +1023,8 @@
       {
         "type": "BUY",
         "item": "Barley",
-        "quantity": 55,
-        "price": 1.2535,
+        "quantity": 70,
+        "price": 1.5954,
         "date": "2026-01-31",
         "time": "03:31 PM",
         "username": "grith"
@@ -1165,7 +1177,7 @@
         "time": "04:24 AM"
       }
     ],
-    "profit_margin": 47.68686643862366,
+    "profit_margin": 50.06296565296851,
     "most_bought_items": {
       "Wheat": 2015,
       "Corn": 1770,
@@ -1176,7 +1188,7 @@
     },
     "most_sold_items": {
       "Milk": 827,
-      "Leather": 400
+      "Leather": 420
     }
   },
   "active_listings": [
