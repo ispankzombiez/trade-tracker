@@ -7,9 +7,9 @@
     "earned_sfl": 1137.35,
     "earned_coins": 324087.0,
     "spent_sfl": 0.0,
-    "items_sold": 2809.0,
+    "items_sold": 2810.0,
     "trade_points": 252976.67,
-    "last_updated": "2026-01-31 05:45 AM",
+    "last_updated": "2026-01-31 06:12 AM",
     "active_listings": 14
   },
   "buys": [
@@ -195,6 +195,18 @@
     }
   ],
   "sells": [
+    {
+      "date": "2026-01-31",
+      "time": "05:38 AM",
+      "type": "SELL",
+      "item": "Olive",
+      "quantity": 50,
+      "price_text": "20.14 SFL",
+      "price": 20.14,
+      "counterparty": "Margotti",
+      "farm_id": "-",
+      "trade_id": "f2d06180"
+    },
     {
       "date": "2026-01-31",
       "time": "03:20 AM",
@@ -943,12 +955,12 @@
   "last_updated": null,
   "stats": {
     "total_buys": 15,
-    "total_sells": 62,
+    "total_sells": 63,
     "buy_volume": 183.57920000000001,
-    "sell_volume": 498.58900000000017,
-    "gross_profit": 315.00980000000015,
+    "sell_volume": 518.729,
+    "gross_profit": 335.1498,
     "avg_buy_price": 12.238613333333335,
-    "avg_sell_price": 8.041758064516133,
+    "avg_sell_price": 8.233793650793652,
     "most_traded_items": {},
     "recent_activity": [
       {
@@ -1078,6 +1090,14 @@
       },
       {
         "type": "SELL",
+        "item": "Olive",
+        "quantity": 50,
+        "price": 20.14,
+        "date": "2026-01-31",
+        "time": "05:38 AM"
+      },
+      {
+        "type": "SELL",
         "item": "Milk",
         "quantity": 100,
         "price": 12.35,
@@ -1107,17 +1127,9 @@
         "price": 12.36,
         "date": "2026-01-31",
         "time": "01:54 AM"
-      },
-      {
-        "type": "SELL",
-        "item": "Wood",
-        "quantity": 500,
-        "price": 4.47,
-        "date": "2026-01-31",
-        "time": "01:49 AM"
       }
     ],
-    "profit_margin": 171.59340491733275,
+    "profit_margin": 182.56414670071555,
     "most_bought_items": {
       "Blueberry": 300,
       "Obsidian": 9,
@@ -1284,7 +1296,7 @@
       "Corn": 16922.958599999998,
       "Soybean": 57397.516100000015,
       "Rice": 495.6,
-      "Olive": 650.1,
+      "Olive": 600.1,
       "Barley": 27768.6332,
       "Rhubarb": 433216.32909999625,
       "Zucchini": 215767.52569999907,

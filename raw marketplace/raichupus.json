@@ -1,6 +1,6 @@
 {
   "id": 7125230236674634,
-  "totalTrades": 17765,
+  "totalTrades": 17766,
   "level": 190,
   "weeklyFlowerSpent": 410.46569999999997,
   "weeklyFlowerEarned": 0,
@@ -125,7 +125,9 @@
       },
       "sfl": 20.14,
       "tax": 1.5105,
-      "tradeType": "instant"
+      "tradeType": "instant",
+      "fulfilledAt": 1769837936810,
+      "fulfilledById": 4363734400768130
     },
     "b65b4d2e": {
       "collection": "collectibles",
@@ -186,6 +188,25 @@
     }
   ],
   "trades": [
+    {
+      "id": "f2d06180",
+      "sfl": 20.14,
+      "quantity": 50,
+      "itemId": 254,
+      "collection": "collectibles",
+      "source": "listing",
+      "fulfilledAt": 1769837936810,
+      "initiatedBy": {
+        "id": 7125230236674634,
+        "bumpkinUri": "0_v1_32_90_51_0_0_22_162_505_30_433_16_483_276_440_481",
+        "username": "Raichupus"
+      },
+      "fulfilledBy": {
+        "id": 4363734400768130,
+        "bumpkinUri": "0_v1_32_2_43_397_35_34_226_517_0_0_0_458",
+        "username": "Margotti"
+      }
+    },
     {
       "id": "b65b4d2e",
       "sfl": 12.35,
@@ -415,8 +436,8 @@
       }
     },
     {
-      "id": "67d1ade0",
-      "sfl": 12.39,
+      "id": "2eb19419",
+      "sfl": 12.25,
       "quantity": 100,
       "itemId": 645,
       "collection": "collectibles",
@@ -434,8 +455,8 @@
       }
     },
     {
-      "id": "2eb19419",
-      "sfl": 12.25,
+      "id": "67d1ade0",
+      "sfl": 12.39,
       "quantity": 100,
       "itemId": 645,
       "collection": "collectibles",
@@ -1115,25 +1136,6 @@
         "id": 766349548618928,
         "bumpkinUri": "0_v1_47_90_50_14_234_89_240_476_0_228",
         "username": "Yauron"
-      }
-    },
-    {
-      "id": "4c22e0c2",
-      "sfl": 4.749,
-      "quantity": 500,
-      "itemId": 601,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769568002446,
-      "initiatedBy": {
-        "id": 7125230236674634,
-        "bumpkinUri": "0_v1_32_90_51_0_0_22_162_505_30_433_16_483_276_440_481",
-        "username": "Raichupus"
-      },
-      "fulfilledBy": {
-        "id": 7214422948422229,
-        "bumpkinUri": "0_v1_32_1_5_13_234_41_23",
-        "username": "Dmitrius"
       }
     }
   ]

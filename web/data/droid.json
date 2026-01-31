@@ -1,18 +1,30 @@
 {
   "username": "droid",
   "overview": {
-    "balance": 7.96,
+    "balance": 10.46,
     "coins": 166852.0,
     "gems": 0.0,
     "earned_sfl": 8175.19,
     "earned_coins": 166852.0,
     "spent_sfl": 12297.69,
-    "items_sold": 7608.0,
+    "items_sold": 7611.0,
     "trade_points": 11367.53,
-    "last_updated": "2026-01-31 05:45 AM",
-    "active_listings": 9
+    "last_updated": "2026-01-31 06:12 AM",
+    "active_listings": 6
   },
   "buys": [
+    {
+      "date": "2026-01-31",
+      "time": "05:56 AM",
+      "type": "BUY",
+      "item": "Honey",
+      "quantity": 23,
+      "price_text": "1.3294 SFL",
+      "price": 1.3294,
+      "counterparty": "Kajidaori",
+      "farm_id": "-",
+      "trade_id": "adc13db2"
+    },
     {
       "date": "2026-01-31",
       "time": "05:21 AM",
@@ -953,6 +965,42 @@
   "sells": [
     {
       "date": "2026-01-31",
+      "time": "05:43 AM",
+      "type": "SELL",
+      "item": "Potato",
+      "quantity": 3000,
+      "price_text": "0.899 SFL",
+      "price": 0.899,
+      "counterparty": "Lavinya",
+      "farm_id": "-",
+      "trade_id": "234be378"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "05:43 AM",
+      "type": "SELL",
+      "item": "Potato",
+      "quantity": 3000,
+      "price_text": "0.899 SFL",
+      "price": 0.899,
+      "counterparty": "Lavinya",
+      "farm_id": "-",
+      "trade_id": "ec071e77"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "05:43 AM",
+      "type": "SELL",
+      "item": "Potato",
+      "quantity": 3000,
+      "price_text": "0.899 SFL",
+      "price": 0.899,
+      "counterparty": "Lavinya",
+      "farm_id": "-",
+      "trade_id": "2e3b4f8c"
+    },
+    {
+      "date": "2026-01-31",
       "time": "04:43 AM",
       "type": "SELL",
       "item": "Onion",
@@ -1458,15 +1506,24 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 78,
-    "total_sells": 42,
-    "buy_volume": 105.84589999999997,
-    "sell_volume": 109.78450000000001,
-    "gross_profit": 3.9386000000000365,
-    "avg_buy_price": 1.3569987179487175,
-    "avg_sell_price": 2.613916666666667,
+    "total_buys": 79,
+    "total_sells": 45,
+    "buy_volume": 107.17529999999996,
+    "sell_volume": 112.4815,
+    "gross_profit": 5.3062000000000324,
+    "avg_buy_price": 1.356649367088607,
+    "avg_sell_price": 2.499588888888889,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Honey",
+        "quantity": 23,
+        "price": 1.3294,
+        "date": "2026-01-31",
+        "time": "05:56 AM",
+        "username": "droid"
+      },
       {
         "type": "BUY",
         "item": "Milk",
@@ -1509,8 +1566,7 @@
         "quantity": 19,
         "price": 1.124,
         "date": "2026-01-31",
-        "time": "03:53 AM",
-        "username": "droid"
+        "time": "03:53 AM"
       },
       {
         "type": "BUY",
@@ -1623,17 +1679,9 @@
         "price": 2.0706,
         "date": "2026-01-30",
         "time": "01:33 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Tomato",
-        "quantity": 200,
-        "price": 0.978,
-        "date": "2026-01-30",
-        "time": "01:33 PM"
       }
     ],
-    "profit_margin": 3.7210699705893546,
+    "profit_margin": 4.950954184406327,
     "most_bought_items": {
       "Broccoli": 2300,
       "Yam": 1650,
@@ -1648,7 +1696,7 @@
     },
     "most_sold_items": {
       "Sunflower": 20000,
-      "Potato": 3000,
+      "Potato": 12000,
       "Yam": 2500,
       "Carrot": 1300,
       "Onion": 685,
@@ -1713,40 +1761,13 @@
       "created_at": 1769831409631,
       "collection": "collectibles",
       "trade_type": "instant"
-    },
-    {
-      "id": "2e3b4f8c",
-      "item": "Potato",
-      "quantity": 3000,
-      "price": 0.899,
-      "created_at": 1769831485476,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "ec071e77",
-      "item": "Potato",
-      "quantity": 3000,
-      "price": 0.899,
-      "created_at": 1769831497062,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "234be378",
-      "item": "Potato",
-      "quantity": 3000,
-      "price": 0.899,
-      "created_at": 1769831506283,
-      "collection": "collectibles",
-      "trade_type": "instant"
     }
   ],
   "active_offers": [],
   "inventory": {
     "crops": {
       "Sunflower": 11564.535199987207,
-      "Potato": 13026.001499994627,
+      "Potato": 4026.0014999946266,
       "Pumpkin": 111.6692,
       "Carrot": 352.6097,
       "Cabbage": 52.5857,

@@ -1,7 +1,7 @@
 {
   "farm": {
     "coins": 166852.15739999924,
-    "balance": "7.9625459102868796",
+    "balance": "10.4572709102868796",
     "previousBalance": "13.4986759102868811",
     "inventory": {
       "Pumpkin Seed": "900",
@@ -39,7 +39,7 @@
       "Edelweiss Seed": "13",
       "Clover Seed": "13",
       "Sunflower": "11564.535199987207995",
-      "Potato": "13026.00149999462649",
+      "Potato": "4026.00149999462649",
       "Pumpkin": "111.6692",
       "Carrot": "352.6097",
       "Cabbage": "52.5857000000000004",
@@ -185,10 +185,10 @@
       "Sunstone": "2",
       "Oil": "557.94208333333342759",
       "Oil Reserve": "4",
-      "Leather": "10.5",
+      "Leather": "2.5",
       "Merino Wool": "4.4",
       "Feather": "582.6",
-      "Milk": "132.4",
+      "Milk": "114.4",
       "Hay": "6.7198500000003214",
       "Kernel Blend": "0.6408750000001554",
       "NutriBarley": "0.6010000000000904",
@@ -563,7 +563,8 @@
       "Bumpkin ganoush": "10",
       "Potato Seed": "720",
       "Sunflower Seed": "1440",
-      "Sunflower Cake": "2"
+      "Sunflower Cake": "2",
+      "Cheese": "6"
     },
     "previousInventory": {
       "Sunflower Seed": "1260",
@@ -1376,7 +1377,7 @@
       }
     },
     "bank": {
-      "taxFreeSFL": 18660.380300000008,
+      "taxFreeSFL": 18662.87502500001,
       "withdrawnAmount": 360.7484
     },
     "bumpkin": {
@@ -5130,39 +5131,9 @@
           "sfl": 1.08,
           "tax": 0.081,
           "tradeType": "instant"
-        },
-        "2e3b4f8c": {
-          "collection": "collectibles",
-          "createdAt": 1769831485476,
-          "items": {
-            "Potato": 3000
-          },
-          "sfl": 0.899,
-          "tax": 0.067425,
-          "tradeType": "instant"
-        },
-        "ec071e77": {
-          "collection": "collectibles",
-          "createdAt": 1769831497062,
-          "items": {
-            "Potato": 3000
-          },
-          "sfl": 0.899,
-          "tax": 0.067425,
-          "tradeType": "instant"
-        },
-        "234be378": {
-          "collection": "collectibles",
-          "createdAt": 1769831506283,
-          "items": {
-            "Potato": 3000
-          },
-          "sfl": 0.899,
-          "tax": 0.067425,
-          "tradeType": "instant"
         }
       },
-      "soldCount": 7608,
+      "soldCount": 7611,
       "dailyListings": {
         "count": 22,
         "date": 31
@@ -5307,40 +5278,40 @@
               "skills": {
                 "Double Nom": true
               },
-              "readyAt": 1769837180424
-            },
-            {
-              "name": "Cheese",
-              "boost": {
-                "Oil": 0.16666666666666666
-              },
-              "skills": {
-                "Double Nom": true
-              },
-              "readyAt": 1769837612424
-            },
-            {
-              "name": "Cheese",
-              "boost": {
-                "Oil": 0.16666666666666666
-              },
-              "skills": {
-                "Double Nom": true
-              },
-              "readyAt": 1769838044424
-            },
-            {
-              "name": "Cheese",
-              "boost": {
-                "Oil": 0.16666666666666666
-              },
-              "skills": {
-                "Double Nom": true
-              },
               "readyAt": 1769838476424
+            },
+            {
+              "name": "Cheese",
+              "boost": {
+                "Oil": 0.16666666666666666
+              },
+              "skills": {
+                "Double Nom": true
+              },
+              "readyAt": 1769838908424
+            },
+            {
+              "name": "Cheese",
+              "boost": {
+                "Oil": 0.16666666666666666
+              },
+              "skills": {
+                "Double Nom": true
+              },
+              "readyAt": 1769839340424
+            },
+            {
+              "name": "Cheese",
+              "boost": {
+                "Oil": 0.16666666666666666
+              },
+              "skills": {
+                "Double Nom": true
+              },
+              "readyAt": 1769839772424
             }
           ],
-          "oil": 31.33333333333333,
+          "oil": 30.833333333333325,
           "coordinates": {
             "x": -8,
             "y": 9
@@ -7370,7 +7341,7 @@
       "Coral Bountied": 1,
       "Surgeonfish Bountied": 4,
       "Cockle Shell Bountied": 3,
-      "Doll Crafted": 275,
+      "Doll Crafted": 276,
       "Buzz Doll Crafted": 13,
       "Giant Orange Bountied": 37,
       "Obsidian Bountied": 48,
@@ -7902,7 +7873,7 @@
       "White Carrot Sold": 1,
       "Chicken Sold": 20,
       "Hen House Sold": 1,
-      "Cheese Cooked": 2593,
+      "Cheese Cooked": 2596,
       "Music Box Crafted": 1,
       "Sheep Cured": 19,
       "Cowboy Hat Bought": 1,
@@ -9651,7 +9622,7 @@
           "petXP": 0,
           "score": 30,
           "collectivePet": {
-            "totalXP": 5826795,
+            "totalXP": 5827475,
             "goalXP": 10263180,
             "goalReached": false,
             "streak": 10,
@@ -10670,11 +10641,11 @@
     },
     "craftingBox": {
       "status": "crafting",
-      "startedAt": 1769831594578,
-      "readyAt": 1769836994578,
+      "startedAt": 1769838292136,
+      "readyAt": 1769859892136,
       "recipes": {},
       "item": {
-        "collectible": "Doll"
+        "collectible": "Moo Doll"
       }
     },
     "season": {
@@ -10951,7 +10922,7 @@
       "Rock'N'Roll": 1769464281974,
       "Stone Beetle": 1769464281974,
       "Tunnel Mole": 1760936501773,
-      "Desert Gnome": 1769836874216,
+      "Desert Gnome": 1769838101789,
       "Knight Chicken": 1764944589664,
       "Abundant Harvest": 1769796392188,
       "Alien Chicken": 1769796392188,
@@ -11015,7 +10986,7 @@
       "Fine Fibers": 1769796392188,
       "Victoria Sisters": 1767405124976,
       "Mammoth": 1767853306061,
-      "Architect Ruler": 1769831594578,
+      "Architect Ruler": 1769838292136,
       "Oil Extraction": 1769831237773,
       "Victoria's Secretary": 1769749275674,
       "Greenhouse Gamble": 1769792863951,
@@ -11235,7 +11206,7 @@
         },
         "Pip": {
           "name": "Pip",
-          "experience": 42736,
+          "experience": 42746,
           "energy": 2710,
           "requests": {
             "food": [
@@ -11249,7 +11220,7 @@
               "Tofu Scramble"
             ]
           },
-          "pettedAt": 1769830300325,
+          "pettedAt": 1769838105845,
           "dailySocialXP": {
             "2026-01-30": 35
           },
@@ -11262,7 +11233,7 @@
         },
         "Nibbles": {
           "name": "Nibbles",
-          "experience": 6320,
+          "experience": 6330,
           "energy": 2110,
           "requests": {
             "food": [
@@ -11276,7 +11247,7 @@
               "Wheat Cake"
             ]
           },
-          "pettedAt": 1769830299991,
+          "pettedAt": 1769838106147,
           "dailySocialXP": {
             "2026-01-30": 35
           },
@@ -11288,7 +11259,7 @@
         },
         "Smokey": {
           "name": "Smokey",
-          "experience": 2305,
+          "experience": 2315,
           "energy": 1250,
           "requests": {
             "food": [
@@ -11301,7 +11272,7 @@
               "Purple Smoothie"
             ]
           },
-          "pettedAt": 1769830299578,
+          "pettedAt": 1769838105117,
           "dailySocialXP": {
             "2026-01-30": 35
           }
