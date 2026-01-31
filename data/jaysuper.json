@@ -9,11 +9,23 @@
     "spent_sfl": 15466.58,
     "items_sold": 13471.0,
     "trade_points": 31145.84,
-    "last_updated": "2026-01-31 07:12 AM",
+    "last_updated": "2026-01-31 07:38 AM",
     "active_listings": 134
   },
   "buys": [],
   "sells": [
+    {
+      "date": "2026-01-31",
+      "time": "07:19 AM",
+      "type": "SELL",
+      "item": "Wood",
+      "quantity": 74,
+      "price_text": "0.6476 SFL",
+      "price": 0.6476,
+      "counterparty": "Syira28",
+      "farm_id": "-",
+      "trade_id": "016e4f7b"
+    },
     {
       "date": "2026-01-31",
       "time": "06:38 AM",
@@ -1998,14 +2010,23 @@
   "last_updated": null,
   "stats": {
     "total_buys": 0,
-    "total_sells": 165,
+    "total_sells": 166,
     "buy_volume": 0,
-    "sell_volume": 137.17130000000003,
-    "gross_profit": 137.17130000000003,
+    "sell_volume": 137.81890000000004,
+    "gross_profit": 137.81890000000004,
     "avg_buy_price": 0,
-    "avg_sell_price": 0.8313412121212123,
+    "avg_sell_price": 0.8302343373493979,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "SELL",
+        "item": "Wood",
+        "quantity": 74,
+        "price": 0.6476,
+        "date": "2026-01-31",
+        "time": "07:19 AM",
+        "username": "jaysuper"
+      },
       {
         "type": "SELL",
         "item": "Wood",
@@ -2048,8 +2069,7 @@
         "quantity": 20,
         "price": 0.1982,
         "date": "2026-01-31",
-        "time": "05:47 AM",
-        "username": "jaysuper"
+        "time": "05:47 AM"
       },
       {
         "type": "SELL",
@@ -2162,14 +2182,6 @@
         "price": 0.37,
         "date": "2026-01-31",
         "time": "02:20 AM"
-      },
-      {
-        "type": "SELL",
-        "item": "Parsnip",
-        "quantity": 20,
-        "price": 0.37,
-        "date": "2026-01-31",
-        "time": "02:20 AM"
       }
     ],
     "profit_margin": 0,
@@ -2179,7 +2191,7 @@
       "Yam": 5003,
       "Beetroot": 3413,
       "Broccoli": 2150,
-      "Wood": 1987,
+      "Wood": 2061,
       "Lemon": 1215,
       "Parsnip": 837,
       "Pumpkin": 600,
@@ -3435,23 +3447,23 @@
   ],
   "inventory": {
     "crops": {
-      "Sunflower": 595313.2571998293,
-      "Potato": 162102.25270001515,
+      "Sunflower": 593713.2571998293,
+      "Potato": 161942.25270001515,
       "Pumpkin": 535083.0400000013,
-      "Carrot": 120560.29689999977,
-      "Cabbage": 104889.28659999982,
+      "Carrot": 120850.28639999976,
+      "Cabbage": 104849.28659999982,
       "Beetroot": 39814.36390000002,
       "Cauliflower": 987.0169999999995,
       "Parsnip": 185.83980000000113,
       "Radish": 21266.068,
-      "Wheat": 333.38050000000896,
+      "Wheat": 283.38050000000896,
       "Kale": 1890.6489,
       "Eggplant": 2376.5392999999985,
-      "Corn": 116.00560000000075,
-      "Soybean": 7546.144699999981,
+      "Corn": 66.00560000000075,
+      "Soybean": 7426.144699999981,
       "Rice": 491.844,
       "Olive": 731.036,
-      "Barley": 932.3646000000055,
+      "Barley": 882.3646000000055,
       "Rhubarb": 221319.1645999989,
       "Zucchini": 514270.0394999985,
       "Yam": 40239.742699999675,
@@ -3467,16 +3479,16 @@
       "Orange": 1402.3800000000003,
       "Banana": 419.87000000000097,
       "Grape": 1391.6900000000003,
-      "Tomato": 27561.81,
+      "Tomato": 27623.710000000003,
       "Lemon": 18945.210000000014,
       "Duskberry": 74.16000000000001,
       "Lunara": 69.16000000000001,
       "Celestine": 333.08000000000004
     },
     "resources": {
-      "Wood": 50008.9,
+      "Wood": 50101.98,
       "Stone": 12590.4,
-      "Iron": 4961.75,
+      "Iron": 4960.75,
       "Gold": 1492.3000001,
       "Crimstone": 355.1,
       "Obsidian": 14.5

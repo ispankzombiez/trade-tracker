@@ -1,18 +1,30 @@
 {
   "username": "maxam",
   "overview": {
-    "balance": 7.18,
-    "coins": 12732.0,
+    "balance": 10.46,
+    "coins": 23095.0,
     "gems": 0.0,
-    "earned_sfl": 1704.37,
-    "earned_coins": 12732.0,
+    "earned_sfl": 1710.27,
+    "earned_coins": 23095.0,
     "spent_sfl": 768.27,
     "items_sold": 142.0,
     "trade_points": 3540.61,
-    "last_updated": "2026-01-31 07:12 AM",
+    "last_updated": "2026-01-31 07:38 AM",
     "active_listings": 2
   },
   "buys": [
+    {
+      "date": "2026-01-31",
+      "time": "07:14 AM",
+      "type": "BUY",
+      "item": "Wood",
+      "quantity": 300,
+      "price_text": "2.6249 SFL",
+      "price": 2.6249,
+      "counterparty": "lukaae",
+      "farm_id": "-",
+      "trade_id": "7b9bdcb1"
+    },
     {
       "date": "2026-01-31",
       "time": "02:20 AM",
@@ -654,15 +666,24 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 48,
+    "total_buys": 49,
     "total_sells": 5,
-    "buy_volume": 107.34819999999996,
+    "buy_volume": 109.97309999999996,
     "sell_volume": 13.6125,
-    "gross_profit": -93.73569999999997,
-    "avg_buy_price": 2.2364208333333324,
+    "gross_profit": -96.36059999999996,
+    "avg_buy_price": 2.244348979591836,
     "avg_sell_price": 2.7225,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Wood",
+        "quantity": 300,
+        "price": 2.6249,
+        "date": "2026-01-31",
+        "time": "07:14 AM",
+        "username": "maxam"
+      },
       {
         "type": "BUY",
         "item": "Parsnip",
@@ -705,8 +726,7 @@
         "quantity": 50,
         "price": 0.449,
         "date": "2026-01-30",
-        "time": "03:41 AM",
-        "username": "maxam"
+        "time": "03:41 AM"
       },
       {
         "type": "BUY",
@@ -819,21 +839,13 @@
         "price": 1.6064,
         "date": "2026-01-22",
         "time": "04:00 AM"
-      },
-      {
-        "type": "BUY",
-        "item": "Apple",
-        "quantity": 64,
-        "price": 1.28,
-        "date": "2026-01-22",
-        "time": "12:10 AM"
       }
     ],
-    "profit_margin": -87.31930297853154,
+    "profit_margin": -87.6219730097633,
     "most_bought_items": {
       "Sunflower": 4500,
+      "Wood": 2005,
       "Potato": 2000,
-      "Wood": 1705,
       "Pumpkin": 1000,
       "Egg": 335,
       "Milk": 311,
@@ -871,12 +883,12 @@
   "active_offers": [],
   "inventory": {
     "crops": {
-      "Sunflower": 396.405,
+      "Sunflower": 296.405,
       "Potato": 1336.81,
       "Pumpkin": 468.49,
       "Carrot": 699.346,
       "Cabbage": 405.2498,
-      "Beetroot": 378.6797,
+      "Beetroot": 313.6797,
       "Cauliflower": 581.7348,
       "Parsnip": 19.099999999999998,
       "Radish": 292.4847,
@@ -889,8 +901,8 @@
       "Olive": 4.65,
       "Barley": 386.5897,
       "Rhubarb": 303.7,
-      "Zucchini": 417.3,
-      "Yam": 357.45,
+      "Zucchini": 362.3,
+      "Yam": 342.45,
       "Broccoli": 365.1,
       "Pepper": 649.4,
       "Onion": 220.19989999999999,
@@ -900,9 +912,9 @@
     "fruits": {
       "Apple": 75.1,
       "Blueberry": 3.100000000000007,
-      "Orange": 119.2,
+      "Orange": 104.2,
       "Banana": 660.0,
-      "Grape": 8.45,
+      "Grape": 5.45,
       "Tomato": 265.7000000000001,
       "Lemon": 252.30000000000015,
       "Duskberry": 9.0,
@@ -910,12 +922,12 @@
       "Celestine": 29.0
     },
     "resources": {
-      "Wood": 72.1,
-      "Stone": 1.1,
-      "Iron": 65.9,
-      "Gold": 30.8,
+      "Wood": 284.1,
+      "Stone": 30.65,
+      "Iron": 29.35,
+      "Gold": 38.75,
       "Obsidian": 0.61,
-      "Crimstone": 36.0
+      "Crimstone": 38.0
     }
   }
 }
