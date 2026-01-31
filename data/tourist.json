@@ -1,15 +1,15 @@
 {
   "username": "tourist",
   "overview": {
-    "balance": 240.22,
+    "balance": 275.89,
     "coins": 8903.0,
     "gems": 0.0,
     "earned_sfl": 13353.49,
     "earned_coins": 8903.0,
     "spent_sfl": 5477.44,
-    "items_sold": 12614.0,
+    "items_sold": 12617.0,
     "trade_points": 10449.12,
-    "last_updated": "2026-01-31 09:10 AM",
+    "last_updated": "2026-01-31 09:36 AM",
     "active_listings": 253
   },
   "buys": [
@@ -1253,6 +1253,18 @@
   "sells": [
     {
       "date": "2026-01-31",
+      "time": "09:09 AM",
+      "type": "SELL",
+      "item": "Yam",
+      "quantity": 100,
+      "price_text": "0.2781 SFL",
+      "price": 0.2781,
+      "counterparty": "zzpsalms",
+      "farm_id": "-",
+      "trade_id": "2c9ed166"
+    },
+    {
+      "date": "2026-01-31",
       "time": "08:56 AM",
       "type": "SELL",
       "item": "Iron",
@@ -1999,12 +2011,12 @@
   "last_updated": null,
   "stats": {
     "total_buys": 103,
-    "total_sells": 62,
+    "total_sells": 63,
     "buy_volume": 171.79990000000004,
-    "sell_volume": 255.14669999999995,
-    "gross_profit": 83.34679999999992,
+    "sell_volume": 255.42479999999995,
+    "gross_profit": 83.62489999999991,
     "avg_buy_price": 1.6679601941747577,
-    "avg_sell_price": 4.115269354838709,
+    "avg_sell_price": 4.054361904761904,
     "most_traded_items": {},
     "recent_activity": [
       {
@@ -2173,7 +2185,7 @@
         "time": "05:09 PM"
       }
     ],
-    "profit_margin": 48.513881556392,
+    "profit_margin": 48.67575592302434,
     "most_bought_items": {
       "Lemon": 10997,
       "Blueberry": 2743,
@@ -2183,7 +2195,7 @@
     },
     "most_sold_items": {
       "Beetroot": 22410,
-      "Yam": 2500,
+      "Yam": 2600,
       "Iron": 1345,
       "Corn": 1000,
       "Barley": 15
@@ -4439,33 +4451,6 @@
       "created_at": 1769712147835,
       "collection": "collectibles",
       "trade_type": "instant"
-    },
-    {
-      "id": "cb4768c9",
-      "item": "Iron",
-      "quantity": 200,
-      "price": 12.76,
-      "created_at": 1769847606877,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "4cd9d867",
-      "item": "Iron",
-      "quantity": 200,
-      "price": 12.76,
-      "created_at": 1769847613314,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "acd3be83",
-      "item": "Iron",
-      "quantity": 200,
-      "price": 12.76,
-      "created_at": 1769847621995,
-      "collection": "collectibles",
-      "trade_type": "instant"
     }
   ],
   "active_offers": [
@@ -4517,8 +4502,8 @@
   ],
   "inventory": {
     "crops": {
-      "Sunflower": 315175.41809998726,
-      "Potato": 210689.5914999967,
+      "Sunflower": 314175.41809998726,
+      "Potato": 209689.5914999967,
       "Pumpkin": 182822.29209999772,
       "Carrot": 171937.23240000053,
       "Cabbage": 114436.53899999728,
@@ -4536,7 +4521,7 @@
       "Barley": 7879.502099999998,
       "Rhubarb": 52229.4393999995,
       "Zucchini": 307664.20459999976,
-      "Yam": 3630.544099999976,
+      "Yam": 3530.544099999976,
       "Broccoli": 28688.797899999932,
       "Pepper": 6410.0885,
       "Onion": 5827.649899999999,
@@ -4549,16 +4534,16 @@
       "Orange": 1380.4900000000014,
       "Banana": 96.56000000000037,
       "Grape": 311.1800000000014,
-      "Tomato": 3133.550000000008,
-      "Lemon": 219.58000000000462,
+      "Tomato": 3182.600000000008,
+      "Lemon": 139.58000000000462,
       "Duskberry": 842.9,
       "Lunara": 180.0,
       "Celestine": 122.00000000000001
     },
     "resources": {
-      "Wood": 261381.23,
+      "Wood": 261472.58,
       "Stone": 12884.35,
-      "Iron": 5576.3,
+      "Iron": 4976.3,
       "Gold": 2893.88125,
       "Crimstone": 754.875,
       "Obsidian": 486.7
