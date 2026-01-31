@@ -1,18 +1,30 @@
 {
   "username": "korlith",
   "overview": {
-    "balance": 0.35,
-    "coins": 36872.0,
+    "balance": 1.95,
+    "coins": 36040.0,
     "gems": 0.0,
     "earned_sfl": 3698.91,
-    "earned_coins": 36872.0,
+    "earned_coins": 36040.0,
     "spent_sfl": 4760.42,
-    "items_sold": 6508.0,
+    "items_sold": 6509.0,
     "trade_points": 25312.94,
-    "last_updated": "2026-01-31 03:01 PM",
+    "last_updated": "2026-01-31 03:28 PM",
     "active_listings": 0
   },
   "buys": [
+    {
+      "date": "2026-01-31",
+      "time": "03:05 PM",
+      "type": "BUY",
+      "item": "Blueberry",
+      "quantity": 30,
+      "price_text": "0.555 SFL",
+      "price": 0.555,
+      "counterparty": "ratbo",
+      "farm_id": "-",
+      "trade_id": "a056281f"
+    },
     {
       "date": "2026-01-31",
       "time": "02:36 PM",
@@ -629,6 +641,18 @@
   "sells": [
     {
       "date": "2026-01-31",
+      "time": "03:06 PM",
+      "type": "SELL",
+      "item": "Gold",
+      "quantity": 5,
+      "price_text": "1.2001 SFL",
+      "price": 1.2001,
+      "counterparty": "Edymax",
+      "farm_id": "-",
+      "trade_id": "bf883819"
+    },
+    {
+      "date": "2026-01-31",
       "time": "02:51 PM",
       "type": "SELL",
       "item": "Milk",
@@ -1182,15 +1206,24 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 51,
-    "total_sells": 46,
-    "buy_volume": 45.22449999999999,
-    "sell_volume": 38.69559999999999,
-    "gross_profit": -6.5289,
-    "avg_buy_price": 0.8867549019607841,
-    "avg_sell_price": 0.8412086956521737,
+    "total_buys": 52,
+    "total_sells": 47,
+    "buy_volume": 45.77949999999999,
+    "sell_volume": 39.89569999999999,
+    "gross_profit": -5.883800000000001,
+    "avg_buy_price": 0.8803749999999998,
+    "avg_sell_price": 0.8488446808510637,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Blueberry",
+        "quantity": 30,
+        "price": 0.555,
+        "date": "2026-01-31",
+        "time": "03:05 PM",
+        "username": "korlith"
+      },
       {
         "type": "BUY",
         "item": "Feather",
@@ -1233,8 +1266,7 @@
         "quantity": 100,
         "price": 0.2111,
         "date": "2026-01-31",
-        "time": "01:25 PM",
-        "username": "korlith"
+        "time": "01:25 PM"
       },
       {
         "type": "BUY",
@@ -1347,17 +1379,9 @@
         "price": 0.462,
         "date": "2026-01-30",
         "time": "11:53 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Apple",
-        "quantity": 50,
-        "price": 1.05,
-        "date": "2026-01-30",
-        "time": "11:53 PM"
       }
     ],
-    "profit_margin": -14.43664385454787,
+    "profit_margin": -12.852477637370443,
     "most_bought_items": {
       "Sunflower": 4000,
       "Potato": 3000,
@@ -1375,7 +1399,7 @@
       "Egg": 120,
       "Milk": 55,
       "Leather": 38,
-      "Gold": 21,
+      "Gold": 26,
       "Rice": 10,
       "Stone": 10,
       "Crimstone": 8,
@@ -1383,17 +1407,7 @@
       "Collectible #14": 1
     }
   },
-  "active_listings": [
-    {
-      "id": "4e15e00b",
-      "item": "Milk",
-      "quantity": 9,
-      "price": 1.1232,
-      "created_at": 1769871075590,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    }
-  ],
+  "active_listings": [],
   "active_offers": [],
   "inventory": {
     "crops": {
@@ -1424,20 +1438,20 @@
       "Olive": 0.05
     },
     "fruits": {
-      "Apple": 4.300000000000121,
+      "Apple": 0.3000000000001208,
       "Orange": 12.500000000000357,
-      "Tomato": 61.600000000001984,
+      "Tomato": 56.600000000001984,
       "Lemon": 119.10000000000153,
       "Grape": 0.15,
-      "Blueberry": 2.1000000000001022,
+      "Blueberry": 27.1000000000001,
       "Banana": 26.0
     },
     "resources": {
-      "Wood": 407.88,
-      "Stone": 164.5,
-      "Iron": 29.9,
+      "Wood": 344.88,
+      "Stone": 104.5,
+      "Iron": 4.9,
       "Crimstone": 23.3,
-      "Gold": 18.4,
+      "Gold": 1.4,
       "Obsidian": 2.0
     }
   }
