@@ -2,18 +2,42 @@
   "username": "jaysuper",
   "overview": {
     "balance": 553.11,
-    "coins": 85393.0,
+    "coins": 88593.0,
     "gems": 0.0,
     "earned_sfl": 13695.95,
-    "earned_coins": 85393.0,
+    "earned_coins": 88593.0,
     "spent_sfl": 15466.58,
     "items_sold": 13471.0,
     "trade_points": 31145.84,
-    "last_updated": "2026-01-31 08:07 AM",
+    "last_updated": "2026-01-31 08:34 AM",
     "active_listings": 134
   },
   "buys": [],
   "sells": [
+    {
+      "date": "2026-01-31",
+      "time": "08:22 AM",
+      "type": "SELL",
+      "item": "Beetroot",
+      "quantity": 100,
+      "price_text": "0.67 SFL",
+      "price": 0.67,
+      "counterparty": "n3paa",
+      "farm_id": "-",
+      "trade_id": "a24635c4"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "08:21 AM",
+      "type": "SELL",
+      "item": "Beetroot",
+      "quantity": 100,
+      "price_text": "0.66 SFL",
+      "price": 0.66,
+      "counterparty": "n3paa",
+      "farm_id": "-",
+      "trade_id": "5f966757"
+    },
     {
       "date": "2026-01-31",
       "time": "07:19 AM",
@@ -2010,14 +2034,32 @@
   "last_updated": null,
   "stats": {
     "total_buys": 0,
-    "total_sells": 166,
+    "total_sells": 168,
     "buy_volume": 0,
-    "sell_volume": 137.81890000000004,
-    "gross_profit": 137.81890000000004,
+    "sell_volume": 139.14890000000003,
+    "gross_profit": 139.14890000000003,
     "avg_buy_price": 0,
-    "avg_sell_price": 0.8302343373493979,
+    "avg_sell_price": 0.8282672619047621,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "SELL",
+        "item": "Beetroot",
+        "quantity": 100,
+        "price": 0.67,
+        "date": "2026-01-31",
+        "time": "08:22 AM",
+        "username": "jaysuper"
+      },
+      {
+        "type": "SELL",
+        "item": "Beetroot",
+        "quantity": 100,
+        "price": 0.66,
+        "date": "2026-01-31",
+        "time": "08:21 AM",
+        "username": "jaysuper"
+      },
       {
         "type": "SELL",
         "item": "Wood",
@@ -2051,8 +2093,7 @@
         "quantity": 50,
         "price": 3.9244,
         "date": "2026-01-31",
-        "time": "06:35 AM",
-        "username": "jaysuper"
+        "time": "06:35 AM"
       },
       {
         "type": "SELL",
@@ -2060,8 +2101,7 @@
         "quantity": 64,
         "price": 0.3,
         "date": "2026-01-31",
-        "time": "05:47 AM",
-        "username": "jaysuper"
+        "time": "05:47 AM"
       },
       {
         "type": "SELL",
@@ -2166,22 +2206,6 @@
         "price": 0.3621,
         "date": "2026-01-31",
         "time": "02:20 AM"
-      },
-      {
-        "type": "SELL",
-        "item": "Parsnip",
-        "quantity": 30,
-        "price": 0.55,
-        "date": "2026-01-31",
-        "time": "02:20 AM"
-      },
-      {
-        "type": "SELL",
-        "item": "Parsnip",
-        "quantity": 20,
-        "price": 0.37,
-        "date": "2026-01-31",
-        "time": "02:20 AM"
       }
     ],
     "profit_margin": 0,
@@ -2189,7 +2213,7 @@
     "most_sold_items": {
       "Sunflower": 5600,
       "Yam": 5003,
-      "Beetroot": 3413,
+      "Beetroot": 3613,
       "Broccoli": 2150,
       "Wood": 2061,
       "Lemon": 1215,
@@ -3447,10 +3471,10 @@
   ],
   "inventory": {
     "crops": {
-      "Sunflower": 593313.2571998293,
+      "Sunflower": 592113.2571998293,
       "Potato": 161942.25270001515,
       "Pumpkin": 535083.0400000013,
-      "Carrot": 121205.07539999977,
+      "Carrot": 121533.94459999977,
       "Cabbage": 104849.28659999982,
       "Beetroot": 39814.36390000002,
       "Cauliflower": 987.0169999999995,
@@ -3460,7 +3484,7 @@
       "Kale": 1890.6489,
       "Eggplant": 2376.5392999999985,
       "Corn": 66.00560000000075,
-      "Soybean": 7396.144699999981,
+      "Soybean": 7306.144699999981,
       "Rice": 491.844,
       "Olive": 731.036,
       "Barley": 882.3646000000055,
@@ -3479,14 +3503,14 @@
       "Orange": 1402.3800000000003,
       "Banana": 419.87000000000097,
       "Grape": 1391.6900000000003,
-      "Tomato": 27684.610000000004,
+      "Tomato": 27746.510000000002,
       "Lemon": 18945.210000000014,
       "Duskberry": 74.16000000000001,
       "Lunara": 69.16000000000001,
       "Celestine": 333.08000000000004
     },
     "resources": {
-      "Wood": 50039.98,
+      "Wood": 50117.82,
       "Stone": 12590.4,
       "Iron": 4960.75,
       "Gold": 1492.3000001,
