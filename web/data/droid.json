@@ -1,18 +1,30 @@
 {
   "username": "droid",
   "overview": {
-    "balance": 0.61,
-    "coins": 159994.0,
+    "balance": 2.64,
+    "coins": 159786.0,
     "gems": 0.0,
     "earned_sfl": 8175.19,
-    "earned_coins": 159994.0,
+    "earned_coins": 159786.0,
     "spent_sfl": 12297.69,
-    "items_sold": 7611.0,
+    "items_sold": 7614.0,
     "trade_points": 11367.53,
-    "last_updated": "2026-01-31 12:03 PM",
+    "last_updated": "2026-01-31 03:01 PM",
     "active_listings": 6
   },
   "buys": [
+    {
+      "date": "2026-01-31",
+      "time": "02:49 PM",
+      "type": "BUY",
+      "item": "Milk",
+      "quantity": 25,
+      "price_text": "3.12 SFL",
+      "price": 3.12,
+      "counterparty": "DDoubleD",
+      "farm_id": "-",
+      "trade_id": "c979b462"
+    },
     {
       "date": "2026-01-31",
       "time": "11:08 AM",
@@ -1025,6 +1037,42 @@
   "sells": [
     {
       "date": "2026-01-31",
+      "time": "02:37 PM",
+      "type": "SELL",
+      "item": "Yam",
+      "quantity": 1000,
+      "price_text": "2.79 SFL",
+      "price": 2.79,
+      "counterparty": "maebe",
+      "farm_id": "-",
+      "trade_id": "9ad66330"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "02:22 PM",
+      "type": "SELL",
+      "item": "Yam",
+      "quantity": 400,
+      "price_text": "1.11 SFL",
+      "price": 1.11,
+      "counterparty": "vahaboy",
+      "farm_id": "-",
+      "trade_id": "ea38a2cb"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "01:52 PM",
+      "type": "SELL",
+      "item": "Sunflower",
+      "quantity": 4000,
+      "price_text": "1.08 SFL",
+      "price": 1.08,
+      "counterparty": "Guilhem",
+      "farm_id": "-",
+      "trade_id": "2438a9bb"
+    },
+    {
+      "date": "2026-01-31",
       "time": "05:43 AM",
       "type": "SELL",
       "item": "Potato",
@@ -1566,15 +1614,24 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 84,
-    "total_sells": 45,
-    "buy_volume": 115.68839999999999,
-    "sell_volume": 112.4815,
-    "gross_profit": -3.2068999999999903,
-    "avg_buy_price": 1.377242857142857,
-    "avg_sell_price": 2.499588888888889,
+    "total_buys": 85,
+    "total_sells": 48,
+    "buy_volume": 118.8084,
+    "sell_volume": 117.4615,
+    "gross_profit": -1.346900000000005,
+    "avg_buy_price": 1.3977458823529412,
+    "avg_sell_price": 2.447114583333333,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Milk",
+        "quantity": 25,
+        "price": 3.12,
+        "date": "2026-01-31",
+        "time": "02:49 PM",
+        "username": "droid"
+      },
       {
         "type": "BUY",
         "item": "Stone",
@@ -1617,8 +1674,7 @@
         "quantity": 100,
         "price": 0.6799,
         "date": "2026-01-31",
-        "time": "08:25 AM",
-        "username": "droid"
+        "time": "08:25 AM"
       },
       {
         "type": "BUY",
@@ -1731,23 +1787,15 @@
         "price": 0.9903,
         "date": "2026-01-30",
         "time": "05:05 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Lemon",
-        "quantity": 25,
-        "price": 0.2478,
-        "date": "2026-01-30",
-        "time": "05:04 PM"
       }
     ],
-    "profit_margin": -2.772015171789039,
+    "profit_margin": -1.133674049983002,
     "most_bought_items": {
       "Broccoli": 2300,
       "Yam": 1650,
       "Carrot": 600,
       "Stone": 566,
-      "Milk": 417,
+      "Milk": 442,
       "Artichoke": 291,
       "Tomato": 200,
       "Lemon": 175,
@@ -1755,9 +1803,9 @@
       "Leather": 114
     },
     "most_sold_items": {
-      "Sunflower": 20000,
+      "Sunflower": 24000,
       "Potato": 12000,
-      "Yam": 2500,
+      "Yam": 3900,
       "Carrot": 1300,
       "Onion": 685,
       "Wheat": 600,
@@ -1812,21 +1860,56 @@
       "created_at": 1769656189516,
       "collection": "collectibles",
       "trade_type": "instant"
-    },
-    {
-      "id": "2438a9bb",
-      "item": "Sunflower",
-      "quantity": 4000,
-      "price": 1.08,
-      "created_at": 1769831409631,
-      "collection": "collectibles",
-      "trade_type": "instant"
     }
   ],
   "active_offers": [],
   "inventory": {
-    "crops": {},
-    "fruits": {},
-    "resources": {}
+    "crops": {
+      "Sunflower": 7564.535199987208,
+      "Potato": 4026.0014999946266,
+      "Pumpkin": 111.6692,
+      "Carrot": 352.6097,
+      "Cabbage": 52.5857,
+      "Beetroot": 28.455600000000064,
+      "Cauliflower": 14.750899999999925,
+      "Parsnip": 11.118999999999927,
+      "Radish": 277.2946999999998,
+      "Wheat": 388.0782999999989,
+      "Kale": 65.2209999999999,
+      "Eggplant": 758.8689,
+      "Corn": 0.0301000000000001,
+      "Soybean": 111.4219,
+      "Rice": 0.991,
+      "Olive": 2.1548,
+      "Barley": 40.73979999999994,
+      "Rhubarb": 96.35,
+      "Zucchini": 588.6496,
+      "Yam": 213.7633,
+      "Broccoli": 280.2199,
+      "Pepper": 46.7,
+      "Onion": 0.7929000000000271,
+      "Turnip": 21.296100000000017,
+      "Artichoke": 25.00610000000002
+    },
+    "fruits": {
+      "Apple": 40.0000000000005,
+      "Blueberry": 3.000000000005413,
+      "Orange": 0.8000000000008347,
+      "Banana": 14.50000000000071,
+      "Grape": 1.9,
+      "Tomato": 72.50000000000064,
+      "Lemon": 78.30000000000108,
+      "Duskberry": 6e-15,
+      "Lunara": 0.9000000000000099,
+      "Celestine": 2.4000000000000252
+    },
+    "resources": {
+      "Wood": 196.12,
+      "Stone": 18.04,
+      "Iron": 58.95,
+      "Gold": 4.51,
+      "Obsidian": 10.2,
+      "Crimstone": 8.0
+    }
   }
 }

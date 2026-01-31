@@ -1,15 +1,15 @@
 {
   "username": "wtftooma",
   "overview": {
-    "balance": 432.36,
-    "coins": 19196.0,
+    "balance": 432.91,
+    "coins": 27196.0,
     "gems": 0.0,
     "earned_sfl": 432.25,
-    "earned_coins": 19196.0,
+    "earned_coins": 27196.0,
     "spent_sfl": 0.0,
     "items_sold": 1429.0,
     "trade_points": 22991.45,
-    "last_updated": "2026-01-31 01:13 PM",
+    "last_updated": "2026-01-31 03:01 PM",
     "active_listings": 1
   },
   "buys": [
@@ -628,6 +628,18 @@
   ],
   "sells": [
     {
+      "date": "2026-01-31",
+      "time": "01:42 PM",
+      "type": "SELL",
+      "item": "Wool",
+      "quantity": 10,
+      "price_text": "0.5895 SFL",
+      "price": 0.5895,
+      "counterparty": "et0",
+      "farm_id": "-",
+      "trade_id": "f844cb07"
+    },
+    {
       "date": "2026-01-30",
       "time": "01:47 PM",
       "type": "SELL",
@@ -655,12 +667,12 @@
   "last_updated": null,
   "stats": {
     "total_buys": 51,
-    "total_sells": 2,
+    "total_sells": 3,
     "buy_volume": 82.5776,
-    "sell_volume": 5.2572,
-    "gross_profit": -77.3204,
+    "sell_volume": 5.8467,
+    "gross_profit": -76.7309,
     "avg_buy_price": 1.6191686274509804,
-    "avg_sell_price": 2.6286,
+    "avg_sell_price": 1.9489,
     "most_traded_items": {},
     "recent_activity": [
       {
@@ -829,7 +841,7 @@
         "time": "08:17 PM"
       }
     ],
-    "profit_margin": -93.63362461490767,
+    "profit_margin": -92.91975063455466,
     "most_bought_items": {
       "Yam": 3030,
       "Broccoli": 2200,
@@ -843,7 +855,7 @@
       "Gold": 48
     },
     "most_sold_items": {
-      "Wool": 90
+      "Wool": 100
     }
   },
   "active_listings": [
@@ -875,6 +887,15 @@
       "created_at": 1769811476852,
       "collection": "wearables",
       "trade_type": "instant"
+    },
+    {
+      "id": "d4e76f40",
+      "item": "Skull Shirt",
+      "quantity": 1,
+      "price": 2,
+      "created_at": 1769867096020,
+      "collection": "wearables",
+      "trade_type": "instant"
     }
   ],
   "inventory": {
@@ -887,38 +908,38 @@
       "Beetroot": 18.82090000000003,
       "Cauliflower": 44.9855000000001,
       "Parsnip": 57.393400000000035,
-      "Radish": 195.8997000000002,
+      "Radish": 190.8997000000002,
       "Wheat": 616.6939000000006,
       "Kale": 0.1891000000003353,
-      "Eggplant": 797.5587,
+      "Eggplant": 792.5587,
       "Corn": 14.98640000000024,
       "Soybean": 207.0639000000001,
-      "Barley": 1897.813599999999,
+      "Barley": 2209.213599999999,
       "Rhubarb": 75.8,
       "Zucchini": 255.249,
-      "Yam": 3056.2464,
-      "Broccoli": 2347.4482,
+      "Yam": 3041.2464,
+      "Broccoli": 2337.4482,
       "Pepper": 421.3844,
       "Onion": 2223.9096,
       "Turnip": 663.9971000000002,
-      "Artichoke": 2224.7,
+      "Artichoke": 2222.7,
       "Olive": 8.6,
       "Rice": 10.2
     },
     "fruits": {
       "Blueberry": 158.3,
       "Orange": 52.4,
-      "Banana": 42.4,
-      "Tomato": 178.60000000000008,
+      "Banana": 48.2,
+      "Tomato": 171.10000000000008,
       "Lemon": 191.90000000000006,
       "Duskberry": 1.9000000000000012,
       "Lunara": 0.1000000000000012,
       "Celestine": 15.8,
       "Grape": 2.0,
-      "Apple": 246.4
+      "Apple": 265.20000000000005
     },
     "resources": {
-      "Wood": 458.7,
+      "Wood": 502.1,
       "Stone": 158.25,
       "Iron": 1.7,
       "Obsidian": 6.79,

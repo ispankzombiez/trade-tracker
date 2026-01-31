@@ -1,18 +1,30 @@
 {
   "username": "henry",
   "overview": {
-    "balance": 1.09,
-    "coins": 8295.0,
+    "balance": 1.44,
+    "coins": 20165.0,
     "gems": 0.0,
     "earned_sfl": 7044.89,
-    "earned_coins": 8295.0,
+    "earned_coins": 20165.0,
     "spent_sfl": 8183.98,
-    "items_sold": 1127.0,
+    "items_sold": 1129.0,
     "trade_points": 7637.41,
-    "last_updated": "2026-01-31 01:13 PM",
+    "last_updated": "2026-01-31 03:01 PM",
     "active_listings": 2
   },
   "buys": [
+    {
+      "date": "2026-01-31",
+      "time": "02:05 PM",
+      "type": "BUY",
+      "item": "Olive",
+      "quantity": 5,
+      "price_text": "2.39 SFL",
+      "price": 2.39,
+      "counterparty": "Margotti",
+      "farm_id": "-",
+      "trade_id": "7bdc320f"
+    },
     {
       "date": "2026-01-31",
       "time": "04:00 AM",
@@ -628,6 +640,30 @@
   ],
   "sells": [
     {
+      "date": "2026-01-31",
+      "time": "02:10 PM",
+      "type": "SELL",
+      "item": "Wheat",
+      "quantity": 100,
+      "price_text": "1.48 SFL",
+      "price": 1.48,
+      "counterparty": "Pecoreador",
+      "farm_id": "-",
+      "trade_id": "6a72e4ba"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "02:03 PM",
+      "type": "SELL",
+      "item": "Wheat",
+      "quantity": 100,
+      "price_text": "1.4799 SFL",
+      "price": 1.4799,
+      "counterparty": "Hoot",
+      "farm_id": "-",
+      "trade_id": "b81cc1fc"
+    },
+    {
       "date": "2026-01-26",
       "time": "09:29 PM",
       "type": "SELL",
@@ -642,15 +678,24 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 51,
-    "total_sells": 1,
-    "buy_volume": 164.9867,
-    "sell_volume": 17.9,
-    "gross_profit": -147.0867,
-    "avg_buy_price": 3.2350333333333334,
-    "avg_sell_price": 17.9,
+    "total_buys": 52,
+    "total_sells": 3,
+    "buy_volume": 167.37670000000003,
+    "sell_volume": 20.8599,
+    "gross_profit": -146.51680000000002,
+    "avg_buy_price": 3.218782692307693,
+    "avg_sell_price": 6.9533,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Olive",
+        "quantity": 5,
+        "price": 2.39,
+        "date": "2026-01-31",
+        "time": "02:05 PM",
+        "username": "henry"
+      },
       {
         "type": "BUY",
         "item": "Milk",
@@ -693,8 +738,7 @@
         "quantity": 7,
         "price": 0.4223,
         "date": "2026-01-30",
-        "time": "03:11 PM",
-        "username": "henry"
+        "time": "03:11 PM"
       },
       {
         "type": "BUY",
@@ -807,17 +851,9 @@
         "price": 2.7962,
         "date": "2026-01-28",
         "time": "02:04 AM"
-      },
-      {
-        "type": "BUY",
-        "item": "Wool",
-        "quantity": 85,
-        "price": 5.0779,
-        "date": "2026-01-28",
-        "time": "02:04 AM"
       }
     ],
-    "profit_margin": -89.15064062739603,
+    "profit_margin": -87.53715421561064,
     "most_bought_items": {
       "Wood": 2869,
       "Stone": 1900,
@@ -831,6 +867,7 @@
       "Milk": 200
     },
     "most_sold_items": {
+      "Wheat": 200,
       "Obsidian": 1
     }
   },
@@ -854,64 +891,54 @@
       "trade_type": "onchain"
     }
   ],
-  "active_offers": [
-    {
-      "id": "67e9c972",
-      "item": "Baby Sheep",
-      "quantity": 1,
-      "price": 3.32,
-      "created_at": 1769612694395,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    }
-  ],
+  "active_offers": [],
   "inventory": {
     "crops": {
       "Sunflower": 28839.2206,
-      "Potato": 25265.498499999703,
+      "Potato": 25255.498499999703,
       "Pumpkin": 12031.279099999983,
-      "Carrot": 7468.7563,
+      "Carrot": 7448.7563,
       "Cabbage": 24.968300000000003,
       "Beetroot": 66.3934,
       "Cauliflower": 857.8556,
       "Parsnip": 19.28620000000001,
-      "Radish": 222.0110000000001,
-      "Wheat": 1307.6285000000005,
+      "Radish": 207.0110000000001,
+      "Wheat": 1238.8285000000005,
       "Kale": 1266.7909000000002,
       "Eggplant": 1645.1689,
-      "Corn": 199.40280000000007,
+      "Corn": 149.40280000000007,
       "Soybean": 443.6193,
       "Rice": 0.696,
-      "Olive": 0.074,
-      "Barley": 644.0208000000003,
+      "Olive": 3.074,
+      "Barley": 584.0208000000003,
       "Rhubarb": 947.7,
       "Zucchini": 7479.35,
-      "Yam": 1179.4406,
-      "Broccoli": 2771.9718,
+      "Yam": 1139.4406,
+      "Broccoli": 2761.9718,
       "Pepper": 2737.1452,
       "Onion": 1246.7697,
       "Turnip": 234.9773,
-      "Artichoke": 979.3745
+      "Artichoke": 902.3745
     },
     "fruits": {
-      "Apple": 201.4000000000001,
-      "Blueberry": 48.200000000000045,
-      "Orange": 37.40000000000013,
-      "Banana": 128.30000000000004,
+      "Apple": 202.50000000000009,
+      "Blueberry": 42.200000000000045,
+      "Orange": 21.400000000000126,
+      "Banana": 118.30000000000004,
       "Grape": 3.2,
-      "Tomato": 150.40000000000015,
-      "Lemon": 126.15000000000036,
+      "Tomato": 115.40000000000015,
+      "Lemon": 86.15000000000036,
       "Duskberry": 1.9,
       "Celestine": 3.0,
       "Lunara": 0.7
     },
     "resources": {
-      "Wood": 189.9,
-      "Iron": 9.9,
-      "Gold": 423.56,
+      "Wood": 100.9,
+      "Iron": 36.3,
+      "Gold": 442.26,
       "Crimstone": 9.2,
       "Obsidian": 1.68,
-      "Stone": 177.65
+      "Stone": 112.65
     }
   }
 }
