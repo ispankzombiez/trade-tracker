@@ -1,12 +1,37 @@
 {
   "id": 142979,
-  "totalTrades": 24133,
+  "totalTrades": 24143,
   "level": 106,
   "weeklyFlowerSpent": 139.0771,
-  "weeklyFlowerEarned": 146.8002725,
+  "weeklyFlowerEarned": 154.6155975,
   "tokenUri": "0_v1_83_90_184_503_504_0_414_505_30_0_86_0_0_374",
   "username": "DeltaOmega",
-  "listings": {},
+  "listings": {
+    "61e0b76f": {
+      "collection": "collectibles",
+      "createdAt": 1769846180996,
+      "items": {
+        "Barley": 100
+      },
+      "sfl": 2.2215,
+      "tax": 0.1666125,
+      "tradeType": "instant",
+      "fulfilledAt": 1769846507036,
+      "fulfilledById": 4571615301171257
+    },
+    "6e8bf3ba": {
+      "collection": "collectibles",
+      "createdAt": 1769846192348,
+      "items": {
+        "Barley": 100
+      },
+      "sfl": 2.2215,
+      "tax": 0.1666125,
+      "tradeType": "instant",
+      "fulfilledAt": 1769846851643,
+      "fulfilledById": 871
+    }
+  },
   "offers": {},
   "friends": [
     {
@@ -16,15 +41,15 @@
       "trades": 68
     },
     {
-      "id": 60802,
-      "tokenUri": "0_v1_47_90_51_13_20_89_23_0_0_0_0_439_0_189",
-      "username": "Kuradike",
-      "trades": 52
-    },
-    {
       "id": 7171535366555767,
       "tokenUri": "0_v1_348_90_184_181_447_334_332_196_0_228_86_0_0_189_0_266",
       "username": "Pedrico",
+      "trades": 52
+    },
+    {
+      "id": 60802,
+      "tokenUri": "0_v1_47_90_51_13_20_89_23_0_0_0_0_439_0_189",
+      "username": "Kuradike",
       "trades": 52
     },
     {
@@ -41,6 +66,196 @@
     }
   ],
   "trades": [
+    {
+      "id": "6e8bf3ba",
+      "sfl": 2.2215,
+      "quantity": 100,
+      "itemId": 257,
+      "collection": "collectibles",
+      "source": "listing",
+      "fulfilledAt": 1769846852035,
+      "initiatedBy": {
+        "id": 142979,
+        "bumpkinUri": "0_v1_83_90_184_503_504_0_414_505_30_0_86_0_0_374",
+        "username": "DeltaOmega"
+      },
+      "fulfilledBy": {
+        "id": 871,
+        "bumpkinUri": "0_v1_53_4_7_320_322_323_400_321_457",
+        "username": "Edu"
+      }
+    },
+    {
+      "id": "61e0b76f",
+      "sfl": 2.2215,
+      "quantity": 100,
+      "itemId": 257,
+      "collection": "collectibles",
+      "source": "listing",
+      "fulfilledAt": 1769846507036,
+      "initiatedBy": {
+        "id": 142979,
+        "bumpkinUri": "0_v1_83_90_184_503_504_0_414_505_30_0_86_0_0_374",
+        "username": "DeltaOmega"
+      },
+      "fulfilledBy": {
+        "id": 4571615301171257,
+        "bumpkinUri": "0_v1_48_1_5_88_234_89_23_395_0_228",
+        "username": "Stoney87"
+      }
+    },
+    {
+      "id": "72734eec",
+      "sfl": 0.31,
+      "quantity": 5,
+      "itemId": 603,
+      "collection": "collectibles",
+      "source": "offer",
+      "fulfilledAt": 1769846382192,
+      "initiatedBy": {
+        "id": 7389880547711604,
+        "bumpkinUri": "0_v1_83_90_184_503_504_0_414_505_30_0_86_0_0_374",
+        "username": "DeltaOmega"
+      },
+      "fulfilledBy": {
+        "id": 142979,
+        "bumpkinUri": "0_v1_32_90_5_15_234_22_226_517_0_228_0_458",
+        "username": "PalkaSalyami"
+      }
+    },
+    {
+      "id": "5767d69d",
+      "sfl": 1.754,
+      "quantity": 5,
+      "itemId": 253,
+      "collection": "collectibles",
+      "source": "offer",
+      "fulfilledAt": 1769846352887,
+      "initiatedBy": {
+        "id": 5015275068996357,
+        "bumpkinUri": "0_v1_83_90_184_503_504_0_414_505_30_0_86_0_0_374",
+        "username": "DeltaOmega"
+      },
+      "fulfilledBy": {
+        "id": 142979,
+        "bumpkinUri": "0_v1_47_90_184_185_18_89_240_91",
+        "username": "miggy"
+      }
+    },
+    {
+      "id": "db881155",
+      "sfl": 1.754,
+      "quantity": 5,
+      "itemId": 253,
+      "collection": "collectibles",
+      "source": "offer",
+      "fulfilledAt": 1769846349027,
+      "initiatedBy": {
+        "id": 202397350013826,
+        "bumpkinUri": "0_v1_83_90_184_503_504_0_414_505_30_0_86_0_0_374",
+        "username": "DeltaOmega"
+      },
+      "fulfilledBy": {
+        "id": 142979,
+        "bumpkinUri": "0_v1_47_3_202_13_20_22_23_476_0_228_16",
+        "username": "Cuangg"
+      }
+    },
+    {
+      "id": "1bc27fba",
+      "sfl": 2.1054,
+      "quantity": 6,
+      "itemId": 253,
+      "collection": "collectibles",
+      "source": "offer",
+      "fulfilledAt": 1769846342365,
+      "initiatedBy": {
+        "id": 143461,
+        "bumpkinUri": "0_v1_83_90_184_503_504_0_414_505_30_0_86_0_0_374",
+        "username": "DeltaOmega"
+      },
+      "fulfilledBy": {
+        "id": 142979,
+        "bumpkinUri": "0_v1_460_90_97_330_333_334_332_331_29_380_0_124_453_440_0_177",
+        "username": "Coolnezz"
+      }
+    },
+    {
+      "id": "da59b4c0",
+      "sfl": 2.1054,
+      "quantity": 6,
+      "itemId": 253,
+      "collection": "collectibles",
+      "source": "offer",
+      "fulfilledAt": 1769846332922,
+      "initiatedBy": {
+        "id": 143461,
+        "bumpkinUri": "0_v1_83_90_184_503_504_0_414_505_30_0_86_0_0_374",
+        "username": "DeltaOmega"
+      },
+      "fulfilledBy": {
+        "id": 142979,
+        "bumpkinUri": "0_v1_460_90_97_330_333_334_332_331_29_380_0_124_453_440_0_177",
+        "username": "Coolnezz"
+      }
+    },
+    {
+      "id": "58b24ebf",
+      "sfl": 2.2215,
+      "quantity": 100,
+      "itemId": 257,
+      "collection": "collectibles",
+      "source": "listing",
+      "fulfilledAt": 1769846262625,
+      "initiatedBy": {
+        "id": 142979,
+        "bumpkinUri": "0_v1_83_90_184_503_504_0_414_505_30_0_86_0_0_374",
+        "username": "DeltaOmega"
+      },
+      "fulfilledBy": {
+        "id": 6517990425432243,
+        "bumpkinUri": "0_v1_47_90_7_0_234_22_226_476_0_0_86_0_0_189_0_177",
+        "username": "DrZamasu"
+      }
+    },
+    {
+      "id": "064aefd5",
+      "sfl": 0.2101,
+      "quantity": 10,
+      "itemId": 257,
+      "collection": "collectibles",
+      "source": "offer",
+      "fulfilledAt": 1769846220291,
+      "initiatedBy": {
+        "id": 659919147849465,
+        "bumpkinUri": "0_v1_83_90_184_503_504_0_414_505_30_0_86_0_0_374",
+        "username": "DeltaOmega"
+      },
+      "fulfilledBy": {
+        "id": 142979,
+        "bumpkinUri": "0_v1_32_2_5_88_234_89_489_505_0_228_0_420",
+        "username": "StarKnock"
+      }
+    },
+    {
+      "id": "396fe696",
+      "sfl": 0.2101,
+      "quantity": 10,
+      "itemId": 257,
+      "collection": "collectibles",
+      "source": "offer",
+      "fulfilledAt": 1769846217372,
+      "initiatedBy": {
+        "id": 659919147849465,
+        "bumpkinUri": "0_v1_83_90_184_503_504_0_414_505_30_0_86_0_0_374",
+        "username": "DeltaOmega"
+      },
+      "fulfilledBy": {
+        "id": 142979,
+        "bumpkinUri": "0_v1_32_2_5_88_234_89_489_505_0_228_0_420",
+        "username": "StarKnock"
+      }
+    },
     {
       "id": "7e1cf8ed",
       "sfl": 0.2219,
@@ -799,196 +1014,6 @@
         "id": 142979,
         "bumpkinUri": "0_v1_511_90_52_0_0_22_400_0_30_371_408_515_495_468_481",
         "username": "Lekowem"
-      }
-    },
-    {
-      "id": "85d08093",
-      "sfl": 0.3578,
-      "quantity": 25,
-      "itemId": 210,
-      "collection": "collectibles",
-      "source": "offer",
-      "fulfilledAt": 1769752936932,
-      "initiatedBy": {
-        "id": 441490748981304,
-        "bumpkinUri": "0_v1_83_90_184_503_504_0_414_505_30_0_86_0_0_374",
-        "username": "DeltaOmega"
-      },
-      "fulfilledBy": {
-        "id": 142979,
-        "bumpkinUri": "0_v1_32_1_5_88_18_22_23_395",
-        "username": "orreoo"
-      }
-    },
-    {
-      "id": "7f0e4e9e",
-      "sfl": 0.144,
-      "quantity": 10,
-      "itemId": 210,
-      "collection": "collectibles",
-      "source": "offer",
-      "fulfilledAt": 1769752932791,
-      "initiatedBy": {
-        "id": 743089195013380,
-        "bumpkinUri": "0_v1_83_90_184_503_504_0_414_505_30_0_86_0_0_374",
-        "username": "DeltaOmega"
-      },
-      "fulfilledBy": {
-        "id": 142979,
-        "bumpkinUri": "0_v1_47_1_5_13_18_22_23",
-        "username": "Ngoc0912"
-      }
-    },
-    {
-      "id": "a72d6647",
-      "sfl": 0.29,
-      "quantity": 20,
-      "itemId": 210,
-      "collection": "collectibles",
-      "source": "offer",
-      "fulfilledAt": 1769752929211,
-      "initiatedBy": {
-        "id": 2712030934151906,
-        "bumpkinUri": "0_v1_83_90_184_503_504_0_414_505_30_0_86_0_0_374",
-        "username": "DeltaOmega"
-      },
-      "fulfilledBy": {
-        "id": 142979,
-        "bumpkinUri": "0_v1_48_1_5_13_18_41_23",
-        "username": "hasnatnayem"
-      }
-    },
-    {
-      "id": "2cffde45",
-      "sfl": 0.2939,
-      "quantity": 100,
-      "itemId": 260,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769736374485,
-      "initiatedBy": {
-        "id": 1352,
-        "bumpkinUri": "0_v1_32_1_43_13_234_22_240_476_0_228",
-        "username": "Persephone"
-      },
-      "fulfilledBy": {
-        "id": 142979,
-        "bumpkinUri": "0_v1_83_90_184_503_504_0_414_505_30_0_86_0_0_374",
-        "username": "DeltaOmega"
-      }
-    },
-    {
-      "id": "ddecc24d",
-      "sfl": 0.3199,
-      "quantity": 100,
-      "itemId": 261,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769736362276,
-      "initiatedBy": {
-        "id": 1352,
-        "bumpkinUri": "0_v1_32_1_43_13_234_22_240_476_0_228",
-        "username": "Persephone"
-      },
-      "fulfilledBy": {
-        "id": 142979,
-        "bumpkinUri": "0_v1_83_90_184_503_504_0_414_505_30_0_86_0_0_374",
-        "username": "DeltaOmega"
-      }
-    },
-    {
-      "id": "1040b15f",
-      "sfl": 3.6868,
-      "quantity": 30,
-      "itemId": 645,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769736207773,
-      "initiatedBy": {
-        "id": 3302523944618741,
-        "bumpkinUri": "0_v1_511_90_52_0_0_22_400_0_30_371_408_515_495_468_481",
-        "username": "Lekowem"
-      },
-      "fulfilledBy": {
-        "id": 142979,
-        "bumpkinUri": "0_v1_83_90_184_503_504_0_414_505_30_0_86_0_0_374",
-        "username": "DeltaOmega"
-      }
-    },
-    {
-      "id": "1b457f54",
-      "sfl": 0.099,
-      "quantity": 10,
-      "itemId": 256,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769736184282,
-      "initiatedBy": {
-        "id": 6498928604173983,
-        "bumpkinUri": "0_v1_47_3_42_0_0_89_226_349_0_0_0_0_452",
-        "username": "Vrelorein"
-      },
-      "fulfilledBy": {
-        "id": 142979,
-        "bumpkinUri": "0_v1_83_90_184_503_504_0_414_505_30_0_86_0_0_374",
-        "username": "DeltaOmega"
-      }
-    },
-    {
-      "id": "d2ce467f",
-      "sfl": 0.099,
-      "quantity": 10,
-      "itemId": 256,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769736181113,
-      "initiatedBy": {
-        "id": 6498928604173983,
-        "bumpkinUri": "0_v1_47_3_42_0_0_89_226_349_0_0_0_0_452",
-        "username": "Vrelorein"
-      },
-      "fulfilledBy": {
-        "id": 142979,
-        "bumpkinUri": "0_v1_83_90_184_503_504_0_414_505_30_0_86_0_0_374",
-        "username": "DeltaOmega"
-      }
-    },
-    {
-      "id": "15fec00a",
-      "sfl": 0.099,
-      "quantity": 10,
-      "itemId": 256,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769736177617,
-      "initiatedBy": {
-        "id": 6498928604173983,
-        "bumpkinUri": "0_v1_47_3_42_0_0_89_226_349_0_0_0_0_452",
-        "username": "Vrelorein"
-      },
-      "fulfilledBy": {
-        "id": 142979,
-        "bumpkinUri": "0_v1_83_90_184_503_504_0_414_505_30_0_86_0_0_374",
-        "username": "DeltaOmega"
-      }
-    },
-    {
-      "id": "ad6a6341",
-      "sfl": 0.6999,
-      "quantity": 50,
-      "itemId": 210,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769736146871,
-      "initiatedBy": {
-        "id": 152957,
-        "bumpkinUri": "0_v1_83_2_52_85_20_22_477_476_0_0_86_174_452_374",
-        "username": "CriptoFalido"
-      },
-      "fulfilledBy": {
-        "id": 142979,
-        "bumpkinUri": "0_v1_83_90_184_503_504_0_414_505_30_0_86_0_0_374",
-        "username": "DeltaOmega"
       }
     }
   ]

@@ -1,8 +1,8 @@
 {
   "id": 145238,
-  "totalTrades": 16731,
+  "totalTrades": 16732,
   "level": 128,
-  "weeklyFlowerSpent": 236.7614,
+  "weeklyFlowerSpent": 237.44129999999998,
   "weeklyFlowerEarned": 22.7543525,
   "tokenUri": "0_v1_48_90_184_474_18_89_226_209_30_381_86_427_0_189_0_177",
   "username": "Droid",
@@ -102,6 +102,25 @@
     }
   ],
   "trades": [
+    {
+      "id": "6b60fa1a",
+      "sfl": 0.6799,
+      "quantity": 100,
+      "itemId": 206,
+      "collection": "collectibles",
+      "source": "listing",
+      "fulfilledAt": 1769847940627,
+      "initiatedBy": {
+        "id": 4134501727177274,
+        "bumpkinUri": "0_v1_48_1_7_14_20_89_23_395_0_0_0_458",
+        "username": "lliw"
+      },
+      "fulfilledBy": {
+        "id": 145238,
+        "bumpkinUri": "0_v1_48_90_184_474_18_89_226_209_30_381_86_427_0_189_0_177",
+        "username": "Droid"
+      }
+    },
     {
       "id": "adc13db2",
       "sfl": 1.3294,
@@ -1031,25 +1050,6 @@
         "id": 8655559328718236,
         "bumpkinUri": "0_v1_32_90_43_0_234_22_240_505_0_0_408_350_452",
         "username": "LalangostA"
-      }
-    },
-    {
-      "id": "278fda66",
-      "sfl": 0.85,
-      "quantity": 500,
-      "itemId": 204,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769776563833,
-      "initiatedBy": {
-        "id": 145238,
-        "bumpkinUri": "0_v1_48_90_184_474_18_89_226_209_30_381_86_427_0_189_0_177",
-        "username": "Droid"
-      },
-      "fulfilledBy": {
-        "id": 52114,
-        "bumpkinUri": "0_v1_48_2_5_85_249_34_45_476_0_0_0_0_451_0_0_266",
-        "username": "Nancy"
       }
     }
   ]
