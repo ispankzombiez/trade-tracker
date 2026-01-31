@@ -1,6 +1,6 @@
 {
   "farm": {
-    "coins": 227924.36670000025,
+    "coins": 226644.36670000025,
     "balance": "34.0398288757315212",
     "previousBalance": "0",
     "inventory": {
@@ -15,7 +15,7 @@
       "Radish": "68.6",
       "Wheat": "359.95",
       "Kale": "0.05",
-      "Apple": "109",
+      "Apple": "105",
       "Blueberry": "0.6",
       "Orange": "134.4",
       "Eggplant": "44.2",
@@ -39,17 +39,17 @@
       "Yellow Lotus": "1",
       "White Lotus": "5",
       "Soybean": "7547.06",
-      "Tomato": "88.3",
+      "Tomato": "83.3",
       "Lemon": "95",
       "Barley": "247.6",
       "Rhubarb": "1875.15",
       "Zucchini": "1513.8500000000000129",
-      "Yam": "5594.15",
-      "Broccoli": "3811.65",
+      "Yam": "5579.15",
+      "Broccoli": "3801.65",
       "Pepper": "2549.3",
       "Onion": "354.2",
       "Turnip": "199.5",
-      "Artichoke": "100.3",
+      "Artichoke": "98.3",
       "Duskberry": "9",
       "Lunara": "8",
       "Celestine": "8",
@@ -113,7 +113,7 @@
       "Quick Juice": "25",
       "The Lot": "4",
       "Lemon Cheesecake": "6",
-      "Wood": "323.3",
+      "Wood": "263.3",
       "Stone": "79.6",
       "Iron": "369",
       "Gold": "855.2",
@@ -128,16 +128,16 @@
       "Crop Plot": "60",
       "Fruit Patch": "13",
       "Basic Land": "18",
-      "Earthworm": "247",
-      "Grub": "41",
-      "Sprout Mix": "1015",
-      "Fruitful Blend": "562",
-      "Rapid Root": "673",
+      "Earthworm": "253",
+      "Grub": "45",
+      "Sprout Mix": "1026",
+      "Fruitful Blend": "566",
+      "Rapid Root": "684",
       "Beehive": "3",
       "Flower Bed": "3",
       "Crimstone Rock": "3",
       "Sunstone": "40",
-      "Oil": "15",
+      "Oil": "35",
       "Leather": "27",
       "Wool": "23",
       "Merino Wool": "60",
@@ -284,7 +284,7 @@
       "Wheat Seed": "73",
       "Cockle Shell": "48",
       "Seaweed": "28",
-      "Red Wiggler": "51",
+      "Red Wiggler": "54",
       "Pirate Bounty": "7",
       "Pumpkin Seed": "399",
       "Time Warp Totem": "6",
@@ -328,7 +328,7 @@
       "Pet Playground": "1",
       "Pet Toys": "1",
       "Petnip Plant": "1",
-      "Axe": "307",
+      "Axe": "367",
       "Blueberry Seed": "1",
       "Barley Seed": "97",
       "Chowder": "5",
@@ -338,9 +338,9 @@
       "Cauliflower Seed": "2",
       "Napoleanfish": "4",
       "Power Smoothie": "9",
-      "Pickaxe": "61",
+      "Pickaxe": "81",
       "Stone Pickaxe": "4",
-      "Oil Drill": "6",
+      "Oil Drill": "4",
       "Iron Pickaxe": "9",
       "Sand Shovel": "9",
       "Apple Seed": "1"
@@ -629,7 +629,7 @@
       "Whale Shark": "6"
     },
     "shipments": {
-      "restockedAt": 1769756464682
+      "restockedAt": 1769841840799
     },
     "gems": {
       "history": {
@@ -1641,7 +1641,7 @@
       "Parsnip Seed": "144",
       "Crab Pot": "23",
       "Mariner Pot": "15",
-      "Axe": "350",
+      "Axe": "340",
       "Apple Seed": "14",
       "Banana Plant": "24",
       "Onion Seed": "120",
@@ -1653,8 +1653,15 @@
       "Kale Seed": "72",
       "Oil Drill": "8",
       "Orange Seed": "24",
-      "Pickaxe": "160",
-      "Stone Pickaxe": "30"
+      "Pickaxe": "155",
+      "Stone Pickaxe": "35",
+      "Broccoli Seed": "20",
+      "Carrot Seed": "20",
+      "Iron Pickaxe": "1",
+      "Pumpkin Seed": "30",
+      "Sand Shovel": "5",
+      "Soybean Seed": "20",
+      "Yam Seed": "20"
     },
     "crops": {
       "1": {
@@ -2998,18 +3005,18 @@
         "x": 12,
         "y": -7,
         "createdAt": 1756632800886,
-        "drilled": 48,
+        "drilled": 49,
         "oil": {
-          "drilledAt": 1769756393315
+          "drilledAt": 1769841850941
         }
       },
       "b22817ed": {
         "x": 10,
         "y": -7,
         "createdAt": 1758523556286,
-        "drilled": 25,
+        "drilled": 26,
         "oil": {
-          "drilledAt": 1769756393240
+          "drilledAt": 1769841850652
         }
       }
     },
@@ -3444,10 +3451,10 @@
           "producing": {
             "items": {
               "Sprout Mix": 11,
-              "Earthworm": 6
+              "Earthworm": 5
             },
-            "startedAt": 1769798004931,
-            "readyAt": 1769819604931
+            "startedAt": 1769841818012,
+            "readyAt": 1769863418012
           }
         }
       ],
@@ -3554,8 +3561,8 @@
               "Fruitful Blend": 4,
               "Grub": 4
             },
-            "startedAt": 1769798000585,
-            "readyAt": 1769826800585
+            "startedAt": 1769841806530,
+            "readyAt": 1769870606530
           }
         }
       ],
@@ -3582,10 +3589,10 @@
           "producing": {
             "items": {
               "Rapid Root": 11,
-              "Red Wiggler": 3
+              "Red Wiggler": 4
             },
-            "startedAt": 1769762470442,
-            "readyAt": 1769805670442
+            "startedAt": 1769841813154,
+            "readyAt": 1769885013154
           }
         }
       ],
@@ -4120,16 +4127,16 @@
     "floatingIsland": {
       "schedule": [
         {
-          "startAt": 1769839200000,
-          "endAt": 1769841000000
-        },
-        {
           "startAt": 1769869200000,
           "endAt": 1769871000000
         },
         {
           "startAt": 1769899200000,
           "endAt": 1769901000000
+        },
+        {
+          "startAt": 1769929200000,
+          "endAt": 1769931000000
         }
       ],
       "shop": {
@@ -4253,7 +4260,7 @@
       "Coral Caught": 1,
       "Whale Shark Caught": 6,
       "Dewberry Fetched": 1,
-      "Shipment Restocked": 61,
+      "Shipment Restocked": 62,
       "Blacksmith Shop Restocked": 14,
       "Farm Cheered": 346,
       "Farm Helped": 339,
@@ -4267,12 +4274,12 @@
       "Sunflower Harvested": 22444,
       "Coins Earned": 1256406.5467,
       "Sunflower Sold": 46,
-      "Coins Spent": 1216796.93,
+      "Coins Spent": 1218076.93,
       "Sunflower Seed Bought": 21903,
       "Sunflower Planted": 22422,
       "Basic Scarecrow Crafted": 1,
       "Mashed Potato Fed": 2,
-      "Pickaxe Crafted": 12326,
+      "Pickaxe Crafted": 12346,
       "Stone Mined": 12376,
       "Carrot Seed Bought": 6740,
       "Carrot Planted": 7164,
@@ -4284,7 +4291,7 @@
       "Pumpkin Seed Bought": 4267,
       "Pumpkin Planted": 4453,
       "Pumpkin Harvested": 4381,
-      "Axe Crafted": 30345,
+      "Axe Crafted": 30405,
       "Collectible Placed": 84,
       "Pumpkin Soup Cooked": 138,
       "Pumpkin Soup Fed": 1,
@@ -4465,8 +4472,8 @@
       "Macaw Crafted": 1,
       "Chowder Cooked": 23,
       "Banana Blast Cooked": 31,
-      "Compost Bin Collected": 165,
-      "Turbo Composter Collected": 161,
+      "Compost Bin Collected": 166,
+      "Turbo Composter Collected": 162,
       "Apple Juice Cooked": 60,
       "Cauliflower Burger Cooked": 60,
       "Bumpkin Salad Cooked": 108,
@@ -4493,7 +4500,7 @@
       "Butterfly Crafted": 1,
       "Gold Pickaxe Crafted": 186,
       "Fish n Chips Cooked": 4,
-      "Oil Drilled": 73,
+      "Oil Drilled": 75,
       "Crimstone Mined": 96,
       "Sunstone Mined": 40,
       "Oil Drill Crafted": 71,
@@ -4511,7 +4518,7 @@
       "Feather Collected": 265,
       "Brush Crafted": 1,
       "Hay Mixed": 3058,
-      "Premium Composter Collected": 61,
+      "Premium Composter Collected": 62,
       "NutriBarley Mixed": 2760,
       "Bumpkin Roast Cooked": 1,
       "Chicken Cured": 54,
@@ -5501,7 +5508,7 @@
           "petXP": 0,
           "score": 0,
           "collectivePet": {
-            "totalXP": 5830455,
+            "totalXP": 5858825,
             "goalXP": 10263180,
             "goalReached": false,
             "streak": 10,
@@ -6528,7 +6535,7 @@
       "Old Farmer": 1769797938883,
       "Giant Kale": 1761511729695,
       "Giant Zucchini": 1762126568578,
-      "Turd Topper": 1769798004931,
+      "Turd Topper": 1769841818012,
       "Blossombeard": 1769757134320,
       "Golden Touch": 1769756864466,
       "Giant Yam": 1764854765911,
@@ -6546,12 +6553,12 @@
       "Pickaxe Shark": 1768226216511,
       "Bionic Drill": 1769840164990,
       "Reelmaster's Chair": 1769667790839,
-      "Bucket O' Worms": 1769798004931,
+      "Bucket O' Worms": 1769841818012,
       "Giant Artichoke": 1762434169021,
       "Lunar Temple": 1769820278781,
       "Giant Gold Bone": 1769839818046,
       "Power hour": 1769483838256,
-      "Saw Fish": 1769798004931,
+      "Saw Fish": 1769841818012,
       "Sunshower": 1769446624147
     },
     "socialFarming": {

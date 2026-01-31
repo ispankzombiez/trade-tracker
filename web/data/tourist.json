@@ -1,7 +1,7 @@
 {
   "username": "tourist",
   "overview": {
-    "balance": 103.13,
+    "balance": 103.43,
     "coins": 23553.0,
     "gems": 0.0,
     "earned_sfl": 13353.49,
@@ -9,7 +9,7 @@
     "spent_sfl": 5477.44,
     "items_sold": 12592.0,
     "trade_points": 10449.12,
-    "last_updated": "2026-01-31 06:39 AM",
+    "last_updated": "2026-01-31 07:12 AM",
     "active_listings": 271
   },
   "buys": [
@@ -1253,6 +1253,18 @@
   "sells": [
     {
       "date": "2026-01-31",
+      "time": "06:36 AM",
+      "type": "SELL",
+      "item": "Beetroot",
+      "quantity": 50,
+      "price_text": "0.3198 SFL",
+      "price": 0.3198,
+      "counterparty": "alisheik",
+      "farm_id": "-",
+      "trade_id": "88bc4deb"
+    },
+    {
+      "date": "2026-01-31",
       "time": "04:07 AM",
       "type": "SELL",
       "item": "Iron",
@@ -1663,12 +1675,12 @@
   "last_updated": null,
   "stats": {
     "total_buys": 103,
-    "total_sells": 34,
+    "total_sells": 35,
     "buy_volume": 171.79990000000004,
-    "sell_volume": 68.66130000000001,
-    "gross_profit": -103.13860000000003,
+    "sell_volume": 68.98110000000001,
+    "gross_profit": -102.81880000000002,
     "avg_buy_price": 1.6679601941747577,
-    "avg_sell_price": 2.0194500000000004,
+    "avg_sell_price": 1.9708885714285718,
     "most_traded_items": {},
     "recent_activity": [
       {
@@ -1837,7 +1849,7 @@
         "time": "05:09 PM"
       }
     ],
-    "profit_margin": -60.03414437377438,
+    "profit_margin": -59.847997583234914,
     "most_bought_items": {
       "Lemon": 10997,
       "Blueberry": 2743,
@@ -1847,7 +1859,7 @@
     },
     "most_sold_items": {
       "Yam": 2400,
-      "Beetroot": 1360,
+      "Beetroot": 1410,
       "Corn": 1000,
       "Iron": 538,
       "Barley": 15
@@ -4343,26 +4355,26 @@
   ],
   "inventory": {
     "crops": {
-      "Sunflower": 316175.41809998726,
-      "Potato": 209383.6215999967,
+      "Sunflower": 315175.41809998726,
+      "Potato": 209092.1244999967,
       "Pumpkin": 178330.3120999977,
       "Carrot": 169083.49160000053,
       "Cabbage": 114436.53899999728,
-      "Beetroot": 25742.2051,
+      "Beetroot": 25692.2051,
       "Cauliflower": 28876.4716,
       "Parsnip": 5.925399999999665,
       "Radish": 99107.304,
-      "Wheat": 19212.6076,
+      "Wheat": 19192.6076,
       "Kale": 16.61999999999808,
       "Eggplant": 31425.1298,
       "Corn": 1484.5723999999987,
-      "Soybean": 64779.2867,
+      "Soybean": 65117.03539999999,
       "Rice": 823.4088,
       "Olive": 1912.6808,
       "Barley": 7879.502099999998,
       "Rhubarb": 52229.4393999995,
       "Zucchini": 307664.20459999976,
-      "Yam": 1250.1011999999762,
+      "Yam": 2458.358199999976,
       "Broccoli": 28698.797899999932,
       "Pepper": 6410.0885,
       "Onion": 5827.649899999999,
@@ -4375,14 +4387,14 @@
       "Orange": 1380.4900000000014,
       "Banana": 96.56000000000037,
       "Grape": 311.1800000000014,
-      "Tomato": 2899.250000000008,
-      "Lemon": 799.5800000000046,
+      "Tomato": 2946.300000000008,
+      "Lemon": 689.5800000000046,
       "Duskberry": 842.9,
       "Lunara": 180.0,
       "Celestine": 122.00000000000001
     },
     "resources": {
-      "Wood": 261087.98,
+      "Wood": 261096.43,
       "Stone": 13067.35,
       "Iron": 5858.3,
       "Gold": 2893.88125,
