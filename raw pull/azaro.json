@@ -31,22 +31,22 @@
       "Gladiolus Seed": "13",
       "Lavender Seed": "13",
       "Clover Seed": "13",
-      "Sunflower": "374025.15640000885843",
+      "Sunflower": "373825.15640000885843",
       "Potato": "99800.2591999986773",
       "Pumpkin": "31730.78159999977508",
-      "Carrot": "1877.534459999997578",
+      "Carrot": "1767.534459999997578",
       "Cabbage": "20390.413999999996766",
-      "Beetroot": "2600.9683000000014766",
-      "Cauliflower": "921.5731999999995838",
+      "Beetroot": "2500.9683000000014766",
+      "Cauliflower": "901.5731999999995838",
       "Parsnip": "1467.8148999999996682",
       "Radish": "5251.1047000000003402",
-      "Wheat": "126.545599999999343",
+      "Wheat": "36.545599999999343",
       "Kale": "1555.1383999999994643",
-      "Apple": "299.7500000000011137",
-      "Blueberry": "482.4000000000017133",
+      "Apple": "269.7500000000011137",
+      "Blueberry": "472.4000000000017133",
       "Orange": "437.1000000000016871",
       "Eggplant": "1894.3614999999979186",
-      "Corn": "3696.2572000000025783",
+      "Corn": "3666.2572000000025783",
       "Banana": "905.5000000000008786",
       "Red Pansy": "10",
       "Yellow Pansy": "10",
@@ -80,11 +80,11 @@
       "Purple Lotus": "10",
       "White Lotus": "12",
       "Blue Lotus": "11",
-      "Soybean": "20091.421699999997544",
+      "Soybean": "20051.421699999997544",
       "Grape": "71.2",
-      "Rice": "955.8141",
+      "Rice": "949.8141",
       "Olive": "454.6334",
-      "Tomato": "568.0000000000007275",
+      "Tomato": "574.5000000000007285",
       "Lemon": "5.6000000000009168",
       "Barley": "656.6438999999994003",
       "Rhubarb": "20087.52359999931371",
@@ -278,7 +278,7 @@
       "Stone": "8167.4",
       "Iron": "5318.35",
       "Gold": "4995.5499999999999999",
-      "Egg": "259.15",
+      "Egg": "99.15",
       "Speed Chicken": "2",
       "Fat Chicken": "7",
       "Rich Chicken": "17",
@@ -6234,11 +6234,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769845623292,
-          "harvestedAt": 0,
-          "harvestsLeft": 7,
-          "criticalHit": {
-            "Generous Orchard": 0
-          }
+          "harvestedAt": 1769848163276,
+          "harvestsLeft": 6
         }
       },
       "97cb70a6": {
@@ -6274,11 +6271,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769806473603,
-          "harvestedAt": 1769844660760,
-          "harvestsLeft": 3,
-          "criticalHit": {
-            "Generous Orchard": 1
-          }
+          "harvestedAt": 1769848162772,
+          "harvestsLeft": 2
         }
       },
       "0f56927d": {
@@ -6314,11 +6308,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769845622965,
-          "harvestedAt": 0,
-          "harvestsLeft": 6,
-          "criticalHit": {
-            "Generous Orchard": 0
-          }
+          "harvestedAt": 1769848163069,
+          "harvestsLeft": 5
         }
       },
       "9b13a3f9": {
@@ -6677,8 +6668,29 @@
           "readyAt": 0,
           "createdAt": 0,
           "id": "1123",
-          "oil": 3.3333333333333335,
-          "crafting": []
+          "oil": 3.2500000000000004,
+          "crafting": [
+            {
+              "name": "Boiled Eggs",
+              "boost": {
+                "Oil": 0.041666666666666664
+              },
+              "skills": {
+                "Double Nom": true
+              },
+              "readyAt": 1769854435502
+            },
+            {
+              "name": "Boiled Eggs",
+              "boost": {
+                "Oil": 0.041666666666666664
+              },
+              "skills": {
+                "Double Nom": true
+              },
+              "readyAt": 1769855922662
+            }
+          ]
         }
       ],
       "Mansion": [
@@ -6768,7 +6780,18 @@
           },
           "readyAt": 1738701966988,
           "oil": 0,
-          "crafting": []
+          "crafting": [
+            {
+              "name": "Blueberry Jam",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": true
+              },
+              "readyAt": 1769886008790
+            }
+          ]
         }
       ],
       "Smoothie Shack": [
@@ -6780,8 +6803,49 @@
             "y": -5
           },
           "readyAt": 1740065662395,
-          "crafting": [],
-          "oil": 20.666666666666675
+          "crafting": [
+            {
+              "name": "Carrot Juice",
+              "boost": {
+                "Oil": 0.3333333333333333
+              },
+              "skills": {
+                "Double Nom": true
+              },
+              "readyAt": 1769854881551
+            },
+            {
+              "name": "Apple Juice",
+              "boost": {
+                "Oil": 0.3333333333333333
+              },
+              "skills": {
+                "Double Nom": true
+              },
+              "readyAt": 1769856809351
+            },
+            {
+              "name": "Apple Juice",
+              "boost": {
+                "Oil": 0.3333333333333333
+              },
+              "skills": {
+                "Double Nom": true
+              },
+              "readyAt": 1769858737151
+            },
+            {
+              "name": "Apple Juice",
+              "boost": {
+                "Oil": 0.3333333333333333
+              },
+              "skills": {
+                "Double Nom": true
+              },
+              "readyAt": 1769860664951
+            }
+          ],
+          "oil": 19.333333333333346
         }
       ],
       "Bakery": [
@@ -6794,7 +6858,28 @@
           },
           "readyAt": 1739013988800,
           "oil": 0,
-          "crafting": []
+          "crafting": [
+            {
+              "name": "Cornbread",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": true
+              },
+              "readyAt": 1769886012983
+            },
+            {
+              "name": "Wheat Cake",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": true
+              },
+              "readyAt": 1769945499383
+            }
+          ]
         }
       ],
       "Kitchen": [
@@ -6806,7 +6891,38 @@
             "y": -6
           },
           "readyAt": 1740831654936,
-          "crafting": [],
+          "crafting": [
+            {
+              "name": "Club Sandwich",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": true
+              },
+              "readyAt": 1769860376804
+            },
+            {
+              "name": "Tofu Scramble",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": true
+              },
+              "readyAt": 1769867812604
+            },
+            {
+              "name": "Steamed Red Rice",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": true
+              },
+              "readyAt": 1769877727004
+            }
+          ],
           "oil": 0
         }
       ],
@@ -7648,7 +7764,10 @@
         },
         {
           "id": "922148af",
-          "removedAt": 1768640321331
+          "coordinates": {
+            "x": 8,
+            "y": -8
+          }
         },
         {
           "id": "6db5c0c4",
@@ -9509,10 +9628,7 @@
         {
           "id": "ba16c951",
           "createdAt": 1768781062144,
-          "coordinates": {
-            "x": 8,
-            "y": -8
-          }
+          "removedAt": 1769851640707
         }
       ],
       "Sapo Docuras": [
@@ -10056,7 +10172,7 @@
       "Parsnip Sold": 27786.6731,
       "Radish Harvested": 10078,
       "Radish Planted": 8196,
-      "Collectible Removed": 608,
+      "Collectible Removed": 609,
       "Snorkel Bear Dug": 2,
       "Fruit Salad Fed": 221,
       "Bumpkin Salad Fed": 545,
@@ -10275,7 +10391,7 @@
       "Fried Calamari Fed": 13,
       "Rice Panda Bought": 1,
       "Tomato Seed Planted": 1548,
-      "Tomato Harvested": 8762,
+      "Tomato Harvested": 8765,
       "Goblin Pants Bought": 1,
       "Silver Squire Bought": 2,
       "Amber Amulet Bought": 1,
@@ -12183,7 +12299,7 @@
           "petXP": 0,
           "score": 3630,
           "collectivePet": {
-            "totalXP": 5927995,
+            "totalXP": 6051930,
             "goalXP": 10263180,
             "goalReached": false,
             "streak": 10,
@@ -13786,14 +13902,14 @@
       "Wood Nymph Wendy": 1769849430164,
       "Young Farmer": 1769431884979,
       "Black Bearry": 1768222174275,
-      "Camel Onesie": 1769850390878,
-      "Cannonball": 1769850393292,
-      "Catchup": 1769850393292,
+      "Camel Onesie": 1769852933276,
+      "Cannonball": 1769852933276,
+      "Catchup": 1769852933276,
       "Fruit Picker Apron": 1769850390878,
-      "Fruitful Fumble": 1769850390878,
-      "Loyal Macaw": 1769850390878,
-      "Macaw": 1769850390878,
-      "Tomato Clown": 1769850393292,
+      "Fruitful Fumble": 1769852933276,
+      "Loyal Macaw": 1769852933276,
+      "Macaw": 1769852933276,
+      "Tomato Clown": 1769852933276,
       "Tough Tree": 1769849429320,
       "Tree Turnaround": 1769795910520,
       "Abundant Harvest": 1769849477453,
@@ -13840,7 +13956,7 @@
       "Tin Turtle": 1769849492114,
       "Tunnel Mole": 1769849492114,
       "Maneki Neko": 1769849502638,
-      "Generous Orchard": 1769811241534,
+      "Generous Orchard": 1769852933069,
       "Butterfly": 1769760879095,
       "Peeled Potato": 1769431884979,
       "Glass Room": 1769240774793,
@@ -13864,12 +13980,12 @@
       "Heart of Davy Jones": 1769850277857,
       "Pharaoh Chicken": 1769850277857,
       "Hungry Caterpillar": 1769712881815,
-      "Desert Gnome": 1769795869521,
-      "Fast Feasts": 1769760577112,
+      "Desert Gnome": 1769852968094,
+      "Fast Feasts": 1769852948900,
       "Rice Rocket": 1767167941502,
       "Chicory": 1769795783595,
       "Sheaf of Plenty": 1768481616571,
-      "Frosted Cakes": 1769707667570,
+      "Frosted Cakes": 1769852968094,
       "Cabbage Boy": 1768422977928,
       "Carrot Amulet": 1769416925073,
       "Experienced Farmer": 1769800766449,
@@ -13948,7 +14064,7 @@
       "Giant Artichoke": 1769760017462,
       "Super Star": 1767952033963,
       "Saw Fish": 1769850384231,
-      "Master Chef's Cleaver": 1769795869521,
+      "Master Chef's Cleaver": 1769852968094,
       "Fishy Roll": 1769500952866,
       "Kernaldo": 1768760298500,
       "Flower Power": 1769795906222,

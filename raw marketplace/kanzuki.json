@@ -1,6 +1,6 @@
 {
   "id": 206876,
-  "totalTrades": 26638,
+  "totalTrades": 26639,
   "level": 168,
   "weeklyFlowerSpent": 57.7654,
   "weeklyFlowerEarned": 20.4664575,
@@ -66,16 +66,6 @@
       "sfl": 1035,
       "tax": 103.5,
       "tradeType": "onchain"
-    },
-    "fc3d0c5e": {
-      "collection": "collectibles",
-      "createdAt": 1769845941017,
-      "items": {
-        "Yam": 1000
-      },
-      "sfl": 2.7818,
-      "tax": 0.208635,
-      "tradeType": "instant"
     },
     "84035bb6": {
       "collection": "collectibles",
@@ -249,6 +239,25 @@
     }
   ],
   "trades": [
+    {
+      "id": "fc3d0c5e",
+      "sfl": 2.7818,
+      "quantity": 1000,
+      "itemId": 260,
+      "collection": "collectibles",
+      "source": "listing",
+      "fulfilledAt": 1769852502561,
+      "initiatedBy": {
+        "id": 206876,
+        "bumpkinUri": "0_v1_48_263_97_405_447_41_409_209_30_0_0_0_0_440_0_0_444",
+        "username": "Kanzuki"
+      },
+      "fulfilledBy": {
+        "id": 51587,
+        "bumpkinUri": "0_v1_53_90_97_0_504_22_226_395_28_432_86_458_159_410_0_266",
+        "username": "Becak"
+      }
+    },
     {
       "id": "bae9635d",
       "sfl": 2.7818,
@@ -801,25 +810,6 @@
       }
     },
     {
-      "id": "d30ddb75",
-      "sfl": 3.4782,
-      "quantity": 187,
-      "itemId": 217,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769827283434,
-      "initiatedBy": {
-        "id": 3020830662230296,
-        "bumpkinUri": "0_v1_47_1_5_512_510_22_45_509_0_514",
-        "username": "lambuii"
-      },
-      "fulfilledBy": {
-        "id": 206876,
-        "bumpkinUri": "0_v1_48_263_97_405_447_41_409_209_30_0_0_0_0_440_0_0_444",
-        "username": "Kanzuki"
-      }
-    },
-    {
       "id": "9e5b388e",
       "sfl": 1.2648,
       "quantity": 68,
@@ -831,6 +821,25 @@
         "id": 6027720483045921,
         "bumpkinUri": "0_v1_47_1_5_13_0_22_23_517_0_0_0_0_452",
         "username": "Bigpoin "
+      },
+      "fulfilledBy": {
+        "id": 206876,
+        "bumpkinUri": "0_v1_48_263_97_405_447_41_409_209_30_0_0_0_0_440_0_0_444",
+        "username": "Kanzuki"
+      }
+    },
+    {
+      "id": "d30ddb75",
+      "sfl": 3.4782,
+      "quantity": 187,
+      "itemId": 217,
+      "collection": "collectibles",
+      "source": "listing",
+      "fulfilledAt": 1769827283434,
+      "initiatedBy": {
+        "id": 3020830662230296,
+        "bumpkinUri": "0_v1_47_1_5_512_510_22_45_509_0_514",
+        "username": "lambuii"
       },
       "fulfilledBy": {
         "id": 206876,
@@ -1173,25 +1182,6 @@
         "id": 4196910769127198,
         "bumpkinUri": "0_v1_32_1_51_13_20_22_23_421",
         "username": "Hatuzie"
-      },
-      "fulfilledBy": {
-        "id": 206876,
-        "bumpkinUri": "0_v1_48_263_97_405_447_41_409_209_30_0_0_0_0_440_0_0_444",
-        "username": "Kanzuki"
-      }
-    },
-    {
-      "id": "15600f88",
-      "sfl": 1.982,
-      "quantity": 400,
-      "itemId": 255,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769692952381,
-      "initiatedBy": {
-        "id": 7226061010860018,
-        "bumpkinUri": "0_v1_32_90_43_85_234_89_23_476_0_0_86",
-        "username": "Caro"
       },
       "fulfilledBy": {
         "id": 206876,
