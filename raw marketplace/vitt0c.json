@@ -1,6 +1,6 @@
 {
   "id": 9609,
-  "totalTrades": 14364,
+  "totalTrades": 14365,
   "level": 188,
   "weeklyFlowerSpent": 28.5839,
   "weeklyFlowerEarned": 13.3284175,
@@ -1863,7 +1863,9 @@
       },
       "sfl": 6.751,
       "collection": "collectibles",
-      "tradeType": "instant"
+      "tradeType": "instant",
+      "fulfilledAt": 1769860045344,
+      "fulfilledById": 8127568012384720
     },
     "14e1ac82": {
       "createdAt": 1769823002613,
@@ -1953,6 +1955,25 @@
     }
   ],
   "trades": [
+    {
+      "id": "89beec10",
+      "sfl": 6.751,
+      "quantity": 1,
+      "itemId": 1403,
+      "collection": "collectibles",
+      "source": "offer",
+      "fulfilledAt": 1769860045344,
+      "initiatedBy": {
+        "id": 9609,
+        "bumpkinUri": "0_v1_48_90_52_14_234_34_45_476_0_0_0_0_0_374",
+        "username": "Channel"
+      },
+      "fulfilledBy": {
+        "id": 8127568012384720,
+        "bumpkinUri": "0_v1_122_158_184_0_0_99_499_377_389_381_0_0_0_175_98_177_498",
+        "username": "Vitt0c"
+      }
+    },
     {
       "id": "4e6b988c",
       "sfl": 2.8439,
@@ -2144,7 +2165,7 @@
       }
     },
     {
-      "id": "7bac6037",
+      "id": "73b01939",
       "sfl": 4.9976,
       "quantity": 2000,
       "itemId": 205,
@@ -2163,7 +2184,7 @@
       }
     },
     {
-      "id": "73b01939",
+      "id": "7bac6037",
       "sfl": 4.9976,
       "quantity": 2000,
       "itemId": 205,
@@ -2835,25 +2856,6 @@
       "collection": "collectibles",
       "source": "listing",
       "fulfilledAt": 1769823654050,
-      "initiatedBy": {
-        "id": 9609,
-        "bumpkinUri": "0_v1_122_158_184_0_0_99_499_377_389_381_0_0_0_175_98_177_498",
-        "username": "Vitt0c"
-      },
-      "fulfilledBy": {
-        "id": 7968951554148836,
-        "bumpkinUri": "0_v1_48_263_74_503_373_34_500_490_406_238_0_0_494_385",
-        "username": "Chloe"
-      }
-    },
-    {
-      "id": "5ef11e97",
-      "sfl": 3.1983,
-      "quantity": 500,
-      "itemId": 206,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769823297862,
       "initiatedBy": {
         "id": 9609,
         "bumpkinUri": "0_v1_122_158_184_0_0_99_499_377_389_381_0_0_0_175_98_177_498",
