@@ -1,7 +1,7 @@
 {
   "username": "droid",
   "overview": {
-    "balance": 1.94,
+    "balance": 1.3,
     "coins": 166592.0,
     "gems": 0.0,
     "earned_sfl": 8175.19,
@@ -9,10 +9,22 @@
     "spent_sfl": 12297.69,
     "items_sold": 7611.0,
     "trade_points": 11367.53,
-    "last_updated": "2026-01-31 10:34 AM",
+    "last_updated": "2026-01-31 11:08 AM",
     "active_listings": 6
   },
   "buys": [
+    {
+      "date": "2026-01-31",
+      "time": "10:29 AM",
+      "type": "BUY",
+      "item": "Honey",
+      "quantity": 10,
+      "price_text": "0.6383 SFL",
+      "price": 0.6383,
+      "counterparty": "kingkafa",
+      "farm_id": "-",
+      "trade_id": "7058188f"
+    },
     {
       "date": "2026-01-31",
       "time": "08:55 AM",
@@ -1542,15 +1554,24 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 82,
+    "total_buys": 83,
     "total_sells": 45,
-    "buy_volume": 114.36639999999998,
+    "buy_volume": 115.0047,
     "sell_volume": 112.4815,
-    "gross_profit": -1.8848999999999876,
-    "avg_buy_price": 1.394712195121951,
+    "gross_profit": -2.5232000000000028,
+    "avg_buy_price": 1.385598795180723,
     "avg_sell_price": 2.499588888888889,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Honey",
+        "quantity": 10,
+        "price": 0.6383,
+        "date": "2026-01-31",
+        "time": "10:29 AM",
+        "username": "droid"
+      },
       {
         "type": "BUY",
         "item": "Milk",
@@ -1593,8 +1614,7 @@
         "quantity": 100,
         "price": 12.2999,
         "date": "2026-01-31",
-        "time": "05:21 AM",
-        "username": "droid"
+        "time": "05:21 AM"
       },
       {
         "type": "BUY",
@@ -1707,17 +1727,9 @@
         "price": 0.6626,
         "date": "2026-01-30",
         "time": "05:04 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Milk",
-        "quantity": 9,
-        "price": 1.0928,
-        "date": "2026-01-30",
-        "time": "03:13 PM"
       }
     ],
-    "profit_margin": -1.6481239245092858,
+    "profit_margin": -2.19399728880646,
     "most_bought_items": {
       "Broccoli": 2300,
       "Yam": 1650,
@@ -1818,10 +1830,10 @@
       "Soybean": 111.4219,
       "Rice": 0.991,
       "Olive": 2.1548,
-      "Barley": 50.73979999999994,
+      "Barley": 40.73979999999994,
       "Rhubarb": 96.35,
       "Zucchini": 588.6496,
-      "Yam": 382.5633,
+      "Yam": 578.7633,
       "Broccoli": 290.2199,
       "Pepper": 46.7,
       "Onion": 0.7929000000000271,
