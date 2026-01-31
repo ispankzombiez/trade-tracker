@@ -1,16 +1,16 @@
 {
   "username": "raichupus",
   "overview": {
-    "balance": 3473.44,
+    "balance": 3499.91,
     "coins": 324087.0,
     "gems": 0.0,
     "earned_sfl": 1137.35,
     "earned_coins": 324087.0,
     "spent_sfl": 0.0,
-    "items_sold": 2807.0,
+    "items_sold": 2809.0,
     "trade_points": 252976.67,
-    "last_updated": "2026-01-31 03:22 AM",
-    "active_listings": 15
+    "last_updated": "2026-01-31 04:15 AM",
+    "active_listings": 14
   },
   "buys": [
     {
@@ -195,6 +195,30 @@
     }
   ],
   "sells": [
+    {
+      "date": "2026-01-31",
+      "time": "03:20 AM",
+      "type": "SELL",
+      "item": "Milk",
+      "quantity": 100,
+      "price_text": "12.35 SFL",
+      "price": 12.35,
+      "counterparty": "Kleyzer",
+      "farm_id": "-",
+      "trade_id": "b65b4d2e"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "03:16 AM",
+      "type": "SELL",
+      "item": "Wood",
+      "quantity": 500,
+      "price_text": "4.44 SFL",
+      "price": 4.44,
+      "counterparty": "Jeremia",
+      "farm_id": "-",
+      "trade_id": "03d927c0"
+    },
     {
       "date": "2026-01-31",
       "time": "02:02 AM",
@@ -919,12 +943,12 @@
   "last_updated": null,
   "stats": {
     "total_buys": 15,
-    "total_sells": 60,
+    "total_sells": 62,
     "buy_volume": 183.57920000000001,
-    "sell_volume": 481.79900000000015,
-    "gross_profit": 298.21980000000013,
+    "sell_volume": 498.58900000000017,
+    "gross_profit": 315.00980000000015,
     "avg_buy_price": 12.238613333333335,
-    "avg_sell_price": 8.029983333333336,
+    "avg_sell_price": 8.041758064516133,
     "most_traded_items": {},
     "recent_activity": [
       {
@@ -1054,6 +1078,22 @@
       },
       {
         "type": "SELL",
+        "item": "Milk",
+        "quantity": 100,
+        "price": 12.35,
+        "date": "2026-01-31",
+        "time": "03:20 AM"
+      },
+      {
+        "type": "SELL",
+        "item": "Wood",
+        "quantity": 500,
+        "price": 4.44,
+        "date": "2026-01-31",
+        "time": "03:16 AM"
+      },
+      {
+        "type": "SELL",
         "item": "Leather",
         "quantity": 100,
         "price": 11.78,
@@ -1075,25 +1115,9 @@
         "price": 4.47,
         "date": "2026-01-31",
         "time": "01:49 AM"
-      },
-      {
-        "type": "SELL",
-        "item": "Iron",
-        "quantity": 100,
-        "price": 6.39,
-        "date": "2026-01-30",
-        "time": "06:18 PM"
-      },
-      {
-        "type": "SELL",
-        "item": "Leather",
-        "quantity": 100,
-        "price": 11.8,
-        "date": "2026-01-30",
-        "time": "06:16 PM"
       }
     ],
-    "profit_margin": 162.44748860437355,
+    "profit_margin": 171.59340491733275,
     "most_bought_items": {
       "Blueberry": 300,
       "Obsidian": 9,
@@ -1103,12 +1127,12 @@
     },
     "most_sold_items": {
       "Sunflower": 16000,
+      "Wood": 6100,
       "Pumpkin": 6000,
       "Potato": 6000,
-      "Wood": 5600,
       "Zucchini": 2000,
       "Carrot": 2000,
-      "Milk": 1500,
+      "Milk": 1600,
       "Leather": 1400,
       "Iron": 300,
       "Tomato": 200
@@ -1215,38 +1239,29 @@
       "trade_type": "instant"
     },
     {
-      "id": "b83c4623",
-      "item": "Milk",
-      "quantity": 100,
-      "price": 12.36,
-      "created_at": 1769823808894,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "fd299a76",
-      "item": "Leather",
-      "quantity": 100,
-      "price": 11.78,
-      "created_at": 1769823827503,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "b3d664d5",
-      "item": "Wood",
-      "quantity": 500,
-      "price": 4.47,
-      "created_at": 1769823846729,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
       "id": "f2d06180",
       "item": "Olive",
       "quantity": 50,
       "price": 20.14,
       "created_at": 1769823866296,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "b65b4d2e",
+      "item": "Milk",
+      "quantity": 100,
+      "price": 12.35,
+      "created_at": 1769829184482,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "03d927c0",
+      "item": "Wood",
+      "quantity": 500,
+      "price": 4.44,
+      "created_at": 1769829210943,
       "collection": "collectibles",
       "trade_type": "instant"
     }
@@ -1255,35 +1270,35 @@
   "inventory": {
     "crops": {
       "Sunflower": 957214.5932999961,
-      "Potato": 461376.51399999467,
-      "Pumpkin": 152283.6393999998,
-      "Carrot": 86340.90349999997,
-      "Cabbage": 62628.7054,
-      "Beetroot": 28520.411599999996,
+      "Potato": 461344.51399999467,
+      "Pumpkin": 152273.6393999998,
+      "Carrot": 86309.32349999997,
+      "Cabbage": 62593.7054,
+      "Beetroot": 28510.411599999996,
       "Cauliflower": 16928.910200000002,
-      "Parsnip": 13610.7026,
+      "Parsnip": 13605.7026,
       "Radish": 18333.6577,
-      "Wheat": 21325.5266,
-      "Kale": 17337.422400000007,
+      "Wheat": 21315.5266,
+      "Kale": 17332.422400000007,
       "Eggplant": 27.76650000000076,
       "Corn": 16922.958599999998,
-      "Soybean": 57257.91610000001,
+      "Soybean": 57303.81610000001,
       "Rice": 495.6,
       "Olive": 600.35,
       "Barley": 27396.038200000003,
       "Rhubarb": 433216.32909999625,
       "Zucchini": 215767.52569999907,
-      "Yam": 77154.9718,
-      "Broccoli": 62735.13279999995,
+      "Yam": 77179.3718,
+      "Broccoli": 63342.13269999995,
       "Pepper": 26915.03200000001,
       "Onion": 13895.9508,
-      "Turnip": 12314.421100000001,
+      "Turnip": 12306.421100000001,
       "Artichoke": 19878.550000000003
     },
     "fruits": {
-      "Apple": 66.35000000000046,
-      "Blueberry": 210.98000000000084,
-      "Orange": 564.8200000000011,
+      "Apple": 65.35000000000046,
+      "Blueberry": 194.98000000000084,
+      "Orange": 563.8200000000011,
       "Banana": 1116.52,
       "Grape": 473.97,
       "Tomato": 2876.0500000000025,
@@ -1293,7 +1308,7 @@
       "Celestine": 1.5700000000000165
     },
     "resources": {
-      "Wood": 12520.34,
+      "Wood": 12094.64,
       "Stone": 1872.01,
       "Iron": 3042.75,
       "Gold": 694.46,

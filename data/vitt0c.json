@@ -1,16 +1,16 @@
 {
   "username": "vitt0c",
   "overview": {
-    "balance": 22864.92,
+    "balance": 22866.15,
     "coins": 14607.0,
     "gems": 0.0,
     "earned_sfl": 15135.85,
     "earned_coins": 14607.0,
     "spent_sfl": 14331.72,
-    "items_sold": 10269.0,
+    "items_sold": 10270.0,
     "trade_points": 97967.47,
-    "last_updated": "2026-01-31 03:22 AM",
-    "active_listings": 143
+    "last_updated": "2026-01-31 04:15 AM",
+    "active_listings": 142
   },
   "buys": [
     {
@@ -147,6 +147,18 @@
     }
   ],
   "sells": [
+    {
+      "date": "2026-01-31",
+      "time": "03:51 AM",
+      "type": "SELL",
+      "item": "Cabbage",
+      "quantity": 2000,
+      "price_text": "4.9978 SFL",
+      "price": 4.9978,
+      "counterparty": "Momin",
+      "farm_id": "-",
+      "trade_id": "c9158b73"
+    },
     {
       "date": "2026-01-31",
       "time": "03:03 AM",
@@ -1579,12 +1591,12 @@
   "last_updated": null,
   "stats": {
     "total_buys": 11,
-    "total_sells": 119,
+    "total_sells": 120,
     "buy_volume": 77.5859,
-    "sell_volume": 8739.8305,
-    "gross_profit": 8662.2446,
+    "sell_volume": 8744.8283,
+    "gross_profit": 8667.2424,
     "avg_buy_price": 7.053263636363636,
-    "avg_sell_price": 73.4439537815126,
+    "avg_sell_price": 72.87356916666666,
     "most_traded_items": {},
     "recent_activity": [
       {
@@ -1682,6 +1694,14 @@
       },
       {
         "type": "SELL",
+        "item": "Cabbage",
+        "quantity": 2000,
+        "price": 4.9978,
+        "date": "2026-01-31",
+        "time": "03:51 AM"
+      },
+      {
+        "type": "SELL",
         "item": "Gold",
         "quantity": 5,
         "price": 1.3295,
@@ -1743,17 +1763,9 @@
         "price": 0.5261,
         "date": "2026-01-31",
         "time": "02:23 AM"
-      },
-      {
-        "type": "SELL",
-        "item": "Tomato",
-        "quantity": 100,
-        "price": 0.5261,
-        "date": "2026-01-31",
-        "time": "02:22 AM"
       }
     ],
-    "profit_margin": 11164.714980428145,
+    "profit_margin": 11171.156614797275,
     "most_bought_items": {
       "Radish": 600,
       "Eggplant": 500,
@@ -1764,7 +1776,7 @@
       "Honey": 10
     },
     "most_sold_items": {
-      "Cabbage": 16000,
+      "Cabbage": 18000,
       "Yam": 9000,
       "Beetroot": 8050,
       "Tomato": 4060,
@@ -2992,15 +3004,6 @@
       "trade_type": "instant"
     },
     {
-      "id": "beb1b232",
-      "item": "Gold",
-      "quantity": 5,
-      "price": 1.3295,
-      "created_at": 1769828582900,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
       "id": "b8ca0843",
       "item": "Gold",
       "quantity": 5,
@@ -3513,7 +3516,7 @@
       "Potato": 228813.4036000457,
       "Pumpkin": 53135.47790000819,
       "Carrot": 31385.985699999637,
-      "Cabbage": 40535.33540000006,
+      "Cabbage": 38535.33540000006,
       "Beetroot": 995.7966999999973,
       "Cauliflower": 942.4771000000002,
       "Parsnip": 608.5289999999995,
@@ -3528,7 +3531,7 @@
       "Barley": 1798.679200000001,
       "Rhubarb": 2159.9327999999987,
       "Zucchini": 872.4776000000037,
-      "Yam": 52287.50779999986,
+      "Yam": 52853.10779999986,
       "Broccoli": 4073.0705999999996,
       "Pepper": 8876.43470000001,
       "Onion": 1179.373800000002,
@@ -3536,19 +3539,19 @@
       "Artichoke": 1092.2893000000008
     },
     "fruits": {
-      "Apple": 51.950000000000124,
+      "Apple": 46.950000000000124,
       "Blueberry": 400.4500000000022,
       "Orange": 260.20000000000095,
       "Banana": 557.65,
       "Grape": 574.7,
-      "Tomato": 10289.45,
+      "Tomato": 10357.9,
       "Lemon": 7234.250000000004,
       "Duskberry": 16.900000000000002,
       "Lunara": 18.30000000000001,
       "Celestine": 20.8
     },
     "resources": {
-      "Wood": 35692.8185,
+      "Wood": 35774.1185,
       "Stone": 3637.01,
       "Iron": 1883.5,
       "Gold": 962.02,
