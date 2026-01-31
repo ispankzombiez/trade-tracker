@@ -2,17 +2,29 @@
   "username": "henry",
   "overview": {
     "balance": 13.46,
-    "coins": 9980.0,
+    "coins": 9015.0,
     "gems": 0.0,
     "earned_sfl": 7044.89,
-    "earned_coins": 9980.0,
+    "earned_coins": 9015.0,
     "spent_sfl": 8183.98,
     "items_sold": 1127.0,
     "trade_points": 7637.41,
-    "last_updated": "2026-01-31 03:22 AM",
+    "last_updated": "2026-01-31 04:15 AM",
     "active_listings": 2
   },
   "buys": [
+    {
+      "date": "2026-01-31",
+      "time": "04:00 AM",
+      "type": "BUY",
+      "item": "Milk",
+      "quantity": 100,
+      "price_text": "12.37 SFL",
+      "price": 12.37,
+      "counterparty": "andrelop2001",
+      "farm_id": "-",
+      "trade_id": "1a3a0473"
+    },
     {
       "date": "2026-01-31",
       "time": "02:44 AM",
@@ -630,15 +642,24 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 50,
+    "total_buys": 51,
     "total_sells": 1,
-    "buy_volume": 152.6167,
+    "buy_volume": 164.9867,
     "sell_volume": 17.9,
-    "gross_profit": -134.7167,
-    "avg_buy_price": 3.052334,
+    "gross_profit": -147.0867,
+    "avg_buy_price": 3.2350333333333334,
     "avg_sell_price": 17.9,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Milk",
+        "quantity": 100,
+        "price": 12.37,
+        "date": "2026-01-31",
+        "time": "04:00 AM",
+        "username": "henry"
+      },
       {
         "type": "BUY",
         "item": "Stone",
@@ -681,8 +702,7 @@
         "quantity": 200,
         "price": 3.1589,
         "date": "2026-01-30",
-        "time": "04:30 AM",
-        "username": "henry"
+        "time": "04:30 AM"
       },
       {
         "type": "BUY",
@@ -795,17 +815,9 @@
         "price": 5.0779,
         "date": "2026-01-28",
         "time": "02:04 AM"
-      },
-      {
-        "type": "BUY",
-        "item": "Wool",
-        "quantity": 10,
-        "price": 0.5973,
-        "date": "2026-01-28",
-        "time": "02:04 AM"
       }
     ],
-    "profit_margin": -88.27127044419123,
+    "profit_margin": -89.15064062739603,
     "most_bought_items": {
       "Wood": 2869,
       "Stone": 1900,
@@ -816,7 +828,7 @@
       "Feather": 300,
       "Wool": 228,
       "Iron": 210,
-      "Leather": 200
+      "Milk": 200
     },
     "most_sold_items": {
       "Obsidian": 1
@@ -858,7 +870,7 @@
       "Sunflower": 28839.2206,
       "Potato": 25265.498499999703,
       "Pumpkin": 12031.279099999983,
-      "Carrot": 7022.8775,
+      "Carrot": 7206.9372,
       "Cabbage": 24.968300000000003,
       "Beetroot": 66.3934,
       "Cauliflower": 857.8556,
@@ -874,7 +886,7 @@
       "Barley": 644.0208000000003,
       "Rhubarb": 947.7,
       "Zucchini": 7479.35,
-      "Yam": 1194.4406,
+      "Yam": 1179.4406,
       "Broccoli": 2771.9718,
       "Pepper": 2737.1452,
       "Onion": 1246.7697,
@@ -882,7 +894,7 @@
       "Artichoke": 979.3745
     },
     "fruits": {
-      "Apple": 200.00000000000009,
+      "Apple": 201.4000000000001,
       "Blueberry": 48.200000000000045,
       "Orange": 37.40000000000013,
       "Banana": 128.30000000000004,
@@ -894,8 +906,8 @@
       "Lunara": 0.7
     },
     "resources": {
-      "Wood": 234.9,
-      "Iron": 79.9,
+      "Wood": 222.9,
+      "Iron": 59.9,
       "Gold": 426.56,
       "Crimstone": 9.2,
       "Obsidian": 1.68,

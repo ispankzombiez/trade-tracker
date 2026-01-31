@@ -73,7 +73,7 @@
       "Yellow Edelweiss": "13",
       "Purple Edelweiss": "18",
       "White Edelweiss": "3",
-      "Blue Edelweiss": "5",
+      "Blue Edelweiss": "4",
       "Red Gladiolus": "4",
       "Yellow Gladiolus": "41",
       "Purple Gladiolus": "19",
@@ -84,12 +84,12 @@
       "Purple Lavender": "4",
       "White Lavender": "36",
       "Blue Lavender": "4",
-      "Red Clover": "2",
+      "Red Clover": "1",
       "Yellow Clover": "26",
       "Purple Clover": "1",
-      "White Clover": "2",
-      "Blue Clover": "21",
-      "Axe": "378",
+      "White Clover": "3",
+      "Blue Clover": "22",
+      "Axe": "350",
       "Pickaxe": "306",
       "Shovel": "1",
       "Petting Hand": "1",
@@ -194,7 +194,7 @@
       "Rice Bun": "3",
       "The Lot": "2",
       "Sour Shake": "3",
-      "Wood": "16890.9",
+      "Wood": "16946.5",
       "Stone": "4397.6",
       "Iron": "1830.05",
       "Gold": "104.5",
@@ -659,7 +659,7 @@
       "Honey Cheddar": "1",
       "Lemon Cheesecake": "3",
       "Rock Blackfish": "13",
-      "Clover Seed": "5",
+      "Clover Seed": "3",
       "Artichoke Seed": "24",
       "Rice Seed": "12",
       "Wheat Seed": "46",
@@ -5148,7 +5148,7 @@
       "9b1ef850": {
         "createdAt": 1763521442876,
         "wood": {
-          "choppedAt": 1769821902121
+          "choppedAt": 1769828866288
         },
         "x": -3,
         "y": -4,
@@ -5159,7 +5159,7 @@
       "e56686b2": {
         "createdAt": 1763522032912,
         "wood": {
-          "choppedAt": 1769821901701
+          "choppedAt": 1769828861901
         },
         "x": 1,
         "y": -4,
@@ -5170,7 +5170,7 @@
       "f40fe2cc": {
         "createdAt": 1763522041713,
         "wood": {
-          "choppedAt": 1769821901917
+          "choppedAt": 1769828862087
         },
         "x": -1,
         "y": -4,
@@ -5729,8 +5729,8 @@
           "width": 3,
           "height": 1,
           "flower": {
-            "plantedAt": 1769568841802,
-            "name": "White Clover",
+            "plantedAt": 1769803695098,
+            "name": "Purple Clover",
             "criticalHit": {
               "Humming Bird": 0,
               "Butterfly": 0,
@@ -5745,10 +5745,10 @@
           "width": 3,
           "height": 1,
           "flower": {
-            "plantedAt": 1769568848378,
-            "name": "Blue Clover",
+            "plantedAt": 1769803678738,
+            "name": "White Clover",
             "criticalHit": {
-              "Humming Bird": 0,
+              "Humming Bird": 1,
               "Butterfly": 0,
               "Desert Rose": 0
             }
@@ -5795,8 +5795,8 @@
         "height": 1,
         "width": 1,
         "honey": {
-          "updatedAt": 1769804713608,
-          "produced": 549.7
+          "updatedAt": 1769829615098,
+          "produced": 57273976.70000001
         },
         "flowers": [
           {
@@ -5814,20 +5814,14 @@
         "height": 1,
         "width": 1,
         "honey": {
-          "updatedAt": 1769804713608,
-          "produced": 1182.2000000000003
+          "updatedAt": 1769829615098,
+          "produced": 53708781.20000001
         },
         "flowers": [
           {
-            "attachedAt": 1769804713094,
-            "attachedUntil": 1769828048378,
+            "attachedAt": 1769829598738,
+            "attachedUntil": 1769843828672,
             "id": "7a14eddb",
-            "rate": 2.3000000000000003
-          },
-          {
-            "attachedAt": 1769842278826,
-            "attachedUntil": 1769856508760,
-            "id": "d1ac7c8f",
             "rate": 2.3000000000000003
           }
         ]
@@ -5839,20 +5833,14 @@
         "height": 1,
         "width": 1,
         "honey": {
-          "updatedAt": 1769804713608,
-          "produced": 1929.7000000000003
+          "updatedAt": 1769829615098,
+          "produced": 53656775.900000006
         },
         "flowers": [
           {
-            "attachedAt": 1769804712769,
-            "attachedUntil": 1769828041802,
+            "attachedAt": 1769829615098,
+            "attachedUntil": 1769843851283,
             "id": "46b2f0b6",
-            "rate": 2.3000000000000003
-          },
-          {
-            "attachedAt": 1769842278587,
-            "attachedUntil": 1769856514772,
-            "id": "9e1c8c46",
             "rate": 2.3000000000000003
           }
         ]
@@ -5862,8 +5850,8 @@
         "x": 2,
         "y": 11,
         "honey": {
-          "updatedAt": 1769804713608,
-          "produced": 0
+          "updatedAt": 1769829615098,
+          "produced": 57273427.00000001
         },
         "flowers": [
           {
@@ -6661,7 +6649,7 @@
       "Fence Crafted": 6,
       "White Pansy Bountied": 2,
       "Purple Cosmos Bountied": 3,
-      "Blue Clover Harvested": 42,
+      "Blue Clover Harvested": 43,
       "Purple Edelweiss Harvested": 31,
       "Yellow Edelweiss Harvested": 32,
       "Red Edelweiss Harvested": 35,
@@ -6694,7 +6682,7 @@
       "Timber Bountied": 1,
       "Vase Bountied": 2,
       "Zebra Turkeyfish Bountied": 5,
-      "White Clover Harvested": 6,
+      "White Clover Harvested": 7,
       "Red Lavender Bountied": 3,
       "Blue Lavender Bountied": 1,
       "Purple Lotus Bountied": 2,
@@ -7077,7 +7065,7 @@
       "Beekeeper Hat Bought": 1,
       "Sea Cucumber Sold": 78,
       "Eggplant Seed Bought": 8041,
-      "Tree Chopped": 76195,
+      "Tree Chopped": 76223,
       "Power Smoothie Cooked": 93,
       "Poppy Crafted": 1,
       "Antipasto Cooked": 22,
@@ -7231,7 +7219,7 @@
       "Protective Pesticide Crafted": 10,
       "Thermal Stone Crafted": 8,
       "Clover Seed Bought": 60,
-      "Clover Seed Planted": 55,
+      "Clover Seed Planted": 57,
       "Onion Planted": 1266,
       "Turnip Planted": 2092,
       "Rhubarb Tart Cooked": 25,
@@ -7300,8 +7288,8 @@
       "Moray Eel Bountied": 1,
       "VIP Chest Opened": 2,
       "Streamer Hat Reward Claimed": 11,
-      "Ancient Tree Chopped": 907,
-      "Sacred Tree Chopped": 436,
+      "Ancient Tree Chopped": 910,
+      "Sacred Tree Chopped": 437,
       "Gold Rock Mined": 371,
       "Stone Rock Mined": 3162,
       "Iron Rock Mined": 1399,
@@ -8601,7 +8589,7 @@
           "petXP": 0,
           "score": 0,
           "collectivePet": {
-            "totalXP": 5736510,
+            "totalXP": 5738010,
             "goalXP": 10263180,
             "goalReached": false,
             "streak": 10,
@@ -9874,12 +9862,12 @@
       "Scarecrow": 1769749685898,
       "Victoria Sisters": 1769571655371,
       "Young Farmer": 1769738690339,
-      "Lumberjack's Extra": 1769822622121,
-      "Squirrel": 1769822622121,
-      "Tiki Totem": 1769822622121,
-      "Tough Tree": 1769765894434,
-      "Tree Charge": 1769822622121,
-      "Woody the Beaver": 1769822622121,
+      "Lumberjack's Extra": 1769829586288,
+      "Squirrel": 1769829586288,
+      "Tiki Totem": 1769829586288,
+      "Tough Tree": 1769829581901,
+      "Tree Charge": 1769829586288,
+      "Woody the Beaver": 1769829586288,
       "Infernal Drill": 1769827463288,
       "Knight Chicken": 1769827463288,
       "Oil Can": 1769827463288,
@@ -9960,7 +9948,7 @@
       "Oracle Syringe": 1769681519705,
       "Humming Bird": 1769681483359,
       "Hungry Caterpillar": 1769512880643,
-      "Flower Fox": 1769737016618,
+      "Flower Fox": 1769829615098,
       "Sunflower Rod": 1769665947468,
       "Maneki Neko": 1769567377425,
       "Efficient Bin": 1769822926796,
@@ -9999,7 +9987,7 @@
       "Observatory": 1769114093968,
       "Drive-Through Deli": 1769114070368,
       "Skill Shrimpy": 1769114070368,
-      "Tree Turnaround": 1769812024712,
+      "Tree Turnaround": 1769829582278,
       "Sweet Bonus": 1769804713608,
       "Pollen Power Up": 1769729120570,
       "Laurie the Chuckle Crow": 1755216028630,
