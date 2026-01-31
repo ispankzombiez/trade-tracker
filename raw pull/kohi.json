@@ -21,15 +21,15 @@
       "Onion Seed": "27",
       "Turnip Seed": "130",
       "Sunflower": "15.5013999999995479",
-      "Potato": "2532.7730999995724493",
+      "Potato": "2508.7730999995724493",
       "Pumpkin": "1368.4064",
       "Carrot": "918.1014",
-      "Cabbage": "138.8069",
+      "Cabbage": "118.8069",
       "Beetroot": "233.5019",
       "Cauliflower": "549.1099",
       "Parsnip": "1.8059",
       "Radish": "139.6026",
-      "Wheat": "435.0053",
+      "Wheat": "425.0053",
       "Kale": "72.0084",
       "Eggplant": "247.405",
       "Corn": "11.9051",
@@ -77,8 +77,8 @@
       "Stone": "0.1",
       "Iron": "0.95",
       "Gold": "9.05",
-      "Egg": "10.25",
-      "Honey": "56.108999960648266181",
+      "Egg": "0.25",
+      "Honey": "50.108999960648266181",
       "Wild Mushroom": "39",
       "Magic Mushroom": "486",
       "Tree": "21",
@@ -311,10 +311,10 @@
       "Fruit Salad": "2",
       "Cornbread": "1",
       "Axe": "3",
-      "Love Charm": "537",
+      "Love Charm": "541",
       "Kale Seed": "2",
       "Barley Seed": "28",
-      "Mashed Potato": "8",
+      "Mashed Potato": "2",
       "Sunflower Crunch": "1",
       "Potato Seed": "2",
       "Advanced Cooking Pot": "1",
@@ -2916,9 +2916,7 @@
         "height": 1
       },
       "2": {
-        "x": 9,
         "width": 1,
-        "y": -2,
         "createdAt": 1715882153093,
         "stone": {
           "minedAt": 1766967026024,
@@ -2927,13 +2925,12 @@
           },
           "boostedTime": 0
         },
-        "height": 1
+        "height": 1,
+        "removedAt": 1769821841056
       },
       "108cad18": {
-        "x": 9,
         "width": 1,
         "createdAt": 1715885275651,
-        "y": 0,
         "height": 1,
         "stone": {
           "minedAt": 1767679074045,
@@ -2941,7 +2938,8 @@
             "Native": 0
           },
           "boostedTime": 0
-        }
+        },
+        "removedAt": 1769821847146
       },
       "e0c8f2f0": {
         "x": 12,
@@ -3024,15 +3022,14 @@
         }
       },
       "cfd9c904": {
-        "x": 10,
         "width": 1,
         "createdAt": 1715885258255,
-        "y": 0,
         "height": 1,
         "stone": {
           "minedAt": 1768821812719,
           "boostedTime": 0
-        }
+        },
+        "removedAt": 1769821864692
       },
       "3b49278a": {
         "x": 11,
@@ -3046,10 +3043,8 @@
         }
       },
       "3ab88e47": {
-        "x": 10,
         "width": 1,
         "createdAt": 1715885277634,
-        "y": -2,
         "height": 1,
         "stone": {
           "minedAt": 1766967026004,
@@ -3057,7 +3052,8 @@
             "Native": 0
           },
           "boostedTime": 0
-        }
+        },
+        "removedAt": 1769821870339
       },
       "671db6a4": {
         "x": 11,
@@ -3096,10 +3092,8 @@
         }
       },
       "df7b039d": {
-        "x": 9,
         "width": 1,
         "createdAt": 1715885255363,
-        "y": -1,
         "height": 1,
         "stone": {
           "minedAt": 1766967025974,
@@ -3107,18 +3101,18 @@
             "Native": 0
           },
           "boostedTime": 0
-        }
+        },
+        "removedAt": 1769821843880
       },
       "1dc1491a": {
         "createdAt": 1724120755872,
         "height": 1,
         "width": 1,
-        "x": 10,
-        "y": -1,
         "stone": {
           "minedAt": 1768821812382,
           "boostedTime": 0
-        }
+        },
+        "removedAt": 1769821867884
       }
     },
     "iron": {
@@ -3818,9 +3812,23 @@
           "id": "03993b1d",
           "createdAt": 1747702619771,
           "readyAt": 1747702619771,
-          "crafting": [],
+          "crafting": [
+            {
+              "name": "Pancakes",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": false
+              },
+              "readyAt": 1769825136739
+            }
+          ],
           "oil": 0,
-          "removedAt": 1769734961464
+          "coordinates": {
+            "x": 7,
+            "y": 0
+          }
         }
       ],
       "Manor": [
@@ -3850,14 +3858,14 @@
           "oil": 0,
           "crafting": [
             {
-              "name": "Mashed Potato",
+              "name": "Cabbers n Mash",
               "boost": {
                 "Oil": 0
               },
               "skills": {
                 "Double Nom": false
               },
-              "readyAt": 1769820071904
+              "readyAt": 1769823948126
             },
             {
               "name": "Mashed Potato",
@@ -3867,7 +3875,7 @@
               "skills": {
                 "Double Nom": false
               },
-              "readyAt": 1769820098904
+              "readyAt": 1769823975126
             },
             {
               "name": "Mashed Potato",
@@ -3877,7 +3885,7 @@
               "skills": {
                 "Double Nom": false
               },
-              "readyAt": 1769820125904
+              "readyAt": 1769824002126
             },
             {
               "name": "Mashed Potato",
@@ -3887,7 +3895,7 @@
               "skills": {
                 "Double Nom": false
               },
-              "readyAt": 1769820152904
+              "readyAt": 1769824029126
             }
           ],
           "coordinates": {
@@ -4671,8 +4679,8 @@
         {
           "id": "3051bcb7",
           "coordinates": {
-            "x": -5,
-            "y": -7
+            "x": 4,
+            "y": -2
           }
         }
       ],
@@ -5030,7 +5038,7 @@
       "VIP Chest Opened": 2,
       "Recipe Queue Cancelled": 19,
       "Mushroom Soup Cooked": 234,
-      "Mashed Potato Cooked": 1328,
+      "Mashed Potato Cooked": 1332,
       "Pipi Sold": 50,
       "Eggplant Cake Fed": 7,
       "Soybean Seed Bought": 10775,
@@ -6602,7 +6610,7 @@
           "petXP": 0,
           "score": 0,
           "collectivePet": {
-            "totalXP": 6553910,
+            "totalXP": 6627489,
             "goalXP": 2404688,
             "goalReached": true,
             "streak": 3,
@@ -7489,7 +7497,7 @@
       "Blossombeard": 1762847132139,
       "Chicory": 1769640601262,
       "Banana Onesie": 1769810460875,
-      "Desert Gnome": 1769820045369,
+      "Desert Gnome": 1769821896739,
       "Iron Beetle": 1769299930931,
       "Giant Yam": 1755314505622,
       "Money Tree": 1769817668654,
@@ -7499,7 +7507,7 @@
       "Sunshower": 1769424323774
     },
     "socialFarming": {
-      "points": 17564,
+      "points": 17572,
       "villageProjects": {
         "Farmer's Monument": {
           "cheers": 100,
@@ -7510,19 +7518,19 @@
           "winnerId": 2299
         },
         "Miner's Monument": {
-          "cheers": 1273,
+          "cheers": 1274,
           "winnerId": 5765
         },
         "Advanced Cooking Pot": {
-          "cheers": 40,
+          "cheers": 41,
           "winnerId": 128484
         },
         "Expert Cooking Pot": {
-          "cheers": 37,
+          "cheers": 38,
           "winnerId": 6448515280974209
         },
         "Basic Cooking Pot": {
-          "cheers": 9,
+          "cheers": 10,
           "winnerId": 6448515280974209
         }
       },
@@ -7546,30 +7554,30 @@
       "clutter": {
         "spawnedAt": 1769817641412,
         "locations": {
-          "0d9c1bb8": {
+          "18258a0a": {
             "type": "Dung",
-            "x": -3,
-            "y": -4
+            "x": -1,
+            "y": 4
           },
-          "51e3d5cb": {
-            "type": "Dung",
-            "x": 8,
-            "y": 1
-          },
-          "651bc585": {
-            "type": "Dung",
-            "x": 7,
-            "y": 0
-          },
-          "b586d267": {
+          "7e9bd88c": {
             "type": "Weed",
             "x": 8,
-            "y": 1
+            "y": 2
           },
-          "e50714e1": {
+          "8e4ec716": {
             "type": "Weed",
             "x": -7,
-            "y": -8
+            "y": 9
+          },
+          "e0150240": {
+            "type": "Dung",
+            "x": 4,
+            "y": 12
+          },
+          "e70f4b80": {
+            "type": "Dung",
+            "x": -1,
+            "y": 4
           }
         }
       },
@@ -7579,7 +7587,7 @@
       },
       "weeklyPoints": {
         "week": "2026-01-26",
-        "points": 456
+        "points": 464
       },
       "helpIncrease": {
         "boughtAt": [
@@ -7599,7 +7607,7 @@
         "2970": {
           "id": 2970,
           "name": "Pet #2970",
-          "experience": 27750,
+          "experience": 27755,
           "energy": 480,
           "requests": {
             "food": [
@@ -7629,7 +7637,7 @@
           },
           "location": "farm",
           "dailySocialXP": {
-            "2026-01-30": 25
+            "2026-01-31": 5
           },
           "walking": true,
           "fetches": {

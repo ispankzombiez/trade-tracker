@@ -1,6 +1,6 @@
 {
   "id": 151471,
-  "totalTrades": 40058,
+  "totalTrades": 40059,
   "level": 190,
   "weeklyFlowerSpent": 136.2059,
   "weeklyFlowerEarned": 145.65533,
@@ -1356,16 +1356,6 @@
       "sfl": 6.2999,
       "tax": 0.314995,
       "tradeType": "instant"
-    },
-    "04353cf1": {
-      "collection": "collectibles",
-      "createdAt": 1769748081219,
-      "items": {
-        "Tomato": 125
-      },
-      "sfl": 0.6635,
-      "tax": 0.033175,
-      "tradeType": "instant"
     }
   },
   "offers": {
@@ -1439,6 +1429,25 @@
     }
   ],
   "trades": [
+    {
+      "id": "04353cf1",
+      "sfl": 0.6635,
+      "quantity": 125,
+      "itemId": 255,
+      "collection": "collectibles",
+      "source": "listing",
+      "fulfilledAt": 1769821610661,
+      "initiatedBy": {
+        "id": 151471,
+        "bumpkinUri": "0_v1_306_1_51_330_333_334_332_161_388_380_0_0_0_384_0_177_469",
+        "username": "JaySuper"
+      },
+      "fulfilledBy": {
+        "id": 56732,
+        "bumpkinUri": "0_v1_101_90_97_317_234_89_226_319_0_228_86_350_276_374",
+        "username": "Killua"
+      }
+    },
     {
       "id": "17eaee09",
       "sfl": 0.8958,
@@ -2368,25 +2377,6 @@
         "id": 151471,
         "bumpkinUri": "0_v1_83_90_5_134_504_89_226_349_0_228_0_0_0_189_0_266",
         "username": "Fefo"
-      }
-    },
-    {
-      "id": "44ceaec9",
-      "sfl": 0.445,
-      "quantity": 25,
-      "itemId": 208,
-      "collection": "collectibles",
-      "source": "offer",
-      "fulfilledAt": 1769741888936,
-      "initiatedBy": {
-        "id": 7567031232344771,
-        "bumpkinUri": "0_v1_306_1_51_330_333_334_332_161_388_380_0_0_0_384_0_177_469",
-        "username": "JaySuper"
-      },
-      "fulfilledBy": {
-        "id": 151471,
-        "bumpkinUri": "0_v1_48_1_5_137_234_41_23",
-        "username": "Deficit"
       }
     }
   ]

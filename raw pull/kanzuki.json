@@ -121,7 +121,7 @@
       "Purple Clover": "5",
       "White Clover": "6",
       "Blue Clover": "7",
-      "Axe": "573",
+      "Axe": "533",
       "Pickaxe": "121",
       "Stone Pickaxe": "164",
       "Iron Pickaxe": "86",
@@ -262,7 +262,7 @@
       "Sour Shake": "28",
       "Spaghetti al Limone": "4",
       "Lemon Cheesecake": "8",
-      "Wood": "17869.98",
+      "Wood": "17996.38",
       "Stone": "948.05",
       "Iron": "1075.3",
       "Gold": "250.6",
@@ -398,7 +398,7 @@
       "Sea Cucumber": "74",
       "Crab": "239",
       "Purple Cauliflower": "1",
-      "Anchovy": "701",
+      "Anchovy": "697",
       "Butterflyfish": "332",
       "Blowfish": "199",
       "Clownfish": "317",
@@ -427,12 +427,12 @@
       "White Shark": "7",
       "Kraken Tentacle": "1",
       "Angelfish": "42",
-      "Halibut": "454",
+      "Halibut": "452",
       "Parrotfish": "41",
       "Lemon Shark": "1",
       "Longhorn Cowfish": "1",
       "Porgy": "198",
-      "Muskellunge": "124",
+      "Muskellunge": "122",
       "Trout": "84",
       "Walleye": "99",
       "Weakfish": "137",
@@ -611,7 +611,7 @@
       "Cow Skull": "1",
       "Trade Point": "13566.924977515563128",
       "Ancient Clock": "5",
-      "Love Charm": "14767",
+      "Love Charm": "14773",
       "Broken Pillar": "3",
       "Weed": "374",
       "Trash": "5",
@@ -645,7 +645,7 @@
       "Phantom Barracuda": "1",
       "Sunstone Rock": "1",
       "Fish Market": "1",
-      "Fish Flake": "24",
+      "Fish Flake": "25",
       "Black Magic": "1",
       "Hieroglyph": "8",
       "Starlight Tuna": "1",
@@ -4986,7 +4986,7 @@
       "482191cd": {
         "createdAt": 1760834931910,
         "wood": {
-          "choppedAt": 1769814043473
+          "choppedAt": 1769817698913
         },
         "tier": 3,
         "name": "Sacred Tree",
@@ -4997,7 +4997,7 @@
       "f1107cdb": {
         "createdAt": 1760834934875,
         "wood": {
-          "choppedAt": 1769814045759
+          "choppedAt": 1769817696999
         },
         "tier": 2,
         "name": "Ancient Tree",
@@ -5008,7 +5008,7 @@
       "da788eab": {
         "createdAt": 1768309571771,
         "wood": {
-          "choppedAt": 1769814043894
+          "choppedAt": 1769817696478
         },
         "tier": 2,
         "name": "Ancient Tree",
@@ -6650,16 +6650,6 @@
           "processing": [
             {
               "name": "Fish Flake",
-              "readyAt": 1769821592494,
-              "startedAt": 1769817992494,
-              "requirements": {
-                "Anchovy": "4",
-                "Halibut": "2",
-                "Muskellunge": "2"
-              }
-            },
-            {
-              "name": "Fish Flake",
               "readyAt": 1769825192494,
               "startedAt": 1769821592494,
               "requirements": {
@@ -6682,6 +6672,16 @@
               "name": "Fish Flake",
               "readyAt": 1769832392494,
               "startedAt": 1769828792494,
+              "requirements": {
+                "Anchovy": "4",
+                "Halibut": "2",
+                "Muskellunge": "2"
+              }
+            },
+            {
+              "name": "Fish Flake",
+              "readyAt": 1769835992494,
+              "startedAt": 1769832392494,
               "requirements": {
                 "Anchovy": "4",
                 "Halibut": "2",
@@ -11844,7 +11844,7 @@
       "Sea Cucumber Sold": 1416,
       "Eggplant Seed Bought": 5481,
       "Lily Seed Bought": 218,
-      "Tree Chopped": 214095,
+      "Tree Chopped": 214135,
       "Power Smoothie Cooked": 218,
       "Orange Seed Bought": 1768,
       "Beetroot Seed Bought": 19906,
@@ -12327,9 +12327,9 @@
       "VIP Chest Opened": 2,
       "Streamer Hat Reward Claimed": 72,
       "Twitter Post Submitted": 3,
-      "Ancient Tree Chopped": 1890,
+      "Ancient Tree Chopped": 1892,
       "Basic Tree Chopped": 2952,
-      "Sacred Tree Chopped": 1439,
+      "Sacred Tree Chopped": 1441,
       "Iron Rock Mined": 3386,
       "Stone Rock Mined": 8420,
       "Gold Rock Mined": 850,
@@ -12368,7 +12368,7 @@
       "Cool Glasses Bought": 1,
       "Artichoke Sold": 5227,
       "Fish Oil Processed": 14,
-      "Fish Flake Processed": 24,
+      "Fish Flake Processed": 25,
       "Fish Stick Processed": 64,
       "Starlight Tuna Map Piece Found": 12,
       "Twilight Anglerfish Map Piece Found": 9,
@@ -14539,7 +14539,7 @@
           "petXP": 18920,
           "score": 10452.2,
           "collectivePet": {
-            "totalXP": 5586650,
+            "totalXP": 5684710,
             "goalXP": 10263180,
             "goalReached": false,
             "streak": 10,
@@ -15706,7 +15706,7 @@
           "experience": 5287.5,
           "lovedAt": 1769818011363,
           "item": "Brush",
-          "healthCheckedAt": 1769733637579
+          "healthCheckedAt": 1769821651339
         },
         "6f6e8fa5": {
           "id": "6f6e8fa5",
@@ -15718,7 +15718,7 @@
           "experience": 5115,
           "lovedAt": 1769818011114,
           "item": "Music Box",
-          "healthCheckedAt": 1769733637579
+          "healthCheckedAt": 1769821651339
         },
         "3280bf4a": {
           "id": "3280bf4a",
@@ -16714,7 +16714,7 @@
     },
     "boostsUsedAt": {
       "Ferrous Favor": 1769817950446,
-      "Goblin Shield": 1769818005759,
+      "Goblin Shield": 1769821658913,
       "Rock Golem": 1769817948384,
       "Rock'N'Roll": 1769817950446,
       "Rocky Favor": 1769817950446,
@@ -16722,7 +16722,7 @@
       "Stone Beetle": 1769817950446,
       "Tin Turtle": 1769817948566,
       "Tunnel Mole": 1769817950446,
-      "Apprentice Beaver": 1769818005759,
+      "Apprentice Beaver": 1769821658913,
       "Black Bearry": 1768809873736,
       "Camel Onesie": 1769817924103,
       "Catchup": 1769817929659,
@@ -16730,15 +16730,15 @@
       "Fruit Picker Apron": 1769817924103,
       "Fruitful Fumble": 1769817924103,
       "Loyal Macaw": 1769817924103,
-      "Lumberjack's Extra": 1769818005759,
+      "Lumberjack's Extra": 1769821658913,
       "Macaw": 1769817924103,
       "Soil Krabby": 1769817956644,
-      "Squirrel": 1769818005759,
+      "Squirrel": 1769821658913,
       "Swift Decomposer": 1769817956644,
-      "Tiki Totem": 1769818005759,
-      "Tough Tree": 1769787673226,
-      "Tree Charge": 1769818005759,
-      "Wood Nymph Wendy": 1769818005759,
+      "Tiki Totem": 1769821658913,
+      "Tough Tree": 1769821658913,
+      "Tree Charge": 1769821658913,
+      "Wood Nymph Wendy": 1769821658913,
       "Blooming Boost": 1769819031227,
       "Flower Fox": 1769819031227,
       "Iron Beetle": 1769817944055,
@@ -16900,7 +16900,7 @@
       "Sol & Luna": 1769818843937,
       "Reelmaster's Chair": 1769819871355,
       "Farm Dog": 1769818028178,
-      "Tree Turnaround": 1769818003160,
+      "Tree Turnaround": 1769821656704,
       "Experienced Farmer": 1769755338433,
       "Greenhouse Gamble": 1769783939805,
       "Seeded Bounty": 1769783942840,
@@ -16944,14 +16944,14 @@
       "Power hour": 1769818778313
     },
     "socialFarming": {
-      "points": 44554,
+      "points": 44572,
       "villageProjects": {
         "Farmer's Monument": {
           "cheers": 100,
           "winnerId": 53865
         },
         "Miner's Monument": {
-          "cheers": 3632,
+          "cheers": 3635,
           "winnerId": 311450483635409
         },
         "Woodcutter's Monument": {
@@ -16963,19 +16963,20 @@
           "winnerId": 4280
         },
         "Big Orange": {
-          "cheers": 3,
+          "cheers": 6,
           "winnerId": 6473312789773488
         },
         "Cornucopia": {
-          "cheers": 3,
-          "winnerId": 76366
+          "cheers": 6,
+          "winnerId": 49035
         },
         "Big Banana": {
-          "cheers": 2,
-          "winnerId": 76366
+          "cheers": 5,
+          "winnerId": 49035
         },
         "Big Apple": {
-          "cheers": 0
+          "cheers": 3,
+          "winnerId": 5562414557075082
         }
       },
       "cheers": {
@@ -17052,7 +17053,7 @@
       },
       "weeklyPoints": {
         "week": "2026-01-26",
-        "points": 1351
+        "points": 1369
       },
       "helpedForCompetition": 671,
       "waves": {
@@ -17067,7 +17068,7 @@
         "2955": {
           "id": 2955,
           "name": "Pet #2955",
-          "experience": 42082,
+          "experience": 42097,
           "energy": 10620,
           "requests": {
             "food": [
@@ -17092,7 +17093,7 @@
             "aura": "No Aura"
           },
           "dailySocialXP": {
-            "2026-01-31": 15
+            "2026-01-31": 30
           },
           "walking": false,
           "fetches": {
@@ -17147,7 +17148,7 @@
         },
         "Burro": {
           "name": "Burro",
-          "experience": 62269,
+          "experience": 62284,
           "energy": 10665,
           "requests": {
             "food": [
@@ -17163,7 +17164,7 @@
           },
           "pettedAt": 1769818063868,
           "dailySocialXP": {
-            "2026-01-31": 15
+            "2026-01-31": 30
           },
           "fetches": {
             "Acorn": 271
@@ -17188,7 +17189,7 @@
         },
         "Pippin": {
           "name": "Pippin",
-          "experience": 55676,
+          "experience": 55691,
           "energy": 10465,
           "requests": {
             "food": [
@@ -17204,7 +17205,7 @@
           },
           "pettedAt": 1769818064317,
           "dailySocialXP": {
-            "2026-01-31": 15
+            "2026-01-31": 30
           },
           "fetches": {
             "Acorn": 261,

@@ -1,16 +1,16 @@
 {
   "username": "raichupus",
   "overview": {
-    "balance": 3464.22,
-    "coins": 313430.0,
+    "balance": 3473.44,
+    "coins": 324087.0,
     "gems": 0.0,
-    "earned_sfl": 1128.13,
-    "earned_coins": 313430.0,
+    "earned_sfl": 1137.35,
+    "earned_coins": 324087.0,
     "spent_sfl": 0.0,
-    "items_sold": 2804.0,
+    "items_sold": 2805.0,
     "trade_points": 252976.67,
-    "last_updated": "2026-01-31 01:15 AM",
-    "active_listings": 11
+    "last_updated": "2026-01-31 02:18 AM",
+    "active_listings": 15
   },
   "buys": [
     {
@@ -195,6 +195,42 @@
     }
   ],
   "sells": [
+    {
+      "date": "2026-01-31",
+      "time": "02:02 AM",
+      "type": "SELL",
+      "item": "Leather",
+      "quantity": 100,
+      "price_text": "11.78 SFL",
+      "price": 11.78,
+      "counterparty": "RZ4gu1",
+      "farm_id": "-",
+      "trade_id": "fd299a76"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "01:54 AM",
+      "type": "SELL",
+      "item": "Milk",
+      "quantity": 100,
+      "price_text": "12.36 SFL",
+      "price": 12.36,
+      "counterparty": "Kelonmus",
+      "farm_id": "-",
+      "trade_id": "b83c4623"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "01:49 AM",
+      "type": "SELL",
+      "item": "Wood",
+      "quantity": 500,
+      "price_text": "4.47 SFL",
+      "price": 4.47,
+      "counterparty": "ShiriYasha",
+      "farm_id": "-",
+      "trade_id": "b3d664d5"
+    },
     {
       "date": "2026-01-30",
       "time": "06:18 PM",
@@ -883,12 +919,12 @@
   "last_updated": null,
   "stats": {
     "total_buys": 15,
-    "total_sells": 57,
+    "total_sells": 60,
     "buy_volume": 183.57920000000001,
-    "sell_volume": 453.1890000000002,
-    "gross_profit": 269.6098000000002,
+    "sell_volume": 481.79900000000015,
+    "gross_profit": 298.21980000000013,
     "avg_buy_price": 12.238613333333335,
-    "avg_sell_price": 7.950684210526319,
+    "avg_sell_price": 8.029983333333336,
     "most_traded_items": {},
     "recent_activity": [
       {
@@ -1018,6 +1054,30 @@
       },
       {
         "type": "SELL",
+        "item": "Leather",
+        "quantity": 100,
+        "price": 11.78,
+        "date": "2026-01-31",
+        "time": "02:02 AM"
+      },
+      {
+        "type": "SELL",
+        "item": "Milk",
+        "quantity": 100,
+        "price": 12.36,
+        "date": "2026-01-31",
+        "time": "01:54 AM"
+      },
+      {
+        "type": "SELL",
+        "item": "Wood",
+        "quantity": 500,
+        "price": 4.47,
+        "date": "2026-01-31",
+        "time": "01:49 AM"
+      },
+      {
+        "type": "SELL",
         "item": "Iron",
         "quantity": 100,
         "price": 6.39,
@@ -1031,33 +1091,9 @@
         "price": 11.8,
         "date": "2026-01-30",
         "time": "06:16 PM"
-      },
-      {
-        "type": "SELL",
-        "item": "Milk",
-        "quantity": 100,
-        "price": 12.14,
-        "date": "2026-01-30",
-        "time": "06:14 PM"
-      },
-      {
-        "type": "SELL",
-        "item": "Wood",
-        "quantity": 500,
-        "price": 4.39,
-        "date": "2026-01-30",
-        "time": "06:14 PM"
-      },
-      {
-        "type": "SELL",
-        "item": "Milk",
-        "quantity": 100,
-        "price": 12.1,
-        "date": "2026-01-30",
-        "time": "06:13 PM"
       }
     ],
-    "profit_margin": 146.86293436293445,
+    "profit_margin": 162.44748860437355,
     "most_bought_items": {
       "Blueberry": 300,
       "Obsidian": 9,
@@ -1069,11 +1105,11 @@
       "Sunflower": 16000,
       "Pumpkin": 6000,
       "Potato": 6000,
-      "Wood": 5100,
+      "Wood": 5600,
       "Zucchini": 2000,
       "Carrot": 2000,
-      "Milk": 1400,
-      "Leather": 1300,
+      "Milk": 1500,
+      "Leather": 1400,
       "Iron": 300,
       "Tomato": 200
     }
@@ -1177,55 +1213,91 @@
       "created_at": 1769613316265,
       "collection": "collectibles",
       "trade_type": "instant"
+    },
+    {
+      "id": "b83c4623",
+      "item": "Milk",
+      "quantity": 100,
+      "price": 12.36,
+      "created_at": 1769823808894,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "fd299a76",
+      "item": "Leather",
+      "quantity": 100,
+      "price": 11.78,
+      "created_at": 1769823827503,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "b3d664d5",
+      "item": "Wood",
+      "quantity": 500,
+      "price": 4.47,
+      "created_at": 1769823846729,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "f2d06180",
+      "item": "Olive",
+      "quantity": 50,
+      "price": 20.14,
+      "created_at": 1769823866296,
+      "collection": "collectibles",
+      "trade_type": "instant"
     }
   ],
   "active_offers": [],
   "inventory": {
     "crops": {
       "Sunflower": 957614.5932999961,
-      "Potato": 461080.29459999467,
-      "Pumpkin": 152097.22219999981,
-      "Carrot": 84359.18349999998,
+      "Potato": 461408.51399999467,
+      "Pumpkin": 152283.6393999998,
+      "Carrot": 86298.36349999998,
       "Cabbage": 62638.7054,
       "Beetroot": 28520.411599999996,
       "Cauliflower": 16928.910200000002,
       "Parsnip": 13610.7026,
       "Radish": 18333.6577,
       "Wheat": 21330.5266,
-      "Kale": 17347.422400000007,
+      "Kale": 17342.422400000007,
       "Eggplant": 27.76650000000076,
       "Corn": 16922.958599999998,
-      "Soybean": 57757.91610000001,
+      "Soybean": 57257.91610000001,
       "Rice": 495.6,
-      "Olive": 610.35,
-      "Barley": 27416.038200000003,
-      "Rhubarb": 430722.73369999626,
+      "Olive": 600.35,
+      "Barley": 27396.038200000003,
+      "Rhubarb": 433216.32909999625,
       "Zucchini": 215767.52569999907,
-      "Yam": 76607.27179999999,
-      "Broccoli": 62119.73289999995,
+      "Yam": 77045.6718,
+      "Broccoli": 62269.53289999995,
       "Pepper": 26915.03200000001,
       "Onion": 13895.9508,
       "Turnip": 12314.421100000001,
       "Artichoke": 19878.550000000003
     },
     "fruits": {
-      "Apple": 193.35000000000045,
-      "Blueberry": 236.98000000000084,
+      "Apple": 67.35000000000046,
+      "Blueberry": 226.98000000000084,
       "Orange": 565.8200000000011,
-      "Banana": 1126.52,
-      "Grape": 476.97,
-      "Tomato": 2906.0500000000025,
+      "Banana": 1116.52,
+      "Grape": 473.97,
+      "Tomato": 2876.0500000000025,
       "Lemon": 1722.1200000000003,
       "Duskberry": 5.000000000000015,
       "Lunara": 2.570000000000018,
       "Celestine": 1.5700000000000165
     },
     "resources": {
-      "Wood": 12784.14,
-      "Stone": 1811.57,
+      "Wood": 12384.04,
+      "Stone": 1813.57,
       "Iron": 3042.75,
       "Gold": 694.46,
-      "Crimstone": 758.05,
+      "Crimstone": 765.55,
       "Obsidian": 286.4
     }
   }

@@ -1,7 +1,7 @@
 {
   "username": "lucasag",
   "overview": {
-    "balance": 189.34,
+    "balance": 180.3,
     "coins": 2011.0,
     "gems": 0.0,
     "earned_sfl": 14217.97,
@@ -9,10 +9,46 @@
     "spent_sfl": 5993.05,
     "items_sold": 7685.0,
     "trade_points": 26751.78,
-    "last_updated": "2026-01-31 01:15 AM",
+    "last_updated": "2026-01-31 02:18 AM",
     "active_listings": 13
   },
   "buys": [
+    {
+      "date": "2026-01-31",
+      "time": "01:05 AM",
+      "type": "BUY",
+      "item": "Celestine",
+      "quantity": 7,
+      "price_text": "1.1824 SFL",
+      "price": 1.1824,
+      "counterparty": "Lucky888",
+      "farm_id": "-",
+      "trade_id": "c20b6153"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "01:05 AM",
+      "type": "BUY",
+      "item": "Duskberry",
+      "quantity": 10,
+      "price_text": "7.86 SFL",
+      "price": 7.86,
+      "counterparty": "lwh2101",
+      "farm_id": "-",
+      "trade_id": "e3988747"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "12:22 AM",
+      "type": "BUY",
+      "item": "Grape",
+      "quantity": 12,
+      "price_text": "3.0804 SFL",
+      "price": 3.0804,
+      "counterparty": "RouBi",
+      "farm_id": "-",
+      "trade_id": "53ced373"
+    },
     {
       "date": "2026-01-31",
       "time": "12:20 AM",
@@ -678,15 +714,42 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 19,
+    "total_buys": 22,
     "total_sells": 36,
-    "buy_volume": 36.099799999999995,
+    "buy_volume": 48.2226,
     "sell_volume": 175.86159999999998,
-    "gross_profit": 139.7618,
-    "avg_buy_price": 1.8999894736842102,
+    "gross_profit": 127.63899999999998,
+    "avg_buy_price": 2.191936363636364,
     "avg_sell_price": 4.885044444444444,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Celestine",
+        "quantity": 7,
+        "price": 1.1824,
+        "date": "2026-01-31",
+        "time": "01:05 AM",
+        "username": "lucasag"
+      },
+      {
+        "type": "BUY",
+        "item": "Duskberry",
+        "quantity": 10,
+        "price": 7.86,
+        "date": "2026-01-31",
+        "time": "01:05 AM",
+        "username": "lucasag"
+      },
+      {
+        "type": "BUY",
+        "item": "Grape",
+        "quantity": 12,
+        "price": 3.0804,
+        "date": "2026-01-31",
+        "time": "12:22 AM",
+        "username": "lucasag"
+      },
       {
         "type": "BUY",
         "item": "Orange",
@@ -711,8 +774,7 @@
         "quantity": 400,
         "price": 5.7153,
         "date": "2026-01-30",
-        "time": "09:25 PM",
-        "username": "lucasag"
+        "time": "09:25 PM"
       },
       {
         "type": "BUY",
@@ -720,8 +782,7 @@
         "quantity": 100,
         "price": 1.4196,
         "date": "2026-01-30",
-        "time": "09:25 PM",
-        "username": "lucasag"
+        "time": "09:25 PM"
       },
       {
         "type": "BUY",
@@ -729,8 +790,7 @@
         "quantity": 209,
         "price": 2.9671,
         "date": "2026-01-30",
-        "time": "09:25 PM",
-        "username": "lucasag"
+        "time": "09:25 PM"
       },
       {
         "type": "BUY",
@@ -827,36 +887,15 @@
         "price": 2.8733,
         "date": "2026-01-30",
         "time": "09:16 AM"
-      },
-      {
-        "type": "BUY",
-        "item": "Wheat",
-        "quantity": 200,
-        "price": 2.8733,
-        "date": "2026-01-30",
-        "time": "09:16 AM"
-      },
-      {
-        "type": "BUY",
-        "item": "Wheat",
-        "quantity": 104,
-        "price": 1.4941,
-        "date": "2026-01-30",
-        "time": "09:16 AM"
-      },
-      {
-        "type": "SELL",
-        "item": "Milk",
-        "quantity": 50,
-        "price": 6.0743,
-        "date": "2026-01-30",
-        "time": "11:46 PM"
       }
     ],
-    "profit_margin": 387.1539454512214,
+    "profit_margin": 264.6870969213605,
     "most_bought_items": {
       "Wheat": 2278,
       "Orange": 100,
+      "Grape": 12,
+      "Duskberry": 10,
+      "Celestine": 7,
       "Crimstone": 4
     },
     "most_sold_items": {
@@ -992,16 +1031,16 @@
   "active_offers": [],
   "inventory": {
     "crops": {
-      "Sunflower": 75499.56880002124,
+      "Sunflower": 82957.56880002155,
       "Potato": 12761.643900011955,
       "Pumpkin": 34190.77649999649,
-      "Carrot": 13980.066200000047,
+      "Carrot": 14279.805300000045,
       "Cabbage": 0.92810000004355,
-      "Beetroot": 1790.1526999999987,
+      "Beetroot": 1770.1526999999987,
       "Cauliflower": 1.871400000000765,
-      "Parsnip": 50.41300000001561,
+      "Parsnip": 40.41300000001561,
       "Radish": 5.607600000000034,
-      "Wheat": 283.80290000000355,
+      "Wheat": 263.80290000000355,
       "Kale": 3.567099999999695,
       "Eggplant": 1269.2724000000012,
       "Corn": 2010.5399000000116,
@@ -1012,7 +1051,7 @@
       "Rhubarb": 36074.850000001,
       "Zucchini": 15706.500000005264,
       "Yam": 7138.096799999391,
-      "Broccoli": 4324.374900000023,
+      "Broccoli": 4581.874000000023,
       "Pepper": 1951.0820000000201,
       "Onion": 3183.156500000011,
       "Turnip": 1421.8539,
@@ -1022,20 +1061,20 @@
       "Blueberry": 209.25,
       "Orange": 94.02000000000001,
       "Grape": 4.5,
-      "Tomato": 6421.750000000013,
+      "Tomato": 6472.850000000013,
       "Lemon": 1841.9,
-      "Duskberry": 1.5000000000000004,
-      "Lunara": 24.82,
-      "Celestine": 0.4,
+      "Duskberry": 9.5,
+      "Lunara": 21.82,
+      "Celestine": 4.4,
       "Banana": 573.16,
       "Apple": 75.0
     },
     "resources": {
-      "Wood": 5914.292,
-      "Stone": 1531.3,
+      "Wood": 6179.912,
+      "Stone": 1585.3,
       "Iron": 1756.05,
       "Gold": 537.55,
-      "Crimstone": 3.6,
+      "Crimstone": 24.6,
       "Obsidian": 283.0
     }
   }
