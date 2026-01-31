@@ -67,7 +67,7 @@ jobs:
         publish_dir: ./web
         destination_dir: .
         
-      on:
+    - name: trading-monitor-scheduler
   schedule:
     - cron: '*/15 * * * *'
   workflow_dispatch:
