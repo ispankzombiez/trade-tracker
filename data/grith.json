@@ -2,14 +2,14 @@
   "username": "grith",
   "overview": {
     "balance": 2548.5,
-    "coins": 116538.0,
+    "coins": 116499.0,
     "gems": 0.0,
     "earned_sfl": 10629.11,
-    "earned_coins": 116538.0,
+    "earned_coins": 116499.0,
     "spent_sfl": 9758.66,
-    "items_sold": 5341.0,
+    "items_sold": 5342.0,
     "trade_points": 6878.93,
-    "last_updated": "2026-01-31 04:21 PM",
+    "last_updated": "2026-01-31 04:48 PM",
     "active_listings": 24
   },
   "buys": [
@@ -545,6 +545,18 @@
   "sells": [
     {
       "date": "2026-01-31",
+      "time": "04:29 PM",
+      "type": "SELL",
+      "item": "Leather",
+      "quantity": 20,
+      "price_text": "2.434 SFL",
+      "price": 2.434,
+      "counterparty": "Striagorn",
+      "farm_id": "-",
+      "trade_id": "621fd71f"
+    },
+    {
+      "date": "2026-01-31",
       "time": "03:59 PM",
       "type": "SELL",
       "item": "Leather",
@@ -1003,12 +1015,12 @@
   "last_updated": null,
   "stats": {
     "total_buys": 44,
-    "total_sells": 38,
+    "total_sells": 39,
     "buy_volume": 102.4368,
-    "sell_volume": 153.71970000000005,
-    "gross_profit": 51.28290000000004,
+    "sell_volume": 156.15370000000004,
+    "gross_profit": 53.71690000000004,
     "avg_buy_price": 2.328109090909091,
-    "avg_sell_price": 4.0452552631578955,
+    "avg_sell_price": 4.003941025641026,
     "most_traded_items": {},
     "recent_activity": [
       {
@@ -1177,7 +1189,7 @@
         "time": "04:24 AM"
       }
     ],
-    "profit_margin": 50.06296565296851,
+    "profit_margin": 52.43906486731335,
     "most_bought_items": {
       "Wheat": 2015,
       "Corn": 1770,
@@ -1188,7 +1200,7 @@
     },
     "most_sold_items": {
       "Milk": 827,
-      "Leather": 420
+      "Leather": 440
     }
   },
   "active_listings": [
@@ -1283,47 +1295,11 @@
       "trade_type": "instant"
     },
     {
-      "id": "a90c93e3",
-      "item": "Milk",
-      "quantity": 50,
-      "price": 6.2695,
-      "created_at": 1769873744703,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "952c2d0a",
-      "item": "Milk",
-      "quantity": 50,
-      "price": 6.2695,
-      "created_at": 1769873748077,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "ac908aae",
-      "item": "Milk",
-      "quantity": 50,
-      "price": 6.2695,
-      "created_at": 1769873751236,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
       "id": "496482b0",
       "item": "Milk",
       "quantity": 50,
       "price": 6.2695,
       "created_at": 1769873758097,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "620e5857",
-      "item": "Leather",
-      "quantity": 20,
-      "price": 2.434,
-      "created_at": 1769873804018,
       "collection": "collectibles",
       "trade_type": "instant"
     },
@@ -1342,15 +1318,6 @@
       "quantity": 20,
       "price": 2.434,
       "created_at": 1769873814998,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "621fd71f",
-      "item": "Leather",
-      "quantity": 20,
-      "price": 2.434,
-      "created_at": 1769873820468,
       "collection": "collectibles",
       "trade_type": "instant"
     },
@@ -1548,10 +1515,10 @@
   ],
   "inventory": {
     "crops": {
-      "Sunflower": 179254.1768000042,
+      "Sunflower": 179054.1768000042,
       "Potato": 116281.46900000039,
       "Pumpkin": 123294.13219999951,
-      "Carrot": 70077.14660000011,
+      "Carrot": 70298.64640000011,
       "Cabbage": 48780.85870000012,
       "Beetroot": 74.19949999999962,
       "Cauliflower": 71.17499999999961,
@@ -1560,11 +1527,11 @@
       "Wheat": 91.21370000000749,
       "Kale": 71.8798000000018,
       "Eggplant": 1585.7422000000008,
-      "Corn": 394.69619999999964,
+      "Corn": 384.69619999999964,
       "Soybean": 2347.824200000001,
       "Rice": 48.392,
       "Olive": 198.924,
-      "Barley": 86.5355000000034,
+      "Barley": 438.8351000000033,
       "Rhubarb": 133780.67760000026,
       "Zucchini": 98370.90019999922,
       "Yam": 38889.78870000005,
@@ -1587,7 +1554,7 @@
       "Celestine": 35.30000000000005
     },
     "resources": {
-      "Wood": 724.535,
+      "Wood": 777.355,
       "Stone": 3841.16,
       "Iron": 323.94,
       "Gold": 57.23,
