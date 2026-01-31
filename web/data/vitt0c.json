@@ -1,18 +1,30 @@
 {
   "username": "vitt0c",
   "overview": {
-    "balance": 22881.24,
-    "coins": 11631.0,
+    "balance": 22879.48,
+    "coins": 27180.0,
     "gems": 0.0,
     "earned_sfl": 15138.15,
-    "earned_coins": 11631.0,
+    "earned_coins": 27180.0,
     "spent_sfl": 14331.72,
     "items_sold": 10284.0,
     "trade_points": 97992.16,
-    "last_updated": "2026-01-31 06:07 PM",
-    "active_listings": 142
+    "last_updated": "2026-01-31 09:49 PM",
+    "active_listings": 145
   },
   "buys": [
+    {
+      "date": "2026-01-31",
+      "time": "07:27 PM",
+      "type": "BUY",
+      "item": "Apple",
+      "quantity": 100,
+      "price_text": "1.7603 SFL",
+      "price": 1.7603,
+      "counterparty": "recopao",
+      "farm_id": "-",
+      "trade_id": "798d49e6"
+    },
     {
       "date": "2026-01-31",
       "time": "03:24 PM",
@@ -255,6 +267,42 @@
     }
   ],
   "sells": [
+    {
+      "date": "2026-01-31",
+      "time": "09:41 PM",
+      "type": "SELL",
+      "item": "Cabbage",
+      "quantity": 2000,
+      "price_text": "5.2289 SFL",
+      "price": 5.2289,
+      "counterparty": "Precioso",
+      "farm_id": "-",
+      "trade_id": "d08a00f8"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "09:41 PM",
+      "type": "SELL",
+      "item": "Cabbage",
+      "quantity": 2000,
+      "price_text": "5.2289 SFL",
+      "price": 5.2289,
+      "counterparty": "Precioso",
+      "farm_id": "-",
+      "trade_id": "148df586"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "09:41 PM",
+      "type": "SELL",
+      "item": "Cabbage",
+      "quantity": 2000,
+      "price_text": "5.2289 SFL",
+      "price": 5.2289,
+      "counterparty": "Precioso",
+      "farm_id": "-",
+      "trade_id": "d1204321"
+    },
     {
       "date": "2026-01-31",
       "time": "02:21 PM",
@@ -1878,15 +1926,24 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 20,
-    "total_sells": 135,
-    "buy_volume": 132.6232,
-    "sell_volume": 8813.1674,
-    "gross_profit": 8680.5442,
-    "avg_buy_price": 6.6311599999999995,
-    "avg_sell_price": 65.28272148148149,
+    "total_buys": 21,
+    "total_sells": 138,
+    "buy_volume": 134.3835,
+    "sell_volume": 8828.8541,
+    "gross_profit": 8694.4706,
+    "avg_buy_price": 6.399214285714286,
+    "avg_sell_price": 63.97720362318841,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Apple",
+        "quantity": 100,
+        "price": 1.7603,
+        "date": "2026-01-31",
+        "time": "07:27 PM",
+        "username": "vitt0c"
+      },
       {
         "type": "BUY",
         "item": "Apple",
@@ -1929,8 +1986,7 @@
         "quantity": 1,
         "price": 6.751,
         "date": "2026-01-31",
-        "time": "09:38 AM",
-        "username": "vitt0c"
+        "time": "09:38 AM"
       },
       {
         "type": "BUY",
@@ -2043,21 +2099,13 @@
         "price": 1.7383,
         "date": "2026-01-30",
         "time": "05:14 AM"
-      },
-      {
-        "type": "BUY",
-        "item": "Radish",
-        "quantity": 200,
-        "price": 1.7383,
-        "date": "2026-01-30",
-        "time": "05:14 AM"
       }
     ],
-    "profit_margin": 6545.268248692537,
+    "profit_margin": 6469.894443886341,
     "most_bought_items": {
       "Radish": 600,
       "Eggplant": 500,
-      "Apple": 300,
+      "Apple": 400,
       "Milk": 150,
       "Soybean": 125,
       "Olive": 100,
@@ -2066,7 +2114,7 @@
       "Collectible #14": 7
     },
     "most_sold_items": {
-      "Cabbage": 30000,
+      "Cabbage": 36000,
       "Yam": 9000,
       "Beetroot": 8050,
       "Tomato": 4260,
@@ -3355,18 +3403,36 @@
       "created_at": 1769838339013,
       "collection": "collectibles",
       "trade_type": "instant"
-    }
-  ],
-  "active_offers": [
+    },
     {
-      "id": "798d49e6",
-      "item": "Apple",
-      "quantity": 100,
-      "price": 1.7603,
-      "created_at": 1767836806954,
+      "id": "d08a00f8",
+      "item": "Cabbage",
+      "quantity": 2000,
+      "price": 5.2289,
+      "created_at": 1769893494736,
       "collection": "collectibles",
       "trade_type": "instant"
     },
+    {
+      "id": "148df586",
+      "item": "Cabbage",
+      "quantity": 2000,
+      "price": 5.2289,
+      "created_at": 1769893500864,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "d1204321",
+      "item": "Cabbage",
+      "quantity": 2000,
+      "price": 5.2289,
+      "created_at": 1769893506049,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    }
+  ],
+  "active_offers": [
     {
       "id": "8743fbe8",
       "item": "Apple",
@@ -3766,8 +3832,8 @@
   ],
   "inventory": {
     "crops": {
-      "Sunflower": 753724.6301000643,
-      "Potato": 237249.6923000458,
+      "Sunflower": 770137.8326000646,
+      "Potato": 241108.89000004585,
       "Pumpkin": 53055.47790000819,
       "Carrot": 31375.985699999637,
       "Cabbage": 26525.335400000058,
@@ -3782,10 +3848,10 @@
       "Soybean": 74.83100000000005,
       "Rice": 887.2919,
       "Olive": 202.578,
-      "Barley": 1798.679200000001,
+      "Barley": 1778.679200000001,
       "Rhubarb": 2159.9327999999987,
       "Zucchini": 872.4776000000037,
-      "Yam": 56609.257799999854,
+      "Yam": 59066.05779999986,
       "Broccoli": 4053.0705999999996,
       "Pepper": 8876.43470000001,
       "Onion": 1179.373800000002,
@@ -3793,23 +3859,23 @@
       "Artichoke": 1088.2893000000008
     },
     "fruits": {
-      "Apple": 337.9500000000001,
+      "Apple": 437.9500000000001,
       "Blueberry": 385.4500000000022,
       "Orange": 255.20000000000098,
       "Banana": 557.65,
       "Grape": 587.9,
-      "Tomato": 10647.95,
+      "Tomato": 11129.1,
       "Lemon": 7184.250000000004,
       "Duskberry": 14.9,
       "Lunara": 15.300000000000011,
       "Celestine": 17.8
     },
     "resources": {
-      "Wood": 36054.8185,
-      "Stone": 3863.21,
-      "Iron": 2046.0,
+      "Wood": 36297.9185,
+      "Stone": 3912.01,
+      "Iron": 2099.5,
       "Gold": 991.62,
-      "Crimstone": 783.2,
+      "Crimstone": 790.4,
       "Obsidian": 18.0
     }
   }

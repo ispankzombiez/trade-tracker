@@ -1,23 +1,13 @@
 {
   "id": 1797,
-  "totalTrades": 20759,
+  "totalTrades": 20760,
   "level": 123,
   "weeklyFlowerSpent": 143.8459,
   "weeklyFlowerEarned": 48.3165775,
   "tokenUri": "0_v1_32_90_42_317_234_89_257_255_501_238_408_401_403_189",
   "username": "Korlith",
   "listings": {},
-  "offers": {
-    "c5885d6d": {
-      "createdAt": 1769882084097,
-      "items": {
-        "Frost Pebble": 1
-      },
-      "sfl": 0.465,
-      "collection": "collectibles",
-      "tradeType": "instant"
-    }
-  },
+  "offers": {},
   "friends": [
     {
       "id": 3443,
@@ -51,6 +41,25 @@
     }
   ],
   "trades": [
+    {
+      "id": "c5885d6d",
+      "sfl": 0.465,
+      "quantity": 1,
+      "itemId": 2639,
+      "collection": "collectibles",
+      "source": "offer",
+      "fulfilledAt": 1769888491655,
+      "initiatedBy": {
+        "id": 1797,
+        "bumpkinUri": "0_v1_460_1_487_282_19_22_226_490_0_238_408_0_494_189",
+        "username": "Shao"
+      },
+      "fulfilledBy": {
+        "id": 162524,
+        "bumpkinUri": "0_v1_32_90_42_317_234_89_257_255_501_238_408_401_403_189",
+        "username": "Korlith"
+      }
+    },
     {
       "id": "df865c02",
       "sfl": 0.2607,
@@ -812,7 +821,7 @@
       }
     },
     {
-      "id": "679ccf47",
+      "id": "56ad040d",
       "sfl": 0.4478,
       "quantity": 50,
       "itemId": 601,
@@ -831,7 +840,7 @@
       }
     },
     {
-      "id": "56ad040d",
+      "id": "679ccf47",
       "sfl": 0.4478,
       "quantity": 50,
       "itemId": 601,
@@ -975,25 +984,6 @@
         "id": 15591,
         "bumpkinUri": "0_v1_48_2_202_0_234_89_226_476_0_228_86_0_305_0_0_266",
         "username": "BanInstinct"
-      },
-      "fulfilledBy": {
-        "id": 1797,
-        "bumpkinUri": "0_v1_32_90_42_317_234_89_257_255_501_238_408_401_403_189",
-        "username": "Korlith"
-      }
-    },
-    {
-      "id": "21e7d397",
-      "sfl": 0.6599,
-      "quantity": 300,
-      "itemId": 251,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769816800947,
-      "initiatedBy": {
-        "id": 157475,
-        "bumpkinUri": "0_v1_48_2_52_15_19_41_23_304_0_0_0_0_0_0_0_266",
-        "username": "SigmaGay"
       },
       "fulfilledBy": {
         "id": 1797,
