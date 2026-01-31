@@ -1,6 +1,6 @@
 {
   "id": 151471,
-  "totalTrades": 40083,
+  "totalTrades": 40085,
   "level": 190,
   "weeklyFlowerSpent": 136.2059,
   "weeklyFlowerEarned": 154.22566,
@@ -1217,16 +1217,6 @@
       "tax": 0.034995,
       "tradeType": "instant"
     },
-    "3a6d7d15": {
-      "collection": "collectibles",
-      "createdAt": 1769720104930,
-      "items": {
-        "Bumpkin Emblem": 40
-      },
-      "sfl": 3.1595,
-      "tax": 0.157975,
-      "tradeType": "instant"
-    },
     "b171690f": {
       "collection": "collectibles",
       "createdAt": 1769720142653,
@@ -1246,18 +1236,6 @@
       "sfl": 8.6885,
       "tax": 0.434425,
       "tradeType": "instant"
-    },
-    "9ef6f6e0": {
-      "collection": "collectibles",
-      "createdAt": 1769720278806,
-      "items": {
-        "Bumpkin Emblem": 90
-      },
-      "sfl": 7.1085,
-      "tax": 0.355425,
-      "tradeType": "instant",
-      "fulfilledAt": 1769834833006,
-      "fulfilledById": 56732
     },
     "f8e86648": {
       "collection": "collectibles",
@@ -1358,18 +1336,6 @@
       "sfl": 6.2999,
       "tax": 0.314995,
       "tradeType": "instant"
-    },
-    "3470ec3f": {
-      "collection": "collectibles",
-      "createdAt": 1769834083694,
-      "items": {
-        "Wood": 190
-      },
-      "sfl": 1.6676,
-      "tax": 0.08338,
-      "tradeType": "instant",
-      "fulfilledAt": 1769834255464,
-      "fulfilledById": 7031734249415665
     }
   },
   "offers": {
@@ -1443,6 +1409,44 @@
     }
   ],
   "trades": [
+    {
+      "id": "bb7a7de3",
+      "sfl": 1.079,
+      "quantity": 123,
+      "itemId": 601,
+      "collection": "collectibles",
+      "source": "listing",
+      "fulfilledAt": 1769836173668,
+      "initiatedBy": {
+        "id": 151471,
+        "bumpkinUri": "0_v1_306_1_51_330_333_334_332_161_388_380_0_0_0_384_0_177_469",
+        "username": "JaySuper"
+      },
+      "fulfilledBy": {
+        "id": 56929,
+        "bumpkinUri": "0_v1_83_1_52_0_0_41_240_225_0_0_0_0_0_0_155",
+        "username": "zerthas"
+      }
+    },
+    {
+      "id": "3a6d7d15",
+      "sfl": 3.1595,
+      "quantity": 40,
+      "itemId": 742,
+      "collection": "collectibles",
+      "source": "listing",
+      "fulfilledAt": 1769835337232,
+      "initiatedBy": {
+        "id": 151471,
+        "bumpkinUri": "0_v1_306_1_51_330_333_334_332_161_388_380_0_0_0_384_0_177_469",
+        "username": "JaySuper"
+      },
+      "fulfilledBy": {
+        "id": 56732,
+        "bumpkinUri": "0_v1_101_90_97_317_404_89_226_476_0_238_86_350_276_374",
+        "username": "Killua"
+      }
+    },
     {
       "id": "9ef6f6e0",
       "sfl": 7.1085,
@@ -2353,44 +2357,6 @@
         "id": 84216,
         "bumpkinUri": "0_v1_48_90_52_14_35_22_210_125_0_0_86_0_0_0_0_266",
         "username": "Gajelo"
-      }
-    },
-    {
-      "id": "f70399b6",
-      "sfl": 0.77,
-      "quantity": 50,
-      "itemId": 602,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769797522783,
-      "initiatedBy": {
-        "id": 151471,
-        "bumpkinUri": "0_v1_306_1_51_330_333_334_332_161_388_380_0_0_0_384_0_177_469",
-        "username": "JaySuper"
-      },
-      "fulfilledBy": {
-        "id": 192672,
-        "bumpkinUri": "0_v1_32_3_42_185_234_89_44_395",
-        "username": "alegria"
-      }
-    },
-    {
-      "id": "fe3b8157",
-      "sfl": 0.924,
-      "quantity": 60,
-      "itemId": 602,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769797514894,
-      "initiatedBy": {
-        "id": 151471,
-        "bumpkinUri": "0_v1_306_1_51_330_333_334_332_161_388_380_0_0_0_384_0_177_469",
-        "username": "JaySuper"
-      },
-      "fulfilledBy": {
-        "id": 192672,
-        "bumpkinUri": "0_v1_32_3_42_185_234_89_44_395",
-        "username": "alegria"
       }
     }
   ]

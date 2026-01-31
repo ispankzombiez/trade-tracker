@@ -1,6 +1,6 @@
 {
   "id": 55626,
-  "totalTrades": 8413,
+  "totalTrades": 8414,
   "level": 177,
   "weeklyFlowerSpent": 31.6234,
   "weeklyFlowerEarned": 3.4007625,
@@ -2067,7 +2067,9 @@
       },
       "sfl": 0.2495,
       "tax": 0.0187125,
-      "tradeType": "instant"
+      "tradeType": "instant",
+      "fulfilledAt": 1769835773661,
+      "fulfilledById": 9025
     },
     "9ca5b35d": {
       "collection": "collectibles",
@@ -2355,7 +2357,26 @@
   ],
   "trades": [
     {
-      "id": "9ca5b35d",
+      "id": "9e2917ce",
+      "sfl": 0.2495,
+      "quantity": 20,
+      "itemId": 643,
+      "collection": "collectibles",
+      "source": "listing",
+      "fulfilledAt": 1769835776334,
+      "initiatedBy": {
+        "id": 55626,
+        "bumpkinUri": "0_v1_352_127_97_282_234_99_400_221_407_311_86_483_160_410_0_266",
+        "username": "Asterion"
+      },
+      "fulfilledBy": {
+        "id": 9025,
+        "bumpkinUri": "0_v1_348_263_184_0_0_41_226_258_30_0_0_0_0_372_344_177",
+        "username": "Polygon"
+      }
+    },
+    {
+      "id": "c9b0f445",
       "sfl": 3.184,
       "quantity": 200,
       "itemId": 602,
@@ -2374,7 +2395,7 @@
       }
     },
     {
-      "id": "c9b0f445",
+      "id": "9ca5b35d",
       "sfl": 3.184,
       "quantity": 200,
       "itemId": 602,
@@ -2507,7 +2528,7 @@
       }
     },
     {
-      "id": "4d6dc630",
+      "id": "721c418e",
       "sfl": 5.9268,
       "quantity": 100,
       "itemId": 642,
@@ -2526,7 +2547,7 @@
       }
     },
     {
-      "id": "721c418e",
+      "id": "4d6dc630",
       "sfl": 5.9268,
       "quantity": 100,
       "itemId": 642,
@@ -3115,7 +3136,7 @@
       }
     },
     {
-      "id": "6e00f0fb",
+      "id": "7b175c22",
       "sfl": 6.1248,
       "quantity": 50,
       "itemId": 645,
@@ -3134,7 +3155,7 @@
       }
     },
     {
-      "id": "7b175c22",
+      "id": "6e00f0fb",
       "sfl": 6.1248,
       "quantity": 50,
       "itemId": 645,
@@ -3283,25 +3304,6 @@
         "id": 67073,
         "bumpkinUri": "0_v1_352_127_97_282_234_99_400_221_407_311_86_483_160_410_0_266",
         "username": "Asterion"
-      }
-    },
-    {
-      "id": "eab70be7",
-      "sfl": 1.528,
-      "quantity": 100,
-      "itemId": 643,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769515171306,
-      "initiatedBy": {
-        "id": 55626,
-        "bumpkinUri": "0_v1_352_127_97_282_234_99_400_221_407_311_86_483_160_410_0_266",
-        "username": "Asterion"
-      },
-      "fulfilledBy": {
-        "id": 8532886447094017,
-        "bumpkinUri": "0_v1_32_3_50_459_504_22_240_517_0_228_0_0_0_189",
-        "username": "ichigo85"
       }
     }
   ]
