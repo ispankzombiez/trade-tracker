@@ -616,7 +616,7 @@
       "Pirate Bounty": "11",
       "Cow Skull": "10",
       "Trade Point": "6878.9252740829155758",
-      "Love Charm": "34369",
+      "Love Charm": "34371",
       "Ancient Clock": "10",
       "Hieroglyph": "65",
       "Broken Pillar": "10",
@@ -9838,16 +9838,16 @@
     "floatingIsland": {
       "schedule": [
         {
-          "startAt": 1769869200000,
-          "endAt": 1769871000000
-        },
-        {
           "startAt": 1769899200000,
           "endAt": 1769901000000
         },
         {
           "startAt": 1769929200000,
           "endAt": 1769931000000
+        },
+        {
+          "startAt": 1769959200000,
+          "endAt": 1769961000000
         }
       ],
       "shop": {
@@ -11046,8 +11046,15 @@
       ]
     },
     "mushrooms": {
-      "mushrooms": {},
-      "magicSpawnedAt": 1769760000000,
+      "mushrooms": {
+        "35cb3356": {
+          "name": "Magic Mushroom",
+          "amount": 1,
+          "x": 14,
+          "y": -8
+        }
+      },
+      "magicSpawnedAt": 1769839200000,
       "spawnedAt": 1769817600000
     },
     "delivery": {
@@ -13205,7 +13212,7 @@
           "petXP": 12325,
           "score": 1473.6,
           "collectivePet": {
-            "totalXP": 10219045,
+            "totalXP": 10357740,
             "goalXP": 4586794,
             "goalReached": true,
             "streak": 6,
@@ -13758,7 +13765,7 @@
           "experience": 1612.5,
           "lovedAt": 1769832935268,
           "item": "Petting Hand",
-          "healthCheckedAt": 1769781327633
+          "healthCheckedAt": 1769871811480
         },
         "239e13a5": {
           "id": "239e13a5",
@@ -13770,7 +13777,7 @@
           "experience": 1627.5,
           "lovedAt": 1769832934235,
           "item": "Brush",
-          "healthCheckedAt": 1769781327633
+          "healthCheckedAt": 1769871811480
         },
         "32ab06e1": {
           "id": "32ab06e1",
@@ -13782,7 +13789,7 @@
           "experience": 1597.5,
           "lovedAt": 1769832940671,
           "item": "Petting Hand",
-          "healthCheckedAt": 1769781327633
+          "healthCheckedAt": 1769871811480
         },
         "35acff2a": {
           "id": "35acff2a",
@@ -13794,7 +13801,7 @@
           "experience": 1627.5,
           "lovedAt": 1769832939693,
           "item": "Petting Hand",
-          "healthCheckedAt": 1769781327633
+          "healthCheckedAt": 1769871811480
         },
         "62c49316": {
           "id": "62c49316",
@@ -13806,7 +13813,7 @@
           "experience": 1552.5,
           "lovedAt": 1769832935922,
           "item": "Petting Hand",
-          "healthCheckedAt": 1769781327633
+          "healthCheckedAt": 1769871811480
         },
         "685209ef": {
           "id": "685209ef",
@@ -13818,7 +13825,7 @@
           "experience": 1590,
           "lovedAt": 1769832939911,
           "item": "Brush",
-          "healthCheckedAt": 1769781327633
+          "healthCheckedAt": 1769871811480
         },
         "72d99b45": {
           "id": "72d99b45",
@@ -13830,7 +13837,7 @@
           "experience": 1612.5,
           "lovedAt": 1769832940896,
           "item": "Petting Hand",
-          "healthCheckedAt": 1769781327633
+          "healthCheckedAt": 1769871811480
         },
         "732a0d24": {
           "id": "732a0d24",
@@ -13842,7 +13849,7 @@
           "experience": 1597.5,
           "lovedAt": 1769832941086,
           "item": "Petting Hand",
-          "healthCheckedAt": 1769781327633
+          "healthCheckedAt": 1769871811480
         },
         "77682a59": {
           "id": "77682a59",
@@ -13854,7 +13861,7 @@
           "experience": 1597.5,
           "lovedAt": 1769832935663,
           "item": "Music Box",
-          "healthCheckedAt": 1769781327633
+          "healthCheckedAt": 1769871811480
         },
         "79e4499f": {
           "id": "79e4499f",
@@ -13866,7 +13873,7 @@
           "experience": 1582.5,
           "lovedAt": 1769832934805,
           "item": "Petting Hand",
-          "healthCheckedAt": 1769781327633
+          "healthCheckedAt": 1769871811480
         },
         "95e9714a": {
           "id": "95e9714a",
@@ -13878,7 +13885,7 @@
           "experience": 1627.5,
           "lovedAt": 1769832940137,
           "item": "Music Box",
-          "healthCheckedAt": 1769781327633
+          "healthCheckedAt": 1769871811480
         },
         "ad8aa255": {
           "id": "ad8aa255",
@@ -13890,7 +13897,7 @@
           "experience": 1597.5,
           "lovedAt": 1769832934012,
           "item": "Music Box",
-          "healthCheckedAt": 1769781327633
+          "healthCheckedAt": 1769871811480
         },
         "b9fa9c59": {
           "id": "b9fa9c59",
@@ -13902,7 +13909,7 @@
           "experience": 1620,
           "lovedAt": 1769832939361,
           "item": "Music Box",
-          "healthCheckedAt": 1769781327633
+          "healthCheckedAt": 1769871811480
         },
         "bb10b5fd": {
           "id": "bb10b5fd",
@@ -13914,7 +13921,7 @@
           "experience": 1552.5,
           "lovedAt": 1769832941728,
           "item": "Petting Hand",
-          "healthCheckedAt": 1769781327633
+          "healthCheckedAt": 1769871811480
         },
         "c292766b": {
           "id": "c292766b",
@@ -13938,7 +13945,7 @@
           "experience": 1560,
           "lovedAt": 1769832936123,
           "item": "Brush",
-          "healthCheckedAt": 1769781327633
+          "healthCheckedAt": 1769871811480
         },
         "c5cde63a": {
           "id": "c5cde63a",
@@ -13950,7 +13957,7 @@
           "experience": 1590,
           "lovedAt": 1769832940329,
           "item": "Music Box",
-          "healthCheckedAt": 1769781327633
+          "healthCheckedAt": 1769871811480
         },
         "f32c9f44": {
           "id": "f32c9f44",
@@ -13962,7 +13969,7 @@
           "experience": 1537.5,
           "lovedAt": 1769832942188,
           "item": "Music Box",
-          "healthCheckedAt": 1769781327633
+          "healthCheckedAt": 1769871811480
         },
         "f6dd923a": {
           "id": "f6dd923a",
@@ -13974,7 +13981,7 @@
           "experience": 1582.5,
           "lovedAt": 1769832935054,
           "item": "Music Box",
-          "healthCheckedAt": 1769781327633
+          "healthCheckedAt": 1769871811480
         },
         "f9b60dc1": {
           "id": "f9b60dc1",
@@ -13986,7 +13993,7 @@
           "experience": 1650,
           "lovedAt": 1769832933729,
           "item": "Music Box",
-          "healthCheckedAt": 1769781327633
+          "healthCheckedAt": 1769871811480
         }
       }
     },
@@ -15241,8 +15248,8 @@
         "openedAt": 1743997150683
       },
       "quest": {
-        "startAt": 1769837611585,
-        "name": "tywins-tax",
+        "startAt": 1769958308817,
+        "name": "raven-secret",
         "choices": []
       }
     },
@@ -15629,7 +15636,7 @@
       "Boar Shrine": 1769836611566,
       "Collie Shrine": 1769796470512,
       "Tortoise Shrine": 1769835219909,
-      "Sleepy Chicken": 1769825530343,
+      "Sleepy Chicken": 1769871811480,
       "Sparrow Shrine": 1769837152450,
       "Super Star": 1767932642135,
       "Training Whistle": 1769796470512,
@@ -15647,7 +15654,7 @@
       "Magma Stone": 1769731320654
     },
     "socialFarming": {
-      "points": 52056,
+      "points": 52066,
       "villageProjects": {
         "Farmer's Monument": {
           "cheers": 100,
@@ -15658,7 +15665,7 @@
           "winnerId": 5178958604787022
         },
         "Miner's Monument": {
-          "cheers": 5085,
+          "cheers": 5087,
           "winnerId": 5928891570575858
         },
         "Teamwork Monument": {
@@ -15666,23 +15673,23 @@
           "winnerId": 1565472949656866
         },
         "Big Banana": {
-          "cheers": 195,
+          "cheers": 197,
           "winnerId": 128484
         },
         "Cornucopia": {
-          "cheers": 39,
+          "cheers": 41,
           "winnerId": 132460
         },
         "Big Apple": {
-          "cheers": 34,
+          "cheers": 36,
           "winnerId": 128484
         },
         "Expert Cooking Pot": {
-          "cheers": 34,
+          "cheers": 36,
           "winnerId": 128484
         },
         "Big Orange": {
-          "cheers": 24,
+          "cheers": 25,
           "winnerId": 171009
         }
       },
@@ -15734,7 +15741,7 @@
       },
       "weeklyPoints": {
         "week": "2026-01-26",
-        "points": 956
+        "points": 966
       },
       "helpIncrease": {
         "boughtAt": [

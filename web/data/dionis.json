@@ -1,18 +1,30 @@
 {
   "username": "dionis",
   "overview": {
-    "balance": 5.3,
-    "coins": 5516.0,
+    "balance": 3.71,
+    "coins": 4686.0,
     "gems": 0.0,
     "earned_sfl": 10740.11,
-    "earned_coins": 5516.0,
+    "earned_coins": 4686.0,
     "spent_sfl": 9313.33,
     "items_sold": 2022.0,
     "trade_points": 9793.86,
-    "last_updated": "2026-01-31 12:03 PM",
+    "last_updated": "2026-01-31 03:28 PM",
     "active_listings": 10
   },
   "buys": [
+    {
+      "date": "2026-01-31",
+      "time": "01:29 PM",
+      "type": "BUY",
+      "item": "Crimstone",
+      "quantity": 3,
+      "price_text": "1.5899 SFL",
+      "price": 1.5899,
+      "counterparty": "hellonov",
+      "farm_id": "-",
+      "trade_id": "13a03220"
+    },
     {
       "date": "2026-01-31",
       "time": "08:58 AM",
@@ -630,15 +642,24 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 39,
+    "total_buys": 40,
     "total_sells": 12,
-    "buy_volume": 108.2545,
+    "buy_volume": 109.84440000000001,
     "sell_volume": 36.408500000000004,
-    "gross_profit": -71.84599999999999,
-    "avg_buy_price": 2.77575641025641,
+    "gross_profit": -73.4359,
+    "avg_buy_price": 2.7461100000000003,
     "avg_sell_price": 3.034041666666667,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Crimstone",
+        "quantity": 3,
+        "price": 1.5899,
+        "date": "2026-01-31",
+        "time": "01:29 PM",
+        "username": "dionis"
+      },
       {
         "type": "BUY",
         "item": "Yam",
@@ -681,8 +702,7 @@
         "quantity": 7,
         "price": 3.76,
         "date": "2026-01-30",
-        "time": "07:43 AM",
-        "username": "dionis"
+        "time": "07:43 AM"
       },
       {
         "type": "BUY",
@@ -795,17 +815,9 @@
         "price": 0.8879,
         "date": "2026-01-25",
         "time": "02:03 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Pepper",
-        "quantity": 102,
-        "price": 0.5671,
-        "date": "2026-01-25",
-        "time": "01:13 PM"
       }
     ],
-    "profit_margin": -66.36767986550211,
+    "profit_margin": -66.85447778858094,
     "most_bought_items": {
       "Yam": 2450,
       "Wood": 1094,
@@ -814,7 +826,7 @@
       "Feather": 218,
       "Radish": 100,
       "Leather": 50,
-      "Crimstone": 34,
+      "Crimstone": 37,
       "Honey": 20,
       "Ruffroot": 10
     },
@@ -918,8 +930,51 @@
   ],
   "active_offers": [],
   "inventory": {
-    "crops": {},
-    "fruits": {},
-    "resources": {}
+    "crops": {
+      "Sunflower": 14836.653600000704,
+      "Potato": 5993.161399999866,
+      "Pumpkin": 2042.0822000000894,
+      "Carrot": 3188.9649999999842,
+      "Cabbage": 1608.8104999999987,
+      "Beetroot": 1337.418499999999,
+      "Cauliflower": 1.2509999999987358,
+      "Parsnip": 6.744399999999858,
+      "Radish": 703.7666999999999,
+      "Wheat": 113.23240000000102,
+      "Kale": 1.3043000000020837,
+      "Eggplant": 1850.4339999999988,
+      "Corn": 160.09499999999977,
+      "Soybean": 911.5015000000021,
+      "Olive": 0.004,
+      "Barley": 0.6295000000005117,
+      "Rhubarb": 2776.449800000164,
+      "Zucchini": 946.0000000000753,
+      "Yam": 1684.3210999999983,
+      "Broccoli": 160.1401999999981,
+      "Pepper": 54.93749999999876,
+      "Onion": 343.8486000000001,
+      "Turnip": 565.5958000000004,
+      "Artichoke": 480.2982999999998
+    },
+    "fruits": {
+      "Apple": 229.98000000000008,
+      "Blueberry": 23.700000000000014,
+      "Orange": 130.30000000000015,
+      "Banana": 117.45000000000009,
+      "Grape": 0.45,
+      "Tomato": 180.10000000000016,
+      "Lemon": 4.550000000000307,
+      "Celestine": 1e-15,
+      "Lunara": 1.000000000000001,
+      "Duskberry": 5.000000000000001
+    },
+    "resources": {
+      "Wood": 21.94,
+      "Stone": 839.65,
+      "Iron": 364.7,
+      "Gold": 43.4,
+      "Obsidian": 2.05,
+      "Crimstone": 1.8
+    }
   }
 }

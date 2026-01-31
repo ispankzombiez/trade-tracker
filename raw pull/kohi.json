@@ -311,7 +311,7 @@
       "Fruit Salad": "2",
       "Cornbread": "1",
       "Axe": "25",
-      "Love Charm": "541",
+      "Love Charm": "545",
       "Kale Seed": "2",
       "Barley Seed": "28",
       "Mashed Potato": "5",
@@ -4830,16 +4830,16 @@
     "floatingIsland": {
       "schedule": [
         {
-          "startAt": 1769869200000,
-          "endAt": 1769871000000
-        },
-        {
           "startAt": 1769899200000,
           "endAt": 1769901000000
         },
         {
           "startAt": 1769929200000,
           "endAt": 1769931000000
+        },
+        {
+          "startAt": 1769959200000,
+          "endAt": 1769961000000
         }
       ],
       "shop": {
@@ -6566,7 +6566,7 @@
           "petXP": 0,
           "score": 0,
           "collectivePet": {
-            "totalXP": 7093239,
+            "totalXP": 7165593,
             "goalXP": 2404688,
             "goalReached": true,
             "streak": 3,
@@ -7463,7 +7463,7 @@
       "Sunshower": 1769424323774
     },
     "socialFarming": {
-      "points": 17620,
+      "points": 17628,
       "villageProjects": {
         "Farmer's Monument": {
           "cheers": 100,
@@ -7474,19 +7474,20 @@
           "winnerId": 2299
         },
         "Miner's Monument": {
-          "cheers": 1274,
+          "cheers": 1275,
           "winnerId": 5765
         },
         "Advanced Cooking Pot": {
-          "cheers": 41,
+          "cheers": 42,
           "winnerId": 128484
         },
         "Expert Cooking Pot": {
-          "cheers": 38,
+          "cheers": 39,
           "winnerId": 6448515280974209
         },
         "Basic Cooking Pot": {
-          "cheers": 0
+          "cheers": 1,
+          "winnerId": 2155559697433739
         }
       },
       "cheers": {
@@ -7542,7 +7543,7 @@
       },
       "weeklyPoints": {
         "week": "2026-01-26",
-        "points": 512
+        "points": 520
       },
       "helpIncrease": {
         "boughtAt": [
@@ -7562,7 +7563,7 @@
         "2970": {
           "id": 2970,
           "name": "Pet #2970",
-          "experience": 27795,
+          "experience": 27800,
           "energy": 480,
           "requests": {
             "food": [
@@ -7592,7 +7593,7 @@
           },
           "location": "farm",
           "dailySocialXP": {
-            "2026-01-31": 5
+            "2026-01-31": 10
           },
           "walking": true,
           "fetches": {

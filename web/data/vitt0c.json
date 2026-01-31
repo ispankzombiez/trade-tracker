@@ -1,16 +1,16 @@
 {
   "username": "vitt0c",
   "overview": {
-    "balance": 22874.79,
+    "balance": 22883.0,
     "coins": 14062.0,
     "gems": 0.0,
     "earned_sfl": 15138.15,
     "earned_coins": 14062.0,
     "spent_sfl": 14331.72,
     "items_sold": 10284.0,
-    "trade_points": 97983.44,
-    "last_updated": "2026-01-31 01:13 PM",
-    "active_listings": 145
+    "trade_points": 97992.16,
+    "last_updated": "2026-01-31 03:28 PM",
+    "active_listings": 142
   },
   "buys": [
     {
@@ -243,6 +243,18 @@
     }
   ],
   "sells": [
+    {
+      "date": "2026-01-31",
+      "time": "02:21 PM",
+      "type": "SELL",
+      "item": "Merino Wool",
+      "quantity": 200,
+      "price_text": "2.125 SFL",
+      "price": 2.125,
+      "counterparty": "Fealzen",
+      "farm_id": "-",
+      "trade_id": "eb18720d"
+    },
     {
       "date": "2026-01-31",
       "time": "10:27 AM",
@@ -1855,12 +1867,12 @@
   "last_updated": null,
   "stats": {
     "total_buys": 19,
-    "total_sells": 134,
+    "total_sells": 135,
     "buy_volume": 130.8629,
-    "sell_volume": 8811.0424,
-    "gross_profit": 8680.1795,
+    "sell_volume": 8813.1674,
+    "gross_profit": 8682.3045,
     "avg_buy_price": 6.887521052631579,
-    "avg_sell_price": 65.75404776119403,
+    "avg_sell_price": 65.28272148148149,
     "most_traded_items": {},
     "recent_activity": [
       {
@@ -2024,12 +2036,12 @@
         "type": "SELL",
         "item": "Merino Wool",
         "quantity": 200,
-        "price": 2.8439,
+        "price": 2.125,
         "date": "2026-01-31",
-        "time": "10:27 AM"
+        "time": "02:21 PM"
       }
     ],
-    "profit_margin": 6633.033120922737,
+    "profit_margin": 6634.656957777949,
     "most_bought_items": {
       "Radish": 600,
       "Eggplant": 500,
@@ -2046,8 +2058,8 @@
       "Yam": 9000,
       "Beetroot": 8050,
       "Tomato": 4260,
+      "Merino Wool": 1420,
       "Wool": 1250,
-      "Merino Wool": 1220,
       "Gold": 360,
       "Crimstone": 20,
       "Obsidian Turtle": 1
@@ -3126,24 +3138,6 @@
       "trade_type": "instant"
     },
     {
-      "id": "775599f5",
-      "item": "Merino Wool",
-      "quantity": 200,
-      "price": 2.8439,
-      "created_at": 1769657651862,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "4e6b988c",
-      "item": "Merino Wool",
-      "quantity": 200,
-      "price": 2.8439,
-      "created_at": 1769657658363,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
       "id": "dd01cb4b",
       "item": "Wool",
       "quantity": 100,
@@ -3230,15 +3224,6 @@
       "quantity": 200,
       "price": 1.0615,
       "created_at": 1769748306551,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "2f94040c",
-      "item": "Tomato",
-      "quantity": 200,
-      "price": 1.0615,
-      "created_at": 1769748311413,
       "collection": "collectibles",
       "trade_type": "instant"
     },
@@ -3704,24 +3689,6 @@
       "trade_type": "instant"
     },
     {
-      "id": "be20bc60",
-      "item": "Warty Goblin Pumpkin",
-      "quantity": 1,
-      "price": 1.701,
-      "created_at": 1769816601381,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "f3de98fe",
-      "item": "Adirondack Potato",
-      "quantity": 1,
-      "price": 2.231,
-      "created_at": 1769816615357,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
       "id": "17680fb5",
       "item": "Adirondack Potato",
       "quantity": 1,
@@ -3736,24 +3703,6 @@
       "quantity": 1,
       "price": 2.231,
       "created_at": 1769816622768,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "f1e7ee84",
-      "item": "Chiogga",
-      "quantity": 1,
-      "price": 6.751,
-      "created_at": 1769816648526,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "89beec10",
-      "item": "Chiogga",
-      "quantity": 1,
-      "price": 6.751,
-      "created_at": 1769816662761,
       "collection": "collectibles",
       "trade_type": "instant"
     },
@@ -3845,18 +3794,18 @@
       "Blueberry": 385.4500000000022,
       "Orange": 255.20000000000098,
       "Banana": 557.65,
-      "Grape": 574.7,
-      "Tomato": 10518.05,
+      "Grape": 587.9,
+      "Tomato": 10585.5,
       "Lemon": 7184.250000000004,
       "Duskberry": 14.9,
       "Lunara": 15.300000000000011,
       "Celestine": 17.8
     },
     "resources": {
-      "Wood": 35904.7185,
-      "Stone": 3753.61,
-      "Iron": 1988.5,
-      "Gold": 962.02,
+      "Wood": 35976.4185,
+      "Stone": 3810.41,
+      "Iron": 2046.0,
+      "Gold": 991.62,
       "Crimstone": 783.2,
       "Obsidian": 18.0
     }

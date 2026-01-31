@@ -14,7 +14,7 @@
       "Carrot": "152.0710000000000072",
       "Cabbage": "303.1655",
       "Beetroot": "24.4650000000000007",
-      "Cauliflower": "12.6650000000000234",
+      "Cauliflower": "2.6650000000000234",
       "Parsnip": "58.1550000000000679",
       "Radish": "506.0796",
       "Wheat": "429.575000000000236",
@@ -35,13 +35,13 @@
       "Blue Carnation": "5",
       "Red Daffodil": "8",
       "White Daffodil": "2",
-      "Soybean": "22.7",
+      "Soybean": "2.7",
       "Tomato": "69.2000000000000038",
       "Lemon": "148.45",
       "Barley": "355.6100000000000414",
       "Rhubarb": "2198.2",
       "Zucchini": "134.65",
-      "Yam": "30.63",
+      "Yam": "15.63",
       "Broccoli": "105.6",
       "Pepper": "37.95",
       "Onion": "18.5749",
@@ -118,7 +118,7 @@
       "Quick Juice": "4",
       "Wood": "69.08",
       "Gold": "17.95",
-      "Egg": "50.7",
+      "Egg": "30.7",
       "Speed Chicken": "1",
       "Fat Chicken": "1",
       "Rich Chicken": "1",
@@ -132,10 +132,10 @@
       "Crop Plot": "65",
       "Fruit Patch": "15",
       "Basic Land": "13",
-      "Earthworm": "2580",
+      "Earthworm": "2587",
       "Grub": "343",
       "Red Wiggler": "55",
-      "Sprout Mix": "339",
+      "Sprout Mix": "355",
       "Fruitful Blend": "103",
       "Rapid Root": "75",
       "Fishing Lure": "45",
@@ -406,7 +406,7 @@
       "Pipi": "2",
       "Wooden Compass": "2",
       "Trade Point": "518.38635",
-      "Love Charm": "302",
+      "Love Charm": "303",
       "Old Bottle": "45",
       "Ancient Clock": "1",
       "Cockle Shell": "23",
@@ -495,7 +495,7 @@
       "Sea Slug": "12",
       "Rice Seed": "4",
       "Club Sandwich": "4",
-      "Fish Flake": "4",
+      "Fish Flake": "5",
       "Purple Daffodil": "2",
       "Corn Seed": "9",
       "Paw Prints Raffle Ticket": "115",
@@ -567,7 +567,8 @@
       "Stone Pickaxe": "2",
       "Red Snapper": "2",
       "Pancakes": "1",
-      "Basic Cooking Pot": "1"
+      "Basic Cooking Pot": "1",
+      "Roast Veggies": "1"
     },
     "previousInventory": {
       "Potato Seed": "500",
@@ -5570,16 +5571,6 @@
           "readyAt": 1739610962015,
           "crafting": [
             {
-              "name": "Roast Veggies",
-              "boost": {
-                "Oil": 0
-              },
-              "skills": {
-                "Double Nom": false
-              },
-              "readyAt": 1769859192470
-            },
-            {
               "name": "Goblin Brunch",
               "boost": {
                 "Oil": 0
@@ -5588,6 +5579,16 @@
                 "Double Nom": false
               },
               "readyAt": 1769894184470
+            },
+            {
+              "name": "Tofu Scramble",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": false
+              },
+              "readyAt": 1769902932470
             }
           ],
           "oil": 0,
@@ -5687,10 +5688,10 @@
           "producing": {
             "items": {
               "Sprout Mix": 16,
-              "Earthworm": 7
+              "Earthworm": 5
             },
-            "startedAt": 1769843197675,
-            "readyAt": 1769862637675
+            "startedAt": 1769862949938,
+            "readyAt": 1769882389938
           }
         }
       ],
@@ -5780,18 +5781,7 @@
           "id": "96199109",
           "createdAt": 1767587382139,
           "readyAt": 1767590982139,
-          "processing": [
-            {
-              "name": "Fish Flake",
-              "readyAt": 1769860949461,
-              "startedAt": 1769857349461,
-              "requirements": {
-                "Anchovy": "4",
-                "Halibut": "2",
-                "Muskellunge": "2"
-              }
-            }
-          ],
+          "processing": [],
           "coordinates": {
             "x": 8,
             "y": 7
@@ -6196,16 +6186,16 @@
     "floatingIsland": {
       "schedule": [
         {
-          "startAt": 1769869200000,
-          "endAt": 1769871000000
-        },
-        {
           "startAt": 1769899200000,
           "endAt": 1769901000000
         },
         {
           "startAt": 1769929200000,
           "endAt": 1769931000000
+        },
+        {
+          "startAt": 1769959200000,
+          "endAt": 1769961000000
         }
       ],
       "shop": {
@@ -6281,7 +6271,7 @@
       "Goblin's Treat Cooked": 93,
       "Roast Veggies Fed": 6,
       "Pumpkin Planted": 19090,
-      "Roast Veggies Cooked": 376,
+      "Roast Veggies Cooked": 377,
       "Carrot Cake Fed": 10,
       "Starfish Dug": 5,
       "White Balloon Flower Harvested": 22,
@@ -6313,7 +6303,7 @@
       "Luminous Lantern Crafted": 10,
       "Celestial Frostbloom Harvested": 62,
       "Wheat Planted": 11842,
-      "Compost Bin Collected": 1633,
+      "Compost Bin Collected": 1634,
       "Apple Sold": 456.25,
       "Popcorn Cooked": 333,
       "Potted Potato Bought": 1,
@@ -7146,7 +7136,7 @@
       "Minigame Item Purchased": 1,
       "Cool Glasses Bought": 1,
       "Yellow Edelweiss Bountied": 1,
-      "Fish Flake Processed": 5,
+      "Fish Flake Processed": 6,
       "Fish Stick Processed": 32,
       "Fish Oil Processed": 17,
       "Auction Reward Claimed": 3,
@@ -8448,7 +8438,7 @@
           "petXP": 0,
           "score": 50,
           "collectivePet": {
-            "totalXP": 7077579,
+            "totalXP": 7165593,
             "goalXP": 2404688,
             "goalReached": true,
             "streak": 3,
@@ -9653,8 +9643,8 @@
       "Woody the Beaver": 1769860744603,
       "Bee Suit": 1769824272372,
       "Sweet Bonus": 1769824272372,
-      "Efficient Bin": 1769843197675,
-      "Soil Krabby": 1769843197675,
+      "Efficient Bin": 1769862949938,
+      "Soil Krabby": 1769862949938,
       "Maneki Neko": 1769823655635,
       "Corn Onesie": 1768768018364,
       "Green Thumb": 1769850682343,
@@ -9690,8 +9680,8 @@
       "Rich Chicken": 1769850565829,
       "Speed Chicken": 1769850565829,
       "Undead Rooster": 1769850565829,
-      "Desert Gnome": 1769856389750,
-      "Fast Feasts": 1769856389750,
+      "Desert Gnome": 1769863794147,
+      "Fast Feasts": 1769863794147,
       "Premium Worms": 1769832239765,
       "Gold Beetle": 1769853699917,
       "Golden Touch": 1769853699917,
@@ -9736,7 +9726,7 @@
       "Banana Onesie": 1769621496941,
       "Nana": 1769621496941,
       "Jellyfish": 1769326233742,
-      "Turd Topper": 1769843197675,
+      "Turd Topper": 1769862949938,
       "Giant Zucchini": 1764347030471,
       "Summer Chicken": 1759465504803,
       "Banana Chicken": 1769621496941,
@@ -9769,11 +9759,11 @@
       "Abundant Harvest": 1769850565829,
       "Bale Economy": 1769767165808,
       "Experienced Farmer": 1769850406729,
-      "Bucket O' Worms": 1769843197675,
-      "Wormy Treat": 1769843197675,
-      "Saw Fish": 1769846784575,
+      "Bucket O' Worms": 1769862949938,
+      "Wormy Treat": 1769862949938,
+      "Saw Fish": 1769862949938,
       "Giant Artichoke": 1769745550428,
-      "Lunar Temple": 1769853996137,
+      "Lunar Temple": 1769871437643,
       "Fisherman's 10 Fold": 1769846784575,
       "Deep Sea Helm": 1767419312958,
       "Super Star": 1768124315885,
@@ -9786,7 +9776,7 @@
       "Nom Nom": 1769824824567
     },
     "socialFarming": {
-      "points": 35446,
+      "points": 35451,
       "villageProjects": {
         "Farmer's Monument": {
           "cheers": 100,
@@ -9797,27 +9787,28 @@
           "winnerId": 132826
         },
         "Miner's Monument": {
-          "cheers": 3781,
+          "cheers": 3783,
           "winnerId": 7543661884884280
         },
         "Big Banana": {
-          "cheers": 184,
+          "cheers": 185,
           "winnerId": 9239
         },
         "Big Apple": {
-          "cheers": 46,
+          "cheers": 47,
           "winnerId": 1164010181301338
         },
         "Cornucopia": {
-          "cheers": 66,
+          "cheers": 68,
           "winnerId": 1621
         },
         "Big Orange": {
-          "cheers": 10,
+          "cheers": 11,
           "winnerId": 80879
         },
         "Basic Cooking Pot": {
-          "cheers": 0
+          "cheers": 1,
+          "winnerId": 9239
         }
       },
       "cheers": {
@@ -9880,7 +9871,7 @@
       },
       "weeklyPoints": {
         "week": "2026-01-26",
-        "points": 1790
+        "points": 1795
       },
       "helpIncrease": {
         "boughtAt": [
@@ -9918,7 +9909,7 @@
         "2985": {
           "id": 2985,
           "name": "Pet #2985",
-          "experience": 120715,
+          "experience": 120725,
           "energy": 2090,
           "requests": {
             "food": [
@@ -9939,7 +9930,7 @@
               "2026-01-31": 1
             }
           },
-          "pettedAt": 1769855377359,
+          "pettedAt": 1769862591454,
           "traits": {
             "type": "Warthog",
             "fur": "Cream",
@@ -9990,7 +9981,7 @@
         },
         "Burro": {
           "name": "Burro",
-          "experience": 54099,
+          "experience": 54109,
           "energy": 1970,
           "requests": {
             "food": [
@@ -10003,7 +9994,7 @@
               "Purple Smoothie"
             ]
           },
-          "pettedAt": 1769855378269,
+          "pettedAt": 1769862592618,
           "dailySocialXP": {
             "2026-01-31": 50
           },
@@ -10060,7 +10051,7 @@
         },
         "Oxen": {
           "name": "Oxen",
-          "experience": 2060,
+          "experience": 2070,
           "energy": 810,
           "requests": {
             "food": [
@@ -10073,7 +10064,7 @@
               "Rhubarb Tart"
             ]
           },
-          "pettedAt": 1769855377853,
+          "pettedAt": 1769862592126,
           "dailySocialXP": {
             "2026-01-31": 50
           }
