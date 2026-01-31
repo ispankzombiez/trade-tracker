@@ -9,10 +9,34 @@
     "spent_sfl": 768.27,
     "items_sold": 142.0,
     "trade_points": 3540.61,
-    "last_updated": "2026-01-31 12:28 AM",
+    "last_updated": "2026-01-31 01:15 AM",
     "active_listings": 2
   },
   "buys": [
+    {
+      "date": "2026-01-31",
+      "time": "01:10 AM",
+      "type": "BUY",
+      "item": "Blueberry",
+      "quantity": 20,
+      "price_text": "0.3738 SFL",
+      "price": 0.3738,
+      "counterparty": "lliw",
+      "farm_id": "-",
+      "trade_id": "cab47a41"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "01:01 AM",
+      "type": "BUY",
+      "item": "Milk",
+      "quantity": 20,
+      "price_text": "2.4732 SFL",
+      "price": 2.4732,
+      "counterparty": "LioMarco",
+      "farm_id": "-",
+      "trade_id": "a31fdf6c"
+    },
     {
       "date": "2026-01-30",
       "time": "04:13 PM",
@@ -618,15 +642,33 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 45,
+    "total_buys": 47,
     "total_sells": 5,
-    "buy_volume": 104.13119999999998,
+    "buy_volume": 106.97819999999996,
     "sell_volume": 13.6125,
-    "gross_profit": -90.51869999999998,
-    "avg_buy_price": 2.314026666666666,
+    "gross_profit": -93.36569999999996,
+    "avg_buy_price": 2.2761319148936163,
     "avg_sell_price": 2.7225,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Blueberry",
+        "quantity": 20,
+        "price": 0.3738,
+        "date": "2026-01-31",
+        "time": "01:10 AM",
+        "username": "maxam"
+      },
+      {
+        "type": "BUY",
+        "item": "Milk",
+        "quantity": 20,
+        "price": 2.4732,
+        "date": "2026-01-31",
+        "time": "01:01 AM",
+        "username": "maxam"
+      },
       {
         "type": "BUY",
         "item": "Sunflower",
@@ -660,8 +702,7 @@
         "quantity": 200,
         "price": 1.7,
         "date": "2026-01-29",
-        "time": "12:01 PM",
-        "username": "maxam"
+        "time": "12:01 PM"
       },
       {
         "type": "BUY",
@@ -669,8 +710,7 @@
         "quantity": 15,
         "price": 1.8975,
         "date": "2026-01-29",
-        "time": "11:53 AM",
-        "username": "maxam"
+        "time": "11:53 AM"
       },
       {
         "type": "BUY",
@@ -775,33 +815,17 @@
         "price": 0.3988,
         "date": "2026-01-22",
         "time": "12:02 AM"
-      },
-      {
-        "type": "BUY",
-        "item": "Stone",
-        "quantity": 50,
-        "price": 0.785,
-        "date": "2026-01-21",
-        "time": "11:25 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Iron",
-        "quantity": 86,
-        "price": 5.3745,
-        "date": "2026-01-21",
-        "time": "11:23 PM"
       }
     ],
-    "profit_margin": -86.92754909191481,
+    "profit_margin": -87.27544490372804,
     "most_bought_items": {
       "Sunflower": 4500,
       "Potato": 2000,
       "Wood": 1705,
       "Pumpkin": 1000,
       "Egg": 335,
+      "Milk": 311,
       "Tomato": 300,
-      "Milk": 291,
       "Stone": 225,
       "Lemon": 200,
       "Leather": 133
@@ -834,11 +858,11 @@
   ],
   "active_offers": [
     {
-      "id": "5d961974",
-      "item": "Milk",
-      "quantity": 30,
-      "price": 3.57,
-      "created_at": 1769816413550,
+      "id": "c30c3f08",
+      "item": "Parsnip",
+      "quantity": 20,
+      "price": 0.37,
+      "created_at": 1769821872633,
       "collection": "collectibles",
       "trade_type": "instant"
     }
