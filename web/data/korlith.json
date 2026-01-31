@@ -1,18 +1,42 @@
 {
   "username": "korlith",
   "overview": {
-    "balance": 0.84,
-    "coins": 36772.0,
+    "balance": 1.95,
+    "coins": 36040.0,
     "gems": 0.0,
     "earned_sfl": 3698.91,
-    "earned_coins": 36772.0,
+    "earned_coins": 36040.0,
     "spent_sfl": 4760.42,
-    "items_sold": 6508.0,
+    "items_sold": 6509.0,
     "trade_points": 25312.94,
-    "last_updated": "2026-01-31 02:34 PM",
+    "last_updated": "2026-01-31 03:54 PM",
     "active_listings": 0
   },
   "buys": [
+    {
+      "date": "2026-01-31",
+      "time": "03:05 PM",
+      "type": "BUY",
+      "item": "Blueberry",
+      "quantity": 30,
+      "price_text": "0.555 SFL",
+      "price": 0.555,
+      "counterparty": "ratbo",
+      "farm_id": "-",
+      "trade_id": "a056281f"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "02:36 PM",
+      "type": "BUY",
+      "item": "Feather",
+      "quantity": 100,
+      "price_text": "0.49 SFL",
+      "price": 0.49,
+      "counterparty": "pqk7812",
+      "farm_id": "-",
+      "trade_id": "ec5aab81"
+    },
     {
       "date": "2026-01-31",
       "time": "02:13 PM",
@@ -617,6 +641,30 @@
   "sells": [
     {
       "date": "2026-01-31",
+      "time": "03:06 PM",
+      "type": "SELL",
+      "item": "Gold",
+      "quantity": 5,
+      "price_text": "1.2001 SFL",
+      "price": 1.2001,
+      "counterparty": "Edymax",
+      "farm_id": "-",
+      "trade_id": "bf883819"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "02:51 PM",
+      "type": "SELL",
+      "item": "Milk",
+      "quantity": 9,
+      "price_text": "1.1232 SFL",
+      "price": 1.1232,
+      "counterparty": "Granato",
+      "farm_id": "-",
+      "trade_id": "4e15e00b"
+    },
+    {
+      "date": "2026-01-31",
       "time": "02:11 PM",
       "type": "SELL",
       "item": "Leather",
@@ -1158,15 +1206,33 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 50,
-    "total_sells": 45,
-    "buy_volume": 44.7345,
-    "sell_volume": 37.572399999999995,
-    "gross_profit": -7.162100000000002,
-    "avg_buy_price": 0.89469,
-    "avg_sell_price": 0.8349422222222221,
+    "total_buys": 52,
+    "total_sells": 47,
+    "buy_volume": 45.77949999999999,
+    "sell_volume": 39.89569999999999,
+    "gross_profit": -5.883800000000001,
+    "avg_buy_price": 0.8803749999999998,
+    "avg_sell_price": 0.8488446808510637,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Blueberry",
+        "quantity": 30,
+        "price": 0.555,
+        "date": "2026-01-31",
+        "time": "03:05 PM",
+        "username": "korlith"
+      },
+      {
+        "type": "BUY",
+        "item": "Feather",
+        "quantity": 100,
+        "price": 0.49,
+        "date": "2026-01-31",
+        "time": "02:36 PM",
+        "username": "korlith"
+      },
       {
         "type": "BUY",
         "item": "Feather",
@@ -1200,8 +1266,7 @@
         "quantity": 100,
         "price": 0.2111,
         "date": "2026-01-31",
-        "time": "01:25 PM",
-        "username": "korlith"
+        "time": "01:25 PM"
       },
       {
         "type": "BUY",
@@ -1209,8 +1274,7 @@
         "quantity": 250,
         "price": 0.5279,
         "date": "2026-01-31",
-        "time": "01:25 PM",
-        "username": "korlith"
+        "time": "01:25 PM"
       },
       {
         "type": "BUY",
@@ -1315,32 +1379,16 @@
         "price": 0.462,
         "date": "2026-01-30",
         "time": "11:53 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Apple",
-        "quantity": 50,
-        "price": 1.05,
-        "date": "2026-01-30",
-        "time": "11:53 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Apple",
-        "quantity": 50,
-        "price": 1.05,
-        "date": "2026-01-30",
-        "time": "11:52 PM"
       }
     ],
-    "profit_margin": -16.010238183057826,
+    "profit_margin": -12.852477637370443,
     "most_bought_items": {
       "Sunflower": 4000,
       "Potato": 3000,
       "Soybean": 1778,
       "Yam": 1669,
       "Broccoli": 849,
-      "Feather": 550,
+      "Feather": 650,
       "Apple": 267,
       "Cauliflower": 200,
       "Tomato": 138,
@@ -1349,9 +1397,9 @@
     "most_sold_items": {
       "Wood": 900,
       "Egg": 120,
-      "Milk": 46,
+      "Milk": 55,
       "Leather": 38,
-      "Gold": 21,
+      "Gold": 26,
       "Rice": 10,
       "Stone": 10,
       "Crimstone": 8,
@@ -1360,39 +1408,20 @@
     }
   },
   "active_listings": [],
-  "active_offers": [
-    {
-      "id": "498193f8",
-      "item": "Feather",
-      "quantity": 100,
-      "price": 0.49,
-      "created_at": 1769868744399,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "ec5aab81",
-      "item": "Feather",
-      "quantity": 100,
-      "price": 0.49,
-      "created_at": 1769868756332,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    }
-  ],
+  "active_offers": [],
   "inventory": {
     "crops": {
       "Sunflower": 1422.8895000003745,
-      "Potato": 1838.1918999998384,
+      "Potato": 1822.1918999998384,
       "Pumpkin": 716.0419999999783,
-      "Carrot": 587.5454,
+      "Carrot": 467.54540000000003,
       "Cabbage": 4.087,
       "Beetroot": 5.9647,
       "Cauliflower": 101.3916,
       "Parsnip": 12.7139,
       "Radish": 7.200100000000066,
-      "Wheat": 1229.1921000000016,
-      "Kale": 5.281000000000489,
+      "Wheat": 1209.1921000000016,
+      "Kale": 0.2810000000004887,
       "Eggplant": 68.4611,
       "Corn": 305.5260000000001,
       "Soybean": 831.7998,
@@ -1409,20 +1438,20 @@
       "Olive": 0.05
     },
     "fruits": {
-      "Apple": 4.300000000000121,
+      "Apple": 0.3000000000001208,
       "Orange": 12.500000000000357,
-      "Tomato": 91.60000000000198,
+      "Tomato": 56.600000000001984,
       "Lemon": 119.10000000000153,
       "Grape": 0.15,
-      "Blueberry": 2.1000000000001022,
+      "Blueberry": 17.1000000000001,
       "Banana": 26.0
     },
     "resources": {
-      "Wood": 336.08,
-      "Stone": 164.5,
-      "Iron": 4.3,
+      "Wood": 394.38,
+      "Stone": 104.5,
+      "Iron": 4.9,
       "Crimstone": 23.3,
-      "Gold": 18.4,
+      "Gold": 1.4,
       "Obsidian": 2.0
     }
   }

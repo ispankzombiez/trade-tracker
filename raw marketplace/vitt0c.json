@@ -1,6 +1,6 @@
 {
   "id": 9609,
-  "totalTrades": 14367,
+  "totalTrades": 14368,
   "level": 188,
   "weeklyFlowerSpent": 28.5839,
   "weeklyFlowerEarned": 15.2940425,
@@ -1436,7 +1436,9 @@
       },
       "sfl": 1.7603,
       "collection": "collectibles",
-      "tradeType": "instant"
+      "tradeType": "instant",
+      "fulfilledAt": 1769873043779,
+      "fulfilledById": 41740
     },
     "798d49e6": {
       "createdAt": 1767836806954,
@@ -1878,6 +1880,25 @@
   ],
   "trades": [
     {
+      "id": "1799b06e",
+      "sfl": 1.7603,
+      "quantity": 100,
+      "itemId": 212,
+      "collection": "collectibles",
+      "source": "offer",
+      "fulfilledAt": 1769873043779,
+      "initiatedBy": {
+        "id": 9609,
+        "bumpkinUri": "0_v1_460_1_74_474_20_34_45_0_351",
+        "username": "StreetMoney"
+      },
+      "fulfilledBy": {
+        "id": 41740,
+        "bumpkinUri": "0_v1_122_158_184_0_0_99_499_377_389_381_0_0_0_175_98_177_498",
+        "username": "Vitt0c"
+      }
+    },
+    {
       "id": "eb18720d",
       "sfl": 2.125,
       "quantity": 200,
@@ -2087,7 +2108,7 @@
       }
     },
     {
-      "id": "73b01939",
+      "id": "7bac6037",
       "sfl": 4.9976,
       "quantity": 2000,
       "itemId": 205,
@@ -2106,7 +2127,7 @@
       }
     },
     {
-      "id": "faa7bfc7",
+      "id": "73b01939",
       "sfl": 4.9976,
       "quantity": 2000,
       "itemId": 205,
@@ -2144,7 +2165,7 @@
       }
     },
     {
-      "id": "7bac6037",
+      "id": "faa7bfc7",
       "sfl": 4.9976,
       "quantity": 2000,
       "itemId": 205,
@@ -2787,25 +2808,6 @@
         "id": 1990601374854522,
         "bumpkinUri": "0_v1_32_1_42_459_18_22_240_476_0_0_86",
         "username": "fh56"
-      }
-    },
-    {
-      "id": "95e98be4",
-      "sfl": 5.8942,
-      "quantity": 100,
-      "itemId": 642,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769823654050,
-      "initiatedBy": {
-        "id": 9609,
-        "bumpkinUri": "0_v1_122_158_184_0_0_99_499_377_389_381_0_0_0_175_98_177_498",
-        "username": "Vitt0c"
-      },
-      "fulfilledBy": {
-        "id": 7968951554148836,
-        "bumpkinUri": "0_v1_48_263_74_503_373_34_500_490_406_238_0_0_494_385",
-        "username": "Chloe"
       }
     },
     {

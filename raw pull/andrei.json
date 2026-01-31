@@ -1,6 +1,6 @@
 {
   "farm": {
-    "coins": 54272.17975350029,
+    "coins": 54372.17975350029,
     "balance": "9.1473929586511515",
     "previousBalance": "1845.0081721957802447",
     "inventory": {
@@ -18,14 +18,14 @@
       "Corn Seed": "185",
       "Banana Plant": "36",
       "Sunpetal Seed": "46",
-      "Bloom Seed": "25",
+      "Bloom Seed": "21",
       "Lily Seed": "13",
       "Soybean Seed": "547",
       "Lemon Seed": "60",
       "Barley Seed": "180",
       "Rhubarb Seed": "1200",
       "Zucchini Seed": "1200",
-      "Yam Seed": "367",
+      "Yam Seed": "254",
       "Broccoli Seed": "425",
       "Onion Seed": "300",
       "Turnip Seed": "240",
@@ -34,20 +34,20 @@
       "Gladiolus Seed": "13",
       "Lavender Seed": "13",
       "Clover Seed": "13",
-      "Sunflower": "25301.5983000085144",
+      "Sunflower": "25151.5983000085144",
       "Potato": "63550.458000000624116",
       "Pumpkin": "4.6147999999876",
       "Carrot": "9371.597000000000002",
       "Cabbage": "4728.882",
       "Beetroot": "320.7724000000000051",
-      "Cauliflower": "90.0900000000000088",
+      "Cauliflower": "85.0900000000000088",
       "Parsnip": "33.976",
       "Radish": "3.0060000000000167",
       "Wheat": "42.398599999999931",
       "Kale": "189.1339000000000027",
       "Apple": "77.1000000000003052",
       "Blueberry": "10.5500000000002356",
-      "Orange": "28.5000000000000706",
+      "Orange": "23.5000000000000706",
       "Eggplant": "62.1840000000000147",
       "Corn": "80.1386000000001591",
       "Banana": "60.250000000001458",
@@ -84,12 +84,12 @@
       "Barley": "142.9821000000000704",
       "Rhubarb": "503.35",
       "Zucchini": "529.05",
-      "Yam": "3408.765",
-      "Broccoli": "1162.026",
+      "Yam": "3816.345",
+      "Broccoli": "1152.026",
       "Pepper": "1179.4550000000000068",
       "Onion": "17.6194000000000147",
       "Turnip": "1.9881",
-      "Artichoke": "500.120300000000042",
+      "Artichoke": "498.120300000000042",
       "Lunara": "0.6",
       "Celestine": "1.4",
       "Red Edelweiss": "6",
@@ -191,7 +191,7 @@
       "Mushroom Soup": "8",
       "Reindeer Carrot": "102",
       "Apple Juice": "180",
-      "Orange Juice": "182",
+      "Orange Juice": "183",
       "Purple Smoothie": "200",
       "Power Smoothie": "181",
       "Bumpkin Detox": "178",
@@ -232,7 +232,7 @@
       "Sour Shake": "515",
       "Spaghetti al Limone": "28",
       "Lemon Cheesecake": "9",
-      "Wood": "686.12",
+      "Wood": "768.22",
       "Stone": "439.9",
       "Iron": "193.25",
       "Gold": "15.8000000000000001",
@@ -251,10 +251,10 @@
       "Fruit Patch": "15",
       "Basic Land": "21",
       "Earthworm": "2719",
-      "Grub": "1597",
+      "Grub": "1603",
       "Red Wiggler": "166",
       "Sprout Mix": "3808",
-      "Fruitful Blend": "5016",
+      "Fruitful Blend": "5025",
       "Rapid Root": "4584",
       "Beehive": "4",
       "Flower Bed": "4",
@@ -617,7 +617,7 @@
       "Trade Point": "13889.473034151841391",
       "Ancient Clock": "48",
       "Broken Pillar": "90",
-      "Love Charm": "233.8",
+      "Love Charm": "234.8",
       "Bracelet": "59",
       "Coprolite": "70",
       "Dung": "3821",
@@ -690,18 +690,19 @@
       "Mariner Pot": "4",
       "Sand Drill": "1",
       "Fish Stick": "3",
-      "White Pansy": "1",
+      "White Pansy": "7",
       "Big Banana": "1",
       "Grape Seed": "8",
       "Sleepy Chicken": "1",
       "Radiant Ray": "1",
-      "Axe": "54",
+      "Axe": "26",
       "Expert Cooking Pot": "1",
       "Crab Stick": "6",
       "Shrimp": "12",
       "Celestial Frostbloom": "4",
       "Big Apple": "1",
-      "Big Orange": "1"
+      "Big Orange": "1",
+      "Giant Gold Bone": "1"
     },
     "previousInventory": {
       "Pumpkin Seed": "900",
@@ -1736,7 +1737,8 @@
             }
           },
           "initialProgress": 10723167.32,
-          "startedAt": 1769386145231
+          "startedAt": 1769386145231,
+          "completedAt": 1769868604782
         },
         "guria": {
           "name": "Grow White Carnation 4 times",
@@ -1778,7 +1780,8 @@
             }
           },
           "initialProgress": 16173,
-          "startedAt": 1769386145231
+          "startedAt": 1769386145231,
+          "completedAt": 1769868603331
         },
         "eldric": {
           "name": "Cook Cheese 100 times",
@@ -3109,6 +3112,15 @@
               "y": 4
             }
           }
+        ],
+        "Giant Gold Bone": [
+          {
+            "id": "83b38041",
+            "coordinates": {
+              "x": -7,
+              "y": 0
+            }
+          }
         ]
       }
     },
@@ -3217,25 +3229,37 @@
         "1": {
           "plant": {
             "name": "Grape",
-            "plantedAt": 1769847505939
+            "plantedAt": 1769847505939,
+            "criticalHit": {
+              "Greenhouse Gamble": 0
+            }
           }
         },
         "2": {
           "plant": {
             "name": "Grape",
-            "plantedAt": 1769847509569
+            "plantedAt": 1769847509569,
+            "criticalHit": {
+              "Greenhouse Gamble": 0
+            }
           }
         },
         "3": {
           "plant": {
             "name": "Grape",
-            "plantedAt": 1769847507316
+            "plantedAt": 1769847507316,
+            "criticalHit": {
+              "Greenhouse Gamble": 0
+            }
           }
         },
         "4": {
           "plant": {
             "name": "Grape",
-            "plantedAt": 1769847508390
+            "plantedAt": 1769847508390,
+            "criticalHit": {
+              "Greenhouse Gamble": 1
+            }
           }
         }
       }
@@ -3415,8 +3439,8 @@
         "y": -6,
         "height": 1,
         "crop": {
-          "id": "ebbe0637",
-          "plantedAt": 1769866362780,
+          "id": "b4963b51",
+          "plantedAt": 1769871145716,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -3428,8 +3452,8 @@
         "y": -1,
         "height": 1,
         "crop": {
-          "id": "206a6ce1",
-          "plantedAt": 1769866342188,
+          "id": "9afcea3d",
+          "plantedAt": 1769871111566,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -3441,8 +3465,8 @@
         "y": -1,
         "height": 1,
         "crop": {
-          "id": "188e9aa1",
-          "plantedAt": 1769866348563,
+          "id": "37f3f3a1",
+          "plantedAt": 1769871121751,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -3454,8 +3478,8 @@
         "y": -1,
         "height": 1,
         "crop": {
-          "id": "5bed8f3c",
-          "plantedAt": 1769866365438,
+          "id": "0c1741a4",
+          "plantedAt": 1769871148411,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -3467,8 +3491,8 @@
         "y": -2,
         "height": 1,
         "crop": {
-          "id": "820e1f1c",
-          "plantedAt": 1769866342603,
+          "id": "d50431d8",
+          "plantedAt": 1769871112891,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -3480,8 +3504,8 @@
         "y": -2,
         "height": 1,
         "crop": {
-          "id": "d2c9d799",
-          "plantedAt": 1769866348163,
+          "id": "55ceb27b",
+          "plantedAt": 1769871120874,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -3493,8 +3517,8 @@
         "y": -2,
         "height": 1,
         "crop": {
-          "id": "2708f10c",
-          "plantedAt": 1769866364940,
+          "id": "17b06d02",
+          "plantedAt": 1769871147810,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -3506,8 +3530,8 @@
         "y": 0,
         "height": 1,
         "crop": {
-          "id": "197cb1bf",
-          "plantedAt": 1769866341611,
+          "id": "6398fbd5",
+          "plantedAt": 1769871111027,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -3519,8 +3543,8 @@
         "y": 0,
         "height": 1,
         "crop": {
-          "id": "d1b2cd9a",
-          "plantedAt": 1769866348988,
+          "id": "c5a64350",
+          "plantedAt": 1769871110464,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -3532,8 +3556,8 @@
         "y": 0,
         "height": 1,
         "crop": {
-          "id": "c72abc4d",
-          "plantedAt": 1769866349428,
+          "id": "edfdcb41",
+          "plantedAt": 1769871123882,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -3545,8 +3569,8 @@
         "y": -1,
         "height": 1,
         "crop": {
-          "id": "a257fd44",
-          "plantedAt": 1769866349867,
+          "id": "77c51bcb",
+          "plantedAt": 1769871125048,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -3558,8 +3582,8 @@
         "y": -2,
         "height": 1,
         "crop": {
-          "id": "6bfdc761",
-          "plantedAt": 1769866350323,
+          "id": "3400d7f0",
+          "plantedAt": 1769871125610,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -3571,8 +3595,8 @@
         "y": 0,
         "height": 1,
         "crop": {
-          "id": "ca56c41a",
-          "plantedAt": 1769866356005,
+          "id": "ad7ce685",
+          "plantedAt": 1769871136186,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -3584,8 +3608,8 @@
         "y": -1,
         "height": 1,
         "crop": {
-          "id": "828a8bc3",
-          "plantedAt": 1769866355572,
+          "id": "1c6bc5ef",
+          "plantedAt": 1769871133115,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -3597,8 +3621,8 @@
         "y": -2,
         "height": 1,
         "crop": {
-          "id": "0b29b0bd",
-          "plantedAt": 1769866354702,
+          "id": "57b1669a",
+          "plantedAt": 1769871132200,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -3610,8 +3634,8 @@
         "y": 0,
         "height": 1,
         "crop": {
-          "id": "4a393558",
-          "plantedAt": 1769866356638,
+          "id": "892bced0",
+          "plantedAt": 1769871135210,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -3623,8 +3647,8 @@
         "y": -1,
         "height": 1,
         "crop": {
-          "id": "394a6257",
-          "plantedAt": 1769866357076,
+          "id": "8ad4ff49",
+          "plantedAt": 1769871137208,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -3636,8 +3660,8 @@
         "y": -2,
         "height": 1,
         "crop": {
-          "id": "f6be3f7e",
-          "plantedAt": 1769866358084,
+          "id": "13f16ed3",
+          "plantedAt": 1769871137785,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -3649,8 +3673,8 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "03c4ac6f",
-          "plantedAt": 1769866340179,
+          "id": "0bc6dbfe",
+          "plantedAt": 1769871107552,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -3662,8 +3686,8 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "59dbb653",
-          "plantedAt": 1769866341171,
+          "id": "593af68d",
+          "plantedAt": 1769871109366,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -3675,8 +3699,8 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "46e517c4",
-          "plantedAt": 1769866371859,
+          "id": "7a030923",
+          "plantedAt": 1769871155691,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -3688,8 +3712,8 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "d86fb777",
-          "plantedAt": 1769866353363,
+          "id": "8f0723d4",
+          "plantedAt": 1769871128977,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -3701,8 +3725,8 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "276e864d",
-          "plantedAt": 1769866369493,
+          "id": "7f7c2012",
+          "plantedAt": 1769871153550,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -3714,8 +3738,8 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "cc865fd5",
-          "plantedAt": 1769866368579,
+          "id": "44304afa",
+          "plantedAt": 1769871153027,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -3727,8 +3751,8 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "940163a3",
-          "plantedAt": 1769866365875,
+          "id": "1fa749dd",
+          "plantedAt": 1769871149939,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -3740,8 +3764,8 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "46c6537a",
-          "plantedAt": 1769866340643,
+          "id": "6f15e8ab",
+          "plantedAt": 1769871108179,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -3753,8 +3777,8 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "3c7ce2e1",
-          "plantedAt": 1769866336379,
+          "id": "ea1b6b64",
+          "plantedAt": 1769871101658,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -3766,8 +3790,8 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "33f0bd39",
-          "plantedAt": 1769866346771,
+          "id": "4b817c9a",
+          "plantedAt": 1769871117966,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -3779,8 +3803,8 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "2361df86",
-          "plantedAt": 1769866369964,
+          "id": "17fb5198",
+          "plantedAt": 1769871155043,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -3792,8 +3816,8 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "3586c5c7",
-          "plantedAt": 1769866359612,
+          "id": "642c9920",
+          "plantedAt": 1769871139794,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -3805,8 +3829,8 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "3ea1cf77",
-          "plantedAt": 1769866337259,
+          "id": "4912b74d",
+          "plantedAt": 1769871102649,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -3818,8 +3842,8 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "ddbea815",
-          "plantedAt": 1769866333917,
+          "id": "dbe4cb82",
+          "plantedAt": 1769871098590,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -3831,8 +3855,8 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "3bbba925",
-          "plantedAt": 1769866370856,
+          "id": "26b4e7eb",
+          "plantedAt": 1769871156132,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -3844,8 +3868,8 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "c9f7102d",
-          "plantedAt": 1769866346371,
+          "id": "9b910f8d",
+          "plantedAt": 1769871119025,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -3857,8 +3881,8 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "67a6032d",
-          "plantedAt": 1769866370423,
+          "id": "063461a4",
+          "plantedAt": 1769871154602,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -3870,8 +3894,8 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "826fb33e",
-          "plantedAt": 1769866367675,
+          "id": "14cca912",
+          "plantedAt": 1769871151627,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -3883,8 +3907,8 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "d4cecf61",
-          "plantedAt": 1769866350756,
+          "id": "65396461",
+          "plantedAt": 1769871126120,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -3896,8 +3920,8 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "0161d98d",
-          "plantedAt": 1769866337965,
+          "id": "6ec49407",
+          "plantedAt": 1769871103130,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -3909,8 +3933,8 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "5a42f390",
-          "plantedAt": 1769866352124,
+          "id": "9bf94d51",
+          "plantedAt": 1769871127699,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -3922,8 +3946,8 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "48bc754c",
-          "plantedAt": 1769866358926,
+          "id": "aff5d021",
+          "plantedAt": 1769871138353,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -3935,8 +3959,8 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "839055cc",
-          "plantedAt": 1769866363661,
+          "id": "a4cbe9ba",
+          "plantedAt": 1769871147297,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -3948,8 +3972,8 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "d7cede32",
-          "plantedAt": 1769866338787,
+          "id": "afbaf5b0",
+          "plantedAt": 1769871104348,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -3961,8 +3985,8 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "1f22f940",
-          "plantedAt": 1769866363228,
+          "id": "aaf3d5ee",
+          "plantedAt": 1769871146270,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -3974,8 +3998,8 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "3142e5bd",
-          "plantedAt": 1769866334908,
+          "id": "37b09291",
+          "plantedAt": 1769871099281,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -3987,8 +4011,8 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "bcb43b46",
-          "plantedAt": 1769866345556,
+          "id": "bed79235",
+          "plantedAt": 1769871115793,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -4000,8 +4024,8 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "5d56f995",
-          "plantedAt": 1769866362333,
+          "id": "6b2a7d57",
+          "plantedAt": 1769871144504,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -4013,8 +4037,8 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "bca4b1ee",
-          "plantedAt": 1769866360780,
+          "id": "ec6de4fa",
+          "plantedAt": 1769871141537,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -4026,8 +4050,8 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "7840670b",
-          "plantedAt": 1769866335843,
+          "id": "b78022c9",
+          "plantedAt": 1769871100674,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -4039,8 +4063,8 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "630b1050",
-          "plantedAt": 1769866344755,
+          "id": "5d9713b8",
+          "plantedAt": 1769871116583,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -4052,8 +4076,8 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "3e901e4c",
-          "plantedAt": 1769866335396,
+          "id": "cbbb4310",
+          "plantedAt": 1769871100000,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -4065,8 +4089,8 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "7effb2ca",
-          "plantedAt": 1769866339299,
+          "id": "84d4712e",
+          "plantedAt": 1769871104921,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -4078,8 +4102,8 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "e3a1d277",
-          "plantedAt": 1769866351687,
+          "id": "542b8b8a",
+          "plantedAt": 1769871118507,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -4091,8 +4115,8 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "468d96e7",
-          "plantedAt": 1769866347723,
+          "id": "e05acf21",
+          "plantedAt": 1769871120097,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -4104,8 +4128,8 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "e906320e",
-          "plantedAt": 1769866343038,
+          "id": "59994eda",
+          "plantedAt": 1769871113632,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -4117,8 +4141,8 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "b40dd7a5",
-          "plantedAt": 1769866368844,
+          "id": "51aa3142",
+          "plantedAt": 1769871152301,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -4130,8 +4154,8 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "f986b72b",
-          "plantedAt": 1769866355107,
+          "id": "22d8b31a",
+          "plantedAt": 1769871131626,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -4143,8 +4167,8 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "e4f14f7e",
-          "plantedAt": 1769866361404,
+          "id": "93f9236e",
+          "plantedAt": 1769871142801,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -4156,8 +4180,8 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "05a0d46e",
-          "plantedAt": 1769866339707,
+          "id": "0b6e38ee",
+          "plantedAt": 1769871106514,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -4169,8 +4193,8 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "a14183e1",
-          "plantedAt": 1769866352539,
+          "id": "205f2383",
+          "plantedAt": 1769871128288,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -4182,8 +4206,8 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "88fc311e",
-          "plantedAt": 1769866353820,
+          "id": "25f0d70e",
+          "plantedAt": 1769871130049,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -4195,8 +4219,8 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "ae5ece3a",
-          "plantedAt": 1769866343875,
+          "id": "5645c362",
+          "plantedAt": 1769871114531,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -4208,8 +4232,8 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "f22089c4",
-          "plantedAt": 1769866338371,
+          "id": "ff205b59",
+          "plantedAt": 1769871103848,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -4221,8 +4245,8 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "d3f6c556",
-          "plantedAt": 1769866354267,
+          "id": "78c4f013",
+          "plantedAt": 1769871131033,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -4234,8 +4258,8 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "be5f96e4",
-          "plantedAt": 1769866360147,
+          "id": "716ec717",
+          "plantedAt": 1769871139153,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -4247,8 +4271,8 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "1579aff7",
-          "plantedAt": 1769866364291,
+          "id": "c287c457",
+          "plantedAt": 1769871146769,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -4260,8 +4284,8 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "32c68daa",
-          "plantedAt": 1769866345972,
+          "id": "e4d22c11",
+          "plantedAt": 1769871117365,
           "boostedTime": 1245330.0000000005,
           "name": "Yam"
         }
@@ -4271,7 +4295,7 @@
       "10313cf7": {
         "createdAt": 1760550476928,
         "wood": {
-          "choppedAt": 1769863602169
+          "choppedAt": 1769867117561
         },
         "x": -8,
         "y": 11,
@@ -4282,7 +4306,7 @@
       "260961d9": {
         "createdAt": 1760550469162,
         "wood": {
-          "choppedAt": 1769863601878
+          "choppedAt": 1769867117321
         },
         "x": -8,
         "y": 9,
@@ -4293,7 +4317,7 @@
       "d0b0482c": {
         "createdAt": 1760550536128,
         "wood": {
-          "choppedAt": 1769863605968
+          "choppedAt": 1769867118120
         },
         "x": -6,
         "y": 9,
@@ -4304,7 +4328,7 @@
       "2d5172e9": {
         "createdAt": 1760550586649,
         "wood": {
-          "choppedAt": 1769863605689
+          "choppedAt": 1769867118608
         },
         "x": -6,
         "y": 11,
@@ -4315,7 +4339,7 @@
       "9f17251d": {
         "createdAt": 1760962983583,
         "wood": {
-          "choppedAt": 1769863603240
+          "choppedAt": 1769867117783
         },
         "x": -4,
         "y": 11,
@@ -4326,7 +4350,7 @@
       "e9e9f07d": {
         "createdAt": 1761242765350,
         "wood": {
-          "choppedAt": 1769863603009
+          "choppedAt": 1769867122911
         },
         "x": -4,
         "y": 9,
@@ -4876,7 +4900,10 @@
           "name": "Apple",
           "plantedAt": 1769725587950,
           "harvestedAt": 1769857712110,
-          "harvestsLeft": 2
+          "harvestsLeft": 2,
+          "criticalHit": {
+            "Generous Orchard": 0
+          }
         }
       },
       "2": {
@@ -4889,7 +4916,10 @@
           "name": "Apple",
           "plantedAt": 1769857716656,
           "harvestedAt": 0,
-          "harvestsLeft": 5
+          "harvestsLeft": 5,
+          "criticalHit": {
+            "Generous Orchard": 0
+          }
         }
       },
       "602029bb": {
@@ -4902,7 +4932,10 @@
           "name": "Apple",
           "plantedAt": 1769811923565,
           "harvestedAt": 1769857711217,
-          "harvestsLeft": 4
+          "harvestsLeft": 4,
+          "criticalHit": {
+            "Generous Orchard": 0
+          }
         }
       },
       "7be939d7": {
@@ -4915,7 +4948,10 @@
           "name": "Apple",
           "plantedAt": 1769765256325,
           "harvestedAt": 1769857710233,
-          "harvestsLeft": 3
+          "harvestsLeft": 3,
+          "criticalHit": {
+            "Generous Orchard": 1
+          }
         }
       },
       "02180aef": {
@@ -4928,7 +4964,10 @@
           "name": "Apple",
           "plantedAt": 1769811919949,
           "harvestedAt": 1769857706835,
-          "harvestsLeft": 5
+          "harvestsLeft": 5,
+          "criticalHit": {
+            "Generous Orchard": 0
+          }
         }
       },
       "97488b16": {
@@ -4941,7 +4980,10 @@
           "name": "Apple",
           "plantedAt": 1769765255491,
           "harvestedAt": 1769857710535,
-          "harvestsLeft": 3
+          "harvestsLeft": 3,
+          "criticalHit": {
+            "Generous Orchard": 0
+          }
         }
       },
       "c417e679": {
@@ -4954,7 +4996,10 @@
           "name": "Apple",
           "plantedAt": 1769811923075,
           "harvestedAt": 1769857710872,
-          "harvestsLeft": 5
+          "harvestsLeft": 5,
+          "criticalHit": {
+            "Generous Orchard": 0
+          }
         }
       },
       "f3db8eb0": {
@@ -4965,7 +5010,10 @@
           "name": "Apple",
           "plantedAt": 1769857718989,
           "harvestedAt": 0,
-          "harvestsLeft": 7
+          "harvestsLeft": 7,
+          "criticalHit": {
+            "Generous Orchard": 0
+          }
         },
         "x": -6,
         "y": 5
@@ -4980,7 +5028,10 @@
           "name": "Apple",
           "plantedAt": 1769765256757,
           "harvestedAt": 1769857709954,
-          "harvestsLeft": 3
+          "harvestsLeft": 3,
+          "criticalHit": {
+            "Generous Orchard": 0
+          }
         }
       },
       "ebc31cff": {
@@ -4993,7 +5044,10 @@
           "name": "Apple",
           "plantedAt": 1769765254860,
           "harvestedAt": 1769857713918,
-          "harvestsLeft": 5
+          "harvestsLeft": 5,
+          "criticalHit": {
+            "Generous Orchard": 0
+          }
         }
       },
       "dcbf5f3e": {
@@ -5006,7 +5060,10 @@
           "name": "Apple",
           "plantedAt": 1769725586526,
           "harvestedAt": 1769857711882,
-          "harvestsLeft": 3
+          "harvestsLeft": 3,
+          "criticalHit": {
+            "Generous Orchard": 0
+          }
         }
       },
       "e86c5e1b": {
@@ -5019,7 +5076,10 @@
           "name": "Apple",
           "plantedAt": 1769811920453,
           "harvestedAt": 1769857706539,
-          "harvestsLeft": 5
+          "harvestsLeft": 5,
+          "criticalHit": {
+            "Generous Orchard": 0
+          }
         }
       },
       "20dcf7dd": {
@@ -5032,7 +5092,10 @@
           "name": "Apple",
           "plantedAt": 1769811918587,
           "harvestedAt": 1769857705974,
-          "harvestsLeft": 6
+          "harvestsLeft": 6,
+          "criticalHit": {
+            "Generous Orchard": 1
+          }
         }
       },
       "393813f2": {
@@ -5045,7 +5108,10 @@
           "name": "Apple",
           "plantedAt": 1769571567775,
           "harvestedAt": 1769857711546,
-          "harvestsLeft": 1
+          "harvestsLeft": 1,
+          "criticalHit": {
+            "Generous Orchard": 1
+          }
         }
       },
       "b36902d2": {
@@ -5056,7 +5122,10 @@
           "name": "Apple",
           "plantedAt": 1769765257373,
           "harvestedAt": 1769857705622,
-          "harvestsLeft": 5
+          "harvestsLeft": 5,
+          "criticalHit": {
+            "Generous Orchard": 0
+          }
         },
         "x": -8,
         "y": 3
@@ -5071,13 +5140,13 @@
           "x": -7,
           "y": -5,
           "flower": {
-            "plantedAt": 1769785873614,
-            "name": "White Pansy",
+            "plantedAt": 1769811492824,
+            "name": "Red Balloon Flower",
             "criticalHit": {
               "Butterfly": 0,
-              "Desert Rose": 0,
+              "Desert Rose": 1,
               "Chicory": 0,
-              "Petalled Perk": 1
+              "Petalled Perk": 0
             }
           }
         },
@@ -5088,8 +5157,8 @@
           "x": -8,
           "y": -6,
           "flower": {
-            "plantedAt": 1769785881022,
-            "name": "White Pansy",
+            "plantedAt": 1769811497911,
+            "name": "Red Balloon Flower",
             "criticalHit": {
               "Butterfly": 0,
               "Desert Rose": 0,
@@ -5105,8 +5174,8 @@
           "x": -7,
           "y": -7,
           "flower": {
-            "plantedAt": 1769785886886,
-            "name": "White Pansy",
+            "plantedAt": 1769811502647,
+            "name": "Red Balloon Flower",
             "criticalHit": {
               "Butterfly": 0,
               "Desert Rose": 0,
@@ -5122,10 +5191,10 @@
           "x": -8,
           "y": -8,
           "flower": {
-            "plantedAt": 1769785893581,
-            "name": "White Pansy",
+            "plantedAt": 1769811509258,
+            "name": "Blue Balloon Flower",
             "criticalHit": {
-              "Butterfly": 1,
+              "Butterfly": 0,
               "Desert Rose": 0,
               "Chicory": 0,
               "Petalled Perk": 0
@@ -5141,13 +5210,13 @@
         "height": 1,
         "width": 1,
         "honey": {
-          "updatedAt": 1769853746446,
-          "produced": 11016.2
+          "updatedAt": 1769872334858,
+          "produced": 24117698.800000004
         },
         "flowers": [
           {
-            "attachedAt": 1769853737972,
-            "attachedUntil": 1769872273614,
+            "attachedAt": 1769872318424,
+            "attachedUntil": 1769920244321,
             "id": "0c505470",
             "rate": 1.3
           }
@@ -5161,14 +5230,14 @@
         "height": 1,
         "width": 1,
         "honey": {
-          "updatedAt": 1769853746446,
-          "produced": 5600.400000000001
+          "updatedAt": 1769872334858,
+          "produced": 24122923.5
         },
         "flowers": [
           {
-            "attachedAt": 1769853742138,
-            "attachedUntil": 1769872286886,
-            "id": "622f62a0",
+            "attachedAt": 1769872323511,
+            "attachedUntil": 1769920240302,
+            "id": "36e3a165",
             "rate": 1.3
           }
         ],
@@ -5181,14 +5250,14 @@
         "height": 1,
         "width": 1,
         "honey": {
-          "updatedAt": 1769853746446,
-          "produced": 8447.400000000001
+          "updatedAt": 1769872334858,
+          "produced": 24111990.5
         },
         "flowers": [
           {
-            "attachedAt": 1769853739948,
-            "attachedUntil": 1769872281022,
-            "id": "36e3a165",
+            "attachedAt": 1769872328247,
+            "attachedUntil": 1769920248712,
+            "id": "622f62a0",
             "rate": 1.3
           }
         ],
@@ -5201,13 +5270,13 @@
         "height": 1,
         "width": 1,
         "honey": {
-          "updatedAt": 1769853746446,
-          "produced": 0
+          "updatedAt": 1769872334858,
+          "produced": 24111275.5
         },
         "flowers": [
           {
-            "attachedAt": 1769853746446,
-            "attachedUntil": 1769872293581,
+            "attachedAt": 1769872334858,
+            "attachedUntil": 1769920249262,
             "id": "98930adf",
             "rate": 1.3
           }
@@ -6389,8 +6458,8 @@
               "Fruitful Blend": 9,
               "Grub": 6
             },
-            "startedAt": 1769843287623,
-            "readyAt": 1769869207623
+            "startedAt": 1769869299475,
+            "readyAt": 1769895219475
           }
         }
       ],
@@ -6404,16 +6473,6 @@
           },
           "readyAt": 1746701527087,
           "crafting": [
-            {
-              "name": "Orange Juice",
-              "boost": {
-                "Oil": 0
-              },
-              "skills": {
-                "Double Nom": false
-              },
-              "readyAt": 1769870798870
-            },
             {
               "name": "Orange Juice",
               "boost": {
@@ -6443,6 +6502,16 @@
                 "Double Nom": false
               },
               "readyAt": 1769878088870
+            },
+            {
+              "name": "Orange Juice",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": false
+              },
+              "readyAt": 1769880518870
             }
           ],
           "oil": 0
@@ -6500,7 +6569,8 @@
               "growTimeRemaining": 0,
               "totalGrowTime": 14400000,
               "startTime": 1769787361347,
-              "readyAt": 1769801761347
+              "readyAt": 1769801761347,
+              "criticalHit": {}
             }
           ],
           "unallocatedOilTime": 603477.0000006631
@@ -9493,7 +9563,8 @@
         "Luxury Key": 1765008959269,
         "Pet Egg": 1765080568658,
         "Cornucopia": 1768349984507,
-        "Saw Fish": 1768349980685
+        "Saw Fish": 1768349980685,
+        "Giant Gold Bone": 1769868652185
       }
     },
     "dailyRewards": {
@@ -9512,16 +9583,16 @@
     "floatingIsland": {
       "schedule": [
         {
-          "startAt": 1769869200000,
-          "endAt": 1769871000000
-        },
-        {
           "startAt": 1769899200000,
           "endAt": 1769901000000
         },
         {
           "startAt": 1769929200000,
           "endAt": 1769931000000
+        },
+        {
+          "startAt": 1769959200000,
+          "endAt": 1769961000000
         }
       ],
       "shop": {
@@ -9565,7 +9636,7 @@
         "Harvest Hourglass": 1753789980057,
         "Pet Egg": 1761709639324
       },
-      "petalPuzzleSolvedAt": 1769779243099
+      "petalPuzzleSolvedAt": 1769869285700
     },
     "farmActivity": {
       "Napoleanfish Caught": 605,
@@ -9638,7 +9709,7 @@
       "Ray Caught": 70,
       "Yellow Cosmos Harvested": 370,
       "Blue Pansy Harvested": 60,
-      "White Pansy Harvested": 137,
+      "White Pansy Harvested": 141,
       "White Carnation Harvested": 26,
       "Lemon Shark Caught": 2,
       "Chicken Bountied": 882,
@@ -9880,7 +9951,7 @@
       "Pipi Sold": 109,
       "Soybean Seed Bought": 35580,
       "Tofu Scramble Cooked": 295,
-      "Orange Juice Cooked": 1839,
+      "Orange Juice Cooked": 1840,
       "Pancakes Cooked": 103,
       "Banana Plant Planted": 2698,
       "Bumpkin Detox Fed": 424,
@@ -10034,8 +10105,8 @@
       "Coins Earned": 9600372.6997535,
       "Potato Cake Cooked": 67,
       "Basic Scarecrow Crafted": 1,
-      "Turbo Composter Collected": 2115,
-      "Collectible Placed": 1711,
+      "Turbo Composter Collected": 2116,
+      "Collectible Placed": 1712,
       "Grubnash's Tombstone Bought": 1,
       "Apple Juice Fed": 541,
       "Kale Harvested": 6908,
@@ -10100,7 +10171,7 @@
       "Potted Pumpkin Bought": 2,
       "Pumpkin Harvested": 73732,
       "Boiled Eggs Cooked": 816,
-      "Bloom Seed Planted": 559,
+      "Bloom Seed Planted": 563,
       "Wheat Seed Bought": 20934,
       "Orange Sold": 883.1,
       "Pumpkin Cake Fed": 13,
@@ -10137,7 +10208,7 @@
       "Eggplant Seed Bought": 6913,
       "Lily Seed Bought": 287,
       "Crow Rock Bought": 1,
-      "Tree Chopped": 354849,
+      "Tree Chopped": 354877,
       "Power Smoothie Cooked": 617,
       "Orange Seed Bought": 1440,
       "Power Smoothie Fed": 347,
@@ -10341,9 +10412,9 @@
       "Edelweiss Seed Bought": 52,
       "Clover Seed Planted": 41,
       "Artichoke Planted": 1187,
-      "Yam Planted": 17177,
+      "Yam Planted": 17309,
       "Broccoli Planted": 10990,
-      "Yam Harvested": 17111,
+      "Yam Harvested": 17243,
       "Broccoli Harvested": 10990,
       "Artichoke Harvested": 1187,
       "Vase Sold": 80,
@@ -10497,7 +10568,7 @@
       "VIP Chest Opened": 2,
       "Obsidian Collected": 42,
       "Streamer Hat Reward Claimed": 46,
-      "Ancient Tree Chopped": 5214,
+      "Ancient Tree Chopped": 5221,
       "Potion Mixed": 590,
       "Iron Rock Mined": 2550,
       "Gold Rock Mined": 576,
@@ -10575,11 +10646,12 @@
       "Raffle Lost": 5,
       "Radiant Ray Map Piece Found": 9,
       "Marketplace Bulk Offers Cancelled": 31,
-      "Pet Cookie Collected": 1156,
-      "Paw Prints Points Earned": 2240,
+      "Pet Cookie Collected": 1172,
+      "Paw Prints Points Earned": 2256,
       "Paw Prints premium Milestone Claimed": 5,
       "Paw Prints free Milestone Claimed": 5,
-      "Radiant Ray Caught": 1
+      "Radiant Ray Caught": 1,
+      "Giant Gold Bone Bought": 1
     },
     "milestones": {
       "Fish Encyclopedia": 1,
@@ -11282,13 +11354,13 @@
         "deliveryCount": 429,
         "skippedCount": 244,
         "friendship": {
-          "updatedAt": 1769868407248,
-          "points": 3305,
+          "updatedAt": 1769868604782,
+          "points": 3306,
           "giftClaimedAtPoints": 3210,
           "giftedAt": 1769868407248
         },
         "deliveryCompletedAt": 1769478845952,
-        "choreCount": 40,
+        "choreCount": 41,
         "streaks": {
           "streak": 26,
           "lastClaimedAt": 1745998453367
@@ -11385,13 +11457,13 @@
         "deliveryCount": 723,
         "skippedCount": 15,
         "friendship": {
-          "updatedAt": 1769868262909,
-          "points": 1993,
+          "updatedAt": 1769868603331,
+          "points": 1994,
           "giftClaimedAtPoints": 1950,
           "giftedAt": 1709485286883
         },
         "deliveryCompletedAt": 1769868262909,
-        "choreCount": 34,
+        "choreCount": 35,
         "streaks": {
           "streak": 26,
           "lastClaimedAt": 1745998212787
@@ -11937,7 +12009,7 @@
           "petXP": 6000,
           "score": 3667.0000000000005,
           "collectivePet": {
-            "totalXP": 10272620,
+            "totalXP": 10400990,
             "goalXP": 4586794,
             "goalReached": true,
             "streak": 6,
@@ -12234,7 +12306,7 @@
           "experience": 2817.5,
           "lovedAt": 1769734056780,
           "item": "Brush",
-          "healthCheckedAt": 1769782421030
+          "healthCheckedAt": 1769868850710
         },
         "b1cce862": {
           "id": "b1cce862",
@@ -12246,7 +12318,7 @@
           "experience": 2825,
           "lovedAt": 1769734056164,
           "item": "Music Box",
-          "healthCheckedAt": 1769782421030
+          "healthCheckedAt": 1769868850710
         },
         "1b7c425d": {
           "id": "1b7c425d",
@@ -12330,7 +12402,7 @@
           "experience": 1492.5,
           "lovedAt": 1769734051228,
           "item": "Petting Hand",
-          "healthCheckedAt": 1769785485236
+          "healthCheckedAt": 1769872342161
         },
         "4608f15f": {
           "id": "4608f15f",
@@ -12467,7 +12539,7 @@
           "experience": 1065,
           "lovedAt": 1769474732607,
           "item": "Brush",
-          "healthCheckedAt": 1769782421030
+          "healthCheckedAt": 1769868850710
         },
         "736c26cd": {
           "id": "736c26cd",
@@ -12479,7 +12551,7 @@
           "experience": 5192.5,
           "lovedAt": 1769474735215,
           "item": "Music Box",
-          "healthCheckedAt": 1769782421030
+          "healthCheckedAt": 1769868850710
         },
         "c0308485": {
           "id": "c0308485",
@@ -12491,7 +12563,7 @@
           "experience": 3972.5,
           "lovedAt": 1769474734455,
           "item": "Music Box",
-          "healthCheckedAt": 1769782421030
+          "healthCheckedAt": 1769868850710
         },
         "f26078b9": {
           "id": "f26078b9",
@@ -12503,7 +12575,7 @@
           "experience": 2182.5,
           "lovedAt": 1769474733383,
           "item": "Petting Hand",
-          "healthCheckedAt": 1769782421030
+          "healthCheckedAt": 1769868850710
         },
         "06efe2e2": {
           "id": "06efe2e2",
@@ -12515,7 +12587,7 @@
           "experience": 1485,
           "lovedAt": 1769474731583,
           "item": "Petting Hand",
-          "healthCheckedAt": 1769782421030
+          "healthCheckedAt": 1769868850710
         },
         "073b6159": {
           "id": "073b6159",
@@ -12551,7 +12623,7 @@
           "experience": 1507.5,
           "lovedAt": 1769474733945,
           "item": "Brush",
-          "healthCheckedAt": 1769782421030
+          "healthCheckedAt": 1769868850710
         },
         "bd55b829": {
           "id": "bd55b829",
@@ -12563,7 +12635,7 @@
           "experience": 1485,
           "lovedAt": 1769474731311,
           "item": "Music Box",
-          "healthCheckedAt": 1769782421030
+          "healthCheckedAt": 1769868850710
         },
         "1439adc0": {
           "id": "1439adc0",
@@ -12575,7 +12647,7 @@
           "experience": 1110,
           "lovedAt": 1769474732128,
           "item": "Petting Hand",
-          "healthCheckedAt": 1769782421030
+          "healthCheckedAt": 1769868850710
         },
         "28e45893": {
           "id": "28e45893",
@@ -12587,7 +12659,7 @@
           "experience": 1087.5,
           "lovedAt": 1769474731048,
           "item": "Brush",
-          "healthCheckedAt": 1769782421030
+          "healthCheckedAt": 1769868850710
         },
         "7455e97e": {
           "id": "7455e97e",
@@ -12599,7 +12671,7 @@
           "experience": 1087.5,
           "lovedAt": 1769474732383,
           "item": "Petting Hand",
-          "healthCheckedAt": 1769782421030
+          "healthCheckedAt": 1769868850710
         },
         "98b8bedc": {
           "id": "98b8bedc",
@@ -12611,7 +12683,7 @@
           "experience": 1110,
           "lovedAt": 1769474731871,
           "item": "Brush",
-          "healthCheckedAt": 1769782421030
+          "healthCheckedAt": 1769868850710
         }
       }
     },
@@ -13384,67 +13456,67 @@
       },
       "Scary Mike": {
         "0": {
-          "-1": 1769867594590,
-          "-2": 1769867595046,
-          "-3": 1769867595486,
-          "-4": 1769867595918,
-          "-5": 1769867596854,
-          "-6": 1769867597277,
-          "-7": 1769867597710
+          "-1": 1769872368993,
+          "-2": 1769872370189,
+          "-3": 1769872370757,
+          "-4": 1769872371268,
+          "-5": 1769872363668,
+          "-6": 1769872372819,
+          "-7": 1769872373450
         },
         "1": {
-          "-7": 1769867598540,
-          "-6": 1769867598984,
-          "-5": 1769867599447,
-          "-4": 1769867600271,
-          "-3": 1769867599862,
-          "-2": 1769867600726,
-          "-1": 1769867601167
+          "-7": 1769872374108,
+          "-6": 1769872375154,
+          "-5": 1769872376146,
+          "-4": 1769872376779,
+          "-3": 1769872377326,
+          "-2": 1769872378189,
+          "-1": 1769872379678
         },
         "2": {
-          "-1": 1769867601773,
-          "-2": 1769867602255,
-          "-3": 1769867603251,
-          "-4": 1769867604094,
-          "-5": 1769867604558,
-          "-6": 1769867605319,
-          "-7": 1769867605917
+          "-1": 1769872380347,
+          "-2": 1769872382377,
+          "-3": 1769872382932,
+          "-4": 1769872383513,
+          "-5": 1769872384932,
+          "-6": 1769872384298,
+          "-7": 1769872386683
         },
         "3": {
-          "-7": 1769867607935,
-          "-6": 1769867608405,
-          "-5": 1769867609469,
-          "-4": 1769867608821,
-          "-3": 1769867610095,
-          "-2": 1769867610590,
-          "-1": 1769867611038
+          "-7": 1769872390844,
+          "-6": 1769872391436,
+          "-5": 1769872391925,
+          "-4": 1769872392450,
+          "-3": 1769872392973,
+          "-2": 1769872393556,
+          "-1": 1769872395077
         },
         "-3": {
-          "-7": 1769867583549,
-          "-6": 1769867583942,
-          "-5": 1769867584469,
-          "-4": 1769867584885,
-          "-3": 1769867585368,
-          "-2": 1769867585814,
-          "-1": 1769867586333
+          "-7": 1769872348978,
+          "-6": 1769872349498,
+          "-5": 1769872350069,
+          "-4": 1769872350893,
+          "-3": 1769872352667,
+          "-2": 1769872353299,
+          "-1": 1769872354482
         },
         "-2": {
-          "-1": 1769867586774,
-          "-2": 1769867587358,
-          "-3": 1769867587775,
-          "-4": 1769867588200,
-          "-5": 1769867589045,
-          "-6": 1769867590716,
-          "-7": 1769867589924
+          "-1": 1769872356124,
+          "-2": 1769872356683,
+          "-3": 1769872358012,
+          "-4": 1769872358748,
+          "-5": 1769872359651,
+          "-6": 1769872360930,
+          "-7": 1769872361725
         },
         "-1": {
-          "-7": 1769867591142,
-          "-6": 1769867591942,
-          "-5": 1769867591550,
-          "-4": 1769867592893,
-          "-3": 1769867593325,
-          "-2": 1769867593733,
-          "-1": 1769867594159
+          "-7": 1769872362477,
+          "-6": 1769872363082,
+          "-5": 1769872364179,
+          "-4": 1769872365226,
+          "-3": 1769872366018,
+          "-2": 1769872366867,
+          "-1": 1769872355602
         }
       },
       "Basic Scarecrow": {
@@ -13514,18 +13586,18 @@
       }
     },
     "boostsUsedAt": {
-      "Apprentice Beaver": 1769867565968,
+      "Apprentice Beaver": 1769871082911,
       "Bud #2308": 1764234543978,
-      "Desert Gnome": 1769868587084,
+      "Desert Gnome": 1769871081819,
       "Efficient Bin": 1769867807730,
       "Fast Feasts": 1769867836430,
-      "Lumberjack's Extra": 1769867565968,
-      "Soil Krabby": 1769867807730,
-      "Squirrel": 1769867565968,
-      "Sunflorian Shield": 1769867570133,
-      "Tiki Totem": 1769867565968,
-      "Tough Tree": 1769862042173,
-      "Tree Charge": 1769867565968,
+      "Lumberjack's Extra": 1769871082911,
+      "Soil Krabby": 1769869299475,
+      "Squirrel": 1769871082911,
+      "Sunflorian Shield": 1769871082911,
+      "Tiki Totem": 1769871082911,
+      "Tough Tree": 1769871077783,
+      "Tree Charge": 1769871082911,
       "Knight Chicken": 1769688815787,
       "Oil Be Back": 1760036593617,
       "Oil Extraction": 1769688815787,
@@ -13569,34 +13641,34 @@
       "No Axe No Worries": 1769862038723,
       "Dream Scarf": 1769428138531,
       "White Sheep Onesie": 1769428138531,
-      "Healthy Livestock": 1769789154580,
+      "Healthy Livestock": 1769868850710,
       "Gold Beetle": 1769816223694,
       "Golden Touch": 1769816223694,
       "Midas Rush": 1769816223694,
       "Midas Sprint": 1769816223694,
       "Carrot Amulet": 1769792740979,
-      "Green Thumb": 1769867617189,
-      "Hectare Farm": 1769867617030,
+      "Green Thumb": 1769872401462,
+      "Hectare Farm": 1769872401285,
       "Laurie the Chuckle Crow": 1769862006934,
       "Laurie's Gains": 1769862006934,
-      "Lunar Calendar": 1769867617189,
+      "Lunar Calendar": 1769872401462,
       "Old Farmer": 1769862018857,
-      "Scarecrow": 1769867617189,
-      "Seed Specialist": 1769867617189,
+      "Scarecrow": 1769872401462,
+      "Seed Specialist": 1769872401462,
       "Alien Chicken": 1769867557806,
       "Ayam Cemani": 1769867557806,
       "Fat Chicken": 1769867556203,
       "Rich Chicken": 1769867557806,
       "Speed Chicken": 1769867557806,
       "Undead Rooster": 1769867557806,
-      "Acre Farm": 1769867617030,
-      "Bud #616": 1769867617030,
+      "Acre Farm": 1769872401285,
+      "Bud #616": 1769872401285,
       "Easter Bunny": 1769816383781,
-      "Experienced Farmer": 1769867617030,
-      "Horror Mike": 1769867611038,
+      "Experienced Farmer": 1769872401285,
+      "Horror Mike": 1769872395077,
       "Lab Grown Carrot": 1769816383781,
       "Pablo The Bunny": 1769816383781,
-      "Scary Mike": 1769867611038,
+      "Scary Mike": 1769872395077,
       "Strong Roots": 1769834575602,
       "Basic Scarecrow": 1768933974034,
       "Foliant": 1768661065224,
@@ -13629,13 +13701,13 @@
       "Time Warp Totem": 1764541404402,
       "Greenhouse Gamble": 1769771283943,
       "Desert Rose": 1768290146081,
-      "Petalled Perk": 1769816274160,
-      "Blooming Boost": 1769816306381,
-      "Flower Fox": 1769816306381,
+      "Petalled Perk": 1769872314838,
+      "Blooming Boost": 1769872334858,
+      "Flower Fox": 1769872334858,
       "Corn Onesie": 1768800815200,
       "Barn Blueprint": 1757924764605,
       "Fishy Chance": 1769779395958,
-      "Butterfly": 1769685696296,
+      "Butterfly": 1769872313292,
       "Fishy Gamble": 1769773283062,
       "Chicory": 1769563264991,
       "Soybliss": 1764843552365,
@@ -13646,7 +13718,7 @@
       "Beetroot Amulet": 1769371563405,
       "Lemon Shark": 1759655680449,
       "Reveling Lemon": 1767845820813,
-      "Turd Topper": 1769867807730,
+      "Turd Topper": 1769869299475,
       "Lab Grown Pumpkin": 1767033465199,
       "Victoria Sisters": 1767033465199,
       "Nurse Sheep": 1769331075798,
@@ -13656,7 +13728,7 @@
       "Jellyfish": 1769332462489,
       "Deep Sea Helm": 1767457763552,
       "Stone Beetle": 1768990824069,
-      "Giant Yam": 1769775965392,
+      "Giant Yam": 1769872401285,
       "Poseidon": 1769779954077,
       "Fox Shrine": 1756791387541,
       "Ladybug Suit": 1765443683704,
@@ -13671,33 +13743,33 @@
       "Rice Panda": 1765603320433,
       "Obie": 1768800815376,
       "Purple Trail": 1768826300422,
-      "Turbo Charged": 1769843287623,
+      "Turbo Charged": 1769869299475,
       "Premium Worms": 1769862052816,
       "Frosted Cakes": 1769867832600,
-      "Sunflorian Quiver": 1769867617030,
-      "Tree Turnaround": 1769867562771,
+      "Sunflorian Quiver": 1769872401285,
+      "Tree Turnaround": 1769871078359,
       "Reelmaster's Chair": 1769779954077,
       "Architect Ruler": 1769867803684,
-      "Bucket O' Worms": 1769867807730,
-      "Wormy Treat": 1769867807730,
+      "Bucket O' Worms": 1769869299475,
+      "Wormy Treat": 1769869299475,
       "Boar Shrine": 1764864030108,
       "Mole Shrine": 1764643660818,
       "Collie Shrine": 1764548012064,
       "Treasure Map": 1768527936305,
       "Lab Grown Radish": 1764488294784,
       "Eggplant Onesie": 1768826300422,
-      "Saw Fish": 1769867807730,
-      "Flower Power": 1769816306381,
+      "Saw Fish": 1769869299475,
+      "Flower Power": 1769872334858,
       "Kernaldo": 1768741044125,
       "Lunar Temple": 1768871596820,
       "Cornucopia": 1769843359803,
       "Power hour": 1769687427093,
       "Sunshower": 1769463976149,
-      "Sleepy Chicken": 1769867518731,
+      "Sleepy Chicken": 1769872342161,
       "Radiant Ray": 1769867570133
     },
     "socialFarming": {
-      "points": 264693,
+      "points": 264703,
       "villageProjects": {
         "Farmer's Monument": {
           "cheers": 100
@@ -13715,7 +13787,7 @@
           "winnerId": 69406
         },
         "Big Banana": {
-          "cheers": 142,
+          "cheers": 144,
           "winnerId": 128280
         },
         "Expert Cooking Pot": {
@@ -13723,12 +13795,12 @@
           "winnerId": 1181
         },
         "Big Apple": {
-          "cheers": 38,
+          "cheers": 40,
           "winnerId": 3789299344578060
         },
         "Big Orange": {
-          "cheers": 12,
-          "winnerId": 176394
+          "cheers": 14,
+          "winnerId": 188338
         }
       },
       "cheers": {
@@ -13785,7 +13857,7 @@
       },
       "weeklyPoints": {
         "week": "2026-01-26",
-        "points": 2932
+        "points": 2942
       },
       "helpedForCompetition": 511,
       "waves": {
@@ -13800,7 +13872,7 @@
         "2966": {
           "id": 2966,
           "name": "Pet #2966",
-          "experience": 40074,
+          "experience": 40084,
           "energy": 25790,
           "requests": {
             "food": [
@@ -13816,7 +13888,7 @@
               "Fancy Fries"
             ]
           },
-          "pettedAt": 1769862074660,
+          "pettedAt": 1769869303425,
           "traits": {
             "type": "Ram",
             "fur": "White",
@@ -13920,7 +13992,7 @@
         },
         "Pippin": {
           "name": "Pippin",
-          "experience": 55358,
+          "experience": 55368,
           "energy": 17660,
           "requests": {
             "food": [
@@ -13934,7 +14006,7 @@
               "Orange Juice"
             ]
           },
-          "pettedAt": 1769862075426,
+          "pettedAt": 1769869305927,
           "dailySocialXP": {
             "2026-01-31": 50
           },
@@ -13947,7 +14019,7 @@
         },
         "Biscuit": {
           "name": "Biscuit",
-          "experience": 47212,
+          "experience": 47222,
           "energy": 18240,
           "requests": {
             "food": [
@@ -13962,7 +14034,7 @@
               "Radish Cake"
             ]
           },
-          "pettedAt": 1769862074112,
+          "pettedAt": 1769869302087,
           "dailySocialXP": {
             "2026-01-31": 50
           },
@@ -13975,7 +14047,7 @@
         },
         "Waddles": {
           "name": "Waddles",
-          "experience": 22060,
+          "experience": 22070,
           "energy": 11520,
           "requests": {
             "food": [
@@ -13990,7 +14062,7 @@
               "Blue Cheese"
             ]
           },
-          "pettedAt": 1769862075091,
+          "pettedAt": 1769869304343,
           "dailySocialXP": {
             "2026-01-31": 50
           },

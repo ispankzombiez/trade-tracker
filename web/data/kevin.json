@@ -1,16 +1,16 @@
 {
   "username": "kevin",
   "overview": {
-    "balance": 589.25,
-    "coins": 198258.0,
+    "balance": 599.25,
+    "coins": 87723.0,
     "gems": 0.0,
     "earned_sfl": 10207.51,
-    "earned_coins": 198258.0,
+    "earned_coins": 87723.0,
     "spent_sfl": 13373.22,
-    "items_sold": 2395.0,
-    "trade_points": 7662.1,
-    "last_updated": "2026-01-31 02:34 PM",
-    "active_listings": 16
+    "items_sold": 2396.0,
+    "trade_points": 7664.88,
+    "last_updated": "2026-01-31 03:54 PM",
+    "active_listings": 18
   },
   "buys": [
     {
@@ -411,6 +411,42 @@
     }
   ],
   "sells": [
+    {
+      "date": "2026-01-31",
+      "time": "03:06 PM",
+      "type": "SELL",
+      "item": "Collectible #14",
+      "quantity": 1,
+      "price_text": "2.71 SFL",
+      "price": 2.71,
+      "counterparty": "Lupo",
+      "farm_id": "-",
+      "trade_id": "a48d7dc3"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "02:44 PM",
+      "type": "SELL",
+      "item": "Collectible #14",
+      "quantity": 1,
+      "price_text": "1.7 SFL",
+      "price": 1.7,
+      "counterparty": "ARChANGEL",
+      "farm_id": "-",
+      "trade_id": "9ac2ad00"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "02:43 PM",
+      "type": "SELL",
+      "item": "Collectible #14",
+      "quantity": 1,
+      "price_text": "6.7 SFL",
+      "price": 6.7,
+      "counterparty": "Yar",
+      "farm_id": "-",
+      "trade_id": "491453f8"
+    },
     {
       "date": "2026-01-29",
       "time": "01:36 AM",
@@ -847,12 +883,12 @@
   "last_updated": null,
   "stats": {
     "total_buys": 33,
-    "total_sells": 36,
+    "total_sells": 39,
     "buy_volume": 77.518,
-    "sell_volume": 481.2524000000002,
-    "gross_profit": 403.73440000000016,
+    "sell_volume": 492.3624000000002,
+    "gross_profit": 414.8444000000002,
     "avg_buy_price": 2.349030303030303,
-    "avg_sell_price": 13.368122222222228,
+    "avg_sell_price": 12.624676923076928,
     "most_traded_items": {},
     "recent_activity": [
       {
@@ -1021,7 +1057,7 @@
         "time": "12:52 PM"
       }
     ],
-    "profit_margin": 520.8266467143117,
+    "profit_margin": 535.1588018266727,
     "most_bought_items": {
       "Cauliflower": 1020,
       "Artichoke": 509,
@@ -1033,6 +1069,7 @@
     },
     "most_sold_items": {
       "Milk": 3500,
+      "Collectible #14": 3,
       "Obsidian": 1
     }
   },
@@ -1180,6 +1217,24 @@
       "created_at": 1769633406087,
       "collection": "collectibles",
       "trade_type": "instant"
+    },
+    {
+      "id": "dfd82d1d",
+      "item": "Golden Helios",
+      "quantity": 1,
+      "price": 16.09,
+      "created_at": 1769870540123,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "4c6f6ea6",
+      "item": "White Carrot",
+      "quantity": 1,
+      "price": 1.34,
+      "created_at": 1769870682259,
+      "collection": "collectibles",
+      "trade_type": "instant"
     }
   ],
   "active_offers": [],
@@ -1194,7 +1249,7 @@
       "Cauliflower": 928.1596,
       "Parsnip": 695.3436999999999,
       "Radish": 82.67979999999986,
-      "Wheat": 1562.9731,
+      "Wheat": 1849.4231,
       "Kale": 3868.6745,
       "Eggplant": 3141.7228,
       "Corn": 1600.7546,
@@ -1214,7 +1269,7 @@
     "fruits": {
       "Apple": 484.05000000000086,
       "Blueberry": 2236.2500000000036,
-      "Orange": 520.5000000000032,
+      "Orange": 515.5000000000032,
       "Banana": 589.7500000000009,
       "Grape": 143.0,
       "Tomato": 1704.7500000000007,
@@ -1224,7 +1279,7 @@
       "Celestine": 314.25000000000006
     },
     "resources": {
-      "Wood": 126105.75,
+      "Wood": 126186.25,
       "Stone": 26969.0,
       "Iron": 1077.05,
       "Gold": 490.35,

@@ -1,6 +1,6 @@
 {
   "farm": {
-    "coins": 65733.21000000008,
+    "coins": 63733.21000000008,
     "balance": "464.7662286657628416",
     "previousBalance": "325.626853087205339703",
     "inventory": {
@@ -84,7 +84,7 @@
       "Turnip": "1849.942999999999237",
       "Artichoke": "2829.4924999999994659",
       "Duskberry": "49.2500000000000045",
-      "Lunara": "47.0000000000000037",
+      "Lunara": "44.0000000000000037",
       "Celestine": "218.7500000000000036",
       "Red Edelweiss": "11",
       "Yellow Edelweiss": "10",
@@ -107,7 +107,7 @@
       "White Clover": "14",
       "Blue Clover": "16",
       "Pickaxe": "465",
-      "Stone Pickaxe": "145",
+      "Stone Pickaxe": "195",
       "Shovel": "1",
       "Petting Hand": "1",
       "Brush": "1",
@@ -251,10 +251,10 @@
       "Sour Shake": "28",
       "Spaghetti al Limone": "149",
       "Lemon Cheesecake": "144",
-      "Wood": "35028.38",
-      "Stone": "14479.7",
+      "Wood": "34788.93",
+      "Stone": "14271",
       "Iron": "759.45",
-      "Gold": "655.58331472631873884",
+      "Gold": "622.18331472631873884",
       "Egg": "1069.06",
       "Speed Chicken": "3",
       "Fat Chicken": "1",
@@ -273,14 +273,14 @@
       "Earthworm": "5095",
       "Grub": "2987",
       "Red Wiggler": "1592",
-      "Sprout Mix": "586",
+      "Sprout Mix": "523",
       "Fruitful Blend": "3789",
       "Rapid Root": "155",
       "Fishing Lure": "52",
       "Beehive": "4",
       "Flower Bed": "4",
       "Crimstone Rock": "5",
-      "Crimstone": "514.9",
+      "Crimstone": "512.9",
       "Sunstone": "13",
       "Oil": "1395.8427949444443271",
       "Oil Reserve": "4",
@@ -806,7 +806,7 @@
       "Apple Juice": "3",
       "Sand Drill": "30",
       "Black Magic": "1",
-      "Gold Pickaxe": "7",
+      "Gold Pickaxe": "17",
       "Kale Seed": "21",
       "Octopus": "60",
       "Mussel": "12",
@@ -830,7 +830,7 @@
       "Purple Cauliflower": "1",
       "Fish Stick": "5",
       "Prize Ticket": "1",
-      "Rod": "1",
+      "Rod": "41",
       "Lemon Seed": "3",
       "Frost Pebble": "11",
       "Juicy Doll": "1",
@@ -838,8 +838,7 @@
       "Wild Grass": "10",
       "Orange Cake": "1",
       "Oil Drill": "9",
-      "Mariner Pot": "13",
-      "Crab Pot": "1",
+      "Mariner Pot": "10",
       "Giant Orange": "2",
       "Radiant Ray": "1",
       "Chewed Bone": "4",
@@ -860,10 +859,9 @@
       "Paw Prints Rug": "1",
       "Bloom Seed": "4",
       "Lily Seed": "2",
-      "Iron Pickaxe": "2",
       "Cornucopia": "1",
       "Acorn": "15",
-      "Axe": "52",
+      "Axe": "29",
       "Big Orange": "1",
       "Olive Seed": "7"
     },
@@ -1674,7 +1672,7 @@
       "Squeaky Chicken": "1"
     },
     "shipments": {
-      "restockedAt": 1769775228322
+      "restockedAt": 1769870459775
     },
     "gems": {
       "history": {
@@ -4684,14 +4682,18 @@
       "Soybean Seed": "216",
       "Artichoke Seed": "72",
       "Olive Seed": "2",
-      "Yam Seed": "41",
-      "Rod": "75",
-      "Potato Seed": "168",
-      "Gold Pickaxe": "10",
+      "Yam Seed": "61",
+      "Rod": "45",
+      "Potato Seed": "218",
       "Mariner Pot": "15",
       "Oil Drill": "8",
-      "Stone Pickaxe": "50",
-      "Wheat Seed": "96"
+      "Stone Pickaxe": "5",
+      "Wheat Seed": "96",
+      "Axe": "50",
+      "Iron Pickaxe": "1",
+      "Pumpkin Seed": "30",
+      "Sand Shovel": "5",
+      "Sunflower Seed": "100"
     },
     "crops": {
       "1": {
@@ -4705,6 +4707,10 @@
           "plantedAt": 1769811011704,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870364261
         }
       },
       "2": {
@@ -4718,6 +4724,10 @@
           "plantedAt": 1769811013659,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870364460
         }
       },
       "3": {
@@ -4731,6 +4741,10 @@
           "plantedAt": 1769811013450,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870364852
         }
       },
       "4": {
@@ -4744,6 +4758,10 @@
           "plantedAt": 1769811017050,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870370787
         }
       },
       "5": {
@@ -4757,6 +4775,10 @@
           "plantedAt": 1769811016852,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870370599
         }
       },
       "6": {
@@ -4770,6 +4792,10 @@
           "plantedAt": 1769811021332,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870370007
         }
       },
       "7": {
@@ -4783,6 +4809,10 @@
           "plantedAt": 1769811018668,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870374416
         }
       },
       "8": {
@@ -4796,6 +4826,10 @@
           "plantedAt": 1769811011273,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870363878
         }
       },
       "9": {
@@ -4809,6 +4843,10 @@
           "plantedAt": 1769811010832,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870365828
         }
       },
       "10": {
@@ -4822,6 +4860,10 @@
           "plantedAt": 1769811010031,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870365462
         }
       },
       "11": {
@@ -4835,6 +4877,10 @@
           "plantedAt": 1769811017556,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870365025
         }
       },
       "12": {
@@ -4848,6 +4894,10 @@
           "plantedAt": 1769811017784,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870371596
         }
       },
       "13": {
@@ -4861,6 +4911,10 @@
           "plantedAt": 1769811018024,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870371177
         }
       },
       "14": {
@@ -4874,6 +4928,10 @@
           "plantedAt": 1769811019070,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870369441
         }
       },
       "15": {
@@ -4887,6 +4945,10 @@
           "plantedAt": 1769811007943,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870398755
         }
       },
       "16": {
@@ -4900,6 +4962,10 @@
           "plantedAt": 1769811009417,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870363674
         }
       },
       "17": {
@@ -4913,6 +4979,10 @@
           "plantedAt": 1769811009211,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870366206
         }
       },
       "18": {
@@ -4926,6 +4996,10 @@
           "plantedAt": 1769811008814,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870368083
         }
       },
       "71e8d2bd": {
@@ -4939,6 +5013,10 @@
           "plantedAt": 1769811020524,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870371960
         }
       },
       "8bccda92": {
@@ -4952,6 +5030,10 @@
           "plantedAt": 1769811020324,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870373364
         }
       },
       "f45c1a90": {
@@ -4965,6 +5047,10 @@
           "plantedAt": 1769811020152,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870369022
         }
       },
       "fc981369": {
@@ -4978,6 +5064,10 @@
           "plantedAt": 1769811007526,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870362971
         }
       },
       "28c7b8f3": {
@@ -4991,6 +5081,10 @@
           "plantedAt": 1769811006877,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870377381
         }
       },
       "368ef0f7": {
@@ -5004,6 +5098,10 @@
           "plantedAt": 1769811025920,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870366468
         }
       },
       "78b7d21c": {
@@ -5017,6 +5115,10 @@
           "plantedAt": 1769811026132,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870367900
         }
       },
       "aeb4e163": {
@@ -5030,6 +5132,10 @@
           "plantedAt": 1769811026583,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870367299
         }
       },
       "b14d8f35": {
@@ -5043,6 +5149,10 @@
           "plantedAt": 1769811014886,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870367501
         }
       },
       "bdbc88bb": {
@@ -5056,6 +5166,10 @@
           "plantedAt": 1769811019741,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870368842
         }
       },
       "6c019927": {
@@ -5069,6 +5183,10 @@
           "plantedAt": 1769811031277,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870362585
         }
       },
       "15e03c12": {
@@ -5082,6 +5200,10 @@
           "plantedAt": 1769811030602,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870376969
         }
       },
       "3c62eda3": {
@@ -5095,6 +5217,10 @@
           "plantedAt": 1769811025309,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870366884
         }
       },
       "51fdc54e": {
@@ -5108,6 +5234,10 @@
           "plantedAt": 1769811027340,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870367079
         }
       },
       "879b2719": {
@@ -5121,6 +5251,10 @@
           "plantedAt": 1769811022827,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870372366
         }
       },
       "22a78a28": {
@@ -5134,6 +5268,10 @@
           "plantedAt": 1769811040422,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870395738
         }
       },
       "d7676890": {
@@ -5147,6 +5285,10 @@
           "plantedAt": 1769811036345,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870375326
         }
       },
       "e5e4c870": {
@@ -5160,6 +5302,10 @@
           "plantedAt": 1769811029979,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870378487
         }
       },
       "99a07c08": {
@@ -5173,6 +5319,10 @@
           "plantedAt": 1769811029553,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870362388
         }
       },
       "b25d796b": {
@@ -5186,6 +5336,10 @@
           "plantedAt": 1769811028740,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870376472
         }
       },
       "caffa222": {
@@ -5199,6 +5353,10 @@
           "plantedAt": 1769811027782,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870376266
         }
       },
       "cc13f5d2": {
@@ -5212,6 +5370,10 @@
           "plantedAt": 1769811023222,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870375915
         }
       },
       "5f636b9d": {
@@ -5238,6 +5400,10 @@
           "plantedAt": 1769811036164,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870375513
         }
       },
       "06b994f4": {
@@ -5251,6 +5417,10 @@
           "plantedAt": 1769811031778,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870378984
         }
       },
       "a88b8d2a": {
@@ -5264,6 +5434,10 @@
           "plantedAt": 1769811033277,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870361780
         }
       },
       "27f2b09f": {
@@ -5277,6 +5451,10 @@
           "plantedAt": 1769811032235,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870379684
         }
       },
       "fa1bb342": {
@@ -5290,6 +5468,10 @@
           "plantedAt": 1769811032856,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870379848
         }
       },
       "11ecd641": {
@@ -5303,6 +5485,10 @@
           "plantedAt": 1769811039836,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870381038
         }
       },
       "eee07f08": {
@@ -5316,6 +5502,10 @@
           "plantedAt": 1769811038247,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870375696
         }
       },
       "2ca010dc": {
@@ -5329,6 +5519,10 @@
           "plantedAt": 1769811035726,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870382016
         }
       },
       "45caa85e": {
@@ -5359,6 +5553,10 @@
           "plantedAt": 1769811048987,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870361583
         }
       },
       "851564b6": {
@@ -5372,6 +5570,10 @@
           "plantedAt": 1769811048582,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870361380
         }
       },
       "9219f19b": {
@@ -5385,6 +5587,10 @@
           "plantedAt": 1769811047951,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870361204
         }
       },
       "94a90d2b": {
@@ -5398,6 +5604,10 @@
           "plantedAt": 1769811047565,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870361021
         }
       },
       "966ee360": {
@@ -5411,6 +5621,10 @@
           "plantedAt": 1769811041006,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870382365
         }
       },
       "48f86d83": {
@@ -5424,6 +5638,10 @@
           "plantedAt": 1769811042964,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870382210
         }
       },
       "774229b8": {
@@ -5437,6 +5655,10 @@
           "plantedAt": 1769811050363,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870386365
         }
       },
       "ae1e2e3a": {
@@ -5450,6 +5672,10 @@
           "plantedAt": 1769811046501,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870384199
         }
       },
       "7884abfe": {
@@ -5463,6 +5689,10 @@
           "plantedAt": 1769811045275,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870384370
         }
       },
       "9777b04d": {
@@ -5476,6 +5706,10 @@
           "plantedAt": 1769811046099,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870384029
         }
       },
       "9bdb3243": {
@@ -5489,6 +5723,10 @@
           "plantedAt": 1769811052449,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870384575
         }
       },
       "9f15ceae": {
@@ -5502,6 +5740,10 @@
           "plantedAt": 1769811044239,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870383433
         }
       },
       "c0be401c": {
@@ -5515,6 +5757,10 @@
           "plantedAt": 1769811044843,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870384978
         }
       },
       "c2f1a773": {
@@ -5528,6 +5774,10 @@
           "plantedAt": 1769811051355,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870385971
         }
       },
       "d9970d97": {
@@ -5554,6 +5804,10 @@
           "plantedAt": 1769811051979,
           "boostedTime": 48254346,
           "name": "Wheat"
+        },
+        "fertiliser": {
+          "name": "Sprout Mix",
+          "fertilisedAt": 1769870385561
         }
       }
     },
@@ -5563,7 +5817,7 @@
         "width": 2,
         "height": 2,
         "wood": {
-          "choppedAt": 1769864329664
+          "choppedAt": 1769867645307
         },
         "x": 2,
         "y": 8
@@ -5573,7 +5827,7 @@
         "width": 2,
         "height": 2,
         "wood": {
-          "choppedAt": 1769864326926
+          "choppedAt": 1769867645541
         },
         "x": 2,
         "y": 6
@@ -5583,7 +5837,7 @@
         "width": 2,
         "height": 2,
         "wood": {
-          "choppedAt": 1769864328436
+          "choppedAt": 1769867644262
         },
         "x": 4,
         "y": 14
@@ -5593,7 +5847,7 @@
         "width": 2,
         "height": 2,
         "wood": {
-          "choppedAt": 1769864328619
+          "choppedAt": 1769867644038
         },
         "x": 4,
         "y": 12
@@ -5603,7 +5857,7 @@
         "width": 2,
         "height": 2,
         "wood": {
-          "choppedAt": 1769864329029
+          "choppedAt": 1769867643649
         },
         "x": 4,
         "y": 10
@@ -5613,7 +5867,7 @@
         "width": 2,
         "height": 2,
         "wood": {
-          "choppedAt": 1769864329263
+          "choppedAt": 1769867643293
         },
         "x": 4,
         "y": 8
@@ -5623,7 +5877,7 @@
         "width": 2,
         "height": 2,
         "wood": {
-          "choppedAt": 1769864330401
+          "choppedAt": 1769867645948
         },
         "x": 4,
         "y": 6
@@ -5633,7 +5887,7 @@
         "width": 2,
         "height": 2,
         "wood": {
-          "choppedAt": 1769864335948
+          "choppedAt": 1769867647626
         },
         "x": 6,
         "y": 14
@@ -5643,7 +5897,7 @@
         "width": 2,
         "height": 2,
         "wood": {
-          "choppedAt": 1769864336334
+          "choppedAt": 1769867647238
         },
         "x": 6,
         "y": 12
@@ -5653,7 +5907,7 @@
         "width": 2,
         "height": 2,
         "wood": {
-          "choppedAt": 1769864336752
+          "choppedAt": 1769867646521
         },
         "x": 6,
         "y": 10
@@ -5663,7 +5917,7 @@
         "width": 2,
         "height": 2,
         "wood": {
-          "choppedAt": 1769864337388
+          "choppedAt": 1769867646131
         },
         "x": 6,
         "y": 6
@@ -5673,7 +5927,7 @@
         "width": 2,
         "height": 2,
         "wood": {
-          "choppedAt": 1769864335719
+          "choppedAt": 1769867647806
         },
         "x": 8,
         "y": 14
@@ -5683,7 +5937,7 @@
         "width": 2,
         "height": 2,
         "wood": {
-          "choppedAt": 1769864335129
+          "choppedAt": 1769867648205
         },
         "x": 8,
         "y": 12
@@ -5693,7 +5947,7 @@
         "width": 2,
         "height": 2,
         "wood": {
-          "choppedAt": 1769864334556
+          "choppedAt": 1769867648410
         },
         "x": 8,
         "y": 10
@@ -5703,7 +5957,7 @@
         "width": 2,
         "height": 2,
         "wood": {
-          "choppedAt": 1769864333961
+          "choppedAt": 1769867648610
         },
         "x": 8,
         "y": 8
@@ -5713,7 +5967,7 @@
         "width": 2,
         "height": 2,
         "wood": {
-          "choppedAt": 1769864327885
+          "choppedAt": 1769867644877
         },
         "x": 2,
         "y": 12
@@ -5723,7 +5977,7 @@
         "width": 2,
         "height": 2,
         "wood": {
-          "choppedAt": 1769864327697
+          "choppedAt": 1769867645082
         },
         "x": 2,
         "y": 10
@@ -5733,7 +5987,7 @@
         "width": 2,
         "height": 2,
         "wood": {
-          "choppedAt": 1769864337127
+          "choppedAt": 1769867649032
         },
         "x": 8,
         "y": 6
@@ -5743,7 +5997,7 @@
         "width": 2,
         "height": 2,
         "wood": {
-          "choppedAt": 1769864330999
+          "choppedAt": 1769867646305
         },
         "x": 6,
         "y": 8
@@ -5751,7 +6005,7 @@
       "c21f4a6d": {
         "createdAt": 1759016084029,
         "wood": {
-          "choppedAt": 1769864328262
+          "choppedAt": 1769867644655
         },
         "x": 2,
         "y": 14,
@@ -5766,7 +6020,7 @@
         "width": 1,
         "height": 1,
         "stone": {
-          "minedAt": 1769856455040,
+          "minedAt": 1769868737271,
           "boostedTime": 2880000
         },
         "x": -11,
@@ -5777,7 +6031,7 @@
         "width": 1,
         "height": 1,
         "stone": {
-          "minedAt": 1769856453480,
+          "minedAt": 1769868735508,
           "boostedTime": 2880000
         },
         "x": -13,
@@ -5788,7 +6042,7 @@
         "width": 1,
         "height": 1,
         "stone": {
-          "minedAt": 1769856454413,
+          "minedAt": 1769868736648,
           "boostedTime": 2880000
         },
         "x": -12,
@@ -5799,7 +6053,7 @@
         "width": 1,
         "height": 1,
         "stone": {
-          "minedAt": 1769856459041,
+          "minedAt": 1769868735004,
           "boostedTime": 2880000
         },
         "x": -13,
@@ -5810,7 +6064,7 @@
         "width": 1,
         "height": 1,
         "stone": {
-          "minedAt": 1769856458427,
+          "minedAt": 1769868734458,
           "boostedTime": 2880000
         },
         "x": -13,
@@ -5821,7 +6075,7 @@
         "width": 1,
         "height": 1,
         "stone": {
-          "minedAt": 1769856456921,
+          "minedAt": 1769868732864,
           "boostedTime": 2880000
         },
         "x": -11,
@@ -5830,7 +6084,7 @@
       "c71b007a": {
         "createdAt": 1750762924816,
         "stone": {
-          "minedAt": 1769856456049,
+          "minedAt": 1769868737863,
           "boostedTime": 2880000
         },
         "x": -11,
@@ -5839,7 +6093,7 @@
       "8f1a0b19": {
         "createdAt": 1757558732138,
         "stone": {
-          "minedAt": 1769856457614,
+          "minedAt": 1769868733612,
           "boostedTime": 2880000
         },
         "x": -12,
@@ -6007,7 +6261,7 @@
         "createdAt": 1742850472985,
         "height": 1,
         "stone": {
-          "minedAt": 1769783958589,
+          "minedAt": 1769846242240,
           "boostedTime": 24192000
         },
         "x": -8,
@@ -6093,7 +6347,7 @@
       "853a15b3": {
         "createdAt": 1752631838068,
         "stone": {
-          "minedAt": 1769783957968,
+          "minedAt": 1769846243111,
           "boostedTime": 24192000
         },
         "x": -9,
@@ -13366,16 +13620,16 @@
     "floatingIsland": {
       "schedule": [
         {
-          "startAt": 1769869200000,
-          "endAt": 1769871000000
-        },
-        {
           "startAt": 1769899200000,
           "endAt": 1769901000000
         },
         {
           "startAt": 1769929200000,
           "endAt": 1769931000000
+        },
+        {
+          "startAt": 1769959200000,
+          "endAt": 1769961000000
         }
       ],
       "shop": {
@@ -13654,7 +13908,7 @@
       "Gold Rock Bought": 1,
       "Cockle Shell Bountied": 3,
       "Spring Biome Bought": 1,
-      "Doll Crafted": 796,
+      "Doll Crafted": 797,
       "Timber Crafted": 434,
       "Lumber Doll Crafted": 49,
       "Moo Doll Crafted": 61,
@@ -13746,7 +14000,7 @@
       "Minigame Score Submitted": 395,
       "Minigame Prize Claimed": 284,
       "General Store Restocked": 39,
-      "Shipment Restocked": 50,
+      "Shipment Restocked": 51,
       "Recipe Queue Cancelled": 183,
       "Marketplace Offer Cancelled": 73,
       "Faction Prize Claimed": 9,
@@ -13813,7 +14067,7 @@
       "Shroom Syrup Cooked": 80,
       "Cauliflower Cake Cooked": 38,
       "Sunflower Crunch Cooked": 71,
-      "Gold Mined": 6362,
+      "Gold Mined": 6364,
       "Rusty Shovel Crafted": 16,
       "Sea Bass Fed": 121,
       "Flower Rug Bought": 4,
@@ -13830,7 +14084,7 @@
       "Potato Harvested": 153335,
       "Lifeguard Ring Bought": 1,
       "Clownfish Fed": 229,
-      "Gold Pickaxe Crafted": 3126,
+      "Gold Pickaxe Crafted": 3136,
       "Love Letter Collected": 105,
       "Crimstone Armor Bought": 1,
       "Eggplant Planted": 17985,
@@ -13884,7 +14138,7 @@
       "Fancy Fries Cooked": 74,
       "Cobalt Bought": 1,
       "Kale Seed Bought": 6700,
-      "Rod Crafted": 14907,
+      "Rod Crafted": 14947,
       "Tiki Torch Bought": 3,
       "Tuna Fed": 631,
       "Shifty Sheldon Bought": 1,
@@ -13912,7 +14166,7 @@
       "Gardening Overalls Bought": 1,
       "Bonnie's Tombstone Bought": 1,
       "Goblin Brunch Fed": 50,
-      "Crop Fertilised": 54957,
+      "Crop Fertilised": 55020,
       "Sunflower Harvested": 372752,
       "Kale Stew Fed": 46,
       "Cabbage Cake Cooked": 67,
@@ -13982,7 +14236,7 @@
       "Popcorn Cooked": 2579,
       "Whale Bear Dug": 1,
       "Potted Potato Bought": 1,
-      "Stone Pickaxe Crafted": 25455,
+      "Stone Pickaxe Crafted": 25505,
       "Cauliflower Cake Dug": 16,
       "Soybean Harvested": 5385,
       "Grape Harvested": 667,
@@ -14012,7 +14266,7 @@
       "Carrot Planted": 35750,
       "Seafood Basket Cooked": 7,
       "Flower Fox Bought": 1,
-      "Coins Spent": 9289918.05,
+      "Coins Spent": 9291918.05,
       "Eggplant Sold": 7171,
       "Kale Sold": 281,
       "Beetroot Blaze Cooked": 72,
@@ -14047,7 +14301,7 @@
       "Iron Pickaxe Crafted": 6264,
       "Cauliflower Burger Fed": 151,
       "Fancy Fries Fed": 34,
-      "Stone Mined": 75394,
+      "Stone Mined": 75417,
       "Carrot Harvested": 52827,
       "Cauliflower Harvested": 13427,
       "Immortal Pear Crafted": 1,
@@ -14092,7 +14346,7 @@
       "Blueberry Jam Fed": 65,
       "Sea Cucumber Sold": 367,
       "Eggplant Seed Bought": 17185,
-      "Tree Chopped": 203093,
+      "Tree Chopped": 203116,
       "Power Smoothie Cooked": 236,
       "Antipasto Cooked": 106,
       "Treasure Dug": 17047,
@@ -14459,11 +14713,11 @@
       "Blacksmith Shop Restocked": 10,
       "Heart leaf Fetched": 11,
       "VIP Chest Opened": 2,
-      "Ancient Tree Chopped": 760,
-      "Basic Tree Chopped": 14452,
-      "Gold Rock Mined": 758,
-      "Reinforced Stone Rock Mined": 322,
-      "Stone Rock Mined": 2267,
+      "Ancient Tree Chopped": 761,
+      "Basic Tree Chopped": 14471,
+      "Gold Rock Mined": 760,
+      "Reinforced Stone Rock Mined": 323,
+      "Stone Rock Mined": 2274,
       "Iron Rock Mined": 2643,
       "Gilded Swordfish Caught": 1,
       "Twitter Post Submitted": 7,
@@ -14496,8 +14750,8 @@
       "Fish Stick Processed": 77,
       "Crab Pot Crafted": 92,
       "Mariner Pot Crafted": 117,
-      "Crab Pot Placed": 91,
-      "Mariner Pot Placed": 104,
+      "Crab Pot Placed": 92,
+      "Mariner Pot Placed": 107,
       "Sand Caught": 2,
       "Sea Slug Caught": 63,
       "Auction Reward Claimed": 1,
@@ -14564,19 +14818,53 @@
       "trapSpots": {
         "1": {
           "x": -16,
-          "y": -16
+          "y": -16,
+          "waterTrap": {
+            "type": "Mariner Pot",
+            "placedAt": 1769870488501,
+            "chum": "Lunara",
+            "readyAt": 1769899288501,
+            "caught": {
+              "Sea Grapes": 6
+            }
+          }
         },
         "2": {
           "x": -15,
-          "y": -18
+          "y": -18,
+          "waterTrap": {
+            "type": "Mariner Pot",
+            "placedAt": 1769870481709,
+            "chum": "Crimstone",
+            "readyAt": 1769899281709,
+            "caught": {
+              "Sea Grapes": 6
+            }
+          }
         },
         "3": {
           "x": -13.5,
-          "y": -18
+          "y": -18,
+          "waterTrap": {
+            "type": "Crab Pot",
+            "placedAt": 1769870469642,
+            "readyAt": 1769884869642,
+            "caught": {
+              "Isopod": 6
+            }
+          }
         },
         "4": {
           "x": -12,
-          "y": -18
+          "y": -18,
+          "waterTrap": {
+            "type": "Mariner Pot",
+            "placedAt": 1769870468300,
+            "readyAt": 1769899268300,
+            "caught": {
+              "Barnacle": 6
+            }
+          }
         }
       }
     },
@@ -16542,7 +16830,7 @@
           "petXP": 26962.5,
           "score": 11745.5,
           "collectivePet": {
-            "totalXP": 7486922.5,
+            "totalXP": 7517982.5,
             "goalXP": 5445481,
             "goalReached": true,
             "streak": 8,
@@ -17460,8 +17748,8 @@
           "createdAt": 1757896713123,
           "awakeAt": 1769890947677,
           "asleepAt": 1769859454877,
-          "experience": 1544960,
-          "lovedAt": 1769829907675,
+          "experience": 1545035,
+          "lovedAt": 1769870308785,
           "item": "Music Box",
           "healthCheckedAt": 1769828149550
         },
@@ -17472,8 +17760,8 @@
           "createdAt": 1742952866011,
           "awakeAt": 1769890933849,
           "asleepAt": 1769859441049,
-          "experience": 3329280,
-          "lovedAt": 1769829905954,
+          "experience": 3329355,
+          "lovedAt": 1769870311036,
           "item": "Music Box",
           "multiplier": 1,
           "healthCheckedAt": 1769828149550
@@ -17485,9 +17773,9 @@
           "createdAt": 1742778981799,
           "awakeAt": 1769890933005,
           "asleepAt": 1769859440205,
-          "experience": 3351040,
-          "lovedAt": 1769829906212,
-          "item": "Petting Hand",
+          "experience": 3351077.5,
+          "lovedAt": 1769870310584,
+          "item": "Music Box",
           "multiplier": 1,
           "healthCheckedAt": 1769828149550
         },
@@ -17511,8 +17799,8 @@
           "createdAt": 1748342722659,
           "awakeAt": 1769890945740,
           "asleepAt": 1769859452940,
-          "experience": 2709120,
-          "lovedAt": 1769829912773,
+          "experience": 2709195,
+          "lovedAt": 1769870305801,
           "item": "Music Box",
           "multiplier": 1,
           "healthCheckedAt": 1769828149550
@@ -17524,8 +17812,8 @@
           "createdAt": 1749989511262,
           "awakeAt": 1769890969566,
           "asleepAt": 1769859476766,
-          "experience": 2524160,
-          "lovedAt": 1769829914339,
+          "experience": 2524235,
+          "lovedAt": 1769870305550,
           "item": "Music Box",
           "multiplier": 1,
           "healthCheckedAt": 1769828149550
@@ -17537,9 +17825,9 @@
           "createdAt": 1757244753975,
           "awakeAt": 1769890960318,
           "asleepAt": 1769859467518,
-          "experience": 1626560,
-          "lovedAt": 1769829909609,
-          "item": "Petting Hand",
+          "experience": 1626597.5,
+          "lovedAt": 1769870313818,
+          "item": "Brush",
           "healthCheckedAt": 1769828149550
         },
         "8facaf18": {
@@ -17549,8 +17837,8 @@
           "createdAt": 1757290342726,
           "awakeAt": 1769890956016,
           "asleepAt": 1769859463216,
-          "experience": 1621120,
-          "lovedAt": 1769829909133,
+          "experience": 1621195,
+          "lovedAt": 1769870313552,
           "item": "Music Box",
           "healthCheckedAt": 1769828149550
         },
@@ -17561,8 +17849,8 @@
           "createdAt": 1757290342894,
           "awakeAt": 1769890954018,
           "asleepAt": 1769859461218,
-          "experience": 1621120,
-          "lovedAt": 1769829906451,
+          "experience": 1621195,
+          "lovedAt": 1769870311794,
           "item": "Music Box",
           "healthCheckedAt": 1769828149550
         },
@@ -17573,9 +17861,9 @@
           "createdAt": 1759571760752,
           "awakeAt": 1769890944898,
           "asleepAt": 1769859452098,
-          "experience": 1327360,
-          "lovedAt": 1769829912519,
-          "item": "Petting Hand",
+          "experience": 1327397.5,
+          "lovedAt": 1769870306010,
+          "item": "Music Box",
           "healthCheckedAt": 1769828149550
         },
         "a1805c9c": {
@@ -17585,8 +17873,8 @@
           "createdAt": 1759571760918,
           "awakeAt": 1769890943279,
           "asleepAt": 1769859450479,
-          "experience": 1327360,
-          "lovedAt": 1769829913819,
+          "experience": 1327435,
+          "lovedAt": 1769870305103,
           "item": "Music Box",
           "healthCheckedAt": 1769828149550
         },
@@ -17597,9 +17885,9 @@
           "createdAt": 1766363505600,
           "awakeAt": 1769890959364,
           "asleepAt": 1769859466564,
-          "experience": 429760,
-          "lovedAt": 1769829909909,
-          "item": "Brush",
+          "experience": 429820,
+          "lovedAt": 1769870314010,
+          "item": "Music Box",
           "healthCheckedAt": 1769828149550
         },
         "5abe6c00": {
@@ -17609,8 +17897,8 @@
           "createdAt": 1766969991771,
           "awakeAt": 1769890952707,
           "asleepAt": 1769859459907,
-          "experience": 348160,
-          "lovedAt": 1769829910698,
+          "experience": 348235,
+          "lovedAt": 1769870313311,
           "item": "Music Box",
           "healthCheckedAt": 1769791228819
         },
@@ -17621,8 +17909,8 @@
           "createdAt": 1767572449339,
           "awakeAt": 1769890951634,
           "asleepAt": 1769859458834,
-          "experience": 266560,
-          "lovedAt": 1769829906691,
+          "experience": 266620,
+          "lovedAt": 1769870312168,
           "item": "Brush",
           "healthCheckedAt": 1769794925591
         },
@@ -17753,9 +18041,9 @@
           "createdAt": 1769432918983,
           "awakeAt": 1769890941511,
           "asleepAt": 1769859448711,
-          "experience": 3900,
-          "lovedAt": 1769829907284,
-          "item": "Music Box",
+          "experience": 3975,
+          "lovedAt": 1769870308133,
+          "item": "Petting Hand",
           "healthCheckedAt": 1769866079964
         },
         "4cfe8465": {
@@ -17765,8 +18053,8 @@
           "createdAt": 1769432918099,
           "awakeAt": 1769890948976,
           "asleepAt": 1769859456176,
-          "experience": 3915,
-          "lovedAt": 1769829912129,
+          "experience": 3990,
+          "lovedAt": 1769870309020,
           "item": "Music Box",
           "healthCheckedAt": 1769866079964
         },
@@ -17789,8 +18077,8 @@
           "createdAt": 1769650880710,
           "awakeAt": 1769890953485,
           "asleepAt": 1769859460685,
-          "experience": 1327.5,
-          "lovedAt": 1769829910120,
+          "experience": 1387.5,
+          "lovedAt": 1769870314533,
           "item": "Brush",
           "healthCheckedAt": 1769828149550
         },
@@ -17813,9 +18101,9 @@
           "createdAt": 1769650880364,
           "awakeAt": 1769890950990,
           "asleepAt": 1769859458190,
-          "experience": 1325,
-          "lovedAt": 1769829910516,
-          "item": "Petting Hand",
+          "experience": 1362.5,
+          "lovedAt": 1769870312385,
+          "item": "Brush",
           "healthCheckedAt": 1769828149550
         },
         "b20c512c": {
@@ -17825,8 +18113,8 @@
           "createdAt": 1769650880178,
           "awakeAt": 1769890942572,
           "asleepAt": 1769859449772,
-          "experience": 1347.5,
-          "lovedAt": 1769829906887,
+          "experience": 1385,
+          "lovedAt": 1769870308394,
           "item": "Petting Hand",
           "healthCheckedAt": 1769828149550
         },
@@ -17837,8 +18125,8 @@
           "createdAt": 1769650880534,
           "awakeAt": 1769890958581,
           "asleepAt": 1769859465781,
-          "experience": 1347.5,
-          "lovedAt": 1769829914015,
+          "experience": 1407.5,
+          "lovedAt": 1769870314260,
           "item": "Brush",
           "healthCheckedAt": 1769828149550
         },
@@ -17849,8 +18137,8 @@
           "createdAt": 1769740954919,
           "awakeAt": 1769890949579,
           "asleepAt": 1769859456779,
-          "experience": 772.5,
-          "lovedAt": 1769829907099,
+          "experience": 810,
+          "lovedAt": 1769870309244,
           "item": "Petting Hand",
           "healthCheckedAt": 1769818981060
         },
@@ -17861,8 +18149,8 @@
           "createdAt": 1769780951477,
           "awakeAt": 1769890940506,
           "asleepAt": 1769859447706,
-          "experience": 492.5,
-          "lovedAt": 1769829911917,
+          "experience": 530,
+          "lovedAt": 1769870307680,
           "item": "Petting Hand",
           "healthCheckedAt": 1769859483337
         }
@@ -18584,11 +18872,11 @@
     },
     "craftingBox": {
       "status": "crafting",
-      "startedAt": 1769868808399,
-      "readyAt": 1769871508399,
+      "startedAt": 1769871636209,
+      "readyAt": 1769882436209,
       "recipes": {},
       "item": {
-        "collectible": "Doll"
+        "collectible": "Gilded Doll"
       }
     },
     "season": {
@@ -18668,18 +18956,18 @@
     "aoe": {
       "Tin Turtle": {
         "0": {
-          "1": 1769859334413,
-          "-1": 1769859337614
+          "1": 1769871616648,
+          "-1": 1769871613612
         },
         "1": {
-          "0": 1769859336049,
-          "1": 1769859335040,
-          "-1": 1769859336921
+          "0": 1769871617863,
+          "1": 1769871617271,
+          "-1": 1769871612864
         },
         "-1": {
-          "0": 1769859339041,
-          "1": 1769859333480,
-          "-1": 1769859338427
+          "0": 1769871615004,
+          "1": 1769871615508,
+          "-1": 1769871614458
         }
       },
       "Gnome": {
@@ -18854,15 +19142,15 @@
       }
     },
     "boostsUsedAt": {
-      "Apprentice Beaver": 1769868297388,
-      "Bumpkin Shield": 1769868297388,
-      "Lumberjack's Extra": 1769868297388,
-      "Squirrel": 1769868297388,
-      "Tiki Totem": 1769868297388,
-      "Tough Tree": 1769868297127,
-      "Tree Charge": 1769868297388,
+      "Apprentice Beaver": 1769871609032,
+      "Bumpkin Shield": 1769871617863,
+      "Lumberjack's Extra": 1769871609032,
+      "Squirrel": 1769871609032,
+      "Tiki Totem": 1769871609032,
+      "Tough Tree": 1769871606131,
+      "Tree Charge": 1769871609032,
       "Tree Turnaround": 1756214378520,
-      "Wood Nymph Wendy": 1769868297388,
+      "Wood Nymph Wendy": 1769871609032,
       "Healthy Livestock": 1756214408975,
       "Bumpkin Medallion": 1769859324132,
       "Camel Onesie": 1769854903406,
@@ -18873,25 +19161,25 @@
       "Fruitful Bounty": 1769854903406,
       "Fruitful Fumble": 1769854903406,
       "Generous Orchard": 1769854903406,
-      "Gold Beetle": 1769859358588,
-      "Golden Touch": 1769859358588,
+      "Gold Beetle": 1769870435111,
+      "Golden Touch": 1769870435111,
       "Lady Bug": 1769854903406,
       "Loyal Macaw": 1769854903406,
       "Macaw": 1769854903406,
-      "Midas Rush": 1769859358588,
-      "Midas Sprint": 1769859358588,
+      "Midas Rush": 1769870435111,
+      "Midas Sprint": 1769870435111,
       "No Axe No Worries": 1769854901424,
-      "Nugget": 1769859358588,
-      "Ferrous Favor": 1769859356897,
-      "Prospector": 1769859339041,
-      "Quarry": 1769859339041,
-      "Rock Golem": 1769859338427,
-      "Rock'N'Roll": 1769859339041,
-      "Rocky Favor": 1769859356897,
-      "Speed Miner": 1769859339041,
-      "Stone Beetle": 1769859339041,
-      "Tin Turtle": 1769859339041,
-      "Tunnel Mole": 1769859339041,
+      "Nugget": 1769870435111,
+      "Ferrous Favor": 1769871617863,
+      "Prospector": 1769871617863,
+      "Quarry": 1769871617863,
+      "Rock Golem": 1769871615508,
+      "Rock'N'Roll": 1769871617863,
+      "Rocky Favor": 1769871617863,
+      "Speed Miner": 1769871617863,
+      "Stone Beetle": 1769871617863,
+      "Tin Turtle": 1769871617863,
+      "Tunnel Mole": 1769871617863,
       "Efficient Bin": 1769854954469,
       "Iron Beetle": 1769859356897,
       "Iron Bumpkin": 1769859356897,
@@ -19014,7 +19302,7 @@
       "Non La Hat": 1769868320019,
       "Rice Panda": 1769868320019,
       "Knowledge Crab": 1769859306129,
-      "Sol & Luna": 1769868808399,
+      "Sol & Luna": 1769871636209,
       "Angler Waders": 1769777746697,
       "Pink Dolphin": 1768696067608,
       "Walrus": 1769777746697,
@@ -19082,7 +19370,7 @@
       "Sparrow Shrine": 1769859307455,
       "Frosted Cakes": 1769781694667,
       "Spring Guardian": 1768780709771,
-      "Architect Ruler": 1769868808399,
+      "Architect Ruler": 1769871636209,
       "Fruit Tune Box": 1769854903406,
       "Bucket O' Worms": 1769854954469,
       "Wormy Treat": 1769854954469,
@@ -19096,7 +19384,7 @@
       "Collie Shrine": 1769868880227,
       "Saw Fish": 1769854954469,
       "Autumn Guardian": 1769726745925,
-      "Gilded Swordfish": 1769859358588,
+      "Gilded Swordfish": 1769870435111,
       "Harvest Hourglass": 1769449642197,
       "Mole Shrine": 1766590183050,
       "Sleepy Chicken": 1769866079964,
@@ -19224,7 +19512,7 @@
         "2971": {
           "id": 2971,
           "name": "Pet #2971",
-          "experience": 66934,
+          "experience": 66944,
           "energy": 525,
           "requests": {
             "food": [
@@ -19242,7 +19530,7 @@
               "Banana Blast"
             ]
           },
-          "pettedAt": 1769859377077,
+          "pettedAt": 1769870325676,
           "traits": {
             "type": "Phoenix",
             "fur": "Brown",
@@ -19345,7 +19633,7 @@
         },
         "Skipper": {
           "name": "Skipper",
-          "experience": 74280,
+          "experience": 74290,
           "energy": 290,
           "requests": {
             "food": [
@@ -19360,7 +19648,7 @@
               "Wheat Cake"
             ]
           },
-          "pettedAt": 1769859061239,
+          "pettedAt": 1769870336135,
           "fetches": {
             "Acorn": 2,
             "Frost Pebble": 31,
@@ -19372,7 +19660,7 @@
         },
         "Cloudy": {
           "name": "Cloudy",
-          "experience": 64440,
+          "experience": 64450,
           "energy": 360,
           "requests": {
             "food": [
@@ -19387,7 +19675,7 @@
               "Fermented Carrots"
             ]
           },
-          "pettedAt": 1769859061849,
+          "pettedAt": 1769870337023,
           "dailySocialXP": {
             "2026-01-31": 40
           },
@@ -19400,7 +19688,7 @@
         },
         "Mudhorn": {
           "name": "Mudhorn",
-          "experience": 3130,
+          "experience": 3140,
           "energy": 180,
           "requests": {
             "food": [
@@ -19414,7 +19702,7 @@
               "Apple Juice"
             ]
           },
-          "pettedAt": 1769859065529,
+          "pettedAt": 1769870323932,
           "fetches": {
             "Acorn": 324,
             "Frost Pebble": 79

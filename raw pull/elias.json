@@ -10334,16 +10334,16 @@
     "floatingIsland": {
       "schedule": [
         {
-          "startAt": 1769869200000,
-          "endAt": 1769871000000
-        },
-        {
           "startAt": 1769899200000,
           "endAt": 1769901000000
         },
         {
           "startAt": 1769929200000,
           "endAt": 1769931000000
+        },
+        {
+          "startAt": 1769959200000,
+          "endAt": 1769961000000
         }
       ],
       "shop": {
@@ -11625,8 +11625,15 @@
       ]
     },
     "mushrooms": {
-      "mushrooms": {},
-      "magicSpawnedAt": 1769788800000,
+      "mushrooms": {
+        "62e70800": {
+          "name": "Magic Mushroom",
+          "amount": 1,
+          "x": 15,
+          "y": -9
+        }
+      },
+      "magicSpawnedAt": 1769868000000,
       "spawnedAt": 1769817600000
     },
     "delivery": {
@@ -13130,7 +13137,7 @@
           "petXP": 0,
           "score": 0,
           "collectivePet": {
-            "totalXP": 10272620,
+            "totalXP": 10400990,
             "goalXP": 4586794,
             "goalReached": true,
             "streak": 6,
@@ -13494,7 +13501,7 @@
           "experience": 2320,
           "lovedAt": 1769841149212,
           "item": "Music Box",
-          "healthCheckedAt": 1769777017787
+          "healthCheckedAt": 1769873381696
         },
         "0b7ccf51": {
           "id": "0b7ccf51",
@@ -13530,7 +13537,7 @@
           "experience": 710,
           "lovedAt": 1769841147427,
           "item": "Music Box",
-          "healthCheckedAt": 1769777017787
+          "healthCheckedAt": 1769873381696
         },
         "13beccfb": {
           "id": "13beccfb",
@@ -13602,7 +13609,7 @@
           "experience": 385,
           "lovedAt": 1769841146616,
           "item": "Petting Hand",
-          "healthCheckedAt": 1769777076436
+          "healthCheckedAt": 1769873381696
         },
         "333d0f43": {
           "id": "333d0f43",
@@ -13614,7 +13621,7 @@
           "experience": 385,
           "lovedAt": 1769841146416,
           "item": "Brush",
-          "healthCheckedAt": 1769777076436
+          "healthCheckedAt": 1769873381696
         },
         "456a8c62": {
           "id": "456a8c62",
@@ -13626,7 +13633,7 @@
           "experience": 385,
           "lovedAt": 1769841146148,
           "item": "Brush",
-          "healthCheckedAt": 1769777076436
+          "healthCheckedAt": 1769873381696
         },
         "6b27aa5a": {
           "id": "6b27aa5a",
@@ -13638,7 +13645,7 @@
           "experience": 385,
           "lovedAt": 1769841145923,
           "item": "Petting Hand",
-          "healthCheckedAt": 1769777076436
+          "healthCheckedAt": 1769873381696
         }
       }
     },
@@ -13655,7 +13662,7 @@
           "experience": 3970,
           "lovedAt": 1769248336638,
           "item": "Music Box",
-          "healthCheckedAt": 1769778085651
+          "healthCheckedAt": 1769873381696
         },
         "b2013be0": {
           "id": "b2013be0",
@@ -13679,7 +13686,7 @@
           "experience": 5870,
           "lovedAt": 1769248343034,
           "item": "Petting Hand",
-          "healthCheckedAt": 1769778085651
+          "healthCheckedAt": 1769873381696
         },
         "7b08ddab": {
           "id": "7b08ddab",
@@ -13703,7 +13710,7 @@
           "experience": 2520,
           "lovedAt": 1769248342518,
           "item": "Petting Hand",
-          "healthCheckedAt": 1769778085651
+          "healthCheckedAt": 1769873381696
         },
         "c17ba3e5": {
           "id": "c17ba3e5",
@@ -13823,7 +13830,7 @@
           "experience": 755,
           "lovedAt": 1769248340464,
           "item": "Petting Hand",
-          "healthCheckedAt": 1769778166760
+          "healthCheckedAt": 1769873381696
         },
         "7251d45e": {
           "id": "7251d45e",
@@ -15192,7 +15199,7 @@
       "Fruit Tune Box": 1769841167512,
       "Giant Artichoke": 1769731105071,
       "Bucket O' Worms": 1769840734878,
-      "Sleepy Chicken": 1769832493744,
+      "Sleepy Chicken": 1769873381696,
       "Reelmaster's Chair": 1769506992635,
       "Midas Sprint": 1769827104719,
       "Swift Decomposer": 1769840734878,

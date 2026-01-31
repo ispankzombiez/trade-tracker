@@ -1,18 +1,66 @@
 {
   "username": "droid",
   "overview": {
-    "balance": 1.61,
-    "coins": 159994.0,
+    "balance": 0.56,
+    "coins": 159786.0,
     "gems": 0.0,
-    "earned_sfl": 8175.19,
-    "earned_coins": 159994.0,
+    "earned_sfl": 8178.7,
+    "earned_coins": 159786.0,
     "spent_sfl": 12297.69,
-    "items_sold": 7612.0,
+    "items_sold": 7614.0,
     "trade_points": 11367.53,
-    "last_updated": "2026-01-31 02:34 PM",
+    "last_updated": "2026-01-31 03:54 PM",
     "active_listings": 5
   },
   "buys": [
+    {
+      "date": "2026-01-31",
+      "time": "03:26 PM",
+      "type": "BUY",
+      "item": "Milk",
+      "quantity": 30,
+      "price_text": "3.762 SFL",
+      "price": 3.762,
+      "counterparty": "MariiO",
+      "farm_id": "-",
+      "trade_id": "8ea8e8a2"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "03:26 PM",
+      "type": "BUY",
+      "item": "Honey",
+      "quantity": 18,
+      "price_text": "1.0439 SFL",
+      "price": 1.0439,
+      "counterparty": "Lord",
+      "farm_id": "-",
+      "trade_id": "65b10878"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "03:25 PM",
+      "type": "BUY",
+      "item": "Tomato",
+      "quantity": 50,
+      "price_text": "0.2453 SFL",
+      "price": 0.2453,
+      "counterparty": "dungdz01",
+      "farm_id": "-",
+      "trade_id": "a0089ebe"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "02:49 PM",
+      "type": "BUY",
+      "item": "Milk",
+      "quantity": 25,
+      "price_text": "3.12 SFL",
+      "price": 3.12,
+      "counterparty": "DDoubleD",
+      "farm_id": "-",
+      "trade_id": "c979b462"
+    },
     {
       "date": "2026-01-31",
       "time": "11:08 AM",
@@ -1025,6 +1073,18 @@
   "sells": [
     {
       "date": "2026-01-31",
+      "time": "02:37 PM",
+      "type": "SELL",
+      "item": "Yam",
+      "quantity": 1000,
+      "price_text": "2.79 SFL",
+      "price": 2.79,
+      "counterparty": "maebe",
+      "farm_id": "-",
+      "trade_id": "9ad66330"
+    },
+    {
+      "date": "2026-01-31",
       "time": "02:22 PM",
       "type": "SELL",
       "item": "Yam",
@@ -1590,15 +1650,51 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 84,
-    "total_sells": 47,
-    "buy_volume": 115.68839999999999,
-    "sell_volume": 114.6715,
-    "gross_profit": -1.0168999999999926,
-    "avg_buy_price": 1.377242857142857,
-    "avg_sell_price": 2.43981914893617,
+    "total_buys": 88,
+    "total_sells": 48,
+    "buy_volume": 123.85959999999997,
+    "sell_volume": 117.4615,
+    "gross_profit": -6.398099999999971,
+    "avg_buy_price": 1.4074954545454543,
+    "avg_sell_price": 2.447114583333333,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Milk",
+        "quantity": 30,
+        "price": 3.762,
+        "date": "2026-01-31",
+        "time": "03:26 PM",
+        "username": "droid"
+      },
+      {
+        "type": "BUY",
+        "item": "Honey",
+        "quantity": 18,
+        "price": 1.0439,
+        "date": "2026-01-31",
+        "time": "03:26 PM",
+        "username": "droid"
+      },
+      {
+        "type": "BUY",
+        "item": "Tomato",
+        "quantity": 50,
+        "price": 0.2453,
+        "date": "2026-01-31",
+        "time": "03:25 PM",
+        "username": "droid"
+      },
+      {
+        "type": "BUY",
+        "item": "Milk",
+        "quantity": 25,
+        "price": 3.12,
+        "date": "2026-01-31",
+        "time": "02:49 PM",
+        "username": "droid"
+      },
       {
         "type": "BUY",
         "item": "Stone",
@@ -1614,8 +1710,7 @@
         "quantity": 10,
         "price": 0.6383,
         "date": "2026-01-31",
-        "time": "10:29 AM",
-        "username": "droid"
+        "time": "10:29 AM"
       },
       {
         "type": "BUY",
@@ -1623,8 +1718,7 @@
         "quantity": 45,
         "price": 5.5113,
         "date": "2026-01-31",
-        "time": "08:55 AM",
-        "username": "droid"
+        "time": "08:55 AM"
       },
       {
         "type": "BUY",
@@ -1632,8 +1726,7 @@
         "quantity": 50,
         "price": 0.9999,
         "date": "2026-01-31",
-        "time": "08:26 AM",
-        "username": "droid"
+        "time": "08:26 AM"
       },
       {
         "type": "BUY",
@@ -1641,8 +1734,7 @@
         "quantity": 100,
         "price": 0.6799,
         "date": "2026-01-31",
-        "time": "08:25 AM",
-        "username": "droid"
+        "time": "08:25 AM"
       },
       {
         "type": "BUY",
@@ -1731,49 +1823,17 @@
         "price": 1.299,
         "date": "2026-01-31",
         "time": "03:36 AM"
-      },
-      {
-        "type": "BUY",
-        "item": "Milk",
-        "quantity": 10,
-        "price": 1.29,
-        "date": "2026-01-31",
-        "time": "03:36 AM"
-      },
-      {
-        "type": "BUY",
-        "item": "Stone",
-        "quantity": 50,
-        "price": 0.78,
-        "date": "2026-01-30",
-        "time": "06:05 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Lemon",
-        "quantity": 100,
-        "price": 0.9903,
-        "date": "2026-01-30",
-        "time": "05:05 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Lemon",
-        "quantity": 25,
-        "price": 0.2478,
-        "date": "2026-01-30",
-        "time": "05:04 PM"
       }
     ],
-    "profit_margin": -0.878999104491023,
+    "profit_margin": -5.16560686454661,
     "most_bought_items": {
       "Broccoli": 2300,
       "Yam": 1650,
       "Carrot": 600,
       "Stone": 566,
-      "Milk": 417,
+      "Milk": 472,
       "Artichoke": 291,
-      "Tomato": 200,
+      "Tomato": 250,
       "Lemon": 175,
       "Parsnip": 150,
       "Leather": 114
@@ -1781,7 +1841,7 @@
     "most_sold_items": {
       "Sunflower": 24000,
       "Potato": 12000,
-      "Yam": 2900,
+      "Yam": 3900,
       "Carrot": 1300,
       "Onion": 685,
       "Wheat": 600,
@@ -1836,24 +1896,6 @@
       "created_at": 1769656189516,
       "collection": "collectibles",
       "trade_type": "instant"
-    },
-    {
-      "id": "9ad66330",
-      "item": "Yam",
-      "quantity": 1000,
-      "price": 2.79,
-      "created_at": 1769869135380,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "ea38a2cb",
-      "item": "Yam",
-      "quantity": 400,
-      "price": 1.11,
-      "created_at": 1769869143713,
-      "collection": "collectibles",
-      "trade_type": "instant"
     }
   ],
   "active_offers": [],
@@ -1868,7 +1910,7 @@
       "Cauliflower": 14.750899999999925,
       "Parsnip": 11.118999999999927,
       "Radish": 277.2946999999998,
-      "Wheat": 388.0782999999989,
+      "Wheat": 268.0782999999989,
       "Kale": 65.2209999999999,
       "Eggplant": 758.8689,
       "Corn": 0.0301000000000001,
@@ -1878,7 +1920,7 @@
       "Barley": 40.73979999999994,
       "Rhubarb": 96.35,
       "Zucchini": 588.6496,
-      "Yam": 1426.5633,
+      "Yam": 439.9633,
       "Broccoli": 280.2199,
       "Pepper": 46.7,
       "Onion": 0.7929000000000271,
@@ -1886,21 +1928,21 @@
       "Artichoke": 25.00610000000002
     },
     "fruits": {
-      "Apple": 21.500000000000494,
+      "Apple": 40.0000000000005,
       "Blueberry": 3.000000000005413,
       "Orange": 0.8000000000008347,
       "Banana": 14.50000000000071,
       "Grape": 1.9,
-      "Tomato": 77.50000000000064,
-      "Lemon": 78.30000000000108,
+      "Tomato": 2.5000000000006337,
+      "Lemon": 18.300000000001077,
       "Duskberry": 6e-15,
       "Lunara": 0.9000000000000099,
       "Celestine": 2.4000000000000252
     },
     "resources": {
-      "Wood": 193.12,
+      "Wood": 240.27,
       "Stone": 18.04,
-      "Iron": 58.95,
+      "Iron": 115.38,
       "Gold": 4.51,
       "Obsidian": 10.2,
       "Crimstone": 8.0
