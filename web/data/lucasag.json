@@ -2,17 +2,41 @@
   "username": "lucasag",
   "overview": {
     "balance": 168.37,
-    "coins": 4091.0,
+    "coins": 3391.0,
     "gems": 0.0,
     "earned_sfl": 14207.67,
-    "earned_coins": 4091.0,
+    "earned_coins": 3391.0,
     "spent_sfl": 5993.05,
-    "items_sold": 7682.0,
+    "items_sold": 7685.0,
     "trade_points": 26751.78,
-    "last_updated": "2026-01-30 09:54 PM",
+    "last_updated": "2026-01-31 12:28 AM",
     "active_listings": 16
   },
   "buys": [
+    {
+      "date": "2026-01-31",
+      "time": "12:20 AM",
+      "type": "BUY",
+      "item": "Orange",
+      "quantity": 100,
+      "price_text": "1.4729 SFL",
+      "price": 1.4729,
+      "counterparty": "Apolo01",
+      "farm_id": "-",
+      "trade_id": "86edde8d"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "12:01 AM",
+      "type": "BUY",
+      "item": "Crimstone",
+      "quantity": 4,
+      "price_text": "2.082 SFL",
+      "price": 2.082,
+      "counterparty": "BrrBrPatapin",
+      "farm_id": "-",
+      "trade_id": "088ce41a"
+    },
     {
       "date": "2026-01-30",
       "time": "09:25 PM",
@@ -219,6 +243,42 @@
     }
   ],
   "sells": [
+    {
+      "date": "2026-01-30",
+      "time": "11:46 PM",
+      "type": "SELL",
+      "item": "Milk",
+      "quantity": 50,
+      "price_text": "6.0743 SFL",
+      "price": 6.0743,
+      "counterparty": "Precioso",
+      "farm_id": "-",
+      "trade_id": "15256cfe"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "11:46 PM",
+      "type": "SELL",
+      "item": "Milk",
+      "quantity": 50,
+      "price_text": "6.0743 SFL",
+      "price": 6.0743,
+      "counterparty": "Precioso",
+      "farm_id": "-",
+      "trade_id": "e27fd4f5"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "11:46 PM",
+      "type": "SELL",
+      "item": "Milk",
+      "quantity": 50,
+      "price_text": "6.0743 SFL",
+      "price": 6.0743,
+      "counterparty": "Precioso",
+      "farm_id": "-",
+      "trade_id": "9914fef2"
+    },
     {
       "date": "2026-01-30",
       "time": "05:06 PM",
@@ -618,15 +678,33 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 17,
-    "total_sells": 33,
-    "buy_volume": 32.5449,
-    "sell_volume": 157.6387,
-    "gross_profit": 125.0938,
-    "avg_buy_price": 1.914405882352941,
-    "avg_sell_price": 4.776930303030303,
+    "total_buys": 19,
+    "total_sells": 36,
+    "buy_volume": 36.099799999999995,
+    "sell_volume": 175.86159999999998,
+    "gross_profit": 139.7618,
+    "avg_buy_price": 1.8999894736842102,
+    "avg_sell_price": 4.885044444444444,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Orange",
+        "quantity": 100,
+        "price": 1.4729,
+        "date": "2026-01-31",
+        "time": "12:20 AM",
+        "username": "lucasag"
+      },
+      {
+        "type": "BUY",
+        "item": "Crimstone",
+        "quantity": 4,
+        "price": 2.082,
+        "date": "2026-01-31",
+        "time": "12:01 AM",
+        "username": "lucasag"
+      },
       {
         "type": "BUY",
         "item": "Wheat",
@@ -660,8 +738,7 @@
         "quantity": 100,
         "price": 1.4196,
         "date": "2026-01-30",
-        "time": "09:25 PM",
-        "username": "lucasag"
+        "time": "09:25 PM"
       },
       {
         "type": "BUY",
@@ -669,8 +746,7 @@
         "quantity": 100,
         "price": 1.4196,
         "date": "2026-01-30",
-        "time": "09:25 PM",
-        "username": "lucasag"
+        "time": "09:25 PM"
       },
       {
         "type": "BUY",
@@ -774,28 +850,14 @@
         "quantity": 50,
         "price": 6.0743,
         "date": "2026-01-30",
-        "time": "05:06 PM"
-      },
-      {
-        "type": "SELL",
-        "item": "Leather",
-        "quantity": 25,
-        "price": 2.9666,
-        "date": "2026-01-30",
-        "time": "04:42 PM"
-      },
-      {
-        "type": "SELL",
-        "item": "Leather",
-        "quantity": 25,
-        "price": 2.9666,
-        "date": "2026-01-30",
-        "time": "04:42 PM"
+        "time": "11:46 PM"
       }
     ],
-    "profit_margin": 384.3729739529082,
+    "profit_margin": 387.1539454512214,
     "most_bought_items": {
-      "Wheat": 2278
+      "Wheat": 2278,
+      "Orange": 100,
+      "Crimstone": 4
     },
     "most_sold_items": {
       "Wood": 4500,
@@ -803,9 +865,9 @@
       "Beetroot": 1000,
       "Corn": 480,
       "Gold": 250,
+      "Milk": 241,
       "Leather": 210,
-      "Stone": 154,
-      "Milk": 91
+      "Stone": 154
     }
   },
   "active_listings": [
@@ -925,48 +987,21 @@
       "created_at": 1769779457874,
       "collection": "wearables",
       "trade_type": "onchain"
-    },
-    {
-      "id": "e27fd4f5",
-      "item": "Milk",
-      "quantity": 50,
-      "price": 6.0743,
-      "created_at": 1769790689598,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "15256cfe",
-      "item": "Milk",
-      "quantity": 50,
-      "price": 6.0743,
-      "created_at": 1769790695582,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "9914fef2",
-      "item": "Milk",
-      "quantity": 50,
-      "price": 6.0743,
-      "created_at": 1769790700819,
-      "collection": "collectibles",
-      "trade_type": "instant"
     }
   ],
   "active_offers": [],
   "inventory": {
     "crops": {
-      "Sunflower": 76299.56880002124,
+      "Sunflower": 75499.56880002124,
       "Potato": 12771.643900011955,
       "Pumpkin": 32441.5412999965,
-      "Carrot": 13981.396500000046,
+      "Carrot": 13781.396500000046,
       "Cabbage": 1000.9281000000435,
       "Beetroot": 1790.1526999999987,
       "Cauliflower": 1.871400000000765,
       "Parsnip": 50.41300000001561,
       "Radish": 55.60760000000003,
-      "Wheat": 453.80290000000355,
+      "Wheat": 303.80290000000355,
       "Kale": 3.567099999999695,
       "Eggplant": 1269.2724000000012,
       "Corn": 2000.5399000000116,
@@ -976,28 +1011,28 @@
       "Barley": 4094.2986000000215,
       "Rhubarb": 32480.85000000094,
       "Zucchini": 15706.500000005264,
-      "Yam": 7984.9971999993895,
-      "Broccoli": 6014.374900000023,
+      "Yam": 8943.79679999939,
+      "Broccoli": 6004.374900000023,
       "Pepper": 1951.0820000000201,
       "Onion": 3183.156500000011,
       "Turnip": 1421.8539,
-      "Artichoke": 204.0045
+      "Artichoke": 202.0045
     },
     "fruits": {
       "Blueberry": 209.25,
       "Orange": 194.02,
       "Grape": 2.5,
-      "Tomato": 6276.550000000013,
+      "Tomato": 6393.350000000013,
       "Lemon": 1841.9,
       "Duskberry": 1.5000000000000004,
       "Lunara": 24.82,
       "Celestine": 0.4,
-      "Banana": 572.16,
+      "Banana": 578.16,
       "Apple": 82.0
     },
     "resources": {
-      "Wood": 6380.792,
-      "Stone": 1769.3,
+      "Wood": 6556.052,
+      "Stone": 1829.3,
       "Iron": 1794.85,
       "Gold": 522.55,
       "Crimstone": 11.6,

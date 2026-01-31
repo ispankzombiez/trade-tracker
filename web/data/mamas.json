@@ -1,18 +1,30 @@
 {
   "username": "mamas",
   "overview": {
-    "balance": 65.16,
-    "coins": 4769.0,
+    "balance": 63.46,
+    "coins": 4609.0,
     "gems": 0.0,
     "earned_sfl": 2372.76,
-    "earned_coins": 4769.0,
+    "earned_coins": 4609.0,
     "spent_sfl": 6703.73,
     "items_sold": 3040.0,
     "trade_points": 37500.38,
-    "last_updated": "2026-01-30 09:54 PM",
+    "last_updated": "2026-01-31 12:28 AM",
     "active_listings": 4
   },
   "buys": [
+    {
+      "date": "2026-01-30",
+      "time": "11:31 PM",
+      "type": "BUY",
+      "item": "Parsnip",
+      "quantity": 100,
+      "price_text": "1.7 SFL",
+      "price": 1.7,
+      "counterparty": "JESTER",
+      "farm_id": "-",
+      "trade_id": "6eab3834"
+    },
     {
       "date": "2026-01-30",
       "time": "07:05 PM",
@@ -618,15 +630,24 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 36,
+    "total_buys": 37,
     "total_sells": 14,
-    "buy_volume": 1314.2484999999995,
+    "buy_volume": 1315.9484999999995,
     "sell_volume": 1496.4400000000007,
-    "gross_profit": 182.19150000000127,
-    "avg_buy_price": 36.50690277777776,
+    "gross_profit": 180.49150000000122,
+    "avg_buy_price": 35.566175675675666,
     "avg_sell_price": 106.88857142857148,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Parsnip",
+        "quantity": 100,
+        "price": 1.7,
+        "date": "2026-01-30",
+        "time": "11:31 PM",
+        "username": "mamas"
+      },
       {
         "type": "BUY",
         "item": "Stone",
@@ -669,8 +690,7 @@
         "quantity": 1,
         "price": 1270.0,
         "date": "2026-01-29",
-        "time": "12:11 PM",
-        "username": "mamas"
+        "time": "12:11 PM"
       },
       {
         "type": "BUY",
@@ -783,17 +803,9 @@
         "price": 2.2464,
         "date": "2026-01-26",
         "time": "07:08 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Broccoli",
-        "quantity": 692,
-        "price": 2.3983,
-        "date": "2026-01-26",
-        "time": "07:08 PM"
       }
     ],
-    "profit_margin": 13.862789267022283,
+    "profit_margin": 13.71569632094275,
     "most_bought_items": {
       "Yam": 2590,
       "Broccoli": 2192,
@@ -803,8 +815,8 @@
       "Blueberry": 216,
       "Pepper": 208,
       "Carrot": 178,
-      "Cauliflower": 100,
-      "Eggplant": 100
+      "Parsnip": 100,
+      "Cauliflower": 100
     },
     "most_sold_items": {
       "Wood": 950,
@@ -861,15 +873,6 @@
       "created_at": 1769249431026,
       "collection": "collectibles",
       "trade_type": "instant"
-    },
-    {
-      "id": "6eab3834",
-      "item": "Parsnip",
-      "quantity": 100,
-      "price": 1.7,
-      "created_at": 1769801182366,
-      "collection": "collectibles",
-      "trade_type": "instant"
     }
   ],
   "inventory": {
@@ -881,9 +884,9 @@
       "Cabbage": 10.193199999999894,
       "Beetroot": 106.87129999999999,
       "Cauliflower": 7.850999999999933,
-      "Parsnip": 29.590399999999963,
+      "Parsnip": 129.59039999999996,
       "Radish": 873.7407,
-      "Wheat": 6517.3847000000005,
+      "Wheat": 6650.184700000001,
       "Kale": 121.96000000000004,
       "Eggplant": 61.69420000000005,
       "Corn": 4459.4413,
@@ -913,10 +916,10 @@
       "Celestine": 60.950000000000045
     },
     "resources": {
-      "Wood": 50606.53,
-      "Stone": 61.95,
-      "Iron": 955.15,
-      "Gold": 177.2,
+      "Wood": 50713.23,
+      "Stone": 25.85,
+      "Iron": 992.05,
+      "Gold": 190.9,
       "Crimstone": 297.4,
       "Obsidian": 59.8
     }
