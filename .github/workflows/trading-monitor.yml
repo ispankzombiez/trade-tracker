@@ -15,6 +15,11 @@ jobs:
     runs-on: self-hosted
     
     steps:
+    - name: Wait 15 minutes between runs
+      run: |
+        echo "Waiting 15 minutes before starting data collection..."
+        sleep 900  # Wait 15 minutes
+        
     - name: Checkout repository
       uses: actions/checkout@v4
       with:
@@ -69,8 +74,7 @@ jobs:
         
     - name: Schedule next workflow run
       run: |
-        echo "Workflow completed. Scheduling next run in 15 minutes..."
-        sleep 900  # Wait 15 minutes
+        echo "Workflow completed. Triggering next run immediately..."
         curl -X POST \
           -H "Accept: application/vnd.github.v3+json" \
           -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
