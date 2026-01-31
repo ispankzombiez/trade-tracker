@@ -1,16 +1,16 @@
 {
   "username": "kevin",
   "overview": {
-    "balance": 599.25,
-    "coins": 87723.0,
+    "balance": 635.94,
+    "coins": 80349.0,
     "gems": 0.0,
     "earned_sfl": 10207.51,
-    "earned_coins": 87723.0,
+    "earned_coins": 80349.0,
     "spent_sfl": 13373.22,
-    "items_sold": 2396.0,
+    "items_sold": 2399.0,
     "trade_points": 7664.88,
-    "last_updated": "2026-01-31 06:07 PM",
-    "active_listings": 18
+    "last_updated": "2026-01-31 09:49 PM",
+    "active_listings": 15
   },
   "buys": [
     {
@@ -411,6 +411,42 @@
     }
   ],
   "sells": [
+    {
+      "date": "2026-01-31",
+      "time": "07:32 PM",
+      "type": "SELL",
+      "item": "Milk",
+      "quantity": 100,
+      "price_text": "13.2189 SFL",
+      "price": 13.2189,
+      "counterparty": "Precioso",
+      "farm_id": "-",
+      "trade_id": "f18399e7"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "07:32 PM",
+      "type": "SELL",
+      "item": "Milk",
+      "quantity": 100,
+      "price_text": "13.2189 SFL",
+      "price": 13.2189,
+      "counterparty": "Precioso",
+      "farm_id": "-",
+      "trade_id": "924113a7"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "07:32 PM",
+      "type": "SELL",
+      "item": "Milk",
+      "quantity": 100,
+      "price_text": "13.2189 SFL",
+      "price": 13.2189,
+      "counterparty": "Precioso",
+      "farm_id": "-",
+      "trade_id": "a7e15744"
+    },
     {
       "date": "2026-01-31",
       "time": "03:06 PM",
@@ -895,12 +931,12 @@
   "last_updated": null,
   "stats": {
     "total_buys": 33,
-    "total_sells": 40,
+    "total_sells": 43,
     "buy_volume": 77.518,
-    "sell_volume": 495.0724000000002,
-    "gross_profit": 417.5544000000002,
+    "sell_volume": 534.7291000000002,
+    "gross_profit": 457.2111000000002,
     "avg_buy_price": 2.349030303030303,
-    "avg_sell_price": 12.376810000000004,
+    "avg_sell_price": 12.435560465116284,
     "most_traded_items": {},
     "recent_activity": [
       {
@@ -1069,7 +1105,7 @@
         "time": "12:52 PM"
       }
     ],
-    "profit_margin": 538.6547640548005,
+    "profit_margin": 589.8128176681547,
     "most_bought_items": {
       "Cauliflower": 1020,
       "Artichoke": 509,
@@ -1080,7 +1116,7 @@
       "Chewed Bone": 9
     },
     "most_sold_items": {
-      "Milk": 3500,
+      "Milk": 3800,
       "Collectible #14": 4,
       "Obsidian": 1
     }
@@ -1186,33 +1222,6 @@
       "trade_type": "instant"
     },
     {
-      "id": "a7e15744",
-      "item": "Milk",
-      "quantity": 100,
-      "price": 13.2189,
-      "created_at": 1769633387424,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "f18399e7",
-      "item": "Milk",
-      "quantity": 100,
-      "price": 13.2189,
-      "created_at": 1769633391628,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "924113a7",
-      "item": "Milk",
-      "quantity": 100,
-      "price": 13.2189,
-      "created_at": 1769633396919,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
       "id": "56cc81c4",
       "item": "Milk",
       "quantity": 100,
@@ -1252,49 +1261,49 @@
   "active_offers": [],
   "inventory": {
     "crops": {
-      "Sunflower": 429529.7922000275,
+      "Sunflower": 443176.8648000277,
       "Potato": 20167.903100002983,
       "Pumpkin": 103847.0622000023,
-      "Carrot": 11368.4259,
-      "Cabbage": 13135.3011,
+      "Carrot": 11348.4259,
+      "Cabbage": 13125.3011,
       "Beetroot": 5415.2756,
       "Cauliflower": 928.1596,
       "Parsnip": 695.3436999999999,
       "Radish": 82.67979999999986,
-      "Wheat": 1849.4231,
+      "Wheat": 1609.4231,
       "Kale": 3868.6745,
       "Eggplant": 3141.7228,
-      "Corn": 1600.7546,
+      "Corn": 1410.7546,
       "Soybean": 3284.2095,
-      "Rice": 2813.802,
+      "Rice": 2839.4019,
       "Olive": 46.39,
-      "Barley": 5258.702,
+      "Barley": 5048.702,
       "Rhubarb": 16589.400000001264,
       "Zucchini": 5389.602100000003,
       "Yam": 7899.7702,
-      "Broccoli": 1989.8979,
+      "Broccoli": 1979.8979,
       "Pepper": 1536.7718,
       "Onion": 13478.9096,
       "Turnip": 3235.9500000000003,
-      "Artichoke": 454.5941000000001
+      "Artichoke": 452.5941000000001
     },
     "fruits": {
-      "Apple": 484.05000000000086,
-      "Blueberry": 2236.2500000000036,
+      "Apple": 515.5500000000009,
+      "Blueberry": 2226.2500000000036,
       "Orange": 515.5000000000032,
       "Banana": 589.7500000000009,
       "Grape": 143.0,
-      "Tomato": 1704.7500000000007,
-      "Lemon": 156.55000000000044,
+      "Tomato": 1669.7500000000007,
+      "Lemon": 71.55000000000042,
       "Duskberry": 31.500000000000007,
       "Lunara": 32.25000000000001,
       "Celestine": 314.25000000000006
     },
     "resources": {
-      "Wood": 126477.25,
-      "Stone": 27032.8,
-      "Iron": 1114.25,
-      "Gold": 480.35,
+      "Wood": 126104.1,
+      "Stone": 26768.6,
+      "Iron": 967.25,
+      "Gold": 473.35,
       "Crimstone": 262.3,
       "Obsidian": 49.9
     }

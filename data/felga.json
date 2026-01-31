@@ -9,10 +9,34 @@
     "spent_sfl": 12105.93,
     "items_sold": 1349.0,
     "trade_points": 59269.3,
-    "last_updated": "2026-01-31 06:07 PM",
+    "last_updated": "2026-01-31 09:49 PM",
     "active_listings": 9
   },
   "buys": [
+    {
+      "date": "2026-01-31",
+      "time": "09:45 PM",
+      "type": "BUY",
+      "item": "Iron",
+      "quantity": 99,
+      "price_text": "6.1875 SFL",
+      "price": 6.1875,
+      "counterparty": "kkkkk42",
+      "farm_id": "-",
+      "trade_id": "1015bcef"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "09:45 PM",
+      "type": "BUY",
+      "item": "Iron",
+      "quantity": 100,
+      "price_text": "6.25 SFL",
+      "price": 6.25,
+      "counterparty": "RRRoman",
+      "farm_id": "-",
+      "trade_id": "93215493"
+    },
     {
       "date": "2026-01-31",
       "time": "09:52 AM",
@@ -666,17 +690,35 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 38,
+    "total_buys": 40,
     "total_sells": 16,
-    "buy_volume": 131.00670000000002,
+    "buy_volume": 143.44420000000005,
     "sell_volume": 93.89529999999998,
-    "gross_profit": -37.111400000000046,
-    "avg_buy_price": 3.4475447368421057,
+    "gross_profit": -49.548900000000074,
+    "avg_buy_price": 3.586105000000001,
     "avg_sell_price": 5.868456249999999,
     "most_traded_items": {},
     "recent_activity": [
       {
         "type": "BUY",
+        "item": "Iron",
+        "quantity": 99,
+        "price": 6.1875,
+        "date": "2026-01-31",
+        "time": "09:45 PM",
+        "username": "felga"
+      },
+      {
+        "type": "BUY",
+        "item": "Iron",
+        "quantity": 100,
+        "price": 6.25,
+        "date": "2026-01-31",
+        "time": "09:45 PM",
+        "username": "felga"
+      },
+      {
+        "type": "BUY",
         "item": "Wheat",
         "quantity": 500,
         "price": 7.295,
@@ -708,8 +750,7 @@
         "quantity": 300,
         "price": 2.9742,
         "date": "2026-01-31",
-        "time": "09:49 AM",
-        "username": "felga"
+        "time": "09:49 AM"
       },
       {
         "type": "BUY",
@@ -717,8 +758,7 @@
         "quantity": 200,
         "price": 2.8555,
         "date": "2026-01-30",
-        "time": "07:42 PM",
-        "username": "felga"
+        "time": "07:42 PM"
       },
       {
         "type": "BUY",
@@ -823,25 +863,9 @@
         "price": 0.5055,
         "date": "2026-01-27",
         "time": "10:26 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Tomato",
-        "quantity": 130,
-        "price": 0.655,
-        "date": "2026-01-27",
-        "time": "10:26 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Tomato",
-        "quantity": 121,
-        "price": 0.6096,
-        "date": "2026-01-27",
-        "time": "10:26 PM"
       }
     ],
-    "profit_margin": -28.327864147406228,
+    "profit_margin": -34.54228194656881,
     "most_bought_items": {
       "Wheat": 2405,
       "Corn": 1478,
@@ -849,6 +873,7 @@
       "Lemon": 600,
       "Barley": 500,
       "Orange": 220,
+      "Iron": 199,
       "Honey": 118,
       "Collectible #14": 3
     },

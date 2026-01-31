@@ -1,18 +1,30 @@
 {
   "username": "henry",
   "overview": {
-    "balance": 1.44,
-    "coins": 20117.0,
+    "balance": 1.6,
+    "coins": 18017.0,
     "gems": 0.0,
     "earned_sfl": 7044.89,
-    "earned_coins": 20117.0,
+    "earned_coins": 18017.0,
     "spent_sfl": 8183.98,
-    "items_sold": 1129.0,
+    "items_sold": 1130.0,
     "trade_points": 7637.41,
-    "last_updated": "2026-01-31 06:07 PM",
+    "last_updated": "2026-01-31 09:49 PM",
     "active_listings": 2
   },
   "buys": [
+    {
+      "date": "2026-01-31",
+      "time": "06:58 PM",
+      "type": "BUY",
+      "item": "Wool",
+      "quantity": 20,
+      "price_text": "1.1999 SFL",
+      "price": 1.1999,
+      "counterparty": "IRICHKA",
+      "farm_id": "-",
+      "trade_id": "3f7baf6d"
+    },
     {
       "date": "2026-01-31",
       "time": "02:05 PM",
@@ -641,6 +653,18 @@
   "sells": [
     {
       "date": "2026-01-31",
+      "time": "07:16 PM",
+      "type": "SELL",
+      "item": "Wheat",
+      "quantity": 100,
+      "price_text": "1.4743 SFL",
+      "price": 1.4743,
+      "counterparty": "RouBi",
+      "farm_id": "-",
+      "trade_id": "0f5a38fd"
+    },
+    {
+      "date": "2026-01-31",
       "time": "02:10 PM",
       "type": "SELL",
       "item": "Wheat",
@@ -678,15 +702,24 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 52,
-    "total_sells": 3,
-    "buy_volume": 167.37670000000003,
-    "sell_volume": 20.8599,
-    "gross_profit": -146.51680000000002,
-    "avg_buy_price": 3.218782692307693,
-    "avg_sell_price": 6.9533,
+    "total_buys": 53,
+    "total_sells": 4,
+    "buy_volume": 168.5766,
+    "sell_volume": 22.3342,
+    "gross_profit": -146.2424,
+    "avg_buy_price": 3.180690566037736,
+    "avg_sell_price": 5.58355,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Wool",
+        "quantity": 20,
+        "price": 1.1999,
+        "date": "2026-01-31",
+        "time": "06:58 PM",
+        "username": "henry"
+      },
       {
         "type": "BUY",
         "item": "Olive",
@@ -729,8 +762,7 @@
         "quantity": 300,
         "price": 1.7013,
         "date": "2026-01-30",
-        "time": "03:12 PM",
-        "username": "henry"
+        "time": "03:12 PM"
       },
       {
         "type": "BUY",
@@ -843,17 +875,9 @@
         "price": 3.3142,
         "date": "2026-01-28",
         "time": "04:07 AM"
-      },
-      {
-        "type": "BUY",
-        "item": "Apple",
-        "quantity": 123,
-        "price": 2.7962,
-        "date": "2026-01-28",
-        "time": "02:04 AM"
       }
     ],
-    "profit_margin": -87.53715421561064,
+    "profit_margin": -86.75130474810857,
     "most_bought_items": {
       "Wood": 2869,
       "Stone": 1900,
@@ -862,12 +886,12 @@
       "Tomato": 400,
       "Apple": 323,
       "Feather": 300,
-      "Wool": 228,
+      "Wool": 248,
       "Iron": 210,
       "Milk": 200
     },
     "most_sold_items": {
-      "Wheat": 200,
+      "Wheat": 300,
       "Obsidian": 1
     }
   },
@@ -896,14 +920,14 @@
     "crops": {
       "Sunflower": 28839.2206,
       "Potato": 29782.3984999997,
-      "Pumpkin": 12290.858099999985,
+      "Pumpkin": 14056.452499999985,
       "Carrot": 7448.7563,
       "Cabbage": 24.968300000000003,
       "Beetroot": 66.3934,
       "Cauliflower": 857.8556,
       "Parsnip": 19.28620000000001,
       "Radish": 207.0110000000001,
-      "Wheat": 1238.8285000000005,
+      "Wheat": 1078.8285000000005,
       "Kale": 1266.7909000000002,
       "Eggplant": 1645.1689,
       "Corn": 149.40280000000007,
@@ -913,32 +937,32 @@
       "Barley": 584.0208000000003,
       "Rhubarb": 947.7,
       "Zucchini": 7479.35,
-      "Yam": 1589.4405,
-      "Broccoli": 2761.9718,
+      "Yam": 1574.4405,
+      "Broccoli": 2751.9718,
       "Pepper": 2737.1452,
       "Onion": 1246.7697,
       "Turnip": 234.9773,
-      "Artichoke": 902.3745
+      "Artichoke": 900.3745
     },
     "fruits": {
-      "Apple": 202.50000000000009,
+      "Apple": 198.50000000000009,
       "Blueberry": 42.200000000000045,
       "Orange": 21.400000000000126,
       "Banana": 118.30000000000004,
       "Grape": 3.2,
-      "Tomato": 115.40000000000015,
-      "Lemon": 66.15000000000036,
+      "Tomato": 20.400000000000148,
+      "Lemon": 6.150000000000361,
       "Duskberry": 1.9,
       "Celestine": 3.0,
       "Lunara": 0.7
     },
     "resources": {
-      "Wood": 100.9,
-      "Iron": 36.3,
+      "Wood": 46.9,
+      "Iron": 31.7,
       "Gold": 442.26,
       "Crimstone": 9.2,
       "Obsidian": 1.68,
-      "Stone": 112.65
+      "Stone": 47.65
     }
   }
 }

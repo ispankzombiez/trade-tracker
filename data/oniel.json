@@ -1,18 +1,42 @@
 {
   "username": "oniel",
   "overview": {
-    "balance": 115.67,
-    "coins": 46431.0,
+    "balance": 109.52,
+    "coins": 46328.0,
     "gems": 0.0,
     "earned_sfl": 11788.39,
-    "earned_coins": 46431.0,
+    "earned_coins": 46328.0,
     "spent_sfl": 8513.13,
     "items_sold": 1765.0,
     "trade_points": 21623.23,
-    "last_updated": "2026-01-31 06:07 PM",
+    "last_updated": "2026-01-31 09:49 PM",
     "active_listings": 84
   },
   "buys": [
+    {
+      "date": "2026-01-31",
+      "time": "08:23 PM",
+      "type": "BUY",
+      "item": "Parsnip",
+      "quantity": 100,
+      "price_text": "1.7588 SFL",
+      "price": 1.7588,
+      "counterparty": "EduardoxD11",
+      "farm_id": "-",
+      "trade_id": "b5eeccda"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "08:23 PM",
+      "type": "BUY",
+      "item": "Parsnip",
+      "quantity": 250,
+      "price_text": "4.397 SFL",
+      "price": 4.397,
+      "counterparty": "EduardoxD11",
+      "farm_id": "-",
+      "trade_id": "909b4d7b"
+    },
     {
       "date": "2026-01-30",
       "time": "09:17 AM",
@@ -36,6 +60,18 @@
       "counterparty": "Ertugrul",
       "farm_id": "-",
       "trade_id": "a8877d84"
+    },
+    {
+      "date": "2026-01-29",
+      "time": "08:28 PM",
+      "type": "BUY",
+      "item": "Yam",
+      "quantity": 512,
+      "price_text": "1.4921 SFL",
+      "price": 1.4921,
+      "counterparty": "Peluuchos",
+      "farm_id": "-",
+      "trade_id": "b6f5eddc"
     },
     {
       "date": "2026-01-29",
@@ -618,22 +654,31 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 15,
+    "total_buys": 18,
     "total_sells": 35,
-    "buy_volume": 9.472399999999999,
+    "buy_volume": 17.120300000000004,
     "sell_volume": 62.7668,
-    "gross_profit": 53.2944,
-    "avg_buy_price": 0.6314933333333332,
+    "gross_profit": 45.6465,
+    "avg_buy_price": 0.951127777777778,
     "avg_sell_price": 1.793337142857143,
     "most_traded_items": {},
     "recent_activity": [
       {
         "type": "BUY",
-        "item": "Apple",
+        "item": "Parsnip",
         "quantity": 100,
-        "price": 2.02,
-        "date": "2026-01-30",
-        "time": "09:17 AM",
+        "price": 1.7588,
+        "date": "2026-01-31",
+        "time": "08:23 PM",
+        "username": "oniel"
+      },
+      {
+        "type": "BUY",
+        "item": "Parsnip",
+        "quantity": 250,
+        "price": 4.397,
+        "date": "2026-01-31",
+        "time": "08:23 PM",
         "username": "oniel"
       },
       {
@@ -647,9 +692,18 @@
       },
       {
         "type": "BUY",
-        "item": "Broccoli",
+        "item": "Apple",
         "quantity": 100,
-        "price": 0.3222,
+        "price": 2.02,
+        "date": "2026-01-30",
+        "time": "09:17 AM",
+        "username": "oniel"
+      },
+      {
+        "type": "BUY",
+        "item": "Yam",
+        "quantity": 512,
+        "price": 1.4921,
         "date": "2026-01-29",
         "time": "08:28 PM",
         "username": "oniel"
@@ -660,8 +714,7 @@
         "quantity": 100,
         "price": 0.3222,
         "date": "2026-01-29",
-        "time": "08:28 PM",
-        "username": "oniel"
+        "time": "08:28 PM"
       },
       {
         "type": "BUY",
@@ -669,8 +722,15 @@
         "quantity": 100,
         "price": 0.3222,
         "date": "2026-01-29",
-        "time": "08:28 PM",
-        "username": "oniel"
+        "time": "08:28 PM"
+      },
+      {
+        "type": "BUY",
+        "item": "Broccoli",
+        "quantity": 100,
+        "price": 0.3222,
+        "date": "2026-01-29",
+        "time": "08:28 PM"
       },
       {
         "type": "BUY",
@@ -767,36 +827,13 @@
         "price": 0.5866,
         "date": "2026-01-30",
         "time": "12:59 AM"
-      },
-      {
-        "type": "SELL",
-        "item": "Wool",
-        "quantity": 20,
-        "price": 1.1732,
-        "date": "2026-01-30",
-        "time": "12:57 AM"
-      },
-      {
-        "type": "SELL",
-        "item": "Wool",
-        "quantity": 20,
-        "price": 1.1732,
-        "date": "2026-01-30",
-        "time": "12:57 AM"
-      },
-      {
-        "type": "SELL",
-        "item": "Wool",
-        "quantity": 20,
-        "price": 1.1732,
-        "date": "2026-01-30",
-        "time": "12:53 AM"
       }
     ],
-    "profit_margin": 562.6282673873571,
+    "profit_margin": 266.6220802205568,
     "most_bought_items": {
       "Broccoli": 1430,
-      "Yam": 300,
+      "Yam": 812,
+      "Parsnip": 350,
       "Apple": 200
     },
     "most_sold_items": {
@@ -1575,33 +1612,33 @@
   "inventory": {
     "crops": {
       "Sunflower": 11492.169900000816,
-      "Potato": 3098.1780000001995,
-      "Pumpkin": 345.8918000002376,
-      "Carrot": 1851.361800000007,
+      "Potato": 2898.1780000001995,
+      "Pumpkin": 225.8918000002376,
+      "Carrot": 1771.361800000007,
       "Cabbage": 4085.4632000000024,
-      "Beetroot": 570.2756,
+      "Beetroot": 510.27560000000005,
       "Cauliflower": 1609.1446999999996,
-      "Parsnip": 0.2316999999999287,
+      "Parsnip": 320.23169999999993,
       "Radish": 38.81939999999996,
-      "Wheat": 16915.0524,
+      "Wheat": 16840.0524,
       "Kale": 5263.9478,
       "Eggplant": 118.33700000000006,
       "Corn": 2698.778900000001,
       "Soybean": 249.47530000000003,
       "Rice": 2.114,
       "Olive": 0.006,
-      "Barley": 9438.2981,
+      "Barley": 9589.1981,
       "Rhubarb": 1255.5999999999992,
       "Zucchini": 1219.5999999999792,
       "Yam": 107.348,
-      "Broccoli": 489.7319,
+      "Broccoli": 471.0319,
       "Pepper": 52.290999999999976,
       "Onion": 32.943900000000006,
-      "Turnip": 736.05,
-      "Artichoke": 1016.3807000000002
+      "Turnip": 461.05,
+      "Artichoke": 1014.3807000000002
     },
     "fruits": {
-      "Apple": 181.85000000000028,
+      "Apple": 205.10000000000028,
       "Blueberry": 312.00000000000273,
       "Orange": 484.30000000000047,
       "Banana": 70.30000000000024,
@@ -1613,12 +1650,12 @@
       "Celestine": 227.9
     },
     "resources": {
-      "Stone": 3996.8,
+      "Stone": 3991.15,
       "Iron": 426.05,
       "Gold": 91.85,
       "Crimstone": 69.3,
       "Obsidian": 23.71,
-      "Wood": 342.1
+      "Wood": 155.3
     }
   }
 }

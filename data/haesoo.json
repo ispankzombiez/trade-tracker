@@ -1,18 +1,30 @@
 {
   "username": "haesoo",
   "overview": {
-    "balance": 0.23,
-    "coins": 5812.0,
+    "balance": 2.38,
+    "coins": 2512.0,
     "gems": 0.0,
     "earned_sfl": 6562.63,
-    "earned_coins": 5812.0,
+    "earned_coins": 2512.0,
     "spent_sfl": 2498.78,
     "items_sold": 2914.0,
     "trade_points": 2768.39,
-    "last_updated": "2026-01-31 06:07 PM",
+    "last_updated": "2026-01-31 09:49 PM",
     "active_listings": 0
   },
   "buys": [
+    {
+      "date": "2026-01-31",
+      "time": "05:59 PM",
+      "type": "BUY",
+      "item": "Wool",
+      "quantity": 10,
+      "price_text": "0.5889 SFL",
+      "price": 0.5889,
+      "counterparty": "Alieks",
+      "farm_id": "-",
+      "trade_id": "c66232a1"
+    },
     {
       "date": "2026-01-31",
       "time": "03:39 PM",
@@ -773,6 +785,18 @@
   "sells": [
     {
       "date": "2026-01-31",
+      "time": "05:59 PM",
+      "type": "SELL",
+      "item": "Barley",
+      "quantity": 133,
+      "price_text": "2.9526 SFL",
+      "price": 2.9526,
+      "counterparty": "rttt",
+      "farm_id": "-",
+      "trade_id": "5df6e4b4"
+    },
+    {
+      "date": "2026-01-31",
       "time": "03:37 PM",
       "type": "SELL",
       "item": "Wheat",
@@ -1038,15 +1062,24 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 63,
-    "total_sells": 22,
-    "buy_volume": 89.47400000000003,
-    "sell_volume": 74.60360000000001,
-    "gross_profit": -14.870400000000018,
-    "avg_buy_price": 1.4202222222222227,
-    "avg_sell_price": 3.391072727272728,
+    "total_buys": 64,
+    "total_sells": 23,
+    "buy_volume": 90.06290000000004,
+    "sell_volume": 77.55620000000002,
+    "gross_profit": -12.506700000000023,
+    "avg_buy_price": 1.4072328125000007,
+    "avg_sell_price": 3.3720086956521746,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Wool",
+        "quantity": 10,
+        "price": 0.5889,
+        "date": "2026-01-31",
+        "time": "05:59 PM",
+        "username": "haesoo"
+      },
       {
         "type": "BUY",
         "item": "Wood",
@@ -1089,8 +1122,7 @@
         "quantity": 100,
         "price": 0.8749,
         "date": "2026-01-31",
-        "time": "07:46 AM",
-        "username": "haesoo"
+        "time": "07:46 AM"
       },
       {
         "type": "BUY",
@@ -1203,17 +1235,9 @@
         "price": 0.275,
         "date": "2026-01-30",
         "time": "09:35 AM"
-      },
-      {
-        "type": "BUY",
-        "item": "Napoleanfish",
-        "quantity": 1,
-        "price": 0.275,
-        "date": "2026-01-30",
-        "time": "09:35 AM"
       }
     ],
-    "profit_margin": -16.619800165411196,
+    "profit_margin": -13.886628123233894,
     "most_bought_items": {
       "Wood": 1965,
       "Carrot": 700,
@@ -1224,12 +1248,12 @@
       "Soybean": 200,
       "Parsnip": 180,
       "Onion": 177,
-      "Wool": 119
+      "Wool": 129
     },
     "most_sold_items": {
+      "Barley": 194,
       "Wheat": 150,
       "Artichoke": 130,
-      "Barley": 61,
       "Wild Grass": 50,
       "Iron": 20,
       "Corn": 20,
@@ -1256,10 +1280,10 @@
       "Eggplant": 381.265,
       "Corn": 351.6829000000001,
       "Soybean": 2.7,
-      "Barley": 355.61,
+      "Barley": 222.61000000000004,
       "Rhubarb": 2198.2,
       "Zucchini": 134.65,
-      "Yam": 15.63,
+      "Yam": 0.63,
       "Broccoli": 105.6,
       "Pepper": 37.95,
       "Onion": 18.5749,
@@ -1273,18 +1297,18 @@
       "Blueberry": 12.600000000000058,
       "Orange": 27.250000000000025,
       "Banana": 35.8,
-      "Tomato": 94.80000000000001,
+      "Tomato": 113.60000000000001,
       "Lemon": 148.45,
       "Grape": 1.0,
       "Lunara": 1.0,
       "Celestine": 2.0
     },
     "resources": {
-      "Wood": 89.28,
-      "Gold": 17.95,
-      "Crimstone": 5.3,
-      "Stone": 1.95,
-      "Iron": 1.25,
+      "Wood": 51.28,
+      "Gold": 5.95,
+      "Crimstone": 1.3,
+      "Stone": 46.95,
+      "Iron": 28.85,
       "Obsidian": 2.0
     }
   }

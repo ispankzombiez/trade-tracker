@@ -1,18 +1,54 @@
 {
   "username": "broes",
   "overview": {
-    "balance": 1322.12,
-    "coins": 174175.0,
+    "balance": 1315.23,
+    "coins": 174015.0,
     "gems": 0.0,
-    "earned_sfl": 855.95,
-    "earned_coins": 174175.0,
+    "earned_sfl": 864.9,
+    "earned_coins": 174015.0,
     "spent_sfl": 0.0,
     "items_sold": 236.0,
     "trade_points": 15470.15,
-    "last_updated": "2026-01-31 06:07 PM",
+    "last_updated": "2026-01-31 09:49 PM",
     "active_listings": 0
   },
   "buys": [
+    {
+      "date": "2026-01-31",
+      "time": "08:49 PM",
+      "type": "BUY",
+      "item": "Milk",
+      "quantity": 100,
+      "price_text": "13.2085 SFL",
+      "price": 13.2085,
+      "counterparty": "nautt",
+      "farm_id": "-",
+      "trade_id": "0f13d8e2"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "07:19 PM",
+      "type": "BUY",
+      "item": "Yam",
+      "quantity": 400,
+      "price_text": "1.1194 SFL",
+      "price": 1.1194,
+      "counterparty": "SlimV",
+      "farm_id": "-",
+      "trade_id": "885c3d5c"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "07:19 PM",
+      "type": "BUY",
+      "item": "Yam",
+      "quantity": 525,
+      "price_text": "1.5141 SFL",
+      "price": 1.5141,
+      "counterparty": "DuclerHit",
+      "farm_id": "-",
+      "trade_id": "ef929aee"
+    },
     {
       "date": "2026-01-31",
       "time": "02:21 PM",
@@ -690,15 +726,42 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 48,
+    "total_buys": 51,
     "total_sells": 8,
-    "buy_volume": 275.87699999999995,
+    "buy_volume": 291.719,
     "sell_volume": 31.302500000000002,
-    "gross_profit": -244.57449999999994,
-    "avg_buy_price": 5.747437499999999,
+    "gross_profit": -260.4165,
+    "avg_buy_price": 5.719980392156863,
     "avg_sell_price": 3.9128125000000002,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Milk",
+        "quantity": 100,
+        "price": 13.2085,
+        "date": "2026-01-31",
+        "time": "08:49 PM",
+        "username": "broes"
+      },
+      {
+        "type": "BUY",
+        "item": "Yam",
+        "quantity": 400,
+        "price": 1.1194,
+        "date": "2026-01-31",
+        "time": "07:19 PM",
+        "username": "broes"
+      },
+      {
+        "type": "BUY",
+        "item": "Yam",
+        "quantity": 525,
+        "price": 1.5141,
+        "date": "2026-01-31",
+        "time": "07:19 PM",
+        "username": "broes"
+      },
       {
         "type": "BUY",
         "item": "Wool",
@@ -723,8 +786,7 @@
         "quantity": 1,
         "price": 73.98,
         "date": "2026-01-27",
-        "time": "06:53 AM",
-        "username": "broes"
+        "time": "06:53 AM"
       },
       {
         "type": "BUY",
@@ -732,8 +794,7 @@
         "quantity": 2000,
         "price": 5.995,
         "date": "2026-01-26",
-        "time": "09:23 AM",
-        "username": "broes"
+        "time": "09:23 AM"
       },
       {
         "type": "BUY",
@@ -741,8 +802,7 @@
         "quantity": 299,
         "price": 1.0278,
         "date": "2026-01-26",
-        "time": "09:22 AM",
-        "username": "broes"
+        "time": "09:22 AM"
       },
       {
         "type": "BUY",
@@ -839,41 +899,17 @@
         "price": 0.5964,
         "date": "2026-01-26",
         "time": "09:22 AM"
-      },
-      {
-        "type": "BUY",
-        "item": "Yam",
-        "quantity": 100,
-        "price": 0.2997,
-        "date": "2026-01-26",
-        "time": "09:22 AM"
-      },
-      {
-        "type": "BUY",
-        "item": "Wool",
-        "quantity": 20,
-        "price": 1.1299,
-        "date": "2026-01-25",
-        "time": "08:33 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Wool",
-        "quantity": 20,
-        "price": 1.1299,
-        "date": "2026-01-25",
-        "time": "08:33 PM"
       }
     ],
-    "profit_margin": -88.65345788159216,
+    "profit_margin": -89.26963961894837,
     "most_bought_items": {
       "Potato": 6000,
-      "Yam": 2997,
+      "Yam": 3922,
       "Rhubarb": 2000,
       "Broccoli": 1948,
       "Wood": 832,
       "Wool": 740,
-      "Milk": 183,
+      "Milk": 283,
       "Wheat": 100,
       "Crimstone": 40,
       "Duskberry": 6
@@ -899,7 +935,7 @@
   ],
   "inventory": {
     "crops": {
-      "Sunflower": 9558.3943,
+      "Sunflower": 9508.3943,
       "Potato": 558.5596,
       "Pumpkin": 6046.441,
       "Carrot": 11623.2503,
@@ -917,20 +953,20 @@
       "Barley": 497.88660000000004,
       "Rhubarb": 1661.7999,
       "Zucchini": 13786.5491,
-      "Yam": 2162.7995,
-      "Broccoli": 2000.8995,
+      "Yam": 281.29949999999997,
+      "Broccoli": 138.6995,
       "Pepper": 4190.3999,
       "Onion": 99.10700000000001,
       "Turnip": 44.93019999999999,
-      "Artichoke": 854.6878,
+      "Artichoke": 762.6878,
       "Rice": 36.05
     },
     "fruits": {
-      "Apple": 643.6000000000004,
+      "Apple": 656.5500000000004,
       "Blueberry": 744.9000000000005,
       "Orange": 240.90000000000046,
-      "Banana": 1587.8000000000004,
-      "Tomato": 975.900000000001,
+      "Banana": 1547.8000000000004,
+      "Tomato": 1010.400000000001,
       "Lemon": 858.7000000000006,
       "Duskberry": 0.7000000000000016,
       "Lunara": 1.6000000000000008,
@@ -938,12 +974,12 @@
       "Grape": 76.5
     },
     "resources": {
-      "Iron": 383.35,
-      "Wood": 413.6,
-      "Stone": 739.45,
+      "Iron": 410.95,
+      "Wood": 517.5,
+      "Stone": 791.25,
       "Obsidian": 7.0,
-      "Gold": 107.3,
-      "Crimstone": 77.2
+      "Gold": 92.3,
+      "Crimstone": 59.2
     }
   }
 }
