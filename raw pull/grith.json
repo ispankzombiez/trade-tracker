@@ -6454,6 +6454,30 @@
           "sfl": 2.434,
           "tax": 0.1217,
           "tradeType": "instant"
+        },
+        "b279dc71": {
+          "collection": "collectibles",
+          "createdAt": 1769878050204,
+          "items": {
+            "Milk": 50
+          },
+          "sfl": 6.1177,
+          "tax": 0.305885,
+          "tradeType": "instant",
+          "fulfilledAt": 1769878126801,
+          "fulfilledById": 8283453115061603
+        },
+        "66474aa2": {
+          "collection": "collectibles",
+          "createdAt": 1769878064721,
+          "items": {
+            "Milk": 50
+          },
+          "sfl": 6.1177,
+          "tax": 0.305885,
+          "tradeType": "instant",
+          "fulfilledAt": 1769878593237,
+          "fulfilledById": 1624856965188397
         }
       },
       "soldCount": 5344,
@@ -10933,7 +10957,14 @@
       ]
     },
     "mushrooms": {
-      "mushrooms": {},
+      "mushrooms": {
+        "11d34da6": {
+          "name": "Wild Mushroom",
+          "amount": 1.5,
+          "x": 6,
+          "y": -13
+        }
+      },
       "magicSpawnedAt": 1769839200000,
       "spawnedAt": 1769875200000
     },
