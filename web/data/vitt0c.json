@@ -1,7 +1,7 @@
 {
   "username": "vitt0c",
   "overview": {
-    "balance": 22883.0,
+    "balance": 22881.24,
     "coins": 14062.0,
     "gems": 0.0,
     "earned_sfl": 15138.15,
@@ -9,10 +9,22 @@
     "spent_sfl": 14331.72,
     "items_sold": 10284.0,
     "trade_points": 97992.16,
-    "last_updated": "2026-01-31 03:28 PM",
+    "last_updated": "2026-01-31 04:48 PM",
     "active_listings": 142
   },
   "buys": [
+    {
+      "date": "2026-01-31",
+      "time": "03:24 PM",
+      "type": "BUY",
+      "item": "Apple",
+      "quantity": 100,
+      "price_text": "1.7603 SFL",
+      "price": 1.7603,
+      "counterparty": "StreetMoney",
+      "farm_id": "-",
+      "trade_id": "1799b06e"
+    },
     {
       "date": "2026-01-31",
       "time": "12:14 PM",
@@ -1866,15 +1878,24 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 19,
+    "total_buys": 20,
     "total_sells": 135,
-    "buy_volume": 130.8629,
+    "buy_volume": 132.6232,
     "sell_volume": 8813.1674,
-    "gross_profit": 8682.3045,
-    "avg_buy_price": 6.887521052631579,
+    "gross_profit": 8680.5442,
+    "avg_buy_price": 6.6311599999999995,
     "avg_sell_price": 65.28272148148149,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Apple",
+        "quantity": 100,
+        "price": 1.7603,
+        "date": "2026-01-31",
+        "time": "03:24 PM",
+        "username": "vitt0c"
+      },
       {
         "type": "BUY",
         "item": "Collectible #14",
@@ -1917,8 +1938,7 @@
         "quantity": 1,
         "price": 1.701,
         "date": "2026-01-31",
-        "time": "08:29 AM",
-        "username": "vitt0c"
+        "time": "08:29 AM"
       },
       {
         "type": "BUY",
@@ -2031,21 +2051,13 @@
         "price": 1.7383,
         "date": "2026-01-30",
         "time": "05:14 AM"
-      },
-      {
-        "type": "SELL",
-        "item": "Merino Wool",
-        "quantity": 200,
-        "price": 2.125,
-        "date": "2026-01-31",
-        "time": "02:21 PM"
       }
     ],
-    "profit_margin": 6634.656957777949,
+    "profit_margin": 6545.268248692537,
     "most_bought_items": {
       "Radish": 600,
       "Eggplant": 500,
-      "Apple": 200,
+      "Apple": 300,
       "Milk": 150,
       "Soybean": 125,
       "Olive": 100,

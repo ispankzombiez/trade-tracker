@@ -1,18 +1,30 @@
 {
   "username": "haesoo",
   "overview": {
-    "balance": 0.42,
-    "coins": 5324.0,
+    "balance": 0.23,
+    "coins": 5812.0,
     "gems": 0.0,
     "earned_sfl": 6562.63,
-    "earned_coins": 5324.0,
+    "earned_coins": 5812.0,
     "spent_sfl": 2498.78,
-    "items_sold": 2913.0,
+    "items_sold": 2914.0,
     "trade_points": 2768.39,
-    "last_updated": "2026-01-31 03:28 PM",
+    "last_updated": "2026-01-31 04:48 PM",
     "active_listings": 0
   },
   "buys": [
+    {
+      "date": "2026-01-31",
+      "time": "03:39 PM",
+      "type": "BUY",
+      "item": "Wood",
+      "quantity": 100,
+      "price_text": "0.8733 SFL",
+      "price": 0.8733,
+      "counterparty": "Lakanary",
+      "farm_id": "-",
+      "trade_id": "7cc628a4"
+    },
     {
       "date": "2026-01-31",
       "time": "08:09 AM",
@@ -761,6 +773,18 @@
   "sells": [
     {
       "date": "2026-01-31",
+      "time": "03:37 PM",
+      "type": "SELL",
+      "item": "Wheat",
+      "quantity": 50,
+      "price_text": "0.7463 SFL",
+      "price": 0.7463,
+      "counterparty": "IncoreID",
+      "farm_id": "-",
+      "trade_id": "b560c606"
+    },
+    {
+      "date": "2026-01-31",
       "time": "02:09 AM",
       "type": "SELL",
       "item": "Wild Grass",
@@ -1014,15 +1038,24 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 62,
-    "total_sells": 21,
-    "buy_volume": 88.60070000000003,
-    "sell_volume": 73.85730000000002,
-    "gross_profit": -14.743400000000008,
-    "avg_buy_price": 1.4290435483870974,
-    "avg_sell_price": 3.517014285714287,
+    "total_buys": 63,
+    "total_sells": 22,
+    "buy_volume": 89.47400000000003,
+    "sell_volume": 74.60360000000001,
+    "gross_profit": -14.870400000000018,
+    "avg_buy_price": 1.4202222222222227,
+    "avg_sell_price": 3.391072727272728,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Wood",
+        "quantity": 100,
+        "price": 0.8733,
+        "date": "2026-01-31",
+        "time": "03:39 PM",
+        "username": "haesoo"
+      },
       {
         "type": "BUY",
         "item": "Wool",
@@ -1065,8 +1098,7 @@
         "quantity": 200,
         "price": 0.3404,
         "date": "2026-01-31",
-        "time": "01:52 AM",
-        "username": "haesoo"
+        "time": "01:52 AM"
       },
       {
         "type": "BUY",
@@ -1179,19 +1211,11 @@
         "price": 0.275,
         "date": "2026-01-30",
         "time": "09:35 AM"
-      },
-      {
-        "type": "BUY",
-        "item": "Carrot",
-        "quantity": 500,
-        "price": 0.8716,
-        "date": "2026-01-30",
-        "time": "04:35 AM"
       }
     ],
-    "profit_margin": -16.64027485110163,
+    "profit_margin": -16.619800165411196,
     "most_bought_items": {
-      "Wood": 1865,
+      "Wood": 1965,
       "Carrot": 700,
       "Beetroot": 350,
       "Stone": 333,
@@ -1203,8 +1227,8 @@
       "Wool": 119
     },
     "most_sold_items": {
+      "Wheat": 150,
       "Artichoke": 130,
-      "Wheat": 100,
       "Barley": 61,
       "Wild Grass": 50,
       "Iron": 20,
@@ -1227,7 +1251,7 @@
       "Cauliflower": 2.6650000000000236,
       "Parsnip": 58.155000000000065,
       "Radish": 506.0796,
-      "Wheat": 429.5750000000002,
+      "Wheat": 379.5750000000002,
       "Kale": 14.175000000000178,
       "Eggplant": 381.265,
       "Corn": 351.6829000000001,
@@ -1245,22 +1269,22 @@
       "Olive": 3.0
     },
     "fruits": {
-      "Apple": 86.85000000000001,
+      "Apple": 96.10000000000002,
       "Blueberry": 12.600000000000058,
       "Orange": 27.250000000000025,
       "Banana": 35.8,
-      "Tomato": 69.2,
+      "Tomato": 76.0,
       "Lemon": 148.45,
       "Grape": 1.0,
       "Lunara": 1.0,
       "Celestine": 2.0
     },
     "resources": {
-      "Wood": 69.08,
+      "Wood": 41.68,
       "Gold": 17.95,
       "Crimstone": 5.3,
-      "Stone": 49.95,
-      "Iron": 33.25,
+      "Stone": 1.95,
+      "Iron": 18.25,
       "Obsidian": 2.0
     }
   }

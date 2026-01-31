@@ -1,6 +1,6 @@
 {
   "id": 55626,
-  "totalTrades": 8414,
+  "totalTrades": 8415,
   "level": 177,
   "weeklyFlowerSpent": 25.4223,
   "weeklyFlowerEarned": 3.4007625,
@@ -2057,7 +2057,9 @@
       },
       "sfl": 11.8537,
       "tax": 0.8890275,
-      "tradeType": "instant"
+      "tradeType": "instant",
+      "fulfilledAt": 1769875233493,
+      "fulfilledById": 179029
     },
     "9e2917ce": {
       "collection": "collectibles",
@@ -2357,6 +2359,25 @@
   ],
   "trades": [
     {
+      "id": "e4ab602b",
+      "sfl": 11.8537,
+      "quantity": 200,
+      "itemId": 642,
+      "collection": "collectibles",
+      "source": "listing",
+      "fulfilledAt": 1769875192475,
+      "initiatedBy": {
+        "id": 55626,
+        "bumpkinUri": "0_v1_352_127_97_282_234_99_400_221_407_311_86_483_160_410_0_266",
+        "username": "Asterion"
+      },
+      "fulfilledBy": {
+        "id": 179029,
+        "bumpkinUri": "0_v1_306_90_202_320_322_323_324_377_389_381_0_0_0_374",
+        "username": "Gintoki"
+      }
+    },
+    {
       "id": "9e2917ce",
       "sfl": 0.2495,
       "quantity": 20,
@@ -2376,7 +2397,7 @@
       }
     },
     {
-      "id": "c9b0f445",
+      "id": "9ca5b35d",
       "sfl": 3.184,
       "quantity": 200,
       "itemId": 602,
@@ -2395,7 +2416,7 @@
       }
     },
     {
-      "id": "9ca5b35d",
+      "id": "c9b0f445",
       "sfl": 3.184,
       "quantity": 200,
       "itemId": 602,
@@ -2917,7 +2938,7 @@
       "fulfilledAt": 1769630223452,
       "initiatedBy": {
         "id": 55626,
-        "bumpkinUri": "0_v1_352_140_97_0_0_89_446_248_0_371_0_439_403_440_98_0_444",
+        "bumpkinUri": "0_v1_352_140_97_0_0_89_446_248_0_371_0_439_0_440_98_0_444",
         "username": "Lemonade"
       },
       "fulfilledBy": {
@@ -3283,25 +3304,6 @@
       },
       "fulfilledBy": {
         "id": 11187,
-        "bumpkinUri": "0_v1_352_127_97_282_234_99_400_221_407_311_86_483_160_410_0_266",
-        "username": "Asterion"
-      }
-    },
-    {
-      "id": "872aa471",
-      "sfl": 1.71,
-      "quantity": 30,
-      "itemId": 614,
-      "collection": "collectibles",
-      "source": "offer",
-      "fulfilledAt": 1769517730624,
-      "initiatedBy": {
-        "id": 55626,
-        "bumpkinUri": "0_v1_32_90_7_15_234_41_240_178_0_228_0_458_0_189_0_266",
-        "username": "Fitz"
-      },
-      "fulfilledBy": {
-        "id": 67073,
         "bumpkinUri": "0_v1_352_127_97_282_234_99_400_221_407_311_86_483_160_410_0_266",
         "username": "Asterion"
       }
