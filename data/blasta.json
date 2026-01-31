@@ -9,10 +9,22 @@
     "spent_sfl": 12069.92,
     "items_sold": 8179.0,
     "trade_points": 23832.93,
-    "last_updated": "2026-01-31 05:41 PM",
+    "last_updated": "2026-01-31 06:07 PM",
     "active_listings": 84
   },
   "buys": [
+    {
+      "date": "2026-01-31",
+      "time": "05:48 PM",
+      "type": "BUY",
+      "item": "Frost Pebble",
+      "quantity": 5,
+      "price_text": "2.25 SFL",
+      "price": 2.25,
+      "counterparty": "DarkTai",
+      "farm_id": "-",
+      "trade_id": "3680afd2"
+    },
     {
       "date": "2026-01-30",
       "time": "02:26 PM",
@@ -954,15 +966,24 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 26,
+    "total_buys": 27,
     "total_sells": 52,
-    "buy_volume": 32.018900000000016,
+    "buy_volume": 34.26890000000001,
     "sell_volume": 228.77019999999996,
-    "gross_profit": 196.75129999999996,
-    "avg_buy_price": 1.2314961538461544,
+    "gross_profit": 194.50129999999996,
+    "avg_buy_price": 1.269218518518519,
     "avg_sell_price": 4.3994269230769225,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Frost Pebble",
+        "quantity": 5,
+        "price": 2.25,
+        "date": "2026-01-31",
+        "time": "05:48 PM",
+        "username": "blasta"
+      },
       {
         "type": "BUY",
         "item": "Merino Wool",
@@ -1005,8 +1026,7 @@
         "quantity": 100,
         "price": 1.475,
         "date": "2026-01-29",
-        "time": "08:50 AM",
-        "username": "blasta"
+        "time": "08:50 AM"
       },
       {
         "type": "BUY",
@@ -1119,22 +1139,15 @@
         "price": 2.0999,
         "date": "2026-01-29",
         "time": "08:38 AM"
-      },
-      {
-        "type": "BUY",
-        "item": "Merino Wool",
-        "quantity": 10,
-        "price": 0.1399,
-        "date": "2026-01-29",
-        "time": "08:38 AM"
       }
     ],
-    "profit_margin": 614.4848823663519,
+    "profit_margin": 567.5738059873527,
     "most_bought_items": {
       "Merino Wool": 1210,
       "Pepper": 500,
       "Orange": 407,
       "Wool": 100,
+      "Frost Pebble": 5,
       "Dewberry": 4
     },
     "most_sold_items": {
