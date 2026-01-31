@@ -1,16 +1,16 @@
 {
   "username": "kanzuki",
   "overview": {
-    "balance": 552.47,
+    "balance": 564.23,
     "coins": 169313.0,
     "gems": 0.0,
     "earned_sfl": 2315.5,
     "earned_coins": 169313.0,
     "spent_sfl": 341.22,
-    "items_sold": 10040.0,
+    "items_sold": 10042.0,
     "trade_points": 13566.92,
-    "last_updated": "2026-01-31 08:34 AM",
-    "active_listings": 26
+    "last_updated": "2026-01-31 09:10 AM",
+    "active_listings": 22
   },
   "buys": [
     {
@@ -543,6 +543,42 @@
     }
   ],
   "sells": [
+    {
+      "date": "2026-01-31",
+      "time": "08:55 AM",
+      "type": "SELL",
+      "item": "Yam",
+      "quantity": 1000,
+      "price_text": "2.7818 SFL",
+      "price": 2.7818,
+      "counterparty": "Pakemas",
+      "farm_id": "-",
+      "trade_id": "b4384c68"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "08:41 AM",
+      "type": "SELL",
+      "item": "Yam",
+      "quantity": 1000,
+      "price_text": "2.7818 SFL",
+      "price": 2.7818,
+      "counterparty": "Cano030",
+      "farm_id": "-",
+      "trade_id": "a4248a0d"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "08:35 AM",
+      "type": "SELL",
+      "item": "Yam",
+      "quantity": 1000,
+      "price_text": "2.7818 SFL",
+      "price": 2.7818,
+      "counterparty": "Lux",
+      "farm_id": "-",
+      "trade_id": "a8690cd8"
+    },
     {
       "date": "2026-01-31",
       "time": "08:07 AM",
@@ -1087,12 +1123,12 @@
   "last_updated": null,
   "stats": {
     "total_buys": 44,
-    "total_sells": 45,
+    "total_sells": 48,
     "buy_volume": 88.00569999999999,
-    "sell_volume": 173.889,
-    "gross_profit": 85.88330000000002,
+    "sell_volume": 182.2344,
+    "gross_profit": 94.2287,
     "avg_buy_price": 2.0001295454545454,
-    "avg_sell_price": 3.8642000000000003,
+    "avg_sell_price": 3.79655,
     "most_traded_items": {},
     "recent_activity": [
       {
@@ -1261,7 +1297,7 @@
         "time": "02:39 AM"
       }
     ],
-    "profit_margin": 97.58833802810503,
+    "profit_margin": 107.07113289252857,
     "most_bought_items": {
       "Tomato": 3538,
       "Banana": 855,
@@ -1273,7 +1309,7 @@
       "Ribbon": 10
     },
     "most_sold_items": {
-      "Yam": 18100,
+      "Yam": 21100,
       "Sunflower": 12000,
       "Wood": 745,
       "Leather": 185,
@@ -1335,33 +1371,6 @@
       "created_at": 1769426732026,
       "collection": "collectibles",
       "trade_type": "onchain"
-    },
-    {
-      "id": "a8690cd8",
-      "item": "Yam",
-      "quantity": 1000,
-      "price": 2.7818,
-      "created_at": 1769845918454,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "a4248a0d",
-      "item": "Yam",
-      "quantity": 1000,
-      "price": 2.7818,
-      "created_at": 1769845922407,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "b4384c68",
-      "item": "Yam",
-      "quantity": 1000,
-      "price": 2.7818,
-      "created_at": 1769845928056,
-      "collection": "collectibles",
-      "trade_type": "instant"
     },
     {
       "id": "49a4b86c",
@@ -1497,24 +1506,6 @@
       "created_at": 1769845984514,
       "collection": "collectibles",
       "trade_type": "instant"
-    },
-    {
-      "id": "2aa1d94e",
-      "item": "Leather",
-      "quantity": 30,
-      "price": 3.5738,
-      "created_at": 1769846065141,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "7afb7d85",
-      "item": "Leather",
-      "quantity": 30,
-      "price": 3.5738,
-      "created_at": 1769846068796,
-      "collection": "collectibles",
-      "trade_type": "instant"
     }
   ],
   "active_offers": [
@@ -1560,7 +1551,7 @@
       "Sunflower": 25585.276700032286,
       "Potato": 24190.003799994283,
       "Pumpkin": 19217.446999996795,
-      "Carrot": 19863.012199999994,
+      "Carrot": 20111.691499999994,
       "Cabbage": 15027.658200000009,
       "Beetroot": 20539.498,
       "Cauliflower": 12695.370400000003,
@@ -1576,7 +1567,7 @@
       "Barley": 8506.219300000019,
       "Rhubarb": 36254.945099996876,
       "Zucchini": 21003.500000000004,
-      "Yam": 25291.536899999574,
+      "Yam": 23291.536899999574,
       "Broccoli": 16461.477500000015,
       "Pepper": 3703.7726000000134,
       "Onion": 5015.072,
@@ -1584,21 +1575,21 @@
       "Artichoke": 5052.785
     },
     "fruits": {
-      "Apple": 3177.55,
+      "Apple": 3207.3,
       "Blueberry": 2293.700000000004,
       "Orange": 2497.400000000003,
       "Banana": 2000.4,
       "Grape": 180.20000000000047,
       "Tomato": 3350.5000000000014,
-      "Lemon": 2022.4500000000005,
+      "Lemon": 1982.4500000000005,
       "Duskberry": 578.5,
       "Lunara": 438.0,
       "Celestine": 2299.5
     },
     "resources": {
-      "Wood": 18415.68,
+      "Wood": 18522.28,
       "Stone": 1071.25,
-      "Iron": 1110.5,
+      "Iron": 1147.7,
       "Gold": 274.1,
       "Crimstone": 133.1,
       "Obsidian": 29.0

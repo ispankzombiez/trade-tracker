@@ -1,7 +1,7 @@
 {
   "username": "droid",
   "overview": {
-    "balance": 9.13,
+    "balance": 7.45,
     "coins": 166852.0,
     "gems": 0.0,
     "earned_sfl": 8175.19,
@@ -9,10 +9,34 @@
     "spent_sfl": 12297.69,
     "items_sold": 7611.0,
     "trade_points": 11367.53,
-    "last_updated": "2026-01-31 08:34 AM",
+    "last_updated": "2026-01-31 09:10 AM",
     "active_listings": 6
   },
   "buys": [
+    {
+      "date": "2026-01-31",
+      "time": "08:55 AM",
+      "type": "BUY",
+      "item": "Milk",
+      "quantity": 45,
+      "price_text": "5.5113 SFL",
+      "price": 5.5113,
+      "counterparty": "Theniaky",
+      "farm_id": "-",
+      "trade_id": "7828068f"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "08:26 AM",
+      "type": "BUY",
+      "item": "Parsnip",
+      "quantity": 50,
+      "price_text": "0.9999 SFL",
+      "price": 0.9999,
+      "counterparty": "MaykWazalski",
+      "farm_id": "-",
+      "trade_id": "ce624f11"
+    },
     {
       "date": "2026-01-31",
       "time": "08:25 AM",
@@ -1518,15 +1542,33 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 80,
+    "total_buys": 82,
     "total_sells": 45,
-    "buy_volume": 107.85519999999997,
+    "buy_volume": 114.36639999999998,
     "sell_volume": 112.4815,
-    "gross_profit": 4.626300000000029,
-    "avg_buy_price": 1.3481899999999996,
+    "gross_profit": -1.8848999999999876,
+    "avg_buy_price": 1.394712195121951,
     "avg_sell_price": 2.499588888888889,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Milk",
+        "quantity": 45,
+        "price": 5.5113,
+        "date": "2026-01-31",
+        "time": "08:55 AM",
+        "username": "droid"
+      },
+      {
+        "type": "BUY",
+        "item": "Parsnip",
+        "quantity": 50,
+        "price": 0.9999,
+        "date": "2026-01-31",
+        "time": "08:26 AM",
+        "username": "droid"
+      },
       {
         "type": "BUY",
         "item": "Beetroot",
@@ -1560,8 +1602,7 @@
         "quantity": 13,
         "price": 1.5989,
         "date": "2026-01-31",
-        "time": "05:20 AM",
-        "username": "droid"
+        "time": "05:20 AM"
       },
       {
         "type": "BUY",
@@ -1569,8 +1610,7 @@
         "quantity": 13,
         "price": 1.5989,
         "date": "2026-01-31",
-        "time": "05:20 AM",
-        "username": "droid"
+        "time": "05:20 AM"
       },
       {
         "type": "BUY",
@@ -1675,36 +1715,20 @@
         "price": 1.0928,
         "date": "2026-01-30",
         "time": "03:13 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Honey",
-        "quantity": 7,
-        "price": 0.4249,
-        "date": "2026-01-30",
-        "time": "03:12 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Milk",
-        "quantity": 12,
-        "price": 1.4646,
-        "date": "2026-01-30",
-        "time": "01:33 PM"
       }
     ],
-    "profit_margin": 4.289362033541295,
+    "profit_margin": -1.6481239245092858,
     "most_bought_items": {
       "Broccoli": 2300,
       "Yam": 1650,
       "Carrot": 600,
       "Stone": 523,
-      "Milk": 372,
+      "Milk": 417,
       "Artichoke": 291,
       "Tomato": 200,
       "Lemon": 175,
-      "Leather": 114,
-      "Beetroot": 100
+      "Parsnip": 150,
+      "Leather": 114
     },
     "most_sold_items": {
       "Sunflower": 20000,
@@ -1783,11 +1807,11 @@
       "Pumpkin": 111.6692,
       "Carrot": 352.6097,
       "Cabbage": 52.5857,
-      "Beetroot": 18.455600000000064,
+      "Beetroot": 38.45560000000006,
       "Cauliflower": 14.750899999999925,
-      "Parsnip": 1.118999999999926,
+      "Parsnip": 11.118999999999927,
       "Radish": 287.2946999999998,
-      "Wheat": 211.37989999999886,
+      "Wheat": 388.0782999999989,
       "Kale": 65.2209999999999,
       "Eggplant": 758.8689,
       "Corn": 0.0301000000000001,

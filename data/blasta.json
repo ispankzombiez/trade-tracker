@@ -2,14 +2,14 @@
   "username": "blasta",
   "overview": {
     "balance": 1133.3,
-    "coins": 290844.0,
+    "coins": 289664.0,
     "gems": 0.0,
     "earned_sfl": 19181.58,
-    "earned_coins": 290844.0,
+    "earned_coins": 289664.0,
     "spent_sfl": 12069.92,
-    "items_sold": 8175.0,
+    "items_sold": 8176.0,
     "trade_points": 23832.93,
-    "last_updated": "2026-01-31 08:34 AM",
+    "last_updated": "2026-01-31 09:10 AM",
     "active_listings": 84
   },
   "buys": [
@@ -327,6 +327,42 @@
     }
   ],
   "sells": [
+    {
+      "date": "2026-01-31",
+      "time": "09:00 AM",
+      "type": "SELL",
+      "item": "Lemon",
+      "quantity": 300,
+      "price_text": "2.9734 SFL",
+      "price": 2.9734,
+      "counterparty": "SimoB",
+      "farm_id": "-",
+      "trade_id": "7f192a02"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "08:58 AM",
+      "type": "SELL",
+      "item": "Lemon",
+      "quantity": 300,
+      "price_text": "2.9732 SFL",
+      "price": 2.9732,
+      "counterparty": "MJDAISUKI",
+      "farm_id": "-",
+      "trade_id": "6b7796a3"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "08:45 AM",
+      "type": "SELL",
+      "item": "Lemon",
+      "quantity": 300,
+      "price_text": "2.973 SFL",
+      "price": 2.973,
+      "counterparty": "SocketXL",
+      "farm_id": "-",
+      "trade_id": "612b937e"
+    },
     {
       "date": "2026-01-31",
       "time": "06:50 AM",
@@ -907,12 +943,12 @@
   "last_updated": null,
   "stats": {
     "total_buys": 26,
-    "total_sells": 48,
+    "total_sells": 51,
     "buy_volume": 32.018900000000016,
-    "sell_volume": 216.87720000000002,
-    "gross_profit": 184.85829999999999,
+    "sell_volume": 225.79679999999996,
+    "gross_profit": 193.77789999999993,
     "avg_buy_price": 1.2314961538461544,
-    "avg_sell_price": 4.518275,
+    "avg_sell_price": 4.427388235294117,
     "most_traded_items": {},
     "recent_activity": [
       {
@@ -1081,7 +1117,7 @@
         "time": "08:38 AM"
       }
     ],
-    "profit_margin": 577.3411953564922,
+    "profit_margin": 605.1984921405789,
     "most_bought_items": {
       "Merino Wool": 1210,
       "Pepper": 500,
@@ -1093,9 +1129,9 @@
       "Yam": 4246,
       "Beetroot": 3774,
       "Wood": 2940,
+      "Lemon": 1200,
       "Artichoke": 1000,
       "Parsnip": 444,
-      "Lemon": 300,
       "Stone": 300,
       "Milk": 286,
       "Rice": 246,
@@ -1963,8 +1999,8 @@
   ],
   "inventory": {
     "crops": {
-      "Sunflower": 265839.8717999985,
-      "Potato": 113021.5851000015,
+      "Sunflower": 264839.8717999985,
+      "Potato": 112021.5851000015,
       "Pumpkin": 104387.00509999972,
       "Carrot": 27220.803500000125,
       "Cabbage": 9901.630499998535,
@@ -1972,7 +2008,7 @@
       "Cauliflower": 1391.8090000000004,
       "Parsnip": 557.9816000000035,
       "Radish": 2944.0011,
-      "Wheat": 5888.3979000000045,
+      "Wheat": 6314.587900000005,
       "Kale": 82.8196000000015,
       "Eggplant": 4714.2783999999965,
       "Corn": 5198.678400000002,
@@ -1996,17 +2032,17 @@
       "Banana": 1059.35,
       "Grape": 454.8500000000005,
       "Tomato": 7983.5500000000075,
-      "Lemon": 8163.550000000003,
+      "Lemon": 7863.550000000003,
       "Duskberry": 127.4,
       "Lunara": 153.00000000000003,
       "Celestine": 167.5
     },
     "resources": {
-      "Wood": 18278.41,
-      "Stone": 4296.75,
-      "Iron": 2637.55,
+      "Wood": 18276.11,
+      "Stone": 4221.75,
+      "Iron": 2620.55,
       "Gold": 1160.65,
-      "Crimstone": 341.65,
+      "Crimstone": 349.15,
       "Obsidian": 0.5
     }
   }

@@ -2,17 +2,29 @@
   "username": "korlith",
   "overview": {
     "balance": 0.45,
-    "coins": 29971.0,
+    "coins": 29203.0,
     "gems": 0.0,
     "earned_sfl": 3697.04,
-    "earned_coins": 29971.0,
+    "earned_coins": 29203.0,
     "spent_sfl": 4760.42,
     "items_sold": 6506.0,
     "trade_points": 25312.94,
-    "last_updated": "2026-01-31 08:34 AM",
+    "last_updated": "2026-01-31 09:10 AM",
     "active_listings": 0
   },
   "buys": [
+    {
+      "date": "2026-01-31",
+      "time": "09:05 AM",
+      "type": "BUY",
+      "item": "Cauliflower",
+      "quantity": 100,
+      "price_text": "1.14 SFL",
+      "price": 1.14,
+      "counterparty": "ReneKakashi",
+      "farm_id": "-",
+      "trade_id": "0dc9e46c"
+    },
     {
       "date": "2026-01-31",
       "time": "04:32 AM",
@@ -990,15 +1002,24 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 41,
+    "total_buys": 42,
     "total_sells": 40,
-    "buy_volume": 38.556999999999995,
+    "buy_volume": 39.69699999999999,
     "sell_volume": 32.488800000000005,
-    "gross_profit": -6.06819999999999,
-    "avg_buy_price": 0.9404146341463413,
+    "gross_profit": -7.208199999999984,
+    "avg_buy_price": 0.9451666666666664,
     "avg_sell_price": 0.8122200000000002,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Cauliflower",
+        "quantity": 100,
+        "price": 1.14,
+        "date": "2026-01-31",
+        "time": "09:05 AM",
+        "username": "korlith"
+      },
       {
         "type": "BUY",
         "item": "Frost Pebble",
@@ -1041,8 +1062,7 @@
         "quantity": 487,
         "price": 1.0714,
         "date": "2026-01-30",
-        "time": "11:55 PM",
-        "username": "korlith"
+        "time": "11:55 PM"
       },
       {
         "type": "BUY",
@@ -1155,17 +1175,9 @@
         "price": 0.49,
         "date": "2026-01-30",
         "time": "06:20 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Feather",
-        "quantity": 100,
-        "price": 0.49,
-        "date": "2026-01-30",
-        "time": "05:01 PM"
       }
     ],
-    "profit_margin": -15.738257644526263,
+    "profit_margin": -18.158047207597516,
     "most_bought_items": {
       "Sunflower": 4000,
       "Potato": 3000,
@@ -1174,7 +1186,7 @@
       "Broccoli": 849,
       "Feather": 450,
       "Apple": 267,
-      "Cauliflower": 100,
+      "Cauliflower": 200,
       "Honey": 96,
       "Beetroot": 50
     },
@@ -1194,11 +1206,11 @@
   "active_listings": [],
   "active_offers": [
     {
-      "id": "8767904a",
+      "id": "c0999409",
       "item": "Frost Pebble",
       "quantity": 2,
-      "price": 0.98,
-      "created_at": 1769830803851,
+      "price": 0.97,
+      "created_at": 1769850380372,
       "collection": "collectibles",
       "trade_type": "instant"
     }
@@ -1206,12 +1218,12 @@
   "inventory": {
     "crops": {
       "Sunflower": 2022.8895000003745,
-      "Potato": 1934.1918999998384,
+      "Potato": 1902.1918999998384,
       "Pumpkin": 716.0419999999783,
-      "Carrot": 597.5454,
+      "Carrot": 587.5454,
       "Cabbage": 4.087,
       "Beetroot": 5.9647,
-      "Cauliflower": 16.3916,
+      "Cauliflower": 1.3916,
       "Parsnip": 12.7139,
       "Radish": 7.200100000000066,
       "Wheat": 1250.1921000000016,
@@ -1223,16 +1235,16 @@
       "Barley": 658.037000000001,
       "Rhubarb": 72.15,
       "Zucchini": 53.43,
-      "Yam": 19.9755,
-      "Broccoli": 71.2955,
+      "Yam": 4.9755,
+      "Broccoli": 61.2955,
       "Pepper": 53.3942,
       "Onion": 4.521900000000201,
       "Turnip": 7.9079,
-      "Artichoke": 113.15,
+      "Artichoke": 111.15,
       "Olive": 0.05
     },
     "fruits": {
-      "Apple": 2.3000000000001157,
+      "Apple": 8.300000000000122,
       "Orange": 12.500000000000357,
       "Tomato": 8.600000000001986,
       "Lemon": 119.10000000000153,
@@ -1241,11 +1253,11 @@
       "Banana": 26.0
     },
     "resources": {
-      "Wood": 361.78,
-      "Stone": 114.7,
-      "Iron": 4.7,
+      "Wood": 310.88,
+      "Stone": 169.6,
+      "Iron": 29.3,
       "Crimstone": 6.5,
-      "Gold": 0.8,
+      "Gold": 18.4,
       "Obsidian": 2.0
     }
   }
