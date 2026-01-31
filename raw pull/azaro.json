@@ -16,7 +16,7 @@
       "Orange Seed": "48.000000000000000018",
       "Eggplant Seed": "198",
       "Banana Plant": "36",
-      "Sunpetal Seed": "50",
+      "Sunpetal Seed": "46",
       "Bloom Seed": "11",
       "Lily Seed": "13",
       "Soybean Seed": "293",
@@ -30,7 +30,7 @@
       "Gladiolus Seed": "13",
       "Lavender Seed": "13",
       "Clover Seed": "13",
-      "Sunflower": "373825.15640000885843",
+      "Sunflower": "373625.15640000885843",
       "Potato": "99800.2591999986773",
       "Pumpkin": "31730.78159999977508",
       "Carrot": "1769.462459999997578",
@@ -60,7 +60,7 @@
       "Yellow Balloon Flower": "7",
       "Purple Balloon Flower": "11",
       "White Balloon Flower": "10",
-      "Blue Balloon Flower": "9",
+      "Blue Balloon Flower": "15",
       "Red Carnation": "13",
       "Yellow Carnation": "7",
       "Purple Carnation": "4",
@@ -227,7 +227,7 @@
       "Mushroom Soup": "11",
       "Sunflower Crunch": "11",
       "Reindeer Carrot": "10",
-      "Apple Juice": "6",
+      "Apple Juice": "8",
       "Purple Smoothie": "11",
       "Power Smoothie": "18",
       "Bumpkin Detox": "10",
@@ -714,7 +714,7 @@
       "Anthill": "2",
       "Snail": "2",
       "Weed": "69",
-      "Love Charm": "1407",
+      "Love Charm": "1415",
       "Ancient Tree": "6",
       "Bracelet": "4",
       "Wild Grass": "5",
@@ -5632,13 +5632,13 @@
           "width": 3,
           "height": 1,
           "flower": {
-            "plantedAt": 1769685314222,
-            "name": "Blue Balloon Flower",
+            "plantedAt": 1769804902619,
+            "name": "Yellow Pansy",
             "criticalHit": {
               "Humming Bird": 0,
               "Butterfly": 0,
               "Desert Rose": 0,
-              "Chicory": 1,
+              "Chicory": 0,
               "Petalled Perk": 0
             }
           }
@@ -5650,8 +5650,8 @@
           "width": 3,
           "height": 1,
           "flower": {
-            "plantedAt": 1769685303807,
-            "name": "Blue Balloon Flower",
+            "plantedAt": 1769804895769,
+            "name": "Yellow Pansy",
             "criticalHit": {
               "Humming Bird": 0,
               "Butterfly": 0,
@@ -5668,8 +5668,8 @@
           "width": 3,
           "height": 1,
           "flower": {
-            "plantedAt": 1769685311298,
-            "name": "Blue Balloon Flower",
+            "plantedAt": 1769804898078,
+            "name": "Yellow Pansy",
             "criticalHit": {
               "Humming Bird": 0,
               "Butterfly": 0,
@@ -5684,13 +5684,13 @@
           "x": 7,
           "y": -5,
           "flower": {
-            "plantedAt": 1769685308168,
-            "name": "Blue Balloon Flower",
+            "plantedAt": 1769804900273,
+            "name": "Yellow Pansy",
             "criticalHit": {
               "Humming Bird": 0,
               "Butterfly": 1,
               "Desert Rose": 0,
-              "Chicory": 0,
+              "Chicory": 1,
               "Petalled Perk": 0
             }
           }
@@ -5706,14 +5706,14 @@
         "height": 1,
         "width": 1,
         "honey": {
-          "updatedAt": 1769849415307,
-          "produced": 1432.9
+          "updatedAt": 1769860198619,
+          "produced": 20017967.2
         },
         "flowers": [
           {
-            "attachedAt": 1769849414684,
-            "attachedUntil": 1769858111298,
-            "id": "6b447135",
+            "attachedAt": 1769860191769,
+            "attachedUntil": 1769889060373,
+            "id": "32255ac1",
             "rate": 2.3000000000000003
           }
         ]
@@ -5725,14 +5725,14 @@
         "height": 1,
         "width": 1,
         "honey": {
-          "updatedAt": 1769849415307,
-          "produced": 0
+          "updatedAt": 1769860198619,
+          "produced": 20004024.6
         },
         "flowers": [
           {
-            "attachedAt": 1769849415307,
-            "attachedUntil": 1769858108168,
-            "id": "67ab3a32",
+            "attachedAt": 1769860194078,
+            "attachedUntil": 1769889066435,
+            "id": "6b447135",
             "rate": 2.3000000000000003
           }
         ]
@@ -5744,14 +5744,14 @@
         "height": 1,
         "width": 1,
         "honey": {
-          "updatedAt": 1769849415307,
-          "produced": 2541.5
+          "updatedAt": 1769860198619,
+          "produced": 19991487.300000004
         },
         "flowers": [
           {
-            "attachedAt": 1769849414202,
-            "attachedUntil": 1769858103807,
-            "id": "32255ac1",
+            "attachedAt": 1769860196273,
+            "attachedUntil": 1769889071886,
+            "id": "67ab3a32",
             "rate": 2.3000000000000003
           }
         ]
@@ -5761,13 +5761,13 @@
         "x": 10,
         "y": -5,
         "honey": {
-          "updatedAt": 1769849415307,
-          "produced": 4271.1
+          "updatedAt": 1769860198619,
+          "produced": 20011775.600000005
         },
         "flowers": [
           {
-            "attachedAt": 1769849413450,
-            "attachedUntil": 1769858114222,
+            "attachedAt": 1769860198619,
+            "attachedUntil": 1769889063065,
             "id": "2e93588a",
             "rate": 2.3000000000000003
           }
@@ -6053,16 +6053,6 @@
           },
           "readyAt": 1740065662395,
           "crafting": [
-            {
-              "name": "Apple Juice",
-              "boost": {
-                "Oil": 0.3333333333333333
-              },
-              "skills": {
-                "Double Nom": true
-              },
-              "readyAt": 1769858737151
-            },
             {
               "name": "Apple Juice",
               "boost": {
@@ -9263,7 +9253,7 @@
       "Pickaxe Crafted": 55705,
       "Blue Carnation Harvested": 62,
       "Building Placed": 112,
-      "Apple Juice Cooked": 362,
+      "Apple Juice Cooked": 363,
       "Luminous Lantern Crafted": 12,
       "Rice Harvested": 1029,
       "Celestial Frostbloom Harvested": 62,
@@ -9302,7 +9292,7 @@
       "Rainbow Bought": 1,
       "Pirate Bounty Dug": 4,
       "Parsnip Harvested": 16481,
-      "Sunpetal Seed Planted": 1120,
+      "Sunpetal Seed Planted": 1124,
       "Full Bloom Shirt Bought": 2,
       "Blueberry Jam Dug": 59,
       "Bumpkin ganoush Fed": 322,
@@ -9480,7 +9470,7 @@
       "White Pansy Harvested": 90,
       "Kale Omelette Cooked": 169,
       "Beetroot Harvested": 24235,
-      "Blue Balloon Flower Harvested": 94,
+      "Blue Balloon Flower Harvested": 98,
       "Fried Calamari Cooked": 58,
       "Clementine Bought": 1,
       "Gumbo Fed": 462,
@@ -11547,7 +11537,7 @@
           "petXP": 0,
           "score": 3630,
           "collectivePet": {
-            "totalXP": 6083330,
+            "totalXP": 6118760,
             "goalXP": 10263180,
             "goalReached": false,
             "streak": 10,
@@ -13132,8 +13122,8 @@
       "Bud #340": 1769858093084,
       "Coder": 1769858100320,
       "Efficient Bin": 1769849418699,
-      "Flower Crown": 1769795906222,
-      "Flower Fox": 1769795906222,
+      "Flower Crown": 1769860198619,
+      "Flower Fox": 1769860198619,
       "Foreman Beaver": 1769858094649,
       "Green Amulet": 1769858100320,
       "Humming Bird": 1769413357863,
@@ -13205,7 +13195,7 @@
       "Tunnel Mole": 1769849492114,
       "Maneki Neko": 1769849502638,
       "Generous Orchard": 1769855622729,
-      "Butterfly": 1769760879095,
+      "Butterfly": 1769860188614,
       "Peeled Potato": 1769431884979,
       "Glass Room": 1769240774793,
       "Olive Royalty Shirt": 1766307259679,
@@ -13231,7 +13221,7 @@
       "Desert Gnome": 1769856990944,
       "Fast Feasts": 1769852948900,
       "Rice Rocket": 1767167941502,
-      "Chicory": 1769795783595,
+      "Chicory": 1769860188883,
       "Sheaf of Plenty": 1768481616571,
       "Frosted Cakes": 1769852968094,
       "Cabbage Boy": 1768422977928,
@@ -13315,16 +13305,16 @@
       "Master Chef's Cleaver": 1769856990944,
       "Fishy Roll": 1769500952866,
       "Kernaldo": 1768760298500,
-      "Flower Power": 1769795906222,
+      "Flower Power": 1769860198619,
       "Power hour": 1768464120422,
       "Slick Saver": 1769196971879,
       "Sunshower": 1769466466801
     },
     "socialFarming": {
-      "points": 16542,
+      "points": 16558,
       "villageProjects": {
         "Miner's Monument": {
-          "cheers": 1265,
+          "cheers": 1267,
           "winnerId": 9239
         },
         "Farmer's Monument": {
@@ -13336,20 +13326,20 @@
           "winnerId": 154842
         },
         "Big Banana": {
-          "cheers": 76,
+          "cheers": 78,
           "winnerId": 62559
         },
         "Big Apple": {
-          "cheers": 25,
+          "cheers": 27,
           "winnerId": 9239
         },
         "Big Orange": {
-          "cheers": 18,
+          "cheers": 20,
           "winnerId": 15079
         },
         "Cornucopia": {
-          "cheers": 1,
-          "winnerId": 9239
+          "cheers": 3,
+          "winnerId": 154842
         }
       },
       "cheers": {
@@ -13402,7 +13392,7 @@
       },
       "weeklyPoints": {
         "week": "2026-01-26",
-        "points": 655
+        "points": 671
       },
       "helpIncrease": {
         "boughtAt": [
@@ -13422,7 +13412,7 @@
         "2979": {
           "id": 2979,
           "name": "Pet #2979",
-          "experience": 49076,
+          "experience": 49086,
           "energy": 3005,
           "requests": {
             "food": [
@@ -13454,7 +13444,7 @@
           },
           "location": "farm",
           "dailySocialXP": {
-            "2026-01-31": 10
+            "2026-01-31": 20
           },
           "walking": true,
           "fetches": {
@@ -13533,7 +13523,7 @@
         },
         "Butters": {
           "name": "Butters",
-          "experience": 43871,
+          "experience": 43881,
           "energy": 1675,
           "requests": {
             "food": [
@@ -13550,7 +13540,7 @@
           },
           "pettedAt": 1769856995040,
           "dailySocialXP": {
-            "2026-01-31": 10
+            "2026-01-31": 20
           },
           "fetches": {
             "Fossil Shell": 3,
@@ -13560,7 +13550,7 @@
         },
         "Peanuts": {
           "name": "Peanuts",
-          "experience": 7505,
+          "experience": 7515,
           "energy": 2890,
           "requests": {
             "food": [
@@ -13577,12 +13567,12 @@
           },
           "pettedAt": 1769856995980,
           "dailySocialXP": {
-            "2026-01-31": 10
+            "2026-01-31": 20
           }
         },
         "Pippin": {
           "name": "Pippin",
-          "experience": 5820,
+          "experience": 5830,
           "energy": 1995,
           "requests": {
             "food": [
@@ -13599,7 +13589,7 @@
           },
           "pettedAt": 1769856995473,
           "dailySocialXP": {
-            "2026-01-31": 10
+            "2026-01-31": 20
           }
         }
       }

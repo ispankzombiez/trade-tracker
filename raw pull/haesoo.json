@@ -36,7 +36,7 @@
       "Red Daffodil": "8",
       "White Daffodil": "2",
       "Soybean": "22.7",
-      "Tomato": "58.000000000000003",
+      "Tomato": "69.2000000000000038",
       "Lemon": "148.45",
       "Barley": "355.6100000000000414",
       "Rhubarb": "2198.2",
@@ -116,7 +116,7 @@
       "Bumpkin Roast": "2",
       "Fried Tofu": "4",
       "Quick Juice": "4",
-      "Wood": "33.08",
+      "Wood": "69.08",
       "Gold": "17.95",
       "Egg": "50.7",
       "Speed Chicken": "1",
@@ -136,7 +136,7 @@
       "Grub": "343",
       "Red Wiggler": "55",
       "Sprout Mix": "339",
-      "Fruitful Blend": "106",
+      "Fruitful Blend": "103",
       "Rapid Root": "75",
       "Fishing Lure": "45",
       "Beehive": "4",
@@ -557,10 +557,10 @@
       "Napoleanfish": "2",
       "Cheer": "5",
       "Pizza Margherita": "2",
-      "Tomato Seed": "10",
+      "Tomato Seed": "7",
       "Olive": "3",
       "Blue Balloon Flower": "6",
-      "Axe": "83",
+      "Axe": "63",
       "Radish Cake": "1",
       "Wild Grass": "5",
       "Big Orange": "1",
@@ -4385,7 +4385,7 @@
         "width": 2,
         "height": 2,
         "wood": {
-          "choppedAt": 1769852971797
+          "choppedAt": 1769860022296
         },
         "x": -3,
         "y": -4
@@ -4395,7 +4395,7 @@
         "width": 2,
         "height": 2,
         "wood": {
-          "choppedAt": 1769852971454
+          "choppedAt": 1769860022898
         },
         "x": -3,
         "y": -6
@@ -4405,7 +4405,7 @@
         "width": 2,
         "height": 2,
         "wood": {
-          "choppedAt": 1769852972295
+          "choppedAt": 1769860021901
         },
         "x": -5,
         "y": -4
@@ -4415,7 +4415,7 @@
         "width": 2,
         "height": 2,
         "wood": {
-          "choppedAt": 1769852972752
+          "choppedAt": 1769860021416
         },
         "x": -5,
         "y": -2
@@ -4425,7 +4425,7 @@
         "width": 2,
         "height": 2,
         "wood": {
-          "choppedAt": 1769852973097
+          "choppedAt": 1769860021046
         },
         "x": -5,
         "y": 0
@@ -4507,7 +4507,7 @@
       "9caf764e": {
         "createdAt": 1768024142875,
         "wood": {
-          "choppedAt": 1769852970370
+          "choppedAt": 1769860024603
         },
         "tier": 2,
         "name": "Ancient Tree",
@@ -4518,7 +4518,7 @@
       "fb29776e": {
         "createdAt": 1768365835961,
         "wood": {
-          "choppedAt": 1769852970727
+          "choppedAt": 1769860024001
         },
         "x": -7,
         "y": -6,
@@ -4529,7 +4529,7 @@
       "bd4d2958": {
         "createdAt": 1769321229431,
         "wood": {
-          "choppedAt": 1769852971168
+          "choppedAt": 1769860023462
         },
         "x": -5,
         "y": -6,
@@ -5094,9 +5094,13 @@
         "y": -2,
         "fruit": {
           "name": "Tomato",
-          "plantedAt": 1769831538878,
-          "harvestedAt": 1769853007719,
-          "harvestsLeft": 1
+          "plantedAt": 1769860033340,
+          "harvestedAt": 0,
+          "harvestsLeft": 5
+        },
+        "fertiliser": {
+          "name": "Fruitful Blend",
+          "fertilisedAt": 1769860759007
         }
       },
       "9f759233": {
@@ -5108,8 +5112,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769831541183,
-          "harvestedAt": 1769853005673,
-          "harvestsLeft": 2
+          "harvestedAt": 1769860029318,
+          "harvestsLeft": 1
         }
       },
       "50e38b02": {
@@ -5138,8 +5142,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769831538362,
-          "harvestedAt": 1769853008129,
-          "harvestsLeft": 3
+          "harvestedAt": 1769860026479,
+          "harvestsLeft": 2
         }
       },
       "0e9a66d1": {
@@ -5168,8 +5172,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769844657217,
-          "harvestedAt": 1769853006932,
-          "harvestsLeft": 5
+          "harvestedAt": 1769860027773,
+          "harvestsLeft": 4
         }
       },
       "e3033e02": {
@@ -5181,8 +5185,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769831539678,
-          "harvestedAt": 1769853006506,
-          "harvestsLeft": 2
+          "harvestedAt": 1769860028353,
+          "harvestsLeft": 1
         }
       },
       "85c6008b": {
@@ -5194,8 +5198,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769831539168,
-          "harvestedAt": 1769853007311,
-          "harvestsLeft": 2
+          "harvestedAt": 1769860027410,
+          "harvestsLeft": 1
         }
       },
       "e0296d47": {
@@ -5206,9 +5210,13 @@
         "y": 0,
         "fruit": {
           "name": "Tomato",
-          "plantedAt": 1769831537714,
-          "harvestedAt": 1769853008537,
-          "harvestsLeft": 1
+          "plantedAt": 1769860032746,
+          "harvestedAt": 0,
+          "harvestsLeft": 5
+        },
+        "fertiliser": {
+          "name": "Fruitful Blend",
+          "fertilisedAt": 1769860758546
         }
       },
       "df180046": {
@@ -5249,9 +5257,13 @@
         "y": -6,
         "fruit": {
           "name": "Tomato",
-          "plantedAt": 1769831540019,
-          "harvestedAt": 1769853006137,
-          "harvestsLeft": 1
+          "plantedAt": 1769860033966,
+          "harvestedAt": 0,
+          "harvestsLeft": 4
+        },
+        "fertiliser": {
+          "name": "Fruitful Blend",
+          "fertilisedAt": 1769860759619
         }
       },
       "0539f736": {
@@ -6485,7 +6497,7 @@
       "Sea Cucumber Sold": 252,
       "Eggplant Seed Bought": 8414,
       "Lily Seed Bought": 223,
-      "Tree Chopped": 84306,
+      "Tree Chopped": 84323,
       "Power Smoothie Cooked": 244,
       "Poppy Crafted": 1,
       "Orange Seed Bought": 777,
@@ -6623,8 +6635,8 @@
       "Music Box Crafted": 1,
       "Fairy Circle Crafted": 1,
       "Cheese Cooked": 615,
-      "Tomato Seed Planted": 555,
-      "Tomato Harvested": 2751,
+      "Tomato Seed Planted": 558,
+      "Tomato Harvested": 2759,
       "Honey Cheddar Cooked": 9,
       "Honey Cheddar Fed": 6,
       "Cowgirl Skirt Bought": 2,
@@ -7106,7 +7118,7 @@
       "Streamer Hat Reward Claimed": 4,
       "Twitter Post Submitted": 6,
       "Marketplace Bulk Offers Cancelled": 3,
-      "Basic Tree Chopped": 5941,
+      "Basic Tree Chopped": 5946,
       "Iron Rock Mined": 1665,
       "Stone Rock Mined": 4675,
       "Gold Rock Mined": 458,
@@ -7150,7 +7162,7 @@
       "Luxury Key Bought": 1,
       "Anemone Caught": 6,
       "Ancient Tree Upgrade": 3,
-      "Ancient Tree Chopped": 393,
+      "Ancient Tree Chopped": 396,
       "White Lavender Bountied": 1,
       "Twilight Anglerfish Map Piece Found": 8,
       "Saw Fish Bought": 1,
@@ -8436,7 +8448,7 @@
           "petXP": 0,
           "score": 50,
           "collectivePet": {
-            "totalXP": 7032025,
+            "totalXP": 7077579,
             "goalXP": 2404688,
             "goalReached": true,
             "streak": 3,
@@ -9625,20 +9637,20 @@
       }
     },
     "boostsUsedAt": {
-      "Camel Onesie": 1769853728537,
+      "Camel Onesie": 1769860749318,
       "Fruit Picker Apron": 1769832248920,
       "Fruitful Bounty": 1769845372982,
-      "Fruitful Fumble": 1769853728537,
-      "Loyal Macaw": 1769853728537,
-      "Lumberjack's Extra": 1769853693097,
-      "Macaw": 1769853728537,
+      "Fruitful Fumble": 1769860749318,
+      "Loyal Macaw": 1769860749318,
+      "Lumberjack's Extra": 1769860744603,
+      "Macaw": 1769860749318,
       "No Axe No Worries": 1761407918724,
       "Spring Guardian": 1768768018364,
-      "Squirrel": 1769853693097,
-      "Tiki Totem": 1769853693097,
+      "Squirrel": 1769860744603,
+      "Tiki Totem": 1769860744603,
       "Tough Tree": 1769853693097,
-      "Tree Charge": 1769853693097,
-      "Woody the Beaver": 1769853693097,
+      "Tree Charge": 1769860744603,
+      "Woody the Beaver": 1769860744603,
       "Bee Suit": 1769824272372,
       "Sweet Bonus": 1769824272372,
       "Efficient Bin": 1769843197675,
@@ -9753,7 +9765,7 @@
       "Sol & Luna": 1769736691381,
       "Fine Fibers": 1769850565829,
       "Rice Panda": 1761332464550,
-      "Catchup": 1769853728537,
+      "Catchup": 1769860753966,
       "Abundant Harvest": 1769850565829,
       "Bale Economy": 1769767165808,
       "Experienced Farmer": 1769850406729,

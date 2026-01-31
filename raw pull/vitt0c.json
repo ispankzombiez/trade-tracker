@@ -1,7 +1,7 @@
 {
   "farm": {
     "coins": 14062.70187850043,
-    "balance": "22883.776109979809006",
+    "balance": "22874.794109979809006",
     "previousBalance": "18642.145790072142067",
     "inventory": {
       "Sunflower": "753724.6301000643438",
@@ -7575,7 +7575,9 @@
           },
           "sfl": 2.231,
           "collection": "collectibles",
-          "tradeType": "instant"
+          "tradeType": "instant",
+          "fulfilledAt": 1769861656660,
+          "fulfilledById": 6252341123707372
         },
         "17680fb5": {
           "createdAt": 1769816619097,
@@ -7613,7 +7615,9 @@
           },
           "sfl": 6.751,
           "collection": "collectibles",
-          "tradeType": "instant"
+          "tradeType": "instant",
+          "fulfilledAt": 1769860045344,
+          "fulfilledById": 8127568012384720
         },
         "14e1ac82": {
           "createdAt": 1769823002613,
@@ -7678,9 +7682,10 @@
       },
       "weeklyPurchases": {
         "2026-01-26": {
-          "Chiogga": 2,
+          "Chiogga": 3,
           "Golden Helios": 2,
-          "Warty Goblin Pumpkin": 2
+          "Warty Goblin Pumpkin": 2,
+          "Adirondack Potato": 1
         }
       }
     },
@@ -15190,7 +15195,7 @@
           "petXP": 9720,
           "score": 4948.000000000002,
           "collectivePet": {
-            "totalXP": 6083330,
+            "totalXP": 6118760,
             "goalXP": 10263180,
             "goalReached": false,
             "streak": 10,
