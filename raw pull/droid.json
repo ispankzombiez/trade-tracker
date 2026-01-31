@@ -188,7 +188,7 @@
       "Leather": "2.5",
       "Merino Wool": "4.4",
       "Feather": "582.6",
-      "Milk": "48.4",
+      "Milk": "36.4",
       "Hay": "6.7198500000003214",
       "Kernel Blend": "0.6408750000001554",
       "NutriBarley": "0.6010000000000904",
@@ -315,7 +315,7 @@
       "Starfish": "44",
       "Seaweed": "95",
       "Sea Cucumber": "53",
-      "Crab": "208",
+      "Crab": "206",
       "Anchovy": "136",
       "Clownfish": "16",
       "Sea Horse": "12",
@@ -325,7 +325,7 @@
       "Surgeonfish": "83",
       "Zebra Turkeyfish": "18",
       "Hammerhead shark": "11",
-      "Mahi Mahi": "36",
+      "Mahi Mahi": "32",
       "Blue Marlin": "112",
       "Oarfish": "18",
       "Football fish": "26",
@@ -516,7 +516,7 @@
       "Love Charm": "622",
       "Paw Prints Raffle Ticket": "250",
       "Smokey": "1",
-      "Tuna": "137",
+      "Tuna": "129",
       "Blueberry Jam": "1",
       "Mashed Potato": "15",
       "Popcorn": "2",
@@ -564,7 +564,8 @@
       "Potato Seed": "720",
       "Sunflower Seed": "1440",
       "Sunflower Cake": "2",
-      "Cheese": "28"
+      "Cheese": "32",
+      "Fish Oil": "1"
     },
     "previousInventory": {
       "Sunflower Seed": "1260",
@@ -5278,26 +5279,6 @@
               "skills": {
                 "Double Nom": true
               },
-              "readyAt": 1769843228424
-            },
-            {
-              "name": "Cheese",
-              "boost": {
-                "Oil": 0.16666666666666666
-              },
-              "skills": {
-                "Double Nom": true
-              },
-              "readyAt": 1769843660424
-            },
-            {
-              "name": "Cheese",
-              "boost": {
-                "Oil": 0.16666666666666666
-              },
-              "skills": {
-                "Double Nom": true
-              },
               "readyAt": 1769844092424
             },
             {
@@ -5309,9 +5290,29 @@
                 "Double Nom": true
               },
               "readyAt": 1769844524424
+            },
+            {
+              "name": "Cheese",
+              "boost": {
+                "Oil": 0.16666666666666666
+              },
+              "skills": {
+                "Double Nom": true
+              },
+              "readyAt": 1769844956424
+            },
+            {
+              "name": "Cheese",
+              "boost": {
+                "Oil": 0.16666666666666666
+              },
+              "skills": {
+                "Double Nom": true
+              },
+              "readyAt": 1769845388424
             }
           ],
-          "oil": 28.99999999999998,
+          "oil": 28.666666666666643,
           "coordinates": {
             "x": -8,
             "y": 9
@@ -5576,16 +5577,6 @@
           "processing": [
             {
               "name": "Fish Oil",
-              "readyAt": 1769841136330,
-              "startedAt": 1769783536330,
-              "requirements": {
-                "Tuna": "8",
-                "Mahi Mahi": "4",
-                "Crab": "2"
-              }
-            },
-            {
-              "name": "Fish Oil",
               "readyAt": 1769898736330,
               "startedAt": 1769841136330,
               "requirements": {
@@ -5608,6 +5599,16 @@
               "name": "Fish Oil",
               "readyAt": 1770013936330,
               "startedAt": 1769956336330,
+              "requirements": {
+                "Tuna": "8",
+                "Mahi Mahi": "4",
+                "Crab": "2"
+              }
+            },
+            {
+              "name": "Fish Oil",
+              "readyAt": 1770071536330,
+              "startedAt": 1770013936330,
               "requirements": {
                 "Tuna": "8",
                 "Mahi Mahi": "4",
@@ -7883,7 +7884,7 @@
       "White Carrot Sold": 1,
       "Chicken Sold": 20,
       "Hen House Sold": 1,
-      "Cheese Cooked": 2607,
+      "Cheese Cooked": 2609,
       "Music Box Crafted": 1,
       "Sheep Cured": 19,
       "Cowboy Hat Bought": 1,
@@ -8115,7 +8116,7 @@
       "Saw Fish Bought": 1,
       "Paw Prints Points Earned": 1762,
       "Building Construction Sped Up": 1,
-      "Fish Oil Processed": 4,
+      "Fish Oil Processed": 5,
       "Raffle Entries": 500,
       "Raffle Lost": 1,
       "Crimstone Infused Fish Oil Cooked": 2,
@@ -9633,7 +9634,7 @@
           "petXP": 0,
           "score": 30,
           "collectivePet": {
-            "totalXP": 5858825,
+            "totalXP": 5875485,
             "goalXP": 10263180,
             "goalReached": false,
             "streak": 10,
@@ -10933,7 +10934,7 @@
       "Rock'N'Roll": 1769464281974,
       "Stone Beetle": 1769464281974,
       "Tunnel Mole": 1760936501773,
-      "Desert Gnome": 1769842836001,
+      "Desert Gnome": 1769843976662,
       "Knight Chicken": 1764944589664,
       "Abundant Harvest": 1769796392188,
       "Alien Chicken": 1769796392188,
