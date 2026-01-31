@@ -920,12 +920,12 @@
                 <div class="card">
                     <h3>📊 Market Summary</h3>
                     <div class="timeframe-controls">
-                        <button class="timeframe-btn active" onclick="changeTimeframe('day')" data-timeframe="day">24h</button>
-                        <button class="timeframe-btn" onclick="changeTimeframe('week')" data-timeframe="week">7d</button>
-                        <button class="timeframe-btn" onclick="changeTimeframe('month')" data-timeframe="month">30d</button>
-                        <button class="timeframe-btn" onclick="changeTimeframe('3month')" data-timeframe="3month">3m</button>
-                        <button class="timeframe-btn" onclick="changeTimeframe('year')" data-timeframe="year">1y</button>
-                        <button class="timeframe-btn" onclick="changeTimeframe('all')" data-timeframe="all">All</button>
+                        <button class="timeframe-btn active" data-timeframe="day">24h</button>
+                        <button class="timeframe-btn" data-timeframe="week">7d</button>
+                        <button class="timeframe-btn" data-timeframe="month">30d</button>
+                        <button class="timeframe-btn" data-timeframe="3month">3m</button>
+                        <button class="timeframe-btn" data-timeframe="year">1y</button>
+                        <button class="timeframe-btn" data-timeframe="all">All</button>
                         
                         <div class="custom-date-range">
                             <span class="time-filter-label">Custom:</span>
@@ -2613,6 +2613,38 @@
             debugLog('Page loaded, JavaScript is running!');
             debugLog('Starting data load...');
             loadData();
+            
+            // Set up timeframe button event listeners after page loads
+            setTimeout(() => {
+                document.querySelectorAll('.timeframe-btn[data-timeframe]').forEach(btn => {
+                    btn.addEventListener('click', () => {
+                        const timeframe = btn.getAttribute('data-timeframe');
+                        if (typeof changeTimeframe === 'function') {
+                            changeTimeframe(timeframe);
+                        }
+                    });
+                });
+                
+                // Set up user timeframe buttons
+                document.querySelectorAll('#userTimeframeControls .timeframe-btn[data-timeframe]').forEach(btn => {
+                    btn.addEventListener('click', () => {
+                        const timeframe = btn.getAttribute('data-timeframe');
+                        if (typeof changeUserTimeframe === 'function') {
+                            changeUserTimeframe(timeframe);
+                        }
+                    });
+                });
+                
+                // Set up trades timeframe buttons
+                document.querySelectorAll('#tradesTimeframeControls .timeframe-btn[data-timeframe]').forEach(btn => {
+                    btn.addEventListener('click', () => {
+                        const timeframe = btn.getAttribute('data-timeframe');
+                        if (typeof changeTradesTimeframe === 'function') {
+                            changeTradesTimeframe(timeframe);
+                        }
+                    });
+                });
+            }, 1000); // Wait 1 second for data to load
         };
 
         // Auto-refresh every 5 minutes
