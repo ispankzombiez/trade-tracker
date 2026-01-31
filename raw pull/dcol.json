@@ -15,8 +15,8 @@
       "Sunflower": "281028.97539999839113",
       "Potato": "150283.5849999997437",
       "Pumpkin": "133372.19020000033124",
-      "Carrot": "48641.623300000045665",
-      "Cabbage": "48385.528899999809006",
+      "Carrot": "48601.623300000045665",
+      "Cabbage": "48365.528899999809006",
       "Beetroot": "13634.699899999999752",
       "Cauliflower": "12779.883100000006443",
       "Parsnip": "2707.086300000001202",
@@ -57,15 +57,15 @@
       "Olive": "240.1419",
       "Tomato": "342.0000000000005338",
       "Lemon": "140.2500000000004516",
-      "Barley": "4784.8691999999997548",
+      "Barley": "5259.5192000000001848",
       "Rhubarb": "16520.454899999486425",
       "Zucchini": "29864.784199999686585",
-      "Yam": "714.256499999826545",
-      "Broccoli": "4558.158199999858178",
+      "Yam": "699.256499999826545",
+      "Broccoli": "4548.158199999858178",
       "Pepper": "61.3967000000003218",
       "Onion": "36.0869000000011004",
       "Turnip": "1143.97750000000047",
-      "Artichoke": "2743.10500000000066",
+      "Artichoke": "2741.10500000000066",
       "Duskberry": "1.500000000000002",
       "Lunara": "3.5",
       "Celestine": "3.5",
@@ -89,7 +89,7 @@
       "Purple Clover": "1",
       "White Clover": "3",
       "Blue Clover": "22",
-      "Axe": "300",
+      "Axe": "276",
       "Pickaxe": "306",
       "Shovel": "1",
       "Petting Hand": "1",
@@ -158,7 +158,7 @@
       "Beetroot Cake": "2",
       "Parsnip Cake": "2",
       "Boiled Eggs": "63",
-      "Bumpkin Broth": "31",
+      "Bumpkin Broth": "35",
       "Bumpkin Salad": "11",
       "Mashed Potato": "52",
       "Cauliflower Burger": "7",
@@ -194,9 +194,9 @@
       "Rice Bun": "3",
       "The Lot": "2",
       "Sour Shake": "3",
-      "Wood": "17017.5",
+      "Wood": "17061",
       "Stone": "4434.1",
-      "Iron": "1837.35",
+      "Iron": "1851.65",
       "Gold": "110.1",
       "Egg": "24002.42",
       "Chicken": "30",
@@ -212,11 +212,11 @@
       "Crop Plot": "70",
       "Fruit Patch": "15",
       "Basic Land": "21",
-      "Earthworm": "2676",
-      "Grub": "130",
+      "Earthworm": "2680",
+      "Grub": "133",
       "Red Wiggler": "19",
-      "Sprout Mix": "1559",
-      "Fruitful Blend": "319",
+      "Sprout Mix": "1574",
+      "Fruitful Blend": "322",
       "Rapid Root": "2388",
       "Fishing Lure": "61",
       "Beehive": "4",
@@ -660,15 +660,14 @@
       "Lemon Cheesecake": "3",
       "Rock Blackfish": "13",
       "Clover Seed": "3",
-      "Artichoke Seed": "24",
       "Rice Seed": "8",
-      "Wheat Seed": "46",
       "Yam Seed": "5",
       "Cheese": "5",
       "Potato Seed": "135",
-      "Stone Pickaxe": "19",
+      "Stone Pickaxe": "13",
       "Kale Stew": "4",
-      "Shroom Syrup": "3"
+      "Shroom Syrup": "3",
+      "Barley Seed": "15"
     },
     "previousInventory": {
       "Sunflower Seed": "360",
@@ -3689,18 +3688,10 @@
         "y": -1,
         "height": 1,
         "crop": {
-          "id": "20616204",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "78545430",
+          "plantedAt": 1769816899855,
+          "boostedTime": 35539128,
+          "name": "Wheat"
         }
       },
       "2": {
@@ -3710,18 +3701,10 @@
         "y": -1,
         "height": 1,
         "crop": {
-          "id": "77780091",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "40946764",
+          "plantedAt": 1769816899855,
+          "boostedTime": 35539128,
+          "name": "Wheat"
         }
       },
       "3": {
@@ -3731,18 +3714,10 @@
         "y": -1,
         "height": 1,
         "crop": {
-          "id": "60377763",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "55847355",
+          "plantedAt": 1769816899855,
+          "boostedTime": 35539128,
+          "name": "Wheat"
         }
       },
       "4": {
@@ -3752,18 +3727,10 @@
         "y": -2,
         "height": 1,
         "crop": {
-          "id": "65915295",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "26374359",
+          "plantedAt": 1769816899855,
+          "boostedTime": 35539128,
+          "name": "Wheat"
         }
       },
       "5": {
@@ -3773,18 +3740,10 @@
         "y": -2,
         "height": 1,
         "crop": {
-          "id": "84419876",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "33860230",
+          "plantedAt": 1769816899855,
+          "boostedTime": 35539128,
+          "name": "Wheat"
         }
       },
       "6": {
@@ -3794,18 +3753,10 @@
         "y": -2,
         "height": 1,
         "crop": {
-          "id": "29637747",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "77555080",
+          "plantedAt": 1769816899855,
+          "boostedTime": 35539128,
+          "name": "Wheat"
         }
       },
       "7": {
@@ -3815,18 +3766,10 @@
         "y": 0,
         "height": 1,
         "crop": {
-          "id": "64060374",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "31183187",
+          "plantedAt": 1769816899855,
+          "boostedTime": 35539128,
+          "name": "Wheat"
         }
       },
       "8": {
@@ -3836,18 +3779,10 @@
         "y": 3,
         "height": 1,
         "crop": {
-          "id": "78298621",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "59645297",
+          "plantedAt": 1769816899855,
+          "boostedTime": 35539128,
+          "name": "Wheat"
         }
       },
       "9": {
@@ -3857,18 +3792,10 @@
         "y": 0,
         "height": 1,
         "crop": {
-          "id": "15166616",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "85284723",
+          "plantedAt": 1769816899855,
+          "boostedTime": 35539128,
+          "name": "Wheat"
         }
       },
       "10": {
@@ -3878,18 +3805,10 @@
         "y": 0,
         "height": 1,
         "crop": {
-          "id": "64692692",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "93460187",
+          "plantedAt": 1769816899855,
+          "boostedTime": 35539128,
+          "name": "Wheat"
         }
       },
       "11": {
@@ -3899,18 +3818,10 @@
         "y": -1,
         "height": 1,
         "crop": {
-          "id": "26827925",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "89546554",
+          "plantedAt": 1769816899855,
+          "boostedTime": 35539128,
+          "name": "Wheat"
         }
       },
       "12": {
@@ -3920,18 +3831,10 @@
         "y": -2,
         "height": 1,
         "crop": {
-          "id": "47110599",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "40726824",
+          "plantedAt": 1769816899855,
+          "boostedTime": 35539128,
+          "name": "Wheat"
         }
       },
       "13": {
@@ -3941,18 +3844,10 @@
         "y": 0,
         "height": 1,
         "crop": {
-          "id": "56086613",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "38646985",
+          "plantedAt": 1769816899855,
+          "boostedTime": 35539128,
+          "name": "Wheat"
         }
       },
       "14": {
@@ -3962,18 +3857,10 @@
         "y": -1,
         "height": 1,
         "crop": {
-          "id": "84676722",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "19886839",
+          "plantedAt": 1769816899855,
+          "boostedTime": 35539128,
+          "name": "Wheat"
         }
       },
       "15": {
@@ -3983,18 +3870,10 @@
         "y": -2,
         "height": 1,
         "crop": {
-          "id": "15732847",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "51594930",
+          "plantedAt": 1769816899855,
+          "boostedTime": 35539128,
+          "name": "Wheat"
         }
       },
       "16": {
@@ -4004,18 +3883,10 @@
         "y": 0,
         "height": 1,
         "crop": {
-          "id": "20973032",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "12955906",
+          "plantedAt": 1769816899855,
+          "boostedTime": 35539128,
+          "name": "Wheat"
         }
       },
       "17": {
@@ -4025,18 +3896,10 @@
         "y": -1,
         "height": 1,
         "crop": {
-          "id": "17957629",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "63209793",
+          "plantedAt": 1769816899855,
+          "boostedTime": 35539128,
+          "name": "Wheat"
         }
       },
       "18": {
@@ -4046,18 +3909,10 @@
         "y": -2,
         "height": 1,
         "crop": {
-          "id": "97411405",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "90083141",
+          "plantedAt": 1769816899855,
+          "boostedTime": 35539128,
+          "name": "Wheat"
         }
       },
       "34906794": {
@@ -4067,18 +3922,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "63652256",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "80095319",
+          "plantedAt": 1769816899855,
+          "boostedTime": 35539128,
+          "name": "Wheat"
         }
       },
       "82005022": {
@@ -4088,18 +3935,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "70644701",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "93488487",
+          "plantedAt": 1769816899855,
+          "boostedTime": 35539128,
+          "name": "Wheat"
         }
       },
       "92943090": {
@@ -4109,18 +3948,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "42343251",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "64688187",
+          "plantedAt": 1769816899855,
+          "boostedTime": 35539128,
+          "name": "Wheat"
         }
       },
       "00767ac0": {
@@ -4130,18 +3961,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "74841173",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "90589990",
+          "plantedAt": 1769816899855,
+          "boostedTime": 35539128,
+          "name": "Wheat"
         }
       },
       "0211957d": {
@@ -4151,18 +3974,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "52994355",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "14525374",
+          "plantedAt": 1769816899855,
+          "boostedTime": 35539128,
+          "name": "Wheat"
         }
       },
       "0aa97cd7": {
@@ -4172,18 +3987,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "69883245",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "65180720",
+          "plantedAt": 1769816899855,
+          "boostedTime": 35539128,
+          "name": "Wheat"
         }
       },
       "12c73592": {
@@ -4193,18 +4000,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "65312283",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "24814989",
+          "plantedAt": 1769816899855,
+          "boostedTime": 35539128,
+          "name": "Wheat"
         }
       },
       "13343efb": {
@@ -4214,18 +4013,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "92211559",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "79240689",
+          "plantedAt": 1769816899855,
+          "boostedTime": 35539128,
+          "name": "Wheat"
         }
       },
       "1dc01f88": {
@@ -4235,18 +4026,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "92539155",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "37008885",
+          "plantedAt": 1769816899855,
+          "boostedTime": 35539128,
+          "name": "Wheat"
         }
       },
       "25d4cb0f": {
@@ -4256,18 +4039,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "33859332",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "66019715",
+          "plantedAt": 1769816899855,
+          "boostedTime": 35539128,
+          "name": "Wheat"
         }
       },
       "2a2fd620": {
@@ -4277,18 +4052,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "21471971",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "67179957",
+          "plantedAt": 1769816899855,
+          "boostedTime": 35539128,
+          "name": "Wheat"
         }
       },
       "2cdc9ca5": {
@@ -4298,18 +4065,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "94217476",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "98254589",
+          "plantedAt": 1769816899855,
+          "boostedTime": 35539128,
+          "name": "Wheat"
         }
       },
       "2e3e88f7": {
@@ -4319,18 +4078,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "52339087",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "71409728",
+          "plantedAt": 1769816899855,
+          "boostedTime": 35539128,
+          "name": "Wheat"
         }
       },
       "306ff4dc": {
@@ -4340,18 +4091,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "51165174",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "68968450",
+          "plantedAt": 1769816899855,
+          "boostedTime": 35539128,
+          "name": "Wheat"
         }
       },
       "32ee823a": {
@@ -4361,18 +4104,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "13730305",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "52456282",
+          "plantedAt": 1769816899855,
+          "boostedTime": 35539128,
+          "name": "Wheat"
         }
       },
       "34f510b3": {
@@ -4382,18 +4117,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "18333945",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "42385848",
+          "plantedAt": 1769816899855,
+          "boostedTime": 35539128,
+          "name": "Wheat"
         }
       },
       "3e784f05": {
@@ -4403,18 +4130,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "68200691",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "63232068",
+          "plantedAt": 1769816899855,
+          "boostedTime": 35539128,
+          "name": "Wheat"
         }
       },
       "43b2745e": {
@@ -4424,18 +4143,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "52997268",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "37211136",
+          "plantedAt": 1769816899855,
+          "boostedTime": 35539128,
+          "name": "Wheat"
         }
       },
       "4b428031": {
@@ -4445,18 +4156,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "46500825",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "93875622",
+          "plantedAt": 1769816899855,
+          "boostedTime": 35539128,
+          "name": "Wheat"
         }
       },
       "4f74383c": {
@@ -4466,18 +4169,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "56283788",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "11138577",
+          "plantedAt": 1769816899855,
+          "boostedTime": 35539128,
+          "name": "Wheat"
         }
       },
       "52dd9aa1": {
@@ -4487,18 +4182,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "45729124",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "36715045",
+          "plantedAt": 1769816899855,
+          "boostedTime": 35539128,
+          "name": "Wheat"
         }
       },
       "557c4013": {
@@ -4508,18 +4195,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "76210619",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "63948790",
+          "plantedAt": 1769816899855,
+          "boostedTime": 35539128,
+          "name": "Wheat"
         }
       },
       "5b28ad41": {
@@ -4529,18 +4208,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "59683293",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "81640817",
+          "plantedAt": 1769816899855,
+          "boostedTime": 35539128,
+          "name": "Wheat"
         }
       },
       "5cb0db0d": {
@@ -4550,18 +4221,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "28605123",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "81171594",
+          "plantedAt": 1769816899855,
+          "boostedTime": 35539128,
+          "name": "Wheat"
         }
       },
       "6088f117": {
@@ -4571,18 +4234,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "17288103",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "28813921",
+          "plantedAt": 1769816899855,
+          "boostedTime": 35539128,
+          "name": "Wheat"
         }
       },
       "61d4ff4e": {
@@ -4592,18 +4247,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "59458258",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "14203319",
+          "plantedAt": 1769816899855,
+          "boostedTime": 35539128,
+          "name": "Wheat"
         }
       },
       "67c7027d": {
@@ -4613,18 +4260,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "16326590",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "34045046",
+          "plantedAt": 1769816899855,
+          "boostedTime": 35539128,
+          "name": "Wheat"
         }
       },
       "6830a14a": {
@@ -4634,18 +4273,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "61983183",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "75594471",
+          "plantedAt": 1769816899855,
+          "boostedTime": 35539128,
+          "name": "Wheat"
         }
       },
       "6880a910": {
@@ -4655,18 +4286,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "38498372",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "94748302",
+          "plantedAt": 1769799133154,
+          "boostedTime": 53308692.00000001,
+          "name": "Artichoke"
         }
       },
       "6e82a3ba": {
@@ -4676,18 +4299,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "40016306",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "68611923",
+          "plantedAt": 1769799133154,
+          "boostedTime": 53308692.00000001,
+          "name": "Artichoke"
         }
       },
       "8bd9313f": {
@@ -4697,18 +4312,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "10864921",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "36071040",
+          "plantedAt": 1769799133154,
+          "boostedTime": 53308692.00000001,
+          "name": "Artichoke"
         }
       },
       "99e9167c": {
@@ -4718,18 +4325,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "11763826",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "97496832",
+          "plantedAt": 1769799133154,
+          "boostedTime": 53308692.00000001,
+          "name": "Artichoke"
         }
       },
       "9c0878ee": {
@@ -4739,18 +4338,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "37924147",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "28456877",
+          "plantedAt": 1769799133154,
+          "boostedTime": 53308692.00000001,
+          "name": "Artichoke"
         }
       },
       "9ea9d967": {
@@ -4760,18 +4351,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "98296320",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "12879228",
+          "plantedAt": 1769799133154,
+          "boostedTime": 53308692.00000001,
+          "name": "Artichoke"
         }
       },
       "b3fad49f": {
@@ -4781,18 +4364,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "56987779",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "52066514",
+          "plantedAt": 1769799133154,
+          "boostedTime": 53308692.00000001,
+          "name": "Artichoke"
         }
       },
       "bc3e5a0e": {
@@ -4802,18 +4377,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "51552085",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "52300514",
+          "plantedAt": 1769799133154,
+          "boostedTime": 53308692.00000001,
+          "name": "Artichoke"
         }
       },
       "c5cd7ed9": {
@@ -4823,18 +4390,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "67010727",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "18295135",
+          "plantedAt": 1769799133154,
+          "boostedTime": 53308692.00000001,
+          "name": "Artichoke"
         }
       },
       "cc8aad34": {
@@ -4844,18 +4403,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "11855771",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "91229769",
+          "plantedAt": 1769799133154,
+          "boostedTime": 53308692.00000001,
+          "name": "Artichoke"
         }
       },
       "ce33d399": {
@@ -4865,18 +4416,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "58383235",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "73052360",
+          "plantedAt": 1769799133154,
+          "boostedTime": 53308692.00000001,
+          "name": "Artichoke"
         }
       },
       "d8c8e38f": {
@@ -4886,18 +4429,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "65861023",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "69386229",
+          "plantedAt": 1769799133154,
+          "boostedTime": 53308692.00000001,
+          "name": "Artichoke"
         }
       },
       "dd576c97": {
@@ -4907,18 +4442,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "81933251",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "54942118",
+          "plantedAt": 1769799133154,
+          "boostedTime": 53308692.00000001,
+          "name": "Artichoke"
         }
       },
       "e73702ec": {
@@ -4928,18 +4455,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "94249294",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "28738188",
+          "plantedAt": 1769799133154,
+          "boostedTime": 53308692.00000001,
+          "name": "Artichoke"
         }
       },
       "f0181959": {
@@ -4949,18 +4468,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "34272282",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "35177888",
+          "plantedAt": 1769799133154,
+          "boostedTime": 53308692.00000001,
+          "name": "Artichoke"
         }
       },
       "f1e42f67": {
@@ -4970,18 +4481,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "93157421",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "12467934",
+          "plantedAt": 1769799133154,
+          "boostedTime": 53308692.00000001,
+          "name": "Artichoke"
         }
       },
       "f2786d7f": {
@@ -4991,18 +4494,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "64875028",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "50421460",
+          "plantedAt": 1769799133154,
+          "boostedTime": 53308692.00000001,
+          "name": "Artichoke"
         }
       },
       "fad5ae84": {
@@ -5012,18 +4507,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "35194322",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "79636156",
+          "plantedAt": 1769799133154,
+          "boostedTime": 53308692.00000001,
+          "name": "Artichoke"
         }
       },
       "fde099e1": {
@@ -5033,18 +4520,10 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "10643917",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "79364999",
+          "plantedAt": 1769799133154,
+          "boostedTime": 53308692.00000001,
+          "name": "Artichoke"
         }
       },
       "10f127a4": {
@@ -5052,18 +4531,10 @@
         "x": -3,
         "y": 0,
         "crop": {
-          "id": "89826241",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "55321594",
+          "plantedAt": 1769799133154,
+          "boostedTime": 53308692.00000001,
+          "name": "Artichoke"
         }
       },
       "5549480a": {
@@ -5071,18 +4542,10 @@
         "x": -3,
         "y": -1,
         "crop": {
-          "id": "86974462",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "69237274",
+          "plantedAt": 1769799133154,
+          "boostedTime": 53308692.00000001,
+          "name": "Artichoke"
         }
       },
       "811b7bb3": {
@@ -5090,18 +4553,10 @@
         "x": -2,
         "y": 5,
         "crop": {
-          "id": "54987839",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "11896646",
+          "plantedAt": 1769799133154,
+          "boostedTime": 53308692.00000001,
+          "name": "Artichoke"
         }
       },
       "b8e09bdb": {
@@ -5109,18 +4564,10 @@
         "x": -3,
         "y": -2,
         "crop": {
-          "id": "27204695",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "91367668",
+          "plantedAt": 1769799133154,
+          "boostedTime": 53308692.00000001,
+          "name": "Artichoke"
         }
       },
       "eb4e4465": {
@@ -5128,18 +4575,10 @@
         "x": -3,
         "y": 1,
         "crop": {
-          "id": "86331637",
-          "plantedAt": 1769678607642,
-          "boostedTime": 71078256,
-          "name": "Barley"
-        },
-        "fertiliser": {
-          "name": "Sprout Mix",
-          "fertilisedAt": 1769749704892
-        },
-        "beeSwarm": {
-          "count": 2,
-          "swarmActivatedAt": 1769845770376
+          "id": "79886041",
+          "plantedAt": 1769799133154,
+          "boostedTime": 53308692.00000001,
+          "name": "Artichoke"
         }
       }
     },
@@ -5147,7 +4586,7 @@
       "9b1ef850": {
         "createdAt": 1763521442876,
         "wood": {
-          "choppedAt": 1769845039650
+          "choppedAt": 1769851710953
         },
         "x": -3,
         "y": -4,
@@ -5158,7 +4597,7 @@
       "e56686b2": {
         "createdAt": 1763522032912,
         "wood": {
-          "choppedAt": 1769845039292
+          "choppedAt": 1769851710509
         },
         "x": 1,
         "y": -4,
@@ -5169,7 +4608,7 @@
       "f40fe2cc": {
         "createdAt": 1763522041713,
         "wood": {
-          "choppedAt": 1769845039480
+          "choppedAt": 1769851710756
         },
         "x": -1,
         "y": -4,
@@ -5259,7 +4698,7 @@
         "width": 1,
         "height": 1,
         "stone": {
-          "minedAt": 1769822959310,
+          "minedAt": 1769852446560,
           "boostedTime": 0
         }
       },
@@ -5325,7 +4764,7 @@
         "width": 1,
         "height": 1,
         "stone": {
-          "minedAt": 1769822959110,
+          "minedAt": 1769852446738,
           "boostedTime": 0
         }
       },
@@ -5336,7 +4775,7 @@
         "width": 1,
         "height": 1,
         "stone": {
-          "minedAt": 1769822958921,
+          "minedAt": 1769852446919,
           "boostedTime": 0
         }
       },
@@ -5347,7 +4786,7 @@
         "width": 1,
         "height": 1,
         "stone": {
-          "minedAt": 1769822958511,
+          "minedAt": 1769852445676,
           "boostedTime": 0
         }
       },
@@ -5358,7 +4797,7 @@
         "width": 1,
         "height": 1,
         "stone": {
-          "minedAt": 1769822958723,
+          "minedAt": 1769852445910,
           "boostedTime": 0
         }
       },
@@ -5369,7 +4808,7 @@
         "width": 1,
         "height": 1,
         "stone": {
-          "minedAt": 1769822959557,
+          "minedAt": 1769852446326,
           "boostedTime": 0
         }
       }
@@ -5930,7 +5369,7 @@
               "skills": {
                 "Double Nom": false
               },
-              "readyAt": 1769846749523
+              "readyAt": 1769853427858
             },
             {
               "name": "Bumpkin Broth",
@@ -5940,7 +5379,7 @@
               "skills": {
                 "Double Nom": false
               },
-              "readyAt": 1769847721523
+              "readyAt": 1769854399858
             },
             {
               "name": "Bumpkin Broth",
@@ -5950,7 +5389,7 @@
               "skills": {
                 "Double Nom": false
               },
-              "readyAt": 1769848693523
+              "readyAt": 1769855371858
             },
             {
               "name": "Bumpkin Broth",
@@ -5960,7 +5399,7 @@
               "skills": {
                 "Double Nom": false
               },
-              "readyAt": 1769849665523
+              "readyAt": 1769856343858
             }
           ],
           "oil": 0
@@ -6068,8 +5507,8 @@
               "Sprout Mix": 15,
               "Earthworm": 4
             },
-            "startedAt": 1769822926796,
-            "readyAt": 1769842366796
+            "startedAt": 1769852450227,
+            "readyAt": 1769871890227
           }
         }
       ],
@@ -6281,10 +5720,10 @@
           "producing": {
             "items": {
               "Fruitful Blend": 3,
-              "Grub": 3
+              "Grub": 4
             },
-            "startedAt": 1769822928606,
-            "readyAt": 1769848848606
+            "startedAt": 1769852452518,
+            "readyAt": 1769878372518
           }
         }
       ],
@@ -6761,7 +6200,7 @@
       "Bush Bought": 3,
       "Luminous Lantern Crafted": 10,
       "Rice Harvested": 609,
-      "Compost Bin Collected": 1242,
+      "Compost Bin Collected": 1243,
       "Apple Sold": 1989.86,
       "Haunted Stump Bought": 1,
       "Pirate Cake Dug": 4,
@@ -6808,7 +6247,7 @@
       "Solar Lantern Crafted": 5,
       "Coins Earned": 2665155.979650001,
       "Basic Scarecrow Crafted": 1,
-      "Turbo Composter Collected": 660,
+      "Turbo Composter Collected": 661,
       "Collectible Placed": 656,
       "Rod Casted": 2427,
       "Surfboard Bought": 1,
@@ -6817,7 +6256,7 @@
       "Soybean Planted": 15175,
       "Seafood Basket Fed": 4,
       "Grape Planted": 346,
-      "Iron Mined": 9482,
+      "Iron Mined": 9488,
       "Cabbage Sold": 10606.98,
       "Wheat Sold": 461,
       "Shroom Syrup Fed": 118,
@@ -6944,7 +6383,7 @@
       "Pumpkin Soup Dug": 22,
       "Wheat Cake Fed": 12,
       "Oil Drill Crafted": 50,
-      "Wheat Planted": 8519,
+      "Wheat Planted": 8565,
       "Popcorn Cooked": 88,
       "Whale Bear Dug": 2,
       "Cauliflower Cake Dug": 7,
@@ -7048,7 +6487,7 @@
       "Beekeeper Hat Bought": 1,
       "Sea Cucumber Sold": 78,
       "Eggplant Seed Bought": 8041,
-      "Tree Chopped": 76271,
+      "Tree Chopped": 76295,
       "Power Smoothie Cooked": 93,
       "Poppy Crafted": 1,
       "Antipasto Cooked": 23,
@@ -7065,7 +6504,7 @@
       "Pearl Sold": 3,
       "Pumpkin Seed Bought": 49639,
       "Radish Sold": 1409,
-      "Bumpkin Broth Cooked": 1462,
+      "Bumpkin Broth Cooked": 1466,
       "SFL Spent": 5128.547125,
       "Cauliflower Planted": 13125,
       "Candles Bought": 2,
@@ -7153,7 +6592,7 @@
       "Merino Wool Collected": 46,
       "Barley Planted": 3816,
       "Grape Juice Cooked": 6,
-      "Barley Harvested": 3682,
+      "Barley Harvested": 3752,
       "NutriBarley Mixed": 12708,
       "Cheese Cooked": 1620,
       "Spaghetti al Limone Cooked": 17,
@@ -7191,7 +6630,7 @@
       "Artichoke Seed Bought": 1460,
       "Onion Seed Bought": 1119,
       "Turnip Seed Bought": 1875,
-      "Artichoke Planted": 1654,
+      "Artichoke Planted": 1678,
       "Broccoli Planted": 621,
       "Broccoli Harvested": 9924,
       "Yam Planted": 652,
@@ -7271,11 +6710,11 @@
       "Moray Eel Bountied": 1,
       "VIP Chest Opened": 2,
       "Streamer Hat Reward Claimed": 11,
-      "Ancient Tree Chopped": 914,
-      "Sacred Tree Chopped": 439,
+      "Ancient Tree Chopped": 916,
+      "Sacred Tree Chopped": 440,
       "Gold Rock Mined": 379,
       "Stone Rock Mined": 3162,
-      "Iron Rock Mined": 1405,
+      "Iron Rock Mined": 1411,
       "General Store Restocked": 7,
       "Tornado Event Triggered": 4,
       "Marketplace Listing Created": 33,
@@ -8583,7 +8022,7 @@
           "petXP": 0,
           "score": 0,
           "collectivePet": {
-            "totalXP": 5922995,
+            "totalXP": 6074370,
             "goalXP": 10263180,
             "goalReached": false,
             "streak": 10,
@@ -9151,7 +8590,7 @@
           "experience": 4345,
           "lovedAt": 1767590394838,
           "item": "Brush",
-          "healthCheckedAt": 1769765903823
+          "healthCheckedAt": 1769852453298
         },
         "9a9c9275": {
           "id": "9a9c9275",
@@ -9187,7 +8626,7 @@
           "experience": 3600,
           "lovedAt": 0,
           "item": "Petting Hand",
-          "healthCheckedAt": 1769765903823
+          "healthCheckedAt": 1769852453298
         },
         "113fcc01": {
           "id": "113fcc01",
@@ -9199,7 +8638,7 @@
           "experience": 3060,
           "lovedAt": 0,
           "item": "Petting Hand",
-          "healthCheckedAt": 1769765903823
+          "healthCheckedAt": 1769852453298
         },
         "f60d36e7": {
           "id": "f60d36e7",
@@ -9235,7 +8674,7 @@
           "experience": 2520,
           "lovedAt": 0,
           "item": "Petting Hand",
-          "healthCheckedAt": 1769765903823
+          "healthCheckedAt": 1769852453298
         },
         "0afdd457": {
           "id": "0afdd457",
@@ -9821,24 +9260,24 @@
       },
       "Sir Goldensnout": {
         "0": {
-          "1": 1769749684652,
-          "-2": 1769749684652
+          "1": 1769852432680,
+          "-2": 1769852432680
         },
         "1": {
-          "1": 1769749684652,
-          "-2": 1769749684652
+          "1": 1769852432680,
+          "-2": 1769852432680
         },
         "2": {
-          "0": 1769749684652,
-          "1": 1769749684652,
-          "-2": 1769749684652,
-          "-1": 1769749684652
+          "0": 1769852432680,
+          "1": 1769852432680,
+          "-2": 1769852432680,
+          "-1": 1769852432680
         },
         "-1": {
-          "0": 1769749684652,
-          "1": 1769749684652,
-          "-2": 1769749684652,
-          "-1": 1769749684652
+          "0": 1769852432680,
+          "1": 1769852432680,
+          "-2": 1769852432680,
+          "-1": 1769852432680
         }
       }
     },
@@ -9848,42 +9287,42 @@
       "Camel Onesie": 1769848175480,
       "Cannonball": 1769652180098,
       "Freya Fox": 1769571655371,
-      "Green Amulet": 1769837272662,
-      "Hectare Farm": 1769837272662,
+      "Green Amulet": 1769852432680,
+      "Hectare Farm": 1769852432680,
       "Lemon Frog": 1768967061886,
       "Lemon Shark": 1768967061886,
       "Macaw": 1769848175480,
       "Reveling Lemon": 1768967061886,
-      "Scarecrow": 1769837284919,
+      "Scarecrow": 1769852441846,
       "Victoria Sisters": 1769571655371,
       "Young Farmer": 1769738690339,
-      "Lumberjack's Extra": 1769845759650,
-      "Squirrel": 1769845759650,
-      "Tiki Totem": 1769845759650,
+      "Lumberjack's Extra": 1769852430953,
+      "Squirrel": 1769852430953,
+      "Tiki Totem": 1769852430953,
       "Tough Tree": 1769829581901,
-      "Tree Charge": 1769845759650,
-      "Woody the Beaver": 1769845759650,
+      "Tree Charge": 1769852430953,
+      "Woody the Beaver": 1769852430953,
       "Infernal Drill": 1769827463288,
       "Knight Chicken": 1769827463288,
       "Oil Can": 1769827463288,
       "Oil Extraction": 1769827463288,
       "Oil Overalls": 1769827463288,
       "Blossom Ward": 1768777832988,
-      "Bud #1845": 1769837284919,
+      "Bud #1845": 1769852441846,
       "Experienced Farmer": 1769837272662,
-      "Green Thumb": 1769749685898,
-      "Lunar Calendar": 1769837284919,
+      "Green Thumb": 1769852441846,
+      "Lunar Calendar": 1769852441846,
       "Soybliss": 1769749684652,
       "Tofu Mask": 1769749684652,
       "Sunflower Amulet": 1769553803824,
-      "Ferrous Favor": 1769845775060,
+      "Ferrous Favor": 1769852446919,
       "Prospector": 1769845760926,
       "Rock'N'Roll": 1769845760926,
-      "Rocky Favor": 1769845775060,
+      "Rocky Favor": 1769852446919,
       "Stone Beetle": 1769845760926,
       "Tunnel Mole": 1769845760926,
-      "Desert Gnome": 1769845778173,
-      "Strong Roots": 1769749685898,
+      "Desert Gnome": 1769852456746,
+      "Strong Roots": 1769852441846,
       "Healthy Livestock": 1754179284431,
       "Crim Peckster": 1769823664830,
       "Crimstone Amulet": 1769823664830,
@@ -9894,10 +9333,10 @@
       "Greasy Plants": 1769837284919,
       "Greenhouse Gamble": 1769734654350,
       "Vinny": 1769530329686,
-      "Bud #10": 1769729120570,
-      "Hoot": 1769729120570,
-      "Old Farmer": 1769729120570,
-      "Sheaf of Plenty": 1769727849296,
+      "Bud #10": 1769852432680,
+      "Hoot": 1769852432680,
+      "Old Farmer": 1769852432680,
+      "Sheaf of Plenty": 1769852432680,
       "Sickle": 1769652159168,
       "Peeled Potato": 1769729120570,
       "Fruit Picker Apron": 1769848175480,
@@ -9918,21 +9357,21 @@
       "Speed Chicken": 1769681553255,
       "Undead Rooster": 1769681553255,
       "Wrangler": 1769848195657,
-      "Soil Krabby": 1769832334824,
+      "Soil Krabby": 1769852452518,
       "Efficient Feeding": 1769848193836,
       "Mammoth": 1769848195657,
       "Milk Apron": 1769848195657,
       "Moo-ver": 1769848195657,
       "Gold Beetle": 1769832331389,
       "Golden Touch": 1769832331389,
-      "Iron Beetle": 1769845775060,
-      "Iron Bumpkin": 1769845775060,
+      "Iron Beetle": 1769852446919,
+      "Iron Bumpkin": 1769852446919,
       "Nugget": 1769832331389,
       "Rock Golem": 1769765896676,
-      "Rocky the Mole": 1769845775060,
+      "Rocky the Mole": 1769852446919,
       "Angler Waders": 1769665969079,
       "Trident": 1769665959370,
-      "Fast Feasts": 1769845778173,
+      "Fast Feasts": 1769852456746,
       "Forge-Ward Profits": 1769837317122,
       "Betty's Friend": 1769837325713,
       "Fruity Profit": 1769837402423,
@@ -9946,7 +9385,7 @@
       "Flower Fox": 1769829615098,
       "Sunflower Rod": 1769665947468,
       "Maneki Neko": 1769567377425,
-      "Efficient Bin": 1769822926796,
+      "Efficient Bin": 1769852450227,
       "Seedy Business": 1769512879115,
       "Easter Bunny": 1769738692027,
       "Pablo The Bunny": 1769738692027,
@@ -9961,7 +9400,7 @@
       "Turd Topper": 1764027543755,
       "Foliant": 1768857556903,
       "Giant Kale": 1768857556903,
-      "Knowledge Crab": 1769625548999,
+      "Knowledge Crab": 1769852432680,
       "Rooster": 1765569242066,
       "Beetroot Amulet": 1769327690240,
       "Olive Royalty Shirt": 1769837276517,
@@ -9984,12 +9423,12 @@
       "Skill Shrimpy": 1769114070368,
       "Tree Turnaround": 1769829582278,
       "Sweet Bonus": 1769845772157,
-      "Pollen Power Up": 1769729120570,
+      "Pollen Power Up": 1769852432680,
       "Laurie the Chuckle Crow": 1755216028630,
       "Frozen Heart": 1768174749344,
       "Winter Guardian": 1768174753086,
       "Ladybug Suit": 1767572544761,
-      "Sir Goldensnout": 1769749684652,
+      "Sir Goldensnout": 1769852432680,
       "Banana Onesie": 1769625533252,
       "Nana": 1769625533252,
       "Banana Chicken": 1769625533252,
@@ -10001,7 +9440,7 @@
       "Reelmaster's Chair": 1769665969079,
       "Alba": 1769391156845,
       "Pickaxe Shark": 1769832331389,
-      "Bucket O' Worms": 1769832334824,
+      "Bucket O' Worms": 1769852452518,
       "Giant Artichoke": 1769729120570,
       "Crab Hat": 1769665969079,
       "Crab Trap": 1769216051798,
@@ -10014,12 +9453,12 @@
       "Sleepy Chicken": 1769827453420,
       "Architect Ruler": 1769215686527,
       "Magma Stone": 1769837265725,
-      "Saw Fish": 1769832334824,
+      "Saw Fish": 1769852452518,
       "Fishy Roll": 1769665947468,
       "Kernaldo": 1768730276560,
       "Carrot Amulet": 1768775355402,
       "Power hour": 1769734650971,
-      "More With Less": 1769832334824,
+      "More With Less": 1769852452518,
       "Squirrel Onesie": 1769220710784,
       "Sunshower": 1769459592345,
       "Frenzied Fish": 1769665969079

@@ -1,8 +1,8 @@
 {
   "id": 1797,
-  "totalTrades": 20740,
+  "totalTrades": 20741,
   "level": 123,
-  "weeklyFlowerSpent": 141.8307,
+  "weeklyFlowerSpent": 141.5729,
   "weeklyFlowerEarned": 44.7729025,
   "tokenUri": "0_v1_32_90_42_317_234_89_257_255_501_238_408_401_403_189",
   "username": "Korlith",
@@ -15,7 +15,9 @@
       },
       "sfl": 0.97,
       "collection": "collectibles",
-      "tradeType": "instant"
+      "tradeType": "instant",
+      "fulfilledAt": 1769854774222,
+      "fulfilledById": 3953471270246750
     }
   },
   "friends": [
@@ -51,6 +53,25 @@
     }
   ],
   "trades": [
+    {
+      "id": "c0999409",
+      "sfl": 0.97,
+      "quantity": 2,
+      "itemId": 2639,
+      "collection": "collectibles",
+      "source": "offer",
+      "fulfilledAt": 1769854774222,
+      "initiatedBy": {
+        "id": 1797,
+        "bumpkinUri": "0_v1_48_90_49_459_234_89_240_476_0_228_86_458_453_374",
+        "username": "Yosber"
+      },
+      "fulfilledBy": {
+        "id": 3953471270246750,
+        "bumpkinUri": "0_v1_32_90_42_317_234_89_257_255_501_238_408_401_403_189",
+        "username": "Korlith"
+      }
+    },
     {
       "id": "0dc9e46c",
       "sfl": 1.14,
@@ -451,7 +472,7 @@
       }
     },
     {
-      "id": "679ccf47",
+      "id": "56ad040d",
       "sfl": 0.4478,
       "quantity": 50,
       "itemId": 601,
@@ -470,7 +491,7 @@
       }
     },
     {
-      "id": "56ad040d",
+      "id": "679ccf47",
       "sfl": 0.4478,
       "quantity": 50,
       "itemId": 601,
@@ -980,25 +1001,6 @@
         "id": 155439,
         "bumpkinUri": "0_v1_348_90_43_459_504_89_226_212_351_238",
         "username": "TurdFerguson"
-      }
-    },
-    {
-      "id": "9c9e8d78",
-      "sfl": 0.6195,
-      "quantity": 5,
-      "itemId": 645,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769750394647,
-      "initiatedBy": {
-        "id": 1797,
-        "bumpkinUri": "0_v1_32_90_42_317_234_89_257_255_501_238_408_401_403_189",
-        "username": "Korlith"
-      },
-      "fulfilledBy": {
-        "id": 4198096427370131,
-        "bumpkinUri": "0_v1_47_2_202_85_234_89_240_505_0_228_0_0_0_0_0_266",
-        "username": "Frogger"
       }
     }
   ]

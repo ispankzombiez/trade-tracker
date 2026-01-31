@@ -1,7 +1,7 @@
 {
   "username": "korlith",
   "overview": {
-    "balance": 1.18,
+    "balance": 0.21,
     "coins": 29203.0,
     "gems": 0.0,
     "earned_sfl": 3698.91,
@@ -9,10 +9,22 @@
     "spent_sfl": 4760.42,
     "items_sold": 6506.0,
     "trade_points": 25312.94,
-    "last_updated": "2026-01-31 09:36 AM",
+    "last_updated": "2026-01-31 10:34 AM",
     "active_listings": 0
   },
   "buys": [
+    {
+      "date": "2026-01-31",
+      "time": "10:19 AM",
+      "type": "BUY",
+      "item": "Frost Pebble",
+      "quantity": 2,
+      "price_text": "0.97 SFL",
+      "price": 0.97,
+      "counterparty": "Yosber",
+      "farm_id": "-",
+      "trade_id": "c0999409"
+    },
     {
       "date": "2026-01-31",
       "time": "09:05 AM",
@@ -1002,15 +1014,24 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 42,
+    "total_buys": 43,
     "total_sells": 40,
-    "buy_volume": 39.69699999999999,
+    "buy_volume": 40.666999999999994,
     "sell_volume": 32.488800000000005,
-    "gross_profit": -7.208199999999984,
-    "avg_buy_price": 0.9451666666666664,
+    "gross_profit": -8.17819999999999,
+    "avg_buy_price": 0.9457441860465114,
     "avg_sell_price": 0.8122200000000002,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Frost Pebble",
+        "quantity": 2,
+        "price": 0.97,
+        "date": "2026-01-31",
+        "time": "10:19 AM",
+        "username": "korlith"
+      },
       {
         "type": "BUY",
         "item": "Cauliflower",
@@ -1053,8 +1074,7 @@
         "quantity": 50,
         "price": 0.324,
         "date": "2026-01-31",
-        "time": "12:10 AM",
-        "username": "korlith"
+        "time": "12:10 AM"
       },
       {
         "type": "BUY",
@@ -1167,17 +1187,9 @@
         "price": 1.0153,
         "date": "2026-01-30",
         "time": "09:02 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Feather",
-        "quantity": 100,
-        "price": 0.49,
-        "date": "2026-01-30",
-        "time": "06:20 PM"
       }
     ],
-    "profit_margin": -18.158047207597516,
+    "profit_margin": -20.11016303145054,
     "most_bought_items": {
       "Sunflower": 4000,
       "Potato": 3000,
@@ -1253,7 +1265,7 @@
       "Banana": 26.0
     },
     "resources": {
-      "Wood": 310.88,
+      "Wood": 377.48,
       "Stone": 169.6,
       "Iron": 29.3,
       "Crimstone": 6.5,
