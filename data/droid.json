@@ -7,9 +7,9 @@
     "earned_sfl": 8175.19,
     "earned_coins": 166852.0,
     "spent_sfl": 12297.69,
-    "items_sold": 7597.0,
+    "items_sold": 7607.0,
     "trade_points": 11367.53,
-    "last_updated": "2026-01-31 04:15 AM",
+    "last_updated": "2026-01-31 05:00 AM",
     "active_listings": 20
   },
   "buys": [
@@ -905,6 +905,78 @@
   "sells": [
     {
       "date": "2026-01-31",
+      "time": "04:43 AM",
+      "type": "SELL",
+      "item": "Onion",
+      "quantity": 200,
+      "price_text": "2.05 SFL",
+      "price": 2.05,
+      "counterparty": "Ayz",
+      "farm_id": "-",
+      "trade_id": "eb8443b1"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "04:29 AM",
+      "type": "SELL",
+      "item": "Onion",
+      "quantity": 200,
+      "price_text": "2.05 SFL",
+      "price": 2.05,
+      "counterparty": "rocy",
+      "farm_id": "-",
+      "trade_id": "5c6c75f4"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "04:29 AM",
+      "type": "SELL",
+      "item": "Onion",
+      "quantity": 200,
+      "price_text": "2.05 SFL",
+      "price": 2.05,
+      "counterparty": "rocy",
+      "farm_id": "-",
+      "trade_id": "529431c2"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "04:29 AM",
+      "type": "SELL",
+      "item": "Onion",
+      "quantity": 85,
+      "price_text": "0.871 SFL",
+      "price": 0.871,
+      "counterparty": "rocy",
+      "farm_id": "-",
+      "trade_id": "6160e7ab"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "04:20 AM",
+      "type": "SELL",
+      "item": "Wheat",
+      "quantity": 200,
+      "price_text": "2.932 SFL",
+      "price": 2.932,
+      "counterparty": "rocy",
+      "farm_id": "-",
+      "trade_id": "80be2d5b"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "04:13 AM",
+      "type": "SELL",
+      "item": "Potato",
+      "quantity": 3000,
+      "price_text": "0.899 SFL",
+      "price": 0.899,
+      "counterparty": "Sunflowes288",
+      "farm_id": "-",
+      "trade_id": "50f3a781"
+    },
+    {
+      "date": "2026-01-31",
       "time": "04:01 AM",
       "type": "SELL",
       "item": "Sunflower",
@@ -1339,12 +1411,12 @@
   "last_updated": null,
   "stats": {
     "total_buys": 74,
-    "total_sells": 36,
+    "total_sells": 42,
     "buy_volume": 89.11829999999999,
-    "sell_volume": 98.9325,
-    "gross_profit": 9.814200000000014,
+    "sell_volume": 109.78450000000001,
+    "gross_profit": 20.666200000000018,
     "avg_buy_price": 1.2043013513513512,
-    "avg_sell_price": 2.748125,
+    "avg_sell_price": 2.613916666666667,
     "most_traded_items": {},
     "recent_activity": [
       {
@@ -1513,7 +1585,7 @@
         "time": "04:55 AM"
       }
     ],
-    "profit_margin": 11.01255297733464,
+    "profit_margin": 23.189625475351324,
     "most_bought_items": {
       "Broccoli": 2300,
       "Yam": 1650,
@@ -1528,15 +1600,15 @@
     },
     "most_sold_items": {
       "Sunflower": 20000,
+      "Potato": 3000,
       "Yam": 2500,
       "Carrot": 1300,
-      "Wheat": 400,
+      "Onion": 685,
+      "Wheat": 600,
       "Iron": 245,
       "Eggplant": 200,
       "Barley": 100,
-      "Kale": 100,
-      "Blueberry": 100,
-      "Gold": 55
+      "Kale": 100
     }
   },
   "active_listings": [
@@ -1724,8 +1796,8 @@
   "active_offers": [],
   "inventory": {
     "crops": {
-      "Sunflower": 23564.535199987207,
-      "Potato": 16026.001499994627,
+      "Sunflower": 11564.535199987207,
+      "Potato": 13026.001499994627,
       "Pumpkin": 111.6692,
       "Carrot": 352.6097,
       "Cabbage": 52.5857,
@@ -1733,7 +1805,7 @@
       "Cauliflower": 14.750899999999925,
       "Parsnip": 1.118999999999926,
       "Radish": 287.2946999999998,
-      "Wheat": 871.3798999999989,
+      "Wheat": 271.3798999999989,
       "Kale": 65.2209999999999,
       "Eggplant": 758.8689,
       "Corn": 0.0301000000000001,
@@ -1746,7 +1818,7 @@
       "Yam": 183.3633,
       "Broccoli": 290.2199,
       "Pepper": 46.7,
-      "Onion": 685.7929,
+      "Onion": 200.79290000000003,
       "Turnip": 21.296100000000017,
       "Artichoke": 27.00610000000002
     },

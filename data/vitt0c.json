@@ -1,7 +1,7 @@
 {
   "username": "vitt0c",
   "overview": {
-    "balance": 22866.15,
+    "balance": 22835.91,
     "coins": 14607.0,
     "gems": 0.0,
     "earned_sfl": 15135.85,
@@ -9,10 +9,34 @@
     "spent_sfl": 14331.72,
     "items_sold": 10270.0,
     "trade_points": 97967.47,
-    "last_updated": "2026-01-31 04:15 AM",
+    "last_updated": "2026-01-31 05:00 AM",
     "active_listings": 142
   },
   "buys": [
+    {
+      "date": "2026-01-31",
+      "time": "04:19 AM",
+      "type": "BUY",
+      "item": "Collectible #14",
+      "quantity": 1,
+      "price_text": "15.121 SFL",
+      "price": 15.121,
+      "counterparty": "Mamesh",
+      "farm_id": "-",
+      "trade_id": "a2fb74cb"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "04:15 AM",
+      "type": "BUY",
+      "item": "Collectible #14",
+      "quantity": 1,
+      "price_text": "15.121 SFL",
+      "price": 15.121,
+      "counterparty": "MrSFL",
+      "farm_id": "-",
+      "trade_id": "794c037b"
+    },
     {
       "date": "2026-01-31",
       "time": "12:01 AM",
@@ -1590,15 +1614,33 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 11,
+    "total_buys": 13,
     "total_sells": 120,
-    "buy_volume": 77.5859,
+    "buy_volume": 107.82789999999997,
     "sell_volume": 8744.8283,
-    "gross_profit": 8667.2424,
-    "avg_buy_price": 7.053263636363636,
+    "gross_profit": 8637.000399999999,
+    "avg_buy_price": 8.294453846153845,
     "avg_sell_price": 72.87356916666666,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Collectible #14",
+        "quantity": 1,
+        "price": 15.121,
+        "date": "2026-01-31",
+        "time": "04:19 AM",
+        "username": "vitt0c"
+      },
+      {
+        "type": "BUY",
+        "item": "Collectible #14",
+        "quantity": 1,
+        "price": 15.121,
+        "date": "2026-01-31",
+        "time": "04:15 AM",
+        "username": "vitt0c"
+      },
       {
         "type": "BUY",
         "item": "Soybean",
@@ -1632,8 +1674,7 @@
         "quantity": 10,
         "price": 0.551,
         "date": "2026-01-30",
-        "time": "12:05 PM",
-        "username": "vitt0c"
+        "time": "12:05 PM"
       },
       {
         "type": "BUY",
@@ -1641,8 +1682,7 @@
         "quantity": 50,
         "price": 5.951,
         "date": "2026-01-30",
-        "time": "11:04 AM",
-        "username": "vitt0c"
+        "time": "11:04 AM"
       },
       {
         "type": "BUY",
@@ -1747,25 +1787,9 @@
         "price": 2.5999,
         "date": "2026-01-31",
         "time": "02:34 AM"
-      },
-      {
-        "type": "SELL",
-        "item": "Gold",
-        "quantity": 10,
-        "price": 2.5999,
-        "date": "2026-01-31",
-        "time": "02:26 AM"
-      },
-      {
-        "type": "SELL",
-        "item": "Tomato",
-        "quantity": 100,
-        "price": 0.5261,
-        "date": "2026-01-31",
-        "time": "02:23 AM"
       }
     ],
-    "profit_margin": 11171.156614797275,
+    "profit_margin": 8009.9866546598805,
     "most_bought_items": {
       "Radish": 600,
       "Eggplant": 500,
@@ -1773,7 +1797,8 @@
       "Soybean": 125,
       "Olive": 100,
       "Leather": 100,
-      "Honey": 10
+      "Honey": 10,
+      "Collectible #14": 2
     },
     "most_sold_items": {
       "Cabbage": 18000,
@@ -3531,7 +3556,7 @@
       "Barley": 1798.679200000001,
       "Rhubarb": 2159.9327999999987,
       "Zucchini": 872.4776000000037,
-      "Yam": 52853.10779999986,
+      "Yam": 53451.10779999986,
       "Broccoli": 4073.0705999999996,
       "Pepper": 8876.43470000001,
       "Onion": 1179.373800000002,
@@ -3544,16 +3569,16 @@
       "Orange": 260.20000000000095,
       "Banana": 557.65,
       "Grape": 574.7,
-      "Tomato": 10357.9,
+      "Tomato": 10494.8,
       "Lemon": 7234.250000000004,
       "Duskberry": 16.900000000000002,
       "Lunara": 18.30000000000001,
       "Celestine": 20.8
     },
     "resources": {
-      "Wood": 35774.1185,
-      "Stone": 3637.01,
-      "Iron": 1883.5,
+      "Wood": 35865.0185,
+      "Stone": 3691.81,
+      "Iron": 1936.0,
       "Gold": 962.02,
       "Crimstone": 773.0,
       "Obsidian": 18.0
