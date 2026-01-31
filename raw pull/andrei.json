@@ -1,7 +1,7 @@
 {
   "farm": {
-    "coins": 46191.77975350029,
-    "balance": "7.4270154586511515",
+    "coins": 44191.77975350029,
+    "balance": "7.2554154586511515",
     "previousBalance": "1845.0081721957802447",
     "inventory": {
       "Pumpkin Seed": "911",
@@ -116,7 +116,7 @@
       "Pickaxe": "90",
       "Stone Pickaxe": "177",
       "Iron Pickaxe": "153",
-      "Rod": "107",
+      "Rod": "137",
       "Shovel": "1",
       "Sand Shovel": "218",
       "Gold Pickaxe": "13",
@@ -251,8 +251,8 @@
       "Crop Plot": "66",
       "Fruit Patch": "15",
       "Basic Land": "21",
-      "Earthworm": "2689",
-      "Grub": "1580",
+      "Earthworm": "2707",
+      "Grub": "1592",
       "Red Wiggler": "166",
       "Sprout Mix": "3781",
       "Fruitful Blend": "5014",
@@ -589,8 +589,8 @@
       "Rat King": "1",
       "Wheat Whiskers": "3",
       "Poseidon": "1",
-      "Giant Orange": "22",
-      "Giant Apple": "15",
+      "Giant Orange": "24",
+      "Giant Apple": "17",
       "Giant Banana": "13",
       "Juicy Doll": "17",
       "Crude Doll": "4",
@@ -618,7 +618,7 @@
       "Trade Point": "13889.328834151841391",
       "Ancient Clock": "48",
       "Broken Pillar": "90",
-      "Love Charm": "107.8",
+      "Love Charm": "152.8",
       "Bracelet": "59",
       "Coprolite": "70",
       "Dung": "3821",
@@ -642,7 +642,7 @@
       "Holiday Token 2025": "50",
       "Fish Market": "1",
       "Acorn": "7",
-      "Cheer": "6",
+      "Cheer": "9",
       "Fish Flake": "15",
       "Fish Oil": "15",
       "Paw Prints Rug": "2",
@@ -696,15 +696,15 @@
       "White Pansy": "1",
       "Big Banana": "1",
       "Grape Seed": "12",
-      "Big Apple": "1",
       "Sleepy Chicken": "1",
       "Radiant Ray": "1",
       "Axe": "54",
       "Expert Cooking Pot": "1",
-      "Big Orange": "1",
       "Crab Stick": "2",
       "Shrimp": "18",
-      "Celestial Frostbloom": "5"
+      "Celestial Frostbloom": "5",
+      "Big Orange": "1",
+      "Big Apple": "1"
     },
     "previousInventory": {
       "Pumpkin Seed": "900",
@@ -3244,6 +3244,11 @@
       }
     },
     "calendar": {
+      "doubleDelivery": {
+        "startedAt": 1769817600000,
+        "triggeredAt": 1769818809537,
+        "acknowledgedAt": 1769818814820
+      },
       "dates": [
         {
           "name": "sunshower",
@@ -5798,7 +5803,9 @@
           },
           "sfl": 0.0822,
           "collection": "wearables",
-          "tradeType": "instant"
+          "tradeType": "instant",
+          "fulfilledAt": 1769820189577,
+          "fulfilledById": 20468
         },
         "ad15015f": {
           "createdAt": 1769364920474,
@@ -5908,7 +5915,9 @@
           },
           "sfl": 0.0393,
           "collection": "collectibles",
-          "tradeType": "instant"
+          "tradeType": "instant",
+          "fulfilledAt": 1769819787433,
+          "fulfilledById": 20468
         },
         "03677cd4": {
           "createdAt": 1769562901249,
@@ -5962,7 +5971,9 @@
           },
           "sfl": 0.0501,
           "collection": "wearables",
-          "tradeType": "instant"
+          "tradeType": "instant",
+          "fulfilledAt": 1769820160282,
+          "fulfilledById": 20468
         },
         "75ac2195": {
           "createdAt": 1769563120386,
@@ -9355,15 +9366,6 @@
           }
         }
       ],
-      "Big Apple": [
-        {
-          "id": "29e0239f",
-          "coordinates": {
-            "x": -13,
-            "y": -2
-          }
-        }
-      ],
       "Radiant Ray": [
         {
           "id": "971c6d8d",
@@ -9384,9 +9386,18 @@
       ],
       "Big Orange": [
         {
-          "id": "60a78cb1",
+          "id": "0c853fa8",
           "coordinates": {
             "x": -15,
+            "y": -2
+          }
+        }
+      ],
+      "Big Apple": [
+        {
+          "id": "edbd0961",
+          "coordinates": {
+            "x": -13,
             "y": -2
           }
         }
@@ -9547,10 +9558,10 @@
       }
     },
     "dailyRewards": {
-      "streaks": 990,
+      "streaks": 991,
       "chest": {
-        "collectedAt": 1769734019904,
-        "code": 92
+        "collectedAt": 1769818821492,
+        "code": 93
       }
     },
     "buffs": {
@@ -9575,32 +9586,32 @@
         }
       ],
       "shop": {
-        "Luvvy Head": {
-          "type": "wearable",
+        "Mysterious Entrance": {
+          "type": "collectible",
           "cost": {
             "items": {
-              "Love Charm": 650
+              "Love Charm": 2500
             }
           },
-          "name": "Luvvy Head"
+          "name": "Mysterious Entrance"
         },
-        "Time Warp Totem": {
+        "Super Totem": {
+          "type": "collectible",
+          "cost": {
+            "items": {
+              "Love Charm": 7800
+            }
+          },
+          "name": "Super Totem"
+        },
+        "Bronze Love Box": {
           "type": "collectible",
           "cost": {
             "items": {
               "Love Charm": 100
             }
           },
-          "name": "Time Warp Totem"
-        },
-        "Silver Tool Box": {
-          "type": "collectible",
-          "cost": {
-            "items": {
-              "Love Charm": 455
-            }
-          },
-          "name": "Silver Tool Box"
+          "name": "Bronze Love Box"
         }
       },
       "boughtAt": {
@@ -9905,7 +9916,7 @@
       "Ribbon Fetched": 15,
       "Chewed Bone Fetched": 16,
       "Faction Kitchen Delivered": 749,
-      "Daily Reward Collected": 55,
+      "Daily Reward Collected": 56,
       "Gift Giver Reward Opened": 17,
       "Farm Helped": 480,
       "Farm Cheered": 196,
@@ -10040,7 +10051,7 @@
       "Club Sandwich Fed": 160,
       "Fishing Lure Crafted": 706,
       "Flower Fox Bought": 1,
-      "Coins Spent": 10796541.52,
+      "Coins Spent": 10798541.52,
       "Eggplant Sold": 34672.602,
       "Kale Sold": 537.947,
       "Cabbage Planted": 36456,
@@ -10499,8 +10510,8 @@
       "Weed Burned": 4720,
       "Rat Burned": 64,
       "Snail Burned": 65,
-      "Big Orange Bought": 771,
-      "Big Apple Bought": 450,
+      "Big Orange Bought": 772,
+      "Big Apple Bought": 451,
       "Big Banana Bought": 134,
       "Garbage Bin Hat Bought": 1,
       "Giant Orange Sold": 692,
@@ -10519,8 +10530,8 @@
       "Giant Banana Sold": 117,
       "Adirondack Potato Crafted": 5,
       "Yellow Tile Bought": 72,
-      "Big Orange Completed": 327,
-      "Big Apple Completed": 193,
+      "Big Orange Completed": 328,
+      "Big Apple Completed": 194,
       "Basic Cooking Pot Completed": 125,
       "Big Banana Completed": 54,
       "Pet Egg Crafted": 1,
@@ -10625,7 +10636,7 @@
       "Raffle Lost": 5,
       "Radiant Ray Map Piece Found": 9,
       "Marketplace Bulk Offers Cancelled": 31,
-      "Pet Cookie Collected": 1013,
+      "Pet Cookie Collected": 1014,
       "Paw Prints Points Earned": 1530,
       "Paw Prints premium Milestone Claimed": 5,
       "Paw Prints free Milestone Claimed": 5,
@@ -10742,9 +10753,16 @@
       ]
     },
     "mushrooms": {
-      "mushrooms": {},
+      "mushrooms": {
+        "6b7e4468": {
+          "name": "Wild Mushroom",
+          "amount": 1.5,
+          "x": -11,
+          "y": 2
+        }
+      },
       "magicSpawnedAt": 1769760000000,
-      "spawnedAt": 1769760000000
+      "spawnedAt": 1769817600000
     },
     "delivery": {
       "orders": [
@@ -10784,276 +10802,254 @@
         },
         {
           "createdAt": 1769734016829,
-          "id": "2ada9c",
-          "from": "betty",
-          "items": {
-            "Broccoli": 45,
-            "Egg": 10
-          },
-          "readyAt": 1769734016829,
-          "reward": {
-            "coins": 522,
-            "items": {}
-          },
-          "completedAt": 1769770581090
-        },
-        {
-          "createdAt": 1769734016829,
-          "id": "dda5c9",
-          "from": "blacksmith",
-          "items": {
-            "Stone": 10,
-            "Wood": 20
-          },
-          "readyAt": 1769734016829,
-          "reward": {
-            "coins": 1268,
-            "items": {}
-          },
-          "completedAt": 1769770553763
-        },
-        {
-          "createdAt": 1769734016829,
-          "id": "10d88f",
-          "from": "peggy",
-          "items": {
-            "Banana Blast": 1
-          },
-          "readyAt": 1769734016829,
-          "reward": {
-            "coins": 520,
-            "items": {}
-          },
-          "completedAt": 1769770456441
-        },
-        {
-          "createdAt": 1769734016829,
-          "id": "d36ff2",
-          "from": "corale",
-          "items": {
-            "Seaweed": 5
-          },
-          "readyAt": 1769734016829,
-          "reward": {
-            "coins": 503,
-            "items": {}
-          },
-          "completedAt": 1769770679474
-        },
-        {
-          "createdAt": 1769734016829,
-          "id": "0334e8",
-          "from": "tango",
-          "items": {
-            "Banana": 4,
-            "Tomato": 30
-          },
-          "readyAt": 1769734016829,
-          "reward": {
-            "coins": 544,
-            "items": {}
-          },
-          "completedAt": 1769770713280
-        },
-        {
-          "createdAt": 1769734016829,
-          "id": "a2b89f",
-          "from": "old salty",
-          "items": {
-            "Seaweed": 2
-          },
-          "readyAt": 1769734016829,
-          "reward": {
-            "coins": 270,
-            "items": {}
-          },
-          "completedAt": 1769770987728
-        },
-        {
-          "createdAt": 1769734016829,
-          "id": "2ffeec",
-          "from": "victoria",
-          "items": {
-            "Anchovy": 3,
-            "Rice": 3
-          },
-          "readyAt": 1769734016829,
-          "reward": {
-            "coins": 1672,
-            "items": {}
-          },
-          "completedAt": 1769771127887
-        },
-        {
-          "createdAt": 1769734016961,
-          "id": "23f333",
-          "from": "grimbly",
-          "items": {
-            "Earthworm": 3
-          },
-          "readyAt": 1769734016961,
-          "reward": {
-            "sfl": 0.4
-          },
-          "completedAt": 1769771023280
-        },
-        {
-          "createdAt": 1769734016961,
-          "id": "ab5f6e",
-          "from": "grimtooth",
-          "items": {
-            "Boiled Eggs": 3
-          },
-          "readyAt": 1769734016961,
-          "reward": {
-            "sfl": 0.4
-          },
-          "completedAt": 1769771024968
-        },
-        {
-          "createdAt": 1769734016961,
-          "id": "b752d6",
-          "from": "grubnuk",
-          "items": {
-            "Kale Stew": 4
-          },
-          "readyAt": 1769734016961,
-          "reward": {
-            "sfl": 0.55
-          },
-          "completedAt": 1769771034856
-        },
-        {
-          "createdAt": 1769734016961,
-          "id": "dee77a",
-          "from": "gordo",
-          "items": {
-            "Bumpkin ganoush": 1
-          },
-          "readyAt": 1769734016961,
-          "reward": {
-            "sfl": 0.95
-          },
-          "completedAt": 1769771038616
-        },
-        {
-          "createdAt": 1769734016961,
-          "readyAt": 1769734016961,
-          "from": "guria",
-          "id": "1e2637",
-          "items": {
-            "Mahi Mahi": 1
-          },
-          "reward": {
-            "sfl": 1.15
-          },
-          "completedAt": 1769771032688
-        },
-        {
-          "createdAt": 1769734016829,
-          "readyAt": 1769734016829,
-          "from": "pumpkin' pete",
-          "id": "4efaac",
-          "items": {
-            "Carrot": 20,
-            "Yam": 5
-          },
-          "reward": {},
-          "completedAt": 1769770450154
-        },
-        {
-          "createdAt": 1769734016829,
-          "readyAt": 1769734016829,
-          "from": "bert",
-          "id": "c4aeaf",
-          "items": {
-            "Honey": 5,
-            "Pickaxe": 4,
-            "Wood": 45
-          },
-          "reward": {},
-          "completedAt": 1769770586843
-        },
-        {
-          "createdAt": 1769734016829,
-          "readyAt": 1769734016829,
-          "from": "finley",
-          "id": "e062cc",
-          "items": {
-            "Barley": 20,
-            "Rod": 10
-          },
-          "reward": {},
-          "completedAt": 1769770718412
-        },
-        {
-          "createdAt": 1769734016829,
-          "readyAt": 1769734016829,
-          "from": "raven",
           "id": "9393bb",
+          "from": "raven",
           "items": {
             "Blue Cosmos": 1,
             "Purple Cosmos": 2
           },
+          "readyAt": 1769734016829,
           "reward": {}
         },
         {
-          "createdAt": 1769734016829,
-          "readyAt": 1769734016829,
-          "from": "miranda",
-          "id": "ab9aff",
-          "items": {
-            "Giant Orange": 1,
-            "Red Pansy": 2
-          },
-          "reward": {},
-          "completedAt": 1769770709929
-        },
-        {
-          "createdAt": 1769734016829,
-          "readyAt": 1769734016829,
-          "from": "finn",
-          "id": "14637b",
-          "items": {
-            "Tuna": 9,
-            "Wool": 12
-          },
-          "reward": {},
-          "completedAt": 1769770703413
-        },
-        {
-          "createdAt": 1769734016829,
-          "readyAt": 1769734016829,
-          "from": "pharaoh",
-          "id": "816bcc",
-          "items": {
-            "Sand": 5,
-            "Sand Shovel": 7,
-            "Vase": 2
-          },
-          "reward": {},
-          "completedAt": 1769770992977
-        },
-        {
-          "createdAt": 1769734016829,
-          "readyAt": 1769734016829,
-          "from": "cornwell",
-          "id": "5c8909",
-          "items": {
-            "Feather": 60
-          },
-          "reward": {},
-          "completedAt": 1769770556980
-        },
-        {
           "createdAt": 1769770626149,
-          "readyAt": 1769770626149,
-          "from": "timmy",
           "id": "2e6d76",
+          "from": "timmy",
           "items": {
             "Apple Juice": 6,
             "Lemon": 25,
             "Lunar Doll": 1
+          },
+          "readyAt": 1769770626149,
+          "reward": {}
+        },
+        {
+          "createdAt": 1769818809426,
+          "id": "2cc79e",
+          "from": "betty",
+          "items": {
+            "Barley": 15,
+            "Broccoli": 50
+          },
+          "readyAt": 1769818809426,
+          "reward": {
+            "coins": 639,
+            "items": {}
+          }
+        },
+        {
+          "createdAt": 1769818809426,
+          "id": "d6d197",
+          "from": "blacksmith",
+          "items": {
+            "Iron": 3
+          },
+          "readyAt": 1769818809426,
+          "reward": {
+            "coins": 1285,
+            "items": {}
+          }
+        },
+        {
+          "createdAt": 1769818809426,
+          "id": "1de409",
+          "from": "peggy",
+          "items": {
+            "Gumbo": 1
+          },
+          "readyAt": 1769818809426,
+          "reward": {
+            "coins": 715,
+            "items": {}
+          }
+        },
+        {
+          "createdAt": 1769818809426,
+          "id": "2a70b4",
+          "from": "corale",
+          "items": {
+            "Rock Blackfish": 2
+          },
+          "readyAt": 1769818809426,
+          "reward": {
+            "coins": 128,
+            "items": {}
+          }
+        },
+        {
+          "createdAt": 1769818809426,
+          "id": "b9f8af",
+          "from": "tango",
+          "items": {
+            "Apple": 2,
+            "Banana": 7,
+            "Tomato": 25
+          },
+          "readyAt": 1769818809426,
+          "reward": {
+            "coins": 659,
+            "items": {}
+          }
+        },
+        {
+          "createdAt": 1769818809426,
+          "id": "808f96",
+          "from": "old salty",
+          "items": {
+            "Wood": 1
+          },
+          "readyAt": 1769818809426,
+          "reward": {
+            "coins": 157,
+            "items": {}
+          }
+        },
+        {
+          "createdAt": 1769818809426,
+          "id": "9428f4",
+          "from": "victoria",
+          "items": {
+            "Rice": 3
+          },
+          "readyAt": 1769818809426,
+          "reward": {
+            "coins": 1344,
+            "items": {}
+          }
+        },
+        {
+          "createdAt": 1769818809682,
+          "id": "18d3db",
+          "from": "grimbly",
+          "items": {
+            "Bumpkin Salad": 1
+          },
+          "readyAt": 1769818809682,
+          "reward": {
+            "sfl": 0.4
+          }
+        },
+        {
+          "createdAt": 1769818809682,
+          "id": "cb213b",
+          "from": "grimtooth",
+          "items": {
+            "Anchovy": 3
+          },
+          "readyAt": 1769818809682,
+          "reward": {
+            "sfl": 0.4
+          }
+        },
+        {
+          "createdAt": 1769818809682,
+          "readyAt": 1769818809682,
+          "from": "grubnuk",
+          "id": "45e373",
+          "items": {
+            "Radish Cake": 1
+          },
+          "reward": {
+            "sfl": 0.55
+          }
+        },
+        {
+          "createdAt": 1769818809682,
+          "readyAt": 1769818809682,
+          "from": "gordo",
+          "id": "8cf559",
+          "items": {
+            "Cabbage Cake": 1
+          },
+          "reward": {
+            "sfl": 0.95
+          }
+        },
+        {
+          "createdAt": 1769818809682,
+          "readyAt": 1769818809682,
+          "from": "guria",
+          "id": "8bee1c",
+          "items": {
+            "Blue Balloon Flower": 1
+          },
+          "reward": {
+            "sfl": 1.15
+          }
+        },
+        {
+          "createdAt": 1769818809426,
+          "readyAt": 1769818809426,
+          "from": "pumpkin' pete",
+          "id": "741ec7",
+          "items": {
+            "Potato": 10,
+            "Yam": 25
+          },
+          "reward": {}
+        },
+        {
+          "createdAt": 1769818809426,
+          "readyAt": 1769818809426,
+          "from": "bert",
+          "id": "e1ef9d",
+          "items": {
+            "Acorn": 2,
+            "Pickaxe": 5,
+            "Stone": 20
+          },
+          "reward": {}
+        },
+        {
+          "createdAt": 1769818809426,
+          "readyAt": 1769818809426,
+          "from": "finley",
+          "id": "9aa137",
+          "items": {
+            "Red Wiggler": 5
+          },
+          "reward": {}
+        },
+        {
+          "createdAt": 1769818809426,
+          "readyAt": 1769818809426,
+          "from": "miranda",
+          "id": "431e67",
+          "items": {
+            "Fruitful Blend": 7,
+            "Sprout Mix": 5
+          },
+          "reward": {}
+        },
+        {
+          "createdAt": 1769818809426,
+          "readyAt": 1769818809426,
+          "from": "finn",
+          "id": "7345ca",
+          "items": {
+            "Tuna": 9,
+            "Wool": 12
+          },
+          "reward": {}
+        },
+        {
+          "createdAt": 1769818809426,
+          "readyAt": 1769818809426,
+          "from": "pharaoh",
+          "id": "f6009f",
+          "items": {
+            "Sand Shovel": 7,
+            "Starfish": 2
+          },
+          "reward": {}
+        },
+        {
+          "createdAt": 1769818809426,
+          "readyAt": 1769818809426,
+          "from": "cornwell",
+          "id": "ceab57",
+          "items": {
+            "Wheat Cake": 1
           },
           "reward": {}
         }
@@ -11065,8 +11061,8 @@
         "goal": 20
       },
       "dailySFL": {
-        "day": 30,
-        "amount": 4.281034391635981
+        "day": 31,
+        "amount": 4.291902827080979
       }
     },
     "potionHouse": {
@@ -11799,52 +11795,52 @@
         "mine-whack": {
           "coins": 0,
           "items": {
-            "Mark": 40
+            "Mark": 60
           },
           "wearables": {},
-          "score": 2500,
-          "startAt": 1769731200000,
-          "endAt": 1769817600000
+          "score": 3500,
+          "startAt": 1769817600000,
+          "endAt": 1769904000000
         },
         "chicken-rescue": {
           "coins": 0,
           "items": {
-            "Mark": 35
+            "Mark": 50
           },
           "wearables": {},
-          "score": 30,
-          "startAt": 1769731200000,
-          "endAt": 1769817600000
+          "score": 45,
+          "startAt": 1769817600000,
+          "endAt": 1769904000000
         },
         "crops-and-chickens": {
           "coins": 0,
           "items": {
-            "Mark": 60
+            "Mark": 50
           },
           "wearables": {},
-          "score": 4000,
-          "startAt": 1769731200000,
-          "endAt": 1769817600000
+          "score": 2500,
+          "startAt": 1769817600000,
+          "endAt": 1769904000000
         },
         "fruit-dash": {
           "coins": 0,
           "items": {
-            "Mark": 40
+            "Mark": 30
           },
           "wearables": {},
-          "score": 2000,
-          "startAt": 1769731200000,
-          "endAt": 1769817600000
+          "score": 1500,
+          "startAt": 1769817600000,
+          "endAt": 1769904000000
         },
         "memory": {
           "coins": 0,
           "items": {
-            "Mark": 60
+            "Mark": 30
           },
           "wearables": {},
-          "score": 750,
-          "startAt": 1769731200000,
-          "endAt": 1769817600000
+          "score": 300,
+          "startAt": 1769817600000,
+          "endAt": 1769904000000
         }
       }
     },
@@ -11991,7 +11987,7 @@
           "petXP": 4500,
           "score": 3078.2000000000003,
           "collectivePet": {
-            "totalXP": 9273190,
+            "totalXP": 9506480,
             "goalXP": 4586794,
             "goalReached": true,
             "streak": 6,
@@ -12070,250 +12066,23 @@
     },
     "desert": {
       "digging": {
-        "grid": [
-          {
-            "dugAt": 1769770768154,
-            "x": 1,
-            "y": 1,
-            "items": {
-              "Crab": 2
-            },
-            "tool": "Sand Shovel"
-          },
-          {
-            "dugAt": 1769770820104,
-            "x": 2,
-            "y": 1,
-            "items": {
-              "Sea Cucumber": 1
-            },
-            "tool": "Sand Shovel"
-          },
-          {
-            "dugAt": 1769770822837,
-            "x": 5,
-            "y": 1,
-            "items": {
-              "Pipi": 1
-            },
-            "tool": "Sand Shovel"
-          },
-          {
-            "dugAt": 1769770839437,
-            "x": 1,
-            "y": 3,
-            "items": {
-              "Crab": 2
-            },
-            "tool": "Sand Shovel"
-          },
-          {
-            "dugAt": 1769770841453,
-            "x": 2,
-            "y": 3,
-            "items": {
-              "Sand": 1
-            },
-            "tool": "Sand Shovel"
-          },
-          {
-            "dugAt": 1769770843336,
-            "x": 1,
-            "y": 4,
-            "items": {
-              "Camel Bone": 1
-            },
-            "tool": "Sand Shovel"
-          },
-          {
-            "dugAt": 1769770849520,
-            "x": 0,
-            "y": 4,
-            "items": {
-              "Camel Bone": 1
-            },
-            "tool": "Sand Shovel"
-          },
-          {
-            "dugAt": 1769770851504,
-            "x": 0,
-            "y": 5,
-            "items": {
-              "Moon Crystal": 1
-            },
-            "tool": "Sand Shovel"
-          },
-          {
-            "dugAt": 1769770857903,
-            "x": 1,
-            "y": 7,
-            "items": {
-              "Sand": 1
-            },
-            "tool": "Sand Shovel"
-          },
-          {
-            "dugAt": 1769770859622,
-            "x": 3,
-            "y": 8,
-            "items": {
-              "Sand": 1
-            },
-            "tool": "Sand Shovel"
-          },
-          {
-            "dugAt": 1769770861937,
-            "x": 6,
-            "y": 8,
-            "items": {
-              "Wood": 1
-            },
-            "tool": "Sand Shovel"
-          },
-          {
-            "dugAt": 1769770865137,
-            "x": 8,
-            "y": 6,
-            "items": {
-              "Crab": 2
-            },
-            "tool": "Sand Shovel"
-          },
-          {
-            "dugAt": 1769770883554,
-            "x": 8,
-            "y": 5,
-            "items": {
-              "Sand": 1
-            },
-            "tool": "Sand Shovel"
-          },
-          {
-            "dugAt": 1769770886586,
-            "x": 7,
-            "y": 6,
-            "items": {
-              "Camel Bone": 1
-            },
-            "tool": "Sand Shovel"
-          },
-          {
-            "dugAt": 1769770890036,
-            "x": 7,
-            "y": 7,
-            "items": {
-              "Camel Bone": 1
-            },
-            "tool": "Sand Shovel"
-          },
-          {
-            "dugAt": 1769770893005,
-            "x": 6,
-            "y": 6,
-            "items": {
-              "Moon Crystal": 1
-            },
-            "tool": "Sand Shovel"
-          },
-          {
-            "dugAt": 1769770898954,
-            "x": 8,
-            "y": 3,
-            "items": {
-              "Crab": 2
-            },
-            "tool": "Sand Shovel"
-          },
-          {
-            "dugAt": 1769770900819,
-            "x": 8,
-            "y": 2,
-            "items": {
-              "Starfish": 1
-            },
-            "tool": "Sand Shovel"
-          },
-          {
-            "dugAt": 1769770906621,
-            "x": 5,
-            "y": 3,
-            "items": {
-              "Sand": 1
-            },
-            "tool": "Sand Shovel"
-          },
-          {
-            "dugAt": 1769770909969,
-            "x": 4,
-            "y": 5,
-            "items": {
-              "Crab": 2
-            },
-            "tool": "Sand Shovel"
-          },
-          {
-            "dugAt": 1769770914436,
-            "x": 4,
-            "y": 6,
-            "items": {
-              "Crab": 2
-            },
-            "tool": "Sand Shovel"
-          },
-          {
-            "dugAt": 1769770916853,
-            "x": 3,
-            "y": 6,
-            "items": {
-              "Moon Crystal": 1
-            },
-            "tool": "Sand Shovel"
-          },
-          {
-            "dugAt": 1769770947369,
-            "x": 7,
-            "y": 0,
-            "items": {
-              "Crab": 2
-            },
-            "tool": "Sand Shovel"
-          },
-          {
-            "dugAt": 1769770950486,
-            "x": 8,
-            "y": 1,
-            "items": {
-              "Seaweed": 1
-            },
-            "tool": "Sand Shovel"
-          },
-          {
-            "dugAt": 1769770967352,
-            "x": 6,
-            "y": 5,
-            "items": {
-              "Hieroglyph": 1
-            },
-            "tool": "Sand Shovel"
-          }
-        ],
+        "grid": [],
         "extraDigs": 0,
         "streak": {
           "collectedAt": 1769770934546,
           "count": 95,
           "totalClaimed": 539
         },
-        "completedPatterns": [
-          "ARTEFACT_SIXTEEN"
-        ],
+        "completedPatterns": [],
         "patterns": [
-          "ARTEFACT_SIXTEEN",
-          "ARTEFACT_TWENTY",
-          "ARTEFACT_SEVENTEEN",
+          "ARTEFACT_FIFTEEN",
+          "ARTEFACT_TWENTY_TWO",
+          "ARTEFACT_EIGHTEEN",
           "HIEROGLYPH",
+          "COCKLE",
           "SEA_CUCUMBERS",
-          "SEAWEED",
-          "WOODEN_COMPASS"
+          "WOODEN_COMPASS",
+          "PEARL"
         ]
       }
     },
@@ -13799,14 +13568,14 @@
       "Flower Power": 1769816306381,
       "Kernaldo": 1768741044125,
       "Lunar Temple": 1768871596820,
-      "Cornucopia": 1769786137294,
+      "Cornucopia": 1769818837798,
       "Power hour": 1769687427093,
       "Sunshower": 1769463976149,
       "Sleepy Chicken": 1769816206617,
       "Radiant Ray": 1769816229895
     },
     "socialFarming": {
-      "points": 264380,
+      "points": 264494,
       "villageProjects": {
         "Farmer's Monument": {
           "cheers": 100
@@ -13824,20 +13593,20 @@
           "winnerId": 69406
         },
         "Big Banana": {
-          "cheers": 101,
+          "cheers": 116,
           "winnerId": 820356515938507
         },
-        "Big Apple": {
-          "cheers": 47,
-          "winnerId": 195236
-        },
         "Expert Cooking Pot": {
-          "cheers": 28,
-          "winnerId": 6532351942875043
+          "cheers": 43,
+          "winnerId": 1181
         },
         "Big Orange": {
-          "cheers": 22,
-          "winnerId": 1686808507651809
+          "cheers": 12,
+          "winnerId": 8714949830179873
+        },
+        "Big Apple": {
+          "cheers": 12,
+          "winnerId": 2601876753363557
         }
       },
       "cheers": {
@@ -13854,32 +13623,32 @@
       },
       "dailyCollections": {},
       "clutter": {
-        "spawnedAt": 1769731406170,
+        "spawnedAt": 1769818080401,
         "locations": {
-          "b33d1c91": {
-            "type": "Weed",
-            "x": -11,
-            "y": 2
-          },
-          "c1331a5e": {
-            "type": "Weed",
-            "x": -15,
-            "y": 8
-          },
-          "e9096e2b": {
-            "type": "Dung",
-            "x": -14,
-            "y": 7
-          },
-          "ee87557a": {
-            "type": "Dung",
-            "x": -15,
-            "y": 7
-          },
-          "fdb2ad40": {
+          "035ff0eb": {
             "type": "Dung",
             "x": -12,
+            "y": 2
+          },
+          "0ebcd779": {
+            "type": "Dung",
+            "x": -12,
+            "y": 2
+          },
+          "65bc5a93": {
+            "type": "Weed",
+            "x": -13,
             "y": 8
+          },
+          "e2623d28": {
+            "type": "Dung",
+            "x": -14,
+            "y": 3
+          },
+          "e3d753a0": {
+            "type": "Weed",
+            "x": -14,
+            "y": 7
           }
         }
       },
@@ -13894,7 +13663,7 @@
       },
       "weeklyPoints": {
         "week": "2026-01-26",
-        "points": 2619
+        "points": 2733
       },
       "helpedForCompetition": 511,
       "waves": {
@@ -13909,14 +13678,14 @@
         "2966": {
           "id": 2966,
           "name": "Pet #2966",
-          "experience": 39832,
+          "experience": 39882,
           "energy": 25650,
           "requests": {
             "food": [
               "Purple Smoothie",
-              "Apple Pie",
-              "Blueberry Jam",
-              "Bumpkin Roast",
+              "Fancy Fries",
+              "Kale Stew",
+              "Pizza Margherita",
               "The Lot"
             ],
             "fedAt": 1769699788855
@@ -13935,7 +13704,7 @@
           },
           "location": "farm",
           "dailySocialXP": {
-            "2026-01-30": 50
+            "2026-01-31": 50
           },
           "walking": true,
           "fetches": {
@@ -13945,7 +13714,7 @@
           }
         }
       },
-      "requestsGeneratedAt": 1769734016829,
+      "requestsGeneratedAt": 1769818809426,
       "common": {
         "Burro": {
           "name": "Burro",
@@ -13953,9 +13722,9 @@
           "energy": 10,
           "requests": {
             "food": [
-              "Rhubarb Tart",
-              "Fermented Carrots",
-              "Slow Juice"
+              "Bumpkin Broth",
+              "Orange Juice",
+              "Lemon Cheesecake"
             ],
             "fedAt": 1761615668766
           },
@@ -13979,9 +13748,9 @@
           "energy": 10,
           "requests": {
             "food": [
-              "Carrot Juice",
-              "Bumpkin Salad",
-              "The Lot"
+              "Purple Smoothie",
+              "Apple Juice",
+              "Wheat Cake"
             ],
             "fedAt": 1761615672352
           },
@@ -14004,9 +13773,9 @@
           "energy": 10,
           "requests": {
             "food": [
-              "Purple Smoothie",
-              "Power Smoothie",
-              "Radish Cake"
+              "Club Sandwich",
+              "Bumpkin ganoush",
+              "Bumpkin Roast"
             ],
             "fedAt": 1761615675200
           },
@@ -14025,19 +13794,19 @@
         },
         "Pippin": {
           "name": "Pippin",
-          "experience": 55116,
+          "experience": 55166,
           "energy": 17520,
           "requests": {
             "food": [
               "Pumpkin Soup",
-              "Bumpkin Salad",
-              "Honey Cake"
+              "Orange Juice",
+              "Lemon Cheesecake"
             ],
             "fedAt": 1769699799326
           },
           "pettedAt": 1769816203660,
           "dailySocialXP": {
-            "2026-01-30": 50
+            "2026-01-31": 50
           },
           "fetches": {
             "Acorn": 13,
@@ -14048,19 +13817,19 @@
         },
         "Biscuit": {
           "name": "Biscuit",
-          "experience": 46630,
+          "experience": 46680,
           "energy": 17790,
           "requests": {
             "food": [
-              "Quick Juice",
-              "Sunflower Cake",
-              "The Lot"
+              "Pumpkin Soup",
+              "Goblin's Treat",
+              "Radish Cake"
             ],
             "fedAt": 1769699783222
           },
           "pettedAt": 1769816202395,
           "dailySocialXP": {
-            "2026-01-30": 50
+            "2026-01-31": 50
           },
           "fetches": {
             "Acorn": 210,
@@ -14071,19 +13840,19 @@
         },
         "Waddles": {
           "name": "Waddles",
-          "experience": 21520,
+          "experience": 21570,
           "energy": 11070,
           "requests": {
             "food": [
-              "Bumpkin Broth",
-              "Sunflower Cake",
-              "Rice Bun"
+              "Reindeer Carrot",
+              "Fermented Carrots",
+              "Blue Cheese"
             ],
             "fedAt": 1769699794998
           },
           "pettedAt": 1769816203326,
           "dailySocialXP": {
-            "2026-01-30": 50
+            "2026-01-31": 50
           },
           "fetches": {
             "Ruffroot": 7,

@@ -1,16 +1,16 @@
 {
   "username": "thinktronik",
   "overview": {
-    "balance": 75.22,
-    "coins": 41005.0,
+    "balance": 123.29,
+    "coins": 41205.0,
     "gems": 0.0,
     "earned_sfl": 7922.94,
-    "earned_coins": 41005.0,
+    "earned_coins": 41205.0,
     "spent_sfl": 7980.17,
-    "items_sold": 4515.0,
+    "items_sold": 4520.0,
     "trade_points": 9373.29,
-    "last_updated": "2026-01-31 12:28 AM",
-    "active_listings": 10
+    "last_updated": "2026-01-31 01:52 AM",
+    "active_listings": 3
   },
   "buys": [
     {
@@ -51,6 +51,42 @@
     }
   ],
   "sells": [
+    {
+      "date": "2026-01-31",
+      "time": "12:59 AM",
+      "type": "SELL",
+      "item": "Rice",
+      "quantity": 25,
+      "price_text": "8.7833 SFL",
+      "price": 8.7833,
+      "counterparty": "Mikeeeboi",
+      "farm_id": "-",
+      "trade_id": "f7a82c12"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "12:47 AM",
+      "type": "SELL",
+      "item": "Rice",
+      "quantity": 20,
+      "price_text": "7.0266 SFL",
+      "price": 7.0266,
+      "counterparty": "Cariocafarm",
+      "farm_id": "-",
+      "trade_id": "190f72a6"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "12:40 AM",
+      "type": "SELL",
+      "item": "Rice",
+      "quantity": 20,
+      "price_text": "7.0266 SFL",
+      "price": 7.0266,
+      "counterparty": "Ramonita",
+      "farm_id": "-",
+      "trade_id": "bd1e9480"
+    },
     {
       "date": "2026-01-30",
       "time": "11:46 PM",
@@ -955,12 +991,12 @@
   "last_updated": null,
   "stats": {
     "total_buys": 3,
-    "total_sells": 75,
+    "total_sells": 78,
     "buy_volume": 3.1991,
-    "sell_volume": 342.6403,
-    "gross_profit": 339.44120000000004,
+    "sell_volume": 365.4767999999999,
+    "gross_profit": 362.2776999999999,
     "avg_buy_price": 1.0663666666666667,
-    "avg_sell_price": 4.5685373333333335,
+    "avg_sell_price": 4.685599999999999,
     "most_traded_items": {},
     "recent_activity": [
       {
@@ -992,12 +1028,29 @@
       },
       {
         "type": "SELL",
-        "item": "Milk",
-        "quantity": 70,
-        "price": 8.498,
-        "date": "2026-01-30",
-        "time": "11:46 PM",
+        "item": "Rice",
+        "quantity": 25,
+        "price": 8.7833,
+        "date": "2026-01-31",
+        "time": "12:59 AM",
         "username": "thinktronik"
+      },
+      {
+        "type": "SELL",
+        "item": "Rice",
+        "quantity": 20,
+        "price": 7.0266,
+        "date": "2026-01-31",
+        "time": "12:47 AM",
+        "username": "thinktronik"
+      },
+      {
+        "type": "SELL",
+        "item": "Rice",
+        "quantity": 20,
+        "price": 7.0266,
+        "date": "2026-01-31",
+        "time": "12:40 AM"
       },
       {
         "type": "SELL",
@@ -1005,8 +1058,15 @@
         "quantity": 70,
         "price": 8.498,
         "date": "2026-01-30",
-        "time": "11:46 PM",
-        "username": "thinktronik"
+        "time": "11:46 PM"
+      },
+      {
+        "type": "SELL",
+        "item": "Milk",
+        "quantity": 70,
+        "price": 8.498,
+        "date": "2026-01-30",
+        "time": "11:46 PM"
       },
       {
         "type": "SELL",
@@ -1103,33 +1163,9 @@
         "price": 2.275,
         "date": "2026-01-30",
         "time": "07:32 PM"
-      },
-      {
-        "type": "SELL",
-        "item": "Milk",
-        "quantity": 60,
-        "price": 7.284,
-        "date": "2026-01-30",
-        "time": "07:23 PM"
-      },
-      {
-        "type": "SELL",
-        "item": "Kale",
-        "quantity": 100,
-        "price": 2.275,
-        "date": "2026-01-30",
-        "time": "07:13 PM"
-      },
-      {
-        "type": "SELL",
-        "item": "Kale",
-        "quantity": 200,
-        "price": 4.55,
-        "date": "2026-01-30",
-        "time": "06:15 PM"
       }
     ],
-    "profit_margin": 10610.521709230723,
+    "profit_margin": 11324.36310212247,
     "most_bought_items": {
       "Yam": 887,
       "Broccoli": 259
@@ -1144,7 +1180,7 @@
       "Gold": 340,
       "Lemon": 200,
       "Iron": 125,
-      "Rice": 40
+      "Rice": 105
     }
   },
   "active_listings": [
@@ -1174,39 +1210,12 @@
       "created_at": 1769699885028,
       "collection": "collectibles",
       "trade_type": "instant"
-    },
-    {
-      "id": "bd1e9480",
-      "item": "Rice",
-      "quantity": 20,
-      "price": 7.0266,
-      "created_at": 1769700031396,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "f7a82c12",
-      "item": "Rice",
-      "quantity": 25,
-      "price": 8.7833,
-      "created_at": 1769700035231,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "190f72a6",
-      "item": "Rice",
-      "quantity": 20,
-      "price": 7.0266,
-      "created_at": 1769700051244,
-      "collection": "collectibles",
-      "trade_type": "instant"
     }
   ],
   "active_offers": [],
   "inventory": {
     "crops": {
-      "Sunflower": 247188.74680000904,
+      "Sunflower": 246188.74680000904,
       "Potato": 1623.8470000003058,
       "Pumpkin": 1902.0448999999617,
       "Carrot": 3294.5754,
@@ -1215,12 +1224,12 @@
       "Cauliflower": 566.8758,
       "Parsnip": 133.38849999999994,
       "Radish": 4759.9201,
-      "Wheat": 10266.4535,
+      "Wheat": 10256.4535,
       "Kale": 2495.4852,
       "Eggplant": 2087.0092,
       "Corn": 4074.8443999999995,
       "Soybean": 2101.9547,
-      "Rice": 670.814,
+      "Rice": 605.814,
       "Olive": 412.246,
       "Barley": 4091.806,
       "Rhubarb": 891.25,
@@ -1235,18 +1244,18 @@
     "fruits": {
       "Apple": 887.9500000000012,
       "Blueberry": 4714.000000000005,
-      "Orange": 3918.3000000000034,
-      "Banana": 2198.2500000000014,
+      "Orange": 3913.3000000000034,
+      "Banana": 2203.7500000000014,
       "Grape": 152.50000000000014,
-      "Tomato": 9411.400000000003,
+      "Tomato": 9494.650000000003,
       "Lemon": 852.6000000000035,
       "Duskberry": 192.2,
       "Lunara": 17.200000000000024,
       "Celestine": 20.500000000000025
     },
     "resources": {
-      "Wood": 6817.66,
-      "Stone": 1221.85,
+      "Wood": 6937.2,
+      "Stone": 1260.36,
       "Iron": 912.25,
       "Gold": 649.29,
       "Crimstone": 48.3,
