@@ -21,17 +21,17 @@
       "Soybean Seed": "10",
       "Rice Seed": "34",
       "Olive Seed": "24",
-      "Tomato Seed": "60",
+      "Tomato Seed": "57",
       "Rhubarb Seed": "1200",
       "Zucchini Seed": "1211",
-      "Yam Seed": "540",
+      "Yam Seed": "543",
       "Broccoli Seed": "540",
       "Pepper Seed": "480",
       "Onion Seed": "202",
       "Turnip Seed": "88",
       "Artichoke Seed": "180",
       "Sunflower": "608037.74800000441989",
-      "Potato": "282811.0859999998447",
+      "Potato": "282803.0859999998447",
       "Pumpkin": "314206.85390000000035",
       "Carrot": "8620.943799999999999",
       "Cabbage": "23019.9177",
@@ -77,12 +77,12 @@
       "Grape": "265",
       "Rice": "657.174",
       "Olive": "479.416",
-      "Tomato": "4625.800000000000622",
+      "Tomato": "4654.400000000000622",
       "Lemon": "2518.9000000000003276",
       "Barley": "10135.591600000000181",
       "Rhubarb": "56121",
       "Zucchini": "379448.4",
-      "Yam": "142984.2",
+      "Yam": "143130.3",
       "Broccoli": "2203.55",
       "Pepper": "1528.75",
       "Onion": "5403.702500000000012",
@@ -104,8 +104,8 @@
       "Shovel": "1",
       "Sand Shovel": "690",
       "Sand Drill": "53",
-      "Gold Pickaxe": "15",
-      "Oil Drill": "6",
+      "Gold Pickaxe": "12",
+      "Oil Drill": "5",
       "Petting Hand": "1",
       "Brush": "1",
       "Potato Statue": "1",
@@ -164,7 +164,7 @@
       "Bumpkin Broth": "34",
       "Bumpkin Salad": "31",
       "Goblin's Treat": "31",
-      "Mashed Potato": "1276",
+      "Mashed Potato": "1278",
       "Cauliflower Burger": "12",
       "Club Sandwich": "20",
       "Roast Veggies": "20",
@@ -216,7 +216,7 @@
       "Caprese Salad": "1",
       "Sour Shake": "8",
       "Spaghetti al Limone": "1",
-      "Wood": "13667.32",
+      "Wood": "13708.72",
       "Stone": "2049.25",
       "Iron": "2070.5423",
       "Gold": "508.95",
@@ -226,7 +226,7 @@
       "Rich Chicken": "10",
       "Rooster": "1",
       "Honey": "289",
-      "Wild Mushroom": "4.7",
+      "Wild Mushroom": "6.2",
       "Magic Mushroom": "519",
       "Tree": "20",
       "Stone Rock": "17",
@@ -240,14 +240,14 @@
       "Red Wiggler": "3813",
       "Sprout Mix": "574",
       "Fruitful Blend": "331",
-      "Rapid Root": "794",
+      "Rapid Root": "734",
       "Fishing Lure": "124",
       "Beehive": "3",
       "Flower Bed": "3",
       "Crimstone Rock": "3",
-      "Crimstone": "240.4",
+      "Crimstone": "252.7",
       "Sunstone": "1",
-      "Oil": "200",
+      "Oil": "230",
       "Oil Reserve": "1",
       "Leather": "230",
       "Wool": "352",
@@ -457,13 +457,13 @@
       "Adirondack Potato": "1",
       "Purple Cauliflower": "1",
       "Squeaky Chicken": "1",
-      "Barley Seed": "130",
+      "Barley Seed": "70",
       "Thermal Stone": "1",
       "Red Lavender": "1",
       "White Lavender": "1",
       "Yellow Edelweiss": "3",
       "Protective Pesticide": "1",
-      "Axe": "447",
+      "Axe": "424",
       "Tornado Pinwheel": "1",
       "Giant Gold Bone": "1",
       "Napoleanfish": "3"
@@ -2400,10 +2400,14 @@
         "y": 3,
         "height": 1,
         "crop": {
-          "id": "902a591e",
-          "plantedAt": 1769871062385,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "670c70f1",
+          "plantedAt": 1769753076463,
+          "boostedTime": 121917118,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875037601
         }
       },
       "2": {
@@ -2413,10 +2417,14 @@
         "y": 2,
         "height": 1,
         "crop": {
-          "id": "e05735ce",
-          "plantedAt": 1769871057627,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "9f452d12",
+          "plantedAt": 1769753068897,
+          "boostedTime": 121917712,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875029441
         }
       },
       "3": {
@@ -2426,10 +2434,14 @@
         "y": 4,
         "height": 1,
         "crop": {
-          "id": "4bcf63c2",
-          "plantedAt": 1769871059477,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "a019d00d",
+          "plantedAt": 1769753080720,
+          "boostedTime": 121926001,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875032975
         }
       },
       "4": {
@@ -2439,10 +2451,14 @@
         "y": 5,
         "height": 1,
         "crop": {
-          "id": "5424d770",
-          "plantedAt": 1769871062795,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "26551a4e",
+          "plantedAt": 1769753085346.5,
+          "boostedTime": 121925323.5,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875038279
         }
       },
       "5": {
@@ -2452,10 +2468,14 @@
         "y": 3,
         "height": 1,
         "crop": {
-          "id": "af5e4abc",
-          "plantedAt": 1769871059202,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "7257c189",
+          "plantedAt": 1769753071643.5,
+          "boostedTime": 121917207.5,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875032692
         }
       },
       "6": {
@@ -2465,10 +2485,14 @@
         "y": 2,
         "height": 1,
         "crop": {
-          "id": "968cb179",
-          "plantedAt": 1769871055548,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "b523f41c",
+          "plantedAt": 1769753076411,
+          "boostedTime": 121927466,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875027201
         }
       },
       "7": {
@@ -2478,10 +2502,14 @@
         "y": 2,
         "height": 1,
         "crop": {
-          "id": "8818d0fb",
-          "plantedAt": 1769871040553,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "4c765d9a",
+          "plantedAt": 1769753071217,
+          "boostedTime": 121917198,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875032275
         }
       },
       "8": {
@@ -2491,10 +2519,14 @@
         "y": 3,
         "height": 1,
         "crop": {
-          "id": "be65f073",
-          "plantedAt": 1769871060393,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "c56a152b",
+          "plantedAt": 1769753081365.5,
+          "boostedTime": 121925805.5,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875033816
         }
       },
       "9": {
@@ -2504,10 +2536,14 @@
         "y": 4,
         "height": 1,
         "crop": {
-          "id": "5596b309",
-          "plantedAt": 1769871062596,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "3d36a71a",
+          "plantedAt": 1769753085137.5,
+          "boostedTime": 121925337.5,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875038056
         }
       },
       "10": {
@@ -2517,10 +2553,14 @@
         "y": 1,
         "height": 1,
         "crop": {
-          "id": "9e1dc3d0",
-          "plantedAt": 1769871052341,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "ff621efa",
+          "plantedAt": 1769753083406.5,
+          "boostedTime": 121916641.5,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875045021
         }
       },
       "11": {
@@ -2530,10 +2570,14 @@
         "y": 4,
         "height": 1,
         "crop": {
-          "id": "70ec2933",
-          "plantedAt": 1769871056997,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "9685c5cb",
+          "plantedAt": 1769753077439.5,
+          "boostedTime": 121926904.5,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875028791
         }
       },
       "12": {
@@ -2543,10 +2587,14 @@
         "y": 0,
         "height": 1,
         "crop": {
-          "id": "ea5675ec",
-          "plantedAt": 1769871066245,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "500bf750",
+          "plantedAt": 1769753092782,
+          "boostedTime": 121925789,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875045249
         }
       },
       "13": {
@@ -2556,10 +2604,14 @@
         "y": 5,
         "height": 1,
         "crop": {
-          "id": "32b4dadc",
-          "plantedAt": 1769871065066,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "a30dcb3a",
+          "plantedAt": 1769753090918.5,
+          "boostedTime": 121925232.5,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875043942
         }
       },
       "14": {
@@ -2569,10 +2621,14 @@
         "y": 4,
         "height": 1,
         "crop": {
-          "id": "2428a208",
-          "plantedAt": 1769871056010,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "23336dd0",
+          "plantedAt": 1769753077540,
+          "boostedTime": 121927715,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875028081
         }
       },
       "15": {
@@ -2582,10 +2638,14 @@
         "y": 3,
         "height": 1,
         "crop": {
-          "id": "c2fd1c07",
-          "plantedAt": 1769871057422,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "edc04a2a",
+          "plantedAt": 1769753077426.5,
+          "boostedTime": 121926676.5,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875029006
         }
       },
       "16": {
@@ -2595,10 +2655,14 @@
         "y": 4,
         "height": 1,
         "crop": {
-          "id": "16292bf7",
-          "plantedAt": 1769871064785,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "c42448fc",
+          "plantedAt": 1769753090388.5,
+          "boostedTime": 121925531.5,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875043113
         }
       },
       "17": {
@@ -2608,10 +2672,14 @@
         "y": 3,
         "height": 1,
         "crop": {
-          "id": "8e43f779",
-          "plantedAt": 1769871055782,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "47a92e69",
+          "plantedAt": 1769753067195.5,
+          "boostedTime": 121917791.5,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875027660
         }
       },
       "18": {
@@ -2621,10 +2689,14 @@
         "y": 4,
         "height": 1,
         "crop": {
-          "id": "b3fefcf6",
-          "plantedAt": 1769871060159,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "b9687970",
+          "plantedAt": 1769753082799,
+          "boostedTime": 121927462,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875033593
         }
       },
       "fe33c984": {
@@ -2634,10 +2706,14 @@
         "y": -1,
         "height": 1,
         "crop": {
-          "id": "e867ead6",
-          "plantedAt": 1769871061630,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "7ff4f782",
+          "plantedAt": 1769753083283.5,
+          "boostedTime": 121925598.5,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875035941
         }
       },
       "c74071da": {
@@ -2647,10 +2723,14 @@
         "y": 3,
         "height": 1,
         "crop": {
-          "id": "23c8189f",
-          "plantedAt": 1769871064036,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "c57793bf",
+          "plantedAt": 1769753089428.5,
+          "boostedTime": 121925636.5,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875042048
         }
       },
       "10e127eb": {
@@ -2660,10 +2740,14 @@
         "y": -1,
         "height": 1,
         "crop": {
-          "id": "6cf877cf",
-          "plantedAt": 1769871068813,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "da6d1904",
+          "plantedAt": 1769753087238.5,
+          "boostedTime": 121925361.5,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875040133
         }
       },
       "47a9f068": {
@@ -2673,10 +2757,14 @@
         "y": -1,
         "height": 1,
         "crop": {
-          "id": "3969b0a4",
-          "plantedAt": 1769871043224,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "ce77b78e",
+          "plantedAt": 1769753081257.5,
+          "boostedTime": 121928285.5,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875031228
         }
       },
       "d6550e3c": {
@@ -2686,10 +2774,14 @@
         "y": -1,
         "height": 1,
         "crop": {
-          "id": "a96dbbf1",
-          "plantedAt": 1769871058471,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "6df23a6d",
+          "plantedAt": 1769753083704.5,
+          "boostedTime": 121925435.5,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875036525
         }
       },
       "fc4f0dfd": {
@@ -2699,10 +2791,14 @@
         "y": 0,
         "height": 1,
         "crop": {
-          "id": "b6928910",
-          "plantedAt": 1769871061319,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "b2d0cfb3",
+          "plantedAt": 1769753074056.5,
+          "boostedTime": 121917576.5,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875034736
         }
       },
       "d0e1b366": {
@@ -2712,10 +2808,14 @@
         "y": 0,
         "height": 1,
         "crop": {
-          "id": "b3a0f0c3",
-          "plantedAt": 1769871061842,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "ecf6598f",
+          "plantedAt": 1769753083265,
+          "boostedTime": 121925376,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875036145
         }
       },
       "2e4e6f9f": {
@@ -2725,10 +2825,14 @@
         "y": -1,
         "height": 1,
         "crop": {
-          "id": "579fc04f",
-          "plantedAt": 1769871054690,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "0d678828",
+          "plantedAt": 1769753075392.5,
+          "boostedTime": 121927338.5,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875026310
         }
       },
       "b4264d63": {
@@ -2738,10 +2842,14 @@
         "y": 2,
         "height": 1,
         "crop": {
-          "id": "bb27b8df",
-          "plantedAt": 1769871069509,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "f787ff0a",
+          "plantedAt": 1769753089209.5,
+          "boostedTime": 121925635.5,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875041830
         }
       },
       "69c1101a": {
@@ -2751,10 +2859,14 @@
         "y": 5,
         "height": 1,
         "crop": {
-          "id": "6761d985",
-          "plantedAt": 1769871059680,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "dfe3274a",
+          "plantedAt": 1769753080686,
+          "boostedTime": 121925822,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875033120
         }
       },
       "170ff0e8": {
@@ -2764,10 +2876,14 @@
         "y": 1,
         "height": 1,
         "crop": {
-          "id": "e2e8e618",
-          "plantedAt": 1769871055136,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "9e3a705b",
+          "plantedAt": 1769753066535.5,
+          "boostedTime": 121917815.5,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875026976
         }
       },
       "e4aef159": {
@@ -2777,10 +2893,14 @@
         "y": 0,
         "height": 1,
         "crop": {
-          "id": "890acd39",
-          "plantedAt": 1769871066506,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "523a4204",
+          "plantedAt": 1769753092505.5,
+          "boostedTime": 121925035.5,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875045726
         }
       },
       "63b2bd32": {
@@ -2790,10 +2910,14 @@
         "y": 5,
         "height": 1,
         "crop": {
-          "id": "3603e986",
-          "plantedAt": 1769871063021,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "c99c75f4",
+          "plantedAt": 1769753085583,
+          "boostedTime": 121925297,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875038542
         }
       },
       "d40e1dd3": {
@@ -2803,10 +2927,14 @@
         "y": 1,
         "height": 1,
         "crop": {
-          "id": "0ae04455",
-          "plantedAt": 1769871058886,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "59f2bada",
+          "plantedAt": 1769753080777.5,
+          "boostedTime": 121927199.5,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875031834
         }
       },
       "d5b4182a": {
@@ -2816,10 +2944,14 @@
         "y": 0,
         "height": 1,
         "crop": {
-          "id": "0dd6f459",
-          "plantedAt": 1769871058662,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "751ad75d",
+          "plantedAt": 1769753081240,
+          "boostedTime": 121928069,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875031427
         }
       },
       "fb22ed89": {
@@ -2829,10 +2961,14 @@
         "y": 5,
         "height": 1,
         "crop": {
-          "id": "7f7923f7",
-          "plantedAt": 1769871064304,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "ae9dce97",
+          "plantedAt": 1769753089949.5,
+          "boostedTime": 121925534.5,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875042671
         }
       },
       "7119fd77": {
@@ -2842,10 +2978,14 @@
         "y": -1,
         "height": 1,
         "crop": {
-          "id": "7b4a6444",
-          "plantedAt": 1769871058246,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "5c50ef02",
+          "plantedAt": 1769753077606.5,
+          "boostedTime": 121925558.5,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875030304
         }
       },
       "6e3289c2": {
@@ -2855,10 +2995,14 @@
         "y": 1,
         "height": 1,
         "crop": {
-          "id": "fdbb1250",
-          "plantedAt": 1769871057849,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "657eec25",
+          "plantedAt": 1769753077493,
+          "boostedTime": 121926075,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875029674
         }
       },
       "9aa778e2": {
@@ -2868,10 +3012,14 @@
         "y": 5,
         "height": 1,
         "crop": {
-          "id": "878d2564",
-          "plantedAt": 1769871056692,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "e5405056",
+          "plantedAt": 1769753077429.5,
+          "boostedTime": 121927132.5,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875028553
         }
       },
       "91169aae": {
@@ -2881,10 +3029,14 @@
         "y": 3,
         "height": 1,
         "crop": {
-          "id": "44569b24",
-          "plantedAt": 1769871063806,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "85b63e03",
+          "plantedAt": 1769753086034,
+          "boostedTime": 121925302,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875038988
         }
       },
       "d14f0ea0": {
@@ -2894,10 +3046,14 @@
         "y": 2,
         "height": 1,
         "crop": {
-          "id": "0aa9e1ba",
-          "plantedAt": 1769871060600,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "5d1309ca",
+          "plantedAt": 1769753073359,
+          "boostedTime": 121917558,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875034057
         }
       },
       "2e3a720f": {
@@ -2907,10 +3063,14 @@
         "y": 1,
         "height": 1,
         "crop": {
-          "id": "f813b990",
-          "plantedAt": 1769871044889,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "3b99c76c",
+          "plantedAt": 1769753083576,
+          "boostedTime": 121924836,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875036996
         }
       },
       "8cb47c97": {
@@ -2920,10 +3080,14 @@
         "y": 2,
         "height": 1,
         "crop": {
-          "id": "88739e32",
-          "plantedAt": 1769871047175,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "40f5fc4a",
+          "plantedAt": 1769753086256,
+          "boostedTime": 121925304,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875039208
         }
       },
       "a6028f3f": {
@@ -2933,10 +3097,14 @@
         "y": 5,
         "height": 1,
         "crop": {
-          "id": "7793d054",
-          "plantedAt": 1769871059899,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "d4207d07",
+          "plantedAt": 1769753081020,
+          "boostedTime": 121925910,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875033366
         }
       },
       "960d4668": {
@@ -2946,10 +3114,14 @@
         "y": 5,
         "height": 1,
         "crop": {
-          "id": "30318162",
-          "plantedAt": 1769871056496,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "c3c1e45f",
+          "plantedAt": 1769753077744.5,
+          "boostedTime": 121927696.5,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875028304
         }
       },
       "6e8bac95": {
@@ -2959,10 +3131,14 @@
         "y": 0,
         "height": 1,
         "crop": {
-          "id": "ee514878",
-          "plantedAt": 1769871069051,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "2793bfc6",
+          "plantedAt": 1769753078760,
+          "boostedTime": 121917107,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875039909
         }
       },
       "2356f8ca": {
@@ -2972,10 +3148,14 @@
         "y": 1,
         "height": 1,
         "crop": {
-          "id": "571947e6",
-          "plantedAt": 1769871069279,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "e3826c14",
+          "plantedAt": 1769753086609,
+          "boostedTime": 121925169,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875039696
         }
       },
       "3e83b382": {
@@ -2985,10 +3165,14 @@
         "y": 0,
         "height": 1,
         "crop": {
-          "id": "f287c17e",
-          "plantedAt": 1769871054886,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "01cc9871",
+          "plantedAt": 1769753075588.5,
+          "boostedTime": 121927324.5,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875026520
         }
       },
       "53c84332": {
@@ -2998,10 +3182,14 @@
         "y": 0,
         "height": 1,
         "crop": {
-          "id": "3e6eef03",
-          "plantedAt": 1769871039283,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "4f6fd5b6",
+          "plantedAt": 1769753077620,
+          "boostedTime": 121925755,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875030121
         }
       },
       "141e5e69": {
@@ -3011,10 +3199,14 @@
         "y": 1,
         "height": 1,
         "crop": {
-          "id": "138d3ab0",
-          "plantedAt": 1769871066644,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "4a990f17",
+          "plantedAt": 1769753092572.5,
+          "boostedTime": 121924732.5,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875046096
         }
       },
       "6ce58a49": {
@@ -3024,10 +3216,14 @@
         "y": 2,
         "height": 1,
         "crop": {
-          "id": "b82c8f4b",
-          "plantedAt": 1769871062130,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "b37f34d7",
+          "plantedAt": 1769753084557,
+          "boostedTime": 121925419,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875037394
         }
       },
       "ad69e168": {
@@ -3037,10 +3233,14 @@
         "y": 4,
         "height": 1,
         "crop": {
-          "id": "4b4fa53a",
-          "plantedAt": 1769871046488,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "b942fb17",
+          "plantedAt": 1769753085816.5,
+          "boostedTime": 121925297.5,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875038775
         }
       },
       "eca09f4e": {
@@ -3050,10 +3250,14 @@
         "y": -1,
         "height": 1,
         "crop": {
-          "id": "1574693e",
-          "plantedAt": 1769871066926,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "7f50e936",
+          "plantedAt": 1769753092955,
+          "boostedTime": 121924807,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875046404
         }
       },
       "4bb5d00f": {
@@ -3063,10 +3267,14 @@
         "y": 2,
         "height": 1,
         "crop": {
-          "id": "3f8f6214",
-          "plantedAt": 1769871065804,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "bf08f657",
+          "plantedAt": 1769753083080,
+          "boostedTime": 121916518,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875044818
         }
       },
       "d19d4068": {
@@ -3076,10 +3284,14 @@
         "y": 3,
         "height": 1,
         "crop": {
-          "id": "2af1a23a",
-          "plantedAt": 1769871065563,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "6c18853f",
+          "plantedAt": 1769753091364.5,
+          "boostedTime": 121925247.5,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875044373
         }
       },
       "1d7d608d": {
@@ -3089,10 +3301,14 @@
         "y": 1,
         "height": 1,
         "crop": {
-          "id": "4c2e577e",
-          "plantedAt": 1769871042662,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "26584f6b",
+          "plantedAt": 1769753082218.5,
+          "boostedTime": 121925982.5,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875034492
         }
       },
       "3f05bd1f": {
@@ -3102,10 +3318,14 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "abad3ac1",
-          "plantedAt": 1769871064571,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "cc681459",
+          "plantedAt": 1769753090180,
+          "boostedTime": 121925524,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875042912
         }
       },
       "786ea404": {
@@ -3115,10 +3335,14 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "17c119a5",
-          "plantedAt": 1769871067367,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "c57e5cc2",
+          "plantedAt": 1769753087781,
+          "boostedTime": 121925058,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875040979
         }
       },
       "8a3ed19f": {
@@ -3128,10 +3352,14 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "8d76a916",
-          "plantedAt": 1769871065327,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "38e45348",
+          "plantedAt": 1769753091150.5,
+          "boostedTime": 121925249.5,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875044157
         }
       },
       "f1baeaff": {
@@ -3141,10 +3369,14 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "e67ac2a7",
-          "plantedAt": 1769871067599,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "93b1680a",
+          "plantedAt": 1769753087998.5,
+          "boostedTime": 121925043.5,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875041211
         }
       },
       "f7430fb4": {
@@ -3154,10 +3386,14 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "23df9cea",
-          "plantedAt": 1769871049316,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "8dbcd32f",
+          "plantedAt": 1769753088181,
+          "boostedTime": 121925046,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875041391
         }
       },
       "5832111b": {
@@ -3167,10 +3403,14 @@
         "width": 1,
         "height": 1,
         "crop": {
-          "id": "f3f75706",
-          "plantedAt": 1769871050194,
-          "boostedTime": 1245330.0000000005,
-          "name": "Yam"
+          "id": "b14e3cbf",
+          "plantedAt": 1769753089734.5,
+          "boostedTime": 121925541.5,
+          "name": "Barley"
+        },
+        "fertiliser": {
+          "name": "Rapid Root",
+          "fertilisedAt": 1769875042449
         }
       }
     },
@@ -3181,7 +3421,7 @@
         "y": -1,
         "createdAt": 1717085696613,
         "wood": {
-          "choppedAt": 1769869373415
+          "choppedAt": 1769873244278
         },
         "height": 2
       },
@@ -3191,7 +3431,7 @@
         "y": 3,
         "createdAt": 1717085696613,
         "wood": {
-          "choppedAt": 1769869376548
+          "choppedAt": 1769873244872
         },
         "height": 2
       },
@@ -3201,7 +3441,7 @@
         "y": -1,
         "createdAt": 1717085696613,
         "wood": {
-          "choppedAt": 1769869370764
+          "choppedAt": 1769873239750
         },
         "height": 2
       },
@@ -3211,7 +3451,7 @@
         "createdAt": 1717129745459,
         "y": 1,
         "wood": {
-          "choppedAt": 1769869375170
+          "choppedAt": 1769873240122
         },
         "height": 2
       },
@@ -3221,7 +3461,7 @@
         "createdAt": 1717129753099,
         "y": -5,
         "wood": {
-          "choppedAt": 1769869369933
+          "choppedAt": 1769869632675
         },
         "height": 2
       },
@@ -3231,7 +3471,7 @@
         "createdAt": 1717576277284,
         "y": 3,
         "wood": {
-          "choppedAt": 1769869447905
+          "choppedAt": 1769873240917
         },
         "height": 2
       },
@@ -3241,7 +3481,7 @@
         "createdAt": 1717129750242,
         "y": -5,
         "wood": {
-          "choppedAt": 1769869371341
+          "choppedAt": 1769873239266
         },
         "height": 2
       },
@@ -3251,7 +3491,7 @@
         "createdAt": 1717148644380,
         "y": -3,
         "wood": {
-          "choppedAt": 1769869371061
+          "choppedAt": 1769873239512
         },
         "height": 2
       },
@@ -3261,7 +3501,7 @@
         "createdAt": 1717129759475,
         "y": -3,
         "wood": {
-          "choppedAt": 1769869372960
+          "choppedAt": 1769873242096
         },
         "height": 2
       },
@@ -3271,7 +3511,7 @@
         "createdAt": 1717307670823,
         "y": -3,
         "wood": {
-          "choppedAt": 1769869370236
+          "choppedAt": 1769873232935
         },
         "height": 2
       },
@@ -3281,7 +3521,7 @@
         "createdAt": 1717313528006,
         "y": -7,
         "wood": {
-          "choppedAt": 1769869446920
+          "choppedAt": 1769873242659
         },
         "height": 2
       },
@@ -3291,7 +3531,7 @@
         "createdAt": 1717141599690,
         "y": 3,
         "wood": {
-          "choppedAt": 1769869375456
+          "choppedAt": 1769873240591
         },
         "height": 2
       },
@@ -3301,7 +3541,7 @@
         "createdAt": 1717307673010,
         "y": -3,
         "wood": {
-          "choppedAt": 1769869373672
+          "choppedAt": 1769873244019
         },
         "height": 2
       },
@@ -3311,7 +3551,7 @@
         "createdAt": 1717141670513,
         "y": 1,
         "wood": {
-          "choppedAt": 1769869376296
+          "choppedAt": 1769873244553
         },
         "height": 2
       },
@@ -3321,7 +3561,7 @@
         "createdAt": 1717141669698,
         "y": -5,
         "wood": {
-          "choppedAt": 1769869447406
+          "choppedAt": 1769873243741
         },
         "height": 2
       },
@@ -3331,7 +3571,7 @@
         "createdAt": 1717141601634,
         "y": -1,
         "wood": {
-          "choppedAt": 1769869373168
+          "choppedAt": 1769873241466
         },
         "height": 2
       },
@@ -3341,7 +3581,7 @@
         "createdAt": 1717141668923,
         "y": -5,
         "wood": {
-          "choppedAt": 1769869372677
+          "choppedAt": 1769873242413
         },
         "height": 2
       },
@@ -3351,7 +3591,7 @@
         "createdAt": 1717307668884,
         "y": -7,
         "wood": {
-          "choppedAt": 1769869371604
+          "choppedAt": 1769873239040
         },
         "height": 2
       },
@@ -3361,7 +3601,7 @@
         "createdAt": 1717129744502,
         "y": 1,
         "wood": {
-          "choppedAt": 1769869375706
+          "choppedAt": 1769873241215
         },
         "height": 2
       },
@@ -3372,7 +3612,7 @@
         "x": -1,
         "y": -1,
         "wood": {
-          "choppedAt": 1769869370487
+          "choppedAt": 1769873233192
         }
       }
     },
@@ -3813,10 +4053,10 @@
         "width": 2,
         "x": 1,
         "y": 5,
-        "minesLeft": 1,
+        "minesLeft": 5,
         "height": 2,
         "stone": {
-          "minedAt": 1769791064859
+          "minedAt": 1769877844778
         }
       },
       "82ed8c29": {
@@ -3826,9 +4066,9 @@
         "width": 2,
         "height": 2,
         "stone": {
-          "minedAt": 1769791068665
+          "minedAt": 1769877848317
         },
-        "minesLeft": 1
+        "minesLeft": 5
       },
       "dc6075a5": {
         "createdAt": 1740027683059,
@@ -3837,22 +4077,22 @@
         "width": 2,
         "height": 2,
         "stone": {
-          "minedAt": 1769791066539
+          "minedAt": 1769877846446
         },
-        "minesLeft": 1
+        "minesLeft": 5
       }
     },
     "oilReserves": {
       "c4e316c7": {
         "createdAt": 1717089862639,
         "oil": {
-          "drilledAt": 1769803443944,
+          "drilledAt": 1769876847184,
           "amount": 10
         },
         "width": 2,
         "x": -8,
         "y": 9,
-        "drilled": 512,
+        "drilled": 513,
         "height": 2
       }
     },
@@ -3867,8 +4107,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769865018156,
-          "harvestedAt": 1769870475285,
-          "harvestsLeft": 5
+          "harvestedAt": 1769876026507,
+          "harvestsLeft": 4
         }
       },
       "2": {
@@ -3879,9 +4119,9 @@
         "height": 2,
         "fruit": {
           "name": "Tomato",
-          "plantedAt": 1769852127872,
-          "harvestedAt": 1769870473600,
-          "harvestsLeft": 1
+          "plantedAt": 1769876039210,
+          "harvestedAt": 0,
+          "harvestsLeft": 5
         }
       },
       "287697ce": {
@@ -3893,8 +4133,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769865017358,
-          "harvestedAt": 1769870473321,
-          "harvestsLeft": 5
+          "harvestedAt": 1769876030266,
+          "harvestsLeft": 4
         }
       },
       "b812980d": {
@@ -3906,8 +4146,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769870479665,
-          "harvestedAt": 0,
-          "harvestsLeft": 4
+          "harvestedAt": 1769876026846,
+          "harvestsLeft": 3
         }
       },
       "01069beb": {
@@ -3919,8 +4159,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769859385791,
-          "harvestedAt": 1769870474497,
-          "harvestsLeft": 2
+          "harvestedAt": 1769876028372,
+          "harvestsLeft": 1
         }
       },
       "415d2835": {
@@ -3932,8 +4172,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769859386182,
-          "harvestedAt": 1769870473882,
-          "harvestsLeft": 2
+          "harvestedAt": 1769876029063,
+          "harvestsLeft": 1
         }
       },
       "099030e8": {
@@ -3945,8 +4185,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769865017836,
-          "harvestedAt": 1769870475836,
-          "harvestsLeft": 5
+          "harvestedAt": 1769876027168,
+          "harvestsLeft": 4
         }
       },
       "7af6bc13": {
@@ -3958,8 +4198,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769846097808,
-          "harvestedAt": 1769870471562,
-          "harvestsLeft": 2
+          "harvestedAt": 1769876032361,
+          "harvestsLeft": 1
         }
       },
       "82bc355c": {
@@ -3971,8 +4211,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769859384930,
-          "harvestedAt": 1769870472168,
-          "harvestsLeft": 2
+          "harvestedAt": 1769876031785,
+          "harvestsLeft": 1
         }
       },
       "b770bd3c": {
@@ -3983,9 +4223,9 @@
         "height": 2,
         "fruit": {
           "name": "Tomato",
-          "plantedAt": 1769839642291,
-          "harvestedAt": 1769870471896,
-          "harvestsLeft": 1
+          "plantedAt": 1769876039590,
+          "harvestedAt": 0,
+          "harvestsLeft": 6
         }
       },
       "7e5b6da5": {
@@ -3997,8 +4237,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769865017131,
-          "harvestedAt": 1769870473048,
-          "harvestsLeft": 3
+          "harvestedAt": 1769876030013,
+          "harvestsLeft": 2
         }
       },
       "570d5f86": {
@@ -4010,8 +4250,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769865017578,
-          "harvestedAt": 1769870474198,
-          "harvestsLeft": 5
+          "harvestedAt": 1769876028636,
+          "harvestsLeft": 4
         }
       },
       "f3612e42": {
@@ -4022,9 +4262,9 @@
         "height": 2,
         "fruit": {
           "name": "Tomato",
-          "plantedAt": 1769846098652,
-          "harvestedAt": 1769870476190,
-          "harvestsLeft": 1
+          "plantedAt": 1769876038108,
+          "harvestedAt": 0,
+          "harvestsLeft": 4
         }
       }
     },
@@ -5114,18 +5354,7 @@
           "createdAt": 0,
           "id": "1123",
           "oil": 0,
-          "crafting": [
-            {
-              "name": "Mashed Potato",
-              "boost": {
-                "Oil": 0
-              },
-              "skills": {
-                "Double Nom": false
-              },
-              "readyAt": 1769873061772
-            }
-          ]
+          "crafting": []
         }
       ],
       "Workbench": [
@@ -5720,7 +5949,7 @@
     },
     "farmActivity": {
       "Magic Bean Harvested": 1,
-      "Mashed Potato Cooked": 9105,
+      "Mashed Potato Cooked": 9107,
       "Coelacanth Fed": 1,
       "Rice Planted": 1163,
       "Pipi Sold": 48,
@@ -5837,7 +6066,7 @@
       "Pirate Cake Fed": 46,
       "Emerald Compass Dug": 4,
       "Blueberry Jam Dug": 12,
-      "Crimstone Mined": 1056,
+      "Crimstone Mined": 1059,
       "Rice Seed Bought": 1197,
       "Potato Harvested": 226471,
       "Apple Harvested": 2574,
@@ -5950,7 +6179,7 @@
       "Goblin's Treat Fed": 10,
       "Sea Cucumber Sold": 232,
       "Eggplant Seed Bought": 17129,
-      "Tree Chopped": 240997,
+      "Tree Chopped": 241017,
       "Power Smoothie Cooked": 128,
       "Orange Seed Bought": 1658,
       "Power Smoothie Fed": 17,
@@ -5971,7 +6200,7 @@
       "Pearl Sold": 2,
       "Goblin Brunch Fed": 1,
       "Radish Sold": 1359.844,
-      "Crop Fertilised": 55967,
+      "Crop Fertilised": 56027,
       "Sunflower Harvested": 503257,
       "Bumpkin Broth Cooked": 3140,
       "Kale Stew Fed": 24,
@@ -6027,8 +6256,8 @@
       "Lemon Seed Planted": 370,
       "Lemon Harvested": 1848,
       "Tomato Seed Bought": 2332,
-      "Tomato Seed Planted": 2272,
-      "Tomato Harvested": 11331,
+      "Tomato Seed Planted": 2275,
+      "Tomato Harvested": 11344,
       "Hieroglyph Sold": 38,
       "Scarab Sold": 34,
       "Vase Sold": 21,
@@ -6072,7 +6301,7 @@
       "Tofu Scramble Cooked": 31,
       "Ocean's Olive Cooked": 2,
       "Sushi Roll Cooked": 1,
-      "Barley Planted": 10374,
+      "Barley Planted": 10434,
       "Barley Harvested": 10374,
       "Beetroot Blaze Cooked": 38,
       "White Carrot Sold": 2,
@@ -6087,7 +6316,7 @@
       "Onion Planted": 1852,
       "Turnip Seed Bought": 139,
       "Onion Harvested": 1852,
-      "Oil Drilled": 345,
+      "Oil Drilled": 346,
       "Turnip Planted": 59,
       "Turnip Harvested": 59,
       "Rhubarb Planted": 5860,
@@ -6131,7 +6360,7 @@
       "Broccoli Planted": 960,
       "Broccoli Harvested": 960,
       "Yam Planted": 21815,
-      "Yam Harvested": 21755,
+      "Yam Harvested": 21815,
       "Rhubarb Sold": 87267.9,
       "Community Coin Sold": 1,
       "Onion Sold": 2625.7,
@@ -6230,7 +6459,7 @@
       "Twitter Post Submitted": 8,
       "Farm Cheered": 53,
       "Recipe Queue Cancelled": 56,
-      "Basic Tree Chopped": 18454,
+      "Basic Tree Chopped": 18474,
       "Gold Rock Mined": 456,
       "Iron Rock Mined": 2167,
       "VIP Chest Opened": 2,
@@ -6332,7 +6561,7 @@
     "mushrooms": {
       "mushrooms": {},
       "magicSpawnedAt": 1769860800000,
-      "spawnedAt": 1769817600000
+      "spawnedAt": 1769875200000
     },
     "delivery": {
       "orders": [
@@ -7336,7 +7565,7 @@
           "petXP": 0,
           "score": 0,
           "collectivePet": {
-            "totalXP": 7517182.5,
+            "totalXP": 7595752.5,
             "goalXP": 5445481,
             "goalReached": true,
             "streak": 8,
@@ -7936,65 +8165,65 @@
       },
       "Scary Mike": {
         "0": {
-          "-7": 1769872289579,
-          "-6": 1769872289797,
-          "-5": 1769872290011,
-          "-4": 1769872290450,
-          "-3": 1769872290664,
-          "-2": 1769872290894,
-          "-1": 1769872291123
+          "-7": 1769874992571,
+          "-6": 1769874992773,
+          "-5": 1769874992981,
+          "-4": 1769874993183,
+          "-3": 1769874993398,
+          "-2": 1769874993801,
+          "-1": 1769874993985
         },
         "1": {
-          "-1": 1769872291329,
-          "-2": 1769872291563,
-          "-3": 1769872292036,
-          "-4": 1769872292321,
-          "-5": 1769872292767,
-          "-6": 1769872293025,
-          "-7": 1769872293350
+          "-1": 1769874994467,
+          "-2": 1769874994745,
+          "-3": 1769874994982,
+          "-4": 1769874995265,
+          "-5": 1769874995401,
+          "-6": 1769874995708,
+          "-7": 1769874996081
         },
         "2": {
-          "-7": 1769872294025,
-          "-6": 1769872294218,
-          "-5": 1769872294430,
-          "-4": 1769872294844,
-          "-3": 1769872295071,
-          "-2": 1769872295286,
-          "-1": 1769872295730
+          "-7": 1769874996794,
+          "-6": 1769874996983,
+          "-5": 1769874997216,
+          "-4": 1769874997397,
+          "-3": 1769874997608,
+          "-2": 1769874997819,
+          "-1": 1769874998020
         },
         "3": {
-          "-1": 1769872296005,
-          "-2": 1769872296193,
-          "-6": 1769872298140,
-          "-5": 1769872298334,
-          "-7": 1769872298589
+          "-1": 1769874998255,
+          "-2": 1769874998458,
+          "-6": 1769875000482,
+          "-5": 1769875000650,
+          "-7": 1769875000878
         },
         "-3": {
-          "-1": 1769872283213,
-          "-2": 1769872283453,
-          "-3": 1769872283665,
-          "-4": 1769872283917,
-          "-5": 1769872284236,
-          "-6": 1769872284441,
-          "-7": 1769872284821
+          "-1": 1769874985688,
+          "-2": 1769874985940,
+          "-3": 1769874986148,
+          "-4": 1769874986382,
+          "-5": 1769874986854,
+          "-6": 1769874987101,
+          "-7": 1769874987337
         },
         "-2": {
-          "-7": 1769872285112,
-          "-6": 1769872285269,
-          "-5": 1769872285488,
-          "-4": 1769872285686,
-          "-3": 1769872286100,
-          "-2": 1769872286326,
-          "-1": 1769872286551
+          "-7": 1769874987581,
+          "-6": 1769874987806,
+          "-5": 1769874987985,
+          "-4": 1769874988246,
+          "-3": 1769874988648,
+          "-2": 1769874989065,
+          "-1": 1769874989741
         },
         "-1": {
-          "-1": 1769872286821,
-          "-2": 1769872287051,
-          "-3": 1769872287296,
-          "-4": 1769872287548,
-          "-6": 1769872288856,
-          "-7": 1769872288270,
-          "-5": 1769872287758
+          "-1": 1769874994259,
+          "-2": 1769874990260,
+          "-3": 1769874990477,
+          "-4": 1769874990692,
+          "-6": 1769874991469,
+          "-7": 1769874991872,
+          "-5": 1769874991135
         }
       },
       "Queen Cornelia": {
@@ -8080,45 +8309,45 @@
     },
     "boostsUsedAt": {
       "Maneki Neko": 1769829355473,
-      "Apprentice Beaver": 1769873047905,
+      "Apprentice Beaver": 1769876844872,
       "Efficient Bin": 1769872833840,
-      "Lumberjack's Extra": 1769873047905,
+      "Lumberjack's Extra": 1769876844872,
       "Premium Worms": 1769869157954,
       "Soil Krabby": 1769872833840,
-      "Squirrel": 1769873047905,
-      "Tiki Totem": 1769873047905,
-      "Tough Tree": 1769872970487,
-      "Wood Nymph Wendy": 1769873047905,
+      "Squirrel": 1769876844872,
+      "Tiki Totem": 1769876844872,
+      "Tough Tree": 1769876839750,
+      "Wood Nymph Wendy": 1769876844872,
       "Black Bearry": 1768923989426,
-      "Camel Onesie": 1769872276190,
+      "Camel Onesie": 1769877832361,
       "Ferrous Favor": 1769872253409,
       "Fruit Picker Apron": 1769462955874,
       "Iron Beetle": 1769872253409,
       "Iron Bumpkin": 1769872253409,
       "Iron Hustle": 1769872253409,
-      "Macaw": 1769872276190,
+      "Macaw": 1769877832361,
       "Rocky the Mole": 1769872253409,
       "Time Warp Totem": 1767515631606,
-      "Tree Turnaround": 1769872976816,
+      "Tree Turnaround": 1769876832675,
       "Corn Onesie": 1768771902818,
-      "Green Amulet": 1769872296005,
-      "Green Thumb": 1769872314839,
+      "Green Amulet": 1769874999836,
+      "Green Thumb": 1769875018571,
       "Laurie the Chuckle Crow": 1769858865671,
       "Laurie's Gains": 1769858865671,
-      "Lunar Calendar": 1769872314839,
+      "Lunar Calendar": 1769875018571,
       "Old Farmer": 1769858868937,
       "Poppy": 1768771902818,
       "Queen Cornelia": 1768771902503,
-      "Scarecrow": 1769872314839,
-      "Seed Specialist": 1769872314839,
-      "Strong Roots": 1769807836864,
+      "Scarecrow": 1769875018571,
+      "Seed Specialist": 1769875018571,
+      "Strong Roots": 1769875018571,
       "Gold Beetle": 1769847884527,
       "Golden Touch": 1769847884527,
       "Midas Rush": 1769847884527,
       "Midas Sprint": 1769847884527,
-      "Crimstone Armor": 1769791068665,
-      "Fire Kissed": 1769438653431,
-      "Desert Gnome": 1769873034772,
+      "Crimstone Armor": 1769877848317,
+      "Fire Kissed": 1769877848317,
+      "Desert Gnome": 1769876896118,
       "Foliant": 1768810358883,
       "Rice Panda": 1769249102132,
       "Money Tree": 1769869302995,
@@ -8126,13 +8355,13 @@
       "Forge-Ward Profits": 1769835802474,
       "Victoria's Secretary": 1769836091807,
       "Sheaf of Plenty": 1769858868937,
-      "Acre Farm": 1769872298589,
+      "Acre Farm": 1769875000878,
       "Young Farmer": 1761852831763,
       "Easter Bunny": 1768428862500,
-      "Experienced Farmer": 1769872298589,
-      "Horror Mike": 1769872298589,
+      "Experienced Farmer": 1769875000878,
+      "Horror Mike": 1769875000878,
       "Pablo The Bunny": 1768428862500,
-      "Scary Mike": 1769872298589,
+      "Scary Mike": 1769875000878,
       "Olive Royalty Shirt": 1769829368434,
       "Angler Waders": 1769694988253,
       "Fisherman's 5 Fold": 1769694988253,
@@ -8150,15 +8379,15 @@
       "Basic Scarecrow": 1761851779480,
       "Chonky Scarecrow": 1761851779480,
       "Beetroot Amulet": 1769276785107,
-      "Cannonball": 1769872279665,
-      "Tomato Bombard": 1769872276190,
+      "Cannonball": 1769877839590,
+      "Tomato Bombard": 1769877832361,
       "Turbo Charged": 1762666557408,
       "Victoria Sisters": 1755437961463,
       "Blossombeard": 1764726758010,
       "Munching Mastery": 1764726758010,
       "Observatory": 1764726758010,
       "Knowledge Crab": 1769670615044,
-      "Giant Yam": 1769872298589,
+      "Giant Yam": 1769875000878,
       "Lady Bug": 1758143392062,
       "Giant Kale": 1768810358883,
       "Treasure Map": 1761639345214,
@@ -8232,7 +8461,7 @@
         "2989": {
           "id": 2989,
           "name": "Pet #2989",
-          "experience": 2210,
+          "experience": 2220,
           "energy": 15,
           "requests": {
             "food": [
@@ -8244,7 +8473,7 @@
             ],
             "fedAt": 1763571476389
           },
-          "pettedAt": 1769869202489,
+          "pettedAt": 1769876843405,
           "traits": {
             "type": "Warthog",
             "fur": "Purple",

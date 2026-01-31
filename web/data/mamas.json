@@ -1,18 +1,30 @@
 {
   "username": "mamas",
   "overview": {
-    "balance": 37.64,
-    "coins": 21924.0,
+    "balance": 35.84,
+    "coins": 19684.0,
     "gems": 0.0,
     "earned_sfl": 2372.76,
-    "earned_coins": 21924.0,
+    "earned_coins": 19684.0,
     "spent_sfl": 6703.73,
     "items_sold": 3040.0,
     "trade_points": 37500.38,
-    "last_updated": "2026-01-31 03:54 PM",
+    "last_updated": "2026-01-31 05:14 PM",
     "active_listings": 4
   },
   "buys": [
+    {
+      "date": "2026-01-31",
+      "time": "04:24 PM",
+      "type": "BUY",
+      "item": "Lemon",
+      "quantity": 200,
+      "price_text": "1.8 SFL",
+      "price": 1.8,
+      "counterparty": "LongDIF",
+      "farm_id": "-",
+      "trade_id": "a800ccf8"
+    },
     {
       "date": "2026-01-31",
       "time": "03:10 PM",
@@ -822,15 +834,24 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 53,
+    "total_buys": 54,
     "total_sells": 14,
-    "buy_volume": 1341.7651999999996,
+    "buy_volume": 1343.5651999999995,
     "sell_volume": 1496.4400000000007,
-    "gross_profit": 154.67480000000114,
-    "avg_buy_price": 25.31632452830188,
+    "gross_profit": 152.8748000000012,
+    "avg_buy_price": 24.88083703703703,
     "avg_sell_price": 106.88857142857148,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Lemon",
+        "quantity": 200,
+        "price": 1.8,
+        "date": "2026-01-31",
+        "time": "04:24 PM",
+        "username": "mamas"
+      },
       {
         "type": "BUY",
         "item": "Cabbage",
@@ -873,8 +894,7 @@
         "quantity": 50,
         "price": 0.7927,
         "date": "2026-01-31",
-        "time": "01:15 PM",
-        "username": "mamas"
+        "time": "01:15 PM"
       },
       {
         "type": "BUY",
@@ -987,17 +1007,9 @@
         "price": 0.3074,
         "date": "2026-01-30",
         "time": "10:12 AM"
-      },
-      {
-        "type": "BUY",
-        "item": "Tomato",
-        "quantity": 100,
-        "price": 0.45,
-        "date": "2026-01-29",
-        "time": "10:20 PM"
       }
     ],
-    "profit_margin": 11.527709915266932,
+    "profit_margin": 11.37829410883828,
     "most_bought_items": {
       "Yam": 6590,
       "Broccoli": 4192,
@@ -1005,10 +1017,10 @@
       "Carrot": 1054,
       "Stone": 880,
       "Tomato": 500,
+      "Lemon": 400,
       "Cauliflower": 400,
       "Blueberry": 216,
-      "Pepper": 208,
-      "Lemon": 200
+      "Pepper": 208
     },
     "most_sold_items": {
       "Wood": 950,
@@ -1065,29 +1077,20 @@
       "created_at": 1769249431026,
       "collection": "collectibles",
       "trade_type": "instant"
-    },
-    {
-      "id": "adcb9655",
-      "item": "Cabbage",
-      "quantity": 500,
-      "price": 1.22,
-      "created_at": 1769870116896,
-      "collection": "collectibles",
-      "trade_type": "instant"
     }
   ],
   "inventory": {
     "crops": {
       "Sunflower": 105808.39720000062,
-      "Potato": 19108.708100000295,
+      "Potato": 19076.708100000295,
       "Pumpkin": 414.6123000000537,
       "Carrot": 756.695,
-      "Cabbage": 197.1931999999999,
+      "Cabbage": 697.1931999999999,
       "Beetroot": 106.87129999999999,
       "Cauliflower": 127.85099999999993,
       "Parsnip": 84.59039999999996,
       "Radish": 873.7407,
-      "Wheat": 6560.184700000001,
+      "Wheat": 6712.984700000001,
       "Kale": 121.96000000000004,
       "Eggplant": 61.69420000000005,
       "Corn": 4459.4413,
@@ -1098,11 +1101,11 @@
       "Rhubarb": 433.9999999999596,
       "Zucchini": 383.4436,
       "Yam": 1457.2059,
-      "Broccoli": 486.1149,
+      "Broccoli": 476.1149,
       "Pepper": 42.0867,
       "Onion": 783.2462,
       "Turnip": 308.8989,
-      "Artichoke": 2527.4205
+      "Artichoke": 2525.4205
     },
     "fruits": {
       "Apple": 89.70000000000005,
@@ -1110,16 +1113,16 @@
       "Orange": 485.88000000000034,
       "Banana": 3213.09,
       "Grape": 55.990000000000016,
-      "Tomato": 37.32000000000064,
-      "Lemon": 11.42000000000079,
+      "Tomato": 48.19000000000064,
+      "Lemon": 131.42000000000078,
       "Duskberry": 1.9900000000000126,
       "Lunara": 0.6000000000000131,
       "Celestine": 60.950000000000045
     },
     "resources": {
-      "Wood": 51078.53,
-      "Stone": 2.15,
-      "Iron": 948.95,
+      "Wood": 50733.78,
+      "Stone": 40.05,
+      "Iron": 986.85,
       "Gold": 149.3,
       "Crimstone": 285.4,
       "Obsidian": 60.8

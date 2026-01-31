@@ -1,18 +1,42 @@
 {
   "username": "droid",
   "overview": {
-    "balance": 0.56,
-    "coins": 159786.0,
+    "balance": 1.69,
+    "coins": 164515.0,
     "gems": 0.0,
-    "earned_sfl": 8178.7,
-    "earned_coins": 159786.0,
+    "earned_sfl": 8180.79,
+    "earned_coins": 164515.0,
     "spent_sfl": 12297.69,
     "items_sold": 7614.0,
     "trade_points": 11367.53,
-    "last_updated": "2026-01-31 03:54 PM",
+    "last_updated": "2026-01-31 05:14 PM",
     "active_listings": 5
   },
   "buys": [
+    {
+      "date": "2026-01-31",
+      "time": "04:11 PM",
+      "type": "BUY",
+      "item": "Tomato",
+      "quantity": 100,
+      "price_text": "0.4901 SFL",
+      "price": 0.4901,
+      "counterparty": "dungdz01",
+      "farm_id": "-",
+      "trade_id": "8cd7a25b"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "04:10 PM",
+      "type": "BUY",
+      "item": "Stone",
+      "quantity": 30,
+      "price_text": "0.4735 SFL",
+      "price": 0.4735,
+      "counterparty": "jessan",
+      "farm_id": "-",
+      "trade_id": "5e231479"
+    },
     {
       "date": "2026-01-31",
       "time": "03:26 PM",
@@ -1650,15 +1674,33 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 88,
+    "total_buys": 90,
     "total_sells": 48,
-    "buy_volume": 123.85959999999997,
+    "buy_volume": 124.82319999999997,
     "sell_volume": 117.4615,
-    "gross_profit": -6.398099999999971,
-    "avg_buy_price": 1.4074954545454543,
+    "gross_profit": -7.361699999999971,
+    "avg_buy_price": 1.3869244444444442,
     "avg_sell_price": 2.447114583333333,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Tomato",
+        "quantity": 100,
+        "price": 0.4901,
+        "date": "2026-01-31",
+        "time": "04:11 PM",
+        "username": "droid"
+      },
+      {
+        "type": "BUY",
+        "item": "Stone",
+        "quantity": 30,
+        "price": 0.4735,
+        "date": "2026-01-31",
+        "time": "04:10 PM",
+        "username": "droid"
+      },
       {
         "type": "BUY",
         "item": "Milk",
@@ -1692,8 +1734,7 @@
         "quantity": 25,
         "price": 3.12,
         "date": "2026-01-31",
-        "time": "02:49 PM",
-        "username": "droid"
+        "time": "02:49 PM"
       },
       {
         "type": "BUY",
@@ -1701,8 +1742,7 @@
         "quantity": 43,
         "price": 0.6837,
         "date": "2026-01-31",
-        "time": "11:08 AM",
-        "username": "droid"
+        "time": "11:08 AM"
       },
       {
         "type": "BUY",
@@ -1807,33 +1847,17 @@
         "price": 2.0995,
         "date": "2026-01-31",
         "time": "03:42 AM"
-      },
-      {
-        "type": "BUY",
-        "item": "Artichoke",
-        "quantity": 28,
-        "price": 0.2736,
-        "date": "2026-01-31",
-        "time": "03:37 AM"
-      },
-      {
-        "type": "BUY",
-        "item": "Milk",
-        "quantity": 10,
-        "price": 1.299,
-        "date": "2026-01-31",
-        "time": "03:36 AM"
       }
     ],
-    "profit_margin": -5.16560686454661,
+    "profit_margin": -5.897701709297609,
     "most_bought_items": {
       "Broccoli": 2300,
       "Yam": 1650,
       "Carrot": 600,
-      "Stone": 566,
+      "Stone": 596,
       "Milk": 472,
+      "Tomato": 350,
       "Artichoke": 291,
-      "Tomato": 250,
       "Lemon": 175,
       "Parsnip": 150,
       "Leather": 114
@@ -1902,7 +1926,7 @@
   "inventory": {
     "crops": {
       "Sunflower": 7564.535199987208,
-      "Potato": 4026.0014999946266,
+      "Potato": 4016.0014999946266,
       "Pumpkin": 111.6692,
       "Carrot": 352.6097,
       "Cabbage": 52.5857,
@@ -1920,28 +1944,28 @@
       "Barley": 40.73979999999994,
       "Rhubarb": 96.35,
       "Zucchini": 588.6496,
-      "Yam": 439.9633,
-      "Broccoli": 280.2199,
+      "Yam": 638.1633,
+      "Broccoli": 115.2199,
       "Pepper": 46.7,
       "Onion": 0.7929000000000271,
       "Turnip": 21.296100000000017,
       "Artichoke": 25.00610000000002
     },
     "fruits": {
-      "Apple": 40.0000000000005,
+      "Apple": 38.0000000000005,
       "Blueberry": 3.000000000005413,
       "Orange": 0.8000000000008347,
-      "Banana": 14.50000000000071,
+      "Banana": 0.5000000000007112,
       "Grape": 1.9,
-      "Tomato": 2.5000000000006337,
+      "Tomato": 81.40000000000063,
       "Lemon": 18.300000000001077,
       "Duskberry": 6e-15,
       "Lunara": 0.9000000000000099,
       "Celestine": 2.4000000000000252
     },
     "resources": {
-      "Wood": 240.27,
-      "Stone": 18.04,
+      "Wood": 175.27,
+      "Stone": 6.04,
       "Iron": 115.38,
       "Gold": 4.51,
       "Obsidian": 10.2,
