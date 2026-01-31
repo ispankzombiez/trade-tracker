@@ -1,18 +1,30 @@
 {
   "username": "mamas",
   "overview": {
-    "balance": 38.86,
-    "coins": 22424.0,
+    "balance": 37.64,
+    "coins": 21924.0,
     "gems": 0.0,
     "earned_sfl": 2372.76,
-    "earned_coins": 22424.0,
+    "earned_coins": 21924.0,
     "spent_sfl": 6703.73,
     "items_sold": 3040.0,
     "trade_points": 37500.38,
-    "last_updated": "2026-01-31 03:01 PM",
+    "last_updated": "2026-01-31 04:21 PM",
     "active_listings": 4
   },
   "buys": [
+    {
+      "date": "2026-01-31",
+      "time": "03:10 PM",
+      "type": "BUY",
+      "item": "Cabbage",
+      "quantity": 500,
+      "price_text": "1.22 SFL",
+      "price": 1.22,
+      "counterparty": "odinezy",
+      "farm_id": "-",
+      "trade_id": "adcb9655"
+    },
     {
       "date": "2026-01-31",
       "time": "02:16 PM",
@@ -810,15 +822,24 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 52,
+    "total_buys": 53,
     "total_sells": 14,
-    "buy_volume": 1340.5451999999996,
+    "buy_volume": 1341.7651999999996,
     "sell_volume": 1496.4400000000007,
-    "gross_profit": 155.89480000000117,
-    "avg_buy_price": 25.779715384615375,
+    "gross_profit": 154.67480000000114,
+    "avg_buy_price": 25.31632452830188,
     "avg_sell_price": 106.88857142857148,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Cabbage",
+        "quantity": 500,
+        "price": 1.22,
+        "date": "2026-01-31",
+        "time": "03:10 PM",
+        "username": "mamas"
+      },
       {
         "type": "BUY",
         "item": "Yam",
@@ -861,8 +882,7 @@
         "quantity": 500,
         "price": 0.8238,
         "date": "2026-01-31",
-        "time": "10:34 AM",
-        "username": "mamas"
+        "time": "10:34 AM"
       },
       {
         "type": "BUY",
@@ -975,21 +995,13 @@
         "price": 0.45,
         "date": "2026-01-29",
         "time": "10:20 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Stone",
-        "quantity": 100,
-        "price": 1.55,
-        "date": "2026-01-29",
-        "time": "08:34 PM"
       }
     ],
-    "profit_margin": 11.629208772669598,
+    "profit_margin": 11.527709915266932,
     "most_bought_items": {
       "Yam": 6590,
       "Broccoli": 4192,
-      "Cabbage": 2677,
+      "Cabbage": 3177,
       "Carrot": 1054,
       "Stone": 880,
       "Tomato": 500,
@@ -1069,8 +1081,8 @@
       "Sunflower": 105808.39720000062,
       "Potato": 19108.708100000295,
       "Pumpkin": 414.6123000000537,
-      "Carrot": 796.695,
-      "Cabbage": 217.1931999999999,
+      "Carrot": 756.695,
+      "Cabbage": 197.1931999999999,
       "Beetroot": 106.87129999999999,
       "Cauliflower": 127.85099999999993,
       "Parsnip": 84.59039999999996,
@@ -1085,7 +1097,7 @@
       "Barley": 10294.3565,
       "Rhubarb": 433.9999999999596,
       "Zucchini": 383.4436,
-      "Yam": 1472.2059,
+      "Yam": 1457.2059,
       "Broccoli": 486.1149,
       "Pepper": 42.0867,
       "Onion": 783.2462,
@@ -1098,16 +1110,16 @@
       "Orange": 485.88000000000034,
       "Banana": 3213.09,
       "Grape": 55.990000000000016,
-      "Tomato": 26.350000000000637,
+      "Tomato": 37.32000000000064,
       "Lemon": 11.42000000000079,
       "Duskberry": 1.9900000000000126,
       "Lunara": 0.6000000000000131,
       "Celestine": 60.950000000000045
     },
     "resources": {
-      "Wood": 51024.28,
+      "Wood": 51078.53,
       "Stone": 2.15,
-      "Iron": 955.95,
+      "Iron": 948.95,
       "Gold": 149.3,
       "Crimstone": 285.4,
       "Obsidian": 60.8

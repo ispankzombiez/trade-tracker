@@ -1,6 +1,6 @@
 {
   "id": 9239,
-  "totalTrades": 6528,
+  "totalTrades": 6529,
   "level": 134,
   "weeklyFlowerSpent": 1298.6273,
   "weeklyFlowerEarned": 16.38,
@@ -65,7 +65,9 @@
       },
       "sfl": 1.22,
       "collection": "collectibles",
-      "tradeType": "instant"
+      "tradeType": "instant",
+      "fulfilledAt": 1769872220889,
+      "fulfilledById": 8987094112835240
     }
   },
   "friends": [
@@ -101,6 +103,25 @@
     }
   ],
   "trades": [
+    {
+      "id": "adcb9655",
+      "sfl": 1.22,
+      "quantity": 500,
+      "itemId": 205,
+      "collection": "collectibles",
+      "source": "offer",
+      "fulfilledAt": 1769872220889,
+      "initiatedBy": {
+        "id": 9239,
+        "bumpkinUri": "0_v1_32_3_52_14_18_41_44",
+        "username": "odinezy"
+      },
+      "fulfilledBy": {
+        "id": 8987094112835240,
+        "bumpkinUri": "0_v1_83_158_67_0_0_133_500_293_30_433_0_0_0_410_344_0_444",
+        "username": "MAMAs"
+      }
+    },
     {
       "id": "4dcf3bf8",
       "sfl": 2.3,
@@ -1028,25 +1049,6 @@
       },
       "fulfilledBy": {
         "id": 130091,
-        "bumpkinUri": "0_v1_83_158_67_0_0_133_500_293_30_433_0_0_0_410_344_0_444",
-        "username": "MAMAs"
-      }
-    },
-    {
-      "id": "0b103386",
-      "sfl": 0.6199,
-      "quantity": 5,
-      "itemId": 641,
-      "collection": "collectibles",
-      "source": "offer",
-      "fulfilledAt": 1769358766212,
-      "initiatedBy": {
-        "id": 9239,
-        "bumpkinUri": "0_v1_32_1_52_13_18_41_23_395",
-        "username": "dphuc"
-      },
-      "fulfilledBy": {
-        "id": 970306776318254,
         "bumpkinUri": "0_v1_83_158_67_0_0_133_500_293_30_433_0_0_0_410_344_0_444",
         "username": "MAMAs"
       }

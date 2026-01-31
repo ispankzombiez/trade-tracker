@@ -1,7 +1,7 @@
 {
   "farm": {
     "coins": 14062.70187850043,
-    "balance": "22883.002837479809006",
+    "balance": "22881.242537479809006",
     "previousBalance": "18642.145790072142067",
     "inventory": {
       "Sunflower": "753724.6301000643438",
@@ -7454,7 +7454,9 @@
           },
           "sfl": 1.7603,
           "collection": "collectibles",
-          "tradeType": "instant"
+          "tradeType": "instant",
+          "fulfilledAt": 1769873043779,
+          "fulfilledById": 41740
         },
         "798d49e6": {
           "createdAt": 1767836806954,
@@ -11927,16 +11929,16 @@
     "floatingIsland": {
       "schedule": [
         {
-          "startAt": 1769869200000,
-          "endAt": 1769871000000
-        },
-        {
           "startAt": 1769899200000,
           "endAt": 1769901000000
         },
         {
           "startAt": 1769929200000,
           "endAt": 1769931000000
+        },
+        {
+          "startAt": 1769959200000,
+          "endAt": 1769961000000
         }
       ],
       "shop": {
@@ -15383,7 +15385,7 @@
           "petXP": 9720,
           "score": 4948.000000000002,
           "collectivePet": {
-            "totalXP": 6164175,
+            "totalXP": 6222275,
             "goalXP": 10263180,
             "goalReached": false,
             "streak": 10,
