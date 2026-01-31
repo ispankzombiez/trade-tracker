@@ -1,7 +1,7 @@
 {
   "farm": {
     "coins": 166852.15739999924,
-    "balance": "9.1278709102868796",
+    "balance": "1.9367709102868796",
     "previousBalance": "13.4986759102868811",
     "inventory": {
       "Pumpkin Seed": "900",
@@ -43,11 +43,11 @@
       "Pumpkin": "111.6692",
       "Carrot": "352.6097",
       "Cabbage": "52.5857000000000004",
-      "Beetroot": "18.4556000000000642",
+      "Beetroot": "38.4556000000000642",
       "Cauliflower": "14.7508999999999256",
-      "Parsnip": "1.1189999999999261",
+      "Parsnip": "11.1189999999999261",
       "Radish": "287.2946999999998144",
-      "Wheat": "211.3798999999988634",
+      "Wheat": "388.0782999999988634",
       "Kale": "65.220999999999906",
       "Apple": "21.5000000000004928",
       "Blueberry": "3.0000000000054129",
@@ -68,11 +68,11 @@
       "Rice": "0.991",
       "Olive": "2.1548",
       "Tomato": "77.5000000000006339",
-      "Lemon": "83.300000000001077",
+      "Lemon": "78.300000000001077",
       "Barley": "50.7397999999999357",
       "Rhubarb": "96.35",
       "Zucchini": "588.6496",
-      "Yam": "183.3633",
+      "Yam": "382.5633",
       "Broccoli": "290.2199",
       "Pepper": "46.7",
       "Onion": "0.7929000000000271",
@@ -144,7 +144,7 @@
       "Wheat Cake": "11",
       "Bumpkin Broth": "9",
       "Goblin's Treat": "7",
-      "Club Sandwich": "1",
+      "Club Sandwich": "3",
       "Roast Veggies": "4",
       "Kale & Mushroom Pie": "1",
       "Mushroom Jacket Potatoes": "1",
@@ -156,7 +156,7 @@
       "Fried Tofu": "8",
       "Quick Juice": "4",
       "Antipasto": "3",
-      "Wood": "136.67",
+      "Wood": "177.82",
       "Stone": "110.04",
       "Iron": "0.52",
       "Gold": "4.51",
@@ -164,7 +164,7 @@
       "Speed Chicken": "1",
       "Fat Chicken": "1",
       "Rich Chicken": "1",
-      "Honey": "12.33641279334498307",
+      "Honey": "9.33641279334498307",
       "Wild Mushroom": "19.4",
       "Magic Mushroom": "324",
       "Tree": "19",
@@ -174,7 +174,7 @@
       "Crop Plot": "65",
       "Fruit Patch": "15",
       "Basic Land": "18",
-      "Earthworm": "4461",
+      "Earthworm": "4465",
       "Grub": "2429",
       "Red Wiggler": "723",
       "Fruitful Blend": "43",
@@ -188,7 +188,7 @@
       "Leather": "2.5",
       "Merino Wool": "4.4",
       "Feather": "582.6",
-      "Milk": "36.4",
+      "Milk": "21.4",
       "Hay": "6.7198500000003214",
       "Kernel Blend": "0.6408750000001554",
       "NutriBarley": "0.6010000000000904",
@@ -488,7 +488,7 @@
       "Giant Yam": "1",
       "Green Holiday Ornament": "1",
       "Penguin Surprise": "1",
-      "Sprout Mix": "368",
+      "Sprout Mix": "379",
       "Celestial Frostbloom": "4",
       "Purple Pansy": "2",
       "White Pansy": "2",
@@ -499,7 +499,7 @@
       "Potato Cake": "1",
       "Wool": "16.25",
       "Gem": "4539",
-      "Yam Seed": "204",
+      "Yam Seed": "80",
       "Yellow Cosmos": "5",
       "Fermented Carrots": "3",
       "Gilded Doll": "2",
@@ -513,7 +513,7 @@
       "Thermal Stone": "1",
       "Lunar Temple": "1",
       "Orange Cake": "4",
-      "Love Charm": "622",
+      "Love Charm": "625",
       "Paw Prints Raffle Ticket": "250",
       "Smokey": "1",
       "Tuna": "129",
@@ -525,10 +525,10 @@
       "Purple Lotus": "3",
       "White Lotus": "1",
       "Yellow Lotus": "1",
-      "Wheat Seed": "240",
+      "Wheat Seed": "246",
       "Apple Juice": "9",
       "Blue Pansy": "2",
-      "Axe": "267",
+      "Axe": "244",
       "Rock Blackfish": "7",
       "Purple Cauliflower": "1",
       "Fruit Salad": "3",
@@ -564,8 +564,9 @@
       "Potato Seed": "720",
       "Sunflower Seed": "1440",
       "Sunflower Cake": "2",
-      "Cheese": "32",
-      "Fish Oil": "1"
+      "Cheese": "52",
+      "Fish Oil": "1",
+      "Pancakes": "2"
     },
     "previousInventory": {
       "Sunflower Seed": "1260",
@@ -3059,14 +3060,10 @@
         "x": 7,
         "y": -1,
         "crop": {
-          "id": "c4244093",
-          "plantedAt": 1769758271708,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "1d6cf527",
+          "plantedAt": 1769849375453,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "2": {
@@ -3074,14 +3071,10 @@
         "x": 2,
         "y": -2,
         "crop": {
-          "id": "420f24e8",
-          "plantedAt": 1769758289338,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "4187bff8",
+          "plantedAt": 1769849397742,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "3": {
@@ -3089,14 +3082,10 @@
         "x": 3,
         "y": -2,
         "crop": {
-          "id": "f14ae234",
-          "plantedAt": 1769758285530,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "97c5b9a1",
+          "plantedAt": 1769849387178,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "4": {
@@ -3104,14 +3093,10 @@
         "x": 7,
         "y": -2,
         "crop": {
-          "id": "6b8a9fa1",
-          "plantedAt": 1769758270144,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "9095caab",
+          "plantedAt": 1769849375040,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "5": {
@@ -3119,14 +3104,10 @@
         "x": 0,
         "y": -2,
         "crop": {
-          "id": "b4340b46",
-          "plantedAt": 1769758301957,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "7e4ac883",
+          "plantedAt": 1769849398647,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "6": {
@@ -3134,14 +3115,10 @@
         "x": 1,
         "y": -2,
         "crop": {
-          "id": "fac5b7f5",
-          "plantedAt": 1769758292349,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "5f1ace6f",
+          "plantedAt": 1769849398196,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "7": {
@@ -3149,14 +3126,10 @@
         "x": 7,
         "y": 0,
         "crop": {
-          "id": "77b47087",
-          "plantedAt": 1769758269317,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "cc827a52",
+          "plantedAt": 1769849375873,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "8": {
@@ -3164,14 +3137,10 @@
         "x": 2,
         "y": -1,
         "crop": {
-          "id": "da8a71fd",
-          "plantedAt": 1769758291847,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "e71f8544",
+          "plantedAt": 1769849397130,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "9": {
@@ -3179,14 +3148,10 @@
         "x": 2,
         "y": 4,
         "crop": {
-          "id": "bcb84963",
-          "plantedAt": 1769758287554,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "52c00e3b",
+          "plantedAt": 1769849390314,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "10": {
@@ -3194,14 +3159,10 @@
         "x": 3,
         "y": -1,
         "crop": {
-          "id": "2deae552",
-          "plantedAt": 1769758285146,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "256a8eb1",
+          "plantedAt": 1769849387601,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "11": {
@@ -3209,14 +3170,10 @@
         "x": 4,
         "y": 1,
         "crop": {
-          "id": "dd92e602",
-          "plantedAt": 1769758286706,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "5188496a",
+          "plantedAt": 1769849385477,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "12": {
@@ -3224,14 +3181,10 @@
         "x": 4,
         "y": 0,
         "crop": {
-          "id": "6b4294a1",
-          "plantedAt": 1769758281231,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "7073c31b",
+          "plantedAt": 1769849385903,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "13": {
@@ -3239,14 +3192,10 @@
         "x": 5,
         "y": -2,
         "crop": {
-          "id": "d641bc8c",
-          "plantedAt": 1769758277402,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "185323db",
+          "plantedAt": 1769849381272,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "14": {
@@ -3254,14 +3203,10 @@
         "x": 4,
         "y": -1,
         "crop": {
-          "id": "8d1c1d55",
-          "plantedAt": 1769758280695,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "0239851a",
+          "plantedAt": 1769849386329,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "15": {
@@ -3269,14 +3214,10 @@
         "x": 4,
         "y": -2,
         "crop": {
-          "id": "305d16b5",
-          "plantedAt": 1769758280231,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "3fe64d19",
+          "plantedAt": 1769849386745,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "16": {
@@ -3284,14 +3225,10 @@
         "x": 6,
         "y": 0,
         "crop": {
-          "id": "360bbc99",
-          "plantedAt": 1769758272726,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "6bc810d0",
+          "plantedAt": 1769849379916,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "17": {
@@ -3299,14 +3236,10 @@
         "x": 6,
         "y": -1,
         "crop": {
-          "id": "e4f433d4",
-          "plantedAt": 1769758272308,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "4f1f5300",
+          "plantedAt": 1769849380327,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "18": {
@@ -3314,14 +3247,10 @@
         "x": 6,
         "y": -2,
         "crop": {
-          "id": "267f730f",
-          "plantedAt": 1769758271442,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "c264ea0b",
+          "plantedAt": 1769849380798,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "99797995": {
@@ -3329,14 +3258,10 @@
         "x": 3,
         "y": 1,
         "crop": {
-          "id": "7cea2560",
-          "plantedAt": 1769758286467,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "fb7d6175",
+          "plantedAt": 1769849388468,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "0744df26": {
@@ -3344,14 +3269,10 @@
         "x": 7,
         "y": 1,
         "crop": {
-          "id": "3944d5b0",
-          "plantedAt": 1769758268920,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "d87c0ac6",
+          "plantedAt": 1769849376369,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "1282651b": {
@@ -3359,14 +3280,10 @@
         "x": 0,
         "y": 4,
         "crop": {
-          "id": "ce2a201c",
-          "plantedAt": 1769758297442,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "272e9088",
+          "plantedAt": 1769849391303,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "1d471133": {
@@ -3374,14 +3291,10 @@
         "x": 8,
         "y": 3,
         "crop": {
-          "id": "3f982be1",
-          "plantedAt": 1769758267126,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "cac8b03e",
+          "plantedAt": 1769849371816,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "28ad3b2a": {
@@ -3389,14 +3302,10 @@
         "x": 6,
         "y": 1,
         "crop": {
-          "id": "28df09a3",
-          "plantedAt": 1769758272966,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "5c71137c",
+          "plantedAt": 1769849379444,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "33a980c3": {
@@ -3404,14 +3313,10 @@
         "x": 8,
         "y": -1,
         "crop": {
-          "id": "a55d405b",
-          "plantedAt": 1769758263291,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "f736c245",
+          "plantedAt": 1769849373703,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "44290a94": {
@@ -3419,14 +3324,10 @@
         "x": 1,
         "y": -1,
         "crop": {
-          "id": "81e067bb",
-          "plantedAt": 1769758292821,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "936dc072",
+          "plantedAt": 1769849396671,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "51ec1316": {
@@ -3434,14 +3335,10 @@
         "x": 8,
         "y": 2,
         "crop": {
-          "id": "c4901303",
-          "plantedAt": 1769758265045,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "f3faf478",
+          "plantedAt": 1769849372261,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "5f8ce834": {
@@ -3449,14 +3346,10 @@
         "x": 8,
         "y": 0,
         "crop": {
-          "id": "b55743fb",
-          "plantedAt": 1769758263874,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "5e6f72f6",
+          "plantedAt": 1769849373256,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "6f56e847": {
@@ -3464,14 +3357,10 @@
         "x": 1,
         "y": 0,
         "crop": {
-          "id": "238f718e",
-          "plantedAt": 1769758298437,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "dbf3b7f3",
+          "plantedAt": 1769849396246,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "70e27e1e": {
@@ -3479,14 +3368,10 @@
         "x": -1,
         "y": -2,
         "crop": {
-          "id": "98d9fa50",
-          "plantedAt": 1769758301388,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "ac396462",
+          "plantedAt": 1769849399062,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "8bbcda03": {
@@ -3494,14 +3379,10 @@
         "x": 0,
         "y": 2,
         "crop": {
-          "id": "08607c77",
-          "plantedAt": 1769758296827,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "c97a84f8",
+          "plantedAt": 1769849394126,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "bd6b6f08": {
@@ -3509,14 +3390,10 @@
         "x": 5,
         "y": 0,
         "crop": {
-          "id": "55ffc1d9",
-          "plantedAt": 1769758276808,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "941edffd",
+          "plantedAt": 1769849382102,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "c177a10f": {
@@ -3524,14 +3401,10 @@
         "x": 5,
         "y": 3,
         "crop": {
-          "id": "2ad74764",
-          "plantedAt": 1769758278784,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "9f41d49d",
+          "plantedAt": 1769849383338,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "f75044af": {
@@ -3539,14 +3412,10 @@
         "x": 8,
         "y": 1,
         "crop": {
-          "id": "9230a35e",
-          "plantedAt": 1769758264504,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "786e1441",
+          "plantedAt": 1769849372720,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "0b87fc06": {
@@ -3554,14 +3423,10 @@
         "x": 0,
         "y": 1,
         "crop": {
-          "id": "c7ac8474",
-          "plantedAt": 1769758298683,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "d29cb4c9",
+          "plantedAt": 1769849394536,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "10878be1": {
@@ -3569,14 +3434,10 @@
         "x": 8,
         "y": 4,
         "crop": {
-          "id": "4d48da94",
-          "plantedAt": 1769758265861,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "69f898f7",
+          "plantedAt": 1769849369639,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "1fa5e9ac": {
@@ -3584,14 +3445,10 @@
         "x": 5,
         "y": 2,
         "crop": {
-          "id": "acd30b59",
-          "plantedAt": 1769758276207,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "27279f9a",
+          "plantedAt": 1769849382910,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "336ef7a2": {
@@ -3599,14 +3456,10 @@
         "x": -1,
         "y": 1,
         "crop": {
-          "id": "726c681e",
-          "plantedAt": 1769758302320,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "c6763c9a",
+          "plantedAt": 1769849400433,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "45b5e2a4": {
@@ -3614,14 +3467,10 @@
         "x": -1,
         "y": -1,
         "crop": {
-          "id": "c0a6ee81",
-          "plantedAt": 1769758301030,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "95403fb8",
+          "plantedAt": 1769849399567,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "490ba458": {
@@ -3629,14 +3478,10 @@
         "x": 3,
         "y": 0,
         "crop": {
-          "id": "c47580b8",
-          "plantedAt": 1769758286227,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "e6751d1d",
+          "plantedAt": 1769849388051,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "53454cf9": {
@@ -3644,14 +3489,10 @@
         "x": 7,
         "y": 4,
         "crop": {
-          "id": "e3225dac",
-          "plantedAt": 1769758266745,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "cc2f8c92",
+          "plantedAt": 1769849377692,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "56fb8cfb": {
@@ -3659,14 +3500,10 @@
         "x": 2,
         "y": 0,
         "crop": {
-          "id": "84fa4db5",
-          "plantedAt": 1769758288740,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "3b43c55b",
+          "plantedAt": 1769849395797,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "5ff027fb": {
@@ -3674,14 +3511,10 @@
         "x": 5,
         "y": -1,
         "crop": {
-          "id": "eb97cba7",
-          "plantedAt": 1769758278105,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "72111f4f",
+          "plantedAt": 1769849381695,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "642b12b1": {
@@ -3689,14 +3522,10 @@
         "x": 4,
         "y": 4,
         "crop": {
-          "id": "2009b322",
-          "plantedAt": 1769758283061,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "f53bd067",
+          "plantedAt": 1769849384219,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "64f2508e": {
@@ -3704,14 +3533,10 @@
         "x": 1,
         "y": 1,
         "crop": {
-          "id": "fd9d4d38",
-          "plantedAt": 1769758293446,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "c1ddd09d",
+          "plantedAt": 1769849394941,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "7043a7d8": {
@@ -3719,14 +3544,10 @@
         "x": 3,
         "y": 3,
         "crop": {
-          "id": "f49437a8",
-          "plantedAt": 1769758286960,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "2e6b529b",
+          "plantedAt": 1769849389344,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "77b9ebdd": {
@@ -3734,14 +3555,10 @@
         "x": 0,
         "y": 3,
         "crop": {
-          "id": "ede8e2e1",
-          "plantedAt": 1769758299241,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "0e0882e5",
+          "plantedAt": 1769849391796,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "77c7f67d": {
@@ -3749,14 +3566,10 @@
         "x": 2,
         "y": 2,
         "crop": {
-          "id": "85ba6fc1",
-          "plantedAt": 1769758288178,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "d2ce1ead",
+          "plantedAt": 1769849393157,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "79ac96ab": {
@@ -3764,14 +3577,10 @@
         "x": 1,
         "y": 3,
         "crop": {
-          "id": "ac341c28",
-          "plantedAt": 1769758294044,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "ac6aa696",
+          "plantedAt": 1769849392248,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "8bf914fa": {
@@ -3779,14 +3588,10 @@
         "x": 1,
         "y": 4,
         "crop": {
-          "id": "8ad5d54c",
-          "plantedAt": 1769758294449,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "c27b6d31",
+          "plantedAt": 1769849390793,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "8cbd5376": {
@@ -3794,14 +3599,10 @@
         "x": -1,
         "y": 0,
         "crop": {
-          "id": "7d6182cb",
-          "plantedAt": 1769758300614,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "b0eca3e9",
+          "plantedAt": 1769849400029,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "8fceb115": {
@@ -3809,14 +3610,10 @@
         "x": 7,
         "y": 3,
         "crop": {
-          "id": "fe8b3cdb",
-          "plantedAt": 1769758267739,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "730ce35d",
+          "plantedAt": 1769849377262,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "a27f7605": {
@@ -3824,14 +3621,10 @@
         "x": 6,
         "y": 3,
         "crop": {
-          "id": "42232c2b",
-          "plantedAt": 1769758274552,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "6cd6770f",
+          "plantedAt": 1769849378530,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "a5bc9836": {
@@ -3839,14 +3632,10 @@
         "x": 4,
         "y": 2,
         "crop": {
-          "id": "ece5c176",
-          "plantedAt": 1769758282016,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "716f9bad",
+          "plantedAt": 1769849385048,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "ad446ae6": {
@@ -3854,14 +3643,10 @@
         "x": 8,
         "y": -2,
         "crop": {
-          "id": "2ba04aee",
-          "plantedAt": 1769758262736,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "70f60721",
+          "plantedAt": 1769849374597,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "ad9d29c9": {
@@ -3869,14 +3654,10 @@
         "x": 3,
         "y": 2,
         "crop": {
-          "id": "e9381dfd",
-          "plantedAt": 1769758284315,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "e9f5a2ec",
+          "plantedAt": 1769849388887,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "bbbe4036": {
@@ -3884,14 +3665,10 @@
         "x": 6,
         "y": 2,
         "crop": {
-          "id": "5939449b",
-          "plantedAt": 1769758274122,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "68db6109",
+          "plantedAt": 1769849378926,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "bec7206f": {
@@ -3899,14 +3676,10 @@
         "x": 3,
         "y": 4,
         "crop": {
-          "id": "d94f9806",
-          "plantedAt": 1769758283490,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "976a5058",
+          "plantedAt": 1769849389839,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "c044345a": {
@@ -3914,14 +3687,10 @@
         "x": 4,
         "y": 3,
         "crop": {
-          "id": "6d1c079b",
-          "plantedAt": 1769758282487,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "0cde62f5",
+          "plantedAt": 1769849384639,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "cc761062": {
@@ -3929,14 +3698,10 @@
         "x": 2,
         "y": 1,
         "crop": {
-          "id": "71ec7ada",
-          "plantedAt": 1769758290030,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "f19035f2",
+          "plantedAt": 1769849395358,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "cd2ccba0": {
@@ -3944,14 +3709,10 @@
         "x": 1,
         "y": 2,
         "crop": {
-          "id": "0333bd69",
-          "plantedAt": 1769758295354,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "94964df4",
+          "plantedAt": 1769849393623,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "d0a4e23e": {
@@ -3959,14 +3720,10 @@
         "x": 6,
         "y": 4,
         "crop": {
-          "id": "e23a3653",
-          "plantedAt": 1769758274958,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "a5223b95",
+          "plantedAt": 1769849378112,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "dbd0891d": {
@@ -3974,14 +3731,10 @@
         "x": 5,
         "y": 4,
         "crop": {
-          "id": "09ed75f0",
-          "plantedAt": 1769758275402,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "4ec5f842",
+          "plantedAt": 1769849383789,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "f5916b7d": {
@@ -3989,14 +3742,10 @@
         "x": 5,
         "y": 1,
         "crop": {
-          "id": "929c84cf",
-          "plantedAt": 1769758278444,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "8f085ea1",
+          "plantedAt": 1769849382516,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "f7cbb33f": {
@@ -4004,14 +3753,10 @@
         "x": 2,
         "y": 3,
         "crop": {
-          "id": "0732266b",
-          "plantedAt": 1769758290626,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "9396e7f6",
+          "plantedAt": 1769849392746,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       },
       "ff6bcaaf": {
@@ -4019,14 +3764,10 @@
         "x": 7,
         "y": 2,
         "crop": {
-          "id": "16a66aab",
-          "plantedAt": 1769758268279,
-          "boostedTime": 29887920,
-          "name": "Wheat"
-        },
-        "beeSwarm": {
-          "count": 1,
-          "swarmActivatedAt": 1769830545393
+          "id": "93cc650c",
+          "plantedAt": 1769849376830,
+          "boostedTime": 983700.0000000002,
+          "name": "Yam"
         }
       }
     },
@@ -4034,7 +3775,7 @@
       "1": {
         "createdAt": 1752267606520,
         "wood": {
-          "choppedAt": 1769842726889
+          "choppedAt": 1769849677204
         },
         "x": -1,
         "y": -3
@@ -4042,7 +3783,7 @@
       "e7a72c62": {
         "createdAt": 1752802052822,
         "wood": {
-          "choppedAt": 1769842729740
+          "choppedAt": 1769849676624
         },
         "x": 1,
         "y": -3
@@ -4050,7 +3791,7 @@
       "fed54575": {
         "createdAt": 1752802056907,
         "wood": {
-          "choppedAt": 1769842730339
+          "choppedAt": 1769849676031
         },
         "x": 3,
         "y": -3
@@ -4058,7 +3799,7 @@
       "9591f700": {
         "createdAt": 1752802734373,
         "wood": {
-          "choppedAt": 1769842734373
+          "choppedAt": 1769849673107
         },
         "x": 5,
         "y": -3
@@ -4066,7 +3807,7 @@
       "04faba43": {
         "createdAt": 1752802823570,
         "wood": {
-          "choppedAt": 1769842733791
+          "choppedAt": 1769849672526
         },
         "x": 7,
         "y": -3
@@ -4074,7 +3815,7 @@
       "5d569134": {
         "createdAt": 1753154795176,
         "wood": {
-          "choppedAt": 1769842737426
+          "choppedAt": 1769849669576
         },
         "x": 9,
         "y": -3
@@ -4082,7 +3823,7 @@
       "60d1eff2": {
         "createdAt": 1753154794062,
         "wood": {
-          "choppedAt": 1769842726234
+          "choppedAt": 1769849678398
         },
         "x": -3,
         "y": -5
@@ -4090,7 +3831,7 @@
       "95b1315a": {
         "createdAt": 1753154794302,
         "wood": {
-          "choppedAt": 1769842727461
+          "choppedAt": 1769849678960
         },
         "x": -1,
         "y": -5
@@ -4098,7 +3839,7 @@
       "aaf133e6": {
         "createdAt": 1753691785275,
         "wood": {
-          "choppedAt": 1769842729193
+          "choppedAt": 1769849679795
         },
         "x": 1,
         "y": -5
@@ -4106,7 +3847,7 @@
       "b2b0449e": {
         "createdAt": 1753691866820,
         "wood": {
-          "choppedAt": 1769842730871
+          "choppedAt": 1769849675440
         },
         "x": 3,
         "y": -5
@@ -4114,7 +3855,7 @@
       "7abaf16b": {
         "createdAt": 1753693113779,
         "wood": {
-          "choppedAt": 1769842732613
+          "choppedAt": 1769849673684
         },
         "x": 5,
         "y": -5
@@ -4122,7 +3863,7 @@
       "805a5f8a": {
         "createdAt": 1753693113209,
         "wood": {
-          "choppedAt": 1769842735113
+          "choppedAt": 1769849671986
         },
         "x": 7,
         "y": -5
@@ -4130,7 +3871,7 @@
       "af07f2a7": {
         "createdAt": 1753693112786,
         "wood": {
-          "choppedAt": 1769842736851
+          "choppedAt": 1769849670189
         },
         "x": 9,
         "y": -5
@@ -4138,7 +3879,7 @@
       "bdbe8b51": {
         "createdAt": 1753693689421,
         "wood": {
-          "choppedAt": 1769842728056
+          "choppedAt": 1769849681057
         },
         "x": -1,
         "y": -7
@@ -4146,7 +3887,7 @@
       "4b42b949": {
         "createdAt": 1753694759088,
         "wood": {
-          "choppedAt": 1769842728585
+          "choppedAt": 1769849680432
         },
         "x": 1,
         "y": -7
@@ -4154,7 +3895,7 @@
       "5f7cc365": {
         "createdAt": 1753694756337,
         "wood": {
-          "choppedAt": 1769842731413
+          "choppedAt": 1769849674869
         },
         "x": 3,
         "y": -7
@@ -4162,7 +3903,7 @@
       "b93cb71f": {
         "createdAt": 1753694756716,
         "wood": {
-          "choppedAt": 1769842732033
+          "choppedAt": 1769849674275
         },
         "x": 5,
         "y": -7
@@ -4170,7 +3911,7 @@
       "d919be8c": {
         "createdAt": 1753875596833,
         "wood": {
-          "choppedAt": 1769842735702
+          "choppedAt": 1769849671385
         },
         "x": 7,
         "y": -7
@@ -4178,7 +3919,7 @@
       "e7e04674": {
         "createdAt": 1753875598816,
         "wood": {
-          "choppedAt": 1769842736282
+          "choppedAt": 1769849670801
         },
         "x": 9,
         "y": -7
@@ -4186,7 +3927,7 @@
       "dce7c621": {
         "createdAt": 1762819920152,
         "wood": {
-          "choppedAt": 1769842720662
+          "choppedAt": 1769849677786
         },
         "tier": 2,
         "name": "Ancient Tree",
@@ -5279,7 +5020,7 @@
               "skills": {
                 "Double Nom": true
               },
-              "readyAt": 1769844092424
+              "readyAt": 1769850505708
             },
             {
               "name": "Cheese",
@@ -5289,7 +5030,7 @@
               "skills": {
                 "Double Nom": true
               },
-              "readyAt": 1769844524424
+              "readyAt": 1769850937708
             },
             {
               "name": "Cheese",
@@ -5299,7 +5040,7 @@
               "skills": {
                 "Double Nom": true
               },
-              "readyAt": 1769844956424
+              "readyAt": 1769851369708
             },
             {
               "name": "Cheese",
@@ -5309,10 +5050,10 @@
               "skills": {
                 "Double Nom": true
               },
-              "readyAt": 1769845388424
+              "readyAt": 1769851801708
             }
           ],
-          "oil": 28.666666666666643,
+          "oil": 26.999999999999964,
           "coordinates": {
             "x": -8,
             "y": 9
@@ -5326,24 +5067,24 @@
           "readyAt": 1753670318514,
           "crafting": [
             {
-              "name": "Club Sandwich",
+              "name": "Bumpkin Salad",
               "boost": {
                 "Oil": 0
               },
               "skills": {
                 "Double Nom": true
               },
-              "readyAt": 1769843358373
+              "readyAt": 1769858204957
             },
             {
-              "name": "Pancakes",
+              "name": "Bumpkin Salad",
               "boost": {
                 "Oil": 0
               },
               "skills": {
                 "Double Nom": true
               },
-              "readyAt": 1769846274373
+              "readyAt": 1769868410957
             }
           ],
           "oil": 0,
@@ -5497,8 +5238,8 @@
               "Sprout Mix": 11,
               "Earthworm": 4
             },
-            "startedAt": 1769830351593,
-            "readyAt": 1769849791593
+            "startedAt": 1769850385344,
+            "readyAt": 1769869825344
           }
         }
       ],
@@ -7461,7 +7202,7 @@
       "Soybean Seed Bought": 6462,
       "Tofu Scramble Cooked": 66,
       "Orange Juice Cooked": 1005,
-      "Pancakes Cooked": 86,
+      "Pancakes Cooked": 87,
       "Mahi Mahi Fed": 313,
       "Banana Plant Planted": 575,
       "Bumpkin Detox Fed": 331,
@@ -7496,7 +7237,7 @@
       "Kraken Tentacle Traded": 90,
       "Sunflower Sold": 2122.35,
       "Turtle Bear Dug": 1,
-      "Wheat Harvested": 22871,
+      "Wheat Harvested": 22936,
       "Blueberry Seed Planted": 3355,
       "Butterflyfish Fed": 50,
       "Wheat Cake Cooked": 40,
@@ -7522,7 +7263,7 @@
       "Oil Drill Crafted": 1357,
       "Rice Harvested": 1497,
       "Wheat Planted": 19602,
-      "Compost Bin Collected": 2591,
+      "Compost Bin Collected": 2592,
       "Soil Krabby Crafted": 1,
       "Apple Sold": 5877.7,
       "Popcorn Cooked": 1453,
@@ -7608,7 +7349,7 @@
       "Sand Drill Crafted": 380,
       "Surgeonfish Fed": 60,
       "Bumpkin ganoush Cooked": 527,
-      "Club Sandwich Cooked": 172,
+      "Club Sandwich Cooked": 173,
       "Solar Lantern Crafted": 5,
       "Grape Seed Bought": 479,
       "Fish n Chips Cooked": 52,
@@ -7720,7 +7461,7 @@
       "Sea Cucumber Sold": 322,
       "Eggplant Seed Bought": 12075,
       "Lily Seed Bought": 257,
-      "Tree Chopped": 228199,
+      "Tree Chopped": 228222,
       "Power Smoothie Cooked": 756,
       "Orange Seed Bought": 874,
       "Power Smoothie Fed": 686,
@@ -7876,15 +7617,15 @@
       "Leather Collected": 1125,
       "Treasure Key Bought": 11,
       "NutriBarley Mixed": 4764,
-      "Barn Delight Mixed": 268,
-      "Chicken Cured": 244,
+      "Barn Delight Mixed": 269,
+      "Chicken Cured": 245,
       "Cow Cured": 27,
       "Sunlit Citadel Crafted": 1,
       "Baobab Tree Crafted": 1,
       "White Carrot Sold": 1,
       "Chicken Sold": 20,
       "Hen House Sold": 1,
-      "Cheese Cooked": 2609,
+      "Cheese Cooked": 2619,
       "Music Box Crafted": 1,
       "Sheep Cured": 19,
       "Cowboy Hat Bought": 1,
@@ -7917,10 +7658,10 @@
       "Broccoli Planted": 6881,
       "Broccoli Seed Bought": 6437,
       "Broccoli Harvested": 6881,
-      "Yam Planted": 19875,
+      "Yam Planted": 20005,
       "Yam Seed Bought": 17662,
       "Artichoke Seed Bought": 1723,
-      "Yam Harvested": 19875,
+      "Yam Harvested": 19940,
       "Pepper Seed Bought": 3934,
       "Rhubarb Seed Bought": 6650,
       "Zucchini Seed Bought": 10879,
@@ -8060,8 +7801,8 @@
       "VIP Chest Opened": 2,
       "Streamer Hat Reward Claimed": 9,
       "Twitter Post Submitted": 5,
-      "Ancient Tree Chopped": 411,
-      "Basic Tree Chopped": 7847,
+      "Ancient Tree Chopped": 412,
+      "Basic Tree Chopped": 7866,
       "Iron Rock Mined": 2275,
       "Gold Rock Mined": 610,
       "Betty Shop Restocked": 43,
@@ -9634,7 +9375,7 @@
           "petXP": 0,
           "score": 30,
           "collectivePet": {
-            "totalXP": 5875485,
+            "totalXP": 5922995,
             "goalXP": 10263180,
             "goalReached": false,
             "streak": 10,
@@ -9734,7 +9475,7 @@
           "experience": 20415,
           "lovedAt": 1769830703083,
           "item": "Music Box",
-          "healthCheckedAt": 1769763814349
+          "healthCheckedAt": 1769850348994
         },
         "8b1ecb08": {
           "id": "8b1ecb08",
@@ -9746,7 +9487,7 @@
           "experience": 53380,
           "lovedAt": 1769830705807,
           "item": "Music Box",
-          "healthCheckedAt": 1769763814349
+          "healthCheckedAt": 1769850348994
         },
         "501a5f44": {
           "id": "501a5f44",
@@ -9758,7 +9499,7 @@
           "experience": 37145,
           "lovedAt": 1769830705607,
           "item": "Music Box",
-          "healthCheckedAt": 1769763814349
+          "healthCheckedAt": 1769850348994
         },
         "628959fe": {
           "id": "628959fe",
@@ -9770,7 +9511,7 @@
           "experience": 37145,
           "lovedAt": 1769830705391,
           "item": "Brush",
-          "healthCheckedAt": 1769763814349
+          "healthCheckedAt": 1769850348994
         },
         "a8733112": {
           "id": "a8733112",
@@ -9782,7 +9523,7 @@
           "experience": 28500,
           "lovedAt": 1769830704360,
           "item": "Music Box",
-          "healthCheckedAt": 1769763814349
+          "healthCheckedAt": 1769850348994
         },
         "815bd025": {
           "id": "815bd025",
@@ -9794,7 +9535,7 @@
           "experience": 20420,
           "lovedAt": 1769830704132,
           "item": "Music Box",
-          "healthCheckedAt": 1769763814349
+          "healthCheckedAt": 1769850348994
         },
         "30b68d8d": {
           "id": "30b68d8d",
@@ -9806,7 +9547,7 @@
           "experience": 19110,
           "lovedAt": 1769830706017,
           "item": "Music Box",
-          "healthCheckedAt": 1769763814349
+          "healthCheckedAt": 1769850348994
         },
         "3f5d5a07": {
           "id": "3f5d5a07",
@@ -9979,7 +9720,7 @@
           "experience": 1370,
           "lovedAt": 1767234758062,
           "item": "Music Box",
-          "healthCheckedAt": 1769763814349
+          "healthCheckedAt": 1769850348994
         },
         "cd958652": {
           "id": "cd958652",
@@ -9991,7 +9732,7 @@
           "experience": 1365,
           "lovedAt": 1767234758251,
           "item": "Petting Hand",
-          "healthCheckedAt": 1769763814349
+          "healthCheckedAt": 1769850348994
         },
         "49c246ea": {
           "id": "49c246ea",
@@ -10003,7 +9744,7 @@
           "experience": 1425,
           "lovedAt": 1767234759793,
           "item": "Brush",
-          "healthCheckedAt": 1769763814349
+          "healthCheckedAt": 1769850348994
         },
         "356b8b3b": {
           "id": "356b8b3b",
@@ -10015,7 +9756,7 @@
           "experience": 1115,
           "lovedAt": 1767761171464,
           "item": "Petting Hand",
-          "healthCheckedAt": 1769763814349
+          "healthCheckedAt": 1769850348994
         },
         "4e07909f": {
           "id": "4e07909f",
@@ -10027,7 +9768,7 @@
           "experience": 845,
           "lovedAt": 1767853280084,
           "item": "Petting Hand",
-          "healthCheckedAt": 1769763814349
+          "healthCheckedAt": 1769850348994
         },
         "a7fcb04f": {
           "id": "a7fcb04f",
@@ -10039,7 +9780,7 @@
           "experience": 770,
           "lovedAt": 1767688362651,
           "item": "Petting Hand",
-          "healthCheckedAt": 1769763814349
+          "healthCheckedAt": 1769850348994
         },
         "d490e2bf": {
           "id": "d490e2bf",
@@ -10051,7 +9792,7 @@
           "experience": 770,
           "lovedAt": 1767688362956,
           "item": "Petting Hand",
-          "healthCheckedAt": 1769763814349
+          "healthCheckedAt": 1769850348994
         },
         "eb02116d": {
           "id": "eb02116d",
@@ -10063,7 +9804,7 @@
           "experience": 830,
           "lovedAt": 1767688363207,
           "item": "Petting Hand",
-          "healthCheckedAt": 1769763814349
+          "healthCheckedAt": 1769850348994
         },
         "0ed750e3": {
           "id": "0ed750e3",
@@ -10075,7 +9816,7 @@
           "experience": 770,
           "lovedAt": 1767688363491,
           "item": "Petting Hand",
-          "healthCheckedAt": 1769763814349
+          "healthCheckedAt": 1769850348994
         }
       }
     },
@@ -10728,132 +10469,132 @@
     "aoe": {
       "Laurie the Chuckle Crow": {
         "0": {
-          "-7": 1769752090418,
-          "-6": 1769752090813,
-          "-5": 1769752091250,
-          "-4": 1769752091632,
-          "-3": 1769752092112,
-          "-2": 1769752092539,
-          "-1": 1769752092911
+          "-7": 1769847375672,
+          "-6": 1769847376094,
+          "-5": 1769847376544,
+          "-4": 1769847377669,
+          "-3": 1769847378071,
+          "-2": 1769847378457,
+          "-1": 1769847378842
         },
         "1": {
-          "-1": 1769752087471,
-          "-2": 1769752087896,
-          "-3": 1769752088282,
-          "-4": 1769752088702,
-          "-5": 1769752089143,
-          "-6": 1769752089561,
-          "-7": 1769752090015
+          "-1": 1769847372741,
+          "-2": 1769847373123,
+          "-3": 1769847373537,
+          "-4": 1769847373941,
+          "-5": 1769847374381,
+          "-6": 1769847374813,
+          "-7": 1769847375237
         },
         "2": {
-          "-7": 1769752084617,
-          "-6": 1769752085024,
-          "-5": 1769752085439,
-          "-4": 1769752085888,
-          "-3": 1769752086310,
-          "-2": 1769752086700,
-          "-1": 1769752087089
+          "-7": 1769847369905,
+          "-6": 1769847370345,
+          "-5": 1769847370743,
+          "-4": 1769847371179,
+          "-3": 1769847371567,
+          "-2": 1769847371945,
+          "-1": 1769847372357
         },
         "3": {
-          "-1": 1769752081693,
-          "-2": 1769752082152,
-          "-3": 1769752082577,
-          "-4": 1769752083002,
-          "-5": 1769752083414,
-          "-6": 1769752083803,
-          "-7": 1769752084218
+          "-1": 1769847366250,
+          "-2": 1769847366680,
+          "-3": 1769847367767,
+          "-4": 1769847367083,
+          "-5": 1769847368221,
+          "-6": 1769847368679,
+          "-7": 1769847369063
         },
         "-1": {
-          "-1": 1769752095034,
-          "-3": 1769752098370,
-          "-4": 1769752101540,
-          "-5": 1769752102012,
-          "-6": 1769752104145,
-          "-7": 1769752104595,
-          "-2": 1769752097933
+          "-1": 1769847379221,
+          "-3": 1769847380067,
+          "-4": 1769847380498,
+          "-5": 1769847380954,
+          "-6": 1769847381466,
+          "-7": 1769847382166,
+          "-2": 1769847379618
         },
         "-2": {
-          "-2": 1769752097448,
-          "-7": 1769752105006,
-          "-6": 1769752103680,
-          "-5": 1769752102439,
-          "-4": 1769752100725,
-          "-3": 1769752098821,
-          "-1": 1769752095471
+          "-2": 1769847384565,
+          "-7": 1769847382549,
+          "-6": 1769847382955,
+          "-5": 1769847383376,
+          "-4": 1769847383790,
+          "-3": 1769847384156,
+          "-1": 1769847384966
         },
         "-3": {
-          "-1": 1769752095839,
-          "-2": 1769752097019,
-          "-3": 1769752099181,
-          "-4": 1769752100320,
-          "-5": 1769752102829,
-          "-6": 1769752103261,
-          "-7": 1769752105396
+          "-1": 1769847385485,
+          "-2": 1769847386954,
+          "-3": 1769847387390,
+          "-4": 1769847388243,
+          "-5": 1769847388638,
+          "-6": 1769847389029,
+          "-7": 1769847389432
         }
       },
       "Scary Mike": {
         "0": {
-          "-1": 1769788163155,
-          "-2": 1769788163761,
-          "-3": 1769788163955,
-          "-4": 1769788164346,
-          "-5": 1769788164545,
-          "-6": 1769788164956,
-          "-7": 1769788165150
+          "-1": 1769850367332,
+          "-2": 1769850366860,
+          "-3": 1769850366459,
+          "-4": 1769850366047,
+          "-5": 1769850365642,
+          "-6": 1769850365226,
+          "-7": 1769850364782
         },
         "1": {
-          "-6": 1769788159887,
-          "-7": 1769788159073,
-          "-5": 1769788160477,
-          "-3": 1769788161842,
-          "-4": 1769788156632,
-          "-2": 1769788162268,
-          "-1": 1769788162699
+          "-6": 1769850363868,
+          "-7": 1769850364318,
+          "-5": 1769850363436,
+          "-3": 1769850362465,
+          "-4": 1769850362964,
+          "-2": 1769850362059,
+          "-1": 1769850361645
         },
         "2": {
-          "-1": 1769788154485,
-          "-2": 1769788155479,
-          "-3": 1769788156003,
-          "-4": 1769788156435,
-          "-5": 1769788157066,
-          "-7": 1769788157897,
-          "-6": 1769788157670
+          "-1": 1769850361222,
+          "-2": 1769850360794,
+          "-3": 1769850360355,
+          "-4": 1769850359896,
+          "-5": 1769850359408,
+          "-7": 1769850358563,
+          "-6": 1769850358990
         },
         "3": {
-          "-7": 1769788150449,
-          "-6": 1769788151018,
-          "-5": 1769788151615,
-          "-4": 1769788152233,
-          "-3": 1769788152763,
-          "-2": 1769788153293,
-          "-1": 1769788153500
+          "-7": 1769850358135,
+          "-6": 1769850357231,
+          "-5": 1769850356792,
+          "-4": 1769850356254,
+          "-3": 1769850355792,
+          "-2": 1769850355349,
+          "-1": 1769850353183
         },
         "-1": {
-          "-7": 1769788167972,
-          "-6": 1769788168424,
-          "-5": 1769788168939,
-          "-4": 1769788169494,
-          "-3": 1769788169708,
-          "-2": 1769788170217,
-          "-1": 1769788170783
+          "-7": 1769850370278,
+          "-6": 1769850369863,
+          "-5": 1769850369431,
+          "-4": 1769850369004,
+          "-3": 1769850368582,
+          "-2": 1769850368178,
+          "-1": 1769850367756
         },
         "-2": {
-          "-1": 1769788171227,
-          "-2": 1769788171818,
-          "-3": 1769788172021,
-          "-4": 1769788172465,
-          "-5": 1769788172682,
-          "-6": 1769788172886,
-          "-7": 1769788173279
+          "-1": 1769850373366,
+          "-2": 1769850372878,
+          "-3": 1769850372426,
+          "-4": 1769850372010,
+          "-5": 1769850371573,
+          "-6": 1769850371139,
+          "-7": 1769850370717
         },
         "-3": {
-          "-7": 1769788177061,
-          "-6": 1769788176868,
-          "-5": 1769788176484,
-          "-4": 1769788176311,
-          "-3": 1769788175927,
-          "-2": 1769788175713,
-          "-1": 1769788175286
+          "-7": 1769850381264,
+          "-6": 1769850380645,
+          "-5": 1769850379316,
+          "-4": 1769850378883,
+          "-3": 1769850376698,
+          "-2": 1769850376258,
+          "-1": 1769850373837
         }
       },
       "Queen Cornelia": {
@@ -10876,7 +10617,7 @@
       }
     },
     "boostsUsedAt": {
-      "Healthy Livestock": 1769830259731,
+      "Healthy Livestock": 1769850348994,
       "Black Bearry": 1768954593936,
       "Camel Onesie": 1769830376191,
       "Catchup": 1769830388437,
@@ -10885,17 +10626,17 @@
       "Loyal Macaw": 1757389468691,
       "Macaw": 1769830376191,
       "No Axe No Worries": 1769830378541,
-      "Goblin Shield": 1769843457426,
-      "Lumberjack's Extra": 1769843457426,
-      "Squirrel": 1769843457426,
-      "Tiki Totem": 1769843457426,
-      "Tree Charge": 1769843457426,
+      "Goblin Shield": 1769850401057,
+      "Lumberjack's Extra": 1769850401057,
+      "Squirrel": 1769850401057,
+      "Tiki Totem": 1769850401057,
+      "Tree Charge": 1769850401057,
       "Tough Tree": 1769843449740,
-      "Soil Krabby": 1769830651104,
-      "Acre Farm": 1769788189705,
+      "Soil Krabby": 1769850385344,
+      "Acre Farm": 1769850383972,
       "Blossom Ward": 1766346227192,
-      "Green Amulet": 1769788181011,
-      "Hectare Farm": 1769788189705,
+      "Green Amulet": 1769850383573,
+      "Hectare Farm": 1769850383972,
       "Sunflower Amulet": 1769777556394,
       "Young Farmer": 1769777556394,
       "Seedy Business": 1769751983677,
@@ -10907,8 +10648,8 @@
       "Rocky the Mole": 1769830516195,
       "Glass Room": 1769792864829,
       "Rice Panda": 1767813669843,
-      "Lunar Calendar": 1769792885243,
-      "Nancy": 1769792885243,
+      "Lunar Calendar": 1769850384133,
+      "Nancy": 1769850384133,
       "Rice Rocket": 1762924048140,
       "Rice and Shine": 1769792885243,
       "Butterfly": 1769642755113,
@@ -10921,20 +10662,20 @@
       "Nugget": 1769830462959,
       "Carrot Amulet": 1769785908669,
       "Giant Kale": 1760754489395,
-      "Green Thumb": 1769788190240,
-      "Laurie the Chuckle Crow": 1769752105396,
-      "Laurie's Gains": 1769752105396,
-      "Old Farmer": 1769752107415,
+      "Green Thumb": 1769850384133,
+      "Laurie the Chuckle Crow": 1769847389432,
+      "Laurie's Gains": 1769847389432,
+      "Old Farmer": 1769847392881,
       "Easter Bunny": 1769788189705,
-      "Experienced Farmer": 1769788189705,
-      "Horror Mike": 1769788177061,
+      "Experienced Farmer": 1769850383972,
+      "Horror Mike": 1769850381264,
       "Lab Grown Carrot": 1769788189705,
       "Pablo The Bunny": 1769788189705,
-      "Scary Mike": 1769788177061,
+      "Scary Mike": 1769850381264,
       "Rock'N'Roll": 1769464281974,
       "Stone Beetle": 1769464281974,
       "Tunnel Mole": 1760936501773,
-      "Desert Gnome": 1769843976662,
+      "Desert Gnome": 1769850403709,
       "Knight Chicken": 1764944589664,
       "Abundant Harvest": 1769796392188,
       "Alien Chicken": 1769796392188,
@@ -10950,7 +10691,7 @@
       "Bee Suit": 1769830548934,
       "Sweet Bonus": 1769830548934,
       "Strong Roots": 1769788190240,
-      "Fast Feasts": 1769839002243,
+      "Fast Feasts": 1769847999490,
       "Forge-Ward Profits": 1769748728147,
       "Desert Rose": 1769586743041,
       "Chicory": 1769754922335,
@@ -10976,7 +10717,7 @@
       "Beetroot Amulet": 1769390056515,
       "Bionic Drill": 1769767586458,
       "Crab Trap": 1767659103411,
-      "Turd Topper": 1769830651104,
+      "Turd Topper": 1769850385344,
       "Jellyfish": 1769113015276,
       "Frosted Cakes": 1769792741498,
       "Banana Onesie": 1769586721525,
@@ -11021,7 +10762,7 @@
       "Mole Shrine": 1767876554848,
       "Lab Grown Radish": 1769383907367,
       "Janitor Chicken": 1769796392188,
-      "Bucket O' Worms": 1769830651104,
+      "Bucket O' Worms": 1769850385344,
       "Super Star": 1765754786319,
       "Iron Idol": 1769830516195,
       "Olive Express": 1769792885243,
@@ -11030,25 +10771,25 @@
       "Collie Shrine": 1764594715233,
       "Boar Shrine": 1767875553083,
       "Giant Artichoke": 1769405368292,
-      "More With Less": 1769830651104,
+      "More With Less": 1769850385344,
       "Vine Velocity": 1769199958069,
       "Sparrow Shrine": 1766433797792,
       "Fishy Roll": 1769696862409,
       "Bantam Shrine": 1767409940876,
-      "Giant Yam": 1769785907723,
+      "Giant Yam": 1769850383972,
       "King of Bears": 1767451607230,
       "Squirrel Onesie": 1769464549272,
       "Nom Nom": 1769752041307,
       "Stag Shrine": 1767877669090,
       "Lunar Temple": 1769843343628,
-      "Saw Fish": 1769830651104,
+      "Saw Fish": 1769850385344,
       "Flower Power": 1769755019710,
       "Power hour": 1769585280872,
       "Fishy Feast": 1769836807817,
       "Sunshower": 1769415887287
     },
     "socialFarming": {
-      "points": 22266,
+      "points": 22269,
       "villageProjects": {
         "Farmer's Monument": {
           "cheers": 100,
@@ -11134,7 +10875,7 @@
       },
       "weeklyPoints": {
         "week": "2026-01-26",
-        "points": 557
+        "points": 560
       },
       "helpedForCompetition": 296,
       "waves": {
@@ -11218,7 +10959,7 @@
         },
         "Pip": {
           "name": "Pip",
-          "experience": 42751,
+          "experience": 42761,
           "energy": 2710,
           "requests": {
             "food": [
@@ -11232,7 +10973,7 @@
               "Tofu Scramble"
             ]
           },
-          "pettedAt": 1769838105845,
+          "pettedAt": 1769847401501,
           "dailySocialXP": {
             "2026-01-31": 5
           },
@@ -11245,7 +10986,7 @@
         },
         "Nibbles": {
           "name": "Nibbles",
-          "experience": 6335,
+          "experience": 6345,
           "energy": 2110,
           "requests": {
             "food": [
@@ -11259,7 +11000,7 @@
               "Wheat Cake"
             ]
           },
-          "pettedAt": 1769838106147,
+          "pettedAt": 1769847401226,
           "dailySocialXP": {
             "2026-01-31": 5
           },
@@ -11271,7 +11012,7 @@
         },
         "Smokey": {
           "name": "Smokey",
-          "experience": 2320,
+          "experience": 2330,
           "energy": 1250,
           "requests": {
             "food": [
@@ -11284,7 +11025,7 @@
               "Purple Smoothie"
             ]
           },
-          "pettedAt": 1769838105117,
+          "pettedAt": 1769847400942,
           "dailySocialXP": {
             "2026-01-31": 5
           }

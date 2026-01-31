@@ -1,7 +1,7 @@
 {
   "farm": {
-    "coins": 740.4125712501555,
-    "balance": "15.28351185462368216",
+    "coins": 9.962571250155406,
+    "balance": "22.75103685462368216",
     "previousBalance": "6195.1070892861099809",
     "inventory": {
       "Sunflower Seed": "2399",
@@ -44,14 +44,14 @@
       "Cabbage": "110.4629",
       "Beetroot": "10.1847",
       "Cauliflower": "36.6781",
-      "Parsnip": "60.2369",
+      "Parsnip": "50.2369",
       "Radish": "15.7",
       "Wheat": "20.8006",
       "Kale": "0.62",
       "Apple": "30.7",
       "Blueberry": "30.2",
       "Orange": "30.3",
-      "Eggplant": "70.1731",
+      "Eggplant": "40.1731",
       "Corn": "25.6068",
       "Purple Pansy": "7",
       "White Pansy": "12",
@@ -78,12 +78,12 @@
       "Olive": "0.008",
       "Tomato": "2.3",
       "Lemon": "20.6",
-      "Barley": "0.5048",
+      "Barley": "0.0048",
       "Rhubarb": "24",
       "Zucchini": "925.5",
-      "Yam": "1013.3159",
+      "Yam": "998.3159",
       "Broccoli": "800.8998",
-      "Pepper": "50.4963",
+      "Pepper": "30.4963",
       "Onion": "0.4032",
       "Turnip": "3.297",
       "Artichoke": "20.2484",
@@ -185,9 +185,9 @@
       "Blue Cheese": "15",
       "Honey Cheddar": "17",
       "Sour Shake": "10",
-      "Wood": "300.08",
+      "Wood": "317.28",
       "Stone": "151.4",
-      "Iron": "103.6",
+      "Iron": "53.6",
       "Egg": "12.3",
       "Speed Chicken": "1",
       "Fat Chicken": "1",
@@ -201,7 +201,7 @@
       "Crop Plot": "68",
       "Fruit Patch": "15",
       "Basic Land": "17",
-      "Earthworm": "3246",
+      "Earthworm": "3248",
       "Grub": "1334",
       "Red Wiggler": "823",
       "Fruitful Blend": "210",
@@ -505,8 +505,8 @@
       "Purple Gladiolus": "8",
       "Purple Balloon Flower": "1",
       "Clam Shell": "20",
-      "Sprout Mix": "36",
-      "Gold": "9.4",
+      "Sprout Mix": "57",
+      "Gold": "14.4",
       "Black Magic": "1",
       "Grape Seed": "16",
       "Golden Helios": "1",
@@ -541,7 +541,7 @@
       "Big Banana": "1",
       "Juicy Doll": "1",
       "Cluck Doll": "1",
-      "Axe": "37",
+      "Axe": "41",
       "Rice Seed": "4",
       "Wooly Doll": "1",
       "Big Apple": "1",
@@ -555,7 +555,6 @@
       "Yellow Pansy": "4",
       "Gilded Doll": "1",
       "Gold Pickaxe": "4",
-      "Iron Pickaxe": "10",
       "Stone Pickaxe": "13",
       "Pickaxe": "22",
       "Buzz Doll": "1",
@@ -563,7 +562,8 @@
       "Moon Crystal": "4",
       "Hieroglyph": "2",
       "Cheer": "4",
-      "Big Orange": "1"
+      "Big Orange": "1",
+      "Iron Pickaxe": "10"
     },
     "previousInventory": {
       "Sunflower Seed": "1200",
@@ -1416,7 +1416,7 @@
       }
     },
     "bank": {
-      "taxFreeSFL": 45439.65258256844,
+      "taxFreeSFL": 45447.120107568444,
       "withdrawnAmount": 1535.3229
     },
     "bumpkin": {
@@ -2718,9 +2718,9 @@
       "Eggplant Seed": "120",
       "Gladiolus Seed": "5",
       "Stone Pickaxe": "29",
-      "Iron Pickaxe": "15",
+      "Iron Pickaxe": "5",
       "Rice Seed": "12",
-      "Axe": "130",
+      "Axe": "100",
       "Wheat Seed": "4"
     },
     "crops": {
@@ -3876,7 +3876,7 @@
         "y": 3,
         "createdAt": 1715737372632,
         "wood": {
-          "choppedAt": 1769839593307
+          "choppedAt": 1769843424041
         },
         "height": 2
       },
@@ -3886,7 +3886,7 @@
         "y": 7,
         "createdAt": 1715737372632,
         "wood": {
-          "choppedAt": 1769839582537
+          "choppedAt": 1769843413112
         },
         "height": 2
       },
@@ -3896,7 +3896,7 @@
         "y": 3,
         "createdAt": 1715737372632,
         "wood": {
-          "choppedAt": 1769839592548
+          "choppedAt": 1769843423174
         },
         "height": 2
       },
@@ -3904,7 +3904,7 @@
         "width": 2,
         "createdAt": 1715743953341,
         "wood": {
-          "choppedAt": 1769839591087
+          "choppedAt": 1769843421511
         },
         "height": 2,
         "x": 11,
@@ -3914,7 +3914,7 @@
         "width": 2,
         "createdAt": 1715743964579,
         "wood": {
-          "choppedAt": 1769839576428
+          "choppedAt": 1769843407756
         },
         "height": 2,
         "x": 3,
@@ -3924,7 +3924,7 @@
         "width": 2,
         "createdAt": 1715762078900,
         "wood": {
-          "choppedAt": 1769839597161
+          "choppedAt": 1769843427025
         },
         "height": 2,
         "x": 3,
@@ -3934,7 +3934,7 @@
         "width": 2,
         "createdAt": 1715743961244,
         "wood": {
-          "choppedAt": 1769839583267
+          "choppedAt": 1769843413860
         },
         "height": 2,
         "x": 9,
@@ -3944,7 +3944,7 @@
         "width": 2,
         "createdAt": 1715744048805,
         "wood": {
-          "choppedAt": 1769839580485
+          "choppedAt": 1769843410826
         },
         "height": 2,
         "x": 11,
@@ -3954,7 +3954,7 @@
         "width": 2,
         "createdAt": 1715743965279,
         "wood": {
-          "choppedAt": 1769839589563
+          "choppedAt": 1769843412364
         },
         "height": 2,
         "x": 13,
@@ -3964,7 +3964,7 @@
         "width": 2,
         "createdAt": 1715744153607,
         "wood": {
-          "choppedAt": 1769839579111
+          "choppedAt": 1769843409321
         },
         "height": 2,
         "x": 7,
@@ -3974,7 +3974,7 @@
         "width": 2,
         "createdAt": 1715743954512,
         "wood": {
-          "choppedAt": 1769839579804
+          "choppedAt": 1769843410072
         },
         "height": 2,
         "x": 9,
@@ -3984,7 +3984,7 @@
         "width": 2,
         "createdAt": 1716425003974,
         "wood": {
-          "choppedAt": 1769839584701
+          "choppedAt": 1769843415380
         },
         "height": 2,
         "x": 5,
@@ -3994,7 +3994,7 @@
         "width": 2,
         "createdAt": 1715743946332,
         "wood": {
-          "choppedAt": 1769839590390
+          "choppedAt": 1769843420718
         },
         "height": 2,
         "x": 9,
@@ -4004,7 +4004,7 @@
         "width": 2,
         "createdAt": 1715744151462,
         "wood": {
-          "choppedAt": 1769839583946
+          "choppedAt": 1769843414599
         },
         "height": 2,
         "x": 7,
@@ -4014,7 +4014,7 @@
         "width": 2,
         "createdAt": 1715744156066,
         "wood": {
-          "choppedAt": 1769839581204
+          "choppedAt": 1769843411575
         },
         "height": 2,
         "x": 13,
@@ -4024,7 +4024,7 @@
         "width": 2,
         "createdAt": 1715743950075,
         "wood": {
-          "choppedAt": 1769839591760
+          "choppedAt": 1769843422329
         },
         "height": 2,
         "x": 13,
@@ -4034,7 +4034,7 @@
         "width": 2,
         "createdAt": 1715743953911,
         "wood": {
-          "choppedAt": 1769839577322
+          "choppedAt": 1769843408587
         },
         "height": 2,
         "x": 5,
@@ -4044,7 +4044,7 @@
         "width": 2,
         "createdAt": 1715744148832,
         "wood": {
-          "choppedAt": 1769839594070
+          "choppedAt": 1769843424790
         },
         "height": 2,
         "x": 9,
@@ -4054,7 +4054,7 @@
         "width": 2,
         "createdAt": 1715743956933,
         "wood": {
-          "choppedAt": 1769839588740
+          "choppedAt": 1769843418546
         },
         "height": 2,
         "x": 7,
@@ -4064,7 +4064,7 @@
         "width": 2,
         "createdAt": 1715743960722,
         "wood": {
-          "choppedAt": 1769839588055
+          "choppedAt": 1769843417753
         },
         "height": 2,
         "x": 5,
@@ -4075,7 +4075,7 @@
         "height": 2,
         "width": 2,
         "wood": {
-          "choppedAt": 1769839596456
+          "choppedAt": 1769843426284
         },
         "x": 5,
         "y": 3
@@ -4085,7 +4085,7 @@
         "width": 2,
         "height": 2,
         "wood": {
-          "choppedAt": 1769839594820
+          "choppedAt": 1769843429312
         },
         "x": 7,
         "y": 3
@@ -4093,7 +4093,7 @@
       "d468fe27": {
         "createdAt": 1748647797009,
         "wood": {
-          "choppedAt": 1769839587335
+          "choppedAt": 1769843416990
         },
         "x": 3,
         "y": 5
@@ -4101,7 +4101,7 @@
       "007d858e": {
         "createdAt": 1750515893603,
         "wood": {
-          "choppedAt": 1769839586575
+          "choppedAt": 1769843419815
         },
         "x": 3,
         "y": 7
@@ -4497,7 +4497,7 @@
         "createdAt": 1715737372632,
         "height": 1,
         "stone": {
-          "minedAt": 1769762728977,
+          "minedAt": 1769825481790,
           "boostedTime": 24192000
         }
       },
@@ -4506,7 +4506,7 @@
         "createdAt": 1715743787590,
         "height": 1,
         "stone": {
-          "minedAt": 1769762723866,
+          "minedAt": 1769825475965,
           "boostedTime": 24192000
         },
         "x": -9,
@@ -4517,7 +4517,7 @@
         "createdAt": 1715743804598,
         "height": 1,
         "stone": {
-          "minedAt": 1769762724560,
+          "minedAt": 1769825476710,
           "boostedTime": 24192000
         },
         "x": -8,
@@ -4528,7 +4528,7 @@
         "createdAt": 1715743790777,
         "height": 1,
         "stone": {
-          "minedAt": 1769762725997,
+          "minedAt": 1769825478367,
           "boostedTime": 24192000
         },
         "x": -6,
@@ -4539,7 +4539,7 @@
         "createdAt": 1715743796234,
         "height": 1,
         "stone": {
-          "minedAt": 1769762729701,
+          "minedAt": 1769825482604,
           "boostedTime": 24192000
         },
         "x": -8,
@@ -4550,7 +4550,7 @@
         "createdAt": 1715743793585,
         "height": 1,
         "stone": {
-          "minedAt": 1769762727517,
+          "minedAt": 1769825480101,
           "boostedTime": 24192000
         },
         "x": -5,
@@ -4561,7 +4561,7 @@
         "width": 1,
         "height": 1,
         "stone": {
-          "minedAt": 1769762730495,
+          "minedAt": 1769825483515,
           "boostedTime": 24192000
         },
         "x": -9,
@@ -4572,7 +4572,7 @@
         "width": 1,
         "height": 1,
         "stone": {
-          "minedAt": 1769762726703,
+          "minedAt": 1769825479190,
           "boostedTime": 24192000
         },
         "x": -5,
@@ -4583,7 +4583,7 @@
         "height": 1,
         "width": 1,
         "stone": {
-          "minedAt": 1769762725274,
+          "minedAt": 1769825477473,
           "boostedTime": 24192000
         },
         "x": -7,
@@ -4594,7 +4594,7 @@
         "x": -6,
         "y": 11,
         "stone": {
-          "minedAt": 1769762728273,
+          "minedAt": 1769825480932,
           "boostedTime": 24192000
         }
       }
@@ -5052,32 +5052,7 @@
       }
     },
     "trades": {
-      "listings": {
-        "61e0b76f": {
-          "collection": "collectibles",
-          "createdAt": 1769846180996,
-          "items": {
-            "Barley": 100
-          },
-          "sfl": 2.2215,
-          "tax": 0.1666125,
-          "tradeType": "instant",
-          "fulfilledAt": 1769846507036,
-          "fulfilledById": 4571615301171257
-        },
-        "6e8bf3ba": {
-          "collection": "collectibles",
-          "createdAt": 1769846192348,
-          "items": {
-            "Barley": 100
-          },
-          "sfl": 2.2215,
-          "tax": 0.1666125,
-          "tradeType": "instant",
-          "fulfilledAt": 1769846851643,
-          "fulfilledById": 871
-        }
-      },
+      "listings": {},
       "soldCount": 3471,
       "dailyListings": {
         "count": 4,
@@ -5205,8 +5180,8 @@
               "Sprout Mix": 21,
               "Earthworm": 2
             },
-            "startedAt": 1769829740326,
-            "readyAt": 1769849180326
+            "startedAt": 1769849660206,
+            "readyAt": 1769869100206
           }
         }
       ],
@@ -6077,7 +6052,7 @@
       "Luminous Lantern Crafted": 20,
       "Clock Bought": 1,
       "Rice Harvested": 2729,
-      "Compost Bin Collected": 2881,
+      "Compost Bin Collected": 2882,
       "Apple Sold": 6023.6,
       "Pirate Cake Dug": 71,
       "Club Sandwich Dug": 146,
@@ -6088,7 +6063,7 @@
       "Orange Harvested": 9941,
       "Lunar Calendar Dug": 6,
       "Laurie the Chuckle Crow Crafted": 1,
-      "Axe Crafted": 336064,
+      "Axe Crafted": 336094,
       "Chore Skipped": 500,
       "Sunpetal Seed Bought": 772,
       "Magic Bean Bought": 13,
@@ -6100,7 +6075,7 @@
       "Purple Cauliflower Sold": 2,
       "Chowder Fed": 214,
       "Sunflower Crunch Cooked": 281,
-      "Gold Mined": 8203,
+      "Gold Mined": 8213,
       "Rusty Shovel Crafted": 218,
       "Sea Bass Fed": 109,
       "Chess Rug Bought": 1,
@@ -6124,7 +6099,7 @@
       "Surgeonfish Fed": 144,
       "Club Sandwich Cooked": 285,
       "Solar Lantern Crafted": 10,
-      "Coins Earned": 9183469.27257125,
+      "Coins Earned": 9183858.82257125,
       "Basic Scarecrow Crafted": 1,
       "Turbo Composter Collected": 1666,
       "Collectible Placed": 622,
@@ -6216,7 +6191,7 @@
       "Purple Smoothie Fed": 350,
       "Bumpkin Broth Fed": 1424,
       "Kale Planted": 10347,
-      "Parsnip Sold": 92477.398,
+      "Parsnip Sold": 92487.398,
       "Radish Harvested": 3504,
       "Radish Planted": 2428,
       "Collectible Removed": 379,
@@ -6296,8 +6271,8 @@
       "Carrot Planted": 11430,
       "Seafood Basket Cooked": 21,
       "Flower Fox Bought": 1,
-      "Coins Spent": 9519246.86,
-      "Eggplant Sold": 17420.7,
+      "Coins Spent": 9520366.86,
+      "Eggplant Sold": 17450.7,
       "Kale Sold": 11002.48,
       "Beetroot Blaze Cooked": 44,
       "Bloom Seed Bought": 381,
@@ -6326,7 +6301,7 @@
       "Potted Sunflower Bought": 1,
       "Bumpkin Salad Dug": 153,
       "White Tulips Bought": 1,
-      "Iron Pickaxe Crafted": 8129,
+      "Iron Pickaxe Crafted": 8139,
       "Cauliflower Burger Fed": 419,
       "Fancy Fries Fed": 153,
       "Stone Mined": 96287,
@@ -6376,7 +6351,7 @@
       "Blueberry Jam Fed": 192,
       "Sea Cucumber Sold": 990,
       "Eggplant Seed Bought": 7597,
-      "Tree Chopped": 327756,
+      "Tree Chopped": 327782,
       "Power Smoothie Cooked": 266,
       "Treasure Dug": 28667,
       "Mini Corn Maze Bought": 1,
@@ -6478,7 +6453,7 @@
       "Kernel Blend Mixed": 14334,
       "Chicken Fed": 10788,
       "Hay Mixed": 17169,
-      "Barley Sold": 7141.02,
+      "Barley Sold": 7141.52,
       "Cow Cured": 164,
       "Sheep Bought": 218,
       "Cow Bought": 257,
@@ -6626,7 +6601,7 @@
       "Grape Juice Fed": 54,
       "Cheese Fed": 1,
       "Broccoli Sold": 2553,
-      "Pepper Sold": 750,
+      "Pepper Sold": 770,
       "Turnip Sold": 907,
       "Fish Burger Fed": 1,
       "Community Coin Sold": 1,
@@ -6726,9 +6701,9 @@
       "Moth Shrine Crafted": 1,
       "Bear Shrine Crafted": 2,
       "Potion Mixed": 312,
-      "Basic Tree Chopped": 17974,
+      "Basic Tree Chopped": 18000,
       "Iron Rock Mined": 2392,
-      "Gold Rock Mined": 825,
+      "Gold Rock Mined": 835,
       "Stone Rock Mined": 5785,
       "Airdrop Reward Claimed": 56,
       "Tornado Event Triggered": 4,
@@ -8091,7 +8066,7 @@
           "petXP": 0,
           "score": 0,
           "collectivePet": {
-            "totalXP": 5875485,
+            "totalXP": 5922995,
             "goalXP": 10263180,
             "goalReached": false,
             "streak": 10,
@@ -9694,17 +9669,17 @@
       }
     },
     "boostsUsedAt": {
-      "Apprentice Beaver": 1769843557161,
-      "Tree Charge": 1769843557161,
-      "Tough Tree": 1769843557161,
+      "Apprentice Beaver": 1769847389312,
+      "Tree Charge": 1769847389312,
+      "Tough Tree": 1769847384790,
       "Lumberjack's Extra": 1756919287433,
-      "Squirrel": 1769843557161,
-      "Bud #2017": 1769846308454,
-      "Tree Turnaround": 1769843545537,
+      "Squirrel": 1769847389312,
+      "Bud #2017": 1769847389312,
+      "Tree Turnaround": 1769847385539,
       "Soil Krabby": 1765317780051,
-      "Swift Decomposer": 1769843529513,
+      "Swift Decomposer": 1769849660206,
       "Turbo Charged": 1769668467115,
-      "Efficient Bin": 1769829740326,
+      "Efficient Bin": 1769849660206,
       "Premium Worms": 1769843529513,
       "Angler Waders": 1769822386363,
       "Sunflower Rod": 1769822287578,
@@ -9729,7 +9704,7 @@
       "Iron Bumpkin": 1756905332678,
       "Iron Hustle": 1769833733426,
       "Rocky the Mole": 1769833733426,
-      "Green Thumb": 1769846404786,
+      "Green Thumb": 1769849735666,
       "Old Farmer": 1769845725226,
       "Sickle": 1769752750212,
       "Acre Farm": 1769642373969,
@@ -9740,10 +9715,10 @@
       "Oil Extraction": 1756905258145,
       "Blooming Boost": 1769784900708,
       "Flower Fox": 1763497378393,
-      "Gold Beetle": 1769786922495,
-      "Golden Touch": 1769786922495,
-      "Midas Rush": 1769786922495,
-      "Midas Sprint": 1769786922495,
+      "Gold Beetle": 1769849675515,
+      "Golden Touch": 1769849675515,
+      "Midas Rush": 1769849675515,
+      "Midas Sprint": 1769849675515,
       "Nugget": 1757433144615,
       "Fire Kissed": 1769453240712,
       "Fireside Alchemist": 1769786953673,
@@ -9764,7 +9739,7 @@
       "Butterfly": 1769784879958,
       "Sheaf of Plenty": 1769845725226,
       "Desert Rose": 1758893373216,
-      "Turd Topper": 1769843529513,
+      "Turd Topper": 1769849660206,
       "Deep Sea Helm": 1767469070535,
       "Basic Scarecrow": 1758856545181,
       "Scary Mike": 1761620763095,
@@ -9779,7 +9754,7 @@
       "Frosted Cakes": 1769736247222,
       "Architect Ruler": 1769784954975,
       "Experienced Farmer": 1768203374676,
-      "Composting Revamp": 1769843529513,
+      "Composting Revamp": 1769849660206,
       "Fisherman's 10 Fold": 1769822386363,
       "Fisherman's 5 Fold": 1769822386363,
       "Fishy Gamble": 1768350341616,
@@ -9798,7 +9773,7 @@
       "Pickaxe Shark": 1767043219681,
       "Lava Swimwear": 1769756117073,
       "Obsidian Turtle": 1769756112267,
-      "Bucket O' Worms": 1769843529513,
+      "Bucket O' Worms": 1769849660206,
       "Super Star": 1765697942180,
       "Boar Shrine": 1766967721984,
       "Giant Gold Bone": 1769822032219,
@@ -9812,19 +9787,19 @@
       "Sweet Bonus": 1769799367292,
       "Pollen Power Up": 1769638908711,
       "Power hour": 1769042595397,
-      "Saw Fish": 1769843529513,
+      "Saw Fish": 1769849660206,
       "Magma Stone": 1769756117073,
       "Sunshower": 1769465546026
     },
     "socialFarming": {
-      "points": 36346,
+      "points": 36354,
       "villageProjects": {
         "Farmer's Monument": {
           "cheers": 100,
           "winnerId": 7841
         },
         "Miner's Monument": {
-          "cheers": 2715,
+          "cheers": 2716,
           "winnerId": 127380
         },
         "Woodcutter's Monument": {
@@ -9832,23 +9807,24 @@
           "winnerId": 114779
         },
         "Cornucopia": {
-          "cheers": 77,
+          "cheers": 78,
           "winnerId": 162548
         },
         "Big Banana": {
-          "cheers": 40,
+          "cheers": 41,
           "winnerId": 143479
         },
         "Big Apple": {
-          "cheers": 24,
+          "cheers": 25,
           "winnerId": 127380
         },
         "Basic Cooking Pot": {
-          "cheers": 4,
+          "cheers": 5,
           "winnerId": 3565495442464095
         },
         "Big Orange": {
-          "cheers": 0
+          "cheers": 1,
+          "winnerId": 4047518637805162
         }
       },
       "cheers": {
@@ -9914,7 +9890,7 @@
       },
       "weeklyPoints": {
         "week": "2026-01-26",
-        "points": 1160
+        "points": 1168
       },
       "helpedForCompetition": 737,
       "waves": {
@@ -9929,7 +9905,7 @@
         "1007": {
           "name": "Pet #1007",
           "id": 1007,
-          "experience": 11185,
+          "experience": 11190,
           "energy": 20,
           "requests": {
             "food": [
@@ -9966,13 +9942,13 @@
           },
           "walking": false,
           "dailySocialXP": {
-            "2026-01-31": 30
+            "2026-01-31": 35
           }
         },
         "2948": {
           "id": 2948,
           "name": "Pet #2948",
-          "experience": 96002,
+          "experience": 96007,
           "energy": 50,
           "requests": {
             "food": [
@@ -10004,7 +9980,7 @@
           },
           "location": "farm",
           "dailySocialXP": {
-            "2026-01-31": 30
+            "2026-01-31": 35
           },
           "walking": false,
           "fetches": {
@@ -10017,7 +9993,7 @@
       "common": {
         "Pippin": {
           "name": "Pippin",
-          "experience": 103588,
+          "experience": 103593,
           "energy": 10,
           "requests": {
             "food": [
@@ -10034,7 +10010,7 @@
           },
           "pettedAt": 1769845813654,
           "dailySocialXP": {
-            "2026-01-31": 30
+            "2026-01-31": 35
           },
           "fetches": {
             "Dewberry": 106,
@@ -10043,7 +10019,7 @@
         },
         "Skipper": {
           "name": "Skipper",
-          "experience": 42644,
+          "experience": 42649,
           "energy": 30,
           "requests": {
             "food": [
@@ -10060,7 +10036,7 @@
           },
           "pettedAt": 1769845814370,
           "dailySocialXP": {
-            "2026-01-31": 30
+            "2026-01-31": 35
           },
           "fetches": {
             "Frost Pebble": 102,
@@ -10069,7 +10045,7 @@
         },
         "Smokey": {
           "name": "Smokey",
-          "experience": 5035,
+          "experience": 5040,
           "energy": 30,
           "requests": {
             "food": [
@@ -10090,7 +10066,7 @@
             "Ribbon": 16
           },
           "dailySocialXP": {
-            "2026-01-31": 30
+            "2026-01-31": 35
           }
         }
       }
