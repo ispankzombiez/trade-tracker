@@ -7,9 +7,9 @@
     "earned_sfl": 15164.5,
     "earned_coins": 144530.0,
     "spent_sfl": 8122.62,
-    "items_sold": 1859.0,
+    "items_sold": 1861.0,
     "trade_points": 25381.83,
-    "last_updated": "2026-01-31 11:34 AM",
+    "last_updated": "2026-01-31 12:03 PM",
     "active_listings": 32
   },
   "buys": [
@@ -27,6 +27,30 @@
     }
   ],
   "sells": [
+    {
+      "date": "2026-01-31",
+      "time": "11:37 AM",
+      "type": "SELL",
+      "item": "Milk",
+      "quantity": 100,
+      "price_text": "12.6 SFL",
+      "price": 12.6,
+      "counterparty": "bumpkin888",
+      "farm_id": "-",
+      "trade_id": "e2420fd5"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "11:36 AM",
+      "type": "SELL",
+      "item": "Milk",
+      "quantity": 100,
+      "price_text": "12.7 SFL",
+      "price": 12.7,
+      "counterparty": "Zambra",
+      "farm_id": "-",
+      "trade_id": "743e9e80"
+    },
     {
       "date": "2026-01-30",
       "time": "01:52 PM",
@@ -631,12 +655,12 @@
   "last_updated": null,
   "stats": {
     "total_buys": 1,
-    "total_sells": 50,
+    "total_sells": 52,
     "buy_volume": 1.1397,
-    "sell_volume": 58.375499999999995,
-    "gross_profit": 57.2358,
+    "sell_volume": 83.67549999999997,
+    "gross_profit": 82.53579999999997,
     "avg_buy_price": 1.1397,
-    "avg_sell_price": 1.1675099999999998,
+    "avg_sell_price": 1.6091442307692303,
     "most_traded_items": {},
     "recent_activity": [
       {
@@ -646,6 +670,24 @@
         "price": 1.1397,
         "date": "2026-01-31",
         "time": "08:42 AM",
+        "username": "inubakabo"
+      },
+      {
+        "type": "SELL",
+        "item": "Milk",
+        "quantity": 100,
+        "price": 12.6,
+        "date": "2026-01-31",
+        "time": "11:37 AM",
+        "username": "inubakabo"
+      },
+      {
+        "type": "SELL",
+        "item": "Milk",
+        "quantity": 100,
+        "price": 12.7,
+        "date": "2026-01-31",
+        "time": "11:36 AM",
         "username": "inubakabo"
       },
       {
@@ -672,8 +714,7 @@
         "quantity": 2000,
         "price": 5.411,
         "date": "2026-01-30",
-        "time": "01:51 PM",
-        "username": "inubakabo"
+        "time": "01:51 PM"
       },
       {
         "type": "SELL",
@@ -681,8 +722,7 @@
         "quantity": 2000,
         "price": 5.4111,
         "date": "2026-01-30",
-        "time": "01:51 PM",
-        "username": "inubakabo"
+        "time": "01:51 PM"
       },
       {
         "type": "SELL",
@@ -787,25 +827,9 @@
         "price": 0.2202,
         "date": "2026-01-30",
         "time": "01:50 PM"
-      },
-      {
-        "type": "SELL",
-        "item": "Cabbage",
-        "quantity": 100,
-        "price": 0.2202,
-        "date": "2026-01-30",
-        "time": "01:50 PM"
-      },
-      {
-        "type": "SELL",
-        "item": "Cabbage",
-        "quantity": 100,
-        "price": 0.2202,
-        "date": "2026-01-30",
-        "time": "01:50 PM"
       }
     ],
-    "profit_margin": 5022.005790997631,
+    "profit_margin": 7241.8882161972415,
     "most_bought_items": {
       "Cauliflower": 100
     },
@@ -814,6 +838,7 @@
       "Pumpkin": 26000,
       "Broccoli": 6000,
       "Cabbage": 4300,
+      "Milk": 200,
       "Corn": 200
     }
   },
@@ -1110,22 +1135,22 @@
   "active_offers": [],
   "inventory": {
     "crops": {
-      "Sunflower": 273961.1988999465,
-      "Potato": 169129.349723019,
-      "Pumpkin": 67288.69761806753,
-      "Carrot": 5523.316499999629,
+      "Sunflower": 272761.1988999465,
+      "Potato": 169029.349723019,
+      "Pumpkin": 66908.69761806753,
+      "Carrot": 5283.316499999629,
       "Cabbage": 15751.163476710517,
       "Beetroot": 7386.075127779881,
       "Cauliflower": 167.76627013538373,
       "Parsnip": 2488.0020566483568,
       "Radish": 7372.851305043286,
-      "Wheat": 9295.487349769406,
+      "Wheat": 9255.487349769406,
       "Kale": 7717.192099999996,
       "Eggplant": 1781.658447523972,
       "Corn": 8625.68702943635,
       "Soybean": 8012.9140661816045,
       "Rice": 2663.9629,
-      "Olive": 164.879,
+      "Olive": 169.179,
       "Barley": 40147.763999999996,
       "Rhubarb": 44417.76909999865,
       "Zucchini": 15883.147099998972,
@@ -1137,12 +1162,12 @@
       "Artichoke": 16402.0947
     },
     "fruits": {
-      "Apple": 1964.7546,
+      "Apple": 1960.7546,
       "Blueberry": 258.10457189894,
       "Orange": 787.4032212228074,
       "Banana": 4227.6885,
       "Grape": 968.2700000000001,
-      "Tomato": 3358.0300000000016,
+      "Tomato": 3353.0300000000016,
       "Lemon": 3874.280000000004,
       "Duskberry": 68.18,
       "Lunara": 255.5,
