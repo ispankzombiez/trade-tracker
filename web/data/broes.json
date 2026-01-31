@@ -2,17 +2,29 @@
   "username": "broes",
   "overview": {
     "balance": 1317.01,
-    "coins": 169241.0,
+    "coins": 168921.0,
     "gems": 0.0,
     "earned_sfl": 854.27,
-    "earned_coins": 169241.0,
+    "earned_coins": 168921.0,
     "spent_sfl": 0.0,
     "items_sold": 231.0,
     "trade_points": 15470.15,
-    "last_updated": "2026-01-31 01:13 PM",
+    "last_updated": "2026-01-31 02:34 PM",
     "active_listings": 0
   },
   "buys": [
+    {
+      "date": "2026-01-31",
+      "time": "02:21 PM",
+      "type": "BUY",
+      "item": "Wool",
+      "quantity": 100,
+      "price_text": "5.892 SFL",
+      "price": 5.892,
+      "counterparty": "TheFauvee",
+      "farm_id": "-",
+      "trade_id": "3b12a869"
+    },
     {
       "date": "2026-01-27",
       "time": "12:25 PM",
@@ -618,15 +630,24 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 47,
+    "total_buys": 48,
     "total_sells": 3,
-    "buy_volume": 269.98499999999996,
+    "buy_volume": 275.87699999999995,
     "sell_volume": 21.221000000000004,
-    "gross_profit": -248.76399999999995,
-    "avg_buy_price": 5.744361702127659,
+    "gross_profit": -254.65599999999995,
+    "avg_buy_price": 5.747437499999999,
     "avg_sell_price": 7.073666666666668,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Wool",
+        "quantity": 100,
+        "price": 5.892,
+        "date": "2026-01-31",
+        "time": "02:21 PM",
+        "username": "broes"
+      },
       {
         "type": "BUY",
         "item": "Jellyfish",
@@ -669,8 +690,7 @@
         "quantity": 250,
         "price": 0.8593,
         "date": "2026-01-26",
-        "time": "09:22 AM",
-        "username": "broes"
+        "time": "09:22 AM"
       },
       {
         "type": "BUY",
@@ -783,24 +803,16 @@
         "price": 1.1299,
         "date": "2026-01-25",
         "time": "08:33 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Wool",
-        "quantity": 14,
-        "price": 0.7909,
-        "date": "2026-01-25",
-        "time": "08:33 PM"
       }
     ],
-    "profit_margin": -92.13993370002036,
+    "profit_margin": -92.30780384011716,
     "most_bought_items": {
       "Potato": 6000,
       "Yam": 2997,
       "Rhubarb": 2000,
       "Broccoli": 1948,
       "Wood": 832,
-      "Wool": 640,
+      "Wool": 740,
       "Milk": 183,
       "Wheat": 100,
       "Crimstone": 40,
@@ -812,7 +824,53 @@
       "Obsidian": 1
     }
   },
-  "active_listings": [],
+  "active_listings": [
+    {
+      "id": "c02a4e95",
+      "item": "Olive",
+      "quantity": 5,
+      "price": 2.0163,
+      "created_at": 1769869158061,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "636676ed",
+      "item": "Olive",
+      "quantity": 5,
+      "price": 2.0163,
+      "created_at": 1769869163414,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "508ba8da",
+      "item": "Olive",
+      "quantity": 5,
+      "price": 2.0163,
+      "created_at": 1769869167813,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "99e3609b",
+      "item": "Olive",
+      "quantity": 5,
+      "price": 2.0163,
+      "created_at": 1769869183433,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "7caea359",
+      "item": "Olive",
+      "quantity": 5,
+      "price": 2.0163,
+      "created_at": 1769869187691,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    }
+  ],
   "active_offers": [
     {
       "id": "d24cd384",
@@ -827,7 +885,7 @@
   "inventory": {
     "crops": {
       "Sunflower": 9758.3943,
-      "Potato": 590.5596,
+      "Potato": 558.5596,
       "Pumpkin": 6046.441,
       "Carrot": 11623.2503,
       "Cabbage": 6201.9797,
@@ -845,19 +903,19 @@
       "Rhubarb": 1661.7999,
       "Zucchini": 13786.5491,
       "Yam": 2177.7995,
-      "Broccoli": 1587.4995,
+      "Broccoli": 1845.7995,
       "Pepper": 4190.3999,
       "Onion": 99.10700000000001,
       "Turnip": 44.93019999999999,
-      "Artichoke": 862.6878,
-      "Rice": 36.95
+      "Artichoke": 854.6878,
+      "Rice": 42.05
     },
     "fruits": {
       "Apple": 643.6000000000004,
       "Blueberry": 744.9000000000005,
       "Orange": 280.90000000000043,
       "Banana": 1591.8000000000004,
-      "Tomato": 970.400000000001,
+      "Tomato": 982.900000000001,
       "Lemon": 858.7000000000006,
       "Duskberry": 0.7000000000000016,
       "Lunara": 1.6000000000000008,
@@ -866,8 +924,8 @@
     },
     "resources": {
       "Iron": 419.35,
-      "Wood": 450.3,
-      "Stone": 710.65,
+      "Wood": 440.2,
+      "Stone": 758.45,
       "Obsidian": 7.0,
       "Gold": 107.3,
       "Crimstone": 77.2

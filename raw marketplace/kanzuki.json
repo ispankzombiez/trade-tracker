@@ -1,9 +1,9 @@
 {
   "id": 206876,
-  "totalTrades": 26639,
+  "totalTrades": 26640,
   "level": 168,
   "weeklyFlowerSpent": 57.7654,
-  "weeklyFlowerEarned": 20.4664575,
+  "weeklyFlowerEarned": 19.728955,
   "tokenUri": "0_v1_48_263_97_405_447_41_409_209_30_0_0_0_0_440_0_0_444",
   "username": "Kanzuki",
   "listings": {
@@ -127,16 +127,6 @@
       "tax": 0.1718175,
       "tradeType": "instant"
     },
-    "618a21ff": {
-      "collection": "collectibles",
-      "createdAt": 1769845974251,
-      "items": {
-        "Broccoli": 750
-      },
-      "sfl": 2.2908,
-      "tax": 0.17181,
-      "tradeType": "instant"
-    },
     "00b0a021": {
       "collection": "collectibles",
       "createdAt": 1769845978530,
@@ -239,6 +229,25 @@
     }
   ],
   "trades": [
+    {
+      "id": "618a21ff",
+      "sfl": 2.2908,
+      "quantity": 750,
+      "itemId": 261,
+      "collection": "collectibles",
+      "source": "listing",
+      "fulfilledAt": 1769863170743,
+      "initiatedBy": {
+        "id": 206876,
+        "bumpkinUri": "0_v1_48_263_97_405_447_41_409_209_30_0_0_0_0_440_0_0_444",
+        "username": "Kanzuki"
+      },
+      "fulfilledBy": {
+        "id": 2178311572227029,
+        "bumpkinUri": "0_v1_48_263_202_0_0_89_240_319_406_0_0_350_422_0_344",
+        "username": "Muron83"
+      }
+    },
     {
       "id": "fc3d0c5e",
       "sfl": 2.7818,
@@ -1009,7 +1018,7 @@
       "fulfilledAt": 1769827200488,
       "initiatedBy": {
         "id": 30029,
-        "bumpkinUri": "0_v1_32_4_0_320_322_323_162_454_30_381_0_0_450_72_0_177_498",
+        "bumpkinUri": "0_v1_32_4_0_320_322_323_162_319_30_381_0_0_450_72_0_177_498",
         "username": "COdefender"
       },
       "fulfilledBy": {
@@ -1168,25 +1177,6 @@
         "id": 7045611040721213,
         "bumpkinUri": "0_v1_32_90_184_85_234_89_240_196_0_514_0_0_452_0_0_177",
         "username": "bigbun"
-      }
-    },
-    {
-      "id": "e9fd434b",
-      "sfl": 0.4955,
-      "quantity": 100,
-      "itemId": 255,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769692952381,
-      "initiatedBy": {
-        "id": 4196910769127198,
-        "bumpkinUri": "0_v1_32_1_51_13_20_22_23_421",
-        "username": "Hatuzie"
-      },
-      "fulfilledBy": {
-        "id": 206876,
-        "bumpkinUri": "0_v1_48_263_97_405_447_41_409_209_30_0_0_0_0_440_0_0_444",
-        "username": "Kanzuki"
       }
     }
   ]

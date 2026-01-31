@@ -1,16 +1,16 @@
 {
   "username": "droid",
   "overview": {
-    "balance": 0.61,
+    "balance": 1.61,
     "coins": 159994.0,
     "gems": 0.0,
     "earned_sfl": 8175.19,
     "earned_coins": 159994.0,
     "spent_sfl": 12297.69,
-    "items_sold": 7611.0,
+    "items_sold": 7612.0,
     "trade_points": 11367.53,
-    "last_updated": "2026-01-31 12:03 PM",
-    "active_listings": 6
+    "last_updated": "2026-01-31 02:34 PM",
+    "active_listings": 5
   },
   "buys": [
     {
@@ -1025,6 +1025,30 @@
   "sells": [
     {
       "date": "2026-01-31",
+      "time": "02:22 PM",
+      "type": "SELL",
+      "item": "Yam",
+      "quantity": 400,
+      "price_text": "1.11 SFL",
+      "price": 1.11,
+      "counterparty": "vahaboy",
+      "farm_id": "-",
+      "trade_id": "ea38a2cb"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "01:52 PM",
+      "type": "SELL",
+      "item": "Sunflower",
+      "quantity": 4000,
+      "price_text": "1.08 SFL",
+      "price": 1.08,
+      "counterparty": "Guilhem",
+      "farm_id": "-",
+      "trade_id": "2438a9bb"
+    },
+    {
+      "date": "2026-01-31",
       "time": "05:43 AM",
       "type": "SELL",
       "item": "Potato",
@@ -1567,12 +1591,12 @@
   "last_updated": null,
   "stats": {
     "total_buys": 84,
-    "total_sells": 45,
+    "total_sells": 47,
     "buy_volume": 115.68839999999999,
-    "sell_volume": 112.4815,
-    "gross_profit": -3.2068999999999903,
+    "sell_volume": 114.6715,
+    "gross_profit": -1.0168999999999926,
     "avg_buy_price": 1.377242857142857,
-    "avg_sell_price": 2.499588888888889,
+    "avg_sell_price": 2.43981914893617,
     "most_traded_items": {},
     "recent_activity": [
       {
@@ -1741,7 +1765,7 @@
         "time": "05:04 PM"
       }
     ],
-    "profit_margin": -2.772015171789039,
+    "profit_margin": -0.878999104491023,
     "most_bought_items": {
       "Broccoli": 2300,
       "Yam": 1650,
@@ -1755,9 +1779,9 @@
       "Leather": 114
     },
     "most_sold_items": {
-      "Sunflower": 20000,
+      "Sunflower": 24000,
       "Potato": 12000,
-      "Yam": 2500,
+      "Yam": 2900,
       "Carrot": 1300,
       "Onion": 685,
       "Wheat": 600,
@@ -1814,19 +1838,72 @@
       "trade_type": "instant"
     },
     {
-      "id": "2438a9bb",
-      "item": "Sunflower",
-      "quantity": 4000,
-      "price": 1.08,
-      "created_at": 1769831409631,
+      "id": "9ad66330",
+      "item": "Yam",
+      "quantity": 1000,
+      "price": 2.79,
+      "created_at": 1769869135380,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "ea38a2cb",
+      "item": "Yam",
+      "quantity": 400,
+      "price": 1.11,
+      "created_at": 1769869143713,
       "collection": "collectibles",
       "trade_type": "instant"
     }
   ],
   "active_offers": [],
   "inventory": {
-    "crops": {},
-    "fruits": {},
-    "resources": {}
+    "crops": {
+      "Sunflower": 7564.535199987208,
+      "Potato": 4026.0014999946266,
+      "Pumpkin": 111.6692,
+      "Carrot": 352.6097,
+      "Cabbage": 52.5857,
+      "Beetroot": 28.455600000000064,
+      "Cauliflower": 14.750899999999925,
+      "Parsnip": 11.118999999999927,
+      "Radish": 277.2946999999998,
+      "Wheat": 388.0782999999989,
+      "Kale": 65.2209999999999,
+      "Eggplant": 758.8689,
+      "Corn": 0.0301000000000001,
+      "Soybean": 111.4219,
+      "Rice": 0.991,
+      "Olive": 2.1548,
+      "Barley": 40.73979999999994,
+      "Rhubarb": 96.35,
+      "Zucchini": 588.6496,
+      "Yam": 1426.5633,
+      "Broccoli": 280.2199,
+      "Pepper": 46.7,
+      "Onion": 0.7929000000000271,
+      "Turnip": 21.296100000000017,
+      "Artichoke": 25.00610000000002
+    },
+    "fruits": {
+      "Apple": 21.500000000000494,
+      "Blueberry": 3.000000000005413,
+      "Orange": 0.8000000000008347,
+      "Banana": 14.50000000000071,
+      "Grape": 1.9,
+      "Tomato": 77.50000000000064,
+      "Lemon": 78.30000000000108,
+      "Duskberry": 6e-15,
+      "Lunara": 0.9000000000000099,
+      "Celestine": 2.4000000000000252
+    },
+    "resources": {
+      "Wood": 193.12,
+      "Stone": 18.04,
+      "Iron": 58.95,
+      "Gold": 4.51,
+      "Obsidian": 10.2,
+      "Crimstone": 8.0
+    }
   }
 }
