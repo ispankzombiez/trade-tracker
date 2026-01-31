@@ -1,16 +1,16 @@
 {
   "username": "asterion",
   "overview": {
-    "balance": 415.78,
-    "coins": 54543.0,
+    "balance": 453.8,
+    "coins": 53383.0,
     "gems": 0.0,
     "earned_sfl": 7042.47,
-    "earned_coins": 54543.0,
+    "earned_coins": 53383.0,
     "spent_sfl": 8477.02,
-    "items_sold": 3874.0,
+    "items_sold": 3880.0,
     "trade_points": 5186.58,
-    "last_updated": "2026-01-30 09:54 PM",
-    "active_listings": 215
+    "last_updated": "2026-01-31 12:28 AM",
+    "active_listings": 209
   },
   "buys": [
     {
@@ -267,6 +267,66 @@
     }
   ],
   "sells": [
+    {
+      "date": "2026-01-31",
+      "time": "12:14 AM",
+      "type": "SELL",
+      "item": "Stone",
+      "quantity": 200,
+      "price_text": "3.184 SFL",
+      "price": 3.184,
+      "counterparty": "Gubadon",
+      "farm_id": "-",
+      "trade_id": "9ca5b35d"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "12:14 AM",
+      "type": "SELL",
+      "item": "Stone",
+      "quantity": 200,
+      "price_text": "3.184 SFL",
+      "price": 3.184,
+      "counterparty": "Gubadon",
+      "farm_id": "-",
+      "trade_id": "c9b0f445"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "10:44 PM",
+      "type": "SELL",
+      "item": "Wool",
+      "quantity": 100,
+      "price_text": "5.9268 SFL",
+      "price": 5.9268,
+      "counterparty": "Seeder06",
+      "farm_id": "-",
+      "trade_id": "b8830d12"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "10:44 PM",
+      "type": "SELL",
+      "item": "Wool",
+      "quantity": 100,
+      "price_text": "5.9268 SFL",
+      "price": 5.9268,
+      "counterparty": "Seeder06",
+      "farm_id": "-",
+      "trade_id": "0c8f286c"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "10:06 PM",
+      "type": "SELL",
+      "item": "Wool",
+      "quantity": 200,
+      "price_text": "11.6999 SFL",
+      "price": 11.6999,
+      "counterparty": "kangasaris",
+      "farm_id": "-",
+      "trade_id": "fef5362f"
+    },
     {
       "date": "2026-01-30",
       "time": "09:48 PM",
@@ -619,12 +679,12 @@
   "last_updated": null,
   "stats": {
     "total_buys": 21,
-    "total_sells": 29,
+    "total_sells": 34,
     "buy_volume": 61.968,
-    "sell_volume": 114.55929999999994,
-    "gross_profit": 52.59129999999993,
+    "sell_volume": 144.4808,
+    "gross_profit": 82.51279999999998,
     "avg_buy_price": 2.950857142857143,
-    "avg_sell_price": 3.9503206896551704,
+    "avg_sell_price": 4.249435294117647,
     "most_traded_items": {},
     "recent_activity": [
       {
@@ -793,7 +853,7 @@
         "time": "01:09 PM"
       }
     ],
-    "profit_margin": 84.86848050606753,
+    "profit_margin": 133.15388587658143,
     "most_bought_items": {
       "Pumpkin": 6000,
       "Broccoli": 2000,
@@ -805,10 +865,10 @@
       "Moonfur": 2
     },
     "most_sold_items": {
+      "Stone": 900,
+      "Wool": 900,
       "Merino Wool": 800,
       "Milk": 510,
-      "Wool": 500,
-      "Stone": 500,
       "Beetroot": 150
     }
   },
@@ -2668,15 +2728,6 @@
       "trade_type": "instant"
     },
     {
-      "id": "0c8f286c",
-      "item": "Wool",
-      "quantity": 100,
-      "price": 5.9268,
-      "created_at": 1769783017021,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
       "id": "9e2917ce",
       "item": "Merino Wool",
       "quantity": 20,
@@ -2700,51 +2751,6 @@
       "quantity": 200,
       "price": 3.184,
       "created_at": 1769783080986,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "b8830d12",
-      "item": "Wool",
-      "quantity": 100,
-      "price": 5.9268,
-      "created_at": 1769794960005,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "fef5362f",
-      "item": "Wool",
-      "quantity": 200,
-      "price": 11.6999,
-      "created_at": 1769794964936,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "abb365fe",
-      "item": "Wool",
-      "quantity": 100,
-      "price": 5.8499,
-      "created_at": 1769794969532,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "46b7c129",
-      "item": "Wool",
-      "quantity": 100,
-      "price": 5.8499,
-      "created_at": 1769794973983,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "63b3133e",
-      "item": "Wool",
-      "quantity": 100,
-      "price": 5.8499,
-      "created_at": 1769794979388,
       "collection": "collectibles",
       "trade_type": "instant"
     }
@@ -2997,12 +3003,12 @@
       "Barley": 1410.7525000000023,
       "Rhubarb": 3046.850000001204,
       "Zucchini": 611.7000000007253,
-      "Yam": 48680.85370000001,
-      "Broccoli": 1885.7999999999809,
+      "Yam": 48165.85370000001,
+      "Broccoli": 1510.7999999999809,
       "Pepper": 353.94219999999984,
       "Onion": 3915.144900000001,
       "Turnip": 1849.9429999999993,
-      "Artichoke": 2913.4924999999994
+      "Artichoke": 2898.4924999999994
     },
     "fruits": {
       "Apple": 234.70000000000073,
@@ -3017,12 +3023,12 @@
       "Celestine": 218.75
     },
     "resources": {
-      "Wood": 34639.23,
+      "Wood": 34756.73,
       "Stone": 14825.1,
       "Iron": 686.25,
-      "Gold": 645.5833147263187,
-      "Crimstone": 511.65,
-      "Obsidian": 39.8
+      "Gold": 643.0833147263187,
+      "Crimstone": 508.65,
+      "Obsidian": 40.8
     }
   }
 }

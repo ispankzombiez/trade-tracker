@@ -1,18 +1,54 @@
 {
   "username": "grith",
   "overview": {
-    "balance": 2506.6,
-    "coins": 123240.0,
+    "balance": 2492.76,
+    "coins": 123061.0,
     "gems": 0.0,
     "earned_sfl": 10620.51,
-    "earned_coins": 123240.0,
+    "earned_coins": 123061.0,
     "spent_sfl": 9758.66,
     "items_sold": 5320.0,
     "trade_points": 6878.93,
-    "last_updated": "2026-01-30 09:54 PM",
+    "last_updated": "2026-01-31 12:28 AM",
     "active_listings": 9
   },
   "buys": [
+    {
+      "date": "2026-01-30",
+      "time": "11:23 PM",
+      "type": "BUY",
+      "item": "Egg",
+      "quantity": 100,
+      "price_text": "2.265 SFL",
+      "price": 2.265,
+      "counterparty": "Nherx",
+      "farm_id": "-",
+      "trade_id": "7d4dd564"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "11:23 PM",
+      "type": "BUY",
+      "item": "Egg",
+      "quantity": 10,
+      "price_text": "0.2249 SFL",
+      "price": 0.2249,
+      "counterparty": "Sumac",
+      "farm_id": "-",
+      "trade_id": "0ff69a64"
+    },
+    {
+      "date": "2026-01-30",
+      "time": "11:23 PM",
+      "type": "BUY",
+      "item": "Egg",
+      "quantity": 500,
+      "price_text": "11.3499 SFL",
+      "price": 11.3499,
+      "counterparty": "dropsie",
+      "farm_id": "-",
+      "trade_id": "7638b943"
+    },
     {
       "date": "2026-01-30",
       "time": "06:07 PM",
@@ -618,22 +654,40 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 34,
+    "total_buys": 37,
     "total_sells": 16,
-    "buy_volume": 63.30110000000001,
+    "buy_volume": 77.14089999999999,
     "sell_volume": 61.495999999999995,
-    "gross_profit": -1.8051000000000172,
-    "avg_buy_price": 1.8617970588235297,
+    "gross_profit": -15.644899999999993,
+    "avg_buy_price": 2.0848891891891888,
     "avg_sell_price": 3.8434999999999997,
     "most_traded_items": {},
     "recent_activity": [
       {
         "type": "BUY",
-        "item": "Wheat",
+        "item": "Egg",
         "quantity": 100,
-        "price": 1.4097,
+        "price": 2.265,
         "date": "2026-01-30",
-        "time": "06:07 PM",
+        "time": "11:23 PM",
+        "username": "grith"
+      },
+      {
+        "type": "BUY",
+        "item": "Egg",
+        "quantity": 10,
+        "price": 0.2249,
+        "date": "2026-01-30",
+        "time": "11:23 PM",
+        "username": "grith"
+      },
+      {
+        "type": "BUY",
+        "item": "Egg",
+        "quantity": 500,
+        "price": 11.3499,
+        "date": "2026-01-30",
+        "time": "11:23 PM",
         "username": "grith"
       },
       {
@@ -653,6 +707,14 @@
         "date": "2026-01-30",
         "time": "06:07 PM",
         "username": "grith"
+      },
+      {
+        "type": "BUY",
+        "item": "Wheat",
+        "quantity": 100,
+        "price": 1.4097,
+        "date": "2026-01-30",
+        "time": "06:07 PM"
       },
       {
         "type": "BUY",
@@ -660,8 +722,7 @@
         "quantity": 200,
         "price": 3.7901,
         "date": "2026-01-30",
-        "time": "06:06 PM",
-        "username": "grith"
+        "time": "06:06 PM"
       },
       {
         "type": "BUY",
@@ -669,8 +730,7 @@
         "quantity": 170,
         "price": 3.2,
         "date": "2026-01-30",
-        "time": "06:06 PM",
-        "username": "grith"
+        "time": "06:06 PM"
       },
       {
         "type": "BUY",
@@ -767,37 +827,14 @@
         "price": 2.3022,
         "date": "2026-01-30",
         "time": "04:20 AM"
-      },
-      {
-        "type": "BUY",
-        "item": "Barley",
-        "quantity": 100,
-        "price": 2.3022,
-        "date": "2026-01-30",
-        "time": "04:20 AM"
-      },
-      {
-        "type": "BUY",
-        "item": "Wheat",
-        "quantity": 20,
-        "price": 0.2933,
-        "date": "2026-01-30",
-        "time": "02:09 AM"
-      },
-      {
-        "type": "BUY",
-        "item": "Wheat",
-        "quantity": 20,
-        "price": 0.2933,
-        "date": "2026-01-30",
-        "time": "02:09 AM"
       }
     ],
-    "profit_margin": -2.851609213741968,
+    "profit_margin": -20.280940460896872,
     "most_bought_items": {
       "Wheat": 1365,
       "Corn": 1270,
-      "Barley": 836
+      "Barley": 836,
+      "Egg": 610
     },
     "most_sold_items": {
       "Milk": 300,
@@ -1026,16 +1063,16 @@
   ],
   "inventory": {
     "crops": {
-      "Sunflower": 180654.1768000042,
-      "Potato": 118291.46900000039,
+      "Sunflower": 179654.1768000042,
+      "Potato": 117291.46900000039,
       "Pumpkin": 123554.13219999951,
-      "Carrot": 69365.28880000011,
-      "Cabbage": 49140.85870000012,
+      "Carrot": 69325.28880000011,
+      "Cabbage": 48960.85870000012,
       "Beetroot": 74.19949999999962,
       "Cauliflower": 171.1749999999996,
       "Parsnip": 100.23789999999991,
       "Radish": 182.59399999999954,
-      "Wheat": 90.21370000000749,
+      "Wheat": 10.213700000007487,
       "Kale": 81.8798000000018,
       "Eggplant": 1585.7422000000008,
       "Corn": 243.6961999999996,
@@ -1045,29 +1082,29 @@
       "Barley": 365.53550000000337,
       "Rhubarb": 133780.67760000026,
       "Zucchini": 98370.90019999922,
-      "Yam": 38115.28870000005,
-      "Broccoli": 47359.24920000019,
+      "Yam": 38100.28870000005,
+      "Broccoli": 47792.24920000019,
       "Pepper": 62.99759999999802,
       "Onion": 37.28100000000093,
       "Turnip": 22.745399999999982,
-      "Artichoke": 977.293100000001
+      "Artichoke": 975.293100000001
     },
     "fruits": {
-      "Apple": 128.6900000000005,
+      "Apple": 134.34000000000052,
       "Blueberry": 50.6600000000021,
-      "Orange": 153.9300000000021,
+      "Orange": 123.9300000000021,
       "Banana": 314.17000000000223,
-      "Grape": 975.31,
-      "Tomato": 39.84000000000105,
+      "Grape": 995.35,
+      "Tomato": 34.84000000000105,
       "Lemon": 144.11000000000024,
       "Duskberry": 10.640000000000013,
       "Lunara": 10.04000000000001,
       "Celestine": 38.30000000000005
     },
     "resources": {
-      "Wood": 515.615,
-      "Stone": 3892.74,
-      "Iron": 217.05,
+      "Wood": 622.835,
+      "Stone": 3962.88,
+      "Iron": 252.68,
       "Gold": 68.15,
       "Crimstone": 56.7,
       "Obsidian": 91.5
