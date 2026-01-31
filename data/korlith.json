@@ -2,17 +2,29 @@
   "username": "korlith",
   "overview": {
     "balance": 1.2,
-    "coins": 30295.0,
+    "coins": 30103.0,
     "gems": 0.0,
     "earned_sfl": 3697.04,
-    "earned_coins": 30295.0,
+    "earned_coins": 30103.0,
     "spent_sfl": 4760.42,
     "items_sold": 6506.0,
     "trade_points": 25312.71,
-    "last_updated": "2026-01-31 01:15 AM",
+    "last_updated": "2026-01-31 01:52 AM",
     "active_listings": 0
   },
   "buys": [
+    {
+      "date": "2026-01-31",
+      "time": "01:39 AM",
+      "type": "BUY",
+      "item": "Cauliflower",
+      "quantity": 50,
+      "price_text": "0.5774 SFL",
+      "price": 0.5774,
+      "counterparty": "lliw",
+      "farm_id": "-",
+      "trade_id": "d336c126"
+    },
     {
       "date": "2026-01-31",
       "time": "12:45 AM",
@@ -954,15 +966,24 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 39,
+    "total_buys": 40,
     "total_sells": 39,
-    "buy_volume": 36.9996,
+    "buy_volume": 37.577,
     "sell_volume": 31.5988,
-    "gross_profit": -5.4008,
-    "avg_buy_price": 0.9487076923076924,
+    "gross_profit": -5.9781999999999975,
+    "avg_buy_price": 0.939425,
     "avg_sell_price": 0.8102256410256411,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Cauliflower",
+        "quantity": 50,
+        "price": 0.5774,
+        "date": "2026-01-31",
+        "time": "01:39 AM",
+        "username": "korlith"
+      },
       {
         "type": "BUY",
         "item": "Iron",
@@ -1005,8 +1026,7 @@
         "quantity": 2,
         "price": 0.774,
         "date": "2026-01-30",
-        "time": "11:54 PM",
-        "username": "korlith"
+        "time": "11:54 PM"
       },
       {
         "type": "BUY",
@@ -1119,17 +1139,9 @@
         "price": 1.0598,
         "date": "2026-01-30",
         "time": "02:52 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Broccoli",
-        "quantity": 113,
-        "price": 0.3492,
-        "date": "2026-01-30",
-        "time": "05:47 AM"
       }
     ],
-    "profit_margin": -14.5969145612385,
+    "profit_margin": -15.909199776459,
     "most_bought_items": {
       "Sunflower": 4000,
       "Potato": 3000,
@@ -1138,9 +1150,9 @@
       "Broccoli": 849,
       "Feather": 450,
       "Apple": 267,
+      "Cauliflower": 100,
       "Honey": 96,
-      "Beetroot": 50,
-      "Cauliflower": 50
+      "Beetroot": 50
     },
     "most_sold_items": {
       "Wood": 900,
@@ -1161,7 +1173,7 @@
       "Sunflower": 2322.8895000003745,
       "Potato": 2008.1918999998384,
       "Pumpkin": 766.0419999999783,
-      "Carrot": 677.5454,
+      "Carrot": 647.5454,
       "Cabbage": 4.087,
       "Beetroot": 5.9647,
       "Cauliflower": 11.3916,
@@ -1185,8 +1197,8 @@
       "Olive": 0.05
     },
     "fruits": {
-      "Apple": 31.300000000000114,
-      "Orange": 27.500000000000355,
+      "Apple": 11.300000000000116,
+      "Orange": 12.500000000000357,
       "Tomato": 13.600000000001986,
       "Lemon": 119.10000000000153,
       "Grape": 0.15,
@@ -1194,9 +1206,9 @@
       "Banana": 26.0
     },
     "resources": {
-      "Wood": 248.48,
-      "Stone": 121.8,
-      "Iron": 1.1,
+      "Wood": 212.48,
+      "Stone": 61.8,
+      "Iron": 27.7,
       "Crimstone": 6.5,
       "Gold": 0.8,
       "Obsidian": 2.0
