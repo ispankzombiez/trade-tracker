@@ -4,7 +4,7 @@
     "balance": "16.63510846268423939",
     "previousBalance": "286.062706830485618219",
     "inventory": {
-      "Pumpkin Seed": "850",
+      "Pumpkin Seed": "787",
       "Cabbage Seed": "422",
       "Beetroot Seed": "428",
       "Cauliflower Seed": "108",
@@ -31,7 +31,7 @@
       "Clover Seed": "12",
       "Sunflower": "28839.2206",
       "Potato": "25265.498499999702428",
-      "Pumpkin": "11343.261399999984099",
+      "Pumpkin": "11563.960699999984099",
       "Carrot": "6825.8579000000000244",
       "Cabbage": "24.9683000000000027",
       "Beetroot": "66.3934",
@@ -154,7 +154,7 @@
       "Fat Chicken": "1",
       "Rich Chicken": "1",
       "Honey": "10.295505184838001197",
-      "Wild Mushroom": "415.2",
+      "Wild Mushroom": "416.2",
       "Tree": "25",
       "Stone Rock": "21",
       "Iron Rock": "13",
@@ -175,7 +175,7 @@
       "Sunstone": "6",
       "Oil": "241.7241203703703311",
       "Oil Reserve": "4",
-      "Leather": "4.3",
+      "Leather": "0.3",
       "Merino Wool": "54",
       "Feather": "208.9",
       "Hay": "20.9375000000002015",
@@ -424,7 +424,7 @@
       "Anthill": "7",
       "Coprolite": "51",
       "Old Bottle": "48",
-      "Love Charm": "7157",
+      "Love Charm": "7165",
       "Sea Cucumber": "79",
       "Sand": "310",
       "Bracelet": "25",
@@ -448,7 +448,7 @@
       "Moon Crystal": "25",
       "Giant Gold Bone": "1",
       "Prism Petal": "3",
-      "Magic Mushroom": "66",
+      "Magic Mushroom": "67",
       "Purple Carnation": "2",
       "Peanuts": "1",
       "Celestine": "3",
@@ -467,7 +467,7 @@
       "Mangrove": "1",
       "Pizza Margherita": "61",
       "Power Smoothie": "21",
-      "Fishing Lure": "25",
+      "Fishing Lure": "30",
       "Timber": "2",
       "Bumpkin ganoush": "3",
       "Gumbo": "58",
@@ -475,7 +475,7 @@
       "Purple Gladiolus": "12",
       "Wheat Seed": "146",
       "Orange Seed": "19",
-      "Doll": "21",
+      "Doll": "22",
       "Rice Seed": "4",
       "Banana Plant": "23",
       "Dirt Path": "31",
@@ -483,7 +483,7 @@
       "Popcorn": "12",
       "Fish Market": "1",
       "Thermal Stone": "1",
-      "Wool": "5.5",
+      "Wool": "0.5",
       "Primula Enigma": "10",
       "Sparrow Shrine": "1",
       "Protective Pesticide": "1",
@@ -540,7 +540,7 @@
       "Mariner Pot": "2",
       "Ruffroot": "1",
       "Bumpkin Detox": "2",
-      "Cheer": "4",
+      "Cheer": "9",
       "Banana Blast": "1",
       "Sunstone Rock": "1",
       "Beetroot Cake": "1",
@@ -2258,6 +2258,11 @@
       }
     },
     "calendar": {
+      "doubleDelivery": {
+        "startedAt": 1769817600000,
+        "triggeredAt": 1769817648453,
+        "acknowledgedAt": 1769817650451
+      },
       "dates": [
         {
           "name": "sunshower",
@@ -2449,8 +2454,8 @@
         "y": -1,
         "height": 1,
         "crop": {
-          "id": "a88dad93",
-          "plantedAt": 1769813295953.25,
+          "id": "b01c9922",
+          "plantedAt": 1769816206350.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -2462,8 +2467,8 @@
         "y": -1,
         "height": 1,
         "crop": {
-          "id": "95616630",
-          "plantedAt": 1769813288539.25,
+          "id": "4c3db469",
+          "plantedAt": 1769816199817.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -2475,8 +2480,8 @@
         "y": -1,
         "height": 1,
         "crop": {
-          "id": "ce6a8b8d",
-          "plantedAt": 1769813286433.25,
+          "id": "0f54e368",
+          "plantedAt": 1769816197035.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -2488,8 +2493,8 @@
         "y": -2,
         "height": 1,
         "crop": {
-          "id": "c6629ad7",
-          "plantedAt": 1769813296796.25,
+          "id": "ed8aaef5",
+          "plantedAt": 1769816205787.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -2501,8 +2506,8 @@
         "y": -2,
         "height": 1,
         "crop": {
-          "id": "9ceaec2a",
-          "plantedAt": 1769813289302.25,
+          "id": "6b8cef1c",
+          "plantedAt": 1769816200146.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -2514,8 +2519,8 @@
         "y": -2,
         "height": 1,
         "crop": {
-          "id": "871df3e2",
-          "plantedAt": 1769813287635.25,
+          "id": "00bf9e8a",
+          "plantedAt": 1769816195794.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -2527,8 +2532,8 @@
         "y": 0,
         "height": 1,
         "crop": {
-          "id": "2eccc08f",
-          "plantedAt": 1769813297044.25,
+          "id": "ac776701",
+          "plantedAt": 1769816206096.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -2540,8 +2545,8 @@
         "y": 0,
         "height": 1,
         "crop": {
-          "id": "d5174338",
-          "plantedAt": 1769813288144.25,
+          "id": "97f638b0",
+          "plantedAt": 1769816199145.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -2553,8 +2558,8 @@
         "y": 0,
         "height": 1,
         "crop": {
-          "id": "fe402e0d",
-          "plantedAt": 1769813287242.25,
+          "id": "102f9c85",
+          "plantedAt": 1769816196112.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -2566,8 +2571,8 @@
         "y": 0,
         "height": 1,
         "crop": {
-          "id": "f309681c",
-          "plantedAt": 1769813276955.25,
+          "id": "0e8223ac",
+          "plantedAt": 1769816190371.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -2579,8 +2584,8 @@
         "y": -1,
         "height": 1,
         "crop": {
-          "id": "3b60698f",
-          "plantedAt": 1769813276368.25,
+          "id": "0fe2fa87",
+          "plantedAt": 1769816190629.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -2592,8 +2597,8 @@
         "y": -2,
         "height": 1,
         "crop": {
-          "id": "7a7e2508",
-          "plantedAt": 1769813277314.25,
+          "id": "c9504cd5",
+          "plantedAt": 1769816190946.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -2605,8 +2610,8 @@
         "y": 0,
         "height": 1,
         "crop": {
-          "id": "d055cab1",
-          "plantedAt": 1769813270542.25,
+          "id": "3ec6d55b",
+          "plantedAt": 1769816185479.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -2618,8 +2623,8 @@
         "y": -1,
         "height": 1,
         "crop": {
-          "id": "f59517c1",
-          "plantedAt": 1769813270897.25,
+          "id": "2d04d643",
+          "plantedAt": 1769816185811.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -2631,8 +2636,8 @@
         "y": -2,
         "height": 1,
         "crop": {
-          "id": "44e0bff9",
-          "plantedAt": 1769813272528.25,
+          "id": "052e71c3",
+          "plantedAt": 1769816186126.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -2644,8 +2649,8 @@
         "y": 0,
         "height": 1,
         "crop": {
-          "id": "ce878347",
-          "plantedAt": 1769813266232.25,
+          "id": "3bce11fa",
+          "plantedAt": 1769816181370.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -2657,8 +2662,8 @@
         "y": -1,
         "height": 1,
         "crop": {
-          "id": "d9bb9c60",
-          "plantedAt": 1769813266598.25,
+          "id": "10689aa0",
+          "plantedAt": 1769816181794.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -2670,8 +2675,8 @@
         "y": -2,
         "height": 1,
         "crop": {
-          "id": "bf745b90",
-          "plantedAt": 1769813266940.25,
+          "id": "0a2b3790",
+          "plantedAt": 1769816184542.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -2683,8 +2688,8 @@
         "x": -3,
         "y": 0,
         "crop": {
-          "id": "d19a61bd",
-          "plantedAt": 1769813297512.25,
+          "id": "60d6e40d",
+          "plantedAt": 1769816207309.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -2696,8 +2701,8 @@
         "x": -3,
         "y": -1,
         "crop": {
-          "id": "c3302768",
-          "plantedAt": 1769813297923.25,
+          "id": "acaf58c3",
+          "plantedAt": 1769816207669.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -2709,8 +2714,8 @@
         "x": -3,
         "y": -2,
         "crop": {
-          "id": "91f02bf2",
-          "plantedAt": 1769813298812.25,
+          "id": "5b0b8f12",
+          "plantedAt": 1769816208014.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -2722,8 +2727,8 @@
         "x": -3,
         "y": -3,
         "crop": {
-          "id": "17f9faba",
-          "plantedAt": 1769813300173.25,
+          "id": "27eb1b2a",
+          "plantedAt": 1769816208361.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -2735,8 +2740,8 @@
         "x": -2,
         "y": -3,
         "crop": {
-          "id": "0bebac54",
-          "plantedAt": 1769813295579.25,
+          "id": "10f954af",
+          "plantedAt": 1769816204765.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -2748,8 +2753,8 @@
         "x": -2,
         "y": -4,
         "crop": {
-          "id": "2e333815",
-          "plantedAt": 1769813296434.25,
+          "id": "6769390a",
+          "plantedAt": 1769816206754.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -2761,8 +2766,8 @@
         "x": -2,
         "y": -5,
         "crop": {
-          "id": "13c9ac3b",
-          "plantedAt": 1769813294862.25,
+          "id": "cd56746a",
+          "plantedAt": 1769816204427.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -2774,8 +2779,8 @@
         "x": -2,
         "y": -6,
         "crop": {
-          "id": "b3a759a5",
-          "plantedAt": 1769813294510.25,
+          "id": "19033cb4",
+          "plantedAt": 1769816203617.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -2787,8 +2792,8 @@
         "x": -2,
         "y": -7,
         "crop": {
-          "id": "209b7f34",
-          "plantedAt": 1769813294142.25,
+          "id": "f2f5648b",
+          "plantedAt": 1769816203291.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -2800,8 +2805,8 @@
         "x": -1,
         "y": -3,
         "crop": {
-          "id": "acb342a2",
-          "plantedAt": 1769813291437.25,
+          "id": "46157223",
+          "plantedAt": 1769816200477.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -2813,8 +2818,8 @@
         "x": -1,
         "y": -4,
         "crop": {
-          "id": "daffbd5d",
-          "plantedAt": 1769813289673.25,
+          "id": "028d6e89",
+          "plantedAt": 1769816200826.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -2826,8 +2831,8 @@
         "x": -1,
         "y": -5,
         "crop": {
-          "id": "a67ead2a",
-          "plantedAt": 1769813291974.25,
+          "id": "01dcb8d7",
+          "plantedAt": 1769816201175.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -2839,8 +2844,8 @@
         "x": -1,
         "y": -6,
         "crop": {
-          "id": "5f855bce",
-          "plantedAt": 1769813290450.25,
+          "id": "63c1c4c0",
+          "plantedAt": 1769816201876.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -2852,8 +2857,8 @@
         "x": -1,
         "y": -7,
         "crop": {
-          "id": "78c8ba48",
-          "plantedAt": 1769813292450.25,
+          "id": "15c9c41f",
+          "plantedAt": 1769816203892.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -2865,8 +2870,8 @@
         "x": -1,
         "y": -8,
         "crop": {
-          "id": "d5e38d69",
-          "plantedAt": 1769813292819.25,
+          "id": "297319dd",
+          "plantedAt": 1769816202229.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -2878,8 +2883,8 @@
         "x": 0,
         "y": -3,
         "crop": {
-          "id": "8aa8d0c7",
-          "plantedAt": 1769813285313.25,
+          "id": "63c23fa0",
+          "plantedAt": 1769816197418.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -2891,8 +2896,8 @@
         "x": 0,
         "y": -4,
         "crop": {
-          "id": "7b9ea282",
-          "plantedAt": 1769813284912.25,
+          "id": "784eb342",
+          "plantedAt": 1769816195467.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -2904,8 +2909,8 @@
         "x": 0,
         "y": -5,
         "crop": {
-          "id": "6ad98e49",
-          "plantedAt": 1769813284014.25,
+          "id": "1cf6a596",
+          "plantedAt": 1769816195000.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -2917,8 +2922,8 @@
         "x": 0,
         "y": -6,
         "crop": {
-          "id": "148d92bb",
-          "plantedAt": 1769813283678.25,
+          "id": "659f7898",
+          "plantedAt": 1769816194261.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -2930,8 +2935,8 @@
         "x": 0,
         "y": -7,
         "crop": {
-          "id": "7c4cf1aa",
-          "plantedAt": 1769813283282.25,
+          "id": "2a7bdaac",
+          "plantedAt": 1769816193932.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -2943,8 +2948,8 @@
         "x": 0,
         "y": -8,
         "crop": {
-          "id": "937aeb65",
-          "plantedAt": 1769813282916.25,
+          "id": "7e12114c",
+          "plantedAt": 1769816197855.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -2956,8 +2961,8 @@
         "x": 1,
         "y": -3,
         "crop": {
-          "id": "7d85a95b",
-          "plantedAt": 1769813277765.25,
+          "id": "5b56ee79",
+          "plantedAt": 1769816191277.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -2969,8 +2974,8 @@
         "x": 1,
         "y": -4,
         "crop": {
-          "id": "1d7280ba",
-          "plantedAt": 1769813280048.25,
+          "id": "915990b4",
+          "plantedAt": 1769816191959.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -2982,8 +2987,8 @@
         "x": 1,
         "y": -5,
         "crop": {
-          "id": "ccc0041f",
-          "plantedAt": 1769813280420.25,
+          "id": "e02d17d5",
+          "plantedAt": 1769816192291.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -2995,8 +3000,8 @@
         "x": 1,
         "y": -6,
         "crop": {
-          "id": "28f047da",
-          "plantedAt": 1769813282126.25,
+          "id": "659b9249",
+          "plantedAt": 1769816192643.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -3008,8 +3013,8 @@
         "x": 1,
         "y": -7,
         "crop": {
-          "id": "6940cf4f",
-          "plantedAt": 1769813281175.25,
+          "id": "616807b1",
+          "plantedAt": 1769816192957.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -3021,8 +3026,8 @@
         "x": 1,
         "y": -8,
         "crop": {
-          "id": "2f9456a1",
-          "plantedAt": 1769813282534.25,
+          "id": "7cd8485c",
+          "plantedAt": 1769816193274.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -3034,8 +3039,8 @@
         "x": 2,
         "y": -3,
         "crop": {
-          "id": "1465426d",
-          "plantedAt": 1769813271799.25,
+          "id": "c64fd23f",
+          "plantedAt": 1769816186442.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -3047,8 +3052,8 @@
         "x": 2,
         "y": -4,
         "crop": {
-          "id": "ac8dd6c8",
-          "plantedAt": 1769813272909.25,
+          "id": "a860d856",
+          "plantedAt": 1769816189075.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -3060,8 +3065,8 @@
         "x": 2,
         "y": -5,
         "crop": {
-          "id": "8f33360e",
-          "plantedAt": 1769813274745.25,
+          "id": "0551dbad",
+          "plantedAt": 1769816187059.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -3073,8 +3078,8 @@
         "x": 2,
         "y": -6,
         "crop": {
-          "id": "c2b9952a",
-          "plantedAt": 1769813273271.25,
+          "id": "e5d877a1",
+          "plantedAt": 1769816187409.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -3086,8 +3091,8 @@
         "x": 2,
         "y": -7,
         "crop": {
-          "id": "c4a05ff7",
-          "plantedAt": 1769813273664.25,
+          "id": "05484632",
+          "plantedAt": 1769816187725.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -3099,8 +3104,8 @@
         "x": 2,
         "y": -8,
         "crop": {
-          "id": "82fa902e",
-          "plantedAt": 1769813274306.25,
+          "id": "074829bf",
+          "plantedAt": 1769816188057.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -3112,8 +3117,8 @@
         "x": 3,
         "y": -3,
         "crop": {
-          "id": "55b912c4",
-          "plantedAt": 1769813268445.25,
+          "id": "021950a4",
+          "plantedAt": 1769816182109.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -3125,8 +3130,8 @@
         "x": 3,
         "y": -4,
         "crop": {
-          "id": "6f1e9380",
-          "plantedAt": 1769813268931.25,
+          "id": "c637eb1d",
+          "plantedAt": 1769816182425.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -3138,8 +3143,8 @@
         "x": 3,
         "y": -5,
         "crop": {
-          "id": "9ef04c55",
-          "plantedAt": 1769813267655.25,
+          "id": "02819dae",
+          "plantedAt": 1769816182727.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -3151,8 +3156,8 @@
         "x": 3,
         "y": -6,
         "crop": {
-          "id": "afd7b987",
-          "plantedAt": 1769813268006.25,
+          "id": "a9e1ecfa",
+          "plantedAt": 1769816184869.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -3164,8 +3169,8 @@
         "x": 3,
         "y": -7,
         "crop": {
-          "id": "1ab639c0",
-          "plantedAt": 1769813269165.25,
+          "id": "3579ebd7",
+          "plantedAt": 1769816183564.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -3177,8 +3182,8 @@
         "x": 3,
         "y": -8,
         "crop": {
-          "id": "7d9fb4c4",
-          "plantedAt": 1769813269725.25,
+          "id": "7268ef90",
+          "plantedAt": 1769816183341.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -3190,8 +3195,8 @@
         "x": -3,
         "y": -4,
         "crop": {
-          "id": "7639d0f4",
-          "plantedAt": 1769813299464.25,
+          "id": "b2a6659e",
+          "plantedAt": 1769816208731.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -3203,8 +3208,8 @@
         "x": -3,
         "y": -5,
         "crop": {
-          "id": "9bce6e55",
-          "plantedAt": 1769813299938.25,
+          "id": "4f0d00b2",
+          "plantedAt": 1769816209073.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -3216,8 +3221,8 @@
         "x": -3,
         "y": -6,
         "crop": {
-          "id": "8f6db4cb",
-          "plantedAt": 1769813301340.25,
+          "id": "9c29de29",
+          "plantedAt": 1769816209427.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -3229,8 +3234,8 @@
         "x": -3,
         "y": -7,
         "crop": {
-          "id": "b206adbd",
-          "plantedAt": 1769813300906.25,
+          "id": "21adffa3",
+          "plantedAt": 1769816209781.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -3242,8 +3247,8 @@
         "x": -3,
         "y": -8,
         "crop": {
-          "id": "75e89f74",
-          "plantedAt": 1769813301685.25,
+          "id": "bbf8f5df",
+          "plantedAt": 1769816210116.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -3255,8 +3260,8 @@
         "x": -2,
         "y": -8,
         "crop": {
-          "id": "d42e9c33",
-          "plantedAt": 1769813290891.25,
+          "id": "18ad68c2",
+          "plantedAt": 1769816204069.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -3266,8 +3271,8 @@
         "x": 4,
         "y": 0,
         "crop": {
-          "id": "6cf95008",
-          "plantedAt": 1769813264070.25,
+          "id": "6f1a2f77",
+          "plantedAt": 1769816179794.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -3277,8 +3282,8 @@
         "x": 4,
         "y": -1,
         "crop": {
-          "id": "4e7eece7",
-          "plantedAt": 1769813264439.25,
+          "id": "a951772b",
+          "plantedAt": 1769816180126.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -3288,8 +3293,8 @@
         "x": 4,
         "y": -2,
         "crop": {
-          "id": "5c1c2eb9",
-          "plantedAt": 1769813265120.25,
+          "id": "e7c2778f",
+          "plantedAt": 1769816180426.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -3299,8 +3304,8 @@
         "x": 4,
         "y": -3,
         "crop": {
-          "id": "fb5f0f34",
-          "plantedAt": 1769813265428.25,
+          "id": "3eb56928",
+          "plantedAt": 1769816180710.25,
           "boostedTime": 916998.7500000002,
           "name": "Pumpkin"
         }
@@ -5734,10 +5739,10 @@
       }
     },
     "dailyRewards": {
-      "streaks": 69,
+      "streaks": 70,
       "chest": {
-        "collectedAt": 1769733396449,
-        "code": 83
+        "collectedAt": 1769817654959,
+        "code": 84
       }
     },
     "buffs": {
@@ -5762,32 +5767,32 @@
         }
       ],
       "shop": {
-        "Luvvy Head": {
-          "type": "wearable",
+        "Mysterious Entrance": {
+          "type": "collectible",
           "cost": {
             "items": {
-              "Love Charm": 650
+              "Love Charm": 2500
             }
           },
-          "name": "Luvvy Head"
+          "name": "Mysterious Entrance"
         },
-        "Time Warp Totem": {
+        "Super Totem": {
+          "type": "collectible",
+          "cost": {
+            "items": {
+              "Love Charm": 7800
+            }
+          },
+          "name": "Super Totem"
+        },
+        "Bronze Love Box": {
           "type": "collectible",
           "cost": {
             "items": {
               "Love Charm": 100
             }
           },
-          "name": "Time Warp Totem"
-        },
-        "Silver Tool Box": {
-          "type": "collectible",
-          "cost": {
-            "items": {
-              "Love Charm": 455
-            }
-          },
-          "name": "Silver Tool Box"
+          "name": "Bronze Love Box"
         }
       },
       "boughtAt": {
@@ -5831,7 +5836,7 @@
       "Cauliflower Sold": 4202.358,
       "Scary Mike Crafted": 1,
       "Goblin's Treat Cooked": 66,
-      "Pumpkin Planted": 42737,
+      "Pumpkin Planted": 42804,
       "Roast Veggies Fed": 14,
       "Roast Veggies Cooked": 397,
       "Carrot Cake Fed": 43,
@@ -6012,7 +6017,7 @@
       "Carrot Sold": 1828.61,
       "Orange Cake Fed": 85,
       "SFL Earned": 7044.8911661475,
-      "Pumpkin Harvested": 64723,
+      "Pumpkin Harvested": 64790,
       "Boiled Eggs Cooked": 391,
       "Bloom Seed Planted": 504,
       "Red Envelope Sold": 148,
@@ -6418,7 +6423,7 @@
       "Red Snapper Fed": 107,
       "Moth Shrine Crafted": 1,
       "Rare Key Crafted": 1,
-      "Doll Crafted": 316,
+      "Doll Crafted": 317,
       "Gilded Doll Crafted": 29,
       "Coins Order Delivered": 343,
       "FLOWER Order Delivered": 26,
@@ -6646,7 +6651,7 @@
       "Shipment Restocked": 60,
       "Recipe Queue Cancelled": 71,
       "General Store Restocked": 27,
-      "Daily Reward Collected": 53,
+      "Daily Reward Collected": 54,
       "Marketplace Listing Created": 120,
       "Gift Giver Reward Opened": 15,
       "Digging Reward Collected": 54,
@@ -6714,7 +6719,7 @@
       "Dewberry Fetched": 8,
       "Ribbon Fetched": 9,
       "Mole Shrine Crafted": 1,
-      "Pet Cookie Collected": 638,
+      "Pet Cookie Collected": 639,
       "Trades Cleared": 1,
       "Marketplace Offer Cancelled": 1,
       "Cornucopia Bought": 1,
@@ -6832,9 +6837,9 @@
       ]
     },
     "mushrooms": {
-      "magicSpawnedAt": 1769738400000,
+      "magicSpawnedAt": 1769817600000,
       "mushrooms": {},
-      "spawnedAt": 1769760000000
+      "spawnedAt": 1769817600000
     },
     "delivery": {
       "orders": [
@@ -6972,35 +6977,6 @@
         },
         {
           "createdAt": 1769733393162,
-          "id": "afea1b",
-          "from": "betty",
-          "items": {
-            "Artichoke": 65,
-            "Egg": 10
-          },
-          "readyAt": 1769733393162,
-          "reward": {
-            "coins": 1234,
-            "items": {}
-          },
-          "completedAt": 1769785932345
-        },
-        {
-          "createdAt": 1769733393162,
-          "id": "4367ab",
-          "from": "blacksmith",
-          "items": {
-            "Gold": 2
-          },
-          "readyAt": 1769733393162,
-          "reward": {
-            "coins": 3112,
-            "items": {}
-          },
-          "completedAt": 1769786008119
-        },
-        {
-          "createdAt": 1769733393162,
           "id": "05bb9b",
           "from": "peggy",
           "items": {
@@ -7013,79 +6989,28 @@
           }
         },
         {
-          "createdAt": 1769733393162,
-          "readyAt": 1769733393162,
-          "from": "corale",
-          "id": "81abbf",
-          "items": {
-            "Olive Flounder": 2
-          },
-          "reward": {
-            "coins": 468,
-            "items": {}
-          },
-          "completedAt": 1769786079256
-        },
-        {
-          "createdAt": 1769733393162,
-          "readyAt": 1769733393162,
-          "from": "tango",
-          "id": "6ed9c5",
-          "items": {
-            "Tomato": 40
-          },
-          "reward": {
-            "coins": 464,
-            "items": {}
-          },
-          "completedAt": 1769786107782
-        },
-        {
-          "createdAt": 1769733393162,
-          "readyAt": 1769733393162,
-          "from": "pumpkin' pete",
-          "id": "e108fd",
-          "items": {
-            "Carrot": 20,
-            "Yam": 5
-          },
-          "reward": {},
-          "completedAt": 1769785452163
-        },
-        {
           "createdAt": 1769785924488,
-          "readyAt": 1769785924488,
-          "from": "bert",
           "id": "b3a476",
+          "from": "bert",
           "items": {
             "Honey": 5,
             "Pickaxe": 4,
             "Wood": 45
           },
+          "readyAt": 1769785924488,
           "reward": {}
         },
         {
           "createdAt": 1769785930438,
-          "readyAt": 1769785930438,
-          "from": "timmy",
           "id": "15bd12",
+          "from": "timmy",
           "items": {
             "Apple Juice": 6,
             "Lemon": 25,
             "Lunar Doll": 1
           },
+          "readyAt": 1769785930438,
           "reward": {}
-        },
-        {
-          "createdAt": 1769785960350,
-          "readyAt": 1769785960350,
-          "from": "cornwell",
-          "id": "2c0d7d",
-          "items": {
-            "Feather": 60
-          },
-          "reward": {},
-          "completedAt": 1769785963278
         },
         {
           "createdAt": 1769786028306,
@@ -7099,41 +7024,111 @@
           "reward": {}
         },
         {
-          "createdAt": 1769786090295,
-          "readyAt": 1769786090295,
+          "createdAt": 1769817648362,
+          "readyAt": 1769817648362,
+          "from": "betty",
+          "id": "9640e0",
+          "items": {
+            "Artichoke": 65,
+            "Barley": 10
+          },
+          "reward": {
+            "coins": 1284,
+            "items": {}
+          }
+        },
+        {
+          "createdAt": 1769817648362,
+          "readyAt": 1769817648362,
+          "from": "blacksmith",
+          "id": "4e86d5",
+          "items": {
+            "Wood": 50
+          },
+          "reward": {
+            "coins": 1184,
+            "items": {}
+          }
+        },
+        {
+          "createdAt": 1769817648362,
+          "readyAt": 1769817648362,
+          "from": "corale",
+          "id": "e24afd",
+          "items": {
+            "Moray Eel": 2
+          },
+          "reward": {
+            "coins": 458,
+            "items": {}
+          }
+        },
+        {
+          "createdAt": 1769817648362,
+          "readyAt": 1769817648362,
+          "from": "tango",
+          "id": "caf967",
+          "items": {
+            "Banana": 10
+          },
+          "reward": {
+            "coins": 634,
+            "items": {}
+          }
+        },
+        {
+          "createdAt": 1769817648362,
+          "readyAt": 1769817648362,
+          "from": "pumpkin' pete",
+          "id": "aafd63",
+          "items": {
+            "Potato": 10,
+            "Yam": 25
+          },
+          "reward": {}
+        },
+        {
+          "createdAt": 1769817648362,
+          "readyAt": 1769817648362,
+          "from": "miranda",
+          "id": "637729",
+          "items": {
+            "Fruitful Blend": 7,
+            "Sprout Mix": 5
+          },
+          "reward": {}
+        },
+        {
+          "createdAt": 1769817648362,
+          "readyAt": 1769817648362,
           "from": "finn",
-          "id": "77f1d5",
+          "id": "0a3987",
           "items": {
             "Tuna": 9,
             "Wool": 12
           },
-          "reward": {},
-          "completedAt": 1769786091846
+          "reward": {}
         },
         {
-          "createdAt": 1769786101759,
-          "readyAt": 1769786101759,
-          "from": "miranda",
-          "id": "fbf070",
-          "items": {
-            "Giant Orange": 1,
-            "Red Pansy": 2
-          },
-          "reward": {},
-          "completedAt": 1769786103607
-        },
-        {
-          "createdAt": 1769786162935,
-          "readyAt": 1769786162935,
+          "createdAt": 1769817648362,
+          "readyAt": 1769817648362,
           "from": "pharaoh",
-          "id": "90c26c",
+          "id": "ec091f",
           "items": {
-            "Sand": 5,
             "Sand Shovel": 7,
-            "Vase": 2
+            "Starfish": 2
           },
-          "reward": {},
-          "completedAt": 1769786245965
+          "reward": {}
+        },
+        {
+          "createdAt": 1769817648362,
+          "readyAt": 1769817648362,
+          "from": "cornwell",
+          "id": "b87a57",
+          "items": {
+            "Wheat Cake": 1
+          },
+          "reward": {}
         }
       ],
       "fulfilledCount": 10243,
@@ -7143,8 +7138,8 @@
         "goal": 20
       },
       "dailySFL": {
-        "day": 30,
-        "amount": 4.281034391635981
+        "day": 31,
+        "amount": 4.291902827080979
       }
     },
     "potionHouse": {
@@ -7833,52 +7828,52 @@
         "mine-whack": {
           "coins": 0,
           "items": {
-            "Mark": 40
+            "Mark": 60
           },
           "wearables": {},
-          "score": 2500,
-          "startAt": 1769731200000,
-          "endAt": 1769817600000
+          "score": 3500,
+          "startAt": 1769817600000,
+          "endAt": 1769904000000
         },
         "chicken-rescue": {
           "coins": 0,
           "items": {
-            "Mark": 35
+            "Mark": 50
           },
           "wearables": {},
-          "score": 30,
-          "startAt": 1769731200000,
-          "endAt": 1769817600000
+          "score": 45,
+          "startAt": 1769817600000,
+          "endAt": 1769904000000
         },
         "crops-and-chickens": {
           "coins": 0,
           "items": {
-            "Mark": 60
+            "Mark": 50
           },
           "wearables": {},
-          "score": 4000,
-          "startAt": 1769731200000,
-          "endAt": 1769817600000
+          "score": 2500,
+          "startAt": 1769817600000,
+          "endAt": 1769904000000
         },
         "fruit-dash": {
           "coins": 0,
           "items": {
-            "Mark": 40
+            "Mark": 30
           },
           "wearables": {},
-          "score": 2000,
-          "startAt": 1769731200000,
-          "endAt": 1769817600000
+          "score": 1500,
+          "startAt": 1769817600000,
+          "endAt": 1769904000000
         },
         "memory": {
           "coins": 0,
           "items": {
-            "Mark": 60
+            "Mark": 30
           },
           "wearables": {},
-          "score": 750,
-          "startAt": 1769731200000,
-          "endAt": 1769817600000
+          "score": 300,
+          "startAt": 1769817600000,
+          "endAt": 1769904000000
         }
       }
     },
@@ -8057,7 +8052,7 @@
           "petXP": 9870,
           "score": 127.6,
           "collectivePet": {
-            "totalXP": 6784542.5,
+            "totalXP": 6973592.5,
             "goalXP": 5445481,
             "goalReached": true,
             "streak": 8,
@@ -8131,13 +8126,14 @@
         },
         "completedPatterns": [],
         "patterns": [
-          "ARTEFACT_SIXTEEN",
-          "ARTEFACT_TWENTY",
-          "ARTEFACT_SEVENTEEN",
+          "ARTEFACT_FIFTEEN",
+          "ARTEFACT_TWENTY_TWO",
+          "ARTEFACT_EIGHTEEN",
           "HIEROGLYPH",
+          "COCKLE",
           "SEA_CUCUMBERS",
-          "SEAWEED",
-          "WOODEN_COMPASS"
+          "WOODEN_COMPASS",
+          "PEARL"
         ]
       }
     },
@@ -8887,8 +8883,8 @@
     },
     "craftingBox": {
       "status": "crafting",
-      "startedAt": 1769807369293,
-      "readyAt": 1769814569293,
+      "startedAt": 1769817087469,
+      "readyAt": 1769824287469,
       "recipes": {},
       "item": {
         "collectible": "Doll"
@@ -9059,14 +9055,14 @@
       }
     },
     "boostsUsedAt": {
-      "Scarecrow": 1769814218684,
+      "Scarecrow": 1769817127115,
       "Laurie's Gains": 1769786300556,
       "Laurie the Chuckle Crow": 1769786300556,
       "Old Farmer": 1769786306228,
-      "Hectare Farm": 1769814218552,
-      "Seed Specialist": 1769814218684,
-      "Lunar Calendar": 1769814218684,
-      "Green Thumb": 1769814218684,
+      "Hectare Farm": 1769817126996,
+      "Seed Specialist": 1769817127115,
+      "Lunar Calendar": 1769817127115,
+      "Green Thumb": 1769817127115,
       "Strong Roots": 1769747372234,
       "Composting Revamp": 1755561998376,
       "Premium Worms": 1762192506226,
@@ -9093,7 +9089,7 @@
       "Loyal Macaw": 1769783637940,
       "Macaw": 1769783637940,
       "Angler Waders": 1769646204743,
-      "Acre Farm": 1769814218552,
+      "Acre Farm": 1769817126996,
       "Easter Bunny": 1769796108767,
       "Experienced Farmer": 1769796108767,
       "Pablo The Bunny": 1769796108767,
@@ -9133,12 +9129,12 @@
       "Eggplant Onesie": 1769303915999,
       "Purple Trail": 1769303915999,
       "Janitor Chicken": 1769783807449,
-      "Victoria Sisters": 1769814218552,
+      "Victoria Sisters": 1769817126996,
       "Blossom Hourglass": 1755351658087,
       "Fox Shrine": 1755956413588,
       "Abundant Harvest": 1769783807449,
       "Restless Animals": 1769783807449,
-      "Green Amulet": 1769814218552,
+      "Green Amulet": 1769817124908,
       "Catchup": 1769783641844,
       "Pollen Power Up": 1769693858167,
       "Drive-Through Deli": 1756996334050,
@@ -9158,8 +9154,8 @@
       "Bucket O' Worms": 1769814226193,
       "Boar Shrine": 1764614830753,
       "Gourmet Hourglass": 1763227704952,
-      "Sparrow Shrine": 1769814218684,
-      "Giant Gold Bone": 1769733396449,
+      "Sparrow Shrine": 1769817127115,
+      "Giant Gold Bone": 1769817654959,
       "Rice and Shine": 1767372536671,
       "Moth Shrine": 1764595219875,
       "Giant Artichoke": 1769432029153,
@@ -9172,10 +9168,10 @@
       "Sunshower": 1769470446754
     },
     "socialFarming": {
-      "points": 35396,
+      "points": 35412,
       "villageProjects": {
         "Miner's Monument": {
-          "cheers": 2694,
+          "cheers": 2696,
           "winnerId": 29
         },
         "Woodcutter's Monument": {
@@ -9191,20 +9187,20 @@
           "winnerId": 2299
         },
         "Cornucopia": {
-          "cheers": 84,
+          "cheers": 86,
           "winnerId": 23779
         },
         "Big Banana": {
-          "cheers": 37,
+          "cheers": 39,
           "winnerId": 29
         },
         "Big Apple": {
-          "cheers": 37,
+          "cheers": 39,
           "winnerId": 23779
         },
         "Big Orange": {
-          "cheers": 11,
-          "winnerId": 145238
+          "cheers": 13,
+          "winnerId": 136208
         }
       },
       "cheers": {
@@ -9232,32 +9228,32 @@
         ]
       },
       "clutter": {
-        "spawnedAt": 1769733393162,
+        "spawnedAt": 1769817648362,
         "locations": {
-          "638d8a09": {
-            "type": "Weed",
+          "4a0d0a77": {
+            "type": "Dung",
             "x": 14,
             "y": 5
           },
-          "7662b901": {
+          "6023ab6e": {
+            "type": "Dung",
+            "x": 11,
+            "y": 8
+          },
+          "868d6f35": {
+            "type": "Weed",
+            "x": 13,
+            "y": 8
+          },
+          "b28a7a8c": {
+            "type": "Dung",
+            "x": 12,
+            "y": 8
+          },
+          "d4557ec0": {
             "type": "Weed",
             "x": 11,
-            "y": 11
-          },
-          "800f9984": {
-            "type": "Dung",
-            "x": 11,
-            "y": 9
-          },
-          "94fc7ffa": {
-            "type": "Dung",
-            "x": 11,
-            "y": 9
-          },
-          "f259a85a": {
-            "type": "Dung",
-            "x": 13,
-            "y": 5
+            "y": 8
           }
         }
       },
@@ -9279,7 +9275,7 @@
       },
       "weeklyPoints": {
         "week": "2026-01-26",
-        "points": 1116
+        "points": 1132
       },
       "helpedForCompetition": 701,
       "waves": {
@@ -9295,22 +9291,17 @@
         "1057": {
           "name": "Pet #1057",
           "id": 1057,
-          "experience": 9235,
+          "experience": 9245,
           "energy": 4975,
           "requests": {
             "food": [
-              "Sunflower Crunch",
-              "Orange Juice",
+              "Fruit Salad",
+              "Kale Stew",
               "Pumpkin Cake",
-              "Pizza Margherita",
-              "Beetroot Cake"
+              "Honey Cheddar",
+              "Antipasto"
             ],
-            "fedAt": 1769814334307,
-            "foodFed": [
-              "Sunflower Crunch",
-              "Orange Juice",
-              "Pizza Margherita"
-            ]
+            "fedAt": 1769814334307
           },
           "pettedAt": 1769814230338,
           "traits": {
@@ -9326,27 +9317,23 @@
           },
           "location": "farm",
           "dailySocialXP": {
-            "2026-01-30": 50
+            "2026-01-31": 10
           }
         },
         "2981": {
           "id": 2981,
           "name": "Pet #2981",
-          "experience": 39081,
+          "experience": 39091,
           "energy": 9805,
           "requests": {
             "food": [
-              "Cheese",
-              "Power Smoothie",
-              "Pumpkin Cake",
-              "Lemon Cheesecake",
-              "Radish Cake"
+              "Reindeer Carrot",
+              "Pancakes",
+              "Sour Shake",
+              "Grape Juice",
+              "Bumpkin Roast"
             ],
-            "fedAt": 1769814323545,
-            "foodFed": [
-              "Cheese",
-              "Power Smoothie"
-            ]
+            "fedAt": 1769814323545
           },
           "pettedAt": 1769814221417,
           "traits": {
@@ -9362,7 +9349,7 @@
           },
           "location": "farm",
           "dailySocialXP": {
-            "2026-01-30": 50
+            "2026-01-31": 10
           },
           "walking": false,
           "fetches": {
@@ -9372,7 +9359,7 @@
           }
         }
       },
-      "requestsGeneratedAt": 1769733393162,
+      "requestsGeneratedAt": 1769817648362,
       "common": {
         "Barkley": {
           "name": "Barkley",
@@ -9380,9 +9367,9 @@
           "energy": 25,
           "requests": {
             "food": [
-              "Mashed Potato",
-              "Bumpkin Detox",
-              "Goblin Brunch"
+              "Quick Juice",
+              "Fancy Fries",
+              "Cauliflower Cake"
             ],
             "fedAt": 1761622949698
           },
@@ -9400,23 +9387,19 @@
         },
         "Burro": {
           "name": "Burro",
-          "experience": 57616,
+          "experience": 57626,
           "energy": 885,
           "requests": {
             "food": [
-              "Bumpkin Broth",
-              "Orange Juice",
-              "Antipasto"
+              "Pumpkin Soup",
+              "Bumpkin Detox",
+              "Grape Juice"
             ],
-            "fedAt": 1769814331211,
-            "foodFed": [
-              "Bumpkin Broth",
-              "Orange Juice"
-            ]
+            "fedAt": 1769814331211
           },
           "pettedAt": 1769814229875,
           "dailySocialXP": {
-            "2026-01-30": 50
+            "2026-01-31": 10
           },
           "fetches": {
             "Wild Grass": 9,
@@ -9430,9 +9413,9 @@
           "energy": 70,
           "requests": {
             "food": [
-              "Purple Smoothie",
-              "Orange Juice",
-              "Bumpkin Roast"
+              "Cheese",
+              "Apple Juice",
+              "Beetroot Cake"
             ],
             "fedAt": 1761577448548
           },
@@ -9451,9 +9434,9 @@
           "energy": 40,
           "requests": {
             "food": [
-              "Purple Smoothie",
-              "Fried Tofu",
-              "Banana Blast"
+              "Popcorn",
+              "Power Smoothie",
+              "Cabbage Cake"
             ],
             "fedAt": 1761613735666
           },
@@ -9470,23 +9453,19 @@
         },
         "Peanuts": {
           "name": "Peanuts",
-          "experience": 24250,
+          "experience": 24260,
           "energy": 6280,
           "requests": {
             "food": [
-              "Sunflower Crunch",
-              "Pumpkin Cake",
-              "Grape Juice"
+              "Popcorn",
+              "Apple Juice",
+              "Antipasto"
             ],
-            "fedAt": 1769814326493,
-            "foodFed": [
-              "Sunflower Crunch",
-              "Pumpkin Cake"
-            ]
+            "fedAt": 1769814326493
           },
           "pettedAt": 1769814228809,
           "dailySocialXP": {
-            "2026-01-30": 50
+            "2026-01-31": 10
           },
           "fetches": {
             "Acorn": 171,
@@ -9496,24 +9475,19 @@
         },
         "Skipper": {
           "name": "Skipper",
-          "experience": 5865,
+          "experience": 5875,
           "energy": 2375,
           "requests": {
             "food": [
-              "Fruit Salad",
-              "Pancakes",
-              "Steamed Red Rice"
+              "Club Sandwich",
+              "Sunflower Cake",
+              "Radish Cake"
             ],
-            "fedAt": 1769814329064,
-            "foodFed": [
-              "Fruit Salad",
-              "Pancakes",
-              "Steamed Red Rice"
-            ]
+            "fedAt": 1769814329064
           },
           "pettedAt": 1769814229372,
           "dailySocialXP": {
-            "2026-01-30": 50
+            "2026-01-31": 10
           }
         }
       }

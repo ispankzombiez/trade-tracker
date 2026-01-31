@@ -1,6 +1,6 @@
 {
   "id": 1128976301583508,
-  "totalTrades": 12119,
+  "totalTrades": 12121,
   "level": 121,
   "weeklyFlowerSpent": 181.1216,
   "weeklyFlowerEarned": 0,
@@ -65,7 +65,9 @@
       },
       "sfl": 6.375,
       "tax": 0.31875,
-      "tradeType": "instant"
+      "tradeType": "instant",
+      "fulfilledAt": 1769818629298,
+      "fulfilledById": 2128557246636324
     },
     "fd48177a": {
       "collection": "collectibles",
@@ -165,7 +167,9 @@
       },
       "sfl": 5.9778,
       "tax": 0.29889,
-      "tradeType": "instant"
+      "tradeType": "instant",
+      "fulfilledAt": 1769818556924,
+      "fulfilledById": 19109
     }
   },
   "offers": {},
@@ -203,6 +207,44 @@
   ],
   "trades": [
     {
+      "id": "73c6eab9",
+      "sfl": 6.375,
+      "quantity": 50,
+      "itemId": 645,
+      "collection": "collectibles",
+      "source": "listing",
+      "fulfilledAt": 1769818629298,
+      "initiatedBy": {
+        "id": 1128976301583508,
+        "bumpkinUri": "0_v1_460_485_487_317_504_89_257_505_30_370_408_0_0_189_0_177_498",
+        "username": "iSPANK"
+      },
+      "fulfilledBy": {
+        "id": 2128557246636324,
+        "bumpkinUri": "0_v1_32_1_5_13_18_22_23",
+        "username": "Davi012"
+      }
+    },
+    {
+      "id": "5d4452d0",
+      "sfl": 5.9778,
+      "quantity": 50,
+      "itemId": 641,
+      "collection": "collectibles",
+      "source": "listing",
+      "fulfilledAt": 1769818556924,
+      "initiatedBy": {
+        "id": 1128976301583508,
+        "bumpkinUri": "0_v1_460_485_487_317_504_89_257_505_30_370_408_0_0_189_0_177_498",
+        "username": "iSPANK"
+      },
+      "fulfilledBy": {
+        "id": 19109,
+        "bumpkinUri": "0_v1_48_90_7_85_18_22_44_476_250",
+        "username": "Opex"
+      }
+    },
+    {
       "id": "0982d31c",
       "sfl": 3.0958,
       "quantity": 25,
@@ -210,25 +252,6 @@
       "collection": "collectibles",
       "source": "listing",
       "fulfilledAt": 1769816769981,
-      "initiatedBy": {
-        "id": 1128976301583508,
-        "bumpkinUri": "0_v1_460_485_487_317_504_89_257_505_30_370_408_0_0_189_0_177_498",
-        "username": "iSPANK"
-      },
-      "fulfilledBy": {
-        "id": 90898,
-        "bumpkinUri": "0_v1_53_90_202_0_0_99_224_161_30_433_16_0_267_410",
-        "username": "Precioso"
-      }
-    },
-    {
-      "id": "7b8ec11d",
-      "sfl": 6.1916,
-      "quantity": 50,
-      "itemId": 645,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769816761148,
       "initiatedBy": {
         "id": 1128976301583508,
         "bumpkinUri": "0_v1_460_485_487_317_504_89_257_505_30_370_408_0_0_189_0_177_498",
@@ -261,6 +284,25 @@
     },
     {
       "id": "f983ad5f",
+      "sfl": 6.1916,
+      "quantity": 50,
+      "itemId": 645,
+      "collection": "collectibles",
+      "source": "listing",
+      "fulfilledAt": 1769816761148,
+      "initiatedBy": {
+        "id": 1128976301583508,
+        "bumpkinUri": "0_v1_460_485_487_317_504_89_257_505_30_370_408_0_0_189_0_177_498",
+        "username": "iSPANK"
+      },
+      "fulfilledBy": {
+        "id": 90898,
+        "bumpkinUri": "0_v1_53_90_202_0_0_99_224_161_30_433_16_0_267_410",
+        "username": "Precioso"
+      }
+    },
+    {
+      "id": "7b8ec11d",
       "sfl": 6.1916,
       "quantity": 50,
       "itemId": 645,
@@ -659,25 +701,6 @@
       }
     },
     {
-      "id": "139ff6b4",
-      "sfl": 0.351,
-      "quantity": 110,
-      "itemId": 261,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769713279814,
-      "initiatedBy": {
-        "id": 8642948336044859,
-        "bumpkinUri": "0_v1_48_1_5_13_234_22_45_253",
-        "username": "SunLanding"
-      },
-      "fulfilledBy": {
-        "id": 1128976301583508,
-        "bumpkinUri": "0_v1_460_485_487_317_504_89_257_505_30_370_408_0_0_189_0_177_498",
-        "username": "iSPANK"
-      }
-    },
-    {
       "id": "08335586",
       "sfl": 1.7569,
       "quantity": 550,
@@ -708,6 +731,25 @@
         "id": 45043,
         "bumpkinUri": "0_v1_364_90_74_61_360_89_162_161_30_370_86_350_0_73",
         "username": "Mokonzi"
+      },
+      "fulfilledBy": {
+        "id": 1128976301583508,
+        "bumpkinUri": "0_v1_460_485_487_317_504_89_257_505_30_370_408_0_0_189_0_177_498",
+        "username": "iSPANK"
+      }
+    },
+    {
+      "id": "139ff6b4",
+      "sfl": 0.351,
+      "quantity": 110,
+      "itemId": 261,
+      "collection": "collectibles",
+      "source": "listing",
+      "fulfilledAt": 1769713279814,
+      "initiatedBy": {
+        "id": 8642948336044859,
+        "bumpkinUri": "0_v1_48_1_5_13_234_22_45_253",
+        "username": "SunLanding"
       },
       "fulfilledBy": {
         "id": 1128976301583508,
@@ -1107,44 +1149,6 @@
         "id": 4257070016806191,
         "bumpkinUri": "0_v1_32_3_50_14_18_22_23_517",
         "username": "Tonny0891"
-      },
-      "fulfilledBy": {
-        "id": 1128976301583508,
-        "bumpkinUri": "0_v1_460_485_487_317_504_89_257_505_30_370_408_0_0_189_0_177_498",
-        "username": "iSPANK"
-      }
-    },
-    {
-      "id": "f03fd4a1",
-      "sfl": 0.7108,
-      "quantity": 50,
-      "itemId": 210,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769593874792,
-      "initiatedBy": {
-        "id": 150644,
-        "bumpkinUri": "0_v1_122_158_202_0_0_22_77_343_30_432_0_0_0_0_344_0_444",
-        "username": "Rivvix"
-      },
-      "fulfilledBy": {
-        "id": 1128976301583508,
-        "bumpkinUri": "0_v1_460_485_487_317_504_89_257_505_30_370_408_0_0_189_0_177_498",
-        "username": "iSPANK"
-      }
-    },
-    {
-      "id": "ff563d83",
-      "sfl": 0.7108,
-      "quantity": 50,
-      "itemId": 210,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769593874792,
-      "initiatedBy": {
-        "id": 150644,
-        "bumpkinUri": "0_v1_122_158_202_0_0_22_77_343_30_432_0_0_0_0_344_0_444",
-        "username": "Rivvix"
       },
       "fulfilledBy": {
         "id": 1128976301583508,

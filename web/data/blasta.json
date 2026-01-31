@@ -7,9 +7,9 @@
     "earned_sfl": 19169.82,
     "earned_coins": 277483.0,
     "spent_sfl": 12069.92,
-    "items_sold": 8153.0,
+    "items_sold": 8156.0,
     "trade_points": 23832.93,
-    "last_updated": "2026-01-31 12:28 AM",
+    "last_updated": "2026-01-31 01:15 AM",
     "active_listings": 86
   },
   "buys": [
@@ -328,6 +328,66 @@
   ],
   "sells": [
     {
+      "date": "2026-01-31",
+      "time": "12:54 AM",
+      "type": "SELL",
+      "item": "Rice",
+      "quantity": 12,
+      "price_text": "4.242 SFL",
+      "price": 4.242,
+      "counterparty": "winche",
+      "farm_id": "-",
+      "trade_id": "55fc2631"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "12:50 AM",
+      "type": "SELL",
+      "item": "Rice",
+      "quantity": 12,
+      "price_text": "4.242 SFL",
+      "price": 4.242,
+      "counterparty": "yjkg",
+      "farm_id": "-",
+      "trade_id": "4ac0f932"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "12:22 AM",
+      "type": "SELL",
+      "item": "Rice",
+      "quantity": 12,
+      "price_text": "4.242 SFL",
+      "price": 4.242,
+      "counterparty": "Ayau",
+      "farm_id": "-",
+      "trade_id": "be083575"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "12:21 AM",
+      "type": "SELL",
+      "item": "Rice",
+      "quantity": 12,
+      "price_text": "4.242 SFL",
+      "price": 4.242,
+      "counterparty": "naakent",
+      "farm_id": "-",
+      "trade_id": "b1ee2163"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "12:17 AM",
+      "type": "SELL",
+      "item": "Rice",
+      "quantity": 12,
+      "price_text": "4.242 SFL",
+      "price": 4.242,
+      "counterparty": "Nostahan",
+      "farm_id": "-",
+      "trade_id": "a855c776"
+    },
+    {
       "date": "2026-01-29",
       "time": "05:47 PM",
       "type": "SELL",
@@ -643,12 +703,12 @@
   "last_updated": null,
   "stats": {
     "total_buys": 26,
-    "total_sells": 26,
+    "total_sells": 31,
     "buy_volume": 32.018900000000016,
-    "sell_volume": 113.33189999999999,
-    "gross_profit": 81.31299999999997,
+    "sell_volume": 134.54190000000003,
+    "gross_profit": 102.52300000000001,
     "avg_buy_price": 1.2314961538461544,
-    "avg_sell_price": 4.358919230769231,
+    "avg_sell_price": 4.3400612903225815,
     "most_traded_items": {},
     "recent_activity": [
       {
@@ -817,7 +877,7 @@
         "time": "08:38 AM"
       }
     ],
-    "profit_margin": 253.9531339302722,
+    "profit_margin": 320.1952596747545,
     "most_bought_items": {
       "Merino Wool": 1210,
       "Pepper": 500,
@@ -831,7 +891,7 @@
       "Artichoke": 1000,
       "Stone": 300,
       "Milk": 176,
-      "Rice": 96,
+      "Rice": 156,
       "Leather": 47
     }
   },
@@ -1714,47 +1774,47 @@
   ],
   "inventory": {
     "crops": {
-      "Sunflower": 272339.8717999985,
+      "Sunflower": 271239.8717999985,
       "Potato": 114021.5851000015,
-      "Pumpkin": 105267.00509999972,
+      "Pumpkin": 104707.00509999972,
       "Carrot": 27908.323800000126,
       "Cabbage": 9901.630499998535,
       "Beetroot": 2871.2534999999966,
       "Cauliflower": 1391.8090000000004,
       "Parsnip": 1001.9816000000035,
       "Radish": 2944.0011,
-      "Wheat": 5528.0184000000045,
+      "Wheat": 5432.683400000004,
       "Kale": 82.8196000000015,
       "Eggplant": 4714.2783999999965,
       "Corn": 5198.678400000002,
-      "Soybean": 35254.577099999995,
-      "Rice": 667.3918,
+      "Soybean": 35279.02709999999,
+      "Rice": 631.3918,
       "Olive": 778.806,
       "Barley": 5247.794600000007,
       "Rhubarb": 107367.5200000005,
       "Zucchini": 103691.94030000051,
       "Yam": 67142.34399999896,
-      "Broccoli": 48647.743599999274,
+      "Broccoli": 48650.393599999275,
       "Pepper": 3176.1118000000015,
       "Onion": 4375.9907000000085,
       "Turnip": 1201.7490000000018,
-      "Artichoke": 4566.724299999999
+      "Artichoke": 4564.724299999999
     },
     "fruits": {
-      "Apple": 849.5500000000003,
+      "Apple": 845.5500000000003,
       "Blueberry": 840.8000000000015,
       "Orange": 1130.6139019975296,
       "Banana": 1069.35,
       "Grape": 421.4500000000005,
-      "Tomato": 7478.350000000008,
+      "Tomato": 7480.5500000000075,
       "Lemon": 8493.550000000003,
       "Duskberry": 127.4,
       "Lunara": 153.00000000000003,
       "Celestine": 167.5
     },
     "resources": {
-      "Wood": 20573.21,
-      "Stone": 4063.15,
+      "Wood": 20731.71,
+      "Stone": 4133.55,
       "Iron": 2534.05,
       "Gold": 1135.15,
       "Crimstone": 341.65,

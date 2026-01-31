@@ -227,11 +227,11 @@
       "Sunstone": "45",
       "Oil": "1213.0630230925942155",
       "Oil Reserve": "4",
-      "Leather": "763.75",
+      "Leather": "713.75",
       "Wool": "679.52",
       "Merino Wool": "95.16",
       "Feather": "7103.37",
-      "Milk": "695.92",
+      "Milk": "507.92",
       "Hay": "35.0990624999995372",
       "Kernel Blend": "40.9530859374997416",
       "NutriBarley": "73.3540234374990175",
@@ -509,7 +509,7 @@
       "Corn Seed": "304",
       "Rhubarb Seed": "1200",
       "Lavender Seed": "9",
-      "Love Charm": "13364",
+      "Love Charm": "13365",
       "Kale Seed": "17",
       "Sand": "246",
       "Broken Pillar": "1",
@@ -5739,7 +5739,9 @@
           },
           "sfl": 6.375,
           "tax": 0.31875,
-          "tradeType": "instant"
+          "tradeType": "instant",
+          "fulfilledAt": 1769818629298,
+          "fulfilledById": 2128557246636324
         },
         "fd48177a": {
           "collection": "collectibles",
@@ -5779,7 +5781,9 @@
           },
           "sfl": 6.1916,
           "tax": 0.30958,
-          "tradeType": "instant"
+          "tradeType": "instant",
+          "fulfilledAt": 1769816758723,
+          "fulfilledById": 90898
         },
         "7b8ec11d": {
           "collection": "collectibles",
@@ -5789,7 +5793,9 @@
           },
           "sfl": 6.1916,
           "tax": 0.30958,
-          "tradeType": "instant"
+          "tradeType": "instant",
+          "fulfilledAt": 1769816758723,
+          "fulfilledById": 90898
         },
         "0982d31c": {
           "collection": "collectibles",
@@ -5799,7 +5805,9 @@
           },
           "sfl": 3.0958,
           "tax": 0.15479,
-          "tradeType": "instant"
+          "tradeType": "instant",
+          "fulfilledAt": 1769816768509,
+          "fulfilledById": 90898
         },
         "770435df": {
           "collection": "collectibles",
@@ -5809,7 +5817,9 @@
           },
           "sfl": 1.6098,
           "tax": 0.08049,
-          "tradeType": "instant"
+          "tradeType": "instant",
+          "fulfilledAt": 1769816758723,
+          "fulfilledById": 90898
         },
         "7da3c97c": {
           "collection": "collectibles",
@@ -5831,10 +5841,12 @@
           },
           "sfl": 5.9778,
           "tax": 0.29889,
-          "tradeType": "instant"
+          "tradeType": "instant",
+          "fulfilledAt": 1769818556924,
+          "fulfilledById": 19109
         }
       },
-      "soldCount": 4538,
+      "soldCount": 4544,
       "dailyListings": {
         "count": 20,
         "date": 30
@@ -10351,32 +10363,32 @@
         }
       ],
       "shop": {
-        "Luvvy Head": {
-          "type": "wearable",
+        "Mysterious Entrance": {
+          "type": "collectible",
           "cost": {
             "items": {
-              "Love Charm": 650
+              "Love Charm": 2500
             }
           },
-          "name": "Luvvy Head"
+          "name": "Mysterious Entrance"
         },
-        "Time Warp Totem": {
+        "Super Totem": {
+          "type": "collectible",
+          "cost": {
+            "items": {
+              "Love Charm": 7800
+            }
+          },
+          "name": "Super Totem"
+        },
+        "Bronze Love Box": {
           "type": "collectible",
           "cost": {
             "items": {
               "Love Charm": 100
             }
           },
-          "name": "Time Warp Totem"
-        },
-        "Silver Tool Box": {
-          "type": "collectible",
-          "cost": {
-            "items": {
-              "Love Charm": 455
-            }
-          },
-          "name": "Silver Tool Box"
+          "name": "Bronze Love Box"
         }
       },
       "boughtAt": {
@@ -12472,52 +12484,52 @@
         "mine-whack": {
           "coins": 0,
           "items": {
-            "Mark": 40
+            "Mark": 60
           },
           "wearables": {},
-          "score": 2500,
-          "startAt": 1769731200000,
-          "endAt": 1769817600000
+          "score": 3500,
+          "startAt": 1769817600000,
+          "endAt": 1769904000000
         },
         "chicken-rescue": {
           "coins": 0,
           "items": {
-            "Mark": 35
+            "Mark": 50
           },
           "wearables": {},
-          "score": 30,
-          "startAt": 1769731200000,
-          "endAt": 1769817600000
+          "score": 45,
+          "startAt": 1769817600000,
+          "endAt": 1769904000000
         },
         "crops-and-chickens": {
           "coins": 0,
           "items": {
-            "Mark": 60
+            "Mark": 50
           },
           "wearables": {},
-          "score": 4000,
-          "startAt": 1769731200000,
-          "endAt": 1769817600000
+          "score": 2500,
+          "startAt": 1769817600000,
+          "endAt": 1769904000000
         },
         "fruit-dash": {
           "coins": 0,
           "items": {
-            "Mark": 40
+            "Mark": 30
           },
           "wearables": {},
-          "score": 2000,
-          "startAt": 1769731200000,
-          "endAt": 1769817600000
+          "score": 1500,
+          "startAt": 1769817600000,
+          "endAt": 1769904000000
         },
         "memory": {
           "coins": 0,
           "items": {
-            "Mark": 60
+            "Mark": 30
           },
           "wearables": {},
-          "score": 750,
-          "startAt": 1769731200000,
-          "endAt": 1769817600000
+          "score": 300,
+          "startAt": 1769817600000,
+          "endAt": 1769904000000
         }
       }
     },
@@ -12653,7 +12665,7 @@
           "petXP": 5480,
           "score": 1811.4,
           "collectivePet": {
-            "totalXP": 6372813,
+            "totalXP": 6496844,
             "goalXP": 2404688,
             "goalReached": true,
             "streak": 3,
@@ -12731,13 +12743,14 @@
         },
         "completedPatterns": [],
         "patterns": [
-          "ARTEFACT_SIXTEEN",
-          "ARTEFACT_TWENTY",
-          "ARTEFACT_SEVENTEEN",
+          "ARTEFACT_FIFTEEN",
+          "ARTEFACT_TWENTY_TWO",
+          "ARTEFACT_EIGHTEEN",
           "HIEROGLYPH",
+          "COCKLE",
           "SEA_CUCUMBERS",
-          "SEAWEED",
-          "WOODEN_COMPASS"
+          "WOODEN_COMPASS",
+          "PEARL"
         ]
       }
     },
@@ -14656,14 +14669,14 @@
       "Broccoli Hat": 1769619544931
     },
     "socialFarming": {
-      "points": 15159,
+      "points": 15164,
       "villageProjects": {
         "Woodcutter's Monument": {
           "cheers": 1000,
           "winnerId": 4280
         },
         "Miner's Monument": {
-          "cheers": 1191,
+          "cheers": 1192,
           "winnerId": 1164010181301338
         },
         "Farmer's Monument": {
@@ -14671,27 +14684,27 @@
           "winnerId": 1213141032242343
         },
         "Big Banana": {
-          "cheers": 87,
+          "cheers": 88,
           "winnerId": 4076039234874805
         },
         "Expert Cooking Pot": {
-          "cheers": 45,
+          "cheers": 46,
           "winnerId": 8552262805676887
         },
         "Big Apple": {
-          "cheers": 36,
+          "cheers": 37,
           "winnerId": 1136454144866281
         },
         "Cornucopia": {
-          "cheers": 33,
+          "cheers": 34,
           "winnerId": 175706
         },
         "Big Orange": {
-          "cheers": 12,
+          "cheers": 13,
           "winnerId": 4076039234874805
         },
         "Basic Cooking Pot": {
-          "cheers": 4,
+          "cheers": 5,
           "winnerId": 4076039234874805
         }
       },
@@ -14712,32 +14725,32 @@
       },
       "dailyCollections": {},
       "clutter": {
-        "spawnedAt": 1769731214353,
+        "spawnedAt": 1769818226670,
         "locations": {
-          "1d3d0ed4": {
-            "type": "Weed",
-            "x": -4,
-            "y": -2
-          },
-          "43ff3889": {
+          "01f0089c": {
             "type": "Dung",
+            "x": 0,
+            "y": 2
+          },
+          "0cbd6d98": {
+            "type": "Weed",
             "x": -3,
             "y": -3
           },
-          "a5e81378": {
+          "161b9d58": {
+            "type": "Dung",
+            "x": -1,
+            "y": -3
+          },
+          "750c0877": {
+            "type": "Weed",
+            "x": -2,
+            "y": 1
+          },
+          "bfe4a75f": {
             "type": "Dung",
             "x": -3,
             "y": 0
-          },
-          "c6f9a321": {
-            "type": "Weed",
-            "x": -2,
-            "y": 2
-          },
-          "d2ef9e52": {
-            "type": "Dung",
-            "x": -3,
-            "y": 1
           }
         }
       },
@@ -14753,7 +14766,7 @@
       },
       "weeklyPoints": {
         "week": "2026-01-26",
-        "points": 262
+        "points": 267
       },
       "helpedForCompetition": 143,
       "waves": {
@@ -14788,7 +14801,7 @@
         },
         "Barkley": {
           "name": "Barkley",
-          "experience": 36253,
+          "experience": 36258,
           "energy": 90,
           "requests": {
             "food": [
@@ -14810,7 +14823,7 @@
             "Ribbon": 1
           },
           "dailySocialXP": {
-            "2026-01-30": 20
+            "2026-01-31": 5
           }
         },
         "Twizzle": {
@@ -14837,7 +14850,7 @@
         },
         "Pip": {
           "name": "Pip",
-          "experience": 35696,
+          "experience": 35701,
           "energy": 2860,
           "requests": {
             "food": [
@@ -14856,12 +14869,12 @@
             "Frost Pebble": 12
           },
           "dailySocialXP": {
-            "2026-01-30": 20
+            "2026-01-31": 5
           }
         },
         "Mudhorn": {
           "name": "Mudhorn",
-          "experience": 7915,
+          "experience": 7920,
           "energy": 105,
           "requests": {
             "food": [
@@ -14878,7 +14891,7 @@
           },
           "pettedAt": 1769807029203,
           "dailySocialXP": {
-            "2026-01-30": 20
+            "2026-01-31": 5
           },
           "fetches": {
             "Frost Pebble": 64,
@@ -14891,7 +14904,7 @@
         "252": {
           "id": 252,
           "name": "Pet #252",
-          "experience": 25285,
+          "experience": 25290,
           "energy": 1620,
           "requests": {
             "food": [
@@ -14917,7 +14930,7 @@
             "aura": "No Aura"
           },
           "dailySocialXP": {
-            "2026-01-30": 20
+            "2026-01-31": 5
           },
           "walking": false,
           "fetches": {
@@ -14933,7 +14946,7 @@
         "591": {
           "name": "Pet #591",
           "id": 591,
-          "experience": 28330,
+          "experience": 28335,
           "energy": 85,
           "requests": {
             "food": [
@@ -14959,7 +14972,7 @@
             "aura": "No Aura"
           },
           "dailySocialXP": {
-            "2026-01-30": 20
+            "2026-01-31": 5
           },
           "walking": false,
           "fetches": {
@@ -14975,7 +14988,7 @@
         "2949": {
           "id": 2949,
           "name": "Pet #2949",
-          "experience": 24195,
+          "experience": 24200,
           "energy": 75,
           "requests": {
             "food": [
@@ -15000,7 +15013,7 @@
             "aura": "No Aura"
           },
           "dailySocialXP": {
-            "2026-01-30": 20
+            "2026-01-31": 5
           },
           "walking": false,
           "fetches": {
