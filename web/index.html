@@ -1197,12 +1197,22 @@
         }
 
         function updateLastUpdated() {
+            if (!dashboardData || !dashboardData.last_updated) {
+                console.error('Dashboard data not loaded or invalid for last updated');
+                return;
+            }
+            
             const formattedDateTime = formatLocalDateTime(dashboardData.last_updated);
             document.getElementById('lastUpdated').textContent = 
                 `🔄 Last Updated: ${formattedDateTime}`;
         }
 
         function updateTopTraders() {
+            if (!dashboardData || !dashboardData.top_traders) {
+                console.error('Dashboard data not loaded or invalid for top traders');
+                return;
+            }
+            
             const container = document.getElementById('topTraders');
             container.innerHTML = '';
 
@@ -1226,6 +1236,11 @@
         }
 
         function updateMarketSummary() {
+            if (!dashboardData || !dashboardData.top_traders) {
+                console.error('Dashboard data not loaded or invalid');
+                return;
+            }
+            
             const container = document.getElementById('marketSummary');
             const totalProfit = dashboardData.top_traders.reduce((sum, trader) => sum + trader.profit, 0);
             const totalVolume = dashboardData.top_traders.reduce((sum, trader) => sum + trader.total_volume, 0);
@@ -1252,6 +1267,11 @@
         }
 
         function updateRecentActivity() {
+            if (!dashboardData || !dashboardData.recent_activity) {
+                console.error('Dashboard data not loaded or invalid for recent activity');
+                return;
+            }
+            
             const container = document.getElementById('recentActivity');
             container.innerHTML = '';
 
