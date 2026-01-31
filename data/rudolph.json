@@ -1,7 +1,7 @@
 {
   "username": "rudolph",
   "overview": {
-    "balance": 715.49,
+    "balance": 714.99,
     "coins": 86761.0,
     "gems": 0.0,
     "earned_sfl": 16327.83,
@@ -9,10 +9,22 @@
     "spent_sfl": 10475.38,
     "items_sold": 19374.0,
     "trade_points": 26969.95,
-    "last_updated": "2026-01-31 02:34 PM",
+    "last_updated": "2026-01-31 03:01 PM",
     "active_listings": 248
   },
   "buys": [
+    {
+      "date": "2026-01-31",
+      "time": "02:38 PM",
+      "type": "BUY",
+      "item": "Crimstone",
+      "quantity": 1,
+      "price_text": "0.5 SFL",
+      "price": 0.5,
+      "counterparty": "Sheikz",
+      "farm_id": "-",
+      "trade_id": "c4492d7c"
+    },
     {
       "date": "2026-01-31",
       "time": "11:31 AM",
@@ -822,15 +834,24 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 28,
+    "total_buys": 29,
     "total_sells": 39,
-    "buy_volume": 32.75779999999999,
+    "buy_volume": 33.25779999999999,
     "sell_volume": 265.58979999999985,
-    "gross_profit": 232.83199999999988,
-    "avg_buy_price": 1.1699214285714281,
+    "gross_profit": 232.33199999999988,
+    "avg_buy_price": 1.146820689655172,
     "avg_sell_price": 6.809994871794868,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Crimstone",
+        "quantity": 1,
+        "price": 0.5,
+        "date": "2026-01-31",
+        "time": "02:38 PM",
+        "username": "rudolph"
+      },
       {
         "type": "BUY",
         "item": "Soybean",
@@ -873,8 +894,7 @@
         "quantity": 573,
         "price": 1.21,
         "date": "2026-01-31",
-        "time": "11:31 AM",
-        "username": "rudolph"
+        "time": "11:31 AM"
       },
       {
         "type": "BUY",
@@ -987,20 +1007,13 @@
         "price": 0.4396,
         "date": "2026-01-30",
         "time": "12:52 AM"
-      },
-      {
-        "type": "BUY",
-        "item": "Soybean",
-        "quantity": 200,
-        "price": 0.4396,
-        "date": "2026-01-30",
-        "time": "12:52 AM"
       }
     ],
-    "profit_margin": 710.7681224013821,
+    "profit_margin": 698.5789799686088,
     "most_bought_items": {
       "Soybean": 8962,
-      "Bumpkin Emblem": 200
+      "Bumpkin Emblem": 200,
+      "Crimstone": 1
     },
     "most_sold_items": {
       "Kale": 9800,
