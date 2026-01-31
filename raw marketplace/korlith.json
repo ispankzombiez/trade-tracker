@@ -1,8 +1,8 @@
 {
   "id": 1797,
-  "totalTrades": 20758,
+  "totalTrades": 20759,
   "level": 123,
-  "weeklyFlowerSpent": 143.58520000000001,
+  "weeklyFlowerSpent": 143.8459,
   "weeklyFlowerEarned": 48.3165775,
   "tokenUri": "0_v1_32_90_42_317_234_89_257_255_501_238_408_401_403_189",
   "username": "Korlith",
@@ -22,9 +22,9 @@
       "trades": 42
     },
     {
-      "id": 6510470303190479,
-      "tokenUri": "0_v1_47_90_5_335_338_339_336_395_0_238_0_0_0_189_0_177",
-      "username": "Edymax",
+      "id": 68705,
+      "tokenUri": "0_v1_460_263_74_282_281_280_499_319_457_291_0_0_0_175_0_0_444",
+      "username": "OxCh1n1",
       "trades": 35
     },
     {
@@ -34,13 +34,32 @@
       "trades": 35
     },
     {
-      "id": 68705,
-      "tokenUri": "0_v1_460_263_74_282_281_280_499_319_457_291_0_0_0_175_0_0_444",
-      "username": "OxCh1n1",
+      "id": 6510470303190479,
+      "tokenUri": "0_v1_47_90_5_335_338_339_336_395_0_238_0_0_0_189_0_177",
+      "username": "Edymax",
       "trades": 35
     }
   ],
   "trades": [
+    {
+      "id": "df865c02",
+      "sfl": 0.2607,
+      "quantity": 100,
+      "itemId": 205,
+      "collection": "collectibles",
+      "source": "listing",
+      "fulfilledAt": 1769876478149,
+      "initiatedBy": {
+        "id": 6418589467081640,
+        "bumpkinUri": "0_v1_48_90_51_88_234_89_240_395",
+        "username": "Hoangtai"
+      },
+      "fulfilledBy": {
+        "id": 1797,
+        "bumpkinUri": "0_v1_32_90_42_317_234_89_257_255_501_238_408_401_403_189",
+        "username": "Korlith"
+      }
+    },
     {
       "id": "ffad841c",
       "sfl": 1.179,
@@ -970,25 +989,6 @@
         "id": 1797,
         "bumpkinUri": "0_v1_32_90_42_317_234_89_257_255_501_238_408_401_403_189",
         "username": "Korlith"
-      }
-    },
-    {
-      "id": "2248b386",
-      "sfl": 0.9036,
-      "quantity": 40,
-      "itemId": 605,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769813546058,
-      "initiatedBy": {
-        "id": 1797,
-        "bumpkinUri": "0_v1_32_90_42_317_234_89_257_255_501_238_408_401_403_189",
-        "username": "Korlith"
-      },
-      "fulfilledBy": {
-        "id": 151067,
-        "bumpkinUri": "0_v1_364_4_204_320_322_323_500_321_30_381_0_0_0_72_0_177",
-        "username": "FlySly"
       }
     }
   ]

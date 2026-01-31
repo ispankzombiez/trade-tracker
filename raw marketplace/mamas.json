@@ -1,6 +1,6 @@
 {
   "id": 9239,
-  "totalTrades": 6529,
+  "totalTrades": 6530,
   "level": 134,
   "weeklyFlowerSpent": 1298.6273,
   "weeklyFlowerEarned": 16.38,
@@ -57,17 +57,6 @@
       "sfl": 1,
       "collection": "collectibles",
       "tradeType": "instant"
-    },
-    "adcb9655": {
-      "createdAt": 1769870116896,
-      "items": {
-        "Cabbage": 500
-      },
-      "sfl": 1.22,
-      "collection": "collectibles",
-      "tradeType": "instant",
-      "fulfilledAt": 1769872220889,
-      "fulfilledById": 8987094112835240
     }
   },
   "friends": [
@@ -97,12 +86,31 @@
     },
     {
       "id": 49035,
-      "tokenUri": "0_v1_352_1_6_0_0_89_477_292_29_433_0_401_160_100_98_266_469",
+      "tokenUri": "0_v1_352_1_6_0_0_89_477_319_29_433_0_401_160_100_98_266_469",
       "username": "Tourist",
       "trades": 23
     }
   ],
   "trades": [
+    {
+      "id": "a800ccf8",
+      "sfl": 1.8,
+      "quantity": 200,
+      "itemId": 256,
+      "collection": "collectibles",
+      "source": "offer",
+      "fulfilledAt": 1769876687338,
+      "initiatedBy": {
+        "id": 9239,
+        "bumpkinUri": "0_v1_32_90_487_0_504_22_0_490_406_0_0_0_495_497_0_0_498",
+        "username": "LongDIF"
+      },
+      "fulfilledBy": {
+        "id": 3223908578433905,
+        "bumpkinUri": "0_v1_83_158_67_0_0_133_500_293_30_433_0_0_0_410_344_0_444",
+        "username": "MAMAs"
+      }
+    },
     {
       "id": "adcb9655",
       "sfl": 1.22,
@@ -1030,25 +1038,6 @@
       },
       "fulfilledBy": {
         "id": 206559,
-        "bumpkinUri": "0_v1_83_158_67_0_0_133_500_293_30_433_0_0_0_410_344_0_444",
-        "username": "MAMAs"
-      }
-    },
-    {
-      "id": "f7d90960",
-      "sfl": 1.14,
-      "quantity": 500,
-      "itemId": 205,
-      "collection": "collectibles",
-      "source": "offer",
-      "fulfilledAt": 1769433761404,
-      "initiatedBy": {
-        "id": 9239,
-        "bumpkinUri": "0_v1_47_1_7_13_46_22_45_395_0_0_0_458",
-        "username": "Tato1"
-      },
-      "fulfilledBy": {
-        "id": 130091,
         "bumpkinUri": "0_v1_83_158_67_0_0_133_500_293_30_433_0_0_0_410_344_0_444",
         "username": "MAMAs"
       }

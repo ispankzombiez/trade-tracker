@@ -1,18 +1,42 @@
 {
   "username": "grith",
   "overview": {
-    "balance": 2548.5,
-    "coins": 116538.0,
+    "balance": 2573.28,
+    "coins": 114564.0,
     "gems": 0.0,
     "earned_sfl": 10629.11,
-    "earned_coins": 116538.0,
+    "earned_coins": 114564.0,
     "spent_sfl": 9758.66,
-    "items_sold": 5341.0,
+    "items_sold": 5344.0,
     "trade_points": 6878.93,
-    "last_updated": "2026-01-31 04:21 PM",
-    "active_listings": 24
+    "last_updated": "2026-01-31 05:41 PM",
+    "active_listings": 17
   },
   "buys": [
+    {
+      "date": "2026-01-31",
+      "time": "05:20 PM",
+      "type": "BUY",
+      "item": "Wheat",
+      "quantity": 500,
+      "price_text": "7.3922 SFL",
+      "price": 7.3922,
+      "counterparty": "Dianaexe",
+      "farm_id": "-",
+      "trade_id": "3b068cf7"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "05:15 PM",
+      "type": "BUY",
+      "item": "Tomato",
+      "quantity": 400,
+      "price_text": "1.94 SFL",
+      "price": 1.94,
+      "counterparty": "aj1",
+      "farm_id": "-",
+      "trade_id": "919c7c27"
+    },
     {
       "date": "2026-01-31",
       "time": "03:31 PM",
@@ -545,6 +569,42 @@
   "sells": [
     {
       "date": "2026-01-31",
+      "time": "04:56 PM",
+      "type": "SELL",
+      "item": "Milk",
+      "quantity": 50,
+      "price_text": "6.1177 SFL",
+      "price": 6.1177,
+      "counterparty": "Brazuca",
+      "farm_id": "-",
+      "trade_id": "66474aa2"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "04:48 PM",
+      "type": "SELL",
+      "item": "Milk",
+      "quantity": 50,
+      "price_text": "6.1177 SFL",
+      "price": 6.1177,
+      "counterparty": "Gabisza31",
+      "farm_id": "-",
+      "trade_id": "b279dc71"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "04:29 PM",
+      "type": "SELL",
+      "item": "Leather",
+      "quantity": 20,
+      "price_text": "2.434 SFL",
+      "price": 2.434,
+      "counterparty": "Striagorn",
+      "farm_id": "-",
+      "trade_id": "621fd71f"
+    },
+    {
+      "date": "2026-01-31",
       "time": "03:59 PM",
       "type": "SELL",
       "item": "Leather",
@@ -1002,15 +1062,33 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 44,
-    "total_sells": 38,
-    "buy_volume": 102.4368,
-    "sell_volume": 153.71970000000005,
-    "gross_profit": 51.28290000000004,
-    "avg_buy_price": 2.328109090909091,
-    "avg_sell_price": 4.0452552631578955,
+    "total_buys": 46,
+    "total_sells": 41,
+    "buy_volume": 111.76899999999999,
+    "sell_volume": 168.38910000000004,
+    "gross_profit": 56.62010000000005,
+    "avg_buy_price": 2.429760869565217,
+    "avg_sell_price": 4.107051219512196,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Wheat",
+        "quantity": 500,
+        "price": 7.3922,
+        "date": "2026-01-31",
+        "time": "05:20 PM",
+        "username": "grith"
+      },
+      {
+        "type": "BUY",
+        "item": "Tomato",
+        "quantity": 400,
+        "price": 1.94,
+        "date": "2026-01-31",
+        "time": "05:15 PM",
+        "username": "grith"
+      },
       {
         "type": "BUY",
         "item": "Barley",
@@ -1044,8 +1122,7 @@
         "quantity": 45,
         "price": 2.6098,
         "date": "2026-01-31",
-        "time": "03:29 PM",
-        "username": "grith"
+        "time": "03:29 PM"
       },
       {
         "type": "BUY",
@@ -1053,8 +1130,7 @@
         "quantity": 500,
         "price": 7.35,
         "date": "2026-01-31",
-        "time": "03:27 PM",
-        "username": "grith"
+        "time": "03:27 PM"
       },
       {
         "type": "BUY",
@@ -1159,48 +1235,23 @@
         "price": 1.4724,
         "date": "2026-01-30",
         "time": "04:24 AM"
-      },
-      {
-        "type": "BUY",
-        "item": "Corn",
-        "quantity": 350,
-        "price": 6.7039,
-        "date": "2026-01-30",
-        "time": "04:24 AM"
-      },
-      {
-        "type": "BUY",
-        "item": "Barley",
-        "quantity": 50,
-        "price": 1.157,
-        "date": "2026-01-30",
-        "time": "04:24 AM"
       }
     ],
-    "profit_margin": 50.06296565296851,
+    "profit_margin": 50.65814313450067,
     "most_bought_items": {
-      "Wheat": 2015,
+      "Wheat": 2515,
       "Corn": 1770,
       "Barley": 961,
       "Egg": 610,
-      "Tomato": 100,
+      "Tomato": 500,
       "Honey": 45
     },
     "most_sold_items": {
-      "Milk": 827,
-      "Leather": 420
+      "Milk": 927,
+      "Leather": 440
     }
   },
   "active_listings": [
-    {
-      "id": "62186318",
-      "item": "Milk",
-      "quantity": 50,
-      "price": 6.2695,
-      "created_at": 1769873754477,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
     {
       "id": "7550d675",
       "item": "Imsety Jar",
@@ -1283,128 +1334,74 @@
       "trade_type": "instant"
     },
     {
-      "id": "a90c93e3",
+      "id": "eb7a3590",
       "item": "Milk",
       "quantity": 50,
-      "price": 6.2695,
-      "created_at": 1769873744703,
+      "price": 6.11,
+      "created_at": 1769880533620,
       "collection": "collectibles",
       "trade_type": "instant"
     },
     {
-      "id": "952c2d0a",
+      "id": "ecc966e6",
       "item": "Milk",
       "quantity": 50,
-      "price": 6.2695,
-      "created_at": 1769873748077,
+      "price": 6.11,
+      "created_at": 1769880542910,
       "collection": "collectibles",
       "trade_type": "instant"
     },
     {
-      "id": "ac908aae",
+      "id": "cafa524c",
       "item": "Milk",
       "quantity": 50,
-      "price": 6.2695,
-      "created_at": 1769873751236,
+      "price": 6.11,
+      "created_at": 1769880547573,
       "collection": "collectibles",
       "trade_type": "instant"
     },
     {
-      "id": "496482b0",
-      "item": "Milk",
-      "quantity": 50,
-      "price": 6.2695,
-      "created_at": 1769873758097,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "620e5857",
+      "id": "c15bb57b",
       "item": "Leather",
       "quantity": 20,
-      "price": 2.434,
-      "created_at": 1769873804018,
+      "price": 2.416,
+      "created_at": 1769880589794,
       "collection": "collectibles",
       "trade_type": "instant"
     },
     {
-      "id": "e9c3b658",
+      "id": "cfd90bc2",
       "item": "Leather",
       "quantity": 20,
-      "price": 2.434,
-      "created_at": 1769873809595,
+      "price": 2.416,
+      "created_at": 1769880595298,
       "collection": "collectibles",
       "trade_type": "instant"
     },
     {
-      "id": "fe054505",
+      "id": "22c9ce87",
       "item": "Leather",
       "quantity": 20,
-      "price": 2.434,
-      "created_at": 1769873814998,
+      "price": 2.416,
+      "created_at": 1769880600210,
       "collection": "collectibles",
       "trade_type": "instant"
     },
     {
-      "id": "621fd71f",
+      "id": "de10265f",
       "item": "Leather",
       "quantity": 20,
-      "price": 2.434,
-      "created_at": 1769873820468,
+      "price": 2.416,
+      "created_at": 1769880604763,
       "collection": "collectibles",
       "trade_type": "instant"
     },
     {
-      "id": "c692811b",
+      "id": "671edd17",
       "item": "Leather",
       "quantity": 20,
-      "price": 2.434,
-      "created_at": 1769873828927,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "fb308ace",
-      "item": "Leather",
-      "quantity": 20,
-      "price": 2.434,
-      "created_at": 1769873837529,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "40e1e138",
-      "item": "Leather",
-      "quantity": 20,
-      "price": 2.434,
-      "created_at": 1769873842040,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "fe6bcf1d",
-      "item": "Leather",
-      "quantity": 20,
-      "price": 2.434,
-      "created_at": 1769873847134,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "500e7c88",
-      "item": "Leather",
-      "quantity": 20,
-      "price": 2.434,
-      "created_at": 1769873857160,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "5f0852a4",
-      "item": "Leather",
-      "quantity": 20,
-      "price": 2.434,
-      "created_at": 1769873861991,
+      "price": 2.416,
+      "created_at": 1769880609163,
       "collection": "collectibles",
       "trade_type": "instant"
     }
@@ -1548,23 +1545,23 @@
   ],
   "inventory": {
     "crops": {
-      "Sunflower": 179254.1768000042,
-      "Potato": 116281.46900000039,
-      "Pumpkin": 123294.13219999951,
-      "Carrot": 70077.14660000011,
+      "Sunflower": 178854.1768000042,
+      "Potato": 118717.9179000004,
+      "Pumpkin": 124929.6096999995,
+      "Carrot": 70887.16480000012,
       "Cabbage": 48780.85870000012,
       "Beetroot": 74.19949999999962,
       "Cauliflower": 71.17499999999961,
       "Parsnip": 100.23789999999991,
       "Radish": 82.59399999999955,
-      "Wheat": 91.21370000000749,
+      "Wheat": 431.21370000000746,
       "Kale": 71.8798000000018,
       "Eggplant": 1585.7422000000008,
-      "Corn": 394.69619999999964,
+      "Corn": 374.69619999999964,
       "Soybean": 2347.824200000001,
       "Rice": 48.392,
       "Olive": 198.924,
-      "Barley": 86.5355000000034,
+      "Barley": 801.7345000000033,
       "Rhubarb": 133780.67760000026,
       "Zucchini": 98370.90019999922,
       "Yam": 38889.78870000005,
@@ -1580,15 +1577,15 @@
       "Orange": 113.9300000000021,
       "Banana": 314.17000000000223,
       "Grape": 982.35,
-      "Tomato": 29.840000000001044,
+      "Tomato": 189.84000000000106,
       "Lemon": 24.110000000000227,
       "Duskberry": 8.640000000000013,
       "Lunara": 7.04000000000001,
       "Celestine": 35.30000000000005
     },
     "resources": {
-      "Wood": 724.535,
-      "Stone": 3841.16,
+      "Wood": 931.395,
+      "Stone": 3910.3,
       "Iron": 323.94,
       "Gold": 57.23,
       "Crimstone": 77.7,

@@ -2,14 +2,14 @@
   "username": "kanzuki",
   "overview": {
     "balance": 581.78,
-    "coins": 160194.0,
+    "coins": 157746.0,
     "gems": 0.0,
     "earned_sfl": 2315.5,
-    "earned_coins": 160194.0,
+    "earned_coins": 157746.0,
     "spent_sfl": 341.22,
     "items_sold": 10049.0,
     "trade_points": 13566.92,
-    "last_updated": "2026-01-31 04:21 PM",
+    "last_updated": "2026-01-31 05:41 PM",
     "active_listings": 15
   },
   "buys": [
@@ -543,6 +543,18 @@
     }
   ],
   "sells": [
+    {
+      "date": "2026-01-31",
+      "time": "05:24 PM",
+      "type": "SELL",
+      "item": "Yam",
+      "quantity": 1000,
+      "price_text": "2.7565 SFL",
+      "price": 2.7565,
+      "counterparty": "ALFREREN03",
+      "farm_id": "-",
+      "trade_id": "a842b5de"
+    },
     {
       "date": "2026-01-31",
       "time": "12:39 PM",
@@ -1195,12 +1207,12 @@
   "last_updated": null,
   "stats": {
     "total_buys": 44,
-    "total_sells": 54,
+    "total_sells": 55,
     "buy_volume": 88.00569999999999,
-    "sell_volume": 198.43419999999998,
-    "gross_profit": 110.42849999999999,
+    "sell_volume": 201.1907,
+    "gross_profit": 113.185,
     "avg_buy_price": 2.0001295454545454,
-    "avg_sell_price": 3.674707407407407,
+    "avg_sell_price": 3.658012727272727,
     "most_traded_items": {},
     "recent_activity": [
       {
@@ -1369,7 +1381,7 @@
         "time": "02:39 AM"
       }
     ],
-    "profit_margin": 125.47880421381797,
+    "profit_margin": 128.6109876973878,
     "most_bought_items": {
       "Tomato": 3538,
       "Banana": 855,
@@ -1381,7 +1393,7 @@
       "Ribbon": 10
     },
     "most_sold_items": {
-      "Yam": 26100,
+      "Yam": 27100,
       "Sunflower": 12000,
       "Broccoli": 750,
       "Wood": 745,
@@ -1391,6 +1403,15 @@
     }
   },
   "active_listings": [
+    {
+      "id": "49964963",
+      "item": "Yam",
+      "quantity": 1000,
+      "price": 2.7565,
+      "created_at": 1769880280011,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
     {
       "id": "494d0fa8",
       "item": "Baby Cow",
@@ -1525,6 +1546,87 @@
       "created_at": 1769845984514,
       "collection": "collectibles",
       "trade_type": "instant"
+    },
+    {
+      "id": "cdc89ae6",
+      "item": "Yam",
+      "quantity": 1000,
+      "price": 2.7565,
+      "created_at": 1769880284861,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "44772ad9",
+      "item": "Yam",
+      "quantity": 1000,
+      "price": 2.7565,
+      "created_at": 1769880290238,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "6f1a2f21",
+      "item": "Yam",
+      "quantity": 1000,
+      "price": 2.7565,
+      "created_at": 1769880295568,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "e39cd7b9",
+      "item": "Yam",
+      "quantity": 1000,
+      "price": 2.7565,
+      "created_at": 1769880300212,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "caf15f4d",
+      "item": "Yam",
+      "quantity": 1000,
+      "price": 2.7565,
+      "created_at": 1769880306025,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "6a94a626",
+      "item": "Yam",
+      "quantity": 1000,
+      "price": 2.7565,
+      "created_at": 1769880310364,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "9bae8272",
+      "item": "Yam",
+      "quantity": 1000,
+      "price": 2.7565,
+      "created_at": 1769880314969,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "94c03745",
+      "item": "Yam",
+      "quantity": 1000,
+      "price": 2.7565,
+      "created_at": 1769880319322,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "593eb85b",
+      "item": "Yam",
+      "quantity": 1000,
+      "price": 2.7565,
+      "created_at": 1769880324074,
+      "collection": "collectibles",
+      "trade_type": "instant"
     }
   ],
   "active_offers": [
@@ -1576,7 +1678,7 @@
       "Cauliflower": 12695.370400000003,
       "Parsnip": 1217.3397,
       "Radish": 10289.4249,
-      "Wheat": 6852.095600000016,
+      "Wheat": 6832.095600000016,
       "Kale": 2242.9201000000003,
       "Eggplant": 10129.793,
       "Corn": 3592.546599999999,
@@ -1594,21 +1696,21 @@
       "Artichoke": 5050.785
     },
     "fruits": {
-      "Apple": 3203.3,
-      "Blueberry": 2293.700000000004,
-      "Orange": 2497.400000000003,
-      "Banana": 2000.4,
-      "Grape": 194.4000000000005,
-      "Tomato": 3145.5000000000014,
-      "Lemon": 1582.4500000000005,
+      "Apple": 3187.3,
+      "Blueberry": 2291.700000000004,
+      "Orange": 2495.400000000003,
+      "Banana": 1998.4,
+      "Grape": 192.4000000000005,
+      "Tomato": 3140.5000000000014,
+      "Lemon": 1512.4500000000005,
       "Duskberry": 578.5,
       "Lunara": 438.0,
       "Celestine": 2299.5
     },
     "resources": {
-      "Wood": 18760.08,
-      "Stone": 1031.45,
-      "Iron": 1142.9,
+      "Wood": 18946.38,
+      "Stone": 1084.55,
+      "Iron": 1167.1,
       "Gold": 262.6,
       "Crimstone": 139.1,
       "Obsidian": 29.0
