@@ -78,7 +78,7 @@
       "Blue Lotus": "12",
       "Soybean": "35279.027099999993547",
       "Grape": "421.4500000000004912",
-      "Rice": "577.7918",
+      "Rice": "547.7918",
       "Olive": "778.806",
       "Tomato": "7674.3500000000076535",
       "Lemon": "8493.550000000003236",
@@ -818,7 +818,7 @@
       "Cow Skull": "10",
       "Trade Point": "1432.9337137093616223",
       "Ancient Clock": "10",
-      "Love Charm": "9899",
+      "Love Charm": "9901",
       "Broken Pillar": "10",
       "Trash": "5",
       "Dung": "811",
@@ -7236,7 +7236,9 @@
           },
           "sfl": 5.2622,
           "tax": 0.394665,
-          "tradeType": "instant"
+          "tradeType": "instant",
+          "fulfilledAt": 1769824704047,
+          "fulfilledById": 5522455416089703
         },
         "e0d11e52": {
           "collection": "collectibles",
@@ -7246,7 +7248,9 @@
           },
           "sfl": 5.2622,
           "tax": 0.394665,
-          "tradeType": "instant"
+          "tradeType": "instant",
+          "fulfilledAt": 1769824879514,
+          "fulfilledById": 8431
         },
         "e05a97f7": {
           "collection": "collectibles",
@@ -7273,7 +7277,7 @@
           "fulfilledById": 2778993124794395
         }
       },
-      "soldCount": 8172,
+      "soldCount": 8174,
       "dailyListings": {
         "count": 15,
         "date": 31
@@ -13791,16 +13795,6 @@
           "items": {
             "Kale Stew": 4
           },
-          "completedAt": 1769820031281
-        },
-        {
-          "createdAt": 1769817755567,
-          "readyAt": 1769817755567,
-          "from": "grubnuk",
-          "id": "b7110b",
-          "items": {
-            "Kale Stew": 4
-          },
           "reward": {
             "sfl": 0.55
           },
@@ -15117,7 +15111,7 @@
           "petXP": 12150,
           "score": 464.6,
           "collectivePet": {
-            "totalXP": 5670110,
+            "totalXP": 5736510,
             "goalXP": 10263180,
             "goalReached": false,
             "streak": 10,
@@ -17320,10 +17314,10 @@
       "Broccoli Hat": 1769820120758
     },
     "socialFarming": {
-      "points": 62073,
+      "points": 62088,
       "villageProjects": {
         "Miner's Monument": {
-          "cheers": 4983,
+          "cheers": 4986,
           "winnerId": 166616
         },
         "Woodcutter's Monument": {
@@ -17339,7 +17333,7 @@
           "winnerId": 172840
         },
         "Big Banana": {
-          "cheers": 108,
+          "cheers": 111,
           "winnerId": 9239
         },
         "Expert Cooking Pot": {
@@ -17351,7 +17345,7 @@
           "winnerId": 152625
         },
         "Big Apple": {
-          "cheers": 25,
+          "cheers": 28,
           "winnerId": 581
         },
         "Big Orange": {
@@ -17448,7 +17442,7 @@
       },
       "weeklyPoints": {
         "week": "2026-01-26",
-        "points": 1831
+        "points": 1846
       },
       "helpedForCompetition": 1307,
       "waves": {
@@ -17463,7 +17457,7 @@
         "49": {
           "id": 49,
           "name": "Pet #49",
-          "experience": 65167,
+          "experience": 65182,
           "energy": 11780,
           "requests": {
             "food": [
@@ -17492,7 +17486,7 @@
           },
           "location": "farm",
           "dailySocialXP": {
-            "2026-01-31": 35
+            "2026-01-31": 50
           },
           "fetches": {
             "Acorn": 172,
@@ -17504,7 +17498,7 @@
         "1155": {
           "name": "Pet #1155",
           "id": 1155,
-          "experience": 9315,
+          "experience": 9330,
           "energy": 3225,
           "requests": {
             "food": [
@@ -17533,7 +17527,7 @@
           },
           "location": "farm",
           "dailySocialXP": {
-            "2026-01-31": 35
+            "2026-01-31": 50
           },
           "fetches": {
             "Ruffroot": 19
@@ -17542,7 +17536,7 @@
         "2965": {
           "id": 2965,
           "name": "Pet #2965",
-          "experience": 69499,
+          "experience": 69514,
           "energy": 39620,
           "requests": {
             "food": [
@@ -17572,7 +17566,7 @@
           },
           "location": "farm",
           "dailySocialXP": {
-            "2026-01-31": 35
+            "2026-01-31": 50
           },
           "walking": false,
           "fetches": {
@@ -17586,7 +17580,7 @@
       "common": {
         "Barkley": {
           "name": "Barkley",
-          "experience": 63349,
+          "experience": 63364,
           "energy": 1640,
           "requests": {
             "food": [
@@ -17603,7 +17597,7 @@
           },
           "pettedAt": 1769816270510,
           "dailySocialXP": {
-            "2026-01-31": 35
+            "2026-01-31": 50
           },
           "fetches": {
             "Chewed Bone": 4,
@@ -17657,7 +17651,7 @@
         },
         "Pippin": {
           "name": "Pippin",
-          "experience": 63092,
+          "experience": 63107,
           "energy": 1625,
           "requests": {
             "food": [
@@ -17673,7 +17667,7 @@
           },
           "pettedAt": 1769816268912,
           "dailySocialXP": {
-            "2026-01-31": 35
+            "2026-01-31": 50
           },
           "fetches": {
             "Acorn": 30,

@@ -1,6 +1,6 @@
 {
   "id": 2299,
-  "totalTrades": 8352,
+  "totalTrades": 8353,
   "level": 86,
   "weeklyFlowerSpent": 194.71020000000001,
   "weeklyFlowerEarned": 10.1486525,
@@ -15,7 +15,9 @@
       },
       "sfl": 5.26,
       "tax": 0.3945,
-      "tradeType": "instant"
+      "tradeType": "instant",
+      "fulfilledAt": 1769825360367,
+      "fulfilledById": 2791164672544774
     }
   },
   "offers": {},
@@ -52,6 +54,25 @@
     }
   ],
   "trades": [
+    {
+      "id": "e5f19032",
+      "sfl": 5.26,
+      "quantity": 10,
+      "itemId": 2638,
+      "collection": "collectibles",
+      "source": "listing",
+      "fulfilledAt": 1769825360367,
+      "initiatedBy": {
+        "id": 2299,
+        "bumpkinUri": "0_v1_460_90_52_282_234_22_240_255_28_371_16_458_422_189",
+        "username": "Haesoo"
+      },
+      "fulfilledBy": {
+        "id": 2791164672544774,
+        "bumpkinUri": "0_v1_48_90_184_85_18_89_455_443_0_381_0_0_0_189_0_177",
+        "username": "FriendlyNic"
+      }
+    },
     {
       "id": "eb736283",
       "sfl": 0.3404,
@@ -976,25 +997,6 @@
         "id": 7043850530942479,
         "bumpkinUri": "0_v1_48_1_184_185_234_22_226_253_0_228",
         "username": "DECKER"
-      },
-      "fulfilledBy": {
-        "id": 2299,
-        "bumpkinUri": "0_v1_460_90_52_282_234_22_240_255_28_371_16_458_422_189",
-        "username": "Haesoo"
-      }
-    },
-    {
-      "id": "4feed114",
-      "sfl": 2.438,
-      "quantity": 20,
-      "itemId": 641,
-      "collection": "collectibles",
-      "source": "listing",
-      "fulfilledAt": 1769659226949,
-      "initiatedBy": {
-        "id": 79871,
-        "bumpkinUri": "0_v1_71_193_487_282_338_339_499_293_30_383_0_0_0_497_0_0_516",
-        "username": "Grith"
       },
       "fulfilledBy": {
         "id": 2299,

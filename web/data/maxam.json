@@ -1,7 +1,7 @@
 {
   "username": "maxam",
   "overview": {
-    "balance": 7.55,
+    "balance": 7.18,
     "coins": 12732.0,
     "gems": 0.0,
     "earned_sfl": 1704.37,
@@ -9,10 +9,22 @@
     "spent_sfl": 768.27,
     "items_sold": 142.0,
     "trade_points": 3540.61,
-    "last_updated": "2026-01-31 02:18 AM",
+    "last_updated": "2026-01-31 03:22 AM",
     "active_listings": 2
   },
   "buys": [
+    {
+      "date": "2026-01-31",
+      "time": "02:20 AM",
+      "type": "BUY",
+      "item": "Parsnip",
+      "quantity": 20,
+      "price_text": "0.37 SFL",
+      "price": 0.37,
+      "counterparty": "JaySuper",
+      "farm_id": "-",
+      "trade_id": "c30c3f08"
+    },
     {
       "date": "2026-01-31",
       "time": "01:10 AM",
@@ -642,15 +654,24 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 47,
+    "total_buys": 48,
     "total_sells": 5,
-    "buy_volume": 106.97819999999996,
+    "buy_volume": 107.34819999999996,
     "sell_volume": 13.6125,
-    "gross_profit": -93.36569999999996,
-    "avg_buy_price": 2.2761319148936163,
+    "gross_profit": -93.73569999999997,
+    "avg_buy_price": 2.2364208333333324,
     "avg_sell_price": 2.7225,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Parsnip",
+        "quantity": 20,
+        "price": 0.37,
+        "date": "2026-01-31",
+        "time": "02:20 AM",
+        "username": "maxam"
+      },
       {
         "type": "BUY",
         "item": "Blueberry",
@@ -693,8 +714,7 @@
         "quantity": 10,
         "price": 1.2998,
         "date": "2026-01-29",
-        "time": "12:38 PM",
-        "username": "maxam"
+        "time": "12:38 PM"
       },
       {
         "type": "BUY",
@@ -807,17 +827,9 @@
         "price": 1.28,
         "date": "2026-01-22",
         "time": "12:10 AM"
-      },
-      {
-        "type": "BUY",
-        "item": "Stone",
-        "quantity": 25,
-        "price": 0.3988,
-        "date": "2026-01-22",
-        "time": "12:02 AM"
       }
     ],
-    "profit_margin": -87.27544490372804,
+    "profit_margin": -87.31930297853154,
     "most_bought_items": {
       "Sunflower": 4500,
       "Potato": 2000,
