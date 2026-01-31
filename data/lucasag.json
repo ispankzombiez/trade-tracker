@@ -9,10 +9,22 @@
     "spent_sfl": 5993.05,
     "items_sold": 7713.0,
     "trade_points": 26751.78,
-    "last_updated": "2026-01-31 12:03 PM",
+    "last_updated": "2026-01-31 01:13 PM",
     "active_listings": 12
   },
   "buys": [
+    {
+      "date": "2026-01-31",
+      "time": "01:03 PM",
+      "type": "BUY",
+      "item": "Wheat",
+      "quantity": 250,
+      "price_text": "3.7357 SFL",
+      "price": 3.7357,
+      "counterparty": "Zustand",
+      "farm_id": "-",
+      "trade_id": "5ebe9d37"
+    },
     {
       "date": "2026-01-31",
       "time": "11:18 AM",
@@ -1122,15 +1134,24 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 28,
+    "total_buys": 29,
     "total_sells": 64,
-    "buy_volume": 72.24430000000002,
+    "buy_volume": 75.98,
     "sell_volume": 266.3897000000001,
-    "gross_profit": 194.1454000000001,
-    "avg_buy_price": 2.580153571428572,
+    "gross_profit": 190.4097000000001,
+    "avg_buy_price": 2.62,
     "avg_sell_price": 4.162339062500002,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Wheat",
+        "quantity": 250,
+        "price": 3.7357,
+        "date": "2026-01-31",
+        "time": "01:03 PM",
+        "username": "lucasag"
+      },
       {
         "type": "BUY",
         "item": "Wheat",
@@ -1173,8 +1194,7 @@
         "quantity": 280,
         "price": 4.1064,
         "date": "2026-01-31",
-        "time": "04:29 AM",
-        "username": "lucasag"
+        "time": "04:29 AM"
       },
       {
         "type": "BUY",
@@ -1287,19 +1307,11 @@
         "price": 1.4287,
         "date": "2026-01-30",
         "time": "09:25 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Wheat",
-        "quantity": 100,
-        "price": 1.4287,
-        "date": "2026-01-30",
-        "time": "09:25 PM"
       }
     ],
-    "profit_margin": 268.7345576052367,
+    "profit_margin": 250.60502763885245,
     "most_bought_items": {
-      "Wheat": 3890,
+      "Wheat": 4140,
       "Orange": 100,
       "Grape": 12,
       "Duskberry": 10,
@@ -1447,7 +1459,7 @@
       "Soybean": 112.41610000000023,
       "Rice": 124.09,
       "Olive": 5.91,
-      "Barley": 4084.2986000000215,
+      "Barley": 4447.298600000022,
       "Rhubarb": 36074.850000001,
       "Zucchini": 15706.500000005264,
       "Yam": 1985.0967999993904,
@@ -1461,7 +1473,7 @@
       "Blueberry": 209.25,
       "Orange": 94.02000000000001,
       "Grape": 4.5,
-      "Tomato": 5372.150000000012,
+      "Tomato": 5397.700000000013,
       "Lemon": 1841.9,
       "Duskberry": 7.500000000000001,
       "Lunara": 18.82,
@@ -1470,7 +1482,7 @@
       "Apple": 11.000000000000004
     },
     "resources": {
-      "Wood": 6247.912,
+      "Wood": 6323.372,
       "Stone": 1634.3,
       "Iron": 1790.25,
       "Gold": 500.55,

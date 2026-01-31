@@ -1,7 +1,7 @@
 {
   "username": "vitt0c",
   "overview": {
-    "balance": 22883.78,
+    "balance": 22874.79,
     "coins": 14062.0,
     "gems": 0.0,
     "earned_sfl": 15138.15,
@@ -9,10 +9,22 @@
     "spent_sfl": 14331.72,
     "items_sold": 10284.0,
     "trade_points": 97983.44,
-    "last_updated": "2026-01-31 12:03 PM",
+    "last_updated": "2026-01-31 01:13 PM",
     "active_listings": 145
   },
   "buys": [
+    {
+      "date": "2026-01-31",
+      "time": "12:14 PM",
+      "type": "BUY",
+      "item": "Collectible #14",
+      "quantity": 1,
+      "price_text": "2.231 SFL",
+      "price": 2.231,
+      "counterparty": "lemontree12",
+      "farm_id": "-",
+      "trade_id": "f3de98fe"
+    },
     {
       "date": "2026-01-31",
       "time": "11:47 AM",
@@ -1842,15 +1854,24 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 18,
+    "total_buys": 19,
     "total_sells": 134,
-    "buy_volume": 128.63189999999997,
+    "buy_volume": 130.8629,
     "sell_volume": 8811.0424,
-    "gross_profit": 8682.4105,
-    "avg_buy_price": 7.146216666666665,
+    "gross_profit": 8680.1795,
+    "avg_buy_price": 6.887521052631579,
     "avg_sell_price": 65.75404776119403,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Collectible #14",
+        "quantity": 1,
+        "price": 2.231,
+        "date": "2026-01-31",
+        "time": "12:14 PM",
+        "username": "vitt0c"
+      },
       {
         "type": "BUY",
         "item": "Collectible #14",
@@ -1893,8 +1914,7 @@
         "quantity": 200,
         "price": 3.9,
         "date": "2026-01-31",
-        "time": "05:18 AM",
-        "username": "vitt0c"
+        "time": "05:18 AM"
       },
       {
         "type": "BUY",
@@ -2007,17 +2027,9 @@
         "price": 2.8439,
         "date": "2026-01-31",
         "time": "10:27 AM"
-      },
-      {
-        "type": "SELL",
-        "item": "Merino Wool",
-        "quantity": 200,
-        "price": 2.8439,
-        "date": "2026-01-31",
-        "time": "10:27 AM"
       }
     ],
-    "profit_margin": 6749.811283204245,
+    "profit_margin": 6633.033120922737,
     "most_bought_items": {
       "Radish": 600,
       "Eggplant": 500,
@@ -2027,7 +2039,7 @@
       "Olive": 100,
       "Leather": 100,
       "Honey": 10,
-      "Collectible #14": 6
+      "Collectible #14": 7
     },
     "most_sold_items": {
       "Cabbage": 30000,

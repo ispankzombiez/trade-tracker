@@ -1,15 +1,15 @@
 {
   "username": "rudolph",
   "overview": {
-    "balance": 701.4,
-    "coins": 87381.0,
+    "balance": 706.4,
+    "coins": 86761.0,
     "gems": 0.0,
     "earned_sfl": 16318.75,
-    "earned_coins": 87381.0,
+    "earned_coins": 86761.0,
     "spent_sfl": 10475.38,
-    "items_sold": 19373.0,
+    "items_sold": 19374.0,
     "trade_points": 26969.95,
-    "last_updated": "2026-01-31 12:03 PM",
+    "last_updated": "2026-01-31 01:13 PM",
     "active_listings": 248
   },
   "buys": [
@@ -351,6 +351,18 @@
     }
   ],
   "sells": [
+    {
+      "date": "2026-01-31",
+      "time": "12:17 PM",
+      "type": "SELL",
+      "item": "Milk",
+      "quantity": 25,
+      "price_text": "3.1165 SFL",
+      "price": 3.1165,
+      "counterparty": "KYKYPY3A",
+      "farm_id": "-",
+      "trade_id": "f3f6acb5"
+    },
     {
       "date": "2026-01-31",
       "time": "11:30 AM",
@@ -811,12 +823,12 @@
   "last_updated": null,
   "stats": {
     "total_buys": 28,
-    "total_sells": 38,
+    "total_sells": 39,
     "buy_volume": 32.75779999999999,
-    "sell_volume": 262.4732999999999,
-    "gross_profit": 229.7154999999999,
+    "sell_volume": 265.58979999999985,
+    "gross_profit": 232.83199999999988,
     "avg_buy_price": 1.1699214285714281,
-    "avg_sell_price": 6.907192105263155,
+    "avg_sell_price": 6.809994871794868,
     "most_traded_items": {},
     "recent_activity": [
       {
@@ -985,7 +997,7 @@
         "time": "12:52 AM"
       }
     ],
-    "profit_margin": 701.2543577407517,
+    "profit_margin": 710.7681224013821,
     "most_bought_items": {
       "Soybean": 8962,
       "Bumpkin Emblem": 200
@@ -993,7 +1005,7 @@
     "most_sold_items": {
       "Kale": 9800,
       "Artichoke": 1000,
-      "Milk": 275
+      "Milk": 300
     }
   },
   "active_listings": [
@@ -3595,7 +3607,7 @@
   "inventory": {
     "crops": {
       "Sunflower": 204430.74710000263,
-      "Potato": 182913.08750002127,
+      "Potato": 182903.08750002127,
       "Pumpkin": 385454.1878999998,
       "Carrot": 55225.57370000259,
       "Cabbage": 123072.37980000059,
@@ -3613,7 +3625,7 @@
       "Barley": 3160.6846000000023,
       "Rhubarb": 2853.0300000000334,
       "Zucchini": 8673.69999999983,
-      "Yam": 2668.8566000003484,
+      "Yam": 3483.952700000349,
       "Broccoli": 7253.767300000014,
       "Pepper": 2008.531200000014,
       "Onion": 42.79460000000004,
@@ -3633,11 +3645,11 @@
       "Celestine": 311.45
     },
     "resources": {
-      "Wood": 28442.96,
-      "Stone": 3450.87,
-      "Iron": 4129.99,
-      "Gold": 2208.01,
-      "Crimstone": 1241.4,
+      "Wood": 28392.51,
+      "Stone": 3300.87,
+      "Iron": 4128.99,
+      "Gold": 2184.01,
+      "Crimstone": 1250.15,
       "Obsidian": 49.05
     }
   }
