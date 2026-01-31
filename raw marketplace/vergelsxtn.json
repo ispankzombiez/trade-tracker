@@ -1,6 +1,6 @@
 {
   "id": 63,
-  "totalTrades": 238,
+  "totalTrades": 239,
   "level": 51,
   "weeklyFlowerSpent": 0,
   "weeklyFlowerEarned": 0,
@@ -16,6 +16,48 @@
       "sfl": 580,
       "tax": 58,
       "tradeType": "onchain"
+    },
+    "b80e50c8": {
+      "collection": "collectibles",
+      "createdAt": 1769878423622,
+      "items": {
+        "Walrus": 1
+      },
+      "sfl": 2799,
+      "tax": 279.9,
+      "tradeType": "onchain"
+    },
+    "64ceb948": {
+      "collection": "collectibles",
+      "createdAt": 1769879135300,
+      "items": {
+        "Chewed Bone": 4
+      },
+      "sfl": 2.0799,
+      "tax": 0.20799,
+      "tradeType": "instant",
+      "fulfilledAt": 1769880183640,
+      "fulfilledById": 16499
+    },
+    "ccfe0d9e": {
+      "collection": "collectibles",
+      "createdAt": 1769879429498,
+      "items": {
+        "Moonfur": 1
+      },
+      "sfl": 3.1,
+      "tax": 0.31,
+      "tradeType": "instant"
+    },
+    "b335934a": {
+      "collection": "collectibles",
+      "createdAt": 1769879462617,
+      "items": {
+        "Moonfur": 1
+      },
+      "sfl": 3.1,
+      "tax": 0.31,
+      "tradeType": "instant"
     }
   },
   "offers": {},
@@ -27,25 +69,50 @@
       "trades": 3
     },
     {
-      "id": 172840,
-      "tokenUri": "0_v1_348_158_52_297_465_328_224_221_406_238_0_0_0_372_0_177_516",
-      "username": "D3k01",
+      "id": 249,
+      "tokenUri": "0_v1_352_140_54_282_281_280_499_442_406_238_0_366_451_440_0_177_498",
+      "username": "Hoot",
+      "trades": 3
+    },
+    {
+      "id": 74089,
+      "tokenUri": "0_v1_48_90_42_342_234_41_226_319_28_228_86_350_0_374",
+      "username": "calyoooo",
       "trades": 2
     },
     {
-      "id": 4501,
-      "tokenUri": "0_v1_83_3_97_0_0_22_45_0_0_0_86_117_0_0_98",
-      "username": "ReDragon",
+      "id": 206876,
+      "tokenUri": "0_v1_48_263_97_405_447_41_409_209_30_0_0_0_0_440_0_0_444",
+      "username": "Kanzuki",
       "trades": 2
     },
     {
-      "id": 157636,
-      "tokenUri": "0_v1_32_1_7_14_35_41_44_395_0_0_0_315_0_0_0_266",
-      "username": "Silkvoid",
+      "id": 203387,
+      "tokenUri": "0_v1_460_90_42_282_234_34_240_421_351_230_86_251_450_374",
+      "username": "Maw",
       "trades": 2
     }
   ],
   "trades": [
+    {
+      "id": "64ceb948",
+      "sfl": 2.0799,
+      "quantity": 4,
+      "itemId": 2632,
+      "collection": "collectibles",
+      "source": "listing",
+      "fulfilledAt": 1769880183640,
+      "initiatedBy": {
+        "id": 63,
+        "bumpkinUri": "0_v1_57_4_5_317_234_89_226_79_27_228_86_0_276_0_0_0_516",
+        "username": "Vergelsxtn"
+      },
+      "fulfilledBy": {
+        "id": 16499,
+        "bumpkinUri": "0_v1_53_90_63_335_338_339_257_379_30_383_408_0_0_440_0_177_444",
+        "username": "Anatolich"
+      }
+    },
     {
       "id": "58a27869",
       "sfl": 3.11,
@@ -327,7 +394,7 @@
       },
       "fulfilledBy": {
         "id": 132659,
-        "bumpkinUri": "0_v1_32_4_184_282_234_89_455_128_27_432_0_124_450_189_0_177",
+        "bumpkinUri": "0_v1_32_4_184_282_234_89_455_128_27_432_0_174_450_189_0_177",
         "username": "Lodwig"
       }
     },
@@ -975,25 +1042,6 @@
         "id": 63,
         "bumpkinUri": "0_v1_57_4_5_317_234_89_226_79_27_228_86_0_276_0_0_0_516",
         "username": "Vergelsxtn"
-      }
-    },
-    {
-      "id": "cccca939",
-      "sfl": 8.55,
-      "quantity": 1,
-      "itemId": 225,
-      "collection": "wearables",
-      "source": "listing",
-      "fulfilledAt": 1743775537966,
-      "initiatedBy": {
-        "id": 63,
-        "bumpkinUri": "0_v1_57_4_5_317_234_89_226_79_27_228_86_0_276_0_0_0_516",
-        "username": "Vergelsxtn"
-      },
-      "fulfilledBy": {
-        "id": 3693,
-        "bumpkinUri": "0_v1_32_1_42_0_0_89_226_0_0_383_0_0_0_440",
-        "username": "cramos"
       }
     }
   ]

@@ -36,7 +36,7 @@
       "Red Daffodil": "8",
       "White Daffodil": "2",
       "Soybean": "2.7",
-      "Tomato": "76.0000000000000043",
+      "Tomato": "94.8000000000000053",
       "Lemon": "148.45",
       "Barley": "355.6100000000000414",
       "Rhubarb": "2198.2",
@@ -116,14 +116,14 @@
       "Bumpkin Roast": "2",
       "Fried Tofu": "4",
       "Quick Juice": "4",
-      "Wood": "41.68",
+      "Wood": "89.28",
       "Gold": "17.95",
       "Egg": "30.7",
       "Speed Chicken": "1",
       "Fat Chicken": "1",
       "Rich Chicken": "1",
       "Honey": "2.505370508796540598",
-      "Wild Mushroom": "209.5",
+      "Wild Mushroom": "211",
       "Magic Mushroom": "65",
       "Tree": "11",
       "Stone Rock": "20",
@@ -146,9 +146,9 @@
       "Oil": "12.996999999999998",
       "Oil Reserve": "3",
       "Leather": "3.35",
-      "Wool": "62.5",
+      "Wool": "11.5",
       "Merino Wool": "344.8",
-      "Feather": "484.1",
+      "Feather": "433.1",
       "Milk": "5.7",
       "Hay": "5.7080000000002759",
       "Kernel Blend": "15.0000000000003026",
@@ -406,14 +406,14 @@
       "Pipi": "2",
       "Wooden Compass": "2",
       "Trade Point": "518.38635",
-      "Love Charm": "303",
+      "Love Charm": "310",
       "Old Bottle": "45",
       "Ancient Clock": "1",
       "Cockle Shell": "24",
       "Broken Pillar": "1",
       "Clam Shell": "2",
       "Trash": "7",
-      "Dung": "80",
+      "Dung": "62",
       "Coprolite": "1",
       "Anthill": "1",
       "Snail": "1",
@@ -430,7 +430,7 @@
       "Blueberry Jam": "5",
       "Purple Lotus": "1",
       "Holiday Ticket 2025": "2",
-      "Weed": "35",
+      "Weed": "33",
       "White Cosmos": "2",
       "Squeaky Chicken": "1",
       "Super Star": "2",
@@ -451,7 +451,7 @@
       "Carrot Juice": "4",
       "Purple Pansy": "1",
       "Anchovy": "106",
-      "Iron": "18.25",
+      "Iron": "1.25",
       "Power Smoothie": "3",
       "Rice Bun": "1",
       "Blue Cheese": "2",
@@ -554,11 +554,10 @@
       "Orange Cake": "1",
       "Lunar Doll": "1",
       "Napoleanfish": "2",
-      "Cheer": "5",
       "Pizza Margherita": "2",
       "Olive": "3",
       "Blue Balloon Flower": "6",
-      "Axe": "100",
+      "Axe": "82",
       "Radish Cake": "1",
       "Wild Grass": "5",
       "Big Orange": "1",
@@ -567,10 +566,11 @@
       "Pancakes": "1",
       "Basic Cooking Pot": "1",
       "Roast Veggies": "1",
-      "Tomato Seed": "3",
+      "Tomato Seed": "2",
       "Iron Pickaxe": "3",
       "Sand Shovel": "21",
-      "Pirate Bounty": "1"
+      "Pirate Bounty": "1",
+      "Cheer": "7"
     },
     "previousInventory": {
       "Potato Seed": "500",
@@ -4386,7 +4386,7 @@
         "width": 2,
         "height": 2,
         "wood": {
-          "choppedAt": 1769871619825
+          "choppedAt": 1769878418855
         },
         "x": -3,
         "y": -4
@@ -4396,7 +4396,7 @@
         "width": 2,
         "height": 2,
         "wood": {
-          "choppedAt": 1769871620343
+          "choppedAt": 1769878419270
         },
         "x": -3,
         "y": -6
@@ -4406,7 +4406,7 @@
         "width": 2,
         "height": 2,
         "wood": {
-          "choppedAt": 1769871619481
+          "choppedAt": 1769878418282
         },
         "x": -5,
         "y": -4
@@ -4416,7 +4416,7 @@
         "width": 2,
         "height": 2,
         "wood": {
-          "choppedAt": 1769871619106
+          "choppedAt": 1769878417995
         },
         "x": -5,
         "y": -2
@@ -4426,7 +4426,7 @@
         "width": 2,
         "height": 2,
         "wood": {
-          "choppedAt": 1769871618733
+          "choppedAt": 1769878417268
         },
         "x": -5,
         "y": 0
@@ -4508,7 +4508,7 @@
       "9caf764e": {
         "createdAt": 1768024142875,
         "wood": {
-          "choppedAt": 1769871621506
+          "choppedAt": 1769878420454
         },
         "tier": 2,
         "name": "Ancient Tree",
@@ -4519,7 +4519,7 @@
       "fb29776e": {
         "createdAt": 1768365835961,
         "wood": {
-          "choppedAt": 1769871621177
+          "choppedAt": 1769878420069
         },
         "x": -7,
         "y": -6,
@@ -4530,7 +4530,7 @@
       "bd4d2958": {
         "createdAt": 1769321229431,
         "wood": {
-          "choppedAt": 1769871620666
+          "choppedAt": 1769878419696
         },
         "x": -5,
         "y": -6,
@@ -5079,8 +5079,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769871642207,
-          "harvestedAt": 0,
-          "harvestsLeft": 6
+          "harvestedAt": 1769878427875,
+          "harvestsLeft": 5
         }
       },
       "2": {
@@ -5092,8 +5092,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769860033340,
-          "harvestedAt": 1769871629743,
-          "harvestsLeft": 4
+          "harvestedAt": 1769878427467,
+          "harvestsLeft": 3
         },
         "fertiliser": {
           "name": "Fruitful Blend",
@@ -5109,8 +5109,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769871639487,
-          "harvestedAt": 0,
-          "harvestsLeft": 5
+          "harvestedAt": 1769878422231,
+          "harvestsLeft": 4
         }
       },
       "50e38b02": {
@@ -5138,9 +5138,9 @@
         "y": 0,
         "fruit": {
           "name": "Tomato",
-          "plantedAt": 1769831538362,
-          "harvestedAt": 1769871631882,
-          "harvestsLeft": 1
+          "plantedAt": 1769878432817,
+          "harvestedAt": 0,
+          "harvestsLeft": 4
         }
       },
       "0e9a66d1": {
@@ -5152,8 +5152,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769871641176,
-          "harvestedAt": 0,
-          "harvestsLeft": 6
+          "harvestedAt": 1769878426305,
+          "harvestsLeft": 5
         }
       },
       "91da0288": {
@@ -5165,8 +5165,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769844657217,
-          "harvestedAt": 1769871624048,
-          "harvestsLeft": 3
+          "harvestedAt": 1769878426726,
+          "harvestsLeft": 2
         }
       },
       "e3033e02": {
@@ -5178,8 +5178,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769871640106,
-          "harvestedAt": 0,
-          "harvestsLeft": 6
+          "harvestedAt": 1769878423513,
+          "harvestsLeft": 5
         }
       },
       "85c6008b": {
@@ -5191,8 +5191,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769871654783,
-          "harvestedAt": 0,
-          "harvestsLeft": 4
+          "harvestedAt": 1769878427117,
+          "harvestsLeft": 3
         }
       },
       "e0296d47": {
@@ -5204,8 +5204,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769860032746,
-          "harvestedAt": 1769871632328,
-          "harvestsLeft": 4
+          "harvestedAt": 1769878424914,
+          "harvestsLeft": 3
         },
         "fertiliser": {
           "name": "Fruitful Blend",
@@ -5221,8 +5221,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769871640869,
-          "harvestedAt": 0,
-          "harvestsLeft": 4
+          "harvestedAt": 1769878424488,
+          "harvestsLeft": 3
         }
       },
       "aef1cf37": {
@@ -5234,8 +5234,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769871640519,
-          "harvestedAt": 0,
-          "harvestsLeft": 5
+          "harvestedAt": 1769878424068,
+          "harvestsLeft": 4
         }
       },
       "d9173edf": {
@@ -5247,8 +5247,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769860033966,
-          "harvestedAt": 1769871623286,
-          "harvestsLeft": 3
+          "harvestedAt": 1769878423009,
+          "harvestsLeft": 2
         },
         "fertiliser": {
           "name": "Fruitful Blend",
@@ -5277,8 +5277,8 @@
         "fruit": {
           "name": "Tomato",
           "plantedAt": 1769871641743,
-          "harvestedAt": 0,
-          "harvestsLeft": 6
+          "harvestedAt": 1769878425290,
+          "harvestsLeft": 5
         }
       }
     },
@@ -6475,7 +6475,7 @@
       "Sea Cucumber Sold": 252,
       "Eggplant Seed Bought": 8414,
       "Lily Seed Bought": 223,
-      "Tree Chopped": 84340,
+      "Tree Chopped": 84357,
       "Power Smoothie Cooked": 244,
       "Poppy Crafted": 1,
       "Orange Seed Bought": 777,
@@ -6613,8 +6613,8 @@
       "Music Box Crafted": 1,
       "Fairy Circle Crafted": 1,
       "Cheese Cooked": 615,
-      "Tomato Seed Planted": 566,
-      "Tomato Harvested": 2767,
+      "Tomato Seed Planted": 567,
+      "Tomato Harvested": 2780,
       "Honey Cheddar Cooked": 9,
       "Honey Cheddar Fed": 6,
       "Cowgirl Skirt Bought": 2,
@@ -6629,7 +6629,7 @@
       "Leather Collected": 11,
       "Merino Wool Collected": 601,
       "Dream Scarf Bought": 1,
-      "Sheep Cured": 53,
+      "Sheep Cured": 54,
       "Lemon Cheesecake Cooked": 57,
       "Lemon Cheesecake Fed": 50,
       "Fried Tofu Fed": 232,
@@ -6790,11 +6790,11 @@
       "Big Orange Bought": 94,
       "Pest Net Crafted": 6,
       "Anthill Burned": 2,
-      "Dung Burned": 6990,
+      "Dung Burned": 7080,
       "Rat Burned": 1,
       "Snail Burned": 1,
       "Trash Burned": 60,
-      "Weed Burned": 4355,
+      "Weed Burned": 4405,
       "Farmer's Monument Bought": 1,
       "Woodcutter's Monument Bought": 1,
       "Antipasto Cooked": 19,
@@ -7081,8 +7081,8 @@
       "Pirate Chest Opened": 65,
       "Digging Reward Collected": 66,
       "Shipment Restocked": 66,
-      "Farm Cheered": 776,
-      "Farm Helped": 1344,
+      "Farm Cheered": 787,
+      "Farm Helped": 1368,
       "Airdrop Reward Claimed": 144,
       "Jafar Shop Restocked": 7,
       "Blacksmith Shop Restocked": 30,
@@ -7096,7 +7096,7 @@
       "Streamer Hat Reward Claimed": 4,
       "Twitter Post Submitted": 6,
       "Marketplace Bulk Offers Cancelled": 3,
-      "Basic Tree Chopped": 5951,
+      "Basic Tree Chopped": 5956,
       "Iron Rock Mined": 1665,
       "Stone Rock Mined": 4695,
       "Gold Rock Mined": 458,
@@ -7140,7 +7140,7 @@
       "Luxury Key Bought": 1,
       "Anemone Caught": 6,
       "Ancient Tree Upgrade": 3,
-      "Ancient Tree Chopped": 399,
+      "Ancient Tree Chopped": 402,
       "White Lavender Bountied": 1,
       "Twilight Anglerfish Map Piece Found": 8,
       "Saw Fish Bought": 1,
@@ -7298,14 +7298,7 @@
       ]
     },
     "mushrooms": {
-      "mushrooms": {
-        "68e2d613": {
-          "name": "Wild Mushroom",
-          "amount": 1.5,
-          "x": 14,
-          "y": 7
-        }
-      },
+      "mushrooms": {},
       "spawnedAt": 1769875200000,
       "magicSpawnedAt": 1769803200000
     },
@@ -8433,7 +8426,7 @@
           "petXP": 0,
           "score": 50,
           "collectivePet": {
-            "totalXP": 7186694,
+            "totalXP": 7213759,
             "goalXP": 2404688,
             "goalReached": true,
             "streak": 3,
@@ -8765,8 +8758,8 @@
           "createdAt": 1768929532646,
           "awakeAt": 1769928322094,
           "asleepAt": 1769850562094,
-          "experience": 1215,
-          "lovedAt": 1769824605296,
+          "experience": 1252.5,
+          "lovedAt": 1769877204115,
           "item": "Petting Hand",
           "healthCheckedAt": 1769853679119
         },
@@ -8777,9 +8770,9 @@
           "createdAt": 1768632755291,
           "awakeAt": 1769928325829,
           "asleepAt": 1769850565829,
-          "experience": 1690,
-          "lovedAt": 1769824605031,
-          "item": "Petting Hand",
+          "experience": 1727.5,
+          "lovedAt": 1769877203667,
+          "item": "Brush",
           "healthCheckedAt": 1769853679119
         },
         "0e4de7d2": {
@@ -8789,9 +8782,9 @@
           "createdAt": 1768844445160,
           "awakeAt": 1769928325509,
           "asleepAt": 1769850565509,
-          "experience": 1447.5,
-          "lovedAt": 1769824606393,
-          "item": "Brush",
+          "experience": 1507.5,
+          "lovedAt": 1769877207014,
+          "item": "Music Box",
           "healthCheckedAt": 1769853679119
         },
         "015e9203": {
@@ -8801,8 +8794,8 @@
           "createdAt": 1768929531379,
           "awakeAt": 1769928325136,
           "asleepAt": 1769850565136,
-          "experience": 1252.5,
-          "lovedAt": 1769824606617,
+          "experience": 1290,
+          "lovedAt": 1769877207816,
           "item": "Petting Hand",
           "healthCheckedAt": 1769853679119
         },
@@ -8813,9 +8806,9 @@
           "createdAt": 1768929531689,
           "awakeAt": 1769928324740,
           "asleepAt": 1769850564740,
-          "experience": 1245,
-          "lovedAt": 1769824608015,
-          "item": "Brush",
+          "experience": 1305,
+          "lovedAt": 1769877209580,
+          "item": "Petting Hand",
           "healthCheckedAt": 1769853679119
         },
         "f7716186": {
@@ -8825,9 +8818,9 @@
           "createdAt": 1768929531973,
           "awakeAt": 1769928324383,
           "asleepAt": 1769850564383,
-          "experience": 1230,
-          "lovedAt": 1769824608241,
-          "item": "Music Box",
+          "experience": 1305,
+          "lovedAt": 1769877210117,
+          "item": "Petting Hand",
           "healthCheckedAt": 1769853679119
         },
         "153449c1": {
@@ -8837,9 +8830,9 @@
           "createdAt": 1769419458324,
           "awakeAt": 1769928321678,
           "asleepAt": 1769850561678,
-          "experience": 502.5,
-          "lovedAt": 1769824606149,
-          "item": "Petting Hand",
+          "experience": 540,
+          "lovedAt": 1769877204458,
+          "item": "Brush",
           "healthCheckedAt": 1769853679119
         },
         "49551cbc": {
@@ -8849,9 +8842,9 @@
           "createdAt": 1769419458781,
           "awakeAt": 1769928321306,
           "asleepAt": 1769850561306,
-          "experience": 487.5,
-          "lovedAt": 1769824605625,
-          "item": "Petting Hand",
+          "experience": 525,
+          "lovedAt": 1769877204898,
+          "item": "Brush",
           "healthCheckedAt": 1769853679119
         },
         "4d13f475": {
@@ -8861,9 +8854,9 @@
           "createdAt": 1769419458112,
           "awakeAt": 1769928320875,
           "asleepAt": 1769850560875,
-          "experience": 487.5,
-          "lovedAt": 1769824605877,
-          "item": "Brush",
+          "experience": 547.5,
+          "lovedAt": 1769877208541,
+          "item": "Petting Hand",
           "healthCheckedAt": 1769853679119
         },
         "7c2a99ec": {
@@ -8873,8 +8866,8 @@
           "createdAt": 1769419457672,
           "awakeAt": 1769928322626,
           "asleepAt": 1769850562626,
-          "experience": 525,
-          "lovedAt": 1769824609104,
+          "experience": 562.5,
+          "lovedAt": 1769877207405,
           "item": "Petting Hand",
           "healthCheckedAt": 1769853679119
         },
@@ -8885,8 +8878,8 @@
           "createdAt": 1769419457254,
           "awakeAt": 1769928323957,
           "asleepAt": 1769850563957,
-          "experience": 510,
-          "lovedAt": 1769824607749,
+          "experience": 547.5,
+          "lovedAt": 1769877210588,
           "item": "Petting Hand",
           "healthCheckedAt": 1769853679119
         },
@@ -8897,9 +8890,9 @@
           "createdAt": 1769419457902,
           "awakeAt": 1769928320452,
           "asleepAt": 1769850560452,
-          "experience": 487.5,
-          "lovedAt": 1769824608516,
-          "item": "Brush",
+          "experience": 547.5,
+          "lovedAt": 1769877208967,
+          "item": "Petting Hand",
           "healthCheckedAt": 1769853679119
         },
         "f277c87f": {
@@ -8909,8 +8902,8 @@
           "createdAt": 1769419457017,
           "awakeAt": 1769928323033,
           "asleepAt": 1769850563033,
-          "experience": 525,
-          "lovedAt": 1769824606892,
+          "experience": 562.5,
+          "lovedAt": 1769877208191,
           "item": "Petting Hand",
           "healthCheckedAt": 1769853679119
         },
@@ -8921,9 +8914,9 @@
           "createdAt": 1769419457466,
           "awakeAt": 1769928323517,
           "asleepAt": 1769850563517,
-          "experience": 525,
-          "lovedAt": 1769824607447,
-          "item": "Petting Hand",
+          "experience": 562.5,
+          "lovedAt": 1769877209231,
+          "item": "Brush",
           "healthCheckedAt": 1769853679119
         },
         "2a7b8d84": {
@@ -8933,8 +8926,8 @@
           "createdAt": 1769766702912,
           "awakeAt": 1769928320141,
           "asleepAt": 1769850560141,
-          "experience": 157.5,
-          "lovedAt": 1769824608776,
+          "experience": 195,
+          "lovedAt": 1769877211475,
           "item": "Petting Hand"
         }
       }
@@ -8968,7 +8961,7 @@
         },
         "dc97ea70": {
           "id": "dc97ea70",
-          "state": "sick",
+          "state": "idle",
           "type": "Sheep",
           "createdAt": 1768060511036,
           "awakeAt": 1769853564667,
@@ -9857,20 +9850,20 @@
       }
     },
     "boostsUsedAt": {
-      "Camel Onesie": 1769872367306,
+      "Camel Onesie": 1769879147875,
       "Fruit Picker Apron": 1769872367306,
-      "Fruitful Bounty": 1769872367306,
-      "Fruitful Fumble": 1769872367306,
-      "Loyal Macaw": 1769872367306,
-      "Lumberjack's Extra": 1769872341506,
-      "Macaw": 1769872367306,
+      "Fruitful Bounty": 1769879147467,
+      "Fruitful Fumble": 1769879147875,
+      "Loyal Macaw": 1769879147875,
+      "Lumberjack's Extra": 1769879140454,
+      "Macaw": 1769879147875,
       "No Axe No Worries": 1761407918724,
       "Spring Guardian": 1768768018364,
-      "Squirrel": 1769872341506,
-      "Tiki Totem": 1769872341506,
-      "Tough Tree": 1769872340666,
-      "Tree Charge": 1769872341506,
-      "Woody the Beaver": 1769872341506,
+      "Squirrel": 1769879140454,
+      "Tiki Totem": 1769879140454,
+      "Tough Tree": 1769879140454,
+      "Tree Charge": 1769879140454,
+      "Woody the Beaver": 1769879140454,
       "Bee Suit": 1769824272372,
       "Sweet Bonus": 1769824272372,
       "Efficient Bin": 1769862949938,
@@ -9938,7 +9931,7 @@
       "Treasure Map": 1769765029146,
       "Chef Apron": 1769679948097,
       "Pollen Power Up": 1769838923462,
-      "Oracle Syringe": 1769769037098,
+      "Oracle Syringe": 1769877425114,
       "Forge-Ward Profits": 1769823945575,
       "Chicory": 1769823515014,
       "Desert Rose": 1769610731366,
@@ -9985,7 +9978,7 @@
       "Sol & Luna": 1769736691381,
       "Fine Fibers": 1769850565829,
       "Rice Panda": 1761332464550,
-      "Catchup": 1769872374783,
+      "Catchup": 1769879152817,
       "Abundant Harvest": 1769850565829,
       "Bale Economy": 1769767165808,
       "Experienced Farmer": 1769850406729,
@@ -9993,7 +9986,7 @@
       "Wormy Treat": 1769872365492,
       "Saw Fish": 1769872365492,
       "Giant Artichoke": 1769745550428,
-      "Lunar Temple": 1769871437643,
+      "Lunar Temple": 1769881165591,
       "Fisherman's 10 Fold": 1769846784575,
       "Deep Sea Helm": 1767419312958,
       "Super Star": 1768124315885,
@@ -10006,7 +9999,7 @@
       "Nom Nom": 1769824824567
     },
     "socialFarming": {
-      "points": 35451,
+      "points": 35615,
       "villageProjects": {
         "Farmer's Monument": {
           "cheers": 100,
@@ -10017,28 +10010,28 @@
           "winnerId": 132826
         },
         "Miner's Monument": {
-          "cheers": 3783,
+          "cheers": 3785,
           "winnerId": 7543661884884280
         },
         "Big Banana": {
-          "cheers": 185,
+          "cheers": 186,
           "winnerId": 9239
         },
         "Big Apple": {
-          "cheers": 47,
+          "cheers": 48,
           "winnerId": 1164010181301338
         },
         "Cornucopia": {
-          "cheers": 68,
+          "cheers": 70,
           "winnerId": 1621
         },
         "Big Orange": {
-          "cheers": 11,
+          "cheers": 12,
           "winnerId": 80879
         },
         "Basic Cooking Pot": {
-          "cheers": 1,
-          "winnerId": 9239
+          "cheers": 2,
+          "winnerId": 18755
         }
       },
       "cheers": {
@@ -10046,22 +10039,20 @@
         "freeCheersClaimedAt": 1764735352063
       },
       "cheersGiven": {
-        "date": "2026-01-30",
+        "date": "2026-01-31",
         "projects": {},
         "farms": [
-          2489871284279175,
-          155498,
           132826,
-          1621,
           204,
+          61992,
+          2489871284279175,
           1164010181301338,
           2909,
-          61992,
-          128122,
           7125230236674634,
-          18755,
           4280,
-          206876
+          128122,
+          18755,
+          1948894819034218
         ]
       },
       "dailyCollections": {},
@@ -10101,29 +10092,27 @@
       },
       "weeklyPoints": {
         "week": "2026-01-26",
-        "points": 1795
+        "points": 1959
       },
       "helpIncrease": {
         "boughtAt": [
-          1769767734682,
-          1769767769540,
-          1769767812433,
-          1769767844445,
-          1769767913426,
-          1769767950655,
-          1769767976128,
-          1769768065172,
-          1769768095665,
-          1769768116395,
-          1769768168929,
-          1769768220976,
-          1769768253868,
-          1769768309928,
-          1769768353921,
-          1769768391986,
-          1769796974409,
-          1769797087358,
-          1769797128765
+          1769880172184,
+          1769880214380,
+          1769880250379,
+          1769880297861,
+          1769880339063,
+          1769880408378,
+          1769880467802,
+          1769880670736,
+          1769880718121,
+          1769880763734,
+          1769880803052,
+          1769880879802,
+          1769881031026,
+          1769881127441,
+          1769881192000,
+          1769881242520,
+          1769881328244
         ]
       },
       "helpedForCompetition": 657,
@@ -10139,7 +10128,7 @@
         "2985": {
           "id": 2985,
           "name": "Pet #2985",
-          "experience": 120735,
+          "experience": 120745,
           "energy": 2090,
           "requests": {
             "food": [
@@ -10160,7 +10149,7 @@
               "2026-01-31": 1
             }
           },
-          "pettedAt": 1769872376622,
+          "pettedAt": 1769879919136,
           "traits": {
             "type": "Warthog",
             "fur": "Cream",
@@ -10211,7 +10200,7 @@
         },
         "Burro": {
           "name": "Burro",
-          "experience": 54119,
+          "experience": 54129,
           "energy": 1970,
           "requests": {
             "food": [
@@ -10224,7 +10213,7 @@
               "Purple Smoothie"
             ]
           },
-          "pettedAt": 1769872378020,
+          "pettedAt": 1769879920320,
           "dailySocialXP": {
             "2026-01-31": 50
           },
@@ -10281,7 +10270,7 @@
         },
         "Oxen": {
           "name": "Oxen",
-          "experience": 2080,
+          "experience": 2090,
           "energy": 810,
           "requests": {
             "food": [
@@ -10294,7 +10283,7 @@
               "Rhubarb Tart"
             ]
           },
-          "pettedAt": 1769872377447,
+          "pettedAt": 1769879919677,
           "dailySocialXP": {
             "2026-01-31": 50
           }
