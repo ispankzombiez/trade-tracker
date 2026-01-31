@@ -1,18 +1,30 @@
 {
   "username": "vitt0c",
   "overview": {
-    "balance": 22835.91,
-    "coins": 14607.0,
+    "balance": 22841.25,
+    "coins": 14132.0,
     "gems": 0.0,
     "earned_sfl": 15135.85,
-    "earned_coins": 14607.0,
+    "earned_coins": 14132.0,
     "spent_sfl": 14331.72,
-    "items_sold": 10270.0,
-    "trade_points": 97967.47,
-    "last_updated": "2026-01-31 05:00 AM",
-    "active_listings": 142
+    "items_sold": 10272.0,
+    "trade_points": 97982.59,
+    "last_updated": "2026-01-31 05:45 AM",
+    "active_listings": 150
   },
   "buys": [
+    {
+      "date": "2026-01-31",
+      "time": "05:18 AM",
+      "type": "BUY",
+      "item": "Apple",
+      "quantity": 200,
+      "price_text": "3.9 SFL",
+      "price": 3.9,
+      "counterparty": "Nanartonis",
+      "farm_id": "-",
+      "trade_id": "e7ae2cdb"
+    },
     {
       "date": "2026-01-31",
       "time": "04:19 AM",
@@ -171,6 +183,54 @@
     }
   ],
   "sells": [
+    {
+      "date": "2026-01-31",
+      "time": "05:34 AM",
+      "type": "SELL",
+      "item": "Wool",
+      "quantity": 100,
+      "price_text": "5.8958 SFL",
+      "price": 5.8958,
+      "counterparty": "AdenzRoy",
+      "farm_id": "-",
+      "trade_id": "8a445e93"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "05:29 AM",
+      "type": "SELL",
+      "item": "Wool",
+      "quantity": 100,
+      "price_text": "5.8958 SFL",
+      "price": 5.8958,
+      "counterparty": "BOII",
+      "farm_id": "-",
+      "trade_id": "d07de4fb"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "05:23 AM",
+      "type": "SELL",
+      "item": "Wool",
+      "quantity": 100,
+      "price_text": "5.8958 SFL",
+      "price": 5.8958,
+      "counterparty": "calypso",
+      "farm_id": "-",
+      "trade_id": "a4a32ad9"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "05:20 AM",
+      "type": "SELL",
+      "item": "Cabbage",
+      "quantity": 2000,
+      "price_text": "4.9976 SFL",
+      "price": 4.9976,
+      "counterparty": "vu11",
+      "farm_id": "-",
+      "trade_id": "daa43801"
+    },
     {
       "date": "2026-01-31",
       "time": "03:51 AM",
@@ -1614,15 +1674,24 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 13,
-    "total_sells": 120,
-    "buy_volume": 107.82789999999997,
-    "sell_volume": 8744.8283,
-    "gross_profit": 8637.000399999999,
-    "avg_buy_price": 8.294453846153845,
-    "avg_sell_price": 72.87356916666666,
+    "total_buys": 14,
+    "total_sells": 124,
+    "buy_volume": 111.72789999999998,
+    "sell_volume": 8767.5133,
+    "gross_profit": 8655.7854,
+    "avg_buy_price": 7.9805642857142844,
+    "avg_sell_price": 70.70575241935484,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Apple",
+        "quantity": 200,
+        "price": 3.9,
+        "date": "2026-01-31",
+        "time": "05:18 AM",
+        "username": "vitt0c"
+      },
       {
         "type": "BUY",
         "item": "Collectible #14",
@@ -1665,8 +1734,7 @@
         "quantity": 100,
         "price": 38.31,
         "date": "2026-01-30",
-        "time": "03:31 PM",
-        "username": "vitt0c"
+        "time": "03:31 PM"
       },
       {
         "type": "BUY",
@@ -1734,6 +1802,38 @@
       },
       {
         "type": "SELL",
+        "item": "Wool",
+        "quantity": 100,
+        "price": 5.8958,
+        "date": "2026-01-31",
+        "time": "05:34 AM"
+      },
+      {
+        "type": "SELL",
+        "item": "Wool",
+        "quantity": 100,
+        "price": 5.8958,
+        "date": "2026-01-31",
+        "time": "05:29 AM"
+      },
+      {
+        "type": "SELL",
+        "item": "Wool",
+        "quantity": 100,
+        "price": 5.8958,
+        "date": "2026-01-31",
+        "time": "05:23 AM"
+      },
+      {
+        "type": "SELL",
+        "item": "Cabbage",
+        "quantity": 2000,
+        "price": 4.9976,
+        "date": "2026-01-31",
+        "time": "05:20 AM"
+      },
+      {
+        "type": "SELL",
         "item": "Cabbage",
         "quantity": 2000,
         "price": 4.9978,
@@ -1747,52 +1847,13 @@
         "price": 1.3295,
         "date": "2026-01-31",
         "time": "03:03 AM"
-      },
-      {
-        "type": "SELL",
-        "item": "Gold",
-        "quantity": 5,
-        "price": 1.3295,
-        "date": "2026-01-31",
-        "time": "03:03 AM"
-      },
-      {
-        "type": "SELL",
-        "item": "Tomato",
-        "quantity": 100,
-        "price": 0.5262,
-        "date": "2026-01-31",
-        "time": "02:59 AM"
-      },
-      {
-        "type": "SELL",
-        "item": "Gold",
-        "quantity": 10,
-        "price": 2.5999,
-        "date": "2026-01-31",
-        "time": "02:35 AM"
-      },
-      {
-        "type": "SELL",
-        "item": "Gold",
-        "quantity": 10,
-        "price": 2.5999,
-        "date": "2026-01-31",
-        "time": "02:34 AM"
-      },
-      {
-        "type": "SELL",
-        "item": "Gold",
-        "quantity": 10,
-        "price": 2.5999,
-        "date": "2026-01-31",
-        "time": "02:34 AM"
       }
     ],
-    "profit_margin": 8009.9866546598805,
+    "profit_margin": 7747.201370472374,
     "most_bought_items": {
       "Radish": 600,
       "Eggplant": 500,
+      "Apple": 200,
       "Milk": 150,
       "Soybean": 125,
       "Olive": 100,
@@ -1801,12 +1862,12 @@
       "Collectible #14": 2
     },
     "most_sold_items": {
-      "Cabbage": 18000,
+      "Cabbage": 20000,
       "Yam": 9000,
       "Beetroot": 8050,
       "Tomato": 4060,
+      "Wool": 1050,
       "Merino Wool": 820,
-      "Wool": 750,
       "Gold": 360,
       "Crimstone": 20,
       "Obsidian Turtle": 1
@@ -3002,15 +3063,6 @@
       "trade_type": "instant"
     },
     {
-      "id": "c9158b73",
-      "item": "Cabbage",
-      "quantity": 2000,
-      "price": 4.9978,
-      "created_at": 1769815108618,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
       "id": "76cd14f4",
       "item": "Wool",
       "quantity": 1000,
@@ -3088,6 +3140,87 @@
       "quantity": 5,
       "price": 1.3295,
       "created_at": 1769828617420,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "0362a77d",
+      "item": "Cabbage",
+      "quantity": 2000,
+      "price": 4.9976,
+      "created_at": 1769836633728,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "faa7bfc7",
+      "item": "Cabbage",
+      "quantity": 2000,
+      "price": 4.9976,
+      "created_at": 1769836639382,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "7bac6037",
+      "item": "Cabbage",
+      "quantity": 2000,
+      "price": 4.9976,
+      "created_at": 1769836643022,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "73b01939",
+      "item": "Cabbage",
+      "quantity": 2000,
+      "price": 4.9976,
+      "created_at": 1769836646436,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "a4a32ad9",
+      "item": "Wool",
+      "quantity": 100,
+      "price": 5.8958,
+      "created_at": 1769836750212,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "d07de4fb",
+      "item": "Wool",
+      "quantity": 100,
+      "price": 5.8958,
+      "created_at": 1769836754174,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "8a445e93",
+      "item": "Wool",
+      "quantity": 100,
+      "price": 5.8958,
+      "created_at": 1769836757377,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "30edd83c",
+      "item": "Wool",
+      "quantity": 100,
+      "price": 5.8958,
+      "created_at": 1769836760302,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "13f59692",
+      "item": "Wool",
+      "quantity": 100,
+      "price": 5.8958,
+      "created_at": 1769836763392,
       "collection": "collectibles",
       "trade_type": "instant"
     }
@@ -3499,33 +3632,6 @@
       "trade_type": "instant"
     },
     {
-      "id": "4a33cb8e",
-      "item": "Apple",
-      "quantity": 200,
-      "price": 3.9001,
-      "created_at": 1769819638386,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "794c037b",
-      "item": "Golden Helios",
-      "quantity": 1,
-      "price": 15.121,
-      "created_at": 1769820218865,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "a2fb74cb",
-      "item": "Golden Helios",
-      "quantity": 1,
-      "price": 15.121,
-      "created_at": 1769820222765,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
       "id": "14e1ac82",
       "item": "Crimstone Hammer",
       "quantity": 1,
@@ -3533,21 +3639,66 @@
       "created_at": 1769823002613,
       "collection": "wearables",
       "trade_type": "onchain"
+    },
+    {
+      "id": "58529c15",
+      "item": "Frost Pebble",
+      "quantity": 2,
+      "price": 0.902,
+      "created_at": 1769836820470,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "2bf3c3ed",
+      "item": "Frost Pebble",
+      "quantity": 2,
+      "price": 0.902,
+      "created_at": 1769836825167,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "f5477bc5",
+      "item": "Frost Pebble",
+      "quantity": 2,
+      "price": 0.902,
+      "created_at": 1769836829527,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "bdf63b75",
+      "item": "Frost Pebble",
+      "quantity": 2,
+      "price": 0.902,
+      "created_at": 1769836833254,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "17273aea",
+      "item": "Frost Pebble",
+      "quantity": 2,
+      "price": 0.902,
+      "created_at": 1769836838618,
+      "collection": "collectibles",
+      "trade_type": "instant"
     }
   ],
   "inventory": {
     "crops": {
-      "Sunflower": 745418.0490000643,
-      "Potato": 228813.4036000457,
-      "Pumpkin": 53135.47790000819,
-      "Carrot": 31385.985699999637,
-      "Cabbage": 38535.33540000006,
+      "Sunflower": 745368.0490000643,
+      "Potato": 233198.49750004578,
+      "Pumpkin": 53095.47790000819,
+      "Carrot": 31375.985699999637,
+      "Cabbage": 36525.33540000006,
       "Beetroot": 995.7966999999973,
       "Cauliflower": 942.4771000000002,
       "Parsnip": 608.5289999999995,
       "Radish": 904.2753000000001,
-      "Wheat": 529.6715999999984,
-      "Kale": 1116.6541999999997,
+      "Wheat": 429.67159999999836,
+      "Kale": 1111.6541999999997,
       "Eggplant": 1004.3338000000001,
       "Corn": 5485.6997,
       "Soybean": 74.83100000000005,
@@ -3556,7 +3707,7 @@
       "Barley": 1798.679200000001,
       "Rhubarb": 2159.9327999999987,
       "Zucchini": 872.4776000000037,
-      "Yam": 53451.10779999986,
+      "Yam": 54941.45779999985,
       "Broccoli": 4073.0705999999996,
       "Pepper": 8876.43470000001,
       "Onion": 1179.373800000002,
@@ -3564,19 +3715,19 @@
       "Artichoke": 1092.2893000000008
     },
     "fruits": {
-      "Apple": 46.950000000000124,
-      "Blueberry": 400.4500000000022,
-      "Orange": 260.20000000000095,
+      "Apple": 241.95000000000013,
+      "Blueberry": 385.4500000000022,
+      "Orange": 255.20000000000098,
       "Banana": 557.65,
       "Grape": 574.7,
-      "Tomato": 10494.8,
-      "Lemon": 7234.250000000004,
+      "Tomato": 10448.25,
+      "Lemon": 7184.250000000004,
       "Duskberry": 16.900000000000002,
       "Lunara": 18.30000000000001,
       "Celestine": 20.8
     },
     "resources": {
-      "Wood": 35865.0185,
+      "Wood": 35931.1185,
       "Stone": 3691.81,
       "Iron": 1936.0,
       "Gold": 962.02,
