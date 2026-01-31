@@ -268,7 +268,7 @@
       "Crimstone": "56.7",
       "Oil": "955.6098822870371693",
       "Oil Reserve": "4",
-      "Leather": "1043.05",
+      "Leather": "863.05",
       "Wool": "1431.4",
       "Merino Wool": "1357.35",
       "Feather": "3337.35",
@@ -6481,7 +6481,9 @@
           },
           "sfl": 2.438,
           "tax": 0.1219,
-          "tradeType": "instant"
+          "tradeType": "instant",
+          "fulfilledAt": 1769841083219,
+          "fulfilledById": 8255756729871836
         },
         "da044bae": {
           "collection": "collectibles",
@@ -6491,7 +6493,9 @@
           },
           "sfl": 2.438,
           "tax": 0.1219,
-          "tradeType": "instant"
+          "tradeType": "instant",
+          "fulfilledAt": 1769841606462,
+          "fulfilledById": 7389676821665592
         },
         "44f7026f": {
           "collection": "collectibles",
@@ -6501,7 +6505,9 @@
           },
           "sfl": 2.438,
           "tax": 0.1219,
-          "tradeType": "instant"
+          "tradeType": "instant",
+          "fulfilledAt": 1769841621906,
+          "fulfilledById": 7389676821665592
         },
         "3e72e49f": {
           "collection": "collectibles",
@@ -6511,7 +6517,9 @@
           },
           "sfl": 2.438,
           "tax": 0.1219,
-          "tradeType": "instant"
+          "tradeType": "instant",
+          "fulfilledAt": 1769841740714,
+          "fulfilledById": 7464996490646308
         },
         "9347d509": {
           "collection": "collectibles",
@@ -6521,7 +6529,9 @@
           },
           "sfl": 2.438,
           "tax": 0.1219,
-          "tradeType": "instant"
+          "tradeType": "instant",
+          "fulfilledAt": 1769841821510,
+          "fulfilledById": 1388994991233671
         },
         "3540ad75": {
           "collection": "collectibles",
@@ -6531,7 +6541,9 @@
           },
           "sfl": 2.438,
           "tax": 0.1219,
-          "tradeType": "instant"
+          "tradeType": "instant",
+          "fulfilledAt": 1769841830048,
+          "fulfilledById": 7464996490646308
         },
         "ebf26171": {
           "collection": "collectibles",
@@ -6541,7 +6553,9 @@
           },
           "sfl": 2.438,
           "tax": 0.1219,
-          "tradeType": "instant"
+          "tradeType": "instant",
+          "fulfilledAt": 1769842117435,
+          "fulfilledById": 6645524696608317
         },
         "f15526de": {
           "collection": "collectibles",
@@ -6551,7 +6565,9 @@
           },
           "sfl": 2.438,
           "tax": 0.1219,
-          "tradeType": "instant"
+          "tradeType": "instant",
+          "fulfilledAt": 1769843246220,
+          "fulfilledById": 8733954786961046
         },
         "bb1eb89b": {
           "collection": "collectibles",
@@ -6561,10 +6577,12 @@
           },
           "sfl": 2.438,
           "tax": 0.1219,
-          "tradeType": "instant"
+          "tradeType": "instant",
+          "fulfilledAt": 1769843257025,
+          "fulfilledById": 3777664152669598
         }
       },
-      "soldCount": 5322,
+      "soldCount": 5331,
       "dailyListings": {
         "count": 16,
         "date": 31
@@ -9810,16 +9828,16 @@
     "floatingIsland": {
       "schedule": [
         {
-          "startAt": 1769839200000,
-          "endAt": 1769841000000
-        },
-        {
           "startAt": 1769869200000,
           "endAt": 1769871000000
         },
         {
           "startAt": 1769899200000,
           "endAt": 1769901000000
+        },
+        {
+          "startAt": 1769929200000,
+          "endAt": 1769931000000
         }
       ],
       "shop": {
@@ -13177,7 +13195,7 @@
           "petXP": 12325,
           "score": 1473.6,
           "collectivePet": {
-            "totalXP": 9772105,
+            "totalXP": 9878985,
             "goalXP": 4586794,
             "goalReached": true,
             "streak": 6,
