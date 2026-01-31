@@ -7,10 +7,10 @@
     "earned_sfl": 1137.35,
     "earned_coins": 322087.0,
     "spent_sfl": 0.0,
-    "items_sold": 2810.0,
+    "items_sold": 2815.0,
     "trade_points": 252976.67,
-    "last_updated": "2026-01-31 10:34 AM",
-    "active_listings": 11
+    "last_updated": "2026-01-31 11:34 AM",
+    "active_listings": 16
   },
   "buys": [
     {
@@ -195,6 +195,66 @@
     }
   ],
   "sells": [
+    {
+      "date": "2026-01-31",
+      "time": "11:04 AM",
+      "type": "SELL",
+      "item": "Leather",
+      "quantity": 100,
+      "price_text": "11.84 SFL",
+      "price": 11.84,
+      "counterparty": "Taruku",
+      "farm_id": "-",
+      "trade_id": "21f07124"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "10:58 AM",
+      "type": "SELL",
+      "item": "Crimstone",
+      "quantity": 20,
+      "price_text": "10.58 SFL",
+      "price": 10.58,
+      "counterparty": "Squig16",
+      "farm_id": "-",
+      "trade_id": "e556934a"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "10:50 AM",
+      "type": "SELL",
+      "item": "Wood",
+      "quantity": 500,
+      "price_text": "4.36 SFL",
+      "price": 4.36,
+      "counterparty": "Mozz",
+      "farm_id": "-",
+      "trade_id": "d3de6fae"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "10:45 AM",
+      "type": "SELL",
+      "item": "Milk",
+      "quantity": 100,
+      "price_text": "12.24 SFL",
+      "price": 12.24,
+      "counterparty": "edsonur62",
+      "farm_id": "-",
+      "trade_id": "91227abb"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "10:43 AM",
+      "type": "SELL",
+      "item": "Iron",
+      "quantity": 100,
+      "price_text": "6.34 SFL",
+      "price": 6.34,
+      "counterparty": "ReyMiyo",
+      "farm_id": "-",
+      "trade_id": "db8a195f"
+    },
     {
       "date": "2026-01-31",
       "time": "05:38 AM",
@@ -955,12 +1015,12 @@
   "last_updated": null,
   "stats": {
     "total_buys": 15,
-    "total_sells": 63,
+    "total_sells": 68,
     "buy_volume": 183.57920000000001,
-    "sell_volume": 518.729,
-    "gross_profit": 335.1498,
+    "sell_volume": 564.089,
+    "gross_profit": 380.50980000000004,
     "avg_buy_price": 12.238613333333335,
-    "avg_sell_price": 8.233793650793652,
+    "avg_sell_price": 8.295426470588236,
     "most_traded_items": {},
     "recent_activity": [
       {
@@ -1090,46 +1150,46 @@
       },
       {
         "type": "SELL",
-        "item": "Olive",
-        "quantity": 50,
-        "price": 20.14,
+        "item": "Leather",
+        "quantity": 100,
+        "price": 11.84,
         "date": "2026-01-31",
-        "time": "05:38 AM"
+        "time": "11:04 AM"
       },
       {
         "type": "SELL",
-        "item": "Milk",
-        "quantity": 100,
-        "price": 12.35,
+        "item": "Crimstone",
+        "quantity": 20,
+        "price": 10.58,
         "date": "2026-01-31",
-        "time": "03:20 AM"
+        "time": "10:58 AM"
       },
       {
         "type": "SELL",
         "item": "Wood",
         "quantity": 500,
-        "price": 4.44,
+        "price": 4.36,
         "date": "2026-01-31",
-        "time": "03:16 AM"
-      },
-      {
-        "type": "SELL",
-        "item": "Leather",
-        "quantity": 100,
-        "price": 11.78,
-        "date": "2026-01-31",
-        "time": "02:02 AM"
+        "time": "10:50 AM"
       },
       {
         "type": "SELL",
         "item": "Milk",
         "quantity": 100,
-        "price": 12.36,
+        "price": 12.24,
         "date": "2026-01-31",
-        "time": "01:54 AM"
+        "time": "10:45 AM"
+      },
+      {
+        "type": "SELL",
+        "item": "Iron",
+        "quantity": 100,
+        "price": 6.34,
+        "date": "2026-01-31",
+        "time": "10:43 AM"
       }
     ],
-    "profit_margin": 182.56414670071555,
+    "profit_margin": 207.27282829427298,
     "most_bought_items": {
       "Blueberry": 300,
       "Obsidian": 9,
@@ -1139,14 +1199,14 @@
     },
     "most_sold_items": {
       "Sunflower": 16000,
-      "Wood": 6100,
+      "Wood": 6600,
       "Pumpkin": 6000,
       "Potato": 6000,
       "Zucchini": 2000,
       "Carrot": 2000,
-      "Milk": 1600,
-      "Leather": 1400,
-      "Iron": 300,
+      "Milk": 1700,
+      "Leather": 1500,
+      "Iron": 400,
       "Tomato": 200
     }
   },
@@ -1249,6 +1309,51 @@
       "created_at": 1769613316265,
       "collection": "collectibles",
       "trade_type": "instant"
+    },
+    {
+      "id": "91227abb",
+      "item": "Milk",
+      "quantity": 100,
+      "price": 12.24,
+      "created_at": 1769856007366,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "21f07124",
+      "item": "Leather",
+      "quantity": 100,
+      "price": 11.84,
+      "created_at": 1769856033080,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "d3de6fae",
+      "item": "Wood",
+      "quantity": 500,
+      "price": 4.36,
+      "created_at": 1769856064533,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "db8a195f",
+      "item": "Iron",
+      "quantity": 100,
+      "price": 6.34,
+      "created_at": 1769856094932,
+      "collection": "collectibles",
+      "trade_type": "instant"
+    },
+    {
+      "id": "e556934a",
+      "item": "Crimstone",
+      "quantity": 20,
+      "price": 10.58,
+      "created_at": 1769856162971,
+      "collection": "collectibles",
+      "trade_type": "instant"
     }
   ],
   "active_offers": [],
@@ -1267,7 +1372,7 @@
       "Kale": 17222.422400000007,
       "Eggplant": 27.76650000000076,
       "Corn": 16922.958599999998,
-      "Soybean": 57595.71610000001,
+      "Soybean": 58268.516100000015,
       "Rice": 495.6,
       "Olive": 598.1,
       "Barley": 28414.753200000003,
@@ -1293,11 +1398,11 @@
       "Celestine": 1.5700000000000165
     },
     "resources": {
-      "Wood": 12538.34,
+      "Wood": 12112.64,
       "Stone": 1931.45,
-      "Iron": 3161.03,
+      "Iron": 3061.03,
       "Gold": 718.74,
-      "Crimstone": 750.55,
+      "Crimstone": 730.55,
       "Obsidian": 294.65
     }
   }

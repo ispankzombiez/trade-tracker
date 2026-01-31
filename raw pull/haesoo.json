@@ -102,13 +102,13 @@
       "Flower Fox": "1",
       "Crim Peckster": "1",
       "Pumpkin Soup": "17",
-      "Sauerkraut": "2",
-      "Sunflower Cake": "7",
+      "Sauerkraut": "3",
+      "Sunflower Cake": "8",
       "Cabbage Cake": "5",
       "Cauliflower Cake": "1",
       "Apple Pie": "5",
       "Honey Cake": "2",
-      "Kale & Mushroom Pie": "2",
+      "Kale & Mushroom Pie": "3",
       "Mushroom Jacket Potatoes": "4",
       "Mushroom Soup": "8",
       "Sunflower Crunch": "4",
@@ -177,7 +177,7 @@
       "Nightshade Emblem": "9000",
       "Pharaoh's Treasure Banner": "1",
       "Amber Fossil": "1",
-      "Gem": "5449",
+      "Gem": "5439",
       "Bull Run Banner": "1",
       "Horseshoe": "1",
       "Winds of Change Banner": "1",
@@ -475,12 +475,12 @@
       "Grape Juice": "1",
       "Squid": "57",
       "Gumbo": "1",
-      "Goblin's Treat": "5",
+      "Goblin's Treat": "4",
       "Caprese Salad": "2",
       "Orange Juice": "3",
       "Barnacle": "30",
       "Moon Crystal": "1",
-      "Boiled Eggs": "3",
+      "Boiled Eggs": "1",
       "Bloom Doll": "2",
       "Purple Smoothie": "2",
       "Obsidian": "2",
@@ -495,7 +495,7 @@
       "Sea Slug": "12",
       "Rice Seed": "4",
       "Club Sandwich": "4",
-      "Fish Flake": "2",
+      "Fish Flake": "3",
       "Purple Daffodil": "2",
       "Corn Seed": "9",
       "Paw Prints Raffle Ticket": "115",
@@ -562,11 +562,12 @@
       "Blue Balloon Flower": "6",
       "Axe": "83",
       "Radish Cake": "1",
-      "Wild Grass": "1",
+      "Wild Grass": "5",
       "Big Orange": "1",
-      "Basic Cooking Pot": "1",
       "Stone Pickaxe": "2",
-      "Red Snapper": "2"
+      "Red Snapper": "2",
+      "Pancakes": "1",
+      "Basic Cooking Pot": "1"
     },
     "previousInventory": {
       "Potato Seed": "500",
@@ -5510,28 +5511,7 @@
           "createdAt": 1722519262732,
           "readyAt": 1722519262732,
           "oil": 0,
-          "crafting": [
-            {
-              "name": "Boiled Eggs",
-              "boost": {
-                "Oil": 0
-              },
-              "skills": {
-                "Double Nom": false
-              },
-              "readyAt": 1769853373284
-            },
-            {
-              "name": "Boiled Eggs",
-              "boost": {
-                "Oil": 0
-              },
-              "skills": {
-                "Double Nom": false
-              },
-              "readyAt": 1769856289284
-            }
-          ],
+          "crafting": [],
           "coordinates": {
             "x": 1,
             "y": 4
@@ -5578,16 +5558,6 @@
           "readyAt": 1739610962015,
           "crafting": [
             {
-              "name": "Pancakes",
-              "boost": {
-                "Oil": 0
-              },
-              "skills": {
-                "Double Nom": false
-              },
-              "readyAt": 1769853360470
-            },
-            {
               "name": "Roast Veggies",
               "boost": {
                 "Oil": 0
@@ -5596,6 +5566,16 @@
                 "Double Nom": false
               },
               "readyAt": 1769859192470
+            },
+            {
+              "name": "Goblin Brunch",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": false
+              },
+              "readyAt": 1769894184470
             }
           ],
           "oil": 0,
@@ -5675,18 +5655,7 @@
           "id": "1d895222",
           "createdAt": 1739599106819,
           "readyAt": 1739599106819,
-          "crafting": [
-            {
-              "name": "Sauerkraut",
-              "boost": {
-                "Oil": 0
-              },
-              "skills": {
-                "Double Nom": false
-              },
-              "readyAt": 1769841162207
-            }
-          ],
+          "crafting": [],
           "oil": 0,
           "coordinates": {
             "x": 0,
@@ -5800,16 +5769,6 @@
           "createdAt": 1767587382139,
           "readyAt": 1767590982139,
           "processing": [
-            {
-              "name": "Fish Flake",
-              "readyAt": 1769853749461,
-              "startedAt": 1769850149461,
-              "requirements": {
-                "Anchovy": "4",
-                "Halibut": "2",
-                "Muskellunge": "2"
-              }
-            },
             {
               "name": "Fish Flake",
               "readyAt": 1769857349461,
@@ -6081,7 +6040,7 @@
       ],
       "Basic Cooking Pot": [
         {
-          "id": "c38a06bf",
+          "id": "f261c846",
           "coordinates": {
             "x": -1,
             "y": 3
@@ -6294,7 +6253,7 @@
       "Soybean Seed Bought": 13627,
       "Tofu Scramble Cooked": 124,
       "Orange Juice Cooked": 843,
-      "Pancakes Cooked": 79,
+      "Pancakes Cooked": 80,
       "Purple Cosmos Harvested": 346,
       "Bumpkin Detox Fed": 127,
       "Banana Plant Planted": 670,
@@ -6498,7 +6457,7 @@
       "Pumpkin Harvested": 26185,
       "Kernaldo Crafted": 1,
       "Grain Grinder Crafted": 1,
-      "Boiled Eggs Cooked": 446,
+      "Boiled Eggs Cooked": 448,
       "White Cosmos Harvested": 23,
       "Bloom Seed Planted": 534,
       "Wheat Seed Bought": 11992,
@@ -6593,7 +6552,7 @@
       "Iron Dug": 3,
       "Red Daffodil Harvested": 36,
       "Purple Smoothie Fed": 84,
-      "Sauerkraut Cooked": 176,
+      "Sauerkraut Cooked": 177,
       "Ocean Lantern Crafted": 5,
       "Bumpkin Broth Fed": 367,
       "Kale Planted": 6210,
@@ -6877,12 +6836,12 @@
       "Lemon Sold": 103,
       "Pepper Sold": 30,
       "Blossom Hourglass Bought": 4,
-      "Basic Cooking Pot Bought": 107,
+      "Basic Cooking Pot Bought": 108,
       "White Gladiolus Harvested": 2,
       "Grape Juice Cooked": 16,
       "Grape Juice Fed": 5,
       "Big Orange Completed": 70,
-      "Basic Cooking Pot Completed": 101,
+      "Basic Cooking Pot Completed": 102,
       "Sunfish Fed": 30,
       "Rare Key Bought": 2,
       "Giant Banana Sold": 3,
@@ -7131,7 +7090,7 @@
       "Giant Banana Bountied": 7,
       "Purple Lavender Bountied": 1,
       "Frost Pebble Fetched": 203,
-      "Wild Grass Fetched": 951,
+      "Wild Grass Fetched": 955,
       "Acorn Fetched": 84,
       "Ruffroot Fetched": 71,
       "Bloom Doll Bountied": 4,
@@ -7185,7 +7144,7 @@
       "Minigame Item Purchased": 1,
       "Cool Glasses Bought": 1,
       "Yellow Edelweiss Bountied": 1,
-      "Fish Flake Processed": 3,
+      "Fish Flake Processed": 4,
       "Fish Stick Processed": 32,
       "Fish Oil Processed": 17,
       "Auction Reward Claimed": 3,
@@ -8487,7 +8446,7 @@
           "petXP": 0,
           "score": 50,
           "collectivePet": {
-            "totalXP": 7010507,
+            "totalXP": 7026141,
             "goalXP": 2404688,
             "goalReached": true,
             "streak": 3,
@@ -9729,8 +9688,8 @@
       "Rich Chicken": 1769850565829,
       "Speed Chicken": 1769850565829,
       "Undead Rooster": 1769850565829,
-      "Desert Gnome": 1769850457994,
-      "Fast Feasts": 1769850457994,
+      "Desert Gnome": 1769856389750,
+      "Fast Feasts": 1769856389750,
       "Premium Worms": 1769832239765,
       "Gold Beetle": 1769853699917,
       "Golden Touch": 1769853699917,
@@ -9856,8 +9815,7 @@
           "winnerId": 80879
         },
         "Basic Cooking Pot": {
-          "cheers": 10,
-          "winnerId": 36214
+          "cheers": 0
         }
       },
       "cheers": {
@@ -9958,8 +9916,8 @@
         "2985": {
           "id": 2985,
           "name": "Pet #2985",
-          "experience": 120705,
-          "energy": 2690,
+          "experience": 120715,
+          "energy": 2090,
           "requests": {
             "food": [
               "Rhubarb Tart",
@@ -9979,7 +9937,7 @@
               "2026-01-31": 1
             }
           },
-          "pettedAt": 1769847096336,
+          "pettedAt": 1769855377359,
           "traits": {
             "type": "Warthog",
             "fur": "Cream",
@@ -9992,7 +9950,7 @@
           },
           "walking": true,
           "fetches": {
-            "Wild Grass": 941,
+            "Wild Grass": 944,
             "Acorn": 75,
             "Frost Pebble": 203,
             "Ribbon": 49,
@@ -10030,8 +9988,8 @@
         },
         "Burro": {
           "name": "Burro",
-          "experience": 54089,
-          "energy": 2170,
+          "experience": 54099,
+          "energy": 1970,
           "requests": {
             "food": [
               "Purple Smoothie",
@@ -10043,13 +10001,13 @@
               "Purple Smoothie"
             ]
           },
-          "pettedAt": 1769847097617,
+          "pettedAt": 1769855378269,
           "dailySocialXP": {
             "2026-01-31": 50
           },
           "fetches": {
             "Ruffroot": 6,
-            "Wild Grass": 11,
+            "Wild Grass": 12,
             "Acorn": 10
           }
         },
@@ -10100,7 +10058,7 @@
         },
         "Oxen": {
           "name": "Oxen",
-          "experience": 2050,
+          "experience": 2060,
           "energy": 810,
           "requests": {
             "food": [
@@ -10113,7 +10071,7 @@
               "Rhubarb Tart"
             ]
           },
-          "pettedAt": 1769847097035,
+          "pettedAt": 1769855377853,
           "dailySocialXP": {
             "2026-01-31": 50
           }

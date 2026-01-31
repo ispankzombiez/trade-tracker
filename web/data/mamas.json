@@ -1,7 +1,7 @@
 {
   "username": "mamas",
   "overview": {
-    "balance": 48.97,
+    "balance": 46.55,
     "coins": 20730.0,
     "gems": 0.0,
     "earned_sfl": 2372.76,
@@ -9,10 +9,34 @@
     "spent_sfl": 6703.73,
     "items_sold": 3040.0,
     "trade_points": 37500.38,
-    "last_updated": "2026-01-31 10:34 AM",
+    "last_updated": "2026-01-31 11:34 AM",
     "active_listings": 4
   },
   "buys": [
+    {
+      "date": "2026-01-31",
+      "time": "10:34 AM",
+      "type": "BUY",
+      "item": "Carrot",
+      "quantity": 500,
+      "price_text": "0.8238 SFL",
+      "price": 0.8238,
+      "counterparty": "september22",
+      "farm_id": "-",
+      "trade_id": "844ce887"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "10:34 AM",
+      "type": "BUY",
+      "item": "Carrot",
+      "quantity": 376,
+      "price_text": "0.6194 SFL",
+      "price": 0.6194,
+      "counterparty": "leetea",
+      "farm_id": "-",
+      "trade_id": "9108ce6f"
+    },
     {
       "date": "2026-01-31",
       "time": "10:18 AM",
@@ -738,15 +762,33 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 46,
+    "total_buys": 48,
     "total_sells": 14,
-    "buy_volume": 1331.4092999999996,
+    "buy_volume": 1332.8524999999995,
     "sell_volume": 1496.4400000000007,
-    "gross_profit": 165.03070000000116,
-    "avg_buy_price": 28.9436804347826,
+    "gross_profit": 163.58750000000123,
+    "avg_buy_price": 27.767760416666658,
     "avg_sell_price": 106.88857142857148,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Carrot",
+        "quantity": 500,
+        "price": 0.8238,
+        "date": "2026-01-31",
+        "time": "10:34 AM",
+        "username": "mamas"
+      },
+      {
+        "type": "BUY",
+        "item": "Carrot",
+        "quantity": 376,
+        "price": 0.6194,
+        "date": "2026-01-31",
+        "time": "10:34 AM",
+        "username": "mamas"
+      },
       {
         "type": "BUY",
         "item": "Lemon",
@@ -780,8 +822,7 @@
         "quantity": 250,
         "price": 0.7459,
         "date": "2026-01-31",
-        "time": "12:53 AM",
-        "username": "mamas"
+        "time": "12:53 AM"
       },
       {
         "type": "BUY",
@@ -789,8 +830,7 @@
         "quantity": 2000,
         "price": 5.5799,
         "date": "2026-01-31",
-        "time": "12:53 AM",
-        "username": "mamas"
+        "time": "12:53 AM"
       },
       {
         "type": "BUY",
@@ -895,36 +935,20 @@
         "price": 0.27,
         "date": "2026-01-28",
         "time": "02:12 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Broccoli",
-        "quantity": 750,
-        "price": 2.1,
-        "date": "2026-01-28",
-        "time": "01:08 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Yam",
-        "quantity": 600,
-        "price": 1.5918,
-        "date": "2026-01-28",
-        "time": "12:52 PM"
       }
     ],
-    "profit_margin": 12.395189067704514,
+    "profit_margin": 12.273488626836148,
     "most_bought_items": {
       "Yam": 4590,
       "Broccoli": 3192,
       "Cabbage": 2677,
+      "Carrot": 1054,
       "Stone": 830,
       "Tomato": 500,
       "Cauliflower": 400,
       "Blueberry": 216,
       "Pepper": 208,
-      "Lemon": 200,
-      "Carrot": 178
+      "Lemon": 200
     },
     "most_sold_items": {
       "Wood": 950,
@@ -981,24 +1005,15 @@
       "created_at": 1769249431026,
       "collection": "collectibles",
       "trade_type": "instant"
-    },
-    {
-      "id": "f67157db",
-      "item": "Lemon",
-      "quantity": 100,
-      "price": 0.97,
-      "created_at": 1769854569254,
-      "collection": "collectibles",
-      "trade_type": "instant"
     }
   ],
   "inventory": {
     "crops": {
-      "Sunflower": 106308.39720000062,
-      "Potato": 19704.708100000295,
+      "Sunflower": 105808.39720000062,
+      "Potato": 19204.708100000295,
       "Pumpkin": 414.6123000000537,
-      "Carrot": 40.69500000000001,
-      "Cabbage": 277.1931999999999,
+      "Carrot": 876.695,
+      "Cabbage": 257.1931999999999,
       "Beetroot": 106.87129999999999,
       "Cauliflower": 127.85099999999993,
       "Parsnip": 84.59039999999996,
@@ -1011,7 +1026,7 @@
       "Rice": 576.8248,
       "Olive": 410.9368,
       "Barley": 10172.1566,
-      "Rhubarb": 457.9999999999596,
+      "Rhubarb": 433.9999999999596,
       "Zucchini": 383.4436,
       "Yam": 472.2059,
       "Broccoli": 236.1149,
@@ -1024,18 +1039,18 @@
       "Apple": 92.70000000000005,
       "Blueberry": 23.710000000000473,
       "Orange": 485.88000000000034,
-      "Banana": 3228.09,
+      "Banana": 3218.09,
       "Grape": 40.95000000000002,
       "Tomato": 29.410000000000633,
-      "Lemon": 11.42000000000079,
+      "Lemon": 151.42000000000078,
       "Duskberry": 1.9900000000000126,
       "Lunara": 0.6000000000000131,
       "Celestine": 60.950000000000045
     },
     "resources": {
-      "Wood": 50861.98,
-      "Stone": 27.25,
-      "Iron": 954.15,
+      "Wood": 50914.23,
+      "Stone": 29.75,
+      "Iron": 957.95,
       "Gold": 154.3,
       "Crimstone": 291.4,
       "Obsidian": 59.8

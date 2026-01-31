@@ -1,18 +1,30 @@
 {
   "username": "lucasag",
   "overview": {
-    "balance": 227.82,
+    "balance": 245.45,
     "coins": 5764.0,
     "gems": 0.0,
     "earned_sfl": 14217.97,
     "earned_coins": 5764.0,
     "spent_sfl": 5993.05,
-    "items_sold": 7710.0,
+    "items_sold": 7713.0,
     "trade_points": 26751.78,
-    "last_updated": "2026-01-31 10:34 AM",
-    "active_listings": 15
+    "last_updated": "2026-01-31 11:34 AM",
+    "active_listings": 12
   },
   "buys": [
+    {
+      "date": "2026-01-31",
+      "time": "11:18 AM",
+      "type": "BUY",
+      "item": "Wheat",
+      "quantity": 214,
+      "price_text": "3.1672 SFL",
+      "price": 3.1672,
+      "counterparty": "zorokoolrj",
+      "farm_id": "-",
+      "trade_id": "b058ec80"
+    },
     {
       "date": "2026-01-31",
       "time": "04:29 AM",
@@ -339,6 +351,42 @@
     }
   ],
   "sells": [
+    {
+      "date": "2026-01-31",
+      "time": "10:47 AM",
+      "type": "SELL",
+      "item": "Milk",
+      "quantity": 50,
+      "price_text": "6.1841 SFL",
+      "price": 6.1841,
+      "counterparty": "HipSamurai",
+      "farm_id": "-",
+      "trade_id": "0954fa84"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "10:47 AM",
+      "type": "SELL",
+      "item": "Milk",
+      "quantity": 50,
+      "price_text": "6.1841 SFL",
+      "price": 6.1841,
+      "counterparty": "HipSamurai",
+      "farm_id": "-",
+      "trade_id": "545336d2"
+    },
+    {
+      "date": "2026-01-31",
+      "time": "10:47 AM",
+      "type": "SELL",
+      "item": "Milk",
+      "quantity": 50,
+      "price_text": "6.1841 SFL",
+      "price": 6.1841,
+      "counterparty": "HipSamurai",
+      "farm_id": "-",
+      "trade_id": "e1bfeea3"
+    },
     {
       "date": "2026-01-31",
       "time": "04:42 AM",
@@ -1074,15 +1122,24 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 27,
-    "total_sells": 61,
-    "buy_volume": 69.07710000000002,
-    "sell_volume": 247.83740000000006,
-    "gross_profit": 178.76030000000003,
-    "avg_buy_price": 2.558411111111112,
-    "avg_sell_price": 4.062908196721312,
+    "total_buys": 28,
+    "total_sells": 64,
+    "buy_volume": 72.24430000000002,
+    "sell_volume": 266.3897000000001,
+    "gross_profit": 194.1454000000001,
+    "avg_buy_price": 2.580153571428572,
+    "avg_sell_price": 4.162339062500002,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Wheat",
+        "quantity": 214,
+        "price": 3.1672,
+        "date": "2026-01-31",
+        "time": "11:18 AM",
+        "username": "lucasag"
+      },
       {
         "type": "BUY",
         "item": "Wheat",
@@ -1125,8 +1182,7 @@
         "quantity": 350,
         "price": 5.2807,
         "date": "2026-01-31",
-        "time": "04:29 AM",
-        "username": "lucasag"
+        "time": "04:29 AM"
       },
       {
         "type": "BUY",
@@ -1239,19 +1295,11 @@
         "price": 1.4287,
         "date": "2026-01-30",
         "time": "09:25 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Wheat",
-        "quantity": 100,
-        "price": 1.4287,
-        "date": "2026-01-30",
-        "time": "09:25 PM"
       }
     ],
-    "profit_margin": 258.78373585457405,
+    "profit_margin": 268.7345576052367,
     "most_bought_items": {
-      "Wheat": 3676,
+      "Wheat": 3890,
       "Orange": 100,
       "Grape": 12,
       "Duskberry": 10,
@@ -1264,8 +1312,8 @@
       "Beetroot": 1770,
       "Tomato": 1129,
       "Corn": 480,
+      "Milk": 479,
       "Leather": 417,
-      "Milk": 329,
       "Gold": 287,
       "Stone": 154
     }
@@ -1362,33 +1410,6 @@
       "trade_type": "instant"
     },
     {
-      "id": "0954fa84",
-      "item": "Milk",
-      "quantity": 50,
-      "price": 6.1841,
-      "created_at": 1769832187426,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "e1bfeea3",
-      "item": "Milk",
-      "quantity": 50,
-      "price": 6.1841,
-      "created_at": 1769832199059,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "545336d2",
-      "item": "Milk",
-      "quantity": 50,
-      "price": 6.1841,
-      "created_at": 1769832205040,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
       "id": "91bb0f56",
       "item": "Tomato",
       "quantity": 300,
@@ -1419,37 +1440,37 @@
       "Cauliflower": 1.871400000000765,
       "Parsnip": 20.41300000001561,
       "Radish": 5.607600000000034,
-      "Wheat": 1581.8029000000035,
+      "Wheat": 131.80290000000355,
       "Kale": 3.567099999999695,
       "Eggplant": 1269.2724000000012,
       "Corn": 2010.5399000000116,
       "Soybean": 112.41610000000023,
-      "Rice": 91.29,
+      "Rice": 124.09,
       "Olive": 5.91,
       "Barley": 4084.2986000000215,
       "Rhubarb": 36074.850000001,
       "Zucchini": 15706.500000005264,
-      "Yam": 2000.0967999993904,
-      "Broccoli": 4581.874000000023,
+      "Yam": 1985.0967999993904,
+      "Broccoli": 4571.874000000023,
       "Pepper": 1951.0820000000201,
       "Onion": 3183.156500000011,
       "Turnip": 1421.8539,
-      "Artichoke": 142.0045
+      "Artichoke": 140.0045
     },
     "fruits": {
       "Blueberry": 209.25,
       "Orange": 94.02000000000001,
       "Grape": 4.5,
-      "Tomato": 5351.600000000013,
+      "Tomato": 5372.150000000012,
       "Lemon": 1841.9,
       "Duskberry": 9.5,
       "Lunara": 21.82,
       "Celestine": 4.4,
-      "Banana": 288.08,
-      "Apple": 15.000000000000004
+      "Banana": 298.58,
+      "Apple": 11.000000000000004
     },
     "resources": {
-      "Wood": 6171.892,
+      "Wood": 6247.912,
       "Stone": 1585.3,
       "Iron": 1756.05,
       "Gold": 500.55,
