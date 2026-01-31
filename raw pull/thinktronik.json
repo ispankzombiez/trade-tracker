@@ -1,6 +1,6 @@
 {
   "farm": {
-    "coins": 41405.339999999436,
+    "coins": 41905.339999999436,
     "balance": "123.2897709649810535",
     "previousBalance": "2224.0943995881882403",
     "inventory": {
@@ -14,7 +14,7 @@
       "Radish Seed": "240",
       "Wheat Seed": "101",
       "Kale Seed": "180",
-      "Apple Seed": "34",
+      "Apple Seed": "32",
       "Blueberry Seed": "48",
       "Orange Seed": "45",
       "Eggplant Seed": "300",
@@ -192,7 +192,7 @@
       "Blue Cheese": "4",
       "Honey Cheddar": "3",
       "Sour Shake": "3",
-      "Wood": "7195.08",
+      "Wood": "7197.08",
       "Stone": "1298.87",
       "Iron": "962.4",
       "Gold": "665.01",
@@ -215,7 +215,7 @@
       "Grub": "26",
       "Red Wiggler": "83",
       "Sprout Mix": "388",
-      "Fruitful Blend": "104",
+      "Fruitful Blend": "102",
       "Rapid Root": "433",
       "Fishing Lure": "78",
       "Beehive": "5",
@@ -523,7 +523,7 @@
       "Stone Pickaxe": "51",
       "Purple Balloon Flower": "9",
       "Oil Drill": "5",
-      "Axe": "530",
+      "Axe": "528",
       "Giant Orange": "6",
       "Isopod": "2",
       "Pancakes": "3",
@@ -5455,14 +5455,14 @@
         "x": 17,
         "y": 0,
         "fruit": {
-          "name": "Tomato",
-          "plantedAt": 1769812854526,
-          "harvestedAt": 1769832109965,
-          "harvestsLeft": 0
+          "name": "Apple",
+          "plantedAt": 1769827213370,
+          "harvestedAt": 0,
+          "harvestsLeft": 7
         },
         "fertiliser": {
           "name": "Fruitful Blend",
-          "fertilisedAt": 1769818112392
+          "fertilisedAt": 1769839314749
         }
       },
       "afd79662": {
@@ -5574,14 +5574,14 @@
         "x": 15,
         "y": 4,
         "fruit": {
-          "name": "Tomato",
-          "plantedAt": 1769809170813,
-          "harvestedAt": 1769832109389,
-          "harvestsLeft": 0
+          "name": "Apple",
+          "plantedAt": 1769827214102,
+          "harvestedAt": 0,
+          "harvestsLeft": 7
         },
         "fertiliser": {
           "name": "Fruitful Blend",
-          "fertilisedAt": 1769814431507
+          "fertilisedAt": 1769839314381
         }
       },
       "3cbf295e": {
@@ -6745,7 +6745,7 @@
         "Pet Egg": 1762879332474,
         "Time Warp Totem": 1769749249708
       },
-      "petalPuzzleSolvedAt": 1769749233335
+      "petalPuzzleSolvedAt": 1769839297316
     },
     "farmActivity": {
       "Napoleanfish Caught": 410,
@@ -7289,7 +7289,7 @@
       "Parsnip Cake Fed": 50,
       "Popcorn Fed": 3502,
       "Sunflower Crunch Fed": 234,
-      "Apple Seed Planted": 987,
+      "Apple Seed Planted": 989,
       "Wooden Compass Dug": 53,
       "Blue Marlin Fed": 345,
       "Boiled Eggs Fed": 60,
@@ -7729,8 +7729,15 @@
       ]
     },
     "mushrooms": {
-      "mushrooms": {},
-      "magicSpawnedAt": 1769760000000,
+      "mushrooms": {
+        "f8e02806": {
+          "name": "Magic Mushroom",
+          "amount": 1,
+          "x": -13,
+          "y": -14
+        }
+      },
+      "magicSpawnedAt": 1769839200000,
       "spawnedAt": 1769817600000
     },
     "delivery": {
@@ -10971,7 +10978,7 @@
       "Bud #1474": 1769837365965,
       "Generous Orchard": 1769837365965,
       "Squirrel Monkey": 1769455966368,
-      "Catchup": 1769837365965,
+      "Catchup": 1769839310102,
       "Composting Revamp": 1769828547175,
       "Efficient Bin": 1769824024417,
       "Soil Krabby": 1769828547175,
@@ -11137,7 +11144,7 @@
       "Rooster": 1769081745497,
       "Janitor Chicken": 1769809909207,
       "Deep Sea Helm": 1767423678229,
-      "Fruit Tune Box": 1769837365965,
+      "Fruit Tune Box": 1769839310102,
       "Bucket O' Worms": 1769828547175,
       "Wormy Treat": 1769828547175,
       "Architect Ruler": 1769803403714,

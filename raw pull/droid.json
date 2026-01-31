@@ -1,7 +1,7 @@
 {
   "farm": {
     "coins": 166852.15739999924,
-    "balance": "10.4572709102868796",
+    "balance": "9.1278709102868796",
     "previousBalance": "13.4986759102868811",
     "inventory": {
       "Pumpkin Seed": "900",
@@ -47,7 +47,7 @@
       "Cauliflower": "14.7508999999999256",
       "Parsnip": "1.1189999999999261",
       "Radish": "287.2946999999998144",
-      "Wheat": "231.3798999999988634",
+      "Wheat": "211.3798999999988634",
       "Kale": "65.220999999999906",
       "Apple": "21.5000000000004928",
       "Blueberry": "3.0000000000054129",
@@ -160,11 +160,11 @@
       "Stone": "110.04",
       "Iron": "0.52",
       "Gold": "4.51",
-      "Egg": "98.3",
+      "Egg": "78.3",
       "Speed Chicken": "1",
       "Fat Chicken": "1",
       "Rich Chicken": "1",
-      "Honey": "1.33641279334498307",
+      "Honey": "12.33641279334498307",
       "Wild Mushroom": "19.4",
       "Magic Mushroom": "324",
       "Tree": "19",
@@ -188,7 +188,7 @@
       "Leather": "2.5",
       "Merino Wool": "4.4",
       "Feather": "582.6",
-      "Milk": "114.4",
+      "Milk": "90.4",
       "Hay": "6.7198500000003214",
       "Kernel Blend": "0.6408750000001554",
       "NutriBarley": "0.6010000000000904",
@@ -564,7 +564,7 @@
       "Potato Seed": "720",
       "Sunflower Seed": "1440",
       "Sunflower Cake": "2",
-      "Cheese": "6"
+      "Cheese": "14"
     },
     "previousInventory": {
       "Sunflower Seed": "1260",
@@ -5278,7 +5278,7 @@
               "skills": {
                 "Double Nom": true
               },
-              "readyAt": 1769838476424
+              "readyAt": 1769840204424
             },
             {
               "name": "Cheese",
@@ -5288,7 +5288,7 @@
               "skills": {
                 "Double Nom": true
               },
-              "readyAt": 1769838908424
+              "readyAt": 1769840636424
             },
             {
               "name": "Cheese",
@@ -5298,7 +5298,7 @@
               "skills": {
                 "Double Nom": true
               },
-              "readyAt": 1769839340424
+              "readyAt": 1769841068424
             },
             {
               "name": "Cheese",
@@ -5308,10 +5308,10 @@
               "skills": {
                 "Double Nom": true
               },
-              "readyAt": 1769839772424
+              "readyAt": 1769841500424
             }
           ],
-          "oil": 30.833333333333325,
+          "oil": 30.166666666666654,
           "coordinates": {
             "x": -8,
             "y": 9
@@ -5333,6 +5333,16 @@
                 "Double Nom": true
               },
               "readyAt": 1769843358373
+            },
+            {
+              "name": "Pancakes",
+              "boost": {
+                "Oil": 0
+              },
+              "skills": {
+                "Double Nom": true
+              },
+              "readyAt": 1769846274373
             }
           ],
           "oil": 0,
@@ -7873,7 +7883,7 @@
       "White Carrot Sold": 1,
       "Chicken Sold": 20,
       "Hen House Sold": 1,
-      "Cheese Cooked": 2596,
+      "Cheese Cooked": 2600,
       "Music Box Crafted": 1,
       "Sheep Cured": 19,
       "Cowboy Hat Bought": 1,
@@ -8257,18 +8267,6 @@
           }
         },
         {
-          "createdAt": 1769734823677,
-          "id": "813450",
-          "from": "guria",
-          "items": {
-            "Blue Balloon Flower": 1
-          },
-          "readyAt": 1769734823677,
-          "reward": {
-            "sfl": 1.15
-          }
-        },
-        {
           "createdAt": 1769734823562,
           "id": "ce50e5",
           "from": "timmy",
@@ -8278,16 +8276,6 @@
             "Lunar Doll": 1
           },
           "readyAt": 1769734823562,
-          "reward": {}
-        },
-        {
-          "createdAt": 1769735262118,
-          "id": "8f90d3",
-          "from": "tywin",
-          "items": {
-            "Crimstone": 15
-          },
-          "readyAt": 1769735262118,
           "reward": {}
         },
         {
@@ -8395,24 +8383,24 @@
         },
         {
           "createdAt": 1769830260860,
-          "readyAt": 1769830260860,
-          "from": "grimtooth",
           "id": "f93930",
+          "from": "grimtooth",
           "items": {
             "Butterflyfish": 3
           },
+          "readyAt": 1769830260860,
           "reward": {
             "sfl": 0.4
           }
         },
         {
           "createdAt": 1769830260860,
-          "readyAt": 1769830260860,
-          "from": "gambit",
           "id": "b08f27",
+          "from": "gambit",
           "items": {
             "Ocean's Olive": 1
           },
+          "readyAt": 1769830260860,
           "reward": {
             "sfl": 0.85
           }
@@ -8515,6 +8503,29 @@
             "Wheat Cake": 1
           },
           "reward": {}
+        },
+        {
+          "createdAt": 1769838896440,
+          "readyAt": 1769838896440,
+          "from": "tywin",
+          "id": "f1bd90",
+          "items": {
+            "Gold Pickaxe": 2,
+            "coins": 7500
+          },
+          "reward": {}
+        },
+        {
+          "createdAt": 1769838969710,
+          "readyAt": 1769838969711,
+          "from": "guria",
+          "id": "5908e7",
+          "items": {
+            "Mahi Mahi": 1
+          },
+          "reward": {
+            "sfl": 1.15
+          }
         }
       ],
       "fulfilledCount": 13165,
@@ -8790,7 +8801,7 @@
       },
       "tywin": {
         "deliveryCount": 297,
-        "skippedCount": 401,
+        "skippedCount": 402,
         "friendship": {
           "updatedAt": 1769382039484,
           "points": 1136,
@@ -8910,7 +8921,7 @@
       },
       "guria": {
         "deliveryCount": 337,
-        "skippedCount": 292,
+        "skippedCount": 293,
         "deliveryCompletedAt": 1769696375849,
         "friendship": {
           "points": 27,
@@ -9622,7 +9633,7 @@
           "petXP": 0,
           "score": 30,
           "collectivePet": {
-            "totalXP": 5827475,
+            "totalXP": 5830455,
             "goalXP": 10263180,
             "goalReached": false,
             "streak": 10,
@@ -10922,7 +10933,7 @@
       "Rock'N'Roll": 1769464281974,
       "Stone Beetle": 1769464281974,
       "Tunnel Mole": 1760936501773,
-      "Desert Gnome": 1769838101789,
+      "Desert Gnome": 1769839780059,
       "Knight Chicken": 1764944589664,
       "Abundant Harvest": 1769796392188,
       "Alien Chicken": 1769796392188,
@@ -10938,7 +10949,7 @@
       "Bee Suit": 1769830548934,
       "Sweet Bonus": 1769830548934,
       "Strong Roots": 1769788190240,
-      "Fast Feasts": 1769836825898,
+      "Fast Feasts": 1769839002243,
       "Forge-Ward Profits": 1769748728147,
       "Desert Rose": 1769586743041,
       "Chicory": 1769754922335,
