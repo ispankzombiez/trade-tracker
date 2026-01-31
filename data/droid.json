@@ -1,18 +1,30 @@
 {
   "username": "droid",
   "overview": {
-    "balance": 1.3,
-    "coins": 166592.0,
+    "balance": 0.61,
+    "coins": 159994.0,
     "gems": 0.0,
     "earned_sfl": 8175.19,
-    "earned_coins": 166592.0,
+    "earned_coins": 159994.0,
     "spent_sfl": 12297.69,
     "items_sold": 7611.0,
     "trade_points": 11367.53,
-    "last_updated": "2026-01-31 11:08 AM",
+    "last_updated": "2026-01-31 11:34 AM",
     "active_listings": 6
   },
   "buys": [
+    {
+      "date": "2026-01-31",
+      "time": "11:08 AM",
+      "type": "BUY",
+      "item": "Stone",
+      "quantity": 43,
+      "price_text": "0.6837 SFL",
+      "price": 0.6837,
+      "counterparty": "thecatTHz",
+      "farm_id": "-",
+      "trade_id": "729e9c15"
+    },
     {
       "date": "2026-01-31",
       "time": "10:29 AM",
@@ -1554,15 +1566,24 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 83,
+    "total_buys": 84,
     "total_sells": 45,
-    "buy_volume": 115.0047,
+    "buy_volume": 115.68839999999999,
     "sell_volume": 112.4815,
-    "gross_profit": -2.5232000000000028,
-    "avg_buy_price": 1.385598795180723,
+    "gross_profit": -3.2068999999999903,
+    "avg_buy_price": 1.377242857142857,
     "avg_sell_price": 2.499588888888889,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Stone",
+        "quantity": 43,
+        "price": 0.6837,
+        "date": "2026-01-31",
+        "time": "11:08 AM",
+        "username": "droid"
+      },
       {
         "type": "BUY",
         "item": "Honey",
@@ -1605,8 +1626,7 @@
         "quantity": 23,
         "price": 1.3294,
         "date": "2026-01-31",
-        "time": "05:56 AM",
-        "username": "droid"
+        "time": "05:56 AM"
       },
       {
         "type": "BUY",
@@ -1719,22 +1739,14 @@
         "price": 0.2478,
         "date": "2026-01-30",
         "time": "05:04 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Egg",
-        "quantity": 30,
-        "price": 0.6626,
-        "date": "2026-01-30",
-        "time": "05:04 PM"
       }
     ],
-    "profit_margin": -2.19399728880646,
+    "profit_margin": -2.772015171789039,
     "most_bought_items": {
       "Broccoli": 2300,
       "Yam": 1650,
       "Carrot": 600,
-      "Stone": 523,
+      "Stone": 566,
       "Milk": 417,
       "Artichoke": 291,
       "Tomato": 200,
@@ -1833,12 +1845,12 @@
       "Barley": 40.73979999999994,
       "Rhubarb": 96.35,
       "Zucchini": 588.6496,
-      "Yam": 578.7633,
-      "Broccoli": 290.2199,
+      "Yam": 801.9633,
+      "Broccoli": 280.2199,
       "Pepper": 46.7,
       "Onion": 0.7929000000000271,
       "Turnip": 21.296100000000017,
-      "Artichoke": 27.00610000000002
+      "Artichoke": 25.00610000000002
     },
     "fruits": {
       "Apple": 21.500000000000494,
@@ -1853,8 +1865,8 @@
       "Celestine": 2.4000000000000252
     },
     "resources": {
-      "Wood": 138.82,
-      "Stone": 45.04,
+      "Wood": 137.97,
+      "Stone": 18.04,
       "Iron": 58.95,
       "Gold": 4.51,
       "Obsidian": 10.2,
