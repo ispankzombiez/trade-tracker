@@ -344,7 +344,7 @@
       "Starlight Tuna": "1",
       "Radiant Ray": "1",
       "Angelfish": "22",
-      "Halibut": "37",
+      "Halibut": "35",
       "Porgy": "25",
       "Walleye": "1",
       "Weakfish": "21",
@@ -515,7 +515,7 @@
       "Red Snapper": "355",
       "Trout": "1",
       "Saw Shark": "2",
-      "Anchovy": "60",
+      "Anchovy": "56",
       "Autumn Guardian": "1",
       "Garden Eel": "6",
       "Winter Guardian": "1",
@@ -594,7 +594,7 @@
       "Crimstone Infused Fish Oil": "2",
       "Potato Seed": "5",
       "Paw Prints Rug": "1",
-      "Fish Stick": "14",
+      "Fish Stick": "15",
       "Artichoke Seed": "15",
       "Pumpkin Seed": "7",
       "Yam Seed": "33",
@@ -607,7 +607,7 @@
       "Stone Pickaxe": "1",
       "Cornucopia": "1",
       "Coelacanth": "2",
-      "Muskellunge": "5",
+      "Muskellunge": "3",
       "Sea Bass": "13"
     },
     "previousInventory": {
@@ -5830,16 +5830,6 @@
           "processing": [
             {
               "name": "Fish Stick",
-              "readyAt": 1769848792202,
-              "startedAt": 1769841592202,
-              "requirements": {
-                "Moray Eel": "2",
-                "Napoleanfish": "2",
-                "Red Snapper": "6"
-              }
-            },
-            {
-              "name": "Fish Stick",
               "readyAt": 1769855992202,
               "startedAt": 1769848792202,
               "requirements": {
@@ -5862,6 +5852,16 @@
               "name": "Fish Flake",
               "readyAt": 1769866792202,
               "startedAt": 1769863192202,
+              "requirements": {
+                "Anchovy": "4",
+                "Halibut": "2",
+                "Muskellunge": "2"
+              }
+            },
+            {
+              "name": "Fish Flake",
+              "readyAt": 1769870392202,
+              "startedAt": 1769866792202,
               "requirements": {
                 "Anchovy": "4",
                 "Halibut": "2",
@@ -8799,7 +8799,7 @@
       "Ho Ho oh oh… Bought": 1,
       "Building Construction Sped Up": 1,
       "Fish Flake Processed": 48,
-      "Fish Stick Processed": 44,
+      "Fish Stick Processed": 45,
       "Fish Oil Processed": 16,
       "Crab Pot Crafted": 23,
       "Mariner Pot Crafted": 10,
@@ -10333,7 +10333,7 @@
           "petXP": 0,
           "score": 0,
           "collectivePet": {
-            "totalXP": 5885205,
+            "totalXP": 5922655,
             "goalXP": 10263180,
             "goalReached": false,
             "streak": 10,

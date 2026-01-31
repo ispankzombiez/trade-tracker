@@ -2,14 +2,14 @@
   "username": "deltaomega",
   "overview": {
     "balance": 15.28,
-    "coins": 740.0,
+    "coins": 260.0,
     "gems": 0.0,
     "earned_sfl": 20935.1,
-    "earned_coins": 740.0,
+    "earned_coins": 260.0,
     "spent_sfl": 14782.16,
     "items_sold": 3471.0,
     "trade_points": 13902.85,
-    "last_updated": "2026-01-31 08:34 AM",
+    "last_updated": "2026-01-31 09:10 AM",
     "active_listings": 2
   },
   "buys": [
@@ -735,6 +735,18 @@
     }
   ],
   "sells": [
+    {
+      "date": "2026-01-31",
+      "time": "08:57 AM",
+      "type": "SELL",
+      "item": "Gold",
+      "quantity": 15,
+      "price_text": "3.63 SFL",
+      "price": 3.63,
+      "counterparty": "Neptun",
+      "farm_id": "-",
+      "trade_id": "b5b671fe"
+    },
     {
       "date": "2026-01-31",
       "time": "08:07 AM",
@@ -1591,12 +1603,12 @@
   "last_updated": null,
   "stats": {
     "total_buys": 60,
-    "total_sells": 71,
+    "total_sells": 72,
     "buy_volume": 64.72229999999999,
-    "sell_volume": 109.28369999999998,
-    "gross_profit": 44.56139999999999,
+    "sell_volume": 112.91369999999999,
+    "gross_profit": 48.1914,
     "avg_buy_price": 1.0787049999999998,
-    "avg_sell_price": 1.539207042253521,
+    "avg_sell_price": 1.5682458333333331,
     "most_traded_items": {},
     "recent_activity": [
       {
@@ -1765,7 +1777,7 @@
         "time": "01:22 AM"
       }
     ],
-    "profit_margin": 68.85014902128015,
+    "profit_margin": 74.45872597234649,
     "most_bought_items": {
       "Yam": 1334,
       "Broccoli": 850,
@@ -1783,34 +1795,15 @@
       "Wheat": 355,
       "Iron": 80,
       "Wood": 50,
+      "Gold": 31,
       "Rice": 22,
-      "Gold": 16,
       "Ribbon": 13,
       "Chewed Bone": 13,
       "Crimstone": 12,
       "Frost Pebble": 10
     }
   },
-  "active_listings": [
-    {
-      "id": "61e0b76f",
-      "item": "Barley",
-      "quantity": 100,
-      "price": 2.2215,
-      "created_at": 1769846180996,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    },
-    {
-      "id": "6e8bf3ba",
-      "item": "Barley",
-      "quantity": 100,
-      "price": 2.2215,
-      "created_at": 1769846192348,
-      "collection": "collectibles",
-      "trade_type": "instant"
-    }
-  ],
+  "active_listings": [],
   "active_offers": [],
   "inventory": {
     "crops": {
@@ -1851,7 +1844,7 @@
       "Lunara": 3.0
     },
     "resources": {
-      "Wood": 300.08,
+      "Wood": 347.28,
       "Stone": 151.4,
       "Iron": 103.6,
       "Crimstone": 0.1,

@@ -1,37 +1,12 @@
 {
   "id": 142979,
-  "totalTrades": 24143,
+  "totalTrades": 24144,
   "level": 106,
   "weeklyFlowerSpent": 139.0771,
-  "weeklyFlowerEarned": 154.6155975,
+  "weeklyFlowerEarned": 157.9733475,
   "tokenUri": "0_v1_83_90_184_503_504_0_414_505_30_0_86_0_0_374",
   "username": "DeltaOmega",
-  "listings": {
-    "61e0b76f": {
-      "collection": "collectibles",
-      "createdAt": 1769846180996,
-      "items": {
-        "Barley": 100
-      },
-      "sfl": 2.2215,
-      "tax": 0.1666125,
-      "tradeType": "instant",
-      "fulfilledAt": 1769846507036,
-      "fulfilledById": 4571615301171257
-    },
-    "6e8bf3ba": {
-      "collection": "collectibles",
-      "createdAt": 1769846192348,
-      "items": {
-        "Barley": 100
-      },
-      "sfl": 2.2215,
-      "tax": 0.1666125,
-      "tradeType": "instant",
-      "fulfilledAt": 1769846851643,
-      "fulfilledById": 871
-    }
-  },
+  "listings": {},
   "offers": {},
   "friends": [
     {
@@ -41,15 +16,15 @@
       "trades": 68
     },
     {
-      "id": 7171535366555767,
-      "tokenUri": "0_v1_348_90_184_181_447_334_332_196_0_228_86_0_0_189_0_266",
-      "username": "Pedrico",
-      "trades": 52
-    },
-    {
       "id": 60802,
       "tokenUri": "0_v1_47_90_51_13_20_89_23_0_0_0_0_439_0_189",
       "username": "Kuradike",
+      "trades": 52
+    },
+    {
+      "id": 7171535366555767,
+      "tokenUri": "0_v1_348_90_184_181_447_334_332_196_0_228_86_0_0_189_0_266",
+      "username": "Pedrico",
       "trades": 52
     },
     {
@@ -66,6 +41,25 @@
     }
   ],
   "trades": [
+    {
+      "id": "b5b671fe",
+      "sfl": 3.63,
+      "quantity": 15,
+      "itemId": 604,
+      "collection": "collectibles",
+      "source": "offer",
+      "fulfilledAt": 1769849854861,
+      "initiatedBy": {
+        "id": 4988743718037679,
+        "bumpkinUri": "0_v1_83_90_184_503_504_0_414_505_30_0_86_0_0_374",
+        "username": "DeltaOmega"
+      },
+      "fulfilledBy": {
+        "id": 142979,
+        "bumpkinUri": "0_v1_47_90_50_85_234_89_226_395_0_228",
+        "username": "Neptun"
+      }
+    },
     {
       "id": "6e8bf3ba",
       "sfl": 2.2215,
@@ -995,25 +989,6 @@
         "id": 142979,
         "bumpkinUri": "0_v1_32_2_5_88_234_89_489_505_0_228_0_420",
         "username": "StarKnock"
-      }
-    },
-    {
-      "id": "94b2e29c",
-      "sfl": 3.4,
-      "quantity": 250,
-      "itemId": 210,
-      "collection": "collectibles",
-      "source": "offer",
-      "fulfilledAt": 1769752948645,
-      "initiatedBy": {
-        "id": 3302523944618741,
-        "bumpkinUri": "0_v1_83_90_184_503_504_0_414_505_30_0_86_0_0_374",
-        "username": "DeltaOmega"
-      },
-      "fulfilledBy": {
-        "id": 142979,
-        "bumpkinUri": "0_v1_511_90_52_0_0_22_400_0_30_371_408_515_495_468_481",
-        "username": "Lekowem"
       }
     }
   ]

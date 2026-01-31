@@ -1,7 +1,7 @@
 {
   "username": "inubakabo",
   "overview": {
-    "balance": 9386.51,
+    "balance": 9385.37,
     "coins": 144530.0,
     "gems": 0.0,
     "earned_sfl": 15164.5,
@@ -9,10 +9,23 @@
     "spent_sfl": 8122.62,
     "items_sold": 1859.0,
     "trade_points": 25381.83,
-    "last_updated": "2026-01-31 08:34 AM",
+    "last_updated": "2026-01-31 09:10 AM",
     "active_listings": 32
   },
-  "buys": [],
+  "buys": [
+    {
+      "date": "2026-01-31",
+      "time": "08:42 AM",
+      "type": "BUY",
+      "item": "Cauliflower",
+      "quantity": 100,
+      "price_text": "1.1397 SFL",
+      "price": 1.1397,
+      "counterparty": "JezzZzy",
+      "farm_id": "-",
+      "trade_id": "c006694f"
+    }
+  ],
   "sells": [
     {
       "date": "2026-01-30",
@@ -617,15 +630,24 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 0,
+    "total_buys": 1,
     "total_sells": 50,
-    "buy_volume": 0,
+    "buy_volume": 1.1397,
     "sell_volume": 58.375499999999995,
-    "gross_profit": 58.375499999999995,
-    "avg_buy_price": 0,
+    "gross_profit": 57.2358,
+    "avg_buy_price": 1.1397,
     "avg_sell_price": 1.1675099999999998,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Cauliflower",
+        "quantity": 100,
+        "price": 1.1397,
+        "date": "2026-01-31",
+        "time": "08:42 AM",
+        "username": "inubakabo"
+      },
       {
         "type": "SELL",
         "item": "Corn",
@@ -668,8 +690,7 @@
         "quantity": 2000,
         "price": 5.4111,
         "date": "2026-01-30",
-        "time": "01:51 PM",
-        "username": "inubakabo"
+        "time": "01:51 PM"
       },
       {
         "type": "SELL",
@@ -782,18 +803,12 @@
         "price": 0.2202,
         "date": "2026-01-30",
         "time": "01:50 PM"
-      },
-      {
-        "type": "SELL",
-        "item": "Cabbage",
-        "quantity": 200,
-        "price": 0.46,
-        "date": "2026-01-30",
-        "time": "01:50 PM"
       }
     ],
-    "profit_margin": 0,
-    "most_bought_items": {},
+    "profit_margin": 5022.005790997631,
+    "most_bought_items": {
+      "Cauliflower": 100
+    },
     "most_sold_items": {
       "Potato": 46800,
       "Pumpkin": 26000,
@@ -1096,15 +1111,15 @@
   "inventory": {
     "crops": {
       "Sunflower": 273961.1988999465,
-      "Potato": 169429.349723019,
-      "Pumpkin": 67468.69761806753,
-      "Carrot": 6123.316499999629,
-      "Cabbage": 15931.163476710517,
+      "Potato": 169129.349723019,
+      "Pumpkin": 67288.69761806753,
+      "Carrot": 5523.316499999629,
+      "Cabbage": 15751.163476710517,
       "Beetroot": 7386.075127779881,
-      "Cauliflower": 187.76627013538373,
+      "Cauliflower": 167.76627013538373,
       "Parsnip": 2488.0020566483568,
       "Radish": 7372.851305043286,
-      "Wheat": 9355.487349769406,
+      "Wheat": 9295.487349769406,
       "Kale": 7717.192099999996,
       "Eggplant": 1781.658447523972,
       "Corn": 8625.68702943635,
@@ -1114,12 +1129,12 @@
       "Barley": 40147.763999999996,
       "Rhubarb": 44417.76909999865,
       "Zucchini": 15883.147099998972,
-      "Yam": 5159.679100000809,
-      "Broccoli": 3816.102700000512,
+      "Yam": 5582.749000000808,
+      "Broccoli": 3806.102700000512,
       "Pepper": 1561.5591999999997,
       "Onion": 2157.231200000001,
       "Turnip": 1632.6188999999993,
-      "Artichoke": 16404.0947
+      "Artichoke": 16402.0947
     },
     "fruits": {
       "Apple": 1964.7546,
@@ -1134,9 +1149,9 @@
       "Celestine": 1639.5
     },
     "resources": {
-      "Wood": 155339.65676738857,
-      "Stone": 21660.375343945474,
-      "Iron": 37379.770752569704,
+      "Wood": 155394.9967673886,
+      "Stone": 21739.575343945475,
+      "Iron": 37472.030752569706,
       "Gold": 3045.8368973916686,
       "Crimstone": 2158.15,
       "Obsidian": 369.85

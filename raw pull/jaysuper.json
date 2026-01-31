@@ -29,12 +29,12 @@
       "Gladiolus Seed": "13",
       "Lavender Seed": "13",
       "Clover Seed": "13",
-      "Sunflower": "592113.2571998293562",
+      "Sunflower": "591713.2571998293562",
       "Potato": "161942.2527000151409",
       "Pumpkin": "535083.040000001262",
       "Carrot": "121533.94459999976723",
       "Cabbage": "104849.28659999982252",
-      "Beetroot": "39814.363900000020778",
+      "Beetroot": "39614.363900000020778",
       "Cauliflower": "987.016999999999491",
       "Parsnip": "185.83980000000112",
       "Radish": "21266.068000000000783",
@@ -79,7 +79,7 @@
       "Purple Lotus": "10",
       "White Lotus": "11",
       "Blue Lotus": "10",
-      "Soybean": "7306.144699999980798",
+      "Soybean": "7276.144699999980798",
       "Grape": "1391.6900000000003824",
       "Rice": "491.844",
       "Olive": "731.036",
@@ -272,7 +272,7 @@
       "Fish n Chips": "400",
       "Fish Omelette": "50",
       "Fried Calamari": "112",
-      "Fried Tofu": "254",
+      "Fried Tofu": "256",
       "Grape Juice": "51",
       "Ocean's Olive": "175",
       "Quick Juice": "5010",
@@ -863,7 +863,7 @@
       "Pirate Bounty": "27",
       "Cow Skull": "13",
       "Trade Point": "31145.841475118550143",
-      "Love Charm": "57156.9",
+      "Love Charm": "57161.9",
       "Ancient Clock": "48",
       "Broken Pillar": "100",
       "Dung": "2624",
@@ -7757,7 +7757,9 @@
           },
           "sfl": 0.66,
           "tax": 0.033,
-          "tradeType": "instant"
+          "tradeType": "instant",
+          "fulfilledAt": 1769847719024,
+          "fulfilledById": 147426
         },
         "a24635c4": {
           "collection": "collectibles",
@@ -7767,7 +7769,9 @@
           },
           "sfl": 0.67,
           "tax": 0.0335,
-          "tradeType": "instant"
+          "tradeType": "instant",
+          "fulfilledAt": 1769847736700,
+          "fulfilledById": 147426
         },
         "8d14c556": {
           "collection": "collectibles",
@@ -8100,7 +8104,7 @@
           "tradeType": "instant"
         }
       },
-      "soldCount": 13471,
+      "soldCount": 13473,
       "dailyListings": {
         "count": 6,
         "date": 31
@@ -8193,18 +8197,8 @@
           "readyAt": 0,
           "createdAt": 0,
           "id": "1123",
-          "oil": 4.468749999999997,
+          "oil": 4.406249999999997,
           "crafting": [
-            {
-              "name": "Fried Tofu",
-              "boost": {
-                "Oil": 0.0625
-              },
-              "skills": {
-                "Double Nom": true
-              },
-              "readyAt": 1769847038634.6997
-            },
             {
               "name": "Fried Tofu",
               "boost": {
@@ -8234,6 +8228,16 @@
                 "Double Nom": true
               },
               "readyAt": 1769849046300.6997
+            },
+            {
+              "name": "Fried Tofu",
+              "boost": {
+                "Oil": 0.0625
+              },
+              "skills": {
+                "Double Nom": true
+              },
+              "readyAt": 1769849715522.6997
             }
           ]
         }
@@ -12816,7 +12820,7 @@
       "Cabbage Cake Cooked": 195,
       "Carrot Seed Bought": 193412,
       "Goblin Brunch Cooked": 259,
-      "Fried Tofu Cooked": 5675,
+      "Fried Tofu Cooked": 5676,
       "Giant Dawn Mushroom Bought": 1,
       "Steamed Red Rice Cooked": 384,
       "Zebra Turkeyfish Fed": 26,
@@ -16162,7 +16166,7 @@
           "petXP": 215100,
           "score": 15565,
           "collectivePet": {
-            "totalXP": 7303340,
+            "totalXP": 7312240,
             "goalXP": 5445481,
             "goalReached": true,
             "streak": 8,
@@ -18536,10 +18540,10 @@
       "Tomato Bombard": 1769846873433,
       "Tomato Clown": 1769846874454,
       "Zesty Vibes": 1769846873433,
-      "Bumpkin Medallion": 1769846987810,
-      "Desert Gnome": 1769846987810,
-      "Fast Feasts": 1769846987810,
-      "Luna's Hat": 1769846987810,
+      "Bumpkin Medallion": 1769847302117,
+      "Desert Gnome": 1769847302117,
+      "Fast Feasts": 1769847302117,
+      "Luna's Hat": 1769847302117,
       "Bud #2041": 1769840264556,
       "Bumpkin Shield": 1769846882329,
       "Ferrous Favor": 1769840264556,
@@ -18738,7 +18742,7 @@
       "Drive-Through Deli": 1769304438982,
       "Grain Grinder": 1769388977000,
       "Hungry Hare": 1763347335517,
-      "Boar Shrine": 1769846987810,
+      "Boar Shrine": 1769847302117,
       "Time Warp Totem": 1764991238173,
       "Moth Shrine": 1767056530522,
       "Treasure Map": 1769213099151,
@@ -18754,7 +18758,7 @@
       "Reelmaster's Chair": 1769823926507,
       "Pickaxe Shark": 1769817038638,
       "Architect Ruler": 1769840970503,
-      "Lunar Temple": 1769846207166,
+      "Lunar Temple": 1769848440556,
       "Bucket O' Worms": 1769837888268,
       "Wormy Treat": 1769837888268,
       "Janitor Chicken": 1769843354970,
@@ -18771,7 +18775,7 @@
       "Super Star": 1768168416345,
       "Mole Shrine": 1769208630910,
       "Toucan Shrine": 1769846874454,
-      "Master Chef's Cleaver": 1769846987810,
+      "Master Chef's Cleaver": 1769847302117,
       "Bantam Shrine": 1769843354970,
       "Money Tree": 1769846876013,
       "Generous Orchard": 1769846873433,
@@ -18801,7 +18805,7 @@
       "Astronaut Sheep": 1769832017160
     },
     "socialFarming": {
-      "points": 181552,
+      "points": 181565,
       "villageProjects": {
         "Farmer's Monument": {
           "cheers": 100,
@@ -18820,20 +18824,20 @@
           "winnerId": 3332287487518782
         },
         "Big Banana": {
-          "cheers": 167,
+          "cheers": 169,
           "winnerId": 2754132599758112
         },
         "Big Apple": {
-          "cheers": 32,
+          "cheers": 34,
           "winnerId": 581
         },
         "Cornucopia": {
-          "cheers": 60,
+          "cheers": 64,
           "winnerId": 162548
         },
         "Big Orange": {
-          "cheers": 3,
-          "winnerId": 15185
+          "cheers": 5,
+          "winnerId": 36214
         }
       },
       "cheers": {
@@ -18982,7 +18986,7 @@
       },
       "weeklyPoints": {
         "week": "2026-01-26",
-        "points": 6007
+        "points": 6020
       },
       "helpedForCompetition": 3289,
       "waves": {

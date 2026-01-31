@@ -9,10 +9,22 @@
     "spent_sfl": 9313.33,
     "items_sold": 2022.0,
     "trade_points": 9793.86,
-    "last_updated": "2026-01-31 08:34 AM",
+    "last_updated": "2026-01-31 09:10 AM",
     "active_listings": 10
   },
   "buys": [
+    {
+      "date": "2026-01-31",
+      "time": "08:58 AM",
+      "type": "BUY",
+      "item": "Yam",
+      "quantity": 2000,
+      "price_text": "5.562 SFL",
+      "price": 5.562,
+      "counterparty": "Gharul",
+      "farm_id": "-",
+      "trade_id": "e888d7c8"
+    },
     {
       "date": "2026-01-30",
       "time": "07:43 AM",
@@ -618,15 +630,24 @@
   ],
   "last_updated": null,
   "stats": {
-    "total_buys": 38,
+    "total_buys": 39,
     "total_sells": 12,
-    "buy_volume": 102.69249999999998,
+    "buy_volume": 108.2545,
     "sell_volume": 36.408500000000004,
-    "gross_profit": -66.28399999999998,
-    "avg_buy_price": 2.7024342105263153,
+    "gross_profit": -71.84599999999999,
+    "avg_buy_price": 2.77575641025641,
     "avg_sell_price": 3.034041666666667,
     "most_traded_items": {},
     "recent_activity": [
+      {
+        "type": "BUY",
+        "item": "Yam",
+        "quantity": 2000,
+        "price": 5.562,
+        "date": "2026-01-31",
+        "time": "08:58 AM",
+        "username": "dionis"
+      },
       {
         "type": "BUY",
         "item": "Crimstone",
@@ -669,8 +690,7 @@
         "quantity": 4,
         "price": 2.1483,
         "date": "2026-01-30",
-        "time": "07:43 AM",
-        "username": "dionis"
+        "time": "07:43 AM"
       },
       {
         "type": "BUY",
@@ -783,20 +803,12 @@
         "price": 0.5671,
         "date": "2026-01-25",
         "time": "01:13 PM"
-      },
-      {
-        "type": "BUY",
-        "item": "Pepper",
-        "quantity": 86,
-        "price": 0.4781,
-        "date": "2026-01-25",
-        "time": "01:13 PM"
       }
     ],
-    "profit_margin": -64.5460963556248,
+    "profit_margin": -66.36767986550211,
     "most_bought_items": {
+      "Yam": 2450,
       "Wood": 1094,
-      "Yam": 450,
       "Pepper": 338,
       "Cauliflower": 306,
       "Feather": 218,
